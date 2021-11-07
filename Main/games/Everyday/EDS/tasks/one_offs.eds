@@ -1,0 +1,329 @@
+REM : MAKE BREAKFAST----------------------------------
+
+REM : Gather Breakfast
+
+CLONE DEED "GatherMeal" "BreakfastIngredients"
+    SET INSTRUCTIONS "Reúne los ingredientes para el desayuno."
+    SET CATEGORY "BREAKFAST"
+
+END
+
+DEF TASK "GatherBreakfast"
+    SET DURATION <3H>
+    SET NAME "Reúne los ingredientes para el desayuno."
+    SET THEME "SEARCH_FIND"
+    SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
+
+    STEP "1" "BreakfastIngredients"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "CookBreakfast"
+    CONSEQUENCE FAILURE "OrderBreakfast"
+
+END
+
+
+REM : Cook Breakfast
+
+CLONE DEED "Rotate1080" "Stir"
+    SET INSTRUCTIONS "Revuelve"
+END
+
+DEF TASK "CookBreakfast"
+    SET DURATION <3H>
+    SET NAME "Haz el desayuno"
+    SET THEME "COOKING"
+    SET CAPTAIN "MATURE"
+
+    STEP "1" "Stir"
+
+    NEXT "1" SUCCESS FAILURE
+    
+    CONSEQUENCE SUCCESS "EatBreakfast"
+END
+
+
+REM : Eat Breakfast
+
+CLONE DEED "Nothing5" "EatBreakfast"
+    SET INSTRUCTIONS "Desayuna con todos"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "EatBreakfast"
+    SET DURATION <5H>
+    SET NAME "Desayuna con todos"
+    SET THEME "FAMILY_TASK"
+    SET CATEGORY "ULTRA"
+
+    STEP "1" "EatBreakfast"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+REM : MAKE LUNCH----------------------------------
+
+REM : Gather Lunch
+
+CLONE DEED "GatherMeal" "LunchIngredients"
+    SET INSTRUCTIONS "Reúne los ingredientes para el almuerzo"
+    SET CATEGORY "LUNCH"
+
+END
+
+DEF TASK "GatherLunch"
+    SET DURATION <3H>
+    SET NAME "Reúne los ingredientes para el almuerzo"
+    SET THEME "SEARCH_FIND"
+
+    STEP "1" "LunchIngredients"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "CookLunch"
+    CONSEQUENCE FAILURE "OrderLunch"
+END
+
+
+REM : Cook Lunch
+
+DEF TASK "CookLunch"
+    SET DURATION <3H>
+    SET NAME "Prepara el almuerzo"
+    SET THEME "COOKING"
+    SET CAPTAIN "MATURE"
+
+    STEP "1" "Stir"
+
+    NEXT "1" SUCCESS FAILURE
+    
+    CONSEQUENCE SUCCESS "EatLunch"
+END
+
+
+REM : Eat Lunch
+
+CLONE DEED "Nothing5" "EatLunch"
+    SET INSTRUCTIONS "Almuerza con todos"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "EatLunch"
+    SET DURATION <5H>
+    SET NAME "Almuerza con todos"
+    SET THEME "FAMILY_TASK"
+    SET CATEGORY "ULTRA"
+
+    STEP "1" "EatLunch"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : MAKE DINNER----------------------------------
+
+REM : Gather Dinner
+
+CLONE DEED "GatherMeal" "DinnerIngredients"
+    SET INSTRUCTIONS "Reúne los ingredientes para la cena"
+    SET CATEGORY "DINNER"
+
+END
+
+DEF TASK "GatherDinner"
+    SET DURATION <3H>
+    SET NAME "Reúne los ingredientes para la cena"
+    SET THEME "SEARCH_FIND"
+
+    STEP "1" "DinnerIngredients"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "CookDinner"
+    CONSEQUENCE FAILURE "OrderDinner"
+END
+
+
+REM : Cook Dinner
+
+DEF TASK "CookDinner"
+    SET DURATION <3H>
+    SET NAME "Haz la cena"
+    SET THEME "COOKING"
+    SET CAPTAIN "MATURE"
+
+    STEP "1" "Stir"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "EatDinner"
+END
+
+
+REM : Eat Dinner
+
+CLONE DEED "Nothing5" "EatDinner"
+    SET INSTRUCTIONS "Cena con todos"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "EatDinner"
+    SET DURATION <5H>
+    SET NAME "Cena con todos"
+    SET THEME "FAMILY_TASK"
+    SET CATEGORY "ULTRA"
+
+    STEP "1" "EatDinner"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+
+
+REM : -------------------------------------------------
+
+REM : Order Breakfast
+
+CLONE DEED "PhoneFood" "OrderBreakfast"
+    SET INSTRUCTIONS "Pide un desayuno"
+    SET CATEGORY "FOOD"
+END
+
+DEF TASK "OrderBreakfast"
+    SET DURATION <3H>
+    SET NAME "Cocinar no salió bien. Ordena un desayuno"
+    SET THEME "TALKING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "OrderBreakfast"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "EatBreakfast"
+END
+
+
+REM : -------------------------------------------------
+
+REM : Order Lunch
+
+CLONE DEED "PhoneFood" "OrderLunch"
+    SET INSTRUCTIONS "Pide algo de almuerzo"
+    SET CATEGORY "FOOD"
+END
+
+DEF TASK "OrderLunch"
+    SET DURATION <3H>
+    SET NAME "Cocinar no salió bien. Ordena un almuerzo"
+    SET THEME "TALKING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "OrderLunch"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "EatLunch"
+END
+
+REM : -------------------------------------------------
+
+REM : Order Dinner
+
+CLONE DEED "PhoneFood" "OrderDinner"
+    SET INSTRUCTIONS "Pide algo de cena"
+    SET CATEGORY "FOOD"
+END
+
+DEF TASK "OrderDinner"
+    SET DURATION <3H>
+    SET NAME "Cocinar no salió bien. Ordena una cena"
+    SET THEME "TALKING"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "OrderDinner"
+
+    NEXT "1" SUCCESS FAILURE
+
+    CONSEQUENCE SUCCESS "EatDinner"
+END
+
+
+REM : -------------------------------------------------
+
+
+REM : Frost the cake
+
+CLONE DEED "SwipeBase" "FrostCake1"
+    SET INSTRUCTIONS "Aplica glaseado"
+    SET DIRECTION "LEFT,RIGHT"
+END
+
+CLONE DEED "Hold3" "FrostCake2"
+    SET INSTRUCTIONS "Exprime un poco de glaseado"
+END
+
+CLONE DEED "Nothing5" "FrostCake3"
+    SET INSTRUCTIONS "Retrocede y admira tu trabajo"
+END
+
+DEF TASK "FrostCake"
+    SET NAME "Glasea el pastel"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    SET THEME "COOKING"
+
+    STEP "1" "FrostCake1"
+    STEP "2" "FrostCake2"
+    STEP "3" "FrostCake3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Gather Flower Shop
+
+CLONE DEED "GatherBase" "GatherFlowers"
+    SET INSTRUCTIONS "Reúne artículos para un arreglo floral"
+    SET CATEGORY "FLOWERS"
+END
+
+DEF TASK "GatherFlowers"
+    SET DURATION <3H>
+    SET NAME "Haz un bonito arreglo floral"
+    SET THEME "SEARCH_FIND"
+    SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
+
+    STEP "1" "GatherFlowers"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+REM : Gather Video Store
+
+CLONE DEED "GatherBase" "GatherVideo"
+    SET INSTRUCTIONS "Elige las películas adecuadas"
+    SET CATEGORY "MOVIENIGHT"
+END
+
+DEF TASK "GatherVideo"
+    SET DURATION <3H>
+    SET NAME "Elije películas de la tienda de videos"
+    SET THEME "SEARCH_FIND"
+    SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
+
+    STEP "1" "GatherVideo"
+
+    NEXT "1" SUCCESS FAILURE
+END

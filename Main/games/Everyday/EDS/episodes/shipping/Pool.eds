@@ -1,0 +1,403 @@
+DEF EPISODE "Pool"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "El agua está bien"
+    SET DESCRIPTION "Los días son cada vez más calurosos, por lo que nuestra familia alimentada con fuego intenta refrescarse a través de una <font color='#AF0000'>nueva piscina en el patio trasero.</font>. ¿Se divertirán bajo el sol o tendrán que conformarse en el pozo del dinero?"
+    SET SUCCESS_MESSAGE "¡Renovación adquirida! Ahora son oficialmente la familia cool con una piscina. ¡Nos vemos todos los días durante el resto del verano!"
+    SET FAILURE_MESSAGE "Parece que la mala construcción y las deficientes habilidades sociales han frustrado su misión de renovamiento.En cosa de minutos, la piscina se agrieta, inundando todo en un radio de tres bloques. En el lado bueno, ahora toda la casa es una piscina."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "PoolBlueprints" <1 10:00>
+    SCHEDULE TASK "OrderPoolParts" <1 11:00>
+    SCHEDULE TASK "SwimDryLand" <1 13:00>
+    SCHEDULE TASK "InviteFriendsPool" <1 15:00>
+    SCHEDULE TASK "BuildPool" <1 16:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "CallContractorPool" <2 8:00>
+    SCHEDULE TASK "FindSwimSuit" <2 10:00>
+    SCHEDULE TASK "KidContractor" <2 13:00>
+    SCHEDULE TASK "FillPool" <2 15:00>
+    
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "Sunscreen" <3 8:00>
+    SCHEDULE TASK "DivingMove" <3 10:00>
+    SCHEDULE TASK "NegotiateBill" <3 13:00>
+    SCHEDULE TASK "FitInPool" <3 15:00>
+       
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Consult blueprints for swimming pool
+CLONE DEED "Instructions4" "PoolBlueprints"
+    SET INSTRUCTIONS "Consulta los planos de la piscina"
+
+    SET MECHANIC_0 "SWIPE_RIGHT"
+    SET INSTRUCTIONS_0 "Consulta las dimensiones"
+    SET MECHANIC_1 "TAP_3"
+    SET INSTRUCTIONS_1 "Marca dónde deben ir las escaleras"
+    SET MECHANIC_2 "SWIPE_LEFT"
+    SET INSTRUCTIONS_2 "Localiza la bomba de la piscina"
+    SET MECHANIC_3 "ROTATE_COUNTER"
+    SET INSTRUCTIONS_3 "Date cuenta de que lo estás sosteniendo al revés"
+END
+
+DEF TASK "PoolBlueprints"
+    SET NAME "Consultar los planos de la piscina"
+    SET ASKER_NAME "Obtén ayuda para consultar los planos de la piscina"
+    SET HELPER_NAME "Help <ASKER> consult blueprints for swimming pool"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "YOUNG"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "PoolBlueprints"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Order pool parts online
+CLONE DEED "Instructions5" "OrderPoolParts"
+    SET INSTRUCTIONS "Solicita piezas de piscina en línea"
+
+    SET MECHANIC_0 "TAP_3"
+    SET INSTRUCTIONS_0 "Visita el sitio web para artículos de natación con descuento de Ben El Negociador"
+    SET MECHANIC_1 "SWIPE_DOWN"
+    SET INSTRUCTIONS_1 "Desplázate hacia abajo hasta el enlace de 'El almirante'"
+    SET MECHANIC_2 "TAP_3"
+    SET INSTRUCTIONS_2 "Escribe el número de la tarjeta de crédito"
+    SET MECHANIC_3 "SWIPE_DOWN"
+    SET INSTRUCTIONS_3 "Desplázate más allá de la oferta para una instalación profesional"
+    SET MECHANIC_4 "TAP"
+    SET INSTRUCTIONS_4 "Haz clic en 'Comprar'"
+END
+
+DEF TASK "OrderPoolParts"
+    SET NAME "Solicita piezas de piscina en línea"
+    SET ASKER_NAME "Obtén ayuda para pedir piezas de piscina en línea"
+    SET HELPER_NAME "Help <ASKER> order pool parts online"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "YOUNG"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "OrderPoolParts"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Practice swimmming on dry land
+CLONE DEED "SwipeDown" "SwimDryLand1"
+    SET INSTRUCTIONS "Acuéstate boca abajo en el suelo"
+END
+
+CLONE DEED "Rotate1080" "SwimDryLand2"
+    SET INSTRUCTIONS "Gira tus brazos"
+END
+
+CLONE DEED "QuickTap5" "SwimDryLand3"
+    SET INSTRUCTIONS "Patalea con tus piernas"
+END
+
+DEF TASK "SwimDryLand"
+    SET NAME "Practica la natación en tierra firme"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SwimDryLand1"
+    STEP "2" "SwimDryLand2"
+    STEP "3" "SwimDryLand3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+CLONE DEED "PhoneCategory" "InviteFriendsPool1"
+    SET INSTRUCTIONS "Llama a tu mejor amigo"
+    SET CATEGORY "RESIDENCE"
+END
+
+CLONE DEED "Tap4" "InviteFriendsPool2"
+    SET INSTRUCTIONS "Envíale un mensaje de texto a la persona que te gusta"
+END
+
+CLONE DEED "SwipeUp" "InviteFriendsPool3"
+    SET INSTRUCTIONS "Publica una invitación pública en línea"
+END
+
+DEF TASK "InviteFriendsPool"
+    SET NAME "Invita preventivamente a todos tus amigos a la fiesta en la piscina."
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "InviteFriendsPool1"
+    STEP "2" "InviteFriendsPool2"
+    STEP "3" "InviteFriendsPool3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Build the pool
+CLONE DEED "TapAll" "BuildPool1"
+    SET INSTRUCTIONS "¡Haz tu mejor esfuerzo!"
+END
+
+CLONE DEED "Nothing3" "BuildPool2"
+    SET INSTRUCTIONS "Hiciste un trabajo terrible porque no eres un contratista"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "BuildPool"
+    SET NAME "Trabajen juntos para construir la piscina"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BuildPool1"
+    STEP "2" "BuildPool2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : --------------------------------------------------------------
+
+REM : Call contractor to build pool instead
+CLONE DEED "PhoneID" "CallContractorPool"
+    SET INSTRUCTIONS "Esto requiere un profesional"
+    SET CONTENT_ID "FIXISIN"
+END
+
+DEF TASK "CallContractorPool"
+    SET NAME "Llame al contratista para que construya la piscina en su lugar"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "CallContractorPool"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Try on bathing suits
+REM : Replace with SWIM SUITS
+CLONE DEED "FindCategory" "FindSwimSuit"
+    SET INSTRUCTIONS "Elige un traje de baño"
+    SET CATEGORY "SWIM_SUIT"
+END
+
+DEF TASK "FindSwimSuit"
+    SET NAME "Encuentra un traje de baño"
+    SET ASKER_NAME "Obtén ayuda para elegir un traje de baño"
+    SET HELPER_NAME "Help <ASKER> pick a swim suit"
+    SET CAPTAIN "EVERYONE"
+    SET PARTICIPANT "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FindSwimSuit"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Ask contractors if you can help build the pool
+CLONE DEED "Hold2" "KidContractor1"
+    SET INSTRUCTIONS "Suplica a los contratistas hasta que digan que sí"
+END
+
+CLONE DEED "SwipeDown" "KidContractor2"
+    SET INSTRUCTIONS "Ponte el casco"
+END
+
+CLONE DEED "QuickTap5" "KidContractor3"
+    SET INSTRUCTIONS "Golpea con el martillo"
+END
+
+CLONE DEED "Rotate360" "KidContractor4"
+    SET INSTRUCTIONS "Usa el taladro"
+END
+
+CLONE DEED "Nothing1" "KidContractor5"
+    SET INSTRUCTIONS "Impresiona al capataz"
+END
+
+CLONE DEED "ScrubShort" "KidContractor6"
+    SET INSTRUCTIONS "Llene la tarjeta de membresía sindical"
+END
+
+DEF TASK "KidContractor"
+    SET NAME "Pregunta a los contratistas si puedes ayudar a construir la piscina."
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "KidContractor1"
+    STEP "2" "KidContractor2"
+    STEP "3" "KidContractor3"
+    STEP "4" "KidContractor4"
+    STEP "5" "KidContractor5"
+    STEP "6" "KidContractor6"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" SUCCESS FAILURE
+END
+
+REM : Fill the pool
+CLONE DEED "Nothing3" "FillPool"
+    SET INSTRUCTIONS "Deja que la piscina se llene"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "FillPool"
+    SET NAME "¡Llena la piscina de agua!"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FillPool"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : --------------------------------------------------
+
+REM : Apply sunscreen and show off your sick muscles
+CLONE DEED "ScrubMedium" "Sunscreen1"
+    SET INSTRUCTIONS "Cubre tu cuerpo con loción"
+END
+
+CLONE DEED "Hold2" "Sunscreen2"
+    SET INSTRUCTIONS "¡Flexiona!"
+END
+
+CLONE DEED "Nothing2" "Sunscreen3"
+    SET INSTRUCTIONS "Mantén el aliento..."
+END
+
+CLONE DEED "Hold2" "Sunscreen4"
+    SET INSTRUCTIONS "¡¡¡Flexiona!!!"
+END
+
+DEF TASK "Sunscreen"
+    SET NAME "Aplicate protector solar y luce tus músculos"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "Sunscreen1"
+    STEP "2" "Sunscreen2"
+    STEP "3" "Sunscreen3"
+    STEP "4" "Sunscreen4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Show off ultimate diving move
+CLONE DEED "Hold1" "DivingMove1"
+    SET INSTRUCTIONS "Grita '¡Bola de cañón!'"
+END
+
+CLONE DEED "SwipeRight" "DivingMove2"
+    SET INSTRUCTIONS "Salta del borde"
+END
+
+CLONE DEED "SwipeDown" "DivingMove3"
+    SET INSTRUCTIONS "Salpica a todos"
+END
+
+DEF TASK "DivingMove"
+    SET NAME "Muestra tu movimiento de buceo definitivo"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DivingMove1"
+    STEP "2" "DivingMove2"
+    STEP "3" "DivingMove3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Negotiate the exorbitant bill
+CLONE DEED "DialogID" "NegotiateBill"
+    SET INSTRUCTIONS "Negocia la factura"
+    SET CONTENT_ID "POOL_BILL"
+END
+
+DEF TASK "NegotiateBill"
+    SET NAME "Negociar la factura exorbitante"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "NegotiateBill"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Attempt to swim in your crowded pool
+CLONE DEED "Nothing2" "FitInPool1"
+    SET INSTRUCTIONS "¡No puedes encajar! ¡Invitaste a demasiada gente!"
+END
+
+CLONE DEED "Nothing2" "FitInPool2"
+    SET INSTRUCTIONS "Ríndete y ve a ver la televisión"
+END
+
+DEF TASK "FitInPool"
+    SET NAME "Intenta nadar en tu piscina llena de gente"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FitInPool1"
+    STEP "2" "FitInPool2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END

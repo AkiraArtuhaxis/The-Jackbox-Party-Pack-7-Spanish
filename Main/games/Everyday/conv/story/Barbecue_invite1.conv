@@ -1,0 +1,17 @@
+MAIN(Vecino): ¿Puedo llevar algo?
+-MAC-> Macarrones con queso con amistad
+-BEAN-> Ensalada de nueve frijoles
+-KEG-> Un barril de mostaza
+-HUNGRY-> ¡Solo amigos hambrientos!
+
+MAC(Vecino): ¡Tengo dos de tres!
+-SUCCESS-> Todo va encajando.
+
+BEAN(Vecino): ¡Tengo justo los frijoles necesarios!
+-SUCCESS-> Todo va encajando.
+
+KEG(Vecino): ¿Miel o picante?
+-SUCCESS> ¡Ambos! ¡Vamos toda la noche!
+
+HUNGRY(Vecino): ¡Genial! ¡Mi coro de 30 miembros está de visita!
+-SUCCESS-> Uh oh.

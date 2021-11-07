@@ -1,0 +1,241 @@
+DEF TASK "BaseAudience"
+    SET DURATION <3H>
+    SET THEME "AUDIENCE"
+    SET CATEGORY "AUDIENCE"
+END
+
+
+REM : Give a treat
+REM : Spawned by EAT_BUGS
+CLONE DEED "SwipeUp" "AudienceGiveKittyTreat1"
+    SET INSTRUCTIONS "Agarra golosinas"
+END
+
+CLONE DEED "Tap1" "AudienceGiveKittyTreat2"
+    SET INSTRUCTIONS "Ofrecelas al gato"
+END
+
+CLONE DEED "Hold2" "AudienceGiveKittyTreat3"
+    SET INSTRUCTIONS "Buen gatito"
+END
+
+CLONE TASK "BaseAudience" "AudienceGiveKittyTreat"
+    SET NAME "<CATNAME> el gato atrapó un bicho. Dale un regalo"
+
+    STEP "1" "AudienceGiveKittyTreat1"
+    STEP "2" "AudienceGiveKittyTreat2"
+    STEP "3" "AudienceGiveKittyTreat3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Take picture
+REM : Spawned by POSE_FOR_PIC
+CLONE DEED "SwipeUp" "AudienceTakeKittyPic1"
+    SET INSTRUCTIONS "Saca tu teléfono"
+END
+
+CLONE DEED "Hold2" "AudienceTakeKittyPic2"
+    SET INSTRUCTIONS "¡Mantén esa pose, <CATNAME>!"
+END
+
+CLONE DEED "Tap1" "AudienceTakeKittyPic3"
+    SET INSTRUCTIONS "¡Lo tengo!"
+END
+
+CLONE DEED "Tap3" "AudienceTakeKittyPic4"
+    SET INSTRUCTIONS "Publicalo en las redes sociales"
+END
+
+CLONE TASK "BaseAudience" "AudienceTakeKittyPic"
+    SET NAME "<CATNAME> el gato está posando. Toma una linda foto."
+
+    STEP "1" "AudienceTakeKittyPic1"
+    STEP "2" "AudienceTakeKittyPic2"
+    STEP "3" "AudienceTakeKittyPic3"
+    STEP "4" "AudienceTakeKittyPic4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Pet Belly
+REM : Spawned by SHOW_BELLY
+CLONE DEED "ScrubMedium" "AudiencePetKitty1"
+    SET INSTRUCTIONS "¡Frota esa pancita!"
+END
+
+CLONE TASK "BaseAudience" "AudiencePetKitty"
+    SET NAME "Acaricia la pancita de <CATNAME> el gato"
+
+    STEP "1" "AudiencePetKitty1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Clip claws
+REM : Spawned by SHOW_CLAWS
+CLONE DEED "Tap5" "AudienceClipClaws1"
+    SET INSTRUCTIONS "Recorta con cuidado esas garras"
+END
+
+CLONE TASK "BaseAudience" "AudienceClipClaws"
+    SET NAME "¡Rápido! Corta las garras de <CATNAME>"
+
+    STEP "1" "AudienceClipClaws1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Fix the vacuum
+REM : Spawned by FIGHT_VACUUM
+CLONE DEED "PhoneBase" "AudienceFixVacuum1"
+    SET INSTRUCTIONS "Llama a los Repar-aspiradoras"
+    SET CONTENT_ID "FIX_A_VAC"
+END
+
+CLONE TASK "BaseAudience" "AudienceFixVacuum"
+    SET NAME "<CATNAME> el gato rompió el robot aspirador. Llama al fabricante."
+    SET CAPTAIN "MATURE"
+
+    STEP "1" "AudienceFixVacuum1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Clean litter
+REM : Spawned by DESTROY_LITTER
+CLONE DEED "SwipeBase" "AudienceCleanLitter1"
+    SET INSTRUCTIONS "Barre la basura"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT,LEFT,RIGHT"
+END
+
+CLONE TASK "BaseAudience" "AudienceCleanLitter"
+    SET NAME "<CATNAME> el gato hizo un desastre. Barre la arena para gatos."
+
+    STEP "1" "AudienceCleanLitter1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Move the cat
+REM : Spawned by LAY_ON_LAPTOP
+CLONE DEED "Hold3" "AudienceMoveKitty1"
+    SET INSTRUCTIONS "¡Vamos! ¡Muévete!"
+END
+
+CLONE TASK "BaseAudience" "AudienceMoveKitty"
+    SET NAME "Empuja a <CATNAME> al gato de la computadora portátil"
+
+    STEP "1" "AudienceMoveKitty1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Take cat to the vet
+REM : Spawned by VOMIT
+CLONE DEED "TravelBase" "AudienceVetTrip1"
+    SET INSTRUCTIONS "Ve al veterinario"
+    SET CATEGORY "VET"
+END
+
+CLONE TASK "BaseAudience" "AudienceVetTrip"
+    SET NAME "<CATNAME> está vomitando. Llévalo al veterinario"
+    SET ASKER_NAME "Obtén un viaje para llevar a <CATNAME> al veterinario"
+    SET HELPER_NAME "Drive <ASKER> to take <CATNAME> to the vet"
+    SET CAPTAIN "MATURE"
+
+    STEP "1" "AudienceVetTrip1"
+    
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Search for the cat
+REM : Spawned by DART_OUT
+CLONE DEED "SearchID" "AudienceFindKitty1"
+    SET INSTRUCTIONS "Busca el gato perdido"
+    SET CONTENT_ID "OUTSIDE"
+END
+
+CLONE TASK "BaseAudience" "AudienceFindKitty"
+    SET NAME "¡<CATNAME> el gato salió de la casa!"
+
+    STEP "1" "AudienceFindKitty1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Scold the cat
+REM : Spawned by SCRATCH_CHAIR
+CLONE DEED "DialogBase" "AudienceScoldKitty1"
+    SET INSTRUCTIONS "¡Gatito malo!"
+    SET CONTENT_ID "AUDIENCE_SCOLD"      
+END
+
+CLONE TASK "BaseAudience" "AudienceScoldKitty"
+    SET NAME "Regaña a <CATNAME> el gato por arañar la buena silla"
+
+    STEP "1" "AudienceScoldKitty1"
+    
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Pick up items
+REM : Spawned by KNOCK_ITEMS
+CLONE DEED "Tap5" "AudiencePickUp1"
+    SET INSTRUCTIONS "Recoge todas las cosas"
+END
+
+CLONE TASK "BaseAudience" "AudiencePickUp"
+    SET NAME "Recoge todas las cosas que <CATNAME> el gato tiró del escritorio"
+
+    STEP "1" "AudiencePickUp1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Get new water
+REM : Spawned by PAW_WATER
+CLONE DEED "Rotate360" "AudienceGetWater1"
+    SET INSTRUCTIONS "Abre el grifo"
+END
+
+CLONE DEED "Hold2" "AudienceGetWater2"
+    SET INSTRUCTIONS "Llénala"
+END
+
+CLONE DEED "Tap1" "AudienceGetWater3"
+    SET INSTRUCTIONS "Ríndete y dale este vaso al gato también"
+END
+
+CLONE TASK "BaseAudience" "AudienceGetWater"
+    SET NAME "<CATNAME> el gato volvió a meter una pata en el agua. Consigue una taza nueva."
+
+    STEP "1" "AudienceGetWater1"
+    STEP "2" "AudienceGetWater2"
+    STEP "3" "AudienceGetWater3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Pet belly (trap)
+REM : Spawned by SHOW_BELLY_TRAP
+CLONE DEED "Tap5" "AudiencePetKitty2"
+    SET INSTRUCTIONS "¡Era una trampa!"
+END
+
+CLONE TASK "BaseAudience" "AudiencePetKittyScratch"
+    SET NAME "Acaricia la pancita de <CATNAME> el gato"
+
+    STEP "1" "AudiencePetKitty1"
+    STEP "2" "AudiencePetKitty2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END

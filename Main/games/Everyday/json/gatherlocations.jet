@@ -1,0 +1,2554 @@
+{
+    "cargamento": [
+        {
+            "id": "KITCHEN",
+            "name": "La cocina",
+            "containers": [
+                {
+                    "id": "SPICE_RACK",
+                    "name": "Especiero",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "SALT",
+                            "name": "Sal",
+                            "bgColor": "f3f3f3",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "GREEN_PEPPER",
+                            "name": "Pimienta verde",
+                            "bgColor": "0e5328",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CAYENNE_PEPPER",
+                            "name": "Pimienta picante",
+                            "bgColor": "f7372e",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CINNAMON",
+                            "name": "Canela",
+                            "bgColor": "54170f",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PARSLEY",
+                            "name": "Perejil",
+                            "bgColor": "0e5328",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TARRAGON",
+                            "name": "Estragón",
+                            "bgColor": "698d2f",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THYME",
+                            "name": "Tomillo",
+                            "bgColor": "334a0f",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BASIL",
+                            "name": "Albahaca",
+                            "bgColor": "045200",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RED_PEPPER_FLAKES",
+                            "name": "Hojuelas de pimienta",
+                            "bgColor": "6b0b0b",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ROSEMARY",
+                            "name": "Romero",
+                            "bgColor": "28420e",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SOY_SAUCE",
+                            "name": "Salsa de soja",
+                            "bgColor": "f7372e",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BLACK_PEPPER",
+                            "name": "Pimienta negra",
+                            "bgColor": "222222",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PAPRIKA",
+                            "name": "Ají de color",
+                            "bgColor": "c33711",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PITCH",
+                            "name": "Tono en polvo",
+                            "bgColor": "222222",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GARAM_MASALA",
+                            "name": "Garam Masala",
+                            "bgColor": "e87c42",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "NUTMEG",
+                            "name": "Nuez moscada",
+                            "bgColor": "ca7129",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CORIANDER",
+                            "name": "Cilantro",
+                            "bgColor": "c33711",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GINGER",
+                            "name": "Jengibre",
+                            "bgColor": "698d2f",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TURMERIC",
+                            "name": "Cúrcuma",
+                            "bgColor": "ef6512",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "OREGANO",
+                            "name": "Orégano",
+                            "bgColor": "29450e",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "NATTO",
+                            "name": "Natto en polvo",
+                            "bgColor": "9c5c29",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CUMIN",
+                            "name": "Comino",
+                            "bgColor": "843d1a",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ALLSPICE",
+                            "name": "Pimienta dioica",
+                            "bgColor": "36200a",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CURRY_POWDER",
+                            "name": "Curry en polvo",
+                            "bgColor": "f7372e",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "AJWAIN_SEED",
+                            "name": "Semilla de Ajwain",
+                            "bgColor": "36200a",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "PANTRY",
+                    "name": "La despensa",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "SPAM",
+                            "name": "Spam",
+                            "bgColor": "142a86",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ONION",
+                            "name": "Cebolla",
+                            "bgColor": "e5e0c7",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BELL_PEPPER",
+                            "name": "Pimiento morrón",
+                            "bgColor": "ce2614",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CANNED_PEACHES",
+                            "name": "Melocotones en lata",
+                            "bgColor": "e87c42",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "OATMEAL",
+                            "name": "Avena",
+                            "bgColor": "d4d4af",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "FLOUR",
+                            "name": "Harina",
+                            "bgColor": "ededdb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BROWN_SUGAR",
+                            "name": "Azúcar morena",
+                            "bgColor": "532c1d",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "VANILLA",
+                            "name": "Vainilla",
+                            "bgColor": "fef7bb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CANNED_TUNA",
+                            "name": "Lata de atún",
+                            "bgColor": "d1c988",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CRACKERS",
+                            "name": "Galletas",
+                            "bgColor": "f3f7d8",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BREAD",
+                            "name": "Pan",
+                            "bgColor": "d1c17f",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "PEANUT_BUTTER",
+                            "name": "Crema de maní",
+                            "bgColor": "9c5c29",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SUGAR",
+                            "name": "Azúcar",
+                            "bgColor": "effdff",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SYRUP",
+                            "name": "Sirope",
+                            "bgColor": "843d1a",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BREAD_CRUMBS",
+                            "name": "Migas de pan",
+                            "bgColor": "8d3901",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "VEGETABLE_OIL",
+                            "name": "Aceite vegetal",
+                            "bgColor": "fcf796",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CANNED_SOUP",
+                            "name": "Sopa enlatada",
+                            "bgColor": "9f0101",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GARLIC",
+                            "name": "Ajo",
+                            "bgColor": "f7f6e1",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "RICE",
+                            "name": "Arroz",
+                            "bgColor": "FFFFFF",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CARROTS",
+                            "name": "Zanahorias",
+                            "bgColor": "de6207",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "NOODLES",
+                            "name": "Fideos",
+                            "bgColor": "f7f6e1",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MACARONI",
+                            "name": "Macarrones",
+                            "bgColor": "F3D342",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SQUASH",
+                            "name": "Calabaza",
+                            "bgColor": "e87c42",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "JAR_TAR",
+                            "name": "Jarra de alquitrán",
+                            "bgColor": "222222",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SWEET_POTATOES",
+                            "name": "Patatas dulces",
+                            "bgColor": "e87c42",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SOY_BEANS",
+                            "name": "Semilla de soja",
+                            "bgColor": "d8c1ba",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "ZUCCHINI",
+                            "name": "Calabacín",
+                            "bgColor": "689E24",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BOWTIE_PASTA",
+                            "name": "Pasta de pajarita",
+                            "bgColor": "F3D342",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SEAWEED",
+                            "name": "Nori",
+                            "bgColor": "1f872b",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "VINEGAR",
+                            "name": "Vinagre",
+                            "bgColor": "ffffff",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "LENTILS",
+                            "name": "Lentejas",
+                            "bgColor": "9f0101",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TOMATOES",
+                            "name": "Tomates",
+                            "bgColor": "e23311",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "PLANTAINS",
+                            "name": "Bananas",
+                            "bgColor": "dcb61c",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "GARBANZO",
+                            "name": "Garbanzos",
+                            "bgColor": "eb8282",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BULGUR",
+                            "name": "Bulgur",
+                            "bgColor": "d4d4af",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BROTH",
+                            "name": "Caldo",
+                            "bgColor": "774c2f",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "POTATOES",
+                            "name": "Patatas",
+                            "bgColor": "51290f",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "OLIVE_OIL",
+                            "name": "Aceite de oliva",
+                            "bgColor": "b4ce6e",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "HONEY",
+                            "name": "Miel",
+                            "bgColor": "dcb61c",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SALT_VINEGAR_ALMONDS",
+                            "name": "Almendras con sal y vinagre",
+                            "bgColor": "142a86",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SULFUR",
+                            "name": "Jarabe de azufre",
+                            "bgColor": "f7372e",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MARSHMALLOW_FLUFF",
+                            "name": "Crema de malvavisco",
+                            "bgColor": "d7e6f1",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SESAME_OIL",
+                            "name": "Aceite de sésamo",
+                            "bgColor": "ffffff",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "POTATO_CHIPS",
+                            "name": "Patatas de bolsa",
+                            "bgColor": "e6dd8d",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BRIMSTONE",
+                            "name": "Azufre",
+                            "bgColor": "9f0101",
+                            "textColor": "FFFFFF"
+                        },
+                        {
+                            "id": "BANANAS",
+                            "name": "Plátanos",
+                            "bgColor": "dcb61c",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "COCKTAIL_NUTS",
+                            "name": "Nueces de cóctel",
+                            "bgColor": "8c561c",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "COOKIES",
+                            "name": "Galletas",
+                            "bgColor": "8d3901",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "REFRIGERATOR",
+                    "name": "La nevera",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "EGGS",
+                            "name": "Huevos",
+                            "bgColor": "f3f7d8",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MILK",
+                            "name": "Leche",
+                            "bgColor": "ffffff",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "HAM",
+                            "name": "Jamón",
+                            "bgColor": "eb8282",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MAYONNAISE",
+                            "name": "Mayonesa",
+                            "bgColor": "f5f1dd",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BUTTER",
+                            "name": "Mantequilla",
+                            "bgColor": "ede38e",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "KIMCHI",
+                            "name": "Kimchi",
+                            "bgColor": "ea9233",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "HEAVY_CREAM",
+                            "name": "Crema espesa",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "PARMESAN",
+                            "name": "Parmesano",
+                            "bgColor": "f7eec7",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MUSTARD",
+                            "name": "Mostaza",
+                            "bgColor": "ab9c20",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "LETTUCE",
+                            "name": "Lechuga",
+                            "bgColor": "83da7c",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CHICKEN_BREAST",
+                            "name": "Pechuga de pollo",
+                            "bgColor": "d8c1ba",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CHUCK_ROAST",
+                            "name": "Lomo asado",
+                            "bgColor": "883b2e",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RAT_LIVER",
+                            "name": "Hígado de rata",
+                            "bgColor": "9f0101",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ORANGE_JUICE",
+                            "name": "Jugo de naranja",
+                            "bgColor": "db7c20",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "LEFTOVER_CASSEROLE",
+                            "name": "Cazuela de sobras",
+                            "bgColor": "bba146",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "KETCHUP",
+                            "name": "Ketchup",
+                            "bgColor": "9f0101",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CHEDDAR_CHEESE",
+                            "name": "Queso Cheddar",
+                            "bgColor": "ea9233",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "GROUND_PORK",
+                            "name": "Carne de cerdo molida",
+                            "bgColor": "eb8282",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "GROUND_BEEF",
+                            "name": "Carne de res molida",
+                            "bgColor": "9f0101",
+                            "textColor": "FFFFFF"
+                        },
+                        {
+                            "id": "HALF_AND_HALF",
+                            "name": "Mitad y Mitad",
+                            "bgColor": "effdff",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BURNT_HAM",
+                            "name": "Jamón quemado",
+                            "bgColor": "301103",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PINEAPPLE_JUICE",
+                            "name": "Jugo de piña",
+                            "bgColor": "f7eec7",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "LIMES",
+                            "name": "Limas",
+                            "bgColor": "498f33",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SODA",
+                            "name": "Gaseosa",
+                            "bgColor": "311206",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "COOL_WHIP",
+                            "name": "Crema batida",
+                            "bgColor": "e5eaf1",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SOUR_CREAM",
+                            "name": "Crema agria",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CELERY",
+                            "name": "Apio",
+                            "bgColor": "389846",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PIE",
+                            "name": "Pie",
+                            "bgColor": "e0a96e",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "LEMON_JUICE",
+                            "name": "Jugo de limón",
+                            "bgColor": "f0eb5e",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CHIVES",
+                            "name": "Cebollín",
+                            "bgColor": "1f872b",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "STRING_CHEESE",
+                            "name": "Queso de hebra",
+                            "bgColor": "ededdb",
+                            "textColor": "000000"
+                        }
+                    ]
+                },
+                {
+                    "id": "FREEZER",
+                    "name": "El congelador",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "ICE",
+                            "name": "Hielo",
+                            "bgColor": "ffffff",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "FISH",
+                            "name": "Pescado",
+                            "bgColor": "f1cd99",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "FROZEN_PEAS",
+                            "name": "Guisantes congelados",
+                            "bgColor": "389846",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FROZEN_STRAWBERRIES",
+                            "name": "Fresas congeladas",
+                            "bgColor": "e22d4b",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TV_DINNER",
+                            "name": "Cena precocinada",
+                            "bgColor": "502514",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "POPSICLES",
+                            "name": "Paletas de helado",
+                            "bgColor": "f72e4a",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SPIDER_TEETH",
+                            "name": "Dientes de araña congelados",
+                            "bgColor": "83da7c",
+                            "textColor": "000000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "FLOWER_SHOP",
+            "name": "Floristería",
+            "containers": [
+                {
+                    "id": "FLOWERS",
+                    "name": "Flores",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "RED_ROSES",
+                            "name": "Rosas rojas",
+                            "bgColor": "9f0101",
+                            "textColor": "FFFFFF"
+                        },
+                        {
+                            "id": "TULIPS",
+                            "name": "Tulipanes",
+                            "bgColor": "F1F1F1",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CARNATIONS",
+                            "name": "Claveles",
+                            "bgColor": "EC8589",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SNAPDRAGONS",
+                            "name": "Boca de dragón",
+                            "bgColor": "DF494C",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CHRYSANTHEMUM",
+                            "name": "Crisantemo",
+                            "bgColor": "AB4081",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DAFFODIL",
+                            "name": "Narciso",
+                            "bgColor": "DEA706",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "LILIES",
+                            "name": "Lirios",
+                            "bgColor": "F9D1D6",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "DAHLIAS",
+                            "name": "Dalias",
+                            "bgColor": "7C0125",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PEONIES",
+                            "name": "Peonías",
+                            "bgColor": "F9608A",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SWEETHEART_ROSES",
+                            "name": "Rosas de amor",
+                            "bgColor": "D15163",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SUNFLOWERS",
+                            "name": "Girasoles",
+                            "bgColor": "F5D802",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "IRISES",
+                            "name": "iris",
+                            "bgColor": "9A77E7",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "GLADIOLUS",
+                            "name": "Gladiolo",
+                            "bgColor": "FF5126",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "DAISES",
+                            "name": "Margaritas",
+                            "bgColor": "FAFAFA",
+                            "textColor": "E58712"
+                        },
+                        {
+                            "id": "LAVENDER",
+                            "name": "Lavanda",
+                            "bgColor": "9A64C0",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HYDRANGEAS",
+                            "name": "Hortensias",
+                            "bgColor": "83AFD0",
+                            "textColor": "000000"
+                        }
+                    ]
+                },
+                {
+                    "id": "GREENERY",
+                    "name": "Vegetación",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "IVY",
+                            "name": "Hiedra",
+                            "bgColor": "344637",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "EUCALYTPUS",
+                            "name": "Eucaliptus",
+                            "bgColor": "3F7162",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BOXWOOD",
+                            "name": "Boj",
+                            "bgColor": "9FB63D",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "FERN",
+                            "name": "Helecho",
+                            "bgColor": "8DBF50",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "DUSTY_MILLER",
+                            "name": "Miller polvoriento",
+                            "bgColor": "D2D3D7",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "LEATHER_LEAF",
+                            "name": "Hoja de cuero",
+                            "bgColor": "7BB46D",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MONSTERA",
+                            "name": "Monstruera",
+                            "bgColor": "384506",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BABYS_BREATH",
+                            "name": "La respiración del bebé",
+                            "bgColor": "FDFEFA",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "GRASS",
+                            "name": "Hierbas",
+                            "bgColor": "709433",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BELLS_OF_IRELAND",
+                            "name": "Campanas irlandesas",
+                            "bgColor": "5A9003",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BANANA_LEAF",
+                            "name": "Hoja de banana",
+                            "bgColor": "4B8D26",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "VASES",
+                    "name": "Jarrones",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "CERAMIC",
+                            "name": "Cerámica",
+                            "bgColor": "E8E7E3",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MASON_JAR",
+                            "name": "Tarro de albañil",
+                            "bgColor": "D0D6E0",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "TERRECOTTA",
+                            "name": "Terracota",
+                            "bgColor": "9C4C3C",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CRYSTAL",
+                            "name": "Cristal",
+                            "bgColor": "F7F7F5",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "METAL_BUCKET",
+                            "name": "Cubo de metal",
+                            "bgColor": "ABB5B4",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "GRANDMAS_OLD_VASE",
+                            "name": "Jarrón viejo de la abuela",
+                            "bgColor": "D8CFC5",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "A_POT",
+                            "name": "Una olla",
+                            "bgColor": "DBA07C",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MILK_BOTTLE",
+                            "name": "Botella de leche",
+                            "bgColor": "E1E1E1",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SQUARE",
+                            "name": "Cuadrado",
+                            "bgColor": "7B947F",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TWISTY",
+                            "name": "Sinuoso",
+                            "bgColor": "474C71",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "RIBBON",
+                    "name": "Cinta",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "SATIN",
+                            "name": "Satén",
+                            "bgColor": "E3AC1D",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "GROSGRAIN",
+                            "name": "Grogrén",
+                            "bgColor": "6E7FBD",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RICKRACK",
+                            "name": "Rickrack",
+                            "bgColor": "ECC2D7",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "VELVET",
+                            "name": "Terciopelo",
+                            "bgColor": "B84B6A",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RAFFIA",
+                            "name": "Rafia",
+                            "bgColor": "DABE9E",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "TWILL",
+                            "name": "Tela asargada",
+                            "bgColor": "6E8568",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PAPER",
+                            "name": "Papel",
+                            "bgColor": "F96A2C",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "SPACE",
+            "name": "Estante de suministros",
+            "containers": [
+                {
+                    "id": "BIN1",
+                    "name": "Contenedor 1",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "BODYRASH",
+                            "name": "Hiel de baño",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BODYWASH",
+                            "name": "Gel de baño",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "ROCKS",
+                            "name": "Piedras",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SMOCKS",
+                            "name": "Batas",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SOCKS",
+                            "name": "Calcetines",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "STOCKS",
+                            "name": "Patines",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "UNDERWEAR",
+                            "name": "Ropa interior",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        }
+                    ]
+                },
+                {
+                    "id": "BIN2",
+                    "name": "Contenedor 2",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "SPOOLS",
+                            "name": "Aparatos cóleccionables",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "SHOES",
+                            "name": "Zapatos cómodos",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "STOOLS",
+                            "name": "Aparatos cómodos",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "CORRECTIVE",
+                            "name": "Zapatos correctivos",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MACAROON",
+                            "name": "Pedazos de macarrón",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MAROON",
+                            "name": "Botas granate",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MOONBOATS",
+                            "name": "Barcos lunares",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "MOONBOOTS",
+                            "name": "Botas lanares",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        }
+                    ]
+                },
+                {
+                    "id": "BIN3",
+                    "name": "Contenedor 3",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "BOOKSTAIRSD",
+                            "name": "Libro sobre las escaleras (Abajo)",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BOOKSTAIRSU",
+                            "name": "Libro sobre las Escaleras (Arriba)",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BOOKSTARS",
+                            "name": "Libro sobre las estrellas (Celestial)",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "BOOKHOLLY",
+                            "name": "Libro sobre las estrellas (Hollywood)",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "RECORDALLHUMOROUS",
+                            "name": "Registro de la historia humorística de Al",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "RECORDALLHUMAN",
+                            "name": "Registro de toda la historia humana",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "RECORDALLHUMMUS",
+                            "name": "Registro de toda la historia del hummus",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "ROATRIPPLAY",
+                            "name": "Lista de reproducción de viaje por carretera",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "ROADWORKPLAY",
+                            "name": "Lista de reproducción de obras de carreteras",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        },
+                        {
+                            "id": "ROLLEDTARP",
+                            "name": "Lista de reproducción de ruido de carretera",
+                            "bgColor": "ebebeb",
+                            "textColor": "000000"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "VIDEO_STORE",
+            "name": "Videoclub",
+            "containers": [
+                {
+                    "id": "ACTION",
+                    "name": "Acción",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "ANGRYCARBOYS",
+                            "name": "Conductores Enfadados",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "APOCALYPSELA",
+                            "name": "Apocalipsis más tarde",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BEEFYDOGATTA",
+                            "name": "Escuadrón de Ataque de Perros Fornidos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BLUNTEDGES",
+                            "name": "Bordes Romos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BOMBSFORLUNC",
+                            "name": "Bombas para Almorzar",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CUTTINGINLIN",
+                            "name": "Cortando en linea",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DEATHONSAFAR",
+                            "name": "Muerte en Safari",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEDOUGLASVE",
+                            "name": "El Veredicto de Douglas: La Venganza",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GUYPUNCHER3:",
+                            "name": "Chico golpeador 3: Ajuste de Cuentas",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HARDSLAPPING",
+                            "name": "Bofetadas Duras",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HUGEEXPLOSIO",
+                            "name": "Explosiones, Mujercitas",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "JACKSONFRAMB",
+                            "name": "Jackson Framboise es... DERRAMADO DE SANGRE",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "KILLSAPLENTY",
+                            "name": "Pleno de Muertes",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "KISSLICKSHOO",
+                            "name": "Besa Lame Dispara Mata",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEMANWHOCOU",
+                            "name": "El Hombre Que No Podia Parar De Explotar",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MISTERKARATE",
+                            "name": "Míster Karate",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MT.ST.‘SPLOS",
+                            "name": "Monte San Explosión",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "NEVERSAYCAUT",
+                            "name": "Nunca Digas Precaución",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "STEP-DAUGHTE",
+                            "name": "Academia de Hijastras Asesinas",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THESPYWHOWAS",
+                            "name": "La espía que era ambivalente hacia mí",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THETOOMUCHAB",
+                            "name": "Los Excesivos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TROUBLELLC",
+                            "name": "Problemas S.A.",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "ADVENTURE",
+                    "name": "Aventura",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "3KIDS&1NUNGO",
+                            "name": "3 Niños y 1 Monja Salen de Excursión",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "AHOY!PIRATES",
+                            "name": "¡Arrr! Piratas en abundancia",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DADKNOWSTHEW",
+                            "name": "Papá sabe el camino",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DRONEFINDSAH",
+                            "name": "Dron encuentra a su familia",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEFIGHT-A-L",
+                            "name": "El Grupo de la Lucha",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FUNHAVERS",
+                            "name": "Los que se Divierten",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "JENWHEN:TIME",
+                            "name": "Gutiérrez, Doblador... del Tiempo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MACHETEGUYS(",
+                            "name": "Los Chicos del Machete (Edición Corta-todo)",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MERMAIDSWAMP",
+                            "name": "El Pantano de las Sirenas",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MYTHOFTHELEG",
+                            "name": "El Mito de la Leyenda: Historia de la Misión",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEPLEASE-TO",
+                            "name": "Los Casi-tocables",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "QUICKSANDDAN",
+                            "name": "Arenas de Mar y Arenas Movedizas",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "REXSUTURE:DO",
+                            "name": "Sutura Rex: Cirujano canino",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RHINOROUNDUP",
+                            "name": "Redondeo Rinoceronte",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SEVERALCHASE",
+                            "name": "Varias Persecuciones",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SHOVEPALSPAR",
+                            "name": "Compañeros de Pala Parte III: La Palación",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SHOWDOWNATTH",
+                            "name": "Enfrentamiento en el Centro Comercial",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THETREASUREO",
+                            "name": "El Tesoro de los Pantalones del Tío Alberto",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TOOMANYSNAKE",
+                            "name": "¡Demasiadas Serpientes!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TREASURETYKE",
+                            "name": "Perro Tesoro",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "COMEDY",
+                    "name": "Comedia",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "AVERYWACKYPR",
+                            "name": "Una Oración muy Loca",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BILLYMEETSAW",
+                            "name": "Billy Conoce a una Morsa",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BOATLOADO’FR",
+                            "name": "Un Montón de Marcos en Barcos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CHASTECONTEM",
+                            "name": "Contemplación de Avellaneros en la Ciudad",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THECHIMPANZE",
+                            "name": "El chimpancé que llevaba ropa y hacía travesuras",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CRUMMYDAYFOR",
+                            "name": "Día complicado para estar crudo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DINOSAURCLOW",
+                            "name": "Dinosaurio Payaso",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DUCKDEMOCRAC",
+                            "name": "Democracía de Patos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GOLDENRETRIE",
+                            "name": "Dr. Golden Retriever",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HELP!MYDADIS",
+                            "name": "¡Ayuda! ¡Mi Padre es un Perro!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HULLABALOO:U",
+                            "name": "Escándalo: Sin Clasificar",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IHAVEMADEATE",
+                            "name": "He Hecho una Terrible Tarta de Pizza",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "INCONTINENT&",
+                            "name": "Incontinental e Incontinente",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "JOENUTZGOEST",
+                            "name": "Gutiérrez se va a París",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THISMANISRUD",
+                            "name": "Este Hombre es Grosero",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "NO,NOTMYGROI",
+                            "name": "¡No, No en mi Ingle!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEOLD-TIMEY",
+                            "name": "Gags humorísticos de media hora: La Ruta de la Risa",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PASSIVEAGGRE",
+                            "name": "Lucha de Pasteles Pasiva-Agresiva",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "VEGETABLESFO",
+                            "name": "¡¿Verduras de Postre?!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WEDGIEUNIVER",
+                            "name": "Universidad Novatada",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "DOCMENTARY",
+                    "name": "Documental",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "ANIMALSBEING",
+                            "name": "Animales siendo realmente antipáticos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CARLDREAMSOF",
+                            "name": "Los Sueños de Carlos: Crema de Maíz",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CLOWNFISH",
+                            "name": "Pez payaso",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "COAL:THECOMB",
+                            "name": "Carbón: El Milagro Combustible",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FREEYOLO",
+                            "name": "Liberen a Yolo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FUNWARFACTSF",
+                            "name": "Datos divertidos sobre la guerra para padres",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HAIRSTYLESOF",
+                            "name": "Estilos de peinado en los 1650",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEHISTORYOF",
+                            "name": "La Historia de José",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HORSESHAVENO",
+                            "name": "Los Caballos No Tienen Derecho a Lucir Tan Bien",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "KELP",
+                            "name": "Alga",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MAKINGAMUDDE",
+                            "name": "Creando a un Ás del Espino",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "NINEHOURSOFT",
+                            "name": "Nueve Horas hablando del Presidente Polk",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THERUBBERPLA",
+                            "name": "La Planta de Caucho y Tú",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RYAN:WEINTER",
+                            "name": "Dolores: Nosotros la entrevistamos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SPACEISN’TRE",
+                            "name": "El Espacio no es Real",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TIMETOGETMAD",
+                            "name": "Tiempo para volverse loco",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WATCHYOURBAC",
+                            "name": "Vigila tu Espalda: Un tratado sobre el autovoyeurismo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WATERFEST:AF",
+                            "name": "El Festival del Agua: Un festival que fue bastante bien",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WHICHSENATOR",
+                            "name": "¿Qué Senador no fracasó?",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WHOOPSIE:IDI",
+                            "name": "Ups, he hecho un delito económico a nivel mundial",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "DRAMA",
+                    "name": "Drama",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "AVERYSICKDOG",
+                            "name": "Un perro muy enfermo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ALLTHATWASLE",
+                            "name": "Todo lo que quedaba",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BADVIBESFROM",
+                            "name": "Hoy Kevin tiene Malas Sensaciones",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BOUNDLESSGRI",
+                            "name": "Duelo ilimitado, tentempiés limitados",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THECOUNTESSA",
+                            "name": "La Condesa se confiesa",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "COUSINBETRAY",
+                            "name": "Primo Traición",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THECUTICLEDR",
+                            "name": "Los dramas de la cutícula",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DISINTEREST",
+                            "name": "Desinterés",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEENDLESSMO",
+                            "name": "El luto sin fin Parte XXXVII",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ESOTERICESOT",
+                            "name": "Esoterico Esoterica",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GLORIFYINGSA",
+                            "name": "Glorificando la tristeza",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HEARTEXPLOSI",
+                            "name": "Explosiones del corazón",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEHORSEDIES",
+                            "name": "El Caballo Muere, Espera No Has Escrito Eso Realmente Como El Título De La Película, ¿Verdad Sergio?",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IPROMISEDI’D",
+                            "name": "Prometí que te recordaría, pero me olvidé",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "INLOVEWITHTW",
+                            "name": "Enamorado de dos Virreyes",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "LASTDAYOFTHE",
+                            "name": "Último día de los payasos de rodeo de la niebla",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "LOVEISAFIB",
+                            "name": "El Amor es una Farsa",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RICHMANLEARN",
+                            "name": "Hombre Rico aprende la Lección",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THESECRETLIF",
+                            "name": "La vida secreta del queso",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEYWEREMEAN",
+                            "name": "Ellos eran malos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEVANDERBUN",
+                            "name": "La concordancia de Vanderbunk",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WEEP",
+                            "name": "LLORA",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "HORROR",
+                    "name": "Terror",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "THEBADSKULL",
+                            "name": "La Calavera Malvada",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BLOODONTHEFE",
+                            "name": "Sangre en el Helecho",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BLOOD,MAYBE",
+                            "name": "Sangre, Tal Vez",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CLIMATECHANG",
+                            "name": "Cambio Climático",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SPOOKED2:2SP",
+                            "name": "Desvíados 2: 2 Desvíados",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THECORPORATE",
+                            "name": "Masacre en el Taller Corporativo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DAREWOLF",
+                            "name": "Lobo Temerario",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DON’TTOUCHTH",
+                            "name": "¡No Toques Eso!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEEDIBLECOF",
+                            "name": "El Ataúd Comestible",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "EVILBOAT",
+                            "name": "Barco Malvado",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FRANKENSTEIN",
+                            "name": "Frankenstein Conoce a sus Suegros",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GHOSTROACH:E",
+                            "name": "Cucaracha Fantasma: Infestación Etérea",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GHOULS!GHOUL",
+                            "name": "¡Necrófagos! ¡Necrófagos! ¡Necrófagos!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GREASYGRIMYG",
+                            "name": "Tripas grasientas y mugrientas",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HAUNTEDASCAN",
+                            "name": "Tan Embrujados como sea posible",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HOUSEOFACOUP",
+                            "name": "La Casa con un par de Cadáveres",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ICKYSCENESWI",
+                            "name": "Escenas Asquerosas con Música Aterradora",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MOREBLOODTHA",
+                            "name": "Más Sangre de la Esperada",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MR.CHOPPYTHE",
+                            "name": "El Sr. Picador, el Maniquí que comete crímenes",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THENECKTHATW",
+                            "name": "El Cuello que no paraba de crecer",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SKELETONSARE",
+                            "name": "Los Esqueletos son unos Tontos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "STABBING&GAB",
+                            "name": "Acuchillando y Charlando",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THATKNIFEFEL",
+                            "name": "El Cuchillo ha Vuelto",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TURNSOUTWE’R",
+                            "name": "Pues Parece que Somos Fantasmas",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "YOURINSIDESA",
+                            "name": "Tus Entrañas Están Para Afuera",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "MYSTERY",
+                    "name": "Misterio",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "THECASEOFTHE",
+                            "name": "El Caso del Caso Robado",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CHURCHOFTHEK",
+                            "name": "La Iglesia del Cuchillo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THECRIMELIME",
+                            "name": "La Lima Asesina",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DAVEDIDIT",
+                            "name": "David lo hizo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DETECTIVECON",
+                            "name": "Detective Alguacil",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DIAGNOSIS:SH",
+                            "name": "Diagnóstico: Travesuras",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ENHANCE!AFOR",
+                            "name": "¡Intensifica! Una aventura de búsqueda en fotografías forenses",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEGO-KARTMU",
+                            "name": "Los asesinos de karts",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HERBERTACHRI",
+                            "name": "Herberta Christine presenta un misterio de Cornelius Thornwhistle: juego sucio en la propiedad de Cornwallis-Smythe Incorporated (incluidos los establos)",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEHOUSETHAT",
+                            "name": "La Casa con sólo Mayordomos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IDON’THAVEAD",
+                            "name": "¡¿No tengo timbre?!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ILOVETHESUSP",
+                            "name": "Amo al sospechoso",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IWANTCLUES!",
+                            "name": "¡Quiero pistas!",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "JUSTWAITIN’F",
+                            "name": "Aquí, esperando un asesinato",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THELITTLERID",
+                            "name": "El enigma del paradigma",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MAYBEHEDROWN",
+                            "name": "Tal vez se ahogó",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MYSTERYATQUE",
+                            "name": "Misterio en la mansión de las preguntas",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "POISONISKETO",
+                            "name": "El veneno es el pomelo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "QUESTIONMARX",
+                            "name": "Pregunta a Marx",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SHERLOCKBONE",
+                            "name": "Huesock Holmes",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "UNSATISFYING",
+                            "name": "Conclusion insatisfactoria",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEVANISHEDB",
+                            "name": "El trasero desaparecido",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "ROMANCE",
+                    "name": "Romántica",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "ASTEWFORTWO",
+                            "name": "Un estofado para dos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ATIMETOTOUCH",
+                            "name": "Tiempo para tocarse",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "AMOREO’CLOCK",
+                            "name": "Amor en punto",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BETWIXTLOVEA",
+                            "name": "Entre Amor y Lujuria",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEBIGSMOOCH",
+                            "name": "El gran besuqueo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "BORINGATFIRS",
+                            "name": "Aburrida al principio",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CASUALFRIDAY",
+                            "name": "Viernes casuales con Cassie",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FALLINGINTOA",
+                            "name": "Cayendo en una relación otoñal",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FOREVERDULL",
+                            "name": "Por siempre aburrido",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEGENERALTH",
+                            "name": "El General Latido",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HERECOMETHEL",
+                            "name": "Aquí vienen los labios",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IKNOWTHOSELI",
+                            "name": "Conozco esos labios",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IWANNAHOLDYO",
+                            "name": "Quiero sostener tu pantorrilla",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "KISSMEI'MCLE",
+                            "name": "Bésame soy listo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEMUSKOFLON",
+                            "name": "El almizcle del anhelo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SCENT",
+                            "name": "Aroma",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SOMEBODYLOVE",
+                            "name": "A alguien le gusta Francis",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "STRAWBERRYHU",
+                            "name": "Trozo de fresa",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TEMPORARYISF",
+                            "name": "Temporalmente es para siempre",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WEDDINGONTHE",
+                            "name": "Boda para llevar",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WHO’LLKISSPA",
+                            "name": "Quíen besará a Patsy",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "SCI_FI",
+                    "name": "Ciéncia Ficción",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "A.B.D.U.C.T.",
+                            "name": "A.B.D.U.C.C.I.O.N.: Aliens Bélicos Dicen Unas Cuantas Calamidades Intentando Obtener Nebraska",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "ANALLEGORYFO",
+                            "name": "Una alegoría de nuestros tiempos modernos, en el espacio",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEBIGGESTBA",
+                            "name": "La mayor explosión",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "CLEANTHESTAR",
+                            "name": "Limpia la nave espacial",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DURNROBITTRI",
+                            "name": "El roboto me ha vuelto a engañar",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FRATERNALCLO",
+                            "name": "Clones fraternos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HUMANSARETHE",
+                            "name": "Los humanos son el virus: una producción de spoilers",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "LASERCOP",
+                            "name": "Policía láser",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "LET’SSHOOTTH",
+                            "name": "Disparemos a estos viejos en la órbita",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "LUCKYNUMBERI",
+                            "name": "Número de la suerte infinito",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "NASAVSMOONSH",
+                            "name": "NASA vs Tiburones de la Luna",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THENOTGREATP",
+                            "name": "El Planeta No Tan Genial",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PEWPEWPEWPEW",
+                            "name": "Pew Pew Pew Pew Pew",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RADIOACTIVEA",
+                            "name": "Radio activa radiactiva",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TECHNOSCAPE:",
+                            "name": "Technoscapada: Cyborgs Cazarecompensas en el año 1995",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TIMEMIME",
+                            "name": "El Mimo del Tiempo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "UTI:UNIDENTI",
+                            "name": "ITNO: Inteligencia Terrestre No Identificada ",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WEREBUILTLIN",
+                            "name": "Hemos Rehecho a Lincoln",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "WHYSQUIDDNA?",
+                            "name": "¿Por qué el ADN del calamar?",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "YIKES,NOTGOO",
+                            "name": "Vaya, eso no es bueno para la Tierra",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                },
+                {
+                    "id": "THRILLER",
+                    "name": "Suspenso",
+                    "bgColor": "FFFFFF",
+                    "textColor": "000000",
+                    "contents": [
+                        {
+                            "id": "CHASEOFTHEPU",
+                            "name": "Persecución de los perseguidores",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEDENTISTHU",
+                            "name": "La corazonada del dentista",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "DIAL9FORANOU",
+                            "name": "Marque 9 para una línea externa",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "EMBEZZLEMENT",
+                            "name": "Isla de la malversación de fondos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FAKEBUTT,REA",
+                            "name": "Trasero falso, asesino real",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THEFILBERBIX",
+                            "name": "Los asesinatos de Filberbixby",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "FRENEMYFILES",
+                            "name": "Archivos de amigos enemigos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "GENTLEMANWEI",
+                            "name": "Caballero raro",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "HERCONFUSING",
+                            "name": "Su mensaje de voz confuso",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "IKNOWWHATYOU",
+                            "name": "Sé Lo Que Hicistéis Hace 5 Minutos",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MAMAMAFIA",
+                            "name": "Mamá Mafia",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "MYDRYCLEANER",
+                            "name": "Mi Tintoreria, Mi Enemiga",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THENECKLACEN",
+                            "name": "El collar que nadie quería",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "PHONECOP",
+                            "name": "Policía teléfono",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "RETIREDASSAS",
+                            "name": "Asesino retirado mata de nuevo",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "THESECRETEVE",
+                            "name": "El secreto que todos sabían",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "SPEEDWALKING",
+                            "name": "Hombre que camina rápido",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "STRANGERSONA",
+                            "name": "Extraños en un hilo de texto",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "STRESSFULTEN",
+                            "name": "Tensión estresante",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TICKTOCK,BOM",
+                            "name": "Tic Toc, Bomba de Relojería",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        },
+                        {
+                            "id": "TREACHERYATT",
+                            "name": "Traición en Playa Traición",
+                            "bgColor": "607ed2",
+                            "textColor": "ffffff"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

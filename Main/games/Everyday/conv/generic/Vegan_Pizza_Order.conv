@@ -1,0 +1,17 @@
+MAIN(Pizza): Aquí Pizzas Veganas de Teleforégano. ¿Cuál es su pedido?
+-WHEAT-> Champiñones y bolas de trigo
+-CANADIAN-> Berenjenas canadienses
+-CHEESE-> Cuatro Queso-ides
+-GROUNDBEET-> Remolacha picada
+
+WHEAT(Pizza): ¡Genial! Estará listo en media hora
+-SUCCESS-> Los niños pueden raspar los hongos.
+
+CANADIAN(Pizza): ¡Genial! Estará listo en media hora
+-SUCCESS-> Saludable, delicioso y cultural.
+
+CHEESE(Pizza): ¡Genial! Estará listo en media hora
+-SUCCESS-> Realmente no dieron en el clavo con ninguno de los "quesos"
+
+GROUNDBEET(Pizza): ¡Genial! Estará listo en media hora
+-SUCCESS-> La nutrición es más importante que el sabor, ¿verdad?

@@ -1,0 +1,17 @@
+MAIN(Cancelar): ¿Qué quieres decir con que no puedes hacerlo?
+-WEATHER-> Estoy resfriado.
+-PLAGUE-> Tengo la plaga.
+-ENDS-> Está saliendo por ambos extremos.
+-CONT-> ¡Estoy contagiado y estaré allí!
+
+WEATHER(Cancelar): ¡Mejórate!
+-SUCCESS-> ...y ahora para desmayarme.
+
+PLAGUE(Cancelar): ¡Te echaremos de menos!
+-SUCCESS-> ¡Cuéntale al mundo mi historia!
+
+ENDS(Cancelar): ¡Mejórate!
+-SUCCESS-> ...y ahora desmayarme.
+
+CONT(Cancelar): Por favor... por favor no
+-SUCCESS-> Los gérmenes son ahora mis únicos amigos.

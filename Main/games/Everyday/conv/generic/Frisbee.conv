@@ -1,0 +1,17 @@
+MAIN(Vecino): ¿Puede devolverme mi frisbee?
+-NEVER-> ¡Nunca!
+-YEP-> ¡Sí!
+-MAYBE-> ¡Tal vez!
+-PLEASE-> ¡Llévatelo! ¡Está maldito!
+
+NEVER(Vecino): ¡¡¡AAHHH!!!
+-FAILURE-> ¿Por qué siempre alejo a los demás?
+
+YEP(Vecino): ¡Gracias!
+-SUCCESS-> Soy un héroe.
+
+MAYBE(Vecino): Puedes jugar con nosotros.
+-SUCCESS-> ¡Trato hecho!
+
+PLEASE(Vecino): No lo creo.
+-SUCCESS-> Entonces, ¡¿¡¿cómo desafía la gravedad?!?!

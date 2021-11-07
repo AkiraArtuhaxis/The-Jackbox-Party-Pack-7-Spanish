@@ -1,0 +1,1140 @@
+{
+    "cargamento": [
+        {
+            "id": "WALLET",
+            "category": "WALLET",
+            "name": "billetera de los padres",
+            "locations": [
+                {
+                    "id": "FRIDGETOP",
+                    "name": "encima de la nevera"
+                },
+                {
+                    "id": "UNDERCOUCH",
+                    "name": "debajo del sofá"
+                },
+                {
+                    "id": "NEXTTOTOILET",
+                    "name": "al lado del inodoro"
+                },
+                {
+                    "id": "YARD",
+                    "name": "patio"
+                },
+                {
+                    "id": "PANTS",
+                    "name": "bolsillo de los pantalones de ayer"
+                },
+                {
+                    "id": "CAR",
+                    "name": "en el coche"
+                }
+            ]
+        },
+        {
+            "id": "LIPBALM",
+            "category": "LIPBALM",
+            "name": "pomada para labios",
+            "locations": [
+                {
+                    "id": "CUSIONS",
+                    "name": "cojines de sofá"
+                },
+                {
+                    "id": "COUCH",
+                    "name": "debajo del sofá"
+                },
+                {
+                    "id": "STAIRS",
+                    "name": "por las escaleras"
+                },
+                {
+                    "id": "CLOSET",
+                    "name": "armario"
+                },
+                {
+                    "id": "FRIDGE",
+                    "name": "nevera"
+                },
+                {
+                    "id": "LAUNDRY",
+                    "name": "cesto de la ropa"
+                },
+                {
+                    "id": "TOILET",
+                    "name": "cerca del lavabo"
+                }
+            ]
+        },
+        {
+            "id": "DINNERWARE",
+            "category": "DINNERWARE",
+            "name": "la porcelana buena",
+            "locations": [
+                {
+                    "id": "DISHWASHER",
+                    "name": "en el lavaplatos"
+                },
+                {
+                    "id": "HIGHCAB",
+                    "name": "vitrina de arriba"
+                },
+                {
+                    "id": "GARAGE",
+                    "name": "fuera en el garaje"
+                },
+                {
+                    "id": "PROMO",
+                    "name": "detrás de las gafas de promoción de comida rápida"
+                },
+                {
+                    "id": "CUTTERS",
+                    "name": "debajo de la pila de cortadores de galletas"
+                },
+                {
+                    "id": "ATTIC",
+                    "name": "arriba en el ático"
+                }
+            ]
+        },
+        {
+            "id": "THERMOMETER",
+            "category": "THERMOMETER",
+            "name": "el termómetro",
+            "locations": [
+                {
+                    "id": "CABINET",
+                    "name": "armario del lavabo"
+                },
+                {
+                    "id": "DRAWER",
+                    "name": "cajón de la chatarra"
+                },
+                {
+                    "id": "PLASTIC",
+                    "name": "cajones organizadores de plástico pequeños"
+                },
+                {
+                    "id": "TOILETTHERM",
+                    "name": "detrás del inodoro"
+                },
+                {
+                    "id": "BIN",
+                    "name": "contenedor etiquetado como 'termómetros'"
+                },
+                {
+                    "id": "PILE",
+                    "name": "montón de cosas de la última vez que nos enfermamos"
+                }
+            ]
+        },
+        {
+            "id": "ADAPTERS",
+            "category": "ADAPTERS",
+            "name": "adaptadores de corriente internacionales",
+            "locations": [
+                {
+                    "id": "ATTIC2",
+                    "name": "ático"
+                },
+                {
+                    "id": "BACKCLOSET",
+                    "name": "parte trasera, pero que muy trasera del armario"
+                },
+                {
+                    "id": "SUITCASES",
+                    "name": "dentro de las maletas viejas"
+                },
+                {
+                    "id": "KID",
+                    "name": "montón de cosas con las que estaban jugando los niños"
+                },
+                {
+                    "id": "UNDERWEAR",
+                    "name": "cajón de la ropa interior"
+                },
+                {
+                    "id": "DUFFEL",
+                    "name": "fondo de esa extraña bolsa de lona"
+                }
+            ]
+        },
+        {
+            "id": "GORBO",
+            "category": "GORBO",
+            "name": "la factura de la hipoteca",
+            "locations": [
+                {
+                    "id": "SUITCASE",
+                    "name": "debajo de la maleta de Gorbo"
+                },
+                {
+                    "id": "CLOTHES",
+                    "name": "debajo de la ropa de Gorbo"
+                },
+                {
+                    "id": "CANDY",
+                    "name": "debajo de los envoltorios de Gorbo"
+                },
+                {
+                    "id": "CREAMS",
+                    "name": "bajo las cremas para la erupción de Gorbo"
+                },
+                {
+                    "id": "GORBO",
+                    "name": "debajo de Gorbo"
+                }
+            ]
+        },
+        {
+            "id": "LOOSECHANGE",
+            "category": "LOOSECHANGE",
+            "name": "monedas sueltas",
+            "locations": [
+                {
+                    "id": "LEFTCOUCH",
+                    "name": "debajo del cojín izquierdo del sofá"
+                },
+                {
+                    "id": "CENTERCOUCH",
+                    "name": "debajo del cojín de en medio del sofá"
+                },
+                {
+                    "id": "RIGHTCOUCH",
+                    "name": "debajo del cojín derecho del sofá"
+                },
+                {
+                    "id": "ARMCHAIR",
+                    "name": "detrás de la butaca"
+                },
+                {
+                    "id": "BLANKET",
+                    "name": "dentro de la manta grande"
+                },
+                {
+                    "id": "FUND",
+                    "name": "jarra con la etiqueta \"AHORROS PARA EMERGENCIAS NO TOCAR\""
+                }
+            ]
+        },
+        {
+            "id": "ASTEROIDLASER",
+            "category": "ASTEROIDLASER",
+            "name": "el componente láser",
+            "locations": [
+                {
+                    "id": "ENGINE",
+                    "name": "dentro del motor del coche"
+                },
+                {
+                    "id": "ROBOT",
+                    "name": "dentro del robot de juguete"
+                },
+                {
+                    "id": "HVAC",
+                    "name": "dentro del sistema de climatización"
+                },
+                {
+                    "id": "RADIO",
+                    "name": "dentro de la radio de onda corta"
+                },
+                {
+                    "id": "GARAGELASER",
+                    "name": "dentro del abridor de la puerta del garaje"
+                }
+            ]
+        },
+        {
+            "id": "CLUES",
+            "category": "CLUES",
+            "name": "pistas importantes",
+            "locations": [
+                {
+                    "id": "CULDESAC",
+                    "name": "tranquilo callejón suburbano sin salida"
+                },
+                {
+                    "id": "AMUSE",
+                    "name": "parque de atracciones abandonado"
+                },
+                {
+                    "id": "BASKETBALL",
+                    "name": "pista de tenis antigua que nadie utiliza (crearon una nueva)"
+                },
+                {
+                    "id": "OLDMAN",
+                    "name": "patio viejo de Old man"
+                },
+                {
+                    "id": "HIGHSCHOOL",
+                    "name": "parking de la escuela secundaria"
+                }
+            ]
+        },
+        {
+            "id": "NEWCAR",
+            "category": "NEWCAR",
+            "name": "basura para vender",
+            "locations": [
+                {
+                    "id": "OLDCLOTHES",
+                    "name": "armario de la ropa"
+                },
+                {
+                    "id": "OLDPHONES",
+                    "name": "pila de viejos teléfonos"
+                },
+                {
+                    "id": "ACTIONFIGURES",
+                    "name": "colección de muñecos de acción vintage"
+                },
+                {
+                    "id": "UNLABELED",
+                    "name": "caja sin etiquetar en el garaje"
+                },
+                {
+                    "id": "APPLIANCES",
+                    "name": "armario de electrodomésticos de uso poco frecuente"
+                }
+            ]
+        },
+        {
+            "id": "DANCESNACKS",
+            "category": "DANCESNACKS",
+            "name": "los buenos aperitivos",
+            "locations": [
+                {
+                    "id": "BLEACHERS",
+                    "name": "debajo de las gradas"
+                },
+                {
+                    "id": "DJ",
+                    "name": "cerca del DJ"
+                },
+                {
+                    "id": "PHOTOBOOTH",
+                    "name": "cabina de fotos"
+                },
+                {
+                    "id": "JANITOR",
+                    "name": "aramario del conserje"
+                }
+            ]
+        },
+        {
+            "id": "SLUMBERSEARCH",
+            "category": "SLUMBERSEARCH",
+            "name": "los niños que se escabulleron",
+            "locations": [
+                {
+                    "id": "GARAGESLUMBER",
+                    "name": "garaje"
+                },
+                {
+                    "id": "NEIGHBORYARD",
+                    "name": "patio del vecino"
+                },
+                {
+                    "id": "STORMDRAIN",
+                    "name": "alcantarilla terrorífica"
+                },
+                {
+                    "id": "CONVENIENCE",
+                    "name": "parking de la tienda"
+                },
+                {
+                    "id": "CIRCUS",
+                    "name": "circo errante"
+                },
+                {
+                    "id": "HOUSE",
+                    "name": "de vuelta a la casa"
+                }
+            ]
+        },
+        {
+            "id": "MAKEUPWORK",
+            "category": "MAKEUPWORK",
+            "name": "trabajo de recuperación que perdiste",
+            "locations": [
+                {
+                    "id": "ATTICKWORK",
+                    "name": "ático"
+                },
+                {
+                    "id": "BACKCLOSETWORK",
+                    "name": "parte trasera, pero que muy trasera del armario"
+                },
+                {
+                    "id": "SUITCASESWORK",
+                    "name": "dentro de las maletas viejas"
+                },
+                {
+                    "id": "KIDWORK",
+                    "name": "montón de cosas con las que estaban jugando los niños"
+                },
+                {
+                    "id": "UNDERWEARWORK",
+                    "name": "cajón de la ropa interior"
+                },
+                {
+                    "id": "DUFFELWORK",
+                    "name": "al fondo de esa extraña bolsa de lona"
+                }
+            ]
+        },
+        {
+            "id": "GUITAR",
+            "category": "GUITAR",
+            "name": "esa guitarra vieja",
+            "locations": [
+                {
+                    "id": "CLOSETGUITAR",
+                    "name": "armario"
+                },
+                {
+                    "id": "PLAYROOM",
+                    "name": "cuarto de juegos"
+                },
+                {
+                    "id": "BASEMENT",
+                    "name": "sótano"
+                },
+                {
+                    "id": "SECRETBASE",
+                    "name": "sótano secreto"
+                },
+                {
+                    "id": "ATTICGUITAR",
+                    "name": "ático"
+                }
+            ]
+        },
+        {
+            "id": "GRONK",
+            "category": "GRONK",
+            "name": "parafernalia de gronking",
+            "locations": [
+                {
+                    "id": "BEDGRONK",
+                    "name": "debajo de la cama"
+                },
+                {
+                    "id": "DESKGRONK",
+                    "name": "dentro del cajón del escritorio"
+                },
+                {
+                    "id": "BOOKGRONK",
+                    "name": "en libros ahuecados"
+                },
+                {
+                    "id": "CANDYGRONK",
+                    "name": "debajo de la pila de envoltorios de dulces"
+                },
+                {
+                    "id": "CLOSETGRONK",
+                    "name": "parte trasera del armario"
+                },
+                {
+                    "id": "LIZARDGRONK",
+                    "name": "dentro del terrario del lagarto"
+                }
+            ]
+        },
+        {
+            "id": "DIGSITE",
+            "category": "DIGSITE",
+            "name": "un buen sitio para la cápsula temporal",
+            "locations": [
+                {
+                    "id": "OAK",
+                    "name": "bajo el roble oscuro"
+                },
+                {
+                    "id": "ANTHILL",
+                    "name": "hormiguero amenazante"
+                },
+                {
+                    "id": "CLOTHESLINE",
+                    "name": "al lado del tendedero"
+                },
+                {
+                    "id": "HAMMOCK",
+                    "name": "junto a la hamaca"
+                },
+                {
+                    "id": "CHAINLINK",
+                    "name": "cerca de la valla de alambre"
+                },
+                {
+                    "id": "GRAVEL",
+                    "name": "el extraño lugar con grava"
+                }
+            ]
+        },
+        {
+            "id": "ROMPO",
+            "category": "ROMPO",
+            "name": "El querido juego de copa y pelota perdido del primo Rompo",
+            "locations": [
+                {
+                    "id": "VACUUM",
+                    "name": "dentro del aspirador que Rompo destruyó"
+                },
+                {
+                    "id": "ROOF",
+                    "name": "el tejado en el que Rompo quedó atrapado"
+                },
+                {
+                    "id": "KITCHENWRECK",
+                    "name": "en los restos quemados de la cocina"
+                },
+                {
+                    "id": "HAND",
+                    "name": "siempre estuvo en la mano de Rompo"
+                }
+            ]
+        },
+        {
+            "id": "SCARLETLETTER",
+            "category": "SCARLETLETTER",
+            "name": "la temática más dominante en el libro 'La letra escarlata'",
+            "locations": [
+                {
+                    "id": "MORAL",
+                    "name": "moral y justicia"
+                },
+                {
+                    "id": "REVENGE",
+                    "name": "el concepto de venganza\n"
+                },
+                {
+                    "id": "FEMININITY",
+                    "name": "la noción de feminidad en la sociedad\n"
+                },
+                {
+                    "id": "FORGIVE",
+                    "name": "la idea del perdón\n"
+                }
+            ]
+        },
+        {
+            "id": "COALS",
+            "category": "COALS",
+            "name": "la elección de los carbones del inframundo",
+            "locations": [
+                {
+                    "id": "SHED",
+                    "name": "cobertizo"
+                },
+                {
+                    "id": "COALSGARAGE",
+                    "name": "fuera en el garaje"
+                },
+                {
+                    "id": "BOX",
+                    "name": "caja de reliquias familiares"
+                },
+                {
+                    "id": "TARP",
+                    "name": "debajo de la lona vieja"
+                },
+                {
+                    "id": "DUNGEON",
+                    "name": "la mazmorra de la casa"
+                }
+            ]
+        },
+        {
+            "id": "HOTSAUCE",
+            "category": "HOTSAUCE",
+            "name": "salsa picante",
+            "locations": [
+                {
+                    "id": "KITCHENCAB",
+                    "name": "mueble de cocina"
+                },
+                {
+                    "id": "GRILLDRAWER",
+                    "name": "cajón de la parrilla"
+                },
+                {
+                    "id": "CATBED",
+                    "name": "cama del gato"
+                },
+                {
+                    "id": "GRAMPASTASH",
+                    "name": "alijo secreto del abuelo"
+                },
+                {
+                    "id": "SAUCEHOLE",
+                    "name": "el Agujero de la Salsa"
+                }
+            ]
+        },
+        {
+            "id": "OUTSIDE",
+            "category": "OUTSIDE",
+            "name": "el gato",
+            "locations": [
+                {
+                    "id": "CATROOF",
+                    "name": "en el tejado"
+                },
+                {
+                    "id": "NEIGHBORS_HOUSE",
+                    "name": "en la casa de los vecinos"
+                },
+                {
+                    "id": "PETUNIA_PATCH",
+                    "name": "dónde las petunias"
+                },
+                {
+                    "id": "UNDER_DECK",
+                    "name": "debajo de la cubierta"
+                },
+                {
+                    "id": "GARBAGE",
+                    "name": "en la basura"
+                },
+                {
+                    "id": "IN_TREE",
+                    "name": "arriba en el árbol"
+                },
+                {
+                    "id": "CAR_HOOD",
+                    "name": "en el capó del coche"
+                }
+            ]
+        },
+        {
+            "id": "INSOLES",
+            "category": "INSOLES",
+            "name": "plantillas ortopédicas de un padre",
+            "locations": [
+                {
+                    "id": "UNDERBED",
+                    "name": "debajo de la cama"
+                },
+                {
+                    "id": "CATSTUFF",
+                    "name": "en las cosas del gato"
+                },
+                {
+                    "id": "REMOTEBASKET",
+                    "name": "la cesta de los mandos a distancia"
+                },
+                {
+                    "id": "UNDERTABLE",
+                    "name": "debajo de la mesa del comedor"
+                },
+                {
+                    "id": "INSHOES",
+                    "name": "dentro de los zapatos donde pertenecen"
+                }
+            ]
+        },
+        {
+            "id": "PROMISERING",
+            "category": "PROMISERING",
+            "name": "anillo de prometido de adolescente",
+            "locations": [
+                {
+                    "id": "ONDRESSER",
+                    "name": "en el tocador"
+                },
+                {
+                    "id": "CLOSET3",
+                    "name": "en el armario"
+                },
+                {
+                    "id": "FISHBOWL",
+                    "name": "en la pecera"
+                },
+                {
+                    "id": "JEANSHORTS",
+                    "name": "bolsillo de los tejanos cortos"
+                },
+                {
+                    "id": "JEWELRYBOX",
+                    "name": "caja de las joyas"
+                }
+            ]
+        },
+        {
+            "id": "CANDLES",
+            "category": "CANDLES",
+            "name": "velas de cumpleaños",
+            "locations": [
+                {
+                    "id": "JUNKDRAWER",
+                    "name": "cajon de los trastos"
+                },
+                {
+                    "id": "PURSE",
+                    "name": "bolso"
+                },
+                {
+                    "id": "PANTRY",
+                    "name": "despensa"
+                },
+                {
+                    "id": "CRAFTCLOSET",
+                    "name": "armario de artesanía"
+                },
+                {
+                    "id": "GARAGE2",
+                    "name": "garaje"
+                },
+                {
+                    "id": "CAKE",
+                    "name": "pastel del año pasado"
+                }
+            ]
+        },
+        {
+            "id": "RABBITFOOT",
+            "category": "RABBITFOOT",
+            "name": "pata de conejo de la suerte",
+            "locations": [
+                {
+                    "id": "UNDERLADDER",
+                    "name": "debajo de la escalera"
+                },
+                {
+                    "id": "BROKENMIRROR",
+                    "name": "junto al espejo roto"
+                },
+                {
+                    "id": "BLACKCAT",
+                    "name": "a lo largo del camino de un gato negro"
+                },
+                {
+                    "id": "CRACK",
+                    "name": "en una grieta de la acera"
+                },
+                {
+                    "id": "OTHERFEET",
+                    "name": "junto a otros trece pies"
+                }
+            ]
+        },
+        {
+            "id": "DRIVERSLICENSE",
+            "category": "DRIVERSLICENSE",
+            "name": "carné de conducir",
+            "locations": [
+                {
+                    "id": "WALLET",
+                    "name": "cartera"
+                },
+                {
+                    "id": "DESKDRAWER",
+                    "name": "cajón del escritorio"
+                },
+                {
+                    "id": "GLOVECOMPARTMENT",
+                    "name": "guantera"
+                },
+                {
+                    "id": "FILING",
+                    "name": "archivador"
+                },
+                {
+                    "id": "MICROWAVE",
+                    "name": "dentro del microondas"
+                }
+            ]
+        },
+        {
+            "id": "STUDENTID",
+            "category": "STUDENTID",
+            "name": "Identificación de estudiante",
+            "locations": [
+                {
+                    "id": "UNDERBED2",
+                    "name": "debajo de la cama"
+                },
+                {
+                    "id": "KHAKIS",
+                    "name": "bolsillo de los pantalones caqui"
+                },
+                {
+                    "id": "LAVALAMP",
+                    "name": "al lado de la lámpara de lava"
+                },
+                {
+                    "id": "COMICBOOK",
+                    "name": "dentro del cómic"
+                },
+                {
+                    "id": "BLACKLIGHT",
+                    "name": "debajo del cartel de luz negra"
+                }
+            ]
+        },
+        {
+            "id": "HAIRTIE",
+            "category": "HAIRTIE",
+            "name": "un lazo para el cabello",
+            "locations": [
+                {
+                    "id": "CLOSET4",
+                    "name": "armario"
+                },
+                {
+                    "id": "BATHROOMDRAWER",
+                    "name": "cajón del baño"
+                },
+                {
+                    "id": "VANITY",
+                    "name": "la vanidad"
+                },
+                {
+                    "id": "COUCHCUSHIONS",
+                    "name": "en cojines del sofá"
+                },
+                {
+                    "id": "HIGHPILE",
+                    "name": "alfombra de pelo alto"
+                }
+            ]
+        },
+        {
+            "id": "BASEBALL",
+            "category": "BASEBALL",
+            "name": "pelota de béisbol perdida",
+            "locations": [
+                {
+                    "id": "NEIGHBORYARD2",
+                    "name": "patio del vecino"
+                },
+                {
+                    "id": "NEIGHBORPORCH",
+                    "name": "porche del vecino"
+                },
+                {
+                    "id": "NEIGHBORFLOWERS",
+                    "name": "cama de flores del vecino"
+                },
+                {
+                    "id": "NEIGHBORDRIVE",
+                    "name": "camino de entrada del vecino"
+                },
+                {
+                    "id": "NEIGHBORWINDOW",
+                    "name": "al otro lado de la ventana rota del vecino"
+                }
+            ]
+        },
+        {
+            "id": "DENTURES",
+            "category": "DENTURES",
+            "name": "dentadura postiza del abuelo",
+            "locations": [
+                {
+                    "id": "KITCHENSINK",
+                    "name": "fregadero"
+                },
+                {
+                    "id": "LIVINGROOMFLOOR",
+                    "name": "piso de la sala"
+                },
+                {
+                    "id": "TOILETTANK",
+                    "name": "tanque del inodoro"
+                },
+                {
+                    "id": "DININGROOMTABLE",
+                    "name": "mesa de comedor"
+                },
+                {
+                    "id": "INFRIDGE",
+                    "name": "en la nevera"
+                }
+            ]
+        },
+        {
+            "id": "BEEPING",
+            "category": "BEEPING",
+            "name": "lo que sea que esté haciendo ese pitido",
+            "locations": [
+                {
+                    "id": "SMOKEDETECTOR",
+                    "name": "detector de incendios"
+                },
+                {
+                    "id": "CO2ALARM",
+                    "name": "alarma de monóxido de carbono"
+                },
+                {
+                    "id": "SECURITY",
+                    "name": "sistema de seguridad"
+                },
+                {
+                    "id": "CABLEBOX",
+                    "name": "caja de los cables"
+                },
+                {
+                    "id": "COMPUTER",
+                    "name": "ordenador"
+                },
+                {
+                    "id": "METALBOX",
+                    "name": "caja misteriosa de metal que no habías visto nunca antes"
+                }
+            ]
+        },
+        {
+            "id": "INKCARTRIDGE",
+            "category": "INKCARTRIDGE",
+            "name": "cartucho de tinta cian",
+            "locations": [
+                {
+                    "id": "CLOSET5",
+                    "name": "armario"
+                },
+                {
+                    "id": "GARAGE3",
+                    "name": "garaje"
+                },
+                {
+                    "id": "SHED2",
+                    "name": "cobertizo"
+                },
+                {
+                    "id": "DESKDRAWER2",
+                    "name": "cajón del escritorio"
+                },
+                {
+                    "id": "ATTIC3",
+                    "name": "ático"
+                },
+                {
+                    "id": "BASEMENT2",
+                    "name": "sótano"
+                }
+            ]
+        },
+        {
+            "id": "GLASSEYE",
+            "category": "GLASSEYE",
+            "name": "Ojo de cristal de la abuela",
+            "locations": [
+                {
+                    "id": "UNDERBED3",
+                    "name": "debajo de la cama"
+                },
+                {
+                    "id": "UNDERCOUCH2",
+                    "name": "debajo del sofá"
+                },
+                {
+                    "id": "UNDERTABLE2",
+                    "name": "debajo de la mesa"
+                },
+                {
+                    "id": "UNDERTV",
+                    "name": "debajo de la televisión"
+                },
+                {
+                    "id": "CATSMOUTH",
+                    "name": "la boca del gato"
+                }
+            ]
+        },
+        {
+            "id": "WORDJUMBLE",
+            "category": "WORDJUMBLE",
+            "name": "la palabra elefante en este revoltijo de palabras",
+            "locations": [
+                {
+                    "id": "HORIZONTAL",
+                    "name": "horizontal"
+                },
+                {
+                    "id": "VERTICAL",
+                    "name": "vertical"
+                },
+                {
+                    "id": "DIAGONAL",
+                    "name": "diagonal"
+                },
+                {
+                    "id": "FORWARDS",
+                    "name": "hacia adelante"
+                },
+                {
+                    "id": "BACKWARDS",
+                    "name": "hacia atrás"
+                }
+            ]
+        },
+        {
+            "id": "THUMBTACK",
+            "category": "THUMBTACK",
+            "name": "chincheta caída",
+            "locations": [
+                {
+                    "id": "CARPET",
+                    "name": "alfombra del comedor"
+                },
+                {
+                    "id": "DOORMAT",
+                    "name": "felpudo"
+                },
+                {
+                    "id": "THROWRUG",
+                    "name": "alfombra de la entrada"
+                },
+                {
+                    "id": "BATHMAT",
+                    "name": "alfombra de baño"
+                },
+                {
+                    "id": "SHOESOLE",
+                    "name": "suela del zapato"
+                }
+            ]
+        },
+        {
+            "id": "QUARTERS",
+            "category": "QUARTERS",
+            "name": "colección de monedas",
+            "locations": [
+                {
+                    "id": "COINDESK",
+                    "name": "mesa de las monedas"
+                },
+                {
+                    "id": "STAMPDRAWER",
+                    "name": "cajón de los sellos"
+                },
+                {
+                    "id": "COMICBOOKSHELF",
+                    "name": "estante de los cómics"
+                },
+                {
+                    "id": "ROCKDISPLAY",
+                    "name": "vitrina para rocas"
+                },
+                {
+                    "id": "FIGUREINENOOK",
+                    "name": "rincón de estatuillas coleccionables"
+                }
+            ]
+        },
+        {
+            "id": "THINGY",
+            "category": "THINGY",
+            "name": "la cosa que tenemos para poner las llaves para no perderlas",
+            "locations": [
+                {
+                    "id": "JUNKDRAWER2",
+                    "name": "cajon de los trastos"
+                },
+                {
+                    "id": "DOODADDRAWER",
+                    "name": "cajón de adornos"
+                },
+                {
+                    "id": "LOSTITEMLEDGE",
+                    "name": "repisa de objetos perdidos"
+                },
+                {
+                    "id": "ATTIC4",
+                    "name": "ático"
+                },
+                {
+                    "id": "BASEMENT3",
+                    "name": "sótano"
+                },
+                {
+                    "id": "PILEBOXES",
+                    "name": "pila de cajas de cartón"
+                }
+            ]
+        },
+        {
+            "id": "TIMEMIME",
+            "category": "TIMEMIME",
+            "name": "el sexto DVD de la caja edición especial de \"El Mimo del Tiempo\"",
+            "locations": [
+                {
+                    "id": "DEN",
+                    "name": "guarida"
+                },
+                {
+                    "id": "BASEMENT4",
+                    "name": "sótano"
+                },
+                {
+                    "id": "FIREPLACE",
+                    "name": "chimenea"
+                },
+                {
+                    "id": "TRASH",
+                    "name": "basura"
+                },
+                {
+                    "id": "BEHINDSOFA",
+                    "name": "detrás del sofá"
+                }
+            ]
+        },
+        {
+            "id": "MOTIVATIONALNOTE",
+            "category": "MOTIVATIONALNOTE",
+            "name": "nota motivacional vergonzosa (¡es MUY vergonzosa!)",
+            "locations": [
+                {
+                    "id": "TRASH2",
+                    "name": "basura"
+                },
+                {
+                    "id": "BATHROOMMIRROR",
+                    "name": "esepjo del lavabo"
+                },
+                {
+                    "id": "DESKDRAWER3",
+                    "name": "cajón del escritorio"
+                },
+                {
+                    "id": "BACKPACK",
+                    "name": "mochila"
+                },
+                {
+                    "id": "FRONTPORCH",
+                    "name": "porche delantero"
+                }
+            ]
+        },
+        {
+            "id": "RUINEDSALAD",
+            "category": "RUINEDSALAD",
+            "name": "un lugar para enterrar la ensalada arruinada",
+            "locations": [
+                {
+                    "id": "HOLE1",
+                    "name": "agujero en el patio trasero"
+                },
+                {
+                    "id": "HOLE2",
+                    "name": "otro agujero en el patio trasero"
+                },
+                {
+                    "id": "HOLE3",
+                    "name": "agujero en el patio delantero"
+                },
+                {
+                    "id": "ATTIC5",
+                    "name": "ático"
+                },
+                {
+                    "id": "SALADTREE",
+                    "name": "el árbol de la ensalada"
+                }
+            ]
+        }
+    ]
+}

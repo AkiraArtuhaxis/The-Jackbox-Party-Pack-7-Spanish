@@ -1,0 +1,314 @@
+DEF EPISODE "FirstDate"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "El cuarto círculo de compromiso"
+    SET DESCRIPTION "¡El amor se siente en el aire!  El infierno favorito de todos los adolescentes es llevar a casa su primera <font color='#AF0000'>pareja</font>. ¡Y es humana! Es tarea de la familia asegurarse de que el día acaba sin problema alguno."
+    SET SUCCESS_MESSAGE "De acuerdo con nuestras fuentes, su familia no fue TAN vergonzosa y Riley dijo que usted era '¡Un diablo Hermoso!' ¡¿Una crush que es linda y puede bromear?! ¡Premio!"
+    SET FAILURE_MESSAGE "Predecimos que seguirán viendo a Riley un poco, pero nunca más volverán a hablar de esta incómoda noche. Cuando mencionen el concepto de padres, sus ojos se pondrán vidriosos mientras mira al horizonte."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/longweekend/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/longweekend/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/longweekend/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "TeenDiary" <1 8:00>
+    SCHEDULE TASK "InviteRiley" <1 10:00>
+    SCHEDULE TASK "RemovePhotos" <1 13:00>
+    SCHEDULE TASK "ThermostatForHumans" <1 16:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "CleanRiley" <2 8:00>
+    SCHEDULE TASK "RileyDoor" <2 10:00>
+    SCHEDULE TASK "RileyAwkwardStory" <2 12:00>
+    SCHEDULE TASK "CouplePhoto" <2 14:00>
+    
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "GoOutRiley" <3 18:01>
+    SCHEDULE TASK "WaitUp" <3 20:00>
+    SCHEDULE TASK "GetDroppedOff" <3 21:00>
+    SCHEDULE TASK "SneakOutRiley" <3 22:00>
+        
+END
+
+
+REM : ------------------------------
+
+
+REM : Read teens diary
+CLONE DEED "Tap1" "LookLeft"
+    SET INSTRUCTIONS "Mira a la izquierda"
+END
+
+CLONE DEED "Tap2" "LookRight"
+    SET INSTRUCTIONS "Mira a la derecha"
+END
+
+CLONE DEED "SwipeUp" "OpenDiary"
+    SET INSTRUCTIONS "Despejado. Ábrelo."
+END
+
+CLONE DEED "Nothing4" "DiscoverBoo"
+    SET INSTRUCTIONS "¡Resulta que tiene un admirador secreto!"
+END
+
+DEF TASK "TeenDiary"
+    SET NAME "Leer el diario del hermano mayor"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "LookLeft"
+    STEP "2" "LookRight"
+    STEP "3" "OpenDiary"
+    STEP "4" "DiscoverBoo"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Phone teen's dating friend
+CLONE DEED "PhoneID" "PhoneRiley"
+    SET INSTRUCTIONS "Llama a la amiga de citas del adolescente"
+    SET CONTENT_ID "RILEY"
+END
+
+CLONE DEED "DialogID" "InviteRileyDialog"
+    SET INSTRUCTIONS "Invitala"
+    SET CONTENT_ID "FIRSTDATE_INVITE"
+END
+
+DEF TASK "InviteRiley"
+    SET NAME "Llama a la amiga de citas del adolescente"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "PhoneRiley"
+    STEP "2" "InviteRileyDialog"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Remove embarrassing photos
+CLONE DEED "Tap5" "RemovePhotos"
+    SET INSTRUCTIONS "¡Oculta estas rápido!"
+END
+
+DEF TASK "RemovePhotos"
+    SET NAME "Elimina las fotos vergonzosas de la casa"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "RemovePhotos"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Program thermostat for humans
+CLONE DEED "Gizmos3" "ThermostatForHumans"
+    SET INSTRUCTIONS "Haz que la casa sea cómoda para los humanos"
+    SET NAME "TermoTron 9X"
+END
+
+DEF TASK "ThermostatForHumans"
+    SET NAME "Programa el termostato a una temperatura adecuada para los humanos"
+    SET ASKER_NAME "Obtén ayuda para programar el termostato a una temperatura adecuada para los humanos"
+    SET HELPER_NAME "Help <ASKER> program the thermostat to human-friendly temperature"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ThermostatForHumans"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : ---------------------------------
+
+REM : Clean the house for Riley
+CLONE TASK "CleanHouse" "CleanRiley"
+    SET NAME "Limpia la casa para la visita de Riley"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+END
+
+REM : Greet Riley
+CLONE DEED "DialogID" "RileyDoor"
+    SET INSTRUCTIONS "Saluda a Riley en la puerta."
+    SET CONTENT_ID "FIRSTDATE_GREET"
+END
+
+DEF TASK "RileyDoor"
+    SET NAME "Saluda a Riley en la puerta."
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "RileyDoor"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Tell awkward story
+CLONE DEED "DialogID" "RileyAwkwardStory"
+    SET INSTRUCTIONS "Cuenta una historia incómoda sobre tu hermano"
+    SET CONTENT_ID "FIRSTDATE_AKWARD"
+END
+
+DEF TASK "RileyAwkwardStory"
+    SET NAME "Cuenta una historia incómoda sobre tu hermano"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "RileyAwkwardStory"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Take photo of couple
+CLONE DEED "SwipeUp" "ReadyCam"
+    SET INSTRUCTIONS "Prepara la cámara"
+END
+
+CLONE DEED "Hold3" "WaitSmile1"
+    SET INSTRUCTIONS "Espera a que sonrían..."
+END
+
+CLONE DEED "Hold5" "WaitSmile2"
+    SET INSTRUCTIONS "Espéralo..."
+END
+
+CLONE DEED "Tap1" "TakeWhatYouGet"
+    SET INSTRUCTIONS "Solo toma lo que puedas conseguir"
+END
+
+DEF TASK "CouplePhoto"
+    SET NAME "Toma una foto de la pareja"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ReadyCam"
+    STEP "2" "WaitSmile1"
+    STEP "3" "WaitSmile2"
+    STEP "4" "TakeWhatYouGet"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : ----------------------------
+
+REM : Go out with Riley
+CLONE DEED "QuickTap4" "QuickRun"
+    SET INSTRUCTIONS "Sal corriendo de la casa rápidamente"
+END
+
+CLONE DEED "Tap1" "JumpCar"
+    SET INSTRUCTIONS "Salta por encima de la puerta del coche convertible"
+END
+
+CLONE DEED "Hold3" "BangShin"
+    SET INSTRUCTIONS "Finge que no te golpeaste el espinazo"
+END
+
+DEF TASK "GoOutRiley"
+    SET NAME "Sal con Riley"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "QuickRun"
+    STEP "2" "JumpCar"
+    STEP "3" "BangShin"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Wait up for teen
+CLONE DEED "Nothing5" "WaitUp"
+    SET INSTRUCTIONS "¡No es que no confíe en ellos. ¡Es solo que este libro es TAN bueno!"
+END
+
+DEF TASK "WaitUp"
+    SET NAME "Espera al adolescente"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "WaitUp"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Get dropped off at home
+CLONE DEED "Tap1" "CloseCarDoor"
+    SET INSTRUCTIONS "Cierra la puerta del auto"
+END
+
+CLONE DEED "Rotate180" "Turn1"
+    SET INSTRUCTIONS "Date la vuelta para besar"
+END
+
+CLONE DEED "Rotate180Counter" "Turn2"
+    SET INSTRUCTIONS "Ponete nervioso y date la vuelta"
+END
+
+CLONE DEED "Tap3" "SkipDoor"
+    SET INSTRUCTIONS "Pasa a la puerta principal"
+END
+
+DEF TASK "GetDroppedOff"
+    SET NAME "Que te dejen en casa"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "CloseCarDoor"
+    STEP "2" "Turn1"
+    STEP "3" "Turn2"
+    STEP "4" "SkipDoor"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Sneak out
+CLONE TASK "SneakOutBase" "SneakOutRiley"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAIN "TEENS"
+    SET DURATION <8H>
+END

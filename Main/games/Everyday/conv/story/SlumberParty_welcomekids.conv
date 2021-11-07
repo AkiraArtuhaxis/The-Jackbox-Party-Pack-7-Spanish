@@ -1,0 +1,17 @@
+MAIN(Niños): ¡¡¿¡Qué haremos esta noche!?!!
+-NOTHING-> Nada. ¡A dormir!
+-SNACKS-> Concurso de comer bocadillos
+-HAIR-> Cambios de look y cortes de pelo amateur
+-MATCHES-> ¡¿Quién tiene fósforos!?
+
+NOTHING(Niños): ¡Rompamos todo!
+-SUCCESS-> ...vamos a necesitar organizar algo
+
+SNACKS(Niños): ¡¡¡¡YUPIII!!!!
+-SUCCESS-> ¡A la cocina!
+
+HAIR(Niños): ¡¡¡YUPIII!!!
+-SUCCESS-> ¡Pongamos lonas!
+
+MATCHES(Niños): ¡¡¡Todos tenemos!!!
+-SUCCESS-> ¡A buscar los fuegos artificiales guardados!

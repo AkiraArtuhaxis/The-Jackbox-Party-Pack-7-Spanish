@@ -1,0 +1,17 @@
+MAIN(Doctor): Por favor describa sus síntomas.
+-BURNS-> Quema cuando estornudo
+-CLAM-> Tengo temblores y la piel húmeda
+-HORNS-> Se están marchitando mis cuernos
+-PULSE-> Tengo un ritmo cardíaco negativo
+
+BURNS(Doctor): Duerme al menos ocho horas.
+-SUCCESS-> ¿Lo mismo de todos los Viernes? ¡Entendido!
+
+CLAM(Doctor): Duerme al menos ocho horas.
+-SUCCESS-> ¿Lo mismo de todos los Viernes? ¡Entendido!
+
+HORNS(Doctor): ¿Sus cuernos?
+-SUCCESS-> Olvídelo, voy a dormir un rato.
+
+PULSE(Doctor): Eso es imposible. Duerma un poco.
+-SUCCESS-> ¡TÚ eres imposible!

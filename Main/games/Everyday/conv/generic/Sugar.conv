@@ -1,0 +1,17 @@
+MAIN(Vecino): ¿Me podrías prestar una taza de azúcar?
+-SURE-> Claro
+-NOPE-> Nop
+-ONE-> ¿Solo una?
+-BORROW-> ¿Prestar?
+
+SURE(Vecino): ¡Eres tan dulce!
+-SUCCESS-> ¡Dulce como el azúcar!
+
+NOPE(Vecino): ...perdón
+-FAILURE-> He perdido varias amistades para conseguir mi reserva de azúcar.
+
+ONE(Vecino): ¿Pues me llevo 5 kilos si te sobra tanto?
+-SUCCESS-> ¡Llévatelos!
+
+BORROW(Vecino): La devolveré
+-SUCCESS-> Oh cierto, solo va a dar su dulce caminata semanal.

@@ -1,0 +1,23 @@
+MAIN(3 perros en una gabardina): ¡Ayuda! ¡Hubo un accidente y necesito tu riñón ya mismo!
+-YES-> ¡Pero claro! Cualquier cosa por mi... Un momento, ¿son tres perros dentro de un abrigo?
+-NO-> ¡Nunca! Jamás daría mis riñones a... Un momento, ¿son tres perros dentro de un abrigo?
+-COAT-> ¡Por supuesto! Yo... Un momento, ¿son tres perros dentro de un abrigo?
+-WHY-> ...¿qué vas a hacer con él?
+
+YES(3 perros en una gabardina): Guau guau, querido vecino. Has superado mi prueba. ¡Que sigas bien, guau!
+-SUCCESS-> ¡Parece que soy el alfa!
+
+NO(3 perros en una gabardina): ¡Guau! ¡Demonios! ¡Fracasamos de nuevo! ¡Buf!
+-SUCCESS-> Mi riñón pasará otro día donde debe estar, dentro de mi pancita.
+
+COAT(3 perros en una gabardina): ¡Parece que estoy ladrando el árbol equivocado!
+-SUCCESS-> Los escritores se disculpan por cualquier complicación mental que esta conversación pueda haber causado.
+
+WHY(3 perros en una gabardina): No... comerlo...
+-FAILURE-> ¡Oh, en ese caso, pues claro! Lo que sea para mi vecino humano.
+-TRYAGAIN-> Explícamelo de nuevo...
+
+TRYAGAIN(3 perros en una gabardina): ¡Necesito tu riñón, nada más! ¡No actúes tan raro, amigo!
+-YES-> ¡Pero claro! Cualquier cosa por mi... Un momento, ¿son tres perros dentro de un abrigo?
+-NO-> ¡Nunca! Jamás daría mis riñones a... Un momento, ¿son tres perros dentro de un abrigo?
+-COAT-> ¡Por supuesto! Yo... Un momento, ¿son tres perros dentro de un abrigo?

@@ -1,0 +1,21 @@
+MAIN(Riley): Hola, soy Riley.
+-COMEIN-> ¡Por favor, entra!
+-DISH-> Has traído un plato para poder entrar, ¿verdad?
+-DONTSEE-> No veo el atractivo.
+
+COMEIN(Riley): ¡Tienes una casa tan bonita!
+-THANKS-> ¡Gracias, fue amueblada por demonios!
+-THANKS-> Bájale un tonito, Riley.
+
+THANKS(Riley): Estoy muy nerviosa.
+-SUCCESS-> Es agradable sentirse superior a un adolescente por una vez.
+
+DISH(Riley): Oh rayos. Oh no. Oh rayos.
+-SUCCESS-> He conseguido poner nerviosa a una adolescente vergonzosa.
+
+DONTSEE(Riley): Uh... bien... ¿la gente me dice que tengo una sonrisa agradable?
+-SUCCESS-> Tomaré tu palabra por ello.
+-SMILE-> Demuéstralo.
+
+SMILE(Riley): *Sonríe incómodamente*
+-SUCCESS-> ¿Honestamente? Radiante.

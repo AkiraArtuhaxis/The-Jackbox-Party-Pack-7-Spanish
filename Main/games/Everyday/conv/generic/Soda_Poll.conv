@@ -1,0 +1,33 @@
+MAIN(Entrevistador): Hola, ¿tienes un momento para hablar de tus preferencias de gaseosa?
+-HAPPY-> Sí, amo las gaseosas y me encantaría hablar sobre ellas.
+-ANGRY-> Las gaseosas me enervan, y tendrás que escuchar mis quejas.
+
+HAPPY(Entrevistador): ¡Maravilloso! ¿Qué es lo que más te gusta de las gaseosas?
+-THANKS-> Las burbujas.
+-THANKS-> La dulzura.
+-THANKS-> Que cualquier hora puede ser hora de tomar gaseosa.
+
+ANGRY(Entrevistador): Oh, de acuerdo, ¿qué es lo que menos te gusta de las gaseosas?
+-THANKS-> Quiero una gaseosa de jamón.
+-THANKS-> Me mareo cuando veo las burbujas.
+-THANKS-> Me gusta estar sediento.
+
+THANKS(Entrevistador): Gracias por compartir su opinión sobre las gaseosas.
+-SUCCESS-> De nada. Ahora debo continuar con mis tareas y elevar la puntuación de mi familia.
+-MOREOPINIONS-> No tan rápido, tengo más opiniones sobre las gaseosas.
+
+MOREOPINIONS(Entrevistador): ¿Estás seguro? ¿No tienes nada mejor que hacer?
+-SUCCESS-> Tienes razón, seguir en esta llamada no me daría ningún punto. Adiós.
+-SODAHOT-> Las gaseosas deberían servirse calientes. Que larguen vapor.
+
+SODAHOT(Entrevistador): Ya conseguí lo que necesito. Déjeme ir por favor.
+-SUCCESS-> Me alegro de haber ayudado al futuro de las gaseosas. Adiós.
+-DONOTDARE-> Ni se te ocurra colgar. Tengo mucho más que decir sobre las gaseosas.
+
+DONOTDARE(Entrevistador): ...
+-MORESODA-> ¡Las gaseosas hacen demasiado ruido! ¡La efervescencia le hace daño a mis oídos!
+-MORESODA-> Las gaseosas son mi tercer líquido favorito, después de la gasolina y el ketchup.
+-MORESODA-> Es solo una idea pero, ¿si se pudieran usar las gaseosas como desodorante?
+
+MORESODA(Entrevistador): *cuelga*
+-SUCCESS-> ¿Hola? ¿Hola? ¿¡Hola?!

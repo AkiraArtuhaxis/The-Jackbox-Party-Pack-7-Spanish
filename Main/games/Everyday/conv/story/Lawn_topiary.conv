@@ -1,0 +1,17 @@
+MAIN(Vecino): ¿Qué se supone que es ese arbusto obsceno?
+-DRAG-> Un ataque de dragón
+-SELF-> Un autoretrato
+-TEST-> Es una prueba de Rorschach
+-DYING-> Ese arbusto está muriendo
+
+DRAG(Vecino): Aterrador.
+-SUCCESS-> Los jueces de jardines solo responden a la fuerza.
+
+SELF(Vecino): ¡Es perfecto!
+-SUCCESS-> Debería ver a un médico
+
+TEST(Vecino): Oh no... ¿Odio a mi madre?
+-SUCCESS-> El jardín me está diciendo que "sí"
+
+DYING(Vecino): Pues me da pena cómo le afectará a su puntaje.
+-SUCCESS-> Y al arbusto

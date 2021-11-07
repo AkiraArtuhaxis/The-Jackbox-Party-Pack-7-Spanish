@@ -1,0 +1,30 @@
+MAIN(Jefe): Buenas tardes.
+-POLITE-> Buenas tardes para usted también, señora.
+-PARK-> No aparcó en la calle, ¿verdad?
+-WRONG-> Lo siento, casa equivocada.
+
+POLITE(Jefe): ¿Dónde puedo poner mi abrigo?
+-TAKECOAT-> ¡Yo lo llevaré!
+-WHOCARES-> A quién le importa.
+-WHOCARES-> Simplemente déjelo en el suelo.
+
+TAKECOAT(Jefe): ¡Gracias!
+-SUCCESS-> ¡Lo estoy haciendo genial!
+
+WHOCARES(Jefe): Um... ¿Iré a colgarlo?
+-SOUNDSGOOD-> ¡Suena bien!
+-WHOCARES2-> HE DICHO QUE A QUIÉN LE IMPORTA.
+
+WHOCARES2(Jefe): Me arrepiento de haber estado de acuerdo con esto.
+-SUCCESS-> No hay manera de saber qué hice mal.
+
+SOUNDSGOOD(Jefe): Genial, supongo.
+-SUCCESS-> ¡Lo estoy haciendo genial!
+
+PARK(Jefe): Sí, ¿es eso malo?
+-WHOCARES2-> Si, tu estúpido coche está bloqueando mi vista de la hermosa calle.
+-TAKECOAT-> Protegeré ese coche con mi vida.
+
+WRONG(Jefe): Pero estoy seguro de que esta es la dirección correcta...
+-WHOCARES2-> Bueno, estoy seguro de que a mi no me importa.
+-POLITE-> ¡Solo bromeo! ¡Bienvenida a nuestro hogar!

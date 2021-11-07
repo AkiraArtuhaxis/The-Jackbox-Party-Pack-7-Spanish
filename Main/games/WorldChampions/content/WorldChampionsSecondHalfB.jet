@@ -1,0 +1,2010 @@
+{
+ "content": [
+  {
+   "contest": "El campeón de dar malas propinas",
+   "gameText": "dar malas propinas",
+   "id": "68684",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los fans de camiones monstruo",
+   "gameText": "los fans de camiones monstruo",
+   "id": "69792",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El campeón de estar embrujado",
+   "gameText": "estar embrujado",
+   "id": "69847",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de masculinidad tóxica",
+   "gameText": "masculinidad tóxica",
+   "id": "70184",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de estar drogado",
+   "gameText": "estar drogado",
+   "id": "70365",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de ser secretamente un gran amante",
+   "gameText": "ser secretamente un gran amante",
+   "id": "70366",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los futuros líderes mundiales",
+   "gameText": "los futuros líderes mundiales",
+   "id": "70367",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de recibir una paliza",
+   "gameText": "recibir una paliza",
+   "id": "70368",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de aparecer en tus pesadillas",
+   "gameText": "aparecer en tus pesadillas",
+   "id": "70369",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de no tener piedad",
+   "gameText": "no tener piedad",
+   "id": "70371",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de Hot Topic",
+   "gameText": "Hot Topic",
+   "id": "70479",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El campeón de dejar la universidad",
+   "gameText": "dejar la universidad",
+   "id": "70515",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de esforzarse de más",
+   "gameText": "esforzarse de más",
+   "id": "71291",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de \"Denle like y suscríbanse\"",
+   "gameText": "\"Denle like y suscríbanse\"",
+   "id": "71336",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de no calar una",
+   "gameText": "no calar una",
+   "id": "71351",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de chu chu aquí viene el tren",
+   "gameText": "chu chu aquí viene el tren",
+   "id": "71623",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de la sección de comentarios",
+   "gameText": "la sección de comentarios",
+   "id": "71760",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tener esqueletos en su clóset",
+   "gameText": "tener esqueletos en su clóset",
+   "id": "71807",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    ""
+   ],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de películas adultas",
+   "gameText": "películas adultas",
+   "id": "71816",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de ansiedad en el acto",
+   "gameText": "ansiedad en el acto",
+   "id": "71823",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de ser grosero en el servidor",
+   "gameText": "ser groser en el servidor",
+   "id": "71825",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de Poor Life Choices",
+   "gameText": "Poor Life Choices",
+   "id": "71833",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de negligencia médica",
+   "gameText": "negligencia médica",
+   "id": "71839",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de imprudencia temeraria",
+   "gameText": "imprudencia temeraria",
+   "id": "71841",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de entrevistas de trabajo",
+   "gameText": "entrevistas de trabajo",
+   "id": "71844",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser dueño de ropa de Piolín",
+   "gameText": "ser dueño de ropa de Piolín",
+   "id": "71845",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de cuidado de niños progresivo",
+   "gameText": "cuidado de niños progresivo",
+   "id": "71849",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de fiestas electrónicas",
+   "gameText": "fiestas electrónicas",
+   "id": "71853",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los políticos",
+   "gameText": "los políticos",
+   "id": "71858",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tránsito público",
+   "gameText": "tránsito público",
+   "id": "71861",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de quiero hablar con el gerente",
+   "gameText": "quiero hablar con el gerente",
+   "id": "71877",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de robar a tu amante",
+   "gameText": "robar a tu amante",
+   "id": "71879",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de consejeros de campamento",
+   "gameText": "consejeros de campamento",
+   "id": "71881",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de personajes de <i>La Ley y el Órden</i> que vieron un crimen",
+   "gameText": "personajes de <i>La Ley y el Órden</i> que vieron un crime",
+   "id": "71883",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de las quemaduras de sol",
+   "gameText": "las quemaduras de sol",
+   "id": "71895",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser el primero en ser sacrificado",
+   "gameText": "ser el primero en ser sacrificado",
+   "id": "71907",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de calentar las cosas en el dormitorio",
+   "gameText": "calentar las cosas en el dormitorio",
+   "id": "71909",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los animadores de cumpleaños",
+   "gameText": "los animadores de cumpleaños",
+   "id": "71917",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los objetos celestiales",
+   "gameText": "los objetos celestiales",
+   "id": "71943",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de estar a punto de explotar",
+   "gameText": "estar a punto de explotar",
+   "id": "71944",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tener una familia distanciada",
+   "gameText": "tener una familia distanciada",
+   "id": "71972",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El campeón de Thirst Traps",
+   "gameText": "Thirst Traps",
+   "id": "71978",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los maestros sustitutos",
+   "gameText": "los maestros sustitutos",
+   "id": "71984",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de seguir viviendo con sus padres",
+   "gameText": "seguir viviendo con sus padres",
+   "id": "71988",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser comido por un monstruo",
+   "gameText": "ser comido por un monstruo",
+   "id": "72006",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de acaparar el baño",
+   "gameText": "acaparar el baño",
+   "id": "72011",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El campeón de amantes con tacto",
+   "gameText": "amantes con tacto",
+   "id": "72015",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de producir fluidos",
+   "gameText": "producir fluidos",
+   "id": "72017",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de las caras golpeables",
+   "gameText": "las caras golpeables",
+   "id": "72019",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de estar embrujado",
+   "gameText": "estar embrujado",
+   "id": "72025",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser muy ardiente para tocar",
+   "gameText": "ser muy ardiente para tocar",
+   "id": "72029",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de las relaciones",
+   "gameText": "las relaciones",
+   "id": "72050",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de las peleas de cosquillas",
+   "gameText": "las peleas de cosquillas",
+   "id": "72052",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los convictos escapados",
+   "gameText": "los convictos escapados",
+   "id": "72056",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de ser incomprendido",
+   "gameText": "ser incomprendido",
+   "id": "72074",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ponerse a bailar",
+   "gameText": "ponerse a bailar",
+   "id": "72115",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de estar apenas resistiendo",
+   "gameText": "estar apenas resistiendo",
+   "id": "72152",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de las rupturas instantáneas",
+   "gameText": "las rupturas instantáneas",
+   "id": "72156",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de obtener su fibra diaria",
+   "gameText": "obtener su fibra diaria",
+   "id": "72158",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tenerlo todo",
+   "gameText": "tenerlo todo",
+   "id": "72210",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los inodoros tapados",
+   "gameText": "los inodoros tapados",
+   "id": "72217",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de saber terrible",
+   "gameText": "saber terrible",
+   "id": "72231",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de morir en el inodoro",
+   "gameText": "morir en el inodoro",
+   "id": "72265",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de la pubertad",
+   "gameText": "la pubertad",
+   "id": "72270",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de ser horripilante si cantara una canción de cuna",
+   "gameText": "ser horripilante si cantara una canción de cuna",
+   "id": "72274",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de que todos le estén juzgando",
+   "gameText": "que todos le estén juzgando",
+   "id": "72299",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de deber $100.000",
+   "gameText": "deber $100.000",
+   "id": "72303",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de PBS",
+   "gameText": "PBS",
+   "id": "72316",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El campeón de ser despedido un lunes",
+   "gameText": "ser despedido un lunes",
+   "id": "72320",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de nunca pasar de la primera cita",
+   "gameText": "nunca pasar de la primera cita",
+   "id": "72326",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de Craigslist",
+   "gameText": "Craigslist",
+   "id": "72331",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tener sed de sangre",
+   "gameText": "tener sed de sangre",
+   "id": "72334",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de no tener personalidad",
+   "gameText": "no tener personalidad",
+   "id": "72339",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los futuros graduados en teatro",
+   "gameText": "los futuros graduados en teatro",
+   "id": "72342",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los animadores infantiles",
+   "gameText": "los animadores infantiles",
+   "id": "72371",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de perder la custodia",
+   "gameText": "perder la custodia",
+   "id": "72381",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los perfiles de citas",
+   "gameText": "los perfiles de citas",
+   "id": "72444",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de roles de Paul Giamatti",
+   "gameText": "roles de Paul Giamatti",
+   "id": "72470",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El campeón de la obra de teatro escolar",
+   "gameText": "la obra de teatro escolar",
+   "id": "72484",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de prender fuego las cosas",
+   "gameText": "prender fuego las cosas",
+   "id": "72519",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de intoxicarse con comida",
+   "gameText": "intoxicarse con comida",
+   "id": "72540",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de causar la extinción de la humanidad",
+   "gameText": "causar la extinción de la humanidad",
+   "id": "72541",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los jefes encubiertos",
+   "gameText": "jefes encubiertos",
+   "id": "72572",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser secretamente un asesino",
+   "gameText": "ser secretamente un asesino",
+   "id": "72655",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de espiar en los vestuarios",
+   "gameText": "espiar en los vestuarios",
+   "id": "72662",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de necesitar una ducha",
+   "gameText": "necesitar una ducha",
+   "id": "72668",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de hablar en público",
+   "gameText": "hablar en público",
+   "id": "72672",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser dulce una vez que lo conoces",
+   "gameText": "ser dulce una vez que lo conoces",
+   "id": "72684",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de \"Quémenlo con fuego\"",
+   "gameText": "\"Quémenlo con fuego\"",
+   "id": "72691",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser una carga para la sociedad",
+   "gameText": "ser una carga para la sociedad",
+   "id": "72695",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de llorar en la ducha",
+   "gameText": "llorar en la ducha",
+   "id": "72743",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    ""
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser cancelado",
+   "gameText": "ser cancelado",
+   "id": "72892",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los aliens ocultos",
+   "gameText": "los aliens ocultos",
+   "id": "72896",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los fans de K-Pop",
+   "gameText": "los fans de K-Pop",
+   "id": "72897",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    ""
+   ],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los androides",
+   "gameText": "los androides",
+   "id": "72900",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de \"¿Quién?\"",
+   "gameText": "\"¿Quién?\"",
+   "id": "72902",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de cómo te verás en 5 años",
+   "gameText": "cómo te verás en 5 años",
+   "id": "72913",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de perderse en Ikea",
+   "gameText": "perderse en Ikea",
+   "id": "72951",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los esquemas Ponzi",
+   "gameText": "los esquemas Ponzi",
+   "id": "72955",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los operativos encubiertos de la CIA",
+   "gameText": "los operativos encubiertos de la CIA",
+   "id": "72957",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón del inodoro",
+   "gameText": "el inodoro",
+   "id": "72959",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de hurgar en la basura de Justin Timberlake",
+   "gameText": "hurgar en la basura de Justin Timberlake",
+   "id": "72993",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los suegros",
+   "gameText": "los suegros",
+   "id": "73044",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de la información secreta",
+   "gameText": "la información secreta",
+   "id": "73045",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de la nutrición",
+   "gameText": "la nutrición",
+   "id": "73111",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de hackear la computadora central",
+   "gameText": "hackear la computadora central",
+   "id": "73152",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de violar los convenios de Ginebra",
+   "gameText": "violar los convenios de Ginebra",
+   "id": "73177",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de la deuda por préstamos estudiantiles",
+   "gameText": "la deuda por préstamos estudiantiles",
+   "id": "73316",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los monstruos incomprendidos",
+   "gameText": "los monstruos incomprendidos",
+   "id": "73322",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de múltiples demandas pendientes",
+   "gameText": "múltiples demandas pendientes",
+   "id": "73339",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de discutir sobre cupones caducados",
+   "gameText": "discutir sobre cupones caducados",
+   "id": "73362",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de no ser invitado a la boda",
+   "gameText": "no ser invitado a la boda",
+   "id": "73884",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los antepasados",
+   "gameText": "los antepasados",
+   "id": "73888",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de engañar",
+   "gameText": "engañar",
+   "id": "73917",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de la conferencia internacional de contabilidad",
+   "gameText": "la conferencia internacional de contabilidad",
+   "id": "73927",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los problemas con la ira",
+   "gameText": "los problemas con la ira",
+   "id": "73939",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de las visitas frecuentes a la sala de emergencias",
+   "gameText": "las visitas frecuentes a la sala de emergencias",
+   "id": "73940",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de las ventas de liquidación de Halloween",
+   "gameText": "las ventas de liquidación de Halloween",
+   "id": "73943",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de Pelted With Rotten Tomatoes ",
+   "gameText": "Getting Pelted With Rotten Tomatoes",
+   "id": "73976",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los monoambientes",
+   "gameText": "los monoambientes",
+   "id": "73991",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los juguetes populares",
+   "gameText": "los juguetes populares",
+   "id": "73993",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de Match.com",
+   "gameText": "Match.com",
+   "id": "74000",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los dibujos animados políticos",
+   "gameText": "los dibujos animados políticos",
+   "id": "74008",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de la cena de acción de gracias",
+   "gameText": "la cena de acción de gracias",
+   "id": "74057",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El campeón de hablar sin parar en una fiesta",
+   "gameText": "hablar sin parar en una fiesta",
+   "id": "74059",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de la lista 30 debajo de 30 años",
+   "gameText": "la lista 30 debajo de 30 años",
+   "id": "74094",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de estar viviendo la buena vida",
+   "gameText": "estar viviendo la buena vida",
+   "id": "74104",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de presentar un infomercial para hipotecas",
+   "gameText": "presentar un infomercial para hipotecas",
+   "id": "74118",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de \"¿Sabes quién es mi papá?\"",
+   "gameText": "\"¿Sabes quién es mi papá?\"",
+   "id": "74142",
+   "includesPlayerName": false,
+   "linkedPrompts": [
+    ""
+   ],
+   "us": true,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tratar desesperadamente de salvar su matrimonio",
+   "gameText": "tratar desesperadamente de salvar su matrimonio",
+   "id": "74145",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de decepcionar a su pareja",
+   "gameText": "decepcionar a su pareja",
+   "id": "74264",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de las especies en peligro de extinción",
+   "gameText": "las especies en peligro de extinción",
+   "id": "74360",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de amanecer así",
+   "gameText": "amanecer así",
+   "id": "74366",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de la llamada de Zoom",
+   "gameText": "la llamada de Zoom",
+   "id": "74368",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de drama en reality shows",
+   "gameText": "drama en reality shows",
+   "id": "74634",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los videos virales vergonzosos",
+   "gameText": "los videos virales vergonzosos",
+   "id": "74636",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de hacerse el flequillo después de una ruptura",
+   "gameText": "hacerse el flequillo después de una ruptura",
+   "id": "74638",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de intentos fallidos de clonar a Brad Pitt",
+   "gameText": "intentos fallidos de clonar a Brad Pitt",
+   "id": "74640",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de darle me gusta a cada una de tus fotos de vacaciones",
+   "gameText": "darle me gusta a cada una de tus fotos de vacaciones",
+   "id": "74642",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de teatro comunitario",
+   "gameText": "teatro comunitario",
+   "id": "74644",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de vender aceites esenciales",
+   "gameText": "vender aceites esenciales",
+   "id": "74646",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de estar emocionalmente atrofiado",
+   "gameText": "estar emocionalmente atrofiado",
+   "id": "74648",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El campeón de caer en estafas obvias",
+   "gameText": "caer en estafas obvias",
+   "id": "74650",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de invitarse solo",
+   "gameText": "invitarse solo",
+   "id": "74652",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de las auras poderosas",
+   "gameText": "las auras poderosas",
+   "id": "74654",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de su único crimen fue amar demasiado",
+   "gameText": "su único crimen fue amar demasiado",
+   "id": "74656",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de Pinterest",
+   "gameText": "Pinterest",
+   "id": "74658",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de decepcionar a su madre",
+   "gameText": "decepcionar a su madre",
+   "id": "74660",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de oler como desodorante de Axe",
+   "gameText": "oler como desodorante de Axe",
+   "id": "74662",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de planear tu perdición",
+   "gameText": "planear tu perdición",
+   "id": "74664",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de tener mucha Mountain Dew",
+   "gameText": "tener mucha Mountain Dew",
+   "id": "74666",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser necesitado",
+   "gameText": "ser necesitado",
+   "id": "74668",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de necesitar un consejero de carrera",
+   "gameText": "necesitar un consejero de carrera",
+   "id": "74670",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de hacer el proyecto de grupo por sí mismo",
+   "gameText": "hacer el proyecto de grupo por sí mismo",
+   "id": "74672",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser chupado por una máquina",
+   "gameText": "ser chupado por una máquina",
+   "id": "74674",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser atacado por un ganzo",
+   "gameText": "ser atacado por un ganzo",
+   "id": "74676",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los objetivos para la revolución",
+   "gameText": "los objetivos para la revolución",
+   "id": "74678",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de tener su brazo atascado en una máquina expendedora",
+   "gameText": "tener su brazo atascado en una máquina expendedora",
+   "id": "74680",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tener mascotas exóticas",
+   "gameText": "tener mascotas exóticas",
+   "id": "74682",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de no va a envejecer bien",
+   "gameText": "no va a envejecer bien",
+   "id": "74684",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de cuentas de Twitter baneadas",
+   "gameText": "cuentas de Twitter baneadas",
+   "id": "74686",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de orinar en la piscina",
+   "gameText": "orinar en la piscina",
+   "id": "74688",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los guiones a medio terminar",
+   "gameText": "los guiones a medio terminar",
+   "id": "74690",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de inpsirar una película nominada al Oscar",
+   "gameText": "inpsirar una película nominada al Oscar",
+   "id": "74692",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de ser perseguido por un granjero con una escopeta",
+   "gameText": "ser perseguido por un granjero con una escopeta",
+   "id": "74694",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de Airheads",
+   "gameText": "Airheads",
+   "id": "74702",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de Going Down in a Blaze of Glory (caer gloriosamente)",
+   "gameText": "Going Down in a Blaze of Glory (caer gloriosamente)",
+   "id": "74704",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El campeón de cruzar mal la calle",
+   "gameText": "cruzar mal la calle",
+   "id": "74706",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de recolectar piezas de muñecas",
+   "gameText": "recolectar piezas de muñecas",
+   "id": "74708",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de tener una hermosa voz para cantar",
+   "gameText": "tener una hermosa voz para cantar",
+   "id": "74710",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de las noticias de ayer",
+   "gameText": "las noticias de ayer",
+   "id": "74712",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de no mantener un trabajo de tiempo completo",
+   "gameText": "no mantener un trabajo de tiempo completo",
+   "id": "74714",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tener exactamente tres amigos",
+   "gameText": "tener exactamente tres amigos",
+   "id": "74716",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los divorcios",
+   "gameText": "los divorcios",
+   "id": "74724",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los sábados por la noche",
+   "gameText": "los sábados por la noche",
+   "id": "74727",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de estar a punto de explotar",
+   "gameText": "estar a punto de explotar",
+   "id": "74729",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de desanimar a todos",
+   "gameText": "desanimar a todos",
+   "id": "74731",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los espías encubiertos",
+   "gameText": "los espías encubiertos",
+   "id": "74733",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de la cultura juvenil",
+   "gameText": "la cultura juvenil",
+   "id": "74735",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser el héroe que esta ciudad necesita",
+   "gameText": "ser el héroe que esta ciudad necesita",
+   "id": "74739",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tener miedo al compromiso",
+   "gameText": "tener miedo al compromiso",
+   "id": "74741",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de los tatuajes ocultos",
+   "gameText": "los tatuajes ocultos",
+   "id": "74743",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de borrar su historial de navegador",
+   "gameText": "borrar su historial de navegador",
+   "id": "74746",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de sábanas de cama asquerosas",
+   "gameText": "sábanas de cama asquerosas",
+   "id": "74747",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de juego en línea",
+   "gameText": "juego en línea",
+   "id": "74751",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser el elegido",
+   "gameText": "ser el elegido",
+   "id": "74831",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón del año sabático",
+   "gameText": "el año sabático",
+   "id": "74833",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": true,
+   "x": true
+  },
+  {
+   "contest": "El campeón del grupo de vigilancia comunitaria",
+   "gameText": "el grupo de vigilancia comunitaria",
+   "id": "74835",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de que le muestren órdenes de búsqueda",
+   "gameText": "que le muestren órdenes de búsqueda",
+   "id": "74837",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de adoptar un acento después de una semana en el extranjero",
+   "gameText": "adoptar un acento después de una semana en el extranjero",
+   "id": "74840",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de mostrar positividad corporal",
+   "gameText": "mostrar positividad corporal",
+   "id": "74845",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de capturar el Zeitgeist",
+   "gameText": "capturar el Zeitgeist",
+   "id": "74850",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón del Mile High Club",
+   "gameText": "el Mile High Club",
+   "id": "74852",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de la autopromoción descarada",
+   "gameText": "la autopromoción descarada",
+   "id": "74948",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de la majestad imponente",
+   "gameText": "la majestad imponente",
+   "id": "74952",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de estar a punto de enloquecer ",
+   "gameText": "estar a punto de enloquecer",
+   "id": "74953",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de ser el sujeto de un documental",
+   "gameText": "ser el sujeto de un documental",
+   "id": "74959",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de descontrol público",
+   "gameText": "descontrol público",
+   "id": "74965",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de comercio de niveles múltiples",
+   "gameText": "comercio de niveles múltiples",
+   "id": "74969",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los vecinos locos de al lado",
+   "gameText": "los vecinos locos de al lado",
+   "id": "75614",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de la sala de espera",
+   "gameText": "la sala de espera",
+   "id": "75616",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los vendedores de tiempo compartido",
+   "gameText": "los vendedores de tiempo compartido",
+   "id": "75618",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de merecer su propio muñeco Funko",
+   "gameText": "merecer su propio muñeco Funko",
+   "id": "75620",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de pedir papas fritas para la mesa",
+   "gameText": "pedir papas fritas para la mesa",
+   "id": "75622",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de las listas de contactos de emergencia",
+   "gameText": "las listas de contactos de emergencia",
+   "id": "75625",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de Bitcoin",
+   "gameText": "Bitcoin",
+   "id": "75627",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los resorts de playa",
+   "gameText": "los resorts de playa",
+   "id": "76007",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de cazar humanos por deporte",
+   "gameText": "cazar humanos por deporte",
+   "id": "76009",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón de 2030",
+   "gameText": "2030",
+   "id": "76011",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tener opiniones sólidas sobre anime",
+   "gameText": "tener opiniones sólidas sobre anime",
+   "id": "76013",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de llamar a su mamá por su nombre",
+   "gameText": "llamar a su mamá por su nombre",
+   "id": "76015",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los superpoderes inútiles",
+   "gameText": "los superpoderes inútiles",
+   "id": "76017",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de evadir el gobierno",
+   "gameText": "evadir el gobierno",
+   "id": "76021",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de sobrepasar su bienvenida",
+   "gameText": "sobrepasar su bienvenida",
+   "id": "76023",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los estudios científicos",
+   "gameText": "los estudios científicos",
+   "id": "76025",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de despedazar las habitaciones de hotel",
+   "gameText": "despedazar las habitaciones de hotel",
+   "id": "76027",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de tirar su celular al inodoro",
+   "gameText": "tirar su celular al inodoro",
+   "id": "76029",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de los entrenadores de vida",
+   "gameText": "los entrenadores de vida",
+   "id": "76031",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de necesitar bajar un cambio",
+   "gameText": "necesitar bajar un cambio",
+   "id": "76033",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón de necesitar un humectante",
+   "gameText": "necesitar un humectante",
+   "id": "76096",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": true
+  },
+  {
+   "contest": "El campeón del baño de Starbucks",
+   "gameText": "el baño de Starbucks",
+   "id": "76098",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  },
+  {
+   "contest": "El campeón del nivel del jefe",
+   "gameText": "el nivel del jefe",
+   "id": "76100",
+   "includesPlayerName": false,
+   "linkedPrompts": [],
+   "us": false,
+   "x": false
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+MAIN(Subdirector): ¿Por qué no vas a ir a la escuela?
+-FUNERAL-> El funeral de mi abuelo
+-MINOR-> Me realizarán una pequeña cirugía
+-MAJOR-> Me realizarán una cirugía de gravedad
+-SURGERY-> Voy a realizar una cirugía amateur
+
+FUNERAL(Subdirector): ¿Cuántos abuelos tienes?
+-SUCCESS-> A este lo vengo usando 5 veces, ¡pero siempre funciona!
+
+MINOR(Subdirector): ¡Oh, buena suerte!
+-SUCCESS-> Espero recibir una canasta de frutas.
+
+MAJOR(Subdirector): ¡Oh, muy buena suerte!
+-SUCCESS-> Espero recibir una gran canasta de frutas.
+
+SURGERY(Subdirector): Suena ilegal, pero no me pagan por involucrarme en la vida de mis estudiantes, por lo qué no preguntaré nada.
+-SUCCESS-> ¡Viva la apatía institucional!

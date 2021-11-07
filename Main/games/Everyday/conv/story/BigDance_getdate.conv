@@ -1,0 +1,17 @@
+MAIN(Estudiante): No... No tengo una cita para el baile. ¿Por qué preguntas?
+-WANT-> ¿Quieres ir conmigo?
+-GROUP-> ¡Únete a nuestro grupo!
+-MOCK-> Vayamos a burlarnos de los demás.
+-SURVEY-> Estoy haciendo una encuesta. Ni siquiera voy a ir.
+
+SURVEY(Estudiante): Oh, okey.
+-SUCCESS-> Ahora tengo que llamar a toda mi clase para que mi historia sea creíble.
+
+WANT(Estudiante): ¡Dale! ¡Suena divertido!
+-SUCCESS-> Un momento. ¿Encarar a las personas cara a cara funciona?
+
+GROUP(Estudiante): Sí... oh. de acuerdo.
+-SUCCESS-> Quizás apunté demasiado bajo
+
+MOCK(Estudiante): ¡Me encanta odiar otras cosas!
+-SUCCESS-> ¡Haremos de esta noche la más odiable de la historia!

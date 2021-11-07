@@ -1,0 +1,26 @@
+MAIN(Abuela): ¿Qué?
+-POLITE-> ¡Hola abuela! ¿Estás disfrutando de tu cumpleaños?
+-OLD-> Entonces, ¿cómo se siente tener 666 años?
+-INSULT-> ¿Aún con vida, saco de huesos?
+
+POLITE(Abuela): ¡No! ¡Hace demasiado frío! ¿Dónde está la sopa que me gusta? ¡En mis tiempos, existía algo llamado respeto!
+-RANT2-> Bueno, yo...
+-RANT2-> ¿Sopa?
+-INSULT-> En tus tiempos, Lucifer usaba pañales.
+
+RANT2(Abuela): ¡Ya nadie se viste bien para ir al aeropuerto! ¡La televisión está haciendo a los jóvenes demasiado sensibles! ¡Vota por Ike!
+-RANT3-> En realidad, eso no es...
+-RANT3-> Ike nos trajo las carreteras...
+-INSULT-> Tienes olor a patas, abuela.
+
+RANT3(Abuela): ¡Los bailes de hoy en día son demasiado obscenos! ¡En mis tiempos no era necesario un huevo para hacer un pastel instantáneo! Exijo planes sociales, ¡pero solo cuando me benefician a mi personalmente!
+-POLITE-> Claro, pero aparte de eso, ¿todo bien?
+-SUCCESS-> (Retrocede silenciosamente y considera esto un éxito)
+
+OLD(Abuela): ¡Terrible! ¡Me duele la espalda! ¡Mis dientes están llenos de agujeros! ¡Mis cuernos están frágiles y tembleques! ¡La suciedad de mis ojos hace que un lado de mi cabeza pese más que el otro!
+-RANT2-> Ehm, siento escuchar eso.
+-INSULT-> Oh, a nadie le importa.
+
+INSULT(Abuela): ¡¿Qué dijiste?!
+-RANT2-> Dije, ¡cuéntame más sobre todas tus maravillosas y aburridas quejas!
+-SUCCESS-> Olvídalo, me voy a buscar algo de pastel.

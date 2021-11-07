@@ -1,0 +1,17 @@
+MAIN(Tío Gorbo): Bueno familia, ¿qué hacemos ahora?
+-LATE-> Se está haciendo tarde...
+-RACE-> ¡Carrera a tu casa!
+-HIDE-> ¿Jugamos a las escondidas eternas?
+-OTHER-> Deberíamos buscar otras familias.
+
+LATE(Tío Gorbo): ¡De acuerdo! ¡Me quedaré a pasar la noche!
+-SUCCESS-> Supongo que dormiré en la bañera
+
+RACE(Tío Gorbo): ¡Espera que voy a estirar un poco!
+-SUCCESS-> Esto podría funcionar...
+
+HIDE(Tío Gorbo): ¡Espera que voy a estirar un poco!
+-SUCCESS-> Esto podría funcionar...
+
+OTHER(Tío Gorbo): ¡Pero si ya tengo la mejor!
+-SUCCESS-> ¡Maldita molestia amigable!

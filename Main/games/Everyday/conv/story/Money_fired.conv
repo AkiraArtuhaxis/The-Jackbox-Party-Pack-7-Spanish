@@ -1,0 +1,17 @@
+MAIN(Gerente): ¿Por qué perdiste tu turno?
+-CAR-> ¿Tuve problemas con el auto...?
+-TIME-> ¿Se dio el cambio de horario...?
+-WOLF-> ¿Estaba escapando de lobos salvajes...?
+-LIKE-> ¿No me gusta trabajar...?
+
+CAR(Gerente): Respeto tu honestidad, pero estás despedido.
+-SUCCESS-> ...entendible.
+
+TIME(Gerente): Respeto tu honestidad, pero estás despedido.
+-SUCCESS-> ... entendible.
+
+WOLF(Niños): Es muy obvio que estás mintiendo... ¡estás despedido!
+-SUCCESS-> ¡Como quieras! ¡Deja que ganen los lobos!
+
+LIKE(Niños): ¡Buenas noticias! ¡No vas a tener que hacerlo nunca más!
+-SUCCESS-> ...¿Seguirán pagándome, verdad?

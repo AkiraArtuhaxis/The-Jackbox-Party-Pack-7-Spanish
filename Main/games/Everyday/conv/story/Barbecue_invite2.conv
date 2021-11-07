@@ -1,0 +1,17 @@
+MAIN(Carnicero): ¿Hay lugar para uno más?
+-COURSE-> ¡Pero claro!
+-FAMILY-> Es solo para la familia.
+-CHAIRS-> No tenemos más sillas.
+-NOT-> Sí, pero no para tí.
+
+COURSE(Carnicero): ¡Genial! Llevaré a mis hijos.
+-SUCCESS-> El patio se está llenando...
+
+FAMILY(Carnicero): Entiendo.
+-SUCCESS-> ¡Olvídalo, puedes entrar!
+
+CHAIRS(Carnicero): Me puedo sentar en el piso.
+-SUCCESS-> ¡De acuerdo, puedes venir!
+
+NOT(Carnicero): ¿Puedo dejar a mis hijos?
+-SUCCESS->...bueno.

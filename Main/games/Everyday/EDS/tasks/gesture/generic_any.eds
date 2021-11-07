@@ -1,0 +1,2054 @@
+REM : Generic tasks that can be used for most episodes
+
+REM : Channel Surf
+
+CLONE DEED "QuickTap5" "Flip1"
+    SET INSTRUCTIONS "Haz zapping por los canales"
+END
+
+CLONE DEED "QuickTap5" "Flip2"
+    SET INSTRUCTIONS "¡Mas rapido, tonto!"
+END
+
+CLONE DEED "Nothing3" "Watch"
+    SET INSTRUCTIONS "Mira fijamente la televisión"
+    SET PARTICIPATION "SOLO"
+END
+
+DEF TASK "ChannelSurf"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET NAME "Surfeando canales"
+    SET THEME "RECREATION"
+    SET CATEGORY "LOW"
+    
+    STEP "1" "Flip1"
+    STEP "2" "Flip2"
+    STEP "3" "Watch"
+    
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Change Batteries in Remote
+
+CLONE DEED "Rotate180Counter" "UnscrewSD"
+    SET INSTRUCTIONS "Desatornilla el detector de humo"
+END
+
+CLONE DEED "Tap2" "StealBatteries"
+    SET INSTRUCTIONS "Roba baterías AA"
+END
+
+CLONE DEED "SwipeDown" "InsertBatteries"
+    SET INSTRUCTIONS "Inserta las baterías en el control remoto de la TV"
+END
+
+CLONE DEED "Tap1" "TurnOnTV"
+    SET INSTRUCTIONS "Enciende la TV"
+END
+
+DEF TASK "ChangeBatteriesRemote"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET NAME "Cambiar las pilas del control remoto del televisor"
+    SET THEME "FIXING"
+
+    STEP "1" "UnscrewSD"
+    STEP "2" "StealBatteries"
+    STEP "3" "InsertBatteries"
+    STEP "4" "TurnOnTV"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Flush the goldfish
+
+CLONE DEED "SwipeBase" "ScoopFish"
+    SET INSTRUCTIONS "Recoge el pescado resbaladizo"
+    SET DIRECTION "UP,LEFT,RIGHT,UP,UP"
+END
+
+CLONE DEED "Hold3" "CarryFish"
+    SET INSTRUCTIONS "Lleva al Sr. Burbujas al baño"
+END
+
+CLONE DEED "Tap1" "TossFish"
+    SET INSTRUCTIONS "Tira al Sr. Burbujas en el inodoro"
+END
+
+CLONE DEED "Nothing3" "Prayer"
+    SET INSTRUCTIONS "Detente por un momento de silencio"
+    SET PARTICIPATION "SOLO"
+END
+
+CLONE DEED "Rotate360" "FinalFlush"
+    SET INSTRUCTIONS "Deja que el inodoro se lleve a Mr. Burbujas"
+END
+
+DEF TASK "FlushFish"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET NAME "Celebra un funeral para el pez dorado muerto"
+    SET THEME "BATHROOM"
+    SET CATEGORY "MEDIUM"
+    SET LEWD TRUE
+    
+    STEP "1" "ScoopFish"
+    STEP "2" "CarryFish"
+    STEP "3" "TossFish"
+    STEP "4" "Prayer"
+    STEP "5" "FinalFlush"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+
+REM : Clean the house
+
+CLONE DEED "Tap5" "PickUpClothes"
+    SET INSTRUCTIONS "Recoge la ropa sucia"
+END
+
+CLONE DEED "SwipeBase" "Clutter"
+    SET INSTRUCTIONS "Elimina el desorden de los mostradores"
+    SET DIRECTION "LEFT,LEFT,LEFT,RIGHT,RIGHT,DOWN"
+END
+
+CLONE DEED "Hold5" "Vacuum"
+    SET INSTRUCTIONS "Aspira la alfombra"
+END
+
+CLONE DEED "Rotate360Counter" "WindCord"
+    SET INSTRUCTIONS "Enrolla el cable"
+END
+
+DEF TASK "CleanHouse"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET NAME "Limpia la casa"
+    SET THEME "CLEANING"
+    SET CATEGORY "MEDIUM"
+    
+    STEP "1" "PickUpClothes"
+    STEP "2" "Clutter"
+    STEP "3" "Vacuum"
+    STEP "4" "WindCord"
+    
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Clean The Gutters
+
+CLONE DEED "Rotate1080" "GutterStep1"
+    SET INSTRUCTIONS "Subir escalera"
+END
+
+CLONE DEED "SwipeBase" "GutterStep2"
+    SET INSTRUCTIONS "Quita las hojas"
+    SET DIRECTION "LEFT,LEFT,LEFT,LEFT"
+END
+
+CLONE DEED "Hold2" "GutterStep3"
+    SET INSTRUCTIONS "¡Cuidado! ¡Quédate quieto o te caerás!"
+END
+
+CLONE DEED "SwipeBase" "GutterStep4"
+    SET INSTRUCTIONS "Retira el resto de las hojas."
+    SET DIRECTION "LEFT,LEFT,LEFT,LEFT"
+END
+
+DEF TASK "CleanTheGutters"
+    SET NAME "Limpiar las canaletas"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "YARD_WORK"
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "GutterStep1"
+    STEP "Step2" "GutterStep2"
+    STEP "Step3" "GutterStep3"
+    STEP "Step4" "GutterStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+
+REM : Wash The Dishes 1
+
+CLONE DEED "ScrubMedium" "Dish1Step1"
+    SET INSTRUCTIONS "Friega los platos"
+END
+
+CLONE DEED "Rotate360Counter" "Dish1Step2"
+    SET INSTRUCTIONS "Seca a esos chicos malos"
+END
+
+CLONE DEED "Tap3" "Dish1Step3"
+    SET INSTRUCTIONS "Tíralos en alguna parte"
+END
+
+DEF TASK "WashDishes1"
+    SET NAME "Lava los platos"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+
+    STEP "Step1" "Dish1Step1"
+    STEP "Step2" "Dish1Step2"
+    STEP "Step3" "Dish1Step3"
+ 
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+REM : Wash The Dishes 2
+
+CLONE DEED "ScrubMedium" "Dish2Step1"
+    SET INSTRUCTIONS "Friega los platos"
+END
+
+CLONE DEED "ScrubLong" "Dish2Step2"
+    SET INSTRUCTIONS "Hay una mancha muy obstinada"
+END
+
+CLONE DEED "Rotate360Counter" "Dish2Step3"
+    SET INSTRUCTIONS "¡Así esta bien! Sécalos"
+END
+
+CLONE DEED "Tap3" "Dish2Step4"
+    SET INSTRUCTIONS "Guardalos"
+END
+
+DEF TASK "WashDishes2"
+    SET NAME "Lava los platos"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+
+    STEP "Step1" "Dish2Step1"
+    STEP "Step2" "Dish2Step2"
+    STEP "Step3" "Dish2Step3"
+    STEP "Step4" "Dish2Step4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+REM : Wash The Dishes 3
+
+CLONE DEED "ScrubMedium" "Dish3Step1"
+    SET INSTRUCTIONS "Friega los platos"
+END
+
+CLONE DEED "ScrubLong" "Dish3Step2"
+    SET INSTRUCTIONS "Hay una mancha muy obstinada"
+END
+
+CLONE DEED "ScrubXLong" "Dish3Step3"
+    SET INSTRUCTIONS "NO. SE. QUIERE. ¡¡¡SALIR!!!"
+END
+
+CLONE DEED "Rotate360Counter" "Dish3Step4"
+    SET INSTRUCTIONS "¡Olvídalo! ¡Sécalos!"
+END
+
+CLONE DEED "Tap3" "Dish3Step5"
+    SET INSTRUCTIONS "¡Escóndelos en alguna parte!"
+END
+
+DEF TASK "WashDishes3"
+    SET NAME "Lava los platos"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "HIGH"
+
+    STEP "Step1" "Dish3Step1"
+    STEP "Step2" "Dish3Step2"
+    STEP "Step3" "Dish3Step3"
+    STEP "Step4" "Dish3Step4"
+    STEP "Step5" "Dish3Step5"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" SUCCESS FAILURE
+END
+
+
+REM : Mess with Thermostat
+
+CLONE DEED "Rotate360" "Thermo1"
+    SET INSTRUCTIONS "¿Está caliente aquí?"
+END
+
+CLONE DEED "Rotate360" "Thermo2"
+    SET INSTRUCTIONS "Se activará en un segundo"
+END
+
+CLONE DEED "Rotate720Counter" "Thermo3"
+    SET INSTRUCTIONS "Bien, devuélvelo"
+END
+
+CLONE DEED "Rotate720" "Thermo4"
+    SET INSTRUCTIONS "Al diablo, dale vueltas a esa cosa"
+END
+
+DEF TASK "MessWithThermo"
+    SET NAME "Líate con el termostato"
+    SET THEME "MISC"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "Thermo1"
+    STEP "2" "Thermo2"
+    STEP "3" "Thermo3"
+    STEP "4" "Thermo4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+
+END
+
+
+REM : Unclog Toilet
+
+CLONE DEED "SwipeBase" "UnclogStep1"
+    SET INSTRUCTIONS "¡Empieza a desatascar!"
+    SET DIRECTION "DOWN,UP"
+END
+
+CLONE DEED "SwipeBase" "UnclogStep2"
+    SET INSTRUCTIONS "Esfuérzate en ello"
+    SET DIRECTION "DOWN,UP,DOWN,UP"
+END
+
+CLONE DEED "SwipeBase" "UnclogStep3"
+    SET INSTRUCTIONS "¡Ya casi!"
+    SET DIRECTION "DOWN,UP,DOWN,UP,DOWN,UP"
+END
+
+DEF TASK "UnclogToilet"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET NAME "Destapa el inodoro"
+    SET THEME "BATHROOM"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "LOW"
+
+    STEP "1" "UnclogStep1"
+    STEP "2" "UnclogStep2"
+    STEP "3" "UnclogStep3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Play Checkers
+
+CLONE DEED "SwipeBase" "FindBoard"
+    SET INSTRUCTIONS "Encuentra el tablero de ajedrez"
+    SET DIRECTION "LEFT,RIGHT,UP,RIGHT"
+END
+
+CLONE DEED "Tap1" "GrabBoard"
+    SET INSTRUCTIONS "Ahí está"
+END
+
+CLONE DEED "Tap5" "PlayCheckers"
+    SET INSTRUCTIONS "Juega damas, supongo."
+END
+
+CLONE DEED "SwipeUp" "FlipBoard"
+    SET INSTRUCTIONS "Perdiste. Tira el tablero en señal de disgusto."
+END
+
+DEF TASK "PlayCheckers"
+    SET NAME "Juega Damas"
+    SET THEME "RECREATION"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "FindBoard"
+    STEP "2" "GrabBoard"
+    STEP "3" "PlayCheckers"
+    STEP "4" "FlipBoard"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Make the Bed
+
+CLONE DEED "SwipeRight" "TuckLeft"
+    SET INSTRUCTIONS "Mete el lado izquierdo"
+END
+
+CLONE DEED "SwipeLeft" "TuckRight"
+    SET INSTRUCTIONS "Mete el lado derecho"
+END
+
+CLONE DEED "SwipeRight" "TuckLeftAgain"
+    SET INSTRUCTIONS "El lado izquierdo se salió otra vez"
+END
+
+CLONE DEED "SwipeUp" "ThrowBlanket"
+    SET INSTRUCTIONS "Olvídalo, solo tira una manta encima"
+END
+
+DEF TASK "MakeBed"
+    SET NAME "Haz tu cama"
+    SET THEME "BEDROOM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "TuckLeft"
+    STEP "2" "TuckRight"
+    STEP "3" "TuckLeftAgain"
+    STEP "4" "ThrowBlanket"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Charge Electronics
+
+CLONE DEED "SwipeLeft" "DrawerLookLeft"
+    SET INSTRUCTIONS "¿Donde está?"
+END
+
+CLONE DEED "SwipeRight" "DrawerLookRight"
+    SET INSTRUCTIONS "¿Donde está?"
+END
+
+CLONE DEED "Rotate720" "UntangleWires"
+    SET INSTRUCTIONS "Desenreda los cables"
+END
+
+CLONE DEED "Hold3" "PlugOutlet"
+    SET INSTRUCTIONS "Enchufe a la toma de corriente"
+END
+
+DEF TASK "ChargeElectronics"
+    SET NAME "Carga Electrónicos"
+    SET THEME "MISC"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "DrawerLookLeft"
+    STEP "2" "DrawerLookRight"
+    STEP "3" "UntangleWires"
+    STEP "4" "PlugOutlet"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Pick Weeds
+
+CLONE DEED "Tap2" "PickWeeds1"
+    SET INSTRUCTIONS "Recoge malas hierbas"
+END
+
+CLONE DEED "Nothing4" "AvoidFlowers1"
+    SET INSTRUCTIONS "Evita las flores"
+    SET PARTICIPATION "SOLO"
+END
+
+CLONE DEED "Tap2" "PickWeeds2"
+    SET INSTRUCTIONS "Recoge malas hierbas"
+END
+
+CLONE DEED "Nothing4" "AvoidFlowers2"
+    SET INSTRUCTIONS "Evita las flores"
+    SET PARTICIPATION "SOLO"
+END
+
+CLONE DEED "SwipeBase" "YankRoots"
+    SET INSTRUCTIONS "Tira las raíces"
+    SET DIRECTION "UP,UP,UP"
+END
+
+DEF TASK "PickWeeds"
+    SET NAME "Recoge maleza"
+    SET THEME "YARD_WORK"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+
+    STEP "1" "PickWeeds1"
+    STEP "2" "AvoidFlowers1"
+    STEP "3" "PickWeeds2"
+    STEP "4" "AvoidFlowers2"
+    STEP "5" "YankRoots"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE 
+END
+
+
+REM : Water Plants
+
+CLONE DEED "Hold5" "PlantWater"
+    SET INSTRUCTIONS "Riega las plantas"
+END
+
+CLONE DEED "Nothing5" "PlantDead"
+    SET INSTRUCTIONS "Observa la muerta"
+    SET PARTICIPATION "SOLO"
+END
+
+CLONE DEED "Tap1" "PlantTear"
+    SET INSTRUCTIONS "Intenta devolverle la vida con tus lágrimas"
+END
+
+DEF TASK "WaterPlants"
+    SET NAME "Riega las plantas"
+    SET THEME "YARD_WORK"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "PlantWater"
+    STEP "2" "PlantDead"
+    STEP "3" "PlantTear"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE 
+END
+
+
+REM : Pick Herbs From Window Garden
+
+CLONE DEED "SwipeLeft" "CutParsley"
+    SET INSTRUCTIONS "Corta Perejil"
+END
+
+CLONE DEED "SwipeRight" "CutCilantro"
+    SET INSTRUCTIONS "Corta Cilantro"
+END
+
+CLONE DEED "Nothing5" "CilantroParsley"
+    SET INSTRUCTIONS "¿Espera cual es el cilantro?"
+    SET PARTICIPATION "SOLO"
+END
+
+DEF TASK "PickWindowHerbs"
+    SET NAME "Recoge hierbas del jardín en la ventana"
+    SET THEME "YARD_WORK"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "CutParsley"
+    STEP "2" "CutCilantro"
+    STEP "3" "CilantroParsley"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE 
+END
+
+
+REM : Toast a bagel (ToastBagel)
+
+CLONE DEED "SwipeRight" "CutBagel"
+    SET INSTRUCTIONS "Corta por la mitad"
+END
+REM : Change swipe direction to match bagel art
+
+
+CLONE DEED "SwipeDown" "ToastBagel"
+    SET INSTRUCTIONS "Metelo en la tostadora"
+END
+
+CLONE DEED "Nothing5" "ToasterTune"
+    SET INSTRUCTIONS "Tararea una pequeña melodía mientras esperas"
+    SET PARTICIPATION "SOLO"
+END
+
+CLONE DEED "ScrubBase" "CreamCheese"
+    SET DISTANCE "SHORT"
+    SET INSTRUCTIONS "Pégate con el queso crema"
+END
+
+DEF TASK "ToastBagel"
+    SET NAME "Tuesta un Bagel"
+    SET THEME "COOKING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "CutBagel"
+    STEP "2" "ToastBagel"
+    STEP "3" "ToasterTune"
+    STEP "4" "CreamCheese"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Sort Recyclables (SortRecyclables)
+
+CLONE DEED "Tap3" "RecycleBottles"
+    SET INSTRUCTIONS "Recoge todas las botellas"
+END
+
+CLONE DEED "Tap3" "RecycleCans"
+    SET INSTRUCTIONS "Recoge todas las latas"
+END
+
+CLONE DEED "Hold5" "RecycleLandfill"
+    SET INSTRUCTIONS "Empaca todo para el vertedero"
+END
+
+CLONE DEED "Tap1" "RecycleReward"
+    SET INSTRUCTIONS "Recoge tus cincuenta centavos"
+END
+
+DEF TASK "SortRecyclables"
+    SET NAME "Clasifica reciclables"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "RecycleBottles"
+    STEP "2" "RecycleCans"
+    STEP "3" "RecycleLandfill"
+    STEP "4" "RecycleReward"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Catch a spider (CatchSpider)
+ 
+CLONE DEED "Nothing5" "SpiderWait"
+    SET INSTRUCTIONS "Espera a atacar"
+    SET PARTICIPATION "SOLO"
+END
+
+CLONE DEED "Tap1" "SpiderTrap"
+    SET INSTRUCTIONS "Atrapa la araña debajo de la copa"
+END
+
+CLONE DEED "Hold5" "SpiderOutside"
+    SET INSTRUCTIONS "Llévala fuera"
+END
+
+CLONE DEED "SwipeUp" "SpiderFreedom"
+    SET INSTRUCTIONS "Vete araña, sé libre"
+END
+
+DEF TASK "CatchSpider"
+    SET NAME "Atrapa una araña"
+    SET THEME "MISC"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "1" "SpiderWait"
+    STEP "2" "SpiderTrap"
+    STEP "3" "SpiderOutside"
+    STEP "4" "SpiderFreedom"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+	
+
+REM : Fill up the kiddie pool (KiddiePool)
+
+CLONE DEED "SwipeBase" "DragOutPool"
+    SET INSTRUCTIONS "Arrástrala fuera del garaje"
+    SET DIRECTION "LEFT,LEFT,LEFT"
+END
+
+CLONE DEED "Rotate1080Counter" "PoolWater"
+    SET INSTRUCTIONS "Abre el agua"
+END
+
+CLONE DEED "Hold5" "FillKiddiePool"
+    SET INSTRUCTIONS "Sostén la manguera"
+END
+
+CLONE DEED "Nothing5" "PoolDistraction"
+    SET INSTRUCTIONS "Distráete"
+    SET PARTICIPATION "SOLO"
+END
+
+CLONE DEED "Tap1" "ForgetPool"
+    SET INSTRUCTIONS "Olvida lo que estabas haciendo y vuelve adentro"
+END
+
+DEF TASK "KiddiePool"
+    SET NAME "Llena la piscina para niños"
+    SET THEME "PLAYING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+    
+    STEP "1" "DragOutPool"
+    STEP "2" "PoolWater"
+    STEP "3" "FillKiddiePool"
+    STEP "4" "PoolDistraction"
+    STEP "5" "ForgetPool"
+    
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE 
+END
+
+
+REM : Build a Birdhouse
+
+CLONE DEED "Hold5" "BirdhouseStep1"
+    SET INSTRUCTIONS "Pega madera"
+END
+
+CLONE DEED "Tap3" "BirdhouseStep2"
+    SET INSTRUCTIONS "Martillea unos clavos"
+END
+
+CLONE DEED "QuickTap5" "BirdhouseStep3"
+    SET INSTRUCTIONS "Terminemos con esto"
+END
+
+CLONE DEED "Nothing5" "BirdhouseStep4"
+    SET INSTRUCTIONS "El vínculo con la familia está por encima de los logros"
+END
+
+DEF TASK "Birdhouse"
+    SET NAME "Construye una casa para pájaros"
+    SET THEME "FIXING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+
+    STEP "Step1" "BirdhouseStep1"
+    STEP "Step2" "BirdhouseStep2"
+    STEP "Step3" "BirdhouseStep3"
+    STEP "Step4" "BirdhouseStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+
+REM : Rearrange Tupperware Cabinet 1
+
+CLONE DEED "Tap3" "TupperwareStep1"
+    SET INSTRUCTIONS "Apila los pequeños"
+END
+
+CLONE DEED "SwipeRight" "TupperwareStep2"
+    SET INSTRUCTIONS "Mueve a los grandes"
+END
+
+CLONE DEED "Rotate720" "TupperwareStep3"
+    SET INSTRUCTIONS "Metelo todo dentro"
+END
+
+DEF TASK "RearrangeTupperware1"
+    SET NAME "Reorganizar el Armario de Contenedores de Plástico"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "TupperwareStep1"
+    STEP "Step2" "TupperwareStep2"
+    STEP "Step3" "TupperwareStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+
+REM : Rearrange Tupperware Cabinet 2
+
+CLONE DEED "Tap3" "TupperwareStep1"
+    SET INSTRUCTIONS "Apila los pequeños"
+END
+
+CLONE DEED "SwipeRight" "TupperwareStep2"
+    SET INSTRUCTIONS "Mueve los grandes"
+END
+
+CLONE DEED "Rotate720" "TupperwareStep3"
+    SET INSTRUCTIONS "Metelo todo dentro"
+END
+
+CLONE DEED "Hold10" "TupperwareStep4"
+    SET INSTRUCTIONS "¡Se está cayendo! ¡Empújalo de vuelta!"
+END
+
+CLONE DEED "Tap4" "TupperwareStep5"
+    SET INSTRUCTIONS "Tira unos cuantos"
+END
+
+CLONE DEED "Rotate720" "TupperwareStep6"
+    SET INSTRUCTIONS "Se ve peor ahora, pero apriétalo"
+END
+
+DEF TASK "RearrangeTupperware2"
+    SET NAME "Reorganizar el Armario de Contenedores de Plástico"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "MEDIUM"
+
+    STEP "Step1" "TupperwareStep1"
+    STEP "Step2" "TupperwareStep2"
+    STEP "Step3" "TupperwareStep3"
+    STEP "Step4" "TupperwareStep4"
+    STEP "Step5" "TupperwareStep5"
+    STEP "Step6" "TupperwareStep6"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" "Step6" FAILURE
+    NEXT "Step6" SUCCESS FAILURE
+END
+
+
+REM : Oh No Ants v2
+
+CLONE DEED "Hold5" "VacuumAnts"
+    SET INSTRUCTIONS "¿Intenta aspirarlas?"
+END
+
+CLONE DEED "QuickTap5" "SquishEscape"
+    SET INSTRUCTIONS "¡Están escapando! ¡Aplástalas!"
+END
+
+CLONE DEED "Rotate1080" "GatherCarnage"
+    SET INSTRUCTIONS "Recoge la carnicería"
+END
+
+CLONE DEED "Tap1" "TossAnts"
+    SET INSTRUCTIONS "Tiralas"
+END
+
+DEF TASK "OhNoAnts2"
+    SET NAME "¡Oh no! ¡Hormigas!"
+    SET THEME "CLEANING"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET LEWD TRUE
+
+    STEP "1" "VacuumAnts"
+    STEP "2" "SquishEscape"
+    STEP "3" "GatherCarnage"
+    STEP "4" "TossAnts"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Fix the TV reception (FixTV)
+
+CLONE DEED "Rotate360Counter" "RotateTV"
+    SET INSTRUCTIONS "Un poco más a la izquierda"
+END
+
+CLONE DEED "Rotate270Counter" "RotateTV2"
+    SET INSTRUCTIONS "Un poco más"
+END
+
+CLONE DEED "Rotate360" "RotateTVBack"
+    SET INSTRUCTIONS "Mucho, vuelve"
+END
+
+CLONE DEED "Tap3" "SmackTV"
+    SET INSTRUCTIONS "¡Solo golpea la maldita cosa!"
+END
+
+DEF TASK "FixTV"
+    SET NAME "Arregla la recepción de la TV"
+    SET THEME "RECREATION"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "RotateTV"
+    STEP "2" "RotateTV2"
+    STEP "3" "RotateTVBack"
+    STEP "4" "SmackTV"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Microwave soup (MicrowaveSoup)
+
+CLONE DEED "Tap1" "MicroStart"
+    SET INSTRUCTIONS "Inicia el microondas"
+END
+
+CLONE DEED "NothingBase" "MicroCook"
+    SET INSTRUCTIONS "Cocina"
+    SET DURATION 5S
+END
+
+CLONE DEED "ScrubMedium" "MicroStir"
+    SET INSTRUCTIONS "Saca y revuelve"
+END
+
+CLONE DEED "Tap1" "MicroStartAgain"
+    SET INSTRUCTIONS "Inicia de nuevo"
+END
+
+CLONE DEED "NothingBase" "MicroWait"
+    SET INSTRUCTIONS "Espera un poco más"
+    SET DURATION 5S
+END
+
+CLONE DEED "ScrubLong" "MicroCool"
+    SET INSTRUCTIONS "Revuelve hasta que se enfríe"
+END
+
+DEF TASK "MicrowaveSoup"
+    SET NAME "Sopa de Microondas"
+    SET THEME "COOKING"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "MicroStart"
+    STEP "2" "MicroCook"
+    STEP "3" "MicroStir"
+    STEP "4" "MicroStartAgain"
+    STEP "5" "MicroWait"
+    STEP "6" "MicroCool"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" SUCCESS FAILURE
+END
+
+
+REM : Put out the nice tablecloth (NiceTablecloth)
+
+CLONE DEED "SwipeUp" "UnfurlCloth"
+    SET INSTRUCTIONS "Despliega el mantel"
+END
+
+CLONE DEED "ScrubShort" "FlattenCloth"
+    SET INSTRUCTIONS "Aplana las arrugas"
+END
+
+CLONE DEED "ScrubMedium" "FlattenMore"
+    SET INSTRUCTIONS "¡Están por todas partes!"
+END
+
+CLONE DEED "Tap1" "Candelabra"
+    SET INSTRUCTIONS "Añade un bonito candelabro"
+END
+
+DEF TASK "NiceTablecloth"
+    SET NAME "Saca el bonito mantel"
+    SET THEME "GUESTS"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "UnfurlCloth"
+    STEP "2" "FlattenCloth"
+    STEP "3" "FlattenMore"
+    STEP "4" "Candelabra"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Sweep Chimney
+
+CLONE DEED "Tap1" "Chimney1Step1"
+    SET INSTRUCTIONS "Pasa la escoba ahí arriba"
+END
+
+CLONE DEED "SwipeLeft" "Chimney1Step2"
+    SET INSTRUCTIONS "Hmm, hay algo ahí arriba"
+END
+
+CLONE DEED "ScrubMedium" "Chimney1Step3"
+    SET INSTRUCTIONS "Siente a tu alrededor"
+END
+
+CLONE DEED "SwipeDown" "Chimney1Step4"
+    SET INSTRUCTIONS "¡Lo tengo! Oh no..."
+END
+
+CLONE DEED "Tap1" "Chimney1Step5"
+    SET INSTRUCTIONS "Recoge los restos... nunca hables de esto"
+END
+
+DEF TASK "Chimney1"
+    SET NAME "Barre la chimenea"
+    SET THEME "CLEANING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+    SET LEWD TRUE
+
+    STEP "Step1" "Chimney1Step1"
+    STEP "Step2" "Chimney1Step2"
+    STEP "Step3" "Chimney1Step3"
+    STEP "Step4" "Chimney1Step4"
+    STEP "Step5" "Chimney1Step5"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" SUCCESS FAILURE
+END
+
+
+REM : Sweep Chimney
+
+CLONE DEED "Tap1" "Chimney2Step1"
+    SET INSTRUCTIONS "Pasa la escoba ahí arriba"
+END
+
+CLONE DEED "SwipeLeft" "Chimney2Step2"
+    SET INSTRUCTIONS "Hmm, hay algo ahí arriba"
+END
+
+CLONE DEED "ScrubMedium" "Chimney2Step3"
+    SET INSTRUCTIONS "Siente a tu alrededor"
+END
+
+CLONE DEED "SwipeDown" "Chimney2Step4"
+    SET INSTRUCTIONS "¡Lo tengo! Oh no..."
+END
+
+CLONE DEED "Tap1" "Chimney2Step5"
+    SET INSTRUCTIONS "Así que ahí es donde se habían ido"
+END
+
+DEF TASK "Chimney2"
+    SET NAME "Barre la chimenea"
+    SET THEME "CLEANING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "Chimney2Step1"
+    STEP "Step2" "Chimney2Step2"
+    STEP "Step3" "Chimney2Step3"
+    STEP "Step4" "Chimney2Step4"
+    STEP "Step5" "Chimney2Step5"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" SUCCESS FAILURE
+END
+
+
+REM : Greet the Neighbor
+
+CLONE DEED "Hold5" "GreetNeighborStep1"
+    SET INSTRUCTIONS "Sonríe como si todo fuera normal"
+END
+
+CLONE DEED "ScrubShort" "GreetNeighborStep2"
+    SET INSTRUCTIONS "Saluda para venderlo de verdad"
+END
+
+CLONE DEED "Hold5" "GreetNeighborStep3"
+    SET INSTRUCTIONS "Retrocede lentamente"
+END
+
+DEF TASK "GreetNeighbor"
+    SET NAME "Saluda al vecino"
+    SET THEME "TALKING"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "GreetNeighborStep1"
+    STEP "Step2" "GreetNeighborStep2"
+    STEP "Step3" "GreetNeighborStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+
+REM : Set the table
+
+CLONE DEED "Tap5" "SetTable1"
+    SET INSTRUCTIONS "Pon los vasos"
+END
+
+CLONE DEED "SwipeUp" "SetTable2"
+    SET INSTRUCTIONS "Coloca los cubiertos"
+END
+
+CLONE DEED "Rotate180" "SetTable3"
+    SET INSTRUCTIONS "Coloca los platos así"
+END
+
+CLONE DEED "ScrubMedium" "SetTable4"
+    SET INSTRUCTIONS "Hay algo de suciedad en este, quítalo"
+END
+
+DEF TASK "SetTable"
+    SET NAME "Pon la mesa"
+    SET CATEGORY "MEDIUM"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "SetTable1"
+    STEP "2" "SetTable2"
+    STEP "3" "SetTable3"
+    STEP "4" "SetTable4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Throw out expired food
+
+CLONE DEED "Tap3" "ExpiredFood1"
+    SET INSTRUCTIONS "Consulta fechas de vencimiento"
+END
+
+CLONE DEED "Hold2" "ExpiredFood2"
+    SET INSTRUCTIONS "Este yogur caducó hace dos meses."
+END
+
+CLONE DEED "Tap3" "ExpiredFood3"
+    SET INSTRUCTIONS "¿Quizás todavía está bueno? Huelelo"
+END
+
+CLONE DEED "SwipeDown" "ExpiredFood4"
+    SET INSTRUCTIONS "¡Ew, definitivamente malo! Tíralo"
+END
+
+DEF TASK "ExpiredFood"
+    SET NAME "Desecha los alimentos vencidos"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "KITCHEN"
+
+    STEP "1" "ExpiredFood1"
+    STEP "2" "ExpiredFood2"
+    STEP "3" "ExpiredFood3"
+    STEP "4" "ExpiredFood4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Mop the floor
+
+CLONE DEED "Rotate360Counter" "MopFloor1"
+    SET INSTRUCTIONS "Trapea a la izquierda"
+END
+
+CLONE DEED "Rotate360" "MopFloor2"
+    SET INSTRUCTIONS "Trapea a la derecha"
+END
+
+CLONE DEED "SwipeBase" "MopFloor3"
+    SET INSTRUCTIONS "Haz un pequeño baile divertido con la mopa"
+    SET DIRECTION "LEFT,RIGHT"
+END
+
+CLONE DEED "Hold3" "MopFloor4"
+    SET INSTRUCTIONS "Mira a tu alrededor para asegurarte de que nadie lo vió"
+END
+
+DEF TASK "MopFloor"
+    SET NAME "Trapea el suelo"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "CLEANING"
+
+    STEP "1" "MopFloor1"
+    STEP "2" "MopFloor2"
+    STEP "3" "MopFloor3"
+    STEP "4" "MopFloor4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Put leftovers in the fridge
+
+CLONE DEED "Tap1" "LeftoversFridge1"
+    SET INSTRUCTIONS "Pon la caja de pizza"
+END
+
+CLONE DEED "Hold2" "LeftoversFridge2"
+    SET INSTRUCTIONS "Empuja la soda hacia atrás"
+END
+
+CLONE DEED "Nothing3" "LeftoversFridge3"
+    SET INSTRUCTIONS "Ahora no hay espacio para el jamón"
+END
+
+CLONE DEED "SwipeDown" "LeftoversFridge4"
+    SET INSTRUCTIONS "Saca la caja de pizza"
+END
+
+CLONE DEED "Tap1" "LeftoversFridge5"
+    SET INSTRUCTIONS "Tira el jamón ahi dentro"
+END
+
+CLONE DEED "SwipeUp" "LeftoversFridge6"
+    SET INSTRUCTIONS "Abre la caja de pizza"
+END
+
+CLONE DEED "Hold5" "LeftoversFridge7"
+    SET INSTRUCTIONS "Resuelve el problema comiendote la pizza"
+END
+
+DEF TASK "LeftoversFridge"
+    SET NAME "Pon restos de comida en la nevera"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "KITCHEN"
+
+    STEP "1" "LeftoversFridge1"
+    STEP "2" "LeftoversFridge2"
+    STEP "3" "LeftoversFridge3"
+    STEP "4" "LeftoversFridge4"
+    STEP "5" "LeftoversFridge5"
+    STEP "6" "LeftoversFridge6"
+    STEP "7" "LeftoversFridge7"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" "7" FAILURE
+    NEXT "7" SUCCESS FAILURE
+END
+
+REM : Throw away old plastic souvenir cups
+
+CLONE DEED "Tap1" "PlasticSouvenirCups1"
+    SET INSTRUCTIONS "Este puede irse"
+END
+
+CLONE DEED "Tap1" "PlasticSouvenirCups2"
+    SET INSTRUCTIONS "Di adiós a este chico"
+END
+
+CLONE DEED "Tap1" "PlasticSouvenirCups3"
+    SET INSTRUCTIONS "Nunca usamos este"
+END
+
+CLONE DEED "Hold4" "PlasticSouvenirCups4"
+    SET INSTRUCTIONS "Considera el posible valor de coleccionista de este...."
+END
+
+CLONE DEED "Tap1" "PlasticSouvenirCups5"
+    SET INSTRUCTIONS "Tíralo de todas formas"
+END
+
+DEF TASK "PlasticSouvenirCups"
+    SET NAME "Desecha los vasos de plástico viejos de recuerdo"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "CLEANING"
+
+    STEP "1" "PlasticSouvenirCups1"
+    STEP "2" "PlasticSouvenirCups2"
+    STEP "3" "PlasticSouvenirCups3"
+    STEP "4" "PlasticSouvenirCups4"
+    STEP "5" "PlasticSouvenirCups5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Bird Watching
+
+CLONE DEED "Nothing2" "BirdWatch1"
+    SET INSTRUCTIONS "¿Cuál es ese pajaro en tu jardín?"
+END
+
+CLONE DEED "SwipeLeft" "BirdWatch2"
+    SET INSTRUCTIONS "Consulta tu guía de pájaros"
+END
+
+CLONE DEED "SwipeLeft" "BirdWatch3"
+    SET INSTRUCTIONS "No, no es una curruca copetuda"
+END
+
+CLONE DEED "SwipeLeft" "BirdWatch4"
+    SET INSTRUCTIONS "No, no es un ala roja manchada"
+END
+
+CLONE DEED "SwipeDown" "BirdWatch5"
+    SET INSTRUCTIONS "¡Ajá! ¡Es una Sagáz con Cresta!"
+END
+
+CLONE DEED "ScrubMedium" "BirdWatch6"
+    SET INSTRUCTIONS "Dibújalo en tu diario de observación de aves"
+END
+
+DEF TASK "BirdWatch"
+    SET NAME "Ve a observar aves"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "YARD_WORK"
+
+    STEP "1" "BirdWatch1"
+    STEP "2" "BirdWatch2"
+    STEP "3" "BirdWatch3"
+    STEP "4" "BirdWatch4"
+    STEP "5" "BirdWatch5"
+    STEP "6" "BirdWatch6"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" SUCCESS FAILURE
+END
+
+REM : Make Ice Cubes
+
+CLONE DEED "Rotate1080Counter" "MakeIceCubes1"
+    SET INSTRUCTIONS "Abre el grifo de la cocina"
+END
+
+CLONE DEED "TapBase" "MakeIceCubes2"
+    SET NUM_TAPS 8
+    SET WAIT 0.25S
+    SET INSTRUCTIONS "Llena el mole para los hielos"
+END
+
+CLONE DEED "SwipeUp" "MakeIceCubes3"
+    SET INSTRUCTIONS "Deslízalo en el congelador"
+END
+
+DEF TASK "MakeIceCubes"
+    SET NAME "Haz cubos de hielo"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "KITCHEN"
+
+    STEP "1" "MakeIceCubes1"
+    STEP "2" "MakeIceCubes2"
+    STEP "3" "MakeIceCubes3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Hose down the patio furniture
+
+CLONE DEED "Rotate720Counter" "HosePatioFurniture1"
+    SET INSTRUCTIONS "Enciende el suministro de agua"
+END
+
+CLONE DEED "SwipeRight" "HosePatioFurniture2"
+    SET INSTRUCTIONS "Quita los cojines"
+END
+
+CLONE DEED "Hold4" "HosePatioFurniture3"
+    SET INSTRUCTIONS "Rocía los muebles del patio"
+END
+
+CLONE DEED "SwipeLeft" "HosePatioFurniture4"
+    SET INSTRUCTIONS "Vuelve a colocar los cojines secos sobre los muebles mojados"
+END
+
+CLONE DEED "Rotate720" "HosePatioFurniture5"
+    SET INSTRUCTIONS "Apaga el suministro de agua"
+END
+
+DEF TASK "HosePatioFurniture"
+    SET NAME "Limpia los muebles del patio"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "YARD_WORK"
+
+    STEP "1" "HosePatioFurniture1"
+    STEP "2" "HosePatioFurniture2"
+    STEP "3" "HosePatioFurniture3"
+    STEP "4" "HosePatioFurniture4"
+    STEP "5" "HosePatioFurniture5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Clean the shower curtain
+
+CLONE DEED "Rotate720" "CleanShowerCurtain1"
+    SET INSTRUCTIONS "Pasa una esponja por la cortina de la ducha"
+END
+
+CLONE DEED "SwipeRight" "CleanShowerCurtain2"
+    SET INSTRUCTIONS "Descubre el moho negro"
+END
+
+CLONE DEED "SwipeUp" "CleanShowerCurtain3"
+    SET INSTRUCTIONS "Quita el moho con una espátula."
+END
+
+CLONE DEED "SwipeDown" "CleanShowerCurtain4"
+    SET INSTRUCTIONS "Raspa el moho de nuevo"
+END
+
+CLONE DEED "SwipeUp" "CleanShowerCurtain5"
+    SET INSTRUCTIONS "Oh si, eso es satisfactorio"
+END
+
+CLONE DEED "SwipeDown" "CleanShowerCurtain6"
+    SET INSTRUCTIONS "Ráspalo bien"
+END
+
+CLONE DEED "Tap1" "CleanShowerCurtain7"
+    SET INSTRUCTIONS "Tira una espatula perfectamente buena"
+END
+
+DEF TASK "CleanShowerCurtain"
+    SET NAME "Limpia la cortina de ducha"
+    SET CATEGORY "MEDIUM"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "BATHROOM"
+
+    STEP "1" "CleanShowerCurtain1"
+    STEP "2" "CleanShowerCurtain2"
+    STEP "3" "CleanShowerCurtain3"
+    STEP "4" "CleanShowerCurtain4"
+    STEP "5" "CleanShowerCurtain5"
+    STEP "6" "CleanShowerCurtain6"
+    STEP "7" "CleanShowerCurtain7"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" "7" FAILURE
+    NEXT "7" SUCCESS FAILURE
+END
+
+REM : Put away clean laundry
+
+CLONE DEED "Rotate360" "PutAwayLaundry1"
+    SET INSTRUCTIONS "Quita los calcetines de los lados de la secadora."
+END
+
+CLONE DEED "Hold2" "PutAwayLaundry2"
+    SET INSTRUCTIONS "Tira la ropa en la cama"
+END
+
+CLONE DEED "SwipeBase" "PutAwayLaundry3"
+    SET INSTRUCTIONS "¡Dobla!"
+    SET DIRECTION "LEFT,RIGHT,UP,DOWN"
+END
+
+CLONE DEED "Nothing2" "PutAwayLaundry4"
+    SET INSTRUCTIONS "Toma una siesta bien merecida en la ropa tibia"
+END
+
+DEF TASK "PutAwayLaundry"
+    SET NAME "Guarda la ropa limpia"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "LOW"
+    SET THEME "CLOTHES"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "PutAwayLaundry1"
+    STEP "2" "PutAwayLaundry2"
+    STEP "3" "PutAwayLaundry3"
+    STEP "4" "PutAwayLaundry4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Clean the fancy dishes
+
+CLONE DEED "SwipeDown" "CleanFancyDishes1"
+    SET INSTRUCTIONS "Saca los platos del ático"
+END
+
+CLONE DEED "Hold3" "CleanFancyDishes2"
+    SET INSTRUCTIONS "Llena una tina de agua tibia"
+END
+
+CLONE DEED "ScrubMedium" "CleanFancyDishes3"
+    SET INSTRUCTIONS "Limpia suavemente el polvo"
+END
+
+CLONE DEED "Tap1" "CleanFancyDishes4"
+    SET INSTRUCTIONS "Seca con un paño de cocina fino de piel de oveja."
+END
+
+DEF TASK "CleanFancyDishes"
+    SET NAME "Limpia los platos finos"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "MEDIUM"
+    SET THEME "KITCHEN"
+    SET DURATION <5H>
+
+    STEP "1" "CleanFancyDishes1"
+    STEP "2" "CleanFancyDishes2"
+    STEP "3" "CleanFancyDishes3"
+    STEP "4" "CleanFancyDishes4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Hang framed picture
+
+CLONE DEED "SwipeUp" "HangFrame1"
+    SET INSTRUCTIONS "Pon la imagen con un clavo"
+END
+
+CLONE DEED "SwipeLeft" "HangFrame2"
+    SET INSTRUCTIONS "Está torcido. Inclínalo."
+END
+
+CLONE DEED "SwipeRight" "HangFrame3"
+    SET INSTRUCTIONS "Sigue torcido"
+END
+
+CLONE DEED "SwipeUp" "HangFrame4"
+    SET INSTRUCTIONS "Se cayó. Cuélgalo de nuevo."
+END
+
+DEF TASK "HangFrame"
+    SET NAME "Cuelga la foto enmarcada"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "LOW"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "HangFrame1"
+    STEP "2" "HangFrame2"
+    STEP "3" "HangFrame3"
+    STEP "4" "HangFrame4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Put books away
+
+CLONE DEED "SwipeLeft" "PutBooksAway1"
+    SET INSTRUCTIONS "Termina tu novela entre lágrimas"
+END
+
+CLONE DEED "Hold3" "PutBooksAway2"
+    SET INSTRUCTIONS "Lleva con cuidado tu pila de libros a la estantería."
+END
+
+CLONE DEED "QuickTap5" "PutBooksAway3"
+    SET INSTRUCTIONS "Intenta meterlos todos"
+END
+
+CLONE DEED "SwipeRight" "PutBooksAway4"
+    SET INSTRUCTIONS "Empieza a hojear esa novela de nuevo"
+END
+
+CLONE DEED "Nothing4" "PutBooksAway5"
+    SET INSTRUCTIONS "Piérdete en un mundo de fantasía y deleite."
+END
+
+DEF TASK "PutBooksAway"
+    SET NAME "Guarda los libros"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "LOW"
+    SET THEME "PAPERWORK"
+    SET DURATION <3H>
+
+    STEP "1" "PutBooksAway1"
+    STEP "2" "PutBooksAway2"
+    STEP "3" "PutBooksAway3"
+    STEP "4" "PutBooksAway4"
+    STEP "5" "PutBooksAway5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Clean up the paint spill
+
+CLONE DEED "SwipeLeft" "PaintSpill1"
+    SET INSTRUCTIONS "Derriba accidentalmente una lata de pintura"
+END
+
+CLONE DEED "Hold3" "PaintSpill2"
+    SET INSTRUCTIONS "Maldice tu torpeza"
+END
+
+CLONE DEED "Tap1" "PaintSpill3"
+    SET INSTRUCTIONS "Tira aserrín sobre la mancha"
+END
+
+CLONE DEED "SwipeUp" "PaintSpill4"
+    SET INSTRUCTIONS "Levántelo en un recogedor"
+END
+
+CLONE DEED "Hold3" "PaintSpill5"
+    SET INSTRUCTIONS "Tiralo en la basura"
+END
+
+CLONE DEED "SwipeRight" "PaintSpill6"
+    SET INSTRUCTIONS "Accidentalmente derriba la lata de nuevo"
+END
+
+DEF TASK "PaintSpill"
+    SET NAME "Limpia el derrame de pintura"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "MEDIUM"
+    SET THEME "DECORATING"
+    SET DURATION <3H>
+
+    STEP "1" "PaintSpill1"
+    STEP "2" "PaintSpill2"
+    STEP "3" "PaintSpill3"
+    STEP "4" "PaintSpill4"
+    STEP "5" "PaintSpill5"
+    STEP "6" "PaintSpill6"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" SUCCESS FAILURE
+END
+
+REM : Fold the laundry
+
+CLONE DEED "Rotate360" "FoldLaundry1"
+    SET INSTRUCTIONS "Voltea la camiseta"
+END
+
+CLONE DEED "SwipeLeft" "FoldLaundry2"
+    SET INSTRUCTIONS "Doblala en el lado derecho"
+END
+
+CLONE DEED "SwipeRight" "FoldLaundry3"
+    SET INSTRUCTIONS "Doblala en el lado izquierdo"
+END
+
+CLONE DEED "SwipeUp" "FoldLaundry4"
+    SET INSTRUCTIONS "Dobla la cosa entera por la mitad"
+END
+
+CLONE DEED "Tap1" "FoldLaundry5"
+    SET INSTRUCTIONS "Colocala con amor en el cajón"
+END
+
+DEF TASK "FoldLaundry"
+    SET NAME "Dobla la ropa"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "LOW"
+    SET THEME "CLOTHES"
+    SET DURATION <3H>
+
+    STEP "1" "FoldLaundry1"
+    STEP "2" "FoldLaundry2"
+    STEP "3" "FoldLaundry3"
+    STEP "4" "FoldLaundry4"
+    STEP "5" "FoldLaundry5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Have a picnic
+
+CLONE DEED "Tap1" "HavePicnic1"
+    SET INSTRUCTIONS "Empaca la cesta"
+END
+
+CLONE DEED "SwipeBase" "HavePicnic2"
+    SET INSTRUCTIONS "Extiende la manta"
+    SET DIRECTION "LEFT,RIGHT,UP,DOWN"
+END
+
+CLONE DEED "QuickTap5" "HavePicnic3"
+    SET INSTRUCTIONS "Derrota al ejército de insectos invasores"
+END
+
+CLONE DEED "Nothing5" "HavePicnic4"
+    SET INSTRUCTIONS "¡Disfruta del hermoso día!"
+END
+
+DEF TASK "HavePicnic"
+    SET NAME "Ten un picnic"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "LOW"
+    SET THEME "YARD_WORK"
+    SET DURATION <3H>
+
+    STEP "1" "HavePicnic1"
+    STEP "2" "HavePicnic2"
+    STEP "3" "HavePicnic3"
+    STEP "4" "HavePicnic4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Play Mahjong v1
+
+CLONE DEED "QuickTap4" "Mahjong1Step1"
+    SET INSTRUCTIONS "Saca fichas"
+END
+
+CLONE DEED "SwipeLeft" "Mahjong1Step2"
+    SET INSTRUCTIONS "Reclama la ficha de otro jugador"
+END
+
+CLONE DEED "Nothing5" "Mahjong1Step3"
+    SET INSTRUCTIONS "Suma puntos a la cabeza"
+END
+
+DEF TASK "Mahjong1"
+    SET NAME "Juega Mahjong"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "MEDIUM"
+    SET THEME "RECREATION"
+    SET DURATION <3H>
+
+    STEP "1" "Mahjong1Step1"
+    STEP "2" "Mahjong1Step2"
+    STEP "3" "Mahjong1Step3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Play Mahjong v2
+
+CLONE DEED "QuickTap4" "Mahjong2Step1"
+    SET INSTRUCTIONS "Saca fichas"
+END
+
+CLONE DEED "SwipeLeft" "Mahjong2Step2"
+    SET INSTRUCTIONS "Reclama la ficha de otro jugador"
+END
+
+CLONE DEED "Nothing5" "Mahjong2Step3"
+    SET INSTRUCTIONS "Pierde la pista a trajes secundarios"
+END
+
+CLONE DEED "SwipeDown" "Mahjong2Step4"
+    SET INSTRUCTIONS "Tira las fichas"
+END
+
+CLONE DEED "QuickTap5" "Mahjong2Step5"
+    SET INSTRUCTIONS "Huye arrastrándote"
+END
+
+DEF TASK "Mahjong2"
+    SET NAME "Juega Mahjong"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "MEDIUM"
+    SET THEME "RECREATION"
+    SET DURATION <3H>
+
+    STEP "1" "Mahjong2Step1"
+    STEP "2" "Mahjong2Step2"
+    STEP "3" "Mahjong2Step3"
+    STEP "4" "Mahjong2Step4"
+    STEP "5" "Mahjong2Step5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Play Shogi
+
+CLONE DEED "Tap1" "PlayShogi1"
+    SET INSTRUCTIONS "Empuja el Lancero hacia adelante"
+END
+
+CLONE DEED "Tap1" "PlayShogi2"
+    SET INSTRUCTIONS "Mueve el General de Oro de lado"
+END
+
+CLONE DEED "Nothing5" "PlayShogi3"
+    SET INSTRUCTIONS "Mirada de Intimidación"
+END
+
+CLONE DEED "Tap1" "PlayShogi4"
+    SET INSTRUCTIONS "Mueve el rey hacia atrás"
+END
+
+DEF TASK "PlayShogi"
+    SET NAME "Juega Shogi"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "LOW"
+    SET THEME "RECREATION"
+    SET DURATION <3H>
+
+    STEP "1" "PlayShogi1"
+    STEP "2" "PlayShogi2"
+    STEP "3" "PlayShogi3"
+    STEP "4" "PlayShogi4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Check Milk v1
+CLONE DEED "SwipeLeft" "CheckMilkA1"
+    SET INSTRUCTIONS "Abre la nevera"
+END
+
+CLONE DEED "Tap1" "CheckMilkA2"
+    SET INSTRUCTIONS "Agarra la leche"
+END
+
+CLONE DEED "Hold3" "CheckMilkA3"
+    SET INSTRUCTIONS "Toma una gran bocanada"
+END
+
+CLONE DEED "Tap1" "CheckMilkA4"
+    SET INSTRUCTIONS "Esta buena, devuelvela"
+END
+
+
+DEF TASK "CheckMilkA"
+    SET NAME "Revisa la leche"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "LOW"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+
+    STEP "1" "CheckMilkA1"
+    STEP "2" "CheckMilkA2"
+    STEP "3" "CheckMilkA3"
+    STEP "4" "CheckMilkA4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Check Milk v2
+CLONE DEED "SwipeLeft" "CheckMilkB1"
+    SET INSTRUCTIONS "Abre la nevera"
+END
+
+CLONE DEED "Tap1" "CheckMilkB2"
+    SET INSTRUCTIONS "Agarra la leche"
+END
+
+CLONE DEED "Hold3" "CheckMilkB3"
+    SET INSTRUCTIONS "Toma una gran bocanada"
+END
+
+CLONE DEED "Hold5" "CheckMilkB4"
+    SET INSTRUCTIONS "Está muy mala. Intenta no vomitar."
+END
+
+DEF TASK "CheckMilkB"
+    SET NAME "Revisa la leche"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "LOW"
+    SET THEME "KITCHEN"
+    SET DURATION <3H>
+
+    STEP "1" "CheckMilkB1"
+    STEP "2" "CheckMilkB2"
+    STEP "3" "CheckMilkB3"
+    STEP "4" "CheckMilkB4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "GenericTasks"
+    ADDTASK "ChannelSurf"
+    ADDTASK "ChangeBatteriesRemote"
+    ADDTASK "FlushFish"
+    ADDTASK "CleanHouse"
+    ADDTASK "CleanTheGutters"
+    ADDTASK "WashDishes1"
+    ADDTASK "WashDishes2"
+    ADDTASK "WashDishes3"
+    ADDTASK "MessWithThermo"
+    ADDTASK "UnclogToilet"
+    ADDTASK "PlayCheckers"
+    ADDTASK "MakeBed"
+    ADDTASK "ChargeElectronics"
+    ADDTASK "PickWeeds"
+    ADDTASK "WaterPlants"
+    ADDTASK "PickWindowHerbs"
+    ADDTASK "ToastBagel"
+    ADDTASK "SortRecyclables"
+    ADDTASK "CatchSpider"
+    ADDTASK "KiddiePool"
+    ADDTASK "Birdhouse"
+    ADDTASK "RearrangeTupperware1"
+    ADDTASK "RearrangeTupperware2"
+    ADDTASK "OhNoAnts2"
+    ADDTASK "FixTV"
+    ADDTASK "MicrowaveSoup"
+    ADDTASK "NiceTablecloth"
+    ADDTASK "Chimney1"
+    ADDTASK "Chimney2"
+    ADDTASK "GreetNeighbor"
+    ADDTASK "SetTable"
+    ADDTASK "ExpiredFood"
+    ADDTASK "MopFloor"
+    ADDTASK "LeftoversFridge"
+    ADDTASK "PlasticSouvenirCups"
+    ADDTASK "BirdWatch"
+    ADDTASK "MakeIceCubes"
+    ADDTASK "HosePatioFurniture"
+    ADDTASK "CleanShowerCurtain"
+    ADDTASK "PutAwayLaundry"
+    ADDTASK "CleanFancyDishes"
+    ADDTASK "HangFrame"
+    ADDTASK "PutBooksAway"
+    ADDTASK "PaintSpill"
+    ADDTASK "FoldLaundry"
+    ADDTASK "HavePicnic"
+    ADDTASK "Mahjong1"
+    ADDTASK "Mahjong2"
+    ADDTASK "PlayShogi"
+    ADDTASK "CheckMilkA"
+    ADDTASK "CheckMilkB"
+END

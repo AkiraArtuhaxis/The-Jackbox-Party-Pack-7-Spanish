@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A terrible song to play during the <i>In Memoriam</i> segment of an awards show",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Happy Birthday song|Dead Man's Curve",
+   "n": "SafetyQuips"
+  }
+ ]
+}

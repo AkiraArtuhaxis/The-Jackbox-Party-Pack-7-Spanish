@@ -1,0 +1,17 @@
+MAIN(AC): ¿Qué tan grave es su problema?
+-SMOKE-> El aire acondicionado saca humo
+-COUCH-> Mi sofá se está derritiendo
+-FLAME-> Nuestro gato está en llamas
+-COOL-> Estamos sin prisas
+
+SMOKE(AC): Puede esperar hasta mañana
+-SUCCESS-> *cof* *cof*
+
+COUCH(AC): Puede esperar hasta mañana
+-SUCCESS-> Adiós otomano
+
+FLAME(AC): ¿Solo un gato? Puede esperar
+-SUCCESS-> Voy a buscar la manguera.
+
+COOL(AC): ¡Genial! ¡Hasta nunca!
+-SUCCESS-> Soy tan malo en las llamadas.

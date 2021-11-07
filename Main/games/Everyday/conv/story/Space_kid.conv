@@ -1,0 +1,17 @@
+MAIN(Entrevistador): ¿Cómo se siente ser la primera familia en el espacio?
+¡Fugaz!
+-WORLD-> ¡Fuera de este mundo!
+-BLAST-> ¡Despeguemos ya!
+-DARK-> El espacio es un lugar oscuro, frío y vacío.
+
+STELLAR(Entrevistador): Mejor hablemos con alguien más interesante.
+-SUCCESS-> Debería haberle agregado un súper
+
+WORLD(Entrevistador): ¡Me encantan los chistes!
+-SUCCESS-> ¡Ni siquiera lo había planeteado!
+
+BLAST(Entrevistador): ¡Me encanta tu entusiasmo!
+-SUCCESS-> ¡Estoy ocultando mi miedo!
+
+DARK(Entrevistador): Cierto
+-SUCCESS-> Apreciemos la "gravedad" de la situación

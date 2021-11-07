@@ -1,0 +1,18 @@
+MAIN(Tía Flemm): ¿En qué puedo ayudarte, cariño?
+-POLITE-> Solo me preguntaba si ya era hora de que el tío Gorbo volviera a casa...
+-ROUNDABOUT-> ¿Cómo va todo por ahí, tía Flemm?
+-HELP-> EL TÍO GORBO NOS TIENE LOCOS.
+
+POLITE(Tía Flemm): ¿Ya se está poniendo pesado, eh?
+-LIE-> ¡No, no! ¡De hecho nos encantaría que se quede más tiempo!
+-HELP-> Ayúdanos por favor.
+
+LIE(Tía Flemm): ¡No tengo problema! ¡Dile que lo veo en unos meses!
+-SUCCESS-> Mi cortesía fue mi perdición.
+
+HELP(Tía Flemm): Dile que estoy reorganizando su colección de hipopótamos de porcelana. Vendrá aquí en cualquier momento.
+-SUCCESS-> La tía Flemm es la mejor.
+
+ROUNDABOUT(Tía Flemm): Pues bien, aquí preparándome para las tormentas de fuego de esta temporada.
+-POLITE-> ¡Suena a que necesitas ayuda! ¿Quieres que le digamos al tío Gorbo que vuelva a casa?
+-LIE-> ¡Aquí el clima es perfecto! ¡El tío Gorbo quiere quedarse aún más tiempo!

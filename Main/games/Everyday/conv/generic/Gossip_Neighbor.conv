@@ -1,0 +1,17 @@
+MAIN(Vecino chismoso): ¡¿De casualidad viste esta mañana, en el patio de Sean, lo que estaban haciendo él y Han?!
+-FIGHT-> Peleaban
+-SMOOCH-> Se besaban
+-ASTRO-> Astrofísica
+-NONE-> No es mi asunto
+
+FIGHT(Vecino chismoso): ¡Sigue!
+-SUCCESS-> ¡¡¡Con sus PALABRAS!!!
+
+SMOOCH(Vecino chismoso): ¡Sigue!
+-SUCCESS-> ¡¡¡Con lengua!!!
+
+ASTRO(Vecino chismoso): ¿Astrofísica romántica?
+-SUCCESS-> ¿Podía ser de otra manera?
+
+NONE(Vecino chismoso): Que aburrido eres.
+-FAILURE-> Oh cierto... los humanos se espían mutuamente por diversión.

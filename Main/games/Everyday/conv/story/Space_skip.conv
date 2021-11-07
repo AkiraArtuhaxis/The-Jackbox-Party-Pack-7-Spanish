@@ -1,0 +1,17 @@
+MAIN(Moonley): ¿Tienen alguna pregunta acerca del espacio?
+-SMELL-> ¿Cómo huele?
+-WORLD-> ¿Son simpáticos los aliens?
+-STAR-> ¿Por qué hay estrellas?
+-WHERE-> ¿Dónde está?
+
+SMELL(Moonley): Huele a huevos
+-SUCCESS-> ¡Lo sabía!
+
+WORLD(Moonley): Son todos buenos, salvo Gary
+-SUCCESS-> Estúpido Gary.
+
+STAR(Moonley): Los científicos se siguen preguntando lo mismo.
+-SUCCESS-> *Mirando al sol* ¿Por qué?
+
+WHERE(Moonley): Está...em...arriba
+-SUCCESS-> Yo veo el techo

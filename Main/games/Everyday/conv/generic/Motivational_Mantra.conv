@@ -1,0 +1,16 @@
+MAIN(Cinta de casete motivacional): Eres hermoso. Por dentro y por fuera.
+-REASSURE-> Soy bellísimo. Por dentro y por fuera.
+-DOUBT-> Soy una basura.
+
+DOUBT(Cinta de casete motivacional): *Apagada*
+-FAILURE-> Por alguna razón no me siento mejor.
+
+REASSURE(Cinta de casete motivacional): Puedes lograr lo que sea.
+-DESPAIR-> Mi vida es un desastre.
+-BELIEVEINYOURSELF-> Puedo lograr lo que sea.
+
+DESPAIR(Cinta de casete motivacional): *Apagada*
+-FAILURE-> ¡Estoy condenado! ¡Frito!
+
+BELIEVEINYOURSELF(Cinta de casete motivacional): Lo vas a lograr. Todo está bien.
+-SUCCESS-> Lo voy a lograr. Todo está bien.

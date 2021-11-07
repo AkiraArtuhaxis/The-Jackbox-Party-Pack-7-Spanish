@@ -1,0 +1,351 @@
+DEF EPISODE "Space"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Demonios en el Espacio"
+    SET DESCRIPTION "Desde el inframundo al <font color='#AF0000'>espacio exterior</font>, la familia irá donde ningún diablo ha ido antes cuando son elegidos para ser lanzados a la órbita."
+    SET SUCCESS_MESSAGE "Este es un pequeño paso para los suburbios, un salto gigante para la raza diabólica. ¡Y todo por su patrocinador corporativo, la marca Poocho de comida para perros! Poocho, ¡la primera comida para perros en el espacio!"
+    SET FAILURE_MESSAGE "Nuestros espías en la NASA nos cuentan que el lanzamiento fue un lamentable fracaso. Si se hubieran tomado la misión seriamente, quizás hasta podrían haber dejado la atmósfera. Hemos visto un mejor entrenamiento en videos de yoga de famosos."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "SpaceTVAdult" <1 8:00>
+    SCHEDULE TASK "SpaceTVTeen" <1 8:00>
+    SCHEDULE TASK "SpaceTVKid" <1 8:00>
+    SCHEDULE TASK "SpaceBags" <1 11:00>
+    SCHEDULE TASK "DriveToNASA" <1 14:00>
+    SCHEDULE TASK "SpaceSim" <1 16:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "SpaceToilet" <2 8:00>
+    SCHEDULE TASK "Centrifuge" <2 10:00>
+    SCHEDULE TASK "SpaceSwim" <2 13:00>
+    SCHEDULE TASK "MeetSkip" <2 15:00>
+
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "OxygenScrubber" <3 8:00>
+    SCHEDULE TASK "PoochoPromo" <3 10:00>
+    SCHEDULE TASK "AstroFindBook" <3 13:00>
+    SCHEDULE TASK "BlastOff" <3 15:00>
+        
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Do TV interview ADULT
+CLONE DEED "DialogID" "SpaceTVAdult"
+    SET INSTRUCTIONS "Haz una entrevista de televisión"
+    SET CONTENT_ID "SPACE_PARENT"
+END
+
+DEF TASK "SpaceTVAdult"
+    SET NAME "Haz una entrevista de televisión sobre ser la primera familia en el espacio."
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SpaceTVAdult"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Do TV interview TEEN
+CLONE DEED "DialogID" "SpaceTVTeen"
+    SET INSTRUCTIONS "Haz una entrevista de televisión"
+    SET CONTENT_ID "SPACE_TEEN"
+END
+
+DEF TASK "SpaceTVTeen"
+    SET NAME "Haz una entrevista de televisión sobre ser el primer adolescente en el espacio"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SpaceTVTeen"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Do TV interview KID
+CLONE DEED "DialogID" "SpaceTVKid"
+    SET INSTRUCTIONS "Haz una entrevista de televisión"
+    SET CONTENT_ID "SPACE_KID"
+END
+
+DEF TASK "SpaceTVKid"
+    SET NAME "Haz una entrevista de televisión sobre ser el primer niño en el espacio"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SpaceTVKid"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Pack bags for space
+CLONE DEED "GatherID" "SpaceBags"
+    SET INSTRUCTIONS "Haz las maletas para el espacio"
+    SET CONTENT_ID "SPACE_SUPPLIES"
+END
+
+DEF TASK "SpaceBags"
+    SET NAME "Haz las maletas para el espacio"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SpaceBags"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Drive to NASA for training
+CLONE DEED "TravelID" "DriveToNASA"
+    SET INSTRUCTIONS "Conduce a la NASA"
+    SET CONTENT_ID "NASA"
+END
+
+DEF TASK "DriveToNASA"
+    SET NAME "Conduce a la NASA para entrenar"
+    SET ASKER_NAME "Obtén un viaje a la NASA para entrenar"
+    SET HELPER_NAME "Drive <ASKER> to NASA for training"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "YOUNG"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DriveToNASA"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Train in space simulator
+CLONE DEED "Gizmos6" "SpaceSim"
+    SET INSTRUCTIONS "Entrena en el simulador de espacio"
+    SET NAME "Espacio-Tron 99"
+END
+
+DEF TASK "SpaceSim"
+    SET NAME "Entrena en el simulador de espacio"
+    SET ASKER_NAME "Obtén ayuda para entrenar en simulador espacial"
+    SET HELPER_NAME "Help <ASKER> train in space simulator"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SpaceSim"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : -----------------------------------------------------
+
+REM : Learn how to use space toilet
+CLONE DEED "Gizmos12" "SpaceToilet"
+    SET INSTRUCTIONS "Aprende a usar el baño espacial"
+    SET NAME "Baño Espacial"
+    SET TEXT_GIZMO_CHANCE_RATIO 0
+END
+
+DEF TASK "SpaceToilet"
+    SET NAME "Aprende a usar el baño espacial"
+    SET ASKER_NAME "Obtén ayuda para aprender a usar el baño espacial"
+    SET HELPER_NAME "Help <ASKER> learn how to use space toilet"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SpaceToilet"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Train in the centrifuge
+CLONE DEED "RotateBase" "Centrifuge"
+    SET INSTRUCTIONS "¡Gira por la ciencia!"
+    SET ROTATIONS_IN_DEG 2070
+END
+
+DEF TASK "Centrifuge"
+    SET NAME "Entrena en la centrifugadora"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "Centrifuge"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Train in swimming pool
+CLONE DEED "SwipeDown" "SpaceSwim1"
+    SET INSTRUCTIONS "Ponte tu casco"
+END
+
+CLONE DEED "SwipeDown" "SpaceSwim2"
+    SET INSTRUCTIONS "Baja a la piscina"
+END
+
+CLONE DEED "ScrubLong" "SpaceSwim3"
+    SET INSTRUCTIONS "Empuja a través del agua"
+END
+
+CLONE DEED "Tap3" "SpaceSwim4"
+    SET INSTRUCTIONS "Recoger juguetes de piscina perdidos"
+END
+
+DEF TASK "SpaceSwim"
+    SET NAME "Entrena en la piscina de la NASA"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SpaceSwim1"
+    STEP "2" "SpaceSwim2"
+    STEP "3" "SpaceSwim3"
+    STEP "4" "SpaceSwim4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Speak with legendary astronaught Commander Skip Moonely
+CLONE DEED "DialogID" "MeetSkip"
+    SET INSTRUCTIONS "Habla con el astronauta Comandante Skip Moonley"
+    SET CONTENT_ID "SPACE_SKIP"
+END
+
+DEF TASK "MeetSkip"
+    SET NAME "Habla con el legendario astronauta Comandante Skip Moonley"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MeetSkip"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------------------
+
+REM : Practice fixing oxygen scrubber
+CLONE DEED "Instructions5" "OxygenScrubber"
+    SET INSTRUCTIONS "Practica la reparación del depurador de oxígeno"
+
+    SET MECHANIC_0 "TAP"
+    SET INSTRUCTIONS_0 "Quita la bolsa de la prenda de refrigeración líquida"
+    SET MECHANIC_1 "TAP_HOLD"
+    SET INSTRUCTIONS_1 "Detén el orificio de desviación con una toalla"
+    SET MECHANIC_2 "ROTATE_CLOCK"
+    SET INSTRUCTIONS_2 "Crea un 'cinturón' con un rollo de cinta adhesiva"
+    SET MECHANIC_3 "TAP"
+    SET INSTRUCTIONS_3 "Pegue la bolsa sobre la manguera del traje rojo"
+    SET MECHANIC_4 "SWIPE_DOWN"
+    SET INSTRUCTIONS_4 "Asegura la toalla en el orificio de desviación"
+END
+
+DEF TASK "OxygenScrubber"
+    SET NAME "Practica la reparación del depurador de oxígeno"
+    SET ASKER_NAME "Obtén ayuda para practicar la reparación del depurador de oxígeno"
+    SET HELPER_NAME "Help <ASKER> practice fixing oxygen scrubber"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "OxygenScrubber"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Pose for promotional photo
+CLONE DEED "NothingBase" "PoochoPromo1"
+    SET INSTRUCTIONS "Levanta la bolsa de 'Poocho', la comida para perros que patrocina la misión."
+    SET DURATION 3S
+    SET PARTICIPATION "ALL"
+END
+
+CLONE DEED "NothingBase" "PoochoPromo2"
+    SET INSTRUCTIONS "Sonríe y di '¡Poocho!'"
+    SET DURATION 3S
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "PoochoPromo"
+    SET NAME "Posa para la foto promocional"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "PoochoPromo1"
+    STEP "2" "PoochoPromo2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Find astrophyysics text book
+CLONE DEED "FindID" "AstroFindBook"
+    SET INSTRUCTIONS "Encuentra un libro de texto de astrofísica"
+    SET CATEGORY "BOOK"
+END
+
+DEF TASK "AstroFindBook"
+    SET NAME "Encuentra un libro de texto de astrofísica"
+    SET ASKER_NAME "Obtén ayuda para encontrar un libro de texto de astrofísica"
+    SET HELPER_NAME "Help <ASKER> find astrophysics text book"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "AstroFindBook"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : BLAST OFF!
+CLONE DEED "TapAll" "BlastOff"
+    SET INSTRUCTIONS "¡Colapsa ese gran botón de lanzamiento!"
+END
+
+DEF TASK "BlastOff"
+    SET NAME "¡DESPEGA!"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BlastOff"
+
+    NEXT "1" SUCCESS FAILURE
+END

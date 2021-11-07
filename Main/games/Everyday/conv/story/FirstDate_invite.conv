@@ -1,0 +1,17 @@
+MAIN(Riley): ¿Mi pequeño huevo endiablado dijo que querías conocerme?
+-COME-> ¡Claro! ¡Ven a cenar!
+-HAVE-> ¡Te tendremos para cenar!
+-GUESS-> Cena...¿Supongo?
+-NEVER-> Nunca vuelvas a llamar aquí
+
+COME(Riley): Claro, ¿por qué no?
+-SUCCESS-> Esto fue suficientemente agradable.
+
+HAVE(Riley): Jaja eso suena como que tú quieres comerme a mi.
+-SUCCESS-> Hmm... Necesito un nuevo plato principal.
+
+GUESS(Riley): ...¿sí?
+-SUCCESS-> Esta va a ser una noche complicada.
+
+NEVER(Riley): Esta fue era una interacción confusa...
+-SUCCESS-> Tengo que hacer la cena para disculparme.

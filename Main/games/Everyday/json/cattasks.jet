@@ -1,0 +1,69 @@
+{
+    "payload":[
+        { 
+            "id": "EAT_BUGS",
+            "name": "¡GATITO BUENO! Cómete los gusanos",
+            "taskIdToSpawn": "AudienceGiveKittyTreat"
+        },
+        { 
+            "id": "POSE_FOR_PIC",
+            "name": "¡GATITO BUENO! Posa para una foto en redes sociales",
+            "taskIdToSpawn": "AudienceTakeKittyPic"
+        },
+        { 
+            "id": "SHOW_BELLY",
+            "name": "¡GATITO BUENO! Gírate y enseña tu ombligo",
+            "taskIdToSpawn": "AudiencePetKitty"
+        },
+        { 
+            "id": "SHOW_CLAWS",
+            "name": "¡GATITO BUENO! Deja a tus demonios cortarte las garras",
+            "taskIdToSpawn": "AudienceClipClaws"
+        },
+        { 
+            "id": "FIGHT_VACUUM",
+            "name": "¡GATITO MALO! Pelea con el robot-aspiradora",
+            "taskIdToSpawn": "AudienceFixVacuum"
+        },
+        { 
+            "id": "DESTROY_LITTER",
+            "name": "¡GATITO MALO! Destruye el arenero",
+            "taskIdToSpawn": "AudienceCleanLitter"
+        },
+        { 
+            "id": "LAY_ON_LAPTOP",
+            "name": "¡GATITO MALO! Túmbate en el portátil y niégate a moverte",
+            "taskIdToSpawn": "AudienceMoveKitty"
+        },
+        { 
+            "id": "VOMIT",
+            "name": "¡GATITO MALO! Vomita en las sábanas limpias",
+            "taskIdToSpawn": "AudienceVetTrip"
+        },
+        { 
+            "id": "DART_OUT",
+            "name": "¡GATITO MALO! Sal por la puerta principal y desaparece",
+            "taskIdToSpawn": "AudienceFindKitty"
+        },
+        { 
+            "id": "SCRATCH_CHAIR",
+            "name": "¡GATITO MALO! Araña la silla buena",
+            "taskIdToSpawn": "AudienceScoldKitty"
+        },
+        { 
+            "id": "KNOCK_ITEMS",
+            "name": "¡GATITO MALO! Tira objetos aleatorios de la mesa",
+            "taskIdToSpawn": "AudiencePickUp"
+        },
+        { 
+            "id": "PAW_WATER",
+            "name": "¡GATITO MALO! Pon tu pata en el vaso de agua de tu dueño",
+            "taskIdToSpawn": "AudienceGetWater"
+        },
+        { 
+            "id": "SHOW_BELLY_TRAP",
+            "name": "¡GATITO MALO! Gírate y enseña tu ombligo (pero es una trampa)",
+            "taskIdToSpawn": "AudiencePetKittyScratch"
+        }
+    ]
+}

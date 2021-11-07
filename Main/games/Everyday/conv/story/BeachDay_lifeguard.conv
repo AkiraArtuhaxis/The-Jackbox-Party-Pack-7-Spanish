@@ -1,0 +1,17 @@
+MAIN(Vecino): ¿Qué tengo que hacer como salvavidas?
+-PROTECT-> Proteger a los niños
+-YELL-> Gritar a los niños
+-MOCK-> Burlarse de los niños
+-WHISTLE-> Solo silba
+
+PROTECT(Vecino): ¡Suena bien!
+-SUCCESS-> ¡Sé nuestro fiel guardián!
+
+YELL(Vecino): ¡Suena bien!
+-SUCCESS-> Aquí tienes un megáfono
+
+MOCK(Vecino): Um... Creo que me saltearé la parte de la burla...
+-SUCCESS-> ¿¡¿¡¿Es que nadie va a burlarse de estos niños desobedientes?!?!?
+
+WHISTLE(Vecino): ¡Suena bien!
+-SUCCESS-> ¡Sé nuestro agudo guardián!

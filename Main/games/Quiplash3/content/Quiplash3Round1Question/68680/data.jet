@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Schmitty|Shmitty|Smitty|<ARTICLE> Quiplash host | Quiplash host|<ARTICLE> host of Quiplash | host of Quiplash|Schmittie|Shmittie|Smittie",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Well now hang on, what did I ever do to you!? Huh? I mean, I deserve love just like anybody else! Who are you people!?",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Understandably, no one wants to adopt Little Orphan <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Old Man|Idiot|Evil Doll",
+   "n": "SafetyQuips"
+  }
+ ]
+}

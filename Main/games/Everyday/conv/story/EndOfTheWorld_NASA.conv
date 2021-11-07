@@ -1,0 +1,17 @@
+MAIN(NASA): ¿Cómo podemos ayudarte?
+-AST-> ¡Hay un asteroide!
+-DIE-> ¡Vamos a morir!
+-SPACE-> ¡El espacio es malo!
+-BOOM-> ¡El cielo hace boom boom!
+
+AST(NASA): Em... Soy solo un pasante
+-SUCCESS-> ¿Cómo conseguí este número?
+
+DIE(NASA): ¡¡¡Ahhh!!!!
+-SUCCESS-> Por lo menos di a entender mi punto.
+
+SPACE(NASA): Estamos en desacuerdo
+-SUCCESS-> Bien. He abierto un diálogo.
+
+BOOM(NASA): Lo entiendo completamente
+-SUCCESS-> Hablo ciencia.

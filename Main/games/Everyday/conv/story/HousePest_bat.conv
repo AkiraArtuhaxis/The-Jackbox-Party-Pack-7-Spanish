@@ -1,0 +1,17 @@
+MAIN(Exterminador): ¿Qué clase de murciélago es este?
+-NORMAL-> Normal
+-DEMON-> Demoníaco
+-CURSE-> Maldito
+-EXTRA-> Extra
+
+NORMAL(Exterminador): Entonces usaré trampas de murciélagos normales
+-SUCCESS-> Puede que haya llevado a esta persona a su muerte...
+
+DEMON(Exterminador): Mi especialidad
+-SUCCESS-> ¡Aguanten los negocios pequeños!
+
+CURSE(Exterminador): Mi especialidad
+-SUCCESS-> Aguanten los negocios pequeños
+
+EXTRA(Exterminador): Bien. Me encanta el drama.
+-SUCCESS-> ¡Cuidado, murciélago!

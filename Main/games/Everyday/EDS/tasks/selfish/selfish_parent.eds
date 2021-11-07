@@ -1,0 +1,909 @@
+REM : Stare Blankly Out Window
+
+CLONE DEED "Nothing2" "StareBlanklyOutWindow"
+    SET INSTRUCTIONS "Piensa en lo que pudo haber sido"
+    SET PARTICIPATION "SOLO"
+END
+
+
+DEF TASK "StareBlanklyOutWindow"
+    SET NAME "Mira fijamente por la ventana"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "StareBlanklyOutWindow"
+    
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+
+
+REM : Spend Romantic Time with Partner
+
+CLONE DEED "Rotate90" "RomanceTimeStep1"
+    SET INSTRUCTIONS "Cierra la puerta"
+END
+
+CLONE DEED "Tap3" "RomanceTimeStep2"
+    SET INSTRUCTIONS "Enciende velas"
+END
+
+CLONE DEED "Hold5" "RomanceTimeStep3"
+    SET INSTRUCTIONS "Disfruta tiempo solos"
+END
+
+CLONE DEED "Tap1" "RomanceTimeStep4"
+    SET INSTRUCTIONS "Choca esos cinco con éxito"
+END
+
+CLONE DEED "Rotate90Counter" "RomanceTimeStep5"
+    SET INSTRUCTIONS "Desbloquea la puerta"
+END
+
+DEF TASK "RomanceTime"
+    SET NAME "Pasa tiempo romántico con tu pareja"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET LEWD TRUE
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "RomanceTimeStep1"
+    STEP "Step2" "RomanceTimeStep2"
+    STEP "Step3" "RomanceTimeStep3"
+    STEP "Step4" "RomanceTimeStep4"
+    STEP "Step5" "RomanceTimeStep5"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" "Step5" FAILURE
+    NEXT "Step5" SUCCESS FAILURE
+END
+
+
+REM : Yell Swear Words in Closet
+
+CLONE DEED "Rotate90" "SwearWordStep1"
+    SET INSTRUCTIONS "Cierra la puerta"
+END
+
+CLONE DEED "Hold5" "SwearWordStep2"
+    SET INSTRUCTIONS "Grita tu maldición FAVORITA"
+END
+
+CLONE DEED "Hold5" "SwearWordStep3"
+    SET INSTRUCTIONS "Respira profundamente"
+END
+
+CLONE DEED "Rotate90Counter" "SwearWordStep4"
+    SET INSTRUCTIONS "Quitale el seguro a la puerta"
+END
+
+DEF TASK "SwearWord"
+    SET NAME "Grita palabrotas en el armario"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+    SET LEWD TRUE
+
+    STEP "Step1" "SwearWordStep1"
+    STEP "Step2" "SwearWordStep2"
+    STEP "Step3" "SwearWordStep3"
+    STEP "Step4" "SwearWordStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+REM : Pour a *Sizable* Glass of Wine
+
+CLONE DEED "Tap1" "PourWineStep1"
+    SET INSTRUCTIONS "Quita el corcho"
+END
+
+CLONE DEED "Hold5" "PourWineStep2"
+    SET INSTRUCTIONS "Vierte... por un tiempo"
+END
+
+CLONE DEED "SwipeUp" "PourWineStep3"
+    SET INSTRUCTIONS "Desecha la botella"
+END
+
+DEF TASK "PourWine"
+    SET NAME "Sirve una copa de vino de tamaño *considerable*"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET LEWD TRUE
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "PourWineStep1"
+    STEP "Step2" "PourWineStep2"
+    STEP "Step3" "PourWineStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+REM : Change Radio to Adult Contemporary
+
+CLONE DEED "Rotate270" "AdultRadioStep1"
+    SET INSTRUCTIONS "Encuentra una estación para adultos"
+END
+
+CLONE DEED "Rotate90Counter" "AdultRadioStep2"
+    SET INSTRUCTIONS "Uf... lo movieron"
+END
+
+CLONE DEED "Rotate270" "AdultRadioStep3"
+    SET INSTRUCTIONS "¡¿¡¿Dónde está?!?!"
+END
+
+CLONE DEED "Nothing5" "AdultRadioStep4"
+    SET INSTRUCTIONS "¡Ahí está! Disfruta las dulces baladas"
+END
+
+DEF TASK "AdultContemp"
+    SET NAME "Cambiar la radio a contemporánea para adultos"
+    SET THEME "SELFISH"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "Step1" "AdultRadioStep1"
+    STEP "Step2" "AdultRadioStep2"
+    STEP "Step3" "AdultRadioStep3"
+    STEP "Step4" "AdultRadioStep4"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" "Step4" FAILURE
+    NEXT "Step4" SUCCESS FAILURE
+END
+
+
+REM : Hide too well in Hide & Seek
+
+CLONE DEED "Hold5" "HideAndSeek1"
+    SET INSTRUCTIONS "Corre al armario"
+END
+
+CLONE DEED "Tap1" "HideAndSeek2"
+    SET INSTRUCTIONS "Cierra la puerta"
+END
+
+CLONE DEED "NothingBase" "HideAndSeek3"
+    SET INSTRUCTIONS "Disfruta el silencio"
+    SET DURATION 5S
+END
+
+DEF TASK "HideAndSeek"
+    SET NAME "Ocultate demasiado bien en las Escondidas"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "HideAndSeek1"
+    STEP "2" "HideAndSeek2"
+    STEP "3" "HideAndSeek3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Ignore calls from in-laws
+
+CLONE DEED "Tap1" "IgnoreInLaws1"
+    SET INSTRUCTIONS "¡Contesta el teléfono, tu suegro está llamando!"
+END
+
+CLONE DEED "Hold5" "IgnoreInLaws2"
+    SET INSTRUCTIONS "Finge que no estás aquí"
+END
+
+CLONE DEED "SwipeBase" "IgnoreInLaws3"
+    SET INSTRUCTIONS "Baraja las excusas"
+    SET DIRECTION "DOWN,DOWN,DOWN"
+END
+
+CLONE DEED "QuickTap5" "IgnoreInLaws4"
+    SET INSTRUCTIONS "¡Fue al correo de voz! ¡Hurra! ¡Ahora puedes jugar en tu teléfono!"
+END
+
+DEF TASK "IgnoreInLaws"
+    SET NAME "Ignora la llamada de tus suegros"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "IgnoreInLaws1"
+    STEP "2" "IgnoreInLaws2"
+    STEP "3" "IgnoreInLaws3"
+    STEP "4" "IgnoreInLaws4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Call old friend to catch-up
+
+CLONE DEED "PhoneBase" "CatchUpCall1"
+    SET CATEGORY "RESIDENCE"
+END
+
+CLONE DEED "Nothing5" "CatchUpCall2"
+    SET INSTRUCTIONS "Intercambia cortesías"
+END
+
+CLONE DEED "NothingBase" "CatchUpCall3"
+    SET DURATION 5S
+    SET INSTRUCTIONS "Ellos siguen... y siguen..."
+END
+
+CLONE DEED "Hold3" "CatchUpCall4"
+    SET INSTRUCTIONS "Haz una excusa para colgar"
+END
+
+DEF TASK "CatchUpCall"
+    SET NAME "Llama a un viejo amigo para ponerte al día"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "CatchUpCall1"
+    STEP "2" "CatchUpCall2"
+    STEP "3" "CatchUpCall3"
+    STEP "4" "CatchUpCall4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Brew a nice cup of tea
+
+CLONE DEED "Tap1" "BrewTea1"
+    SET INSTRUCTIONS "Saca el té de manzanilla del gabinete."
+END
+
+CLONE DEED "Rotate90Counter" "BrewTea2"
+    SET INSTRUCTIONS "Enciente el quemador"
+END
+
+CLONE DEED "Nothing5" "BrewTea3"
+    SET INSTRUCTIONS "Déjalo reposar"
+END
+
+CLONE DEED "SwipeUp" "BrewTea4"
+    SET INSTRUCTIONS "Toma un buen sorbo lento"
+END
+
+DEF TASK "BrewTea"
+    SET NAME "Prepara una buena taza de té"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "BrewTea1"
+    STEP "2" "BrewTea2"
+    STEP "3" "BrewTea3"
+    STEP "4" "BrewTea4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Enjoy a boring book about the Navy
+
+CLONE DEED "SwipeLeft" "BoringBook1"
+    SET INSTRUCTIONS "Voltea las páginas"
+END
+
+CLONE DEED "SwipeRight" "BoringBook2"
+    SET INSTRUCTIONS "Revisa el índice"
+END
+
+CLONE DEED "Tap1" "BoringBook3"
+    SET INSTRUCTIONS "Asiente sabiamente"
+END
+
+CLONE DEED "Hold5" "BoringBook4"
+    SET INSTRUCTIONS "Considera las implicaciones históricas de lo que acaba de leer."
+END
+
+DEF TASK "BoringBook"
+    SET NAME "Disfruta de un libro aburrido sobre la Marina"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "BoringBook1"
+    STEP "2" "BoringBook2"
+    STEP "3" "BoringBook3"
+    STEP "4" "BoringBook4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Have a midlife crisis
+
+CLONE DEED "Nothing2" "MidlifeCrisis1"
+    SET INSTRUCTIONS "Date cuenta de que tu vida está a mitad de camino"
+END
+
+CLONE DEED "Hold2" "MidlifeCrisis2"
+    SET INSTRUCTIONS "Date cuenta de que desperdiciaste tantas oportunidades"
+END
+
+CLONE DEED "Tap5" "MidlifeCrisis3"
+    SET INSTRUCTIONS "Siente pavor"
+END
+
+CLONE DEED "SwipeUp" "MidlifeCrisis4"
+    SET INSTRUCTIONS "Ponte esa chaqueta de cuero que ya ni te queda"
+END
+
+CLONE DEED "PhoneCategory" "MidlifeCrisis5"
+    SET INSTRUCTIONS "Llama al concesionario de automóviles para comprar una motocicleta"
+    SET CATEGORY "CAR"
+END
+
+DEF TASK "MidlifeCrisis"
+    SET NAME "Ten una crisis de media edad"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    REM : SELFISH TIMEOUT
+
+    STEP "1" "MidlifeCrisis1"
+    STEP "2" "MidlifeCrisis2"
+    STEP "3" "MidlifeCrisis3"
+    STEP "4" "MidlifeCrisis4"
+    STEP "5" "MidlifeCrisis5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Read steamy romance novel
+
+CLONE DEED "SwipeLeft" "SteamyRomanceNovel1"
+    SET INSTRUCTIONS "Abre 'Pozos del deseo'"
+END
+
+CLONE DEED "Nothing5" "SteamyRomanceNovel2"
+    SET INSTRUCTIONS "Lee la prosa apasionada"
+END
+
+CLONE DEED "Hold5" "SteamyRomanceNovel3"
+    SET INSTRUCTIONS "Presiona tu mano contra tu pecho"
+END
+
+CLONE DEED "SwipeRight" "SteamyRomanceNovel4"
+    SET INSTRUCTIONS "Cierra el libro rápidamente y exhala"
+END
+
+DEF TASK "SteamyRomanceNovel"
+    SET NAME "Lee una novela romantica"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    SET LEWD TRUE
+
+    STEP "1" "SteamyRomanceNovel1"
+    STEP "2" "SteamyRomanceNovel2"
+    STEP "3" "SteamyRomanceNovel3"
+    STEP "4" "SteamyRomanceNovel4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Watch a telenovela
+
+CLONE DEED "Rotate180" "WatchTelenovela1"
+    SET INSTRUCTIONS "Prende la televisión"
+END
+
+CLONE DEED "Tap4" "WatchTelenovela2"
+    SET INSTRUCTIONS "Mira a Rafael confrontar a Gloria sobre el misterioso incendio"
+END
+
+CLONE DEED "Nothing2" "WatchTelenovela3"
+    SET INSTRUCTIONS "Descubre que Ronaldo no murió en el incendio"
+END
+
+CLONE DEED "Tap4" "WatchTelenovela4"
+    SET INSTRUCTIONS "Jadea. Rafael se quita la máscara. Él era Ronaldo todo este tiempo"
+END
+
+DEF TASK "WatchTelenovela"
+    SET NAME "Mira una telenovela"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "WatchTelenovela1"
+    STEP "2" "WatchTelenovela2"
+    STEP "3" "WatchTelenovela3"
+    STEP "4" "WatchTelenovela4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Stash bag of candy in your secret hiding spot
+
+CLONE DEED "SwipeUp" "StashCandy1"
+    SET INSTRUCTIONS "Párate en una silla"
+END
+
+CLONE DEED "Rotate720Counter" "StashCandy2"
+    SET INSTRUCTIONS "Desatornilla el panel de ventilación"
+END
+
+CLONE DEED "Hold2" "StashCandy3"
+    SET INSTRUCTIONS "Coloca una bolsa de dulces en la ventilación"
+END
+
+DEF TASK "StashCandy"
+    SET NAME "Guarda una bolsa de caramelos en tu escondite secreto"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "StashCandy1"
+    STEP "2" "StashCandy2"
+    STEP "3" "StashCandy3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Quiety sneak old toys into donation box
+
+CLONE DEED "Hold2" "DonateToys1"
+    SET INSTRUCTIONS "Espera a que tus niños se distraigan"
+END
+
+CLONE DEED "SwipeDown" "DonateToys2"
+    SET INSTRUCTIONS "Tira el peluche raído"
+END
+
+CLONE DEED "SwipeDown" "DonateToys3"
+    SET INSTRUCTIONS "Tira los bloques de construcción que sigues pisando"
+END
+
+CLONE DEED "SwipeDown" "DonateToys4"
+    SET INSTRUCTIONS "Tira cómics que no sabes que son valiosos"
+END
+
+CLONE DEED "Hold2" "DonateToys5"
+    SET INSTRUCTIONS "Encogete de hombros cuando tus hijos pregunten dónde están sus cosas."
+END
+
+DEF TASK "DonateToys"
+    SET NAME "Introduce silenciosamente juguetes viejos en la caja de donaciones"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "DonateToys1"
+    STEP "2" "DonateToys2"
+    STEP "3" "DonateToys3"
+    STEP "4" "DonateToys4"
+    STEP "5" "DonateToys5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Dump entire stack of mail in the trash
+
+CLONE DEED "Hold2" "TrashMail1"
+    SET INSTRUCTIONS "Mira fijamente la enorme pila de sobres sin abrir"
+END
+
+CLONE DEED "SwipeUp" "TrashMail2"
+    SET INSTRUCTIONS "Recógelos en tus brazos"
+END
+
+CLONE DEED "SwipeDown" "TrashMail3"
+    SET INSTRUCTIONS "Ojos que no ven, corazón que no siente"
+END
+
+DEF TASK "TrashMail"
+    SET NAME "Tira toda la pila de correo a la basura."
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "TrashMail1"
+    STEP "2" "TrashMail2"
+    STEP "3" "TrashMail3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Order garish novelty wind chime
+
+CLONE DEED "PhoneBase" "OrderWindChime1"
+    SET INSTRUCTIONS "Compra el carillón de viento más fuerte que tengan"
+    SET CONTENT_ID "PORCH_DEBRIS"
+END
+
+DEF TASK "OrderWindChime"
+    SET NAME "Ordena un novedoso carillón de viento"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "OrderWindChime1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Post embarrassing baby photos of your teen child online
+
+CLONE DEED "Tap3" "PostBabyPhotos1"
+    SET INSTRUCTIONS "Inicia sesión en el sitio web de las redes sociales"
+END
+
+CLONE DEED "SwipeUp" "PostBabyPhotos2"
+    SET INSTRUCTIONS "Sube una foto de un bebé con un adorable gorro"
+END
+
+CLONE DEED "SwipeUp" "PostBabyPhotos3"
+    SET INSTRUCTIONS "Sube una foto de un bebé bañándose"
+END
+
+CLONE DEED "SwipeUp" "PostBabyPhotos4"
+    SET INSTRUCTIONS "Sube una foto de un bebé llorando debido a que el pañal está lleno"
+END
+
+CLONE DEED "QuickTap3" "PostBabyPhotos5"
+    SET INSTRUCTIONS "Etiqueta a tu hijo"
+END
+
+DEF TASK "PostBabyPhotos"
+    SET NAME "Publica fotos vergonzosas de bebé de tu hijo adolescente en línea"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "PostBabyPhotos1"
+    STEP "2" "PostBabyPhotos2"
+    STEP "3" "PostBabyPhotos3"
+    STEP "4" "PostBabyPhotos4"
+    STEP "5" "PostBabyPhotos5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Complain about kids these days
+
+CLONE DEED "DialogBase" "KidsTheseDays1"
+    SET INSTRUCTIONS "Quejate de los niños en estos días"
+    SET CONTENT_ID "COMPLAIN_ABOUT_KIDS"
+END
+
+DEF TASK "KidsTheseDays"
+    SET NAME "Quejate de los niños en estos días"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "KidsTheseDays1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Recite a motivational mantra to yourself
+
+CLONE DEED "DialogBase" "MotivationalMantra1"
+    SET INSTRUCTIONS "Recítate un mantra motivacional"
+    SET CONTENT_ID "MOTIVATIONAL_MANTRA"
+END
+
+DEF TASK "MotivationalMantra"
+    SET NAME "Recítate un mantra motivacional"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "MotivationalMantra1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Stand out in yard to be alone for a minute
+
+CLONE DEED "SwipeUp" "AloneInYard1"
+    SET INSTRUCTIONS "Ve fuera"
+END
+
+CLONE DEED "Nothing2" "AloneInYard2"
+    SET INSTRUCTIONS "Disfruta la soledad"
+END
+
+CLONE DEED "Hold2" "AloneInYard3"
+    SET INSTRUCTIONS "Ignora el gríterio de la casa"
+END
+
+CLONE DEED "Nothing2" "AloneInYard4"
+    SET INSTRUCTIONS "Escucha el susurro del viento a través de los árboles."
+END
+
+DEF TASK "AloneInYard"
+    SET NAME "Párate en el patio para estar solo por un minuto"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "AloneInYard1"
+    STEP "2" "AloneInYard2"
+    STEP "3" "AloneInYard3"
+    STEP "4" "AloneInYard4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Sign up for a beef jerky of the month club
+
+CLONE DEED "PhoneBase" "BeefJerkyClub1"
+    SET INSTRUCTIONS "Suscríbete a La Caja de Carne Mensual"
+    SET CONTENT_ID "CLEARANCE-ME"
+END
+
+DEF TASK "BeefJerkyClub"
+    SET NAME "Regístrate en un club de carne seca del mes"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "BeefJerkyClub1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Disobey doctor's diet recommendations
+
+CLONE DEED "SwipeUp" "DisobeyDiet1"
+    SET INSTRUCTIONS "Coge chips de colesterol cubiertos de azúcar"
+END
+
+CLONE DEED "Tap1" "DisobeyDiet2"
+    SET INSTRUCTIONS "Sostén la bolsa sobre la boca"
+END
+
+CLONE DEED "Rotate180" "DisobeyDiet3"
+    SET INSTRUCTIONS "Dale la vuelta a la bolsa"
+END
+
+CLONE DEED "Hold5" "DisobeyDiet4"
+    SET INSTRUCTIONS "Inhala"
+END
+
+DEF TASK "DisobeyDiet"
+    SET NAME "Desobedecer las recomendaciones dietéticas del médico."
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "DisobeyDiet1"
+    STEP "2" "DisobeyDiet2"
+    STEP "3" "DisobeyDiet3"
+    STEP "4" "DisobeyDiet4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Buy useless crap from TV
+
+CLONE DEED "PhoneCategory" "UselessCrap1"
+    SET INSTRUCTIONS "Llama para comprar basura inútil de la TV"
+    SET CATEGORY "SHOPPING"
+END
+
+DEF TASK "UselessCrap"
+    SET NAME "Compra basura inútil de la TV"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+    SET LEWD TRUE
+
+    STEP "1" "UselessCrap1"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Take a Loooooong Bath
+CLONE DEED "Tap1" "LongBath1"
+    SET INSTRUCTIONS "Cierra la puerta"
+END
+
+CLONE DEED "Rotate180Counter" "LongBath2"
+    SET INSTRUCTIONS "Abre el agua"
+END
+
+CLONE DEED "QuickTap3" "LongBath3"
+    SET INSTRUCTIONS "Coloca bombas de baño"
+END
+
+CLONE DEED "Nothing3" "LongBath4"
+    SET INSTRUCTIONS "Ignora a los niños y relájate"
+END
+
+DEF TASK "LongBath"
+    SET NAME "Toma un laaaaaaargo baño"
+    SET CAPTAIN "ADULTS"
+    SET THEME "SELFISH"
+    SET CATEGORY "SELFISH"
+    SET CANCELER "SelfishCanceler"
+    SET EMPTY_BEHAVIOR "FAIL"
+    SET DURATION <2H>
+
+    STEP "1" "LongBath1"
+    STEP "2" "LongBath2"
+    STEP "3" "LongBath3"
+    STEP "4" "LongBath4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "SelfishParent"
+    ADDTASK "StareBlanklyOutWindow"
+    ADDTASK "RomanceTime"
+    ADDTASK "SwearWord"
+    ADDTASK "PourWine"
+    ADDTASK "AdultContemp"
+    ADDTASK "HideAndSeek"
+    ADDTASK "IgnoreInLaws"
+    ADDTASK "CatchUpCall"
+    ADDTASK "BrewTea"
+    ADDTASK "BoringBook"
+    ADDTASK "MidlifeCrisis"
+    ADDTASK "SteamyRomanceNovel"
+    ADDTASK "WatchTelenovela"
+    ADDTASK "StashCandy"
+    ADDTASK "DonateToys"
+    ADDTASK "TrashMail"
+    ADDTASK "OrderWindChime"
+    ADDTASK "PostBabyPhotos"
+    ADDTASK "MotivationalMantra"
+    ADDTASK "AloneInYard"
+    ADDTASK "BeefJerkyClub"
+    ADDTASK "DisobeyDiet"
+    ADDTASK "UselessCrap"
+    ADDTASK "LongBath"
+END

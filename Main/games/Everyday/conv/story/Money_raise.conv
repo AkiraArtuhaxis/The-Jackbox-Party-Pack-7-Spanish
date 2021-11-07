@@ -1,0 +1,13 @@
+MAIN(Jefe): ¿Por qué debería darte un aumento?
+-TRABAJO-> Trabajo duro
+-TATTLE-> Voy a espiar al resto
+-WANT-> Porque lo quiero
+
+WORK(Jefe): Lo lamento, pero así no funciona el sistema.
+-SUCCESS-> El mundo de los mortales es extraño
+
+TATTLE(Jefe): ¡Trato hecho!
+-SUCCESS-> Jaja... estúpido resto.
+
+WANT(Jefe): Me gusta tu ambición. ¡Es un trato!
+-SUCCESS-> Así que así se siente estar confiado

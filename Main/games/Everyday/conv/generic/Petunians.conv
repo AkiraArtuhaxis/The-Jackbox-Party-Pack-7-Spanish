@@ -1,0 +1,22 @@
+MAIN(Vecino): ¡Saludos, vecinillo!
+-INSULT-> Hola, ¡odio tus petunias!
+-BEAUTIFUL-> Si me lo permite, debo decir que sus petunias son hermosas.
+-INSULT-> ¡Tus petunias me ponen furioso!
+
+INSULT(Vecino): ¿Qué tienen de malo?
+-COMPLAINT-> ¡Son demasiado coloridas!
+-COMPLAINT-> ¡Tienen un olor demasiado dulce!
+-BEAUTIFUL-> ¡Nada! Es que tengo envidia de lo hermosas que son.
+
+BEAUTIFUL(Vecino): ¡Pues muchas gracias! Están creciendo bastante bien.
+-OFEND-> Pensaba que eras un idiota sin talento, pero supongo que eres un decente jardinero.
+-FLATTER-> Si estuviera a cargo del Premio Nobel, ganarías la medalla a las mejores petunias.
+
+FLATTER(Vecino): Vaya. ¡Gracias!
+-SUCCESS-> No, ¡Gracias a TI por dejarme ver esas maravillosas petunias!
+
+OFFEND(Vecino): ...
+-FAILURE-> ¿Ya te vas? ¡Fue un placer charlar contigo!
+
+COMPLAINT(Vecino): Pues, mmm. Creo que me voy a ir yendo.
+-FAILURE-> Gracias a Lucifer, fracasado petuniante.

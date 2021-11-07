@@ -1,0 +1,17 @@
+MAIN(Subdirector): ¿Vendrá usted mañana?
+-ABS-> ¡Por supuesto!
+-SURE-> No veo por qué no.
+-WEATHER-> Si el tiempo me lo permite
+-SERVE-> Depende... ¿qué habrá en la mesa?
+
+ABS(Subdirector): ¡Ese es el espíritu!
+-SUCCESS-> ¿Extraño las clases?
+
+SURE(Subdirector): No cuentas con la emoción que buscamos. ¡Quédate en casa!
+-SUCCESS-> ¡Rayos! ¡Otro día sin trabajar!
+
+WEATHER(Subdirector): Claro, yo tampoco trabajo cuando llueve.
+-SUCCESS-> Los profesores son tal como nosotros.
+
+SERVE(Subdirector): ¡Una educación al punto!
+-SUCCESS-> ¡Qué delicia!

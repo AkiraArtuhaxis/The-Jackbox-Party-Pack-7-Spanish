@@ -1,0 +1,13 @@
+MAIN(Testigo): ¡Vi al fantasma! ¡Era aterrador!
+-DO-> ¿Qué estaba haciendo?
+-LOOK-> ¿Cómo se veía?
+-SINGLE-> ¿Parecía soltero? Pregunto por un amigo.
+
+DO(Testigo): ¡Caminaba por ahi! ¡Lentamente! ¡Y parecía que estaba gimiendo!
+-SUCCESS-> Mi primera sospecha es mi abuelo...
+
+LOOK(Testigo): Ropa hecha un trapo, barba sucia, piel pálida...
+Este fantasma necesita un cambio de look.
+
+SINGLE(Testigo): De hecho, noté que llevaba un anillo de boda. Era idéntico al que llevaba el anciano Oldman...
+-SUCCESS-> Esto no va a ningún lado.

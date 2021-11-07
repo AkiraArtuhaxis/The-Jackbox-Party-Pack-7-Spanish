@@ -1,0 +1,17 @@
+MAIN(Jefe): ¿Por qué no puedes venir a trabajar hoy?
+-SICK-> Me siento enfermo
+-HEAD-> Me duele mucho la cabeza
+-PARTY-> Anduve de fiesta en fiesta
+-CAUGHT-> Me atrapó una trampa de oso
+
+SICK(Jefe): Mmm, demasiado general para investigarlo
+-SUCCESS-> ¡Excelente! Digo... tos tos
+
+HEAD(Jefe): Mmm, demasiado general para investigarlo
+-SUCCESS-> ¡Excelente! Digo... auch
+
+PARTY(Jefe): Pues podemos descontarlo de tus días de vacaciones
+-SUCCESS-> Odio el mundo de los mortales
+
+CAUGHT(Jefe): De acuerdo, pero solo te quedan 2 días libres por trampa de oso.
+-SUCCESS-> Espero liberarme para mañana... *comienza a forcejear*

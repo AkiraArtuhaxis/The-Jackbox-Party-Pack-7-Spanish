@@ -1,0 +1,17 @@
+MAIN(Entrevistador): ¿Cómo se siente ser la primera familia en el espacio?
+-PROUD-> Orgulloso
+-SCARED-> Asustado
+-BORED-> Aburrido
+-CONFUSED-> Confundido y hambriento
+
+PROUD(Entrevistador): Deberías estarlo.
+-SUCCESS-> Toma una foto mía con mis pantalones buenos.
+
+SCARED(Entrevistador): Deberías estarlo.
+-SUCCESS-> ¿Es el espacio peligroso?
+
+BORED(Entrevistador): Mejor hablemos con alguien más interesante.
+-SUCCESS-> ¡Buena suerte!
+
+CONFUSED(Entrevistador): Aquí tienes un tentempié
+-SUCCESS-> Gracias por tu apoyo.

@@ -1,0 +1,17 @@
+MAIN(Vecino): La música está un poco fuerte, ¿no crees?
+-WHAT-> ¡¿QUÉ?!
+-SORRY-> ¡LO LAMENTO!
+-JAM-> ¿QUIERES TOCAR?
+-BAD-> ¡SE LLEVA LAS MALAS VIBRAS!
+
+WHAT(Vecino): Me voy a mudar
+-SUCCESS-> ¿¡¿¡¿QUÉ?!?!?
+
+SORRY(Vecino): ¡OKEY!
+-SUCCESS-> ¡ME ALEGRA QUE PODAMOS HABLAR!
+
+JAM(Vecino): ...¡¡¡SEGURO!!!
+-SUCCESS-> ¡AGARRA UN LAÚD Y A DARLE!
+
+BAD(Vecino): ¿Quieres hablar?
+-SUCCESS-> ...sí, por favor.

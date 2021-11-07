@@ -1,0 +1,318 @@
+REM : Try Not To Pop Zit
+
+CLONE DEED "Tap3" "ZitStep1"
+    SET INSTRUCTIONS "Tócala"
+END
+
+CLONE DEED "ScrubMedium" "ZitStep2"
+    SET INSTRUCTIONS "Ráscala"
+END
+
+CLONE DEED "Hold3" "ZitStep3"
+    SET INSTRUCTIONS "Vaya, está sangrando. ¡Aplica presión!"
+END
+
+DEF TASK "DontPopZit"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET THEME "BATHROOM"
+    SET NAME "Intenta no reventar tu grano"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET LEWD TRUE
+
+    STEP "1" "ZitStep1"
+    STEP "2" "ZitStep2"
+    STEP "3" "ZitStep3"
+    
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+
+REM : Practice Kissing
+
+CLONE DEED "Tap1" "FindMelon"
+    SET INSTRUCTIONS "Encuentra una sandía en la cocina"
+END
+
+CLONE DEED "Hold5" "HoldMelon"
+    SET INSTRUCTIONS "Finge que la sandía es alguien que te ama"
+END
+
+CLONE DEED "Tap3" "KissMelon"
+    SET INSTRUCTIONS "Besa la sandía"
+END
+
+CLONE DEED "Rotate720" "FrenchKissMelon"
+    SET INSTRUCTIONS "Da un beso profundo a la sandía"
+END
+
+DEF TASK "PracticeKissing"
+    SET NAME "Practica besar"
+    SET THEME "MISC"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+
+    STEP "1" "FindMelon"
+    STEP "2" "HoldMelon"
+    STEP "3" "KissMelon"
+    STEP "4" "FrenchKissMelon"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE 
+END
+
+
+REM : Fantasize (Fantasize)
+
+CLONE DEED "NothingBase" "Bobby"
+    SET DURATION 5S
+    SET INSTRUCTIONS "Fantasea con besarte con Bobby Qualidee, Wide Receiver Estrella"
+    SET PARTICIPATION "SOLO"
+END
+
+DEF TASK "Fantasize"
+    SET NAME "Sueña de día"
+    SET THEME "MISC"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+
+    STEP "1" "Bobby"
+
+    NEXT "1" SUCCESS FAILURE 
+END
+
+
+REM : Lift weights (LiftWeights)
+
+CLONE DEED "SwipeUp" "LiftIron1"
+    SET INSTRUCTIONS "¡Es hora de animarse! ¡Levanta ese metal!"
+END
+
+CLONE DEED "SwipeUp" "LiftIron2"
+    SET INSTRUCTIONS "¡Levanta de nuevo!"
+END
+
+CLONE DEED "SwipeUp" "LiftIron3"
+    SET INSTRUCTIONS "¡Una más!"
+END
+
+CLONE DEED "Nothing3" "CatchBreath"
+    SET INSTRUCTIONS "Recupera el aliento. Tres repeticiones ya es suficiente ejercicio"
+END
+
+DEF TASK "LiftWeights"
+    SET NAME "Levanta peso"
+    SET THEME "PLAYING"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "LiftIron1"
+    STEP "2" "LiftIron2"
+    STEP "3" "LiftIron3"
+    STEP "4" "CatchBreath"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Exude Cool (ExudeCool)
+
+CLONE DEED "Hold3" "StandAround"
+    SET INSTRUCTIONS "Párate con actitud"
+END
+
+CLONE DEED "Hold3" "StandAround2"
+    SET INSTRUCTIONS "Pareces tan desinteresado ahora. Impresionante."
+END
+
+DEF TASK "ExudeCool"
+    SET NAME "Suda genialidad"
+    SET THEME "MISC"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+
+    STEP "1" "StandAround"
+    STEP "2" "StandAround2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Put on Deodorant
+
+CLONE DEED "SwipeUp" "DeodorantStep1"
+    SET INSTRUCTIONS "Levanta un brazo"
+END
+
+CLONE DEED "ScrubMedium" "DeodorantStep2"
+    SET INSTRUCTIONS "Frotalo ahí"
+END
+
+CLONE DEED "Hold5" "DeodorantStep3"
+    SET INSTRUCTIONS "Toma una bocanada"
+END
+
+DEF TASK "Deodorant"
+    SET NAME "Ponte desodorante"
+    SET THEME "BATHROOM"
+    SET CAPTAIN "TEENS"
+    SET DURATION <3H>
+    REM : SOLO TIMEOUT
+    SET CATEGORY "LOW"
+
+    STEP "Step1" "DeodorantStep1"
+    STEP "Step2" "DeodorantStep2"
+    STEP "Step3" "DeodorantStep3"
+
+    NEXT "Step1" "Step2" FAILURE
+    NEXT "Step2" "Step3" FAILURE
+    NEXT "Step3" SUCCESS FAILURE
+END
+
+REM : Rewire the stereo speakers
+
+CLONE DEED "Tap2" "RewireSpeakers1"
+    SET INSTRUCTIONS "Golpea el viejo boom box para ver si tienes la magia de Fonz"
+END
+
+CLONE DEED "SwipeRight" "RewireSpeakers2"
+    SET INSTRUCTIONS "Abre a este chico malo"
+END
+
+CLONE DEED "SwipeBase" "RewireSpeakers3"
+    SET INSTRUCTIONS "Agita las chispas"
+    SET DIRECTION "LEFT,RIGHT"
+END
+
+CLONE DEED "Hold3" "RewireSpeakers4"
+    SET INSTRUCTIONS "Solda esos dos cables sueltos juntos"
+END
+
+CLONE DEED "Nothing3" "RewireSpeakers5"
+    SET INSTRUCTIONS "¡A mover el esqueleto!"
+END
+
+DEF TASK "RewireSpeakers"
+    SET NAME "Vuelve a cablear los altavoces estéreo"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET THEME "RECREATION"
+    SET DURATION <3H>
+
+    STEP "1" "RewireSpeakers1"
+    STEP "2" "RewireSpeakers2"
+    STEP "3" "RewireSpeakers3"
+    STEP "4" "RewireSpeakers4"
+    STEP "5" "RewireSpeakers5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Throw up after night of partying
+
+CLONE DEED "Nothing2" "PartyThrowUp1"
+    SET INSTRUCTIONS "Sientete mareado"
+END
+
+CLONE DEED "Hold2" "PartyThrowUp2"
+    SET INSTRUCTIONS "Intenta aguantar el vómito"
+END
+
+CLONE DEED "QuickTap5" "PartyThrowUp3"
+    SET INSTRUCTIONS "¡Corre al baño!"
+END
+
+CLONE DEED "SwipeDown" "PartyThrowUp4"
+    SET INSTRUCTIONS "Abraza el inodoro"
+END
+
+DEF TASK "PartyThrowUp"
+    SET NAME "Vomita después de una noche de fiesta"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET THEME "BATHROOM"
+    SET LEWD TRUE
+    SET DURATION <3H>
+
+    STEP "1" "PartyThrowUp1"
+    STEP "2" "PartyThrowUp2"
+    STEP "3" "PartyThrowUp3"
+    STEP "4" "PartyThrowUp4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+
+REM : Fix tape stuck in VCR
+
+CLONE DEED "QuickTap5" "FixVCR1"
+    SET INSTRUCTIONS "Golpea la videograbadora"
+END
+
+CLONE DEED "SwipeUp" "FixVCR2"
+    SET INSTRUCTIONS "Mete tu mano adentro"
+END
+
+CLONE DEED "SwipeDown" "FixVCR3"
+    SET INSTRUCTIONS "Retira la cinta VHS"
+END
+
+CLONE DEED "Rotate360Counter" "FixVCR4"
+    SET INSTRUCTIONS "¡La cinta magnética se fue a todas partes! ¡Rebobínalo de nuevo!"
+END
+
+DEF TASK "FixVCR"
+    SET NAME "Arregla la cinta atascada en la videograbadora"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "LOW"
+    SET THEME "RECREATION"
+    SET DURATION <3H>
+
+    STEP "1" "FixVCR1"
+    STEP "2" "FixVCR2"
+    STEP "3" "FixVCR3"
+    STEP "4" "FixVCR4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------------
+REM : Define Task Set
+
+DEF TASKSET "TeenTasks"
+    ADDTASK "DontPopZit"
+    ADDTASK "PracticeKissing"
+    ADDTASK "Fantasize"
+    ADDTASK "LiftWeights"
+    ADDTASK "ExudeCool"
+    ADDTASK "Deodorant"
+    ADDTASK "RewireSpeakers"
+    ADDTASK "PartyThrowUp"
+    ADDTASK "FixVCR"
+END

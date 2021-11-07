@@ -1,0 +1,17 @@
+MAIN(Maestro): ¿Qué está dispuesto a hacer para mejorar las notas de su hijo?
+-HOMEWORK-> Ayudar con los deberes.
+-EXTRA-> ¿Hay crédito extra?
+-YELL-> Gritar muy fuerte.
+-BRIBE-> Sobornos y más sobornos.
+
+HOMEWORK(Maestro): ¡Eso sería genial!
+-SUCCESS-> Oh oh. Ahora tengo que aprender francés.
+
+EXTRA(Maestro): Podrían construir un modelo...
+-SUCCESS-> ¡A la tienda de artesanía!
+
+YELL(Maestro): Probablemente debería entrar.
+-SUCCESS-> ¡Por el lado bueno, puedo ser el que cuelgue el teléfono!
+
+BRIBE(Diplomático): Eso podría funcionar con el profesor de matemáticas, ¡pero no conmigo!
+-SUCCESS-> De todos modos no tenía dinero para el soborno.

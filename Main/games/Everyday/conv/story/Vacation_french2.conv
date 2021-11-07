@@ -1,0 +1,9 @@
+MAIN(Cinta en idioma francés): Gardez toujours votre tuba dans une valise transparente lorsque vous voyagez.
+-RESPONSE1-> Je garde toutes mes affaires dans une valise transparente.
+-RESPONSE1-> Je joue, en fait, de la trompette.
+-RESPONSE1-> Algo sobre... ¿¿una tuba??
+
+RESPONSE1(Cinta en idioma francés): Il est peu probable que les iguanes aient besoin dune montre.
+-SUCCESS-> Le poignet dun iguane est trop petit pour une montre.
+-SUCCESS-> Je nai pas besoin de ces informations.
+-FAILURE-> ¿Se entiende más fácil el portugués? Quizá deberíamos haber ido a Brasil...

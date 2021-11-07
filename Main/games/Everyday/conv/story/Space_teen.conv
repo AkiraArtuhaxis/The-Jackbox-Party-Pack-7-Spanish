@@ -1,0 +1,17 @@
+MAIN(Entrevistador): ¿Cómo se siente ser la primera familia en el espacio?
+-COOL-> Bastante bien
+-OVER-> Lo superé
+-GROOVY-> Genial
+-KEEN-> De maravilla
+
+COOL(Entrevistador): El espacio ES genial
+-SUCCESS-> ¡Tanto como la familia!
+
+OVER(Entrevistador): Mejor hablemos con alguien más interesante
+-SUCCESS-> ¡Me veía tan genial y desinteresado!
+
+GROOVY(Entrevistador): ¿Estás siendo sarcástico?
+-SUCCESS-> Casi siempre
+
+KEEN(Entrevistador): ¿Estás siendo sarcástico?
+-SUCCESS-> Casi siempre

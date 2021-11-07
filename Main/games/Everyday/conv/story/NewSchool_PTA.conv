@@ -1,0 +1,17 @@
+MAIN(Repr. de PTA): ¿Qué puedes aportar a nuestra asociación de padres y maestros?
+-PASSION-> Pasión por la educación
+-LOVE-> Amor por los niños
+-YELL-> Muchos gritos
+-SNACK-> Bocadillos
+
+PASSION(Repr. de PTA): ¡Con eso alcanza!
+-SUCCESS-> ...espero no tener que aprender matemáticas luego.
+
+LOVE(Repr. de PTA): ¡Guau! ¿Todos ellos?
+-SUCCESS-> Bueno... la mayoría.
+
+YELL(Repr. de PTA): En realidad... ya no hacemos reuniones.
+-SUCCESS-> ¡¿¡¿¡¿QUÉ?!?!?!
+
+SNACK(Repr. de PTA): ¡Al fin! Estábamos muriendo de hambre.
+-SUCCESS-> Aquí vienen unas rodajas de naranja.

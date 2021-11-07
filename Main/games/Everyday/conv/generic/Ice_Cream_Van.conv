@@ -1,0 +1,24 @@
+MAIN(Vendedor): ¡Buenos días! ¿Qué dulce y congelado postre quieres? Las opciones están en los lados de la camioneta.
+-VANILLA-> Mezcla de vainilla
+-CHOCO-> Choco-explosión
+-GRAPE-> Crema uva-lada
+-NONE-> Eh, no gracias...
+
+VANILLA(Vendedor): ¡Aquí tienes!
+-SUCCESS-> ¡Una delicia común y corriente!
+
+CHOCO(Vendedor): ¡Aquí tienes!
+-SUCCESS-> ¡Qué delicia!
+
+GRAPE(Vendedor): ¡Aquí tienes!
+-SUCCESS-> Podría saber un poco más morado
+
+NONE(Vendedor): ¿Estás seguro?
+-FAILURE-> ¡Vete de una vez!
+-TRYAGAIN-> Quizás...
+
+TRYAGAIN(Vendedor): ¿Echar otro vistazo?
+-VANILLA-> Mezcla de vainilla
+-CHOCO-> Choco-explosión
+-GRAPE-> Crema uva-lada
+-NONE-> Eh, no gracias...

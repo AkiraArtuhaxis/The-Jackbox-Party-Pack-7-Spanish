@@ -1,0 +1,16 @@
+MAIN(Maestra): Hola, ¿quién es?
+-HONEST-> Soy yo, tu obediente pupilo.
+-PRANK-> Llamo de parte del banco. Queríamos avisarle que su dinero ha desaparecido.
+
+HONEST(Maestra): Oh hola, ¿qué pasa?
+-FAILURE-> Nada, solo quería saludar porque me encanta la escuela. Adiós.
+
+PRANK(Maestra): ¿¡Qué!? ¡¿Pero cómo?!
+-MESSUP-> *risita*
+-PRANKDONE-> Tu cuenta ha sido reportada. Debes dirigirte a P.E.S.T.A.S.
+
+MESSUP(Maestra): Espera, tu voz se me hace familiar...
+-SUCCESS->*cuelga rápidamente*
+
+PRANKDONE(Maestra): Dirigirme apestas... Espera... ¡Ey!
+-SUCCESS-> ¡Jajajaja! *cuelga*

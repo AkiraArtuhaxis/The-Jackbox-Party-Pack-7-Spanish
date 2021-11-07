@@ -1,0 +1,24 @@
+MAIN(Observador de aves): ¡Acabo de ver un peculiar pájaro estornino de cuello rubí en tu patio trasero! ¿Quizás pueda tomarle una foto?
+-YES-> ¡Claro que sí!
+-MONEY-> Claro... por veinte dólares.
+-NO-> ¿Qué es esto, un museo de aves? ¡Largo de aquí!
+
+YES(Observador de aves): Mmmm, está en lo alto de aquel abedul tambaleante. ¿Debería escalarlo para tener un mejor ángulo?
+-LADDER-> Iré por la escalera.
+-YES2-> Adelante.
+-NO2-> Esto se está poniendo algo extraño. ¡Volvamos a la calle!
+
+MONEY(Observador de aves): Aqui está tu dinero, traficante de aves.
+-SUCCESS-> Obtuvieron la foto que querían, aunque, al final, el avistamiento de aves no me interesó mucho que digamos.
+
+NO(Observador de aves): ¡La Asociación Internacional de Ornitología se va a enterar de esto!
+-FAILURE-> ¡Mi odio hacia las aves y a sus aliados lo hace otra vez!
+
+LADDER(Observador de aves): ¡Esto es perfecto! ¡Mira ese plumaje! ¡Gracias!
+-SUCCESS-> ¡Una victoria para las aves es una victoria para todos! ¡Yo gano!
+
+YES2(Observador de aves): Bueno, conseguí la foto antes de que se rompiera la rama. Estoy seguro de que en algún momento mi brazo sanará.
+-SUCCESS-> Olvidé lo violento que puede ser el avistamiento de aves.
+
+NO2(Observador de aves): ¡No eres más que un BURLÓN DE AVES!
+-FAILURE-> Mis modales son la verdadera especie en peligro de extinción...

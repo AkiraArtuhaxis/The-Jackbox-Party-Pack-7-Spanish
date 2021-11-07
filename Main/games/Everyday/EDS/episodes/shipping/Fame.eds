@@ -1,0 +1,351 @@
+DEF EPISODE "Fame"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Eres una bestia en la fotos"
+    SET DESCRIPTION "Hollywood ha venido a nuestra pequeña ciudad. Una <font color='#AF0000'>película de gran presupuesto</font> está siendo filmada cerca y la familia está decidida a probar la fama."
+    SET SUCCESS_MESSAGE "Imagínese la emoción en la planta baja cuando vimos a uno de los nuestros pegado a la pantalla grande. ¿Se acordaron de insertar esos mensajes subliminales que pedimos, verdad?"
+    SET FAILURE_MESSAGE "Desafortunadamente, sus 15 minutos de fama terminaron. Resulta que una familia de demonios animados no es la propiedad de entretenimiento viable que Jackbox Games pensó que era."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "FameAudition" <1 10:00>
+    SCHEDULE TASK "FameAuditionParent" <1 13:00>
+    SCHEDULE TASK "SneakFilmSet" <1 15:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "FameCallProducer" <2 8:00>
+    SCHEDULE TASK "FameRehearseLines" <2 10:00>
+    SCHEDULE TASK "FameShowUpHotel" <2 13:00>
+    SCHEDULE TASK "MeetBilly" <2 15:00>
+    
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "TakeSelfieBilly" <3 8:00>
+    SCHEDULE TASK "FilmBigScene" <3 10:00>
+    SCHEDULE TASK "DrivePremiere" <3 13:00>
+    SCHEDULE TASK "SignAutographs" <3 15:00>
+
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Audition to play the adorable child sidekick
+CLONE DEED "Hold3" "FameAudition1"
+    SET INSTRUCTIONS "Estudia tus líneas"
+END
+
+CLONE DEED "SwipeRight" "FameAudition2"
+    SET INSTRUCTIONS "Tira el guión y solo improvisa"
+END
+
+CLONE DEED "Tap3" "FameAudition3"
+    SET INSTRUCTIONS "Di algunas frases adorables"
+END
+
+CLONE DEED "Rotate360" "FameAudition4"
+    SET INSTRUCTIONS "Haz un pequeño y lindo giro"
+END
+
+DEF TASK "FameAudition"
+    SET NAME "Audición para interpretar al adorable compañero infantil"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FameAudition1"
+    STEP "2" "FameAudition2"
+    STEP "3" "FameAudition3"
+    STEP "4" "FameAudition4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Audition to play 'Cop #2'
+CLONE DEED "SwipeBase" "FameAuditionParent1"
+    SET INSTRUCTIONS "Estrecha la mano de la productora"
+    SET DIRECTION "UP,DOWN,UP,DOWN"
+END
+
+CLONE DEED "ScrubMedium" "FameAuditionParent2"
+    SET INSTRUCTIONS "Intenta limpiar el sudor de su mano."
+END
+
+CLONE DEED "SwipeLeft" "FameAuditionParent3"
+    SET INSTRUCTIONS "Derrama agua sobre la productora accidentalmente"
+END
+
+CLONE DEED "Hold3" "FameAuditionParent4"
+    SET INSTRUCTIONS "Retrocede lentamente fuera de la habitación"
+END
+
+DEF TASK "FameAuditionParent"
+    SET NAME "Audición para interpretar a 'Policía número 2'"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FameAuditionParent1"
+    STEP "2" "FameAuditionParent2"
+    STEP "3" "FameAuditionParent3"
+    STEP "4" "FameAuditionParent4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Sneak on to film set
+CLONE DEED "SwipeUp" "SneakFilmSet1"
+    SET INSTRUCTIONS "salta sobre la barrera de concreto"
+END
+
+CLONE DEED "Tap3" "SneakFilmSet2"
+    SET INSTRUCTIONS "Pasa de puntillas por los servicios artesanales"
+END
+
+CLONE DEED "Hold2" "SneakFilmSet3"
+    SET INSTRUCTIONS "Echa un vistazo en el tráiler cercano"
+END
+
+CLONE DEED "Nothing3" "SneakFilmSet4"
+    SET INSTRUCTIONS "¡¡¡OMG es el adolescente rompecorazones Billy O'Brien!!!"
+END
+
+DEF TASK "SneakFilmSet"
+    SET NAME "Colarse en el set de filmación cercano"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SneakFilmSet1"
+    STEP "2" "SneakFilmSet2"
+    STEP "3" "SneakFilmSet3"
+    STEP "4" "SneakFilmSet4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : ------------------------------------------
+
+REM : Call producer to ask for second audition
+CLONE DEED "PhoneID" "FameCallProducer1"
+    SET INSTRUCTIONS "Llama a 'Estudios Omnipresentes'"
+    SET CONTENT_ID "OMNI"
+END
+
+CLONE DEED "DialogID" "FameCallProducer2"
+    SET INSTRUCTIONS "Ruega por una segunda audición"
+    SET CONTENT_ID "FAME_BEG"
+END
+
+DEF TASK "FameCallProducer"
+    SET NAME "Llama a la productora para pedir una segunda audición"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FameCallProducer1"
+    STEP "2" "FameCallProducer2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Rehearse lines with your co-star
+CLONE DEED "DialogID" "FameRehearseLines"
+    SET INSTRUCTIONS "Ensaya tus líneas"
+    SET CONTENT_ID "FAME_REHEARSE"
+END
+
+DEF TASK "FameRehearseLines"
+    SET NAME "Ensaya tus líneas con tu compañero"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FameRehearseLines"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Show up at producer's hotel room in costume
+CLONE DEED "Nothing3" "FameShowUpHotel1"
+    SET INSTRUCTIONS "Estás arrestado inmediatamente"
+END
+
+CLONE DEED "Nothing3" "FameShowUpHotel2"
+    SET INSTRUCTIONS "No obtuviste el papel"
+END
+
+DEF TASK "FameShowUpHotel"
+    SET NAME "Aparecete en la habitación del hotel del productor con tu disfraz puesto"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FameShowUpHotel1"
+    STEP "2" "FameShowUpHotel2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Meet teen heartthrob Billy O'Brien!
+CLONE DEED "DialogID" "MeetBilly"
+    SET INSTRUCTIONS "¡Habla con la superestrella Billy O'Brien!"
+    SET CONTENT_ID "FAME_BILLY"
+END
+
+DEF TASK "MeetBilly"
+    SET NAME "¡Conoce al galán adolescente Billy O'Brien!"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MeetBilly"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : ----------------------------------------------
+
+REM : Take selfie with Billy O'Brien!
+CLONE DEED "Tap1" "TakeSelfieBilly1"
+    SET INSTRUCTIONS "¡Di queso!"
+END
+
+CLONE DEED "Tap1" "TakeSelfieBilly2"
+    SET INSTRUCTIONS "Una más por si acaso..."
+END
+
+CLONE DEED "Tap1" "TakeSelfieBilly3"
+    SET INSTRUCTIONS "Ahora una alocada..."
+END
+
+CLONE DEED "Tap1" "TakeSelfieBilly4"
+    SET INSTRUCTIONS "Solo una mas..."
+END
+
+CLONE DEED "Tap1" "TakeSelfieBilly5"
+    SET INSTRUCTIONS "La última ahora si..."
+END
+
+CLONE DEED "Tap1" "TakeSelfieBilly6"
+    SET INSTRUCTIONS "¡¡¡Mejores colegas para siempre!!!"
+END
+
+DEF TASK "TakeSelfieBilly"
+    SET NAME "¡Tomate 'una' selfie con Billy O'Brien!"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TakeSelfieBilly1"
+    STEP "2" "TakeSelfieBilly2"
+    STEP "3" "TakeSelfieBilly3"
+    STEP "4" "TakeSelfieBilly4"
+    STEP "5" "TakeSelfieBilly5"
+    STEP "6" "TakeSelfieBilly6"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" "6" FAILURE
+    NEXT "6" SUCCESS FAILURE
+END
+
+REM : Film the big scene
+CLONE DEED "Instructions4" "FilmBigScene"
+    SET INSTRUCTIONS "Filma la gran escena"
+
+    SET MECHANIC_0 "TAP_3"
+    SET INSTRUCTIONS_0 "Alcanza tu marca"
+    SET MECHANIC_1 "ROTATE_CLOCK"
+    SET INSTRUCTIONS_1 "Acelera tus líneas"
+    SET MECHANIC_2 "TAP_HOLD"
+    SET INSTRUCTIONS_2 "Emociónate intensamente"
+    SET MECHANIC_3 "TAP_3"
+    SET INSTRUCTIONS_3 "Corre hasta tu tráiler para vomitar"
+END
+
+DEF TASK "FilmBigScene"
+    SET NAME "Film the big scene"
+    SET ASKER_NAME "Ayuda al niño a filmar la gran escena"
+    SET HELPER_NAME "Film your big scene with <ASKER>'s help"
+    SET CAPTAIN "CHILDREN"
+    SET PARTICIPANT "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FilmBigScene"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Drive to film premiere
+CLONE DEED "TravelCategory" "DrivePremiere"
+    SET INSTRUCTIONS "Conduce hasta el estreno de la película"
+    SET CATEGORY "THEATER"
+END
+
+DEF TASK "DrivePremiere"
+    SET NAME "Conduce hasta el estreno de la película"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DrivePremiere"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Sign autographs at the premiere
+CLONE DEED "ScrubXLong" "SignAutographs"
+    SET INSTRUCTIONS "Firma para tus admiradores"
+END
+
+DEF TASK "SignAutographs"
+    SET NAME "Firma autógrafos en el estreno"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SignAutographs"
+
+    NEXT "1" SUCCESS FAILURE
+END

@@ -1,0 +1,17 @@
+MAIN(Vecino): Hola vecino, creo que me llegó tu correo por accidente. Aquí tienes.
+-THANKS-> Gracias, buen amigo
+-KEEPIT-> Puedes quedártelo
+-THIEF-> ¡Ladrón!
+-REWARD-> ¡Toma, como recompensa!
+
+THANKS(Vecino): ¡No hay problema!
+-SUCCESS-> La gente buena es buena
+
+KEEPIT(Vecino): ¡Gracias! ¡Hasta tiene cupones!
+-SUCCESS-> Fui amable, pero me perdí unos grandes descuentos
+
+THIEF(Vecino): ¡Cómo te atreves! ¡Me quedaré con este folleto para secarme las lágrimas!
+-SUCCESS-> Sí que fue innecesario
+
+REWARD(Vecino): ¡Toma, como recompensa!
+-SUCCESS-> Esos 2 dólares en monedas de 25 sí que le servirán al vecino

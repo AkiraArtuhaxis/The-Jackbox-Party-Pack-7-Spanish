@@ -1,0 +1,358 @@
+DEF EPISODE "EndOfTheWorld"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "El Más Big Bang"
+    SET DESCRIPTION "Mientras estudiaba astronomía, el miembro más joven de la casa descubre un <font color='#AF0000'>asteroide gigante</font> en curso de colisión con la Tierra. ¿Puede la familia detenerla a tiempo, y seguir cumpliendo con sus tareas diarias?"
+    SET SUCCESS_MESSAGE "Nos alegramos ligeramente de escuchar que un asteroide no destruyó el reino humano. La ciudad les debe una gran deuda, que seguramente pagará con un pequeño libro de cupones para los negocios locales."
+    SET FAILURE_MESSAGE "Bueno, la Tierra fue destruida. ¡Espero que no se hayan encariñado mucho!"
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "Telescope" <1 8:00>
+    SCHEDULE TASK "AstronomyFindBook" <1 10:00>
+    SCHEDULE TASK "AsteroidTrajectory" <1 13:00>
+    SCHEDULE TASK "WarnFamily" <1 15:00>
+
+    REM : ROUND 2 STORY TASKS    
+    SCHEDULE TASK "WarnNASA" <2 8:00>
+    SCHEDULE TASK "DriveObservatory" <2 10:00>
+    SCHEDULE TASK "NoticeAsteroid" <2 13:00>
+    SCHEDULE TASK "AsteroidNews" <2 15:00>
+
+    REM : ROUND 3 STORY TASKS    
+    SCHEDULE TASK "SearchLaserPart" <3 8:00>
+    SCHEDULE TASK "AskForRecords" <3 10:00>
+    SCHEDULE TASK "AskForDayOff" <3 13:00>
+    SCHEDULE TASK "ProgramLaser" <3 15:00>
+    SCHEDULE TASK "AsteroidFIRE" <3 18:00>
+        
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Play with shiny new telescope
+CLONE DEED "SwipeUp" "Telescope1"
+    SET INSTRUCTIONS "Apunta este bebé al cielo"
+END
+
+CLONE DEED "Rotate720Counter" "Telescope2"
+    SET INSTRUCTIONS "Gíralo, busca cosas"
+END
+
+CLONE DEED "Nothing3" "Telescope3"
+    SET INSTRUCTIONS "Observar el asteroide gigante que se precipita hacia la tierra"
+END
+
+CLONE DEED "Hold3" "Telescope4"
+    SET INSTRUCTIONS "Enfocar la lente solo para estar seguro..."
+END
+
+CLONE DEED "Nothing3" "Telescope5"
+    SET INSTRUCTIONS "Sí. ¡Es un asteroide que viene a destruir el mundo!"
+END
+
+DEF TASK "Telescope"
+    SET NAME "Juega con un nuevo telescopio brillante"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "Telescope1"
+    STEP "2" "Telescope2"
+    STEP "3" "Telescope3"
+    STEP "4" "Telescope4"
+    STEP "5" "Telescope5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Find astronomy book
+CLONE DEED "FindID" "AstronomyFindBook"
+    SET INSTRUCTIONS "Encuentra un libro de astronomía"
+    SET CATEGORY "BOOK"
+END
+
+DEF TASK "AstronomyFindBook"
+    SET NAME "Encuentra un libro de astronomía"
+    SET ASKER_NAME "Obtenga ayuda para encontrar un libro de astronomía"
+    SET HELPER_NAME "Help <ASKER> find astronomy book"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "AstronomyFindBook"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+
+REM : Calculate asteroid's trajectory
+CLONE DEED "Gizmos6" "AsteroidTrajectory"
+    SET INSTRUCTIONS "Calcular la trayectoria del asteroide"
+    SET NAME "CALCULADORA DE TRAYECTORIAS"
+    SET TEXT_GIZMO_CHANCE_RATIO 0
+END
+
+DEF TASK "AsteroidTrajectory"
+    SET NAME "Calcular la trayectoria del asteroide"
+    SET CAPTAIN "CHILDREN"
+    SET PARTICIPANT "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "AsteroidTrajectory"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Warn family about asteroid
+CLONE DEED "Hold3" "WarnFamily1"
+    SET INSTRUCTIONS "Explicar calmadamente que se acerca un asteroide"
+END
+
+CLONE DEED "Nothing2" "WarnFamily2"
+    SET INSTRUCTIONS "Examinar las expresiones en blanco de la familia"
+END
+
+CLONE DEED "QuickTap5" "WarnFamily3"
+    SET INSTRUCTIONS "Corre por todos lados gritando '¡VAMOS A MORIR!'"
+END
+
+CLONE DEED "QuickTap5" "WarnFamily4"
+    SET INSTRUCTIONS "Sigue gritando mientras tu familia se encoge de hombros y sale de la habitación."
+END
+
+DEF TASK "WarnFamily"
+    SET NAME "Advierte a la familia sobre el asteroide"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "WarnFamily1"
+    STEP "2" "WarnFamily2"
+    STEP "3" "WarnFamily3"
+    STEP "4" "WarnFamily4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : -----------------------------------------------------
+
+REM : Warn NASA about impending doom
+CLONE DEED "PhoneID" "WarnNASA1"
+    SET INSTRUCTIONS "Llama a la NASA"
+    SET CONTENT_ID "NASA"
+END
+
+CLONE DEED "DialogID" "WarnNASA2"
+    SET INSTRUCTIONS "Advierte a la NASA sobre el asteroide"
+    SET CONTENT_ID "ENDOFTHEWORLD_NASA"
+END
+
+DEF TASK "WarnNASA"
+    SET NAME "Advierte a la NASA sobre la muerte inminente"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "WarnNASA1"
+    STEP "2" "WarnNASA2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Drive to local observatory to get closer look at asteroid
+CLONE DEED "TravelID" "DriveObservatory"
+    SET INSTRUCTIONS "Conduce hasta el observatorio"
+    SET CONTENT_ID "BIGROCK"
+END
+
+DEF TASK "DriveObservatory"
+    SET NAME "Conducir hasta el observatorio local para ver más de cerca el asteroide"
+    SET ASKER_NAME "Consigue un viaje al observatorio local para ver más de cerca el asteroide"
+    SET HELPER_NAME "Drive <ASKER> to the local observatory to get closer look at asteroid"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DriveObservatory"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Notice weird astroid-like object in sky
+CLONE DEED "Nothing3" "NoticeAsteroid1"
+    SET INSTRUCTIONS "Disfruta un hermoso dia"
+END
+
+CLONE DEED "SwipeUp" "NoticeAsteroid2"
+    SET INSTRUCTIONS "Mira hacia arriba"
+END
+
+CLONE DEED "Hold3" "NoticeAsteroid3"
+    SET INSTRUCTIONS "Nota la gran roca en el cielo"
+END
+
+CLONE DEED "Nothing3" "NoticeAsteroid4"
+    SET INSTRUCTIONS "Está... creciendo..."
+END
+
+DEF TASK "NoticeAsteroid"
+    SET NAME "Observa un extraño objeto parecido a un asteroide en el cielo"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "NoticeAsteroid1"
+    STEP "2" "NoticeAsteroid2"
+    STEP "3" "NoticeAsteroid3"
+    STEP "4" "NoticeAsteroid4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Watch news report about imminent destruction of earth
+CLONE DEED "Nothing3" "AsteroidNews"
+    SET INSTRUCTIONS "¡¡Pánico!!"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "AsteroidNews"
+    SET NAME "Ver informe de noticias sobre la inminente destrucción de la tierra"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "AsteroidNews"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : --------------------------------------
+
+REM : Look for crucial component for asteroid-destroying laser
+CLONE DEED "SearchID" "SearchLaserPart"
+    SET INSTRUCTIONS "Busca un componente crucial para un láser destructor de asteroides"
+    SET CONTENT_ID "ASTEROIDLASER"
+END
+
+DEF TASK "SearchLaserPart"
+    SET NAME "Busca un componente crucial para el láser destructor de asteroides"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SearchLaserPart"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Text significant other to get records back before end of world
+CLONE DEED "DialogID" "AskForRecords"
+    SET INSTRUCTIONS "Pide que te devuelvan los registros ... antes de que se acabe el mundo"
+    SET CONTENT_ID "ENDOFTHEWORLD_TEEN"
+END
+
+DEF TASK "AskForRecords"
+    SET NAME "Envía un mensaje de texto a tu pareja para recuperar los registros antes de que se acabe el mundo"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "AskForRecords"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Ask boss for day off due to end world
+CLONE DEED "DialogID" "AskForDayOff"
+    SET INSTRUCTIONS "Pide día libre por el fin del mundo"
+    SET CONTENT_ID "ENDOFTHEWORLD_PARENT"
+END
+
+DEF TASK "AskForDayOff"
+    SET NAME "Pide al jefe un día libre debido al fin del mundo"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "AskForDayOff"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Program asteroid-destroying laser
+CLONE DEED "Gizmos12" "ProgramLaser"
+    SET INSTRUCTIONS "Programa el láser"
+    SET NAME "ASTEROID LASER"
+    SET TEXT_GIZMO_CHANCE_RATIO 0
+END
+
+DEF TASK "ProgramLaser"
+    SET NAME "Programa el láser destructor de asteroides"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ProgramLaser"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Fire the laser at the asteroid
+CLONE DEED "TapAll" "AsteroidFIRE"
+    SET INSTRUCTIONS "¡Dispara el láser!"
+END
+
+DEF TASK "AsteroidFIRE"
+    SET NAME "Dispara el láser al asteroide"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "AsteroidFIRE"
+
+    NEXT "1" SUCCESS FAILURE
+END

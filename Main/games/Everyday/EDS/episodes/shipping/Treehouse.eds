@@ -1,0 +1,371 @@
+DEF EPISODE "Treehouse"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "El Administramador"
+    SET DESCRIPTION "La familia ha decidido <font color='#AF0000'>construir una casa del árbol</font> en el patio trasero. ¿Pueden construir una morada arbórea sin arrancar su rutina regular?"
+    SET SUCCESS_MESSAGE "¡Bueno, parece que el mercado inmobiliario esta definitivamente SUBIENDO! Porque construisteis una casa en lo alto. ¿Entiendes? De todos modos, es una adición muy agradable a su patio trasero."
+    SET FAILURE_MESSAGE "Tus vecinos han reportado un fuerte choque en medio de la noche. Parece que su nuevo proyecto hizo como un árbol y se entramó. En el futuro, quizás quieran usar materiales de construcción más fuertes que cinta adhesiva y esfuerzo mínimo."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "DriveHardware" <1 8:00>
+    SCHEDULE TASK "TrimTreeBranches" <1 10:00>
+    SCHEDULE TASK "RaisePanel" <1 13:00>
+    SCHEDULE TASK "SawWood" <1 15:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "HammerBoards" <2 8:00>
+    SCHEDULE TASK "PaintTreehouse" <2 10:00>
+    SCHEDULE TASK "SpyTree" <2 13:00>
+    SCHEDULE TASK "ZoningBoard" <2 15:00>
+
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "MakeOutBooTree" <3 8:00>
+    SCHEDULE TASK "MakeOutPartnerTree" <3 9:00>
+    SCHEDULE TASK "TreeCracks" <3 13:00>
+    SCHEDULE TASK "DuctTapeTree" <3 15:00>
+        
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Drive to hardware store
+CLONE DEED "TravelID" "DriveHardware"
+    SET INSTRUCTIONS "Conduce a la ferretería"
+    SET CONTENT_ID "WOOD_LUMBER"
+END
+
+DEF TASK "DriveHardware"
+    SET NAME "Conduce a la ferretería"
+    SET CAPTAIN "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DriveHardware"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Trim tree branches
+CLONE DEED "Tap3" "TrimTreeBranches1"
+    SET INSTRUCTIONS "Sube la escalera"
+END
+
+CLONE DEED "SwipeBase" "TrimTreeBranches2"
+    SET INSTRUCTIONS "Poda Ramas"
+    SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
+END
+
+CLONE DEED "Hold5" "TrimTreeBranches3"
+    SET INSTRUCTIONS "No te caigas de la escalera"
+END
+
+DEF TASK "TrimTreeBranches"
+    SET NAME "Poda las ramas de los árboles"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TrimTreeBranches1"
+    STEP "2" "TrimTreeBranches2"
+    STEP "3" "TrimTreeBranches3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Raise treehouse side panel together
+CLONE DEED "TapAll" "RaisePanel"
+    SET INSTRUCTIONS "¡¡¡Eleva!!!"
+END
+
+DEF TASK "RaisePanel"
+    SET NAME "Levanten juntos el panel lateral de la casa del árbol"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "RaisePanel"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Saw wood for treehouse
+CLONE DEED "Instructions4" "SawWood"
+    SET INSTRUCTIONS "Corta madera para la casa del árbol"
+
+    SET MECHANIC_0 "SWIPE_RIGHT"
+    SET INSTRUCTIONS_0 "Sierra madera"
+    SET MECHANIC_1 "SWIPE_LEFT"
+    SET INSTRUCTIONS_1 "Tira de la sierra hacia atrás"
+    SET MECHANIC_2 "SWIPE_LEFT"
+    SET INSTRUCTIONS_2 "Está atascada, tira con más fuerza"
+    SET MECHANIC_3 "TAP"
+    SET INSTRUCTIONS_3 "Rómpela sobre tu rodilla"
+END
+
+DEF TASK "SawWood"
+    SET NAME "Sierra madera para la casa del árbol"
+    SET ASKER_NAME "Obtén ayuda para aserrar madera para la casa del árbol"
+    SET HELPER_NAME "Help <ASKER> saw wood for treehouse"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "MATURE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SawWood"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : ---------------------------------------------------
+
+REM : Hammer boards
+CLONE DEED "Tap2" "HammerBoards1"
+    SET INSTRUCTIONS "Martillea tablas"
+END
+
+CLONE DEED "QuickTap3" "HammerBoards2"
+    SET INSTRUCTIONS "¡Más rápido!"
+END
+
+CLONE DEED "Tap1" "HammerBoards3"
+    SET INSTRUCTIONS "Y una más para terminar"
+END
+
+DEF TASK "HammerBoards"
+    SET NAME "Martillea tablas"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "HammerBoards1"
+    STEP "2" "HammerBoards2"
+    STEP "3" "HammerBoards3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Paint treehouse
+CLONE DEED "Tap3" "PaintTreehouse1"
+    SET INSTRUCTIONS "Reúna latas de pintura"
+END
+
+CLONE DEED "SwipeUp" "PaintTreehouse2"
+    SET INSTRUCTIONS "Salpicalas por todas partes"
+END
+
+CLONE DEED "ScrubMedium" "PaintTreehouse3"
+    SET INSTRUCTIONS "Las manos son buenos pinceles"
+END
+
+DEF TASK "PaintTreehouse"
+    SET NAME "Pinta la casa del árbol"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "PaintTreehouse1"
+    STEP "2" "PaintTreehouse2"
+    STEP "3" "PaintTreehouse3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Spy on neighbors from treehouse
+CLONE DEED "SwipeUp" "SpyTree1"
+    SET INSTRUCTIONS "Asomarte a la ventana de la casa del árbol"
+END
+
+CLONE DEED "Nothing3" "SpyTree2"
+    SET INSTRUCTIONS "Mira al vecino cantar mientras hace trabajos de jardinería"
+END
+
+CLONE DEED "Hold5" "SpyTree3"
+    SET INSTRUCTIONS "Intenta no cantar junto a él"
+END
+
+DEF TASK "SpyTree"
+    SET NAME "Espia a los vecinos de la casa del árbol"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SpyTree1"
+    STEP "2" "SpyTree2"
+    STEP "3" "SpyTree3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Lie to zoning board
+CLONE DEED "DialogID" "ZoningBoard"
+    SET INSTRUCTIONS "Miente al tablero de zonificación"
+    SET CONTENT_ID "TREEHOUSE_ZONING"
+END
+
+DEF TASK "ZoningBoard"
+    SET NAME "Miente al tablero de zonificación"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ZoningBoard"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : --------------------------------
+
+REM : Make out with boo in treehouse
+CLONE DEED "Tap4" "MakeOutBooTree1"
+    SET INSTRUCTIONS "Sube la escalera"
+END
+
+CLONE DEED "Hold3" "MakeOutBooTree2"
+    SET INSTRUCTIONS "Toma su mano"
+END
+
+CLONE DEED "ScrubMedium" "MakeOutBooTree3"
+    SET INSTRUCTIONS "Aplasten las caras juntas... Esto es besar, ¿verdad?"
+END
+
+DEF TASK "MakeOutBooTree"
+    SET NAME "Besate con tu novia en la casa del árbol"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MakeOutBooTree1"
+    STEP "2" "MakeOutBooTree2"
+    STEP "3" "MakeOutBooTree3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Make out with partner in treehouse
+CLONE DEED "Tap4" "MakeOutPartnerTree1"
+    SET INSTRUCTIONS "Sube la escalera"
+END
+
+CLONE DEED "Hold3" "MakeOutPartnerTree2"
+    SET INSTRUCTIONS "Toma su mano"
+END
+
+CLONE DEED "Nothing5" "MakeOutPartnerTree3"
+    SET INSTRUCTIONS "Date cuenta de que necesitas descansar despues de subir esa escalera"
+END
+
+DEF TASK "MakeOutPartnerTree"
+    SET NAME "Besate con tu pareja en la casa del árbol"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MakeOutPartnerTree1"
+    STEP "2" "MakeOutPartnerTree2"
+    STEP "3" "MakeOutPartnerTree3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Inspect cracks in treehouse
+CLONE DEED "Hold5" "TreeCracks1"
+    SET INSTRUCTIONS "Examina la tabla agrietada"
+END
+
+CLONE DEED "Tap3" "TreeCracks2"
+    SET INSTRUCTIONS "Tócalo un par de veces"
+END
+
+CLONE DEED "Nothing2" "TreeCracks3"
+    SET INSTRUCTIONS "Eso no puede ser bueno..."
+END
+
+DEF TASK "TreeCracks"
+    SET NAME "Inspecciona las grietas en la casa del árbol"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TreeCracks1"
+    STEP "2" "TreeCracks2"
+    STEP "3" "TreeCracks3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Duct tape treehouse damage
+CLONE DEED "Rotate270" "DuctTapeTree1"
+    SET INSTRUCTIONS "Desenrolla la cinta adhesiva"
+END
+
+CLONE DEED "Hold2" "DuctTapeTree2"
+    SET INSTRUCTIONS "Presiona sobre el piso que se derrumba"
+END
+
+CLONE DEED "ScrubLong" "DuctTapeTree3"
+    SET INSTRUCTIONS "Asegúrate de que realmente se pegue"
+END
+
+CLONE DEED "Tap2" "DuctTapeTree4"
+    SET INSTRUCTIONS "Pisa el suelo con cautela"
+END
+
+DEF TASK "DuctTapeTree"
+    SET NAME "Inspecciona las grietas en la casa del árbol"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DuctTapeTree1"
+    STEP "2" "DuctTapeTree2"
+    STEP "3" "DuctTapeTree3"
+    STEP "4" "DuctTapeTree4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END

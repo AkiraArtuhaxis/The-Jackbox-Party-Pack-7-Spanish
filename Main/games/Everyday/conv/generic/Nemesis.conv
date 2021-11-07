@@ -1,0 +1,23 @@
+MAIN(Nemesis): ¡Qué hay de nuevo, vecino! ¡Soy tu archienemigo! ¿Estás listo para nuestro último enfrentamiento, cobarde?
+-ENGAGE-> ¡En guardia, villano!
+-RUNAWAY-> ¡Nunca me atraparás, miserable!
+-TRICK-> Ya sé lo que eres, pero...¿y yo? ¿Quién soy?
+-FORGOT-> Espera, ¿me podrías repetir quién eres?
+
+ENGAGE(Nemesis): ¡Mi venganza se acerca! ¡Pelea de espadas, en el patio, te veo en cinco minutos!
+-SUCCESS-> Espero que confíes en el corazón de las cartas, ¡Porque es la hora de nuestro duelo!
+
+RUNAWAY(Nemesis): ¡Nunca escaparás! ¡Mi furia es interminable!
+-FAILURE-> ¡Hora de volver a la marcha!
+
+TRICK(Nemesis): Soy... soy... dios mío, ¿¿QUIÉN SOY?? ¡¡Treinta años de mi vida perdidos!!
+-SUCCESS-> ¡Los juegos de palabra salvan el día!
+
+FORGOT(Nemesis): ¡Soy yo! ¿Tu némesis? ¿Un antiguo amigo convertido en rival luego de un gran acto de traición?
+-SUCCESS-> Mmm, no me suena. En fin, ¡encantado de conocerte!
+-TRYAGAIN-> ¡Ahhh, cierto! ¿Te cambiaste el parche?
+
+TRYAGAIN(Nemesis): No. Es el mismo. Entonces, ¿estás listo para nuestro enfrentamiento final o no?
+-ENGAGE-> ¡En guardia, villano!
+-RUNAWAY-> ¡Nunca me atraparás, miserable!
+-TRICK-> Ya sé lo que eres, pero...¿y yo? ¿Quién soy?

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "chocolate|chocolate sauce|hot chocolate|hot cocoa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Ehh, I don’t know about that one. Did you ever see Willy Wonka? That “river of chocolate” scene? Just saying.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "It would actually be chill to die in an avalanche of <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "puppies|first-edition Pokemon cards|sick guitars",
+   "n": "SafetyQuips"
+  }
+ ]
+}

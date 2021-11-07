@@ -1,0 +1,17 @@
+MAIN(Heladera): Muy bien, ¿puede indicarme qué tipo de sonido está haciendo su heladera?
+-HURM-> HHuurrMM-Hrr-Hrrr
+-CHUNK-> Chunk-Chunk-Clang
+-BZZ-> Bzzzzzzzzzzz
+-FINE-> No importa... está andando bien
+
+HURM(Heladera): Dele una buena patada
+-SUCCESS-> ¡Funciona mejor que nunca!
+
+CHUNK(Heladera): Va a necesitar una nueva heladera
+-SUCCESS-> Mejor arranco a comerme los congelados.
+
+BZZZ(Heladera): Dele una buena patada
+-SUCCESS-> Suena... Mejor...
+
+FINE(Heladera): Pues si anda, ve y detenlo.
+-SUCCESS-> Estaba chistoso el técnico.

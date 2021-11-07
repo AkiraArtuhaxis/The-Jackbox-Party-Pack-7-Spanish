@@ -1,0 +1,445 @@
+DEF EPISODE "BeachDay"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Toalla Playera Demoníaca"
+    SET DESCRIPTION "El aire acondicionado está apagado y la familia está a 6400 kilómetros de la costa más cercana. Por lo que deciden tener un <font color='#AF0000'>día de playa en casa</font>. ¿Pueden permanecer en el horario de la isla y aún así hacer las tareas del hogar?"
+    SET SUCCESS_MESSAGE "¡Arriba esas aletas, demonios! Escuchamos un rumor sobre que ustedes pasaron el día con un uniforme bronceado y con un ambiente relajado. Hasta inspiraron a sus vecinos a hacer sus propios ecosistemas hechos en casa. ¡Asegúrense de visitar el bosque caducado en la cocina de Margaret!"
+    SET FAILURE_MESSAGE "Bad news: Some people just aren't ready for the responsibility of 'finding their beach.' Time to aloe those sunburns, and deal with that infestation of rat-crabs."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/oneday/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/oneday/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/oneday/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "BeachThermo" <1 8:00>
+    SCHEDULE TASK "BeachCallAC" <1 8:30>
+    SCHEDULE TASK "BeachSupplies" <1 9:00>
+    SCHEDULE TASK "BeachRadio" <1 9:30>
+    SCHEDULE TASK "PourSand" <1 10:00>
+         
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "BeachBalls" <2 13:01>
+    SCHEDULE TASK "TropicalBeverage" <2 13:00>
+    SCHEDULE TASK "BeachLifeguardRecruit" <2 15:00>
+    SCHEDULE TASK "BeachOcean" <2 16:00>
+
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "BeachFlirt" <3 19:01>
+    SCHEDULE TASK "BeachLimbo" <3 19:30>
+    SCHEDULE TASK "BeachShells" <3 20:00>
+    SCHEDULE TASK "FamilyTan" <3 20:30>
+    SCHEDULE TASK "BeachACParty" <3 20:45>
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+
+REM : Attempt to fix the thermostat
+CLONE DEED "Gizmos3" "BeachThermo"
+    SET INSTRUCTIONS "Intenta arreglar el termostato"
+    SET NAME "Sistemas TermoTron"
+END
+
+DEF TASK "BeachThermo"
+    SET NAME "Intenta arreglar el termostato"
+    SET ASKER_NAME "Consigue ayuda para intentar arreglar el termostato"
+    SET HELPER_NAME "Help <ASKER> attempt to fix the thermostat"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachThermo"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Call the A/C Ccompany
+CLONE DEED "PhoneID" "BeachCallAC1"
+    SET INSTRUCTIONS "Llama a la compañía de aire acondicionado"
+    SET CONTENT_ID "QUITE-A-REPA"
+END
+
+CLONE DEED "DialogID" "BeachCallAC2"
+    SET INSTRUCTIONS "Habla con la empresa de reparación de aire acondicionado"
+    SET CONTENT_ID "BEACHDAY_AC"
+END
+
+DEF TASK "BeachCallAC"
+    SET NAME "Llama a la compañía de aire acondicionado"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachCallAC1"
+    STEP "2" "BeachCallAC2"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" SUCCESS FAILURE
+END
+
+REM : Drive to pick up beach supplies
+CLONE DEED "TravelCategory" "BeachSupplies"
+    SET INSTRUCTIONS "Conduce para recoger suministros de playa."
+    SET CATEGORY "PARTY"
+END
+
+DEF TASK "BeachSupplies"
+    SET NAME "Conduce para recoger suministros de playa."
+    SET ASKER_NAME "Consigue un viaje para recoger suministros para la playa"
+    SET HELPER_NAME "Drive <ASKER> to pick up beach supplies"
+    SET CAPTAIN "MATURE"
+    SET PARTICIPANT "YOUNG"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachSupplies"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Scan the radio for chill beach vibes
+CLONE DEED "Rotate180" "BeachRadio1"
+    SET INSTRUCTIONS "Sintoniza"
+END
+
+CLONE DEED "Rotate360Counter" "BeachRadio2"
+    SET INSTRUCTIONS "Sintoniza mas fuerte"
+END
+
+CLONE DEED "Tap2" "BeachRadio3"
+    SET INSTRUCTIONS "Prueba la radio AM"
+END
+
+CLONE DEED "Hold2" "BeachRadio4"
+    SET INSTRUCTIONS "Ríndete y usa el internet"
+END
+
+DEF TASK "BeachRadio"
+    SET NAME "Escanea la radio en busca de relajantes vibraciones playeras"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachRadio1"
+    STEP "2" "BeachRadio2"
+    STEP "3" "BeachRadio3"
+    STEP "4" "BeachRadio4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Fill the family room with sand
+CLONE DEED "Nothing4" "PourSand"
+    SET INSTRUCTIONS "¡Vierte! ¡Vierte! ¡Vierte!"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "PourSand"
+    SET NAME "Llena la sala familiar completamente con arena"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "PourSand"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : -------------------------------------------
+
+REM : Blow up beach balls
+CLONE DEED "Tap3" "BeachBalls1"
+    SET INSTRUCTIONS "Parchea las viejas pelotas de playa"
+END
+
+CLONE DEED "Hold2" "BeachBalls2"
+    SET INSTRUCTIONS "¡Sopla!"
+END
+
+CLONE DEED "Hold3" "BeachBalls3"
+    SET INSTRUCTIONS "¡Sooooplaaaa!"
+END
+
+CLONE DEED "Hold4" "BeachBalls4"
+    SET INSTRUCTIONS "¡Ya casi!"
+END
+
+CLONE DEED "Nothing2" "BeachBalls5"
+    SET INSTRUCTIONS "Desmayate solo un poco"
+END
+
+DEF TASK "BeachBalls"
+    SET NAME "Infla pelotas de playa"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachBalls1"
+    STEP "2" "BeachBalls2"
+    STEP "3" "BeachBalls3"
+    STEP "4" "BeachBalls4"
+    STEP "5" "BeachBalls5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Make tropical beverages
+CLONE DEED "Tap3" "TropicalBeverage1"
+    SET INSTRUCTIONS "Pon fruta congelada en la licuadora"
+END
+
+CLONE DEED "Hold3" "TropicalBeverage2"
+    SET INSTRUCTIONS "¡Muele!"
+END
+
+CLONE DEED "QuickTap5" "TropicalBeverage3"
+    SET INSTRUCTIONS "Haz una docena mas, solo por si acaso"
+END
+
+DEF TASK "TropicalBeverage"
+    SET NAME "Prepara bebidas tropicales"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "TropicalBeverage1"
+    STEP "2" "TropicalBeverage2"
+    STEP "3" "TropicalBeverage3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Ask neighbor kid to be the lifeguard
+CLONE DEED "DialogID" "BeachLifeguardRecruit"
+    SET INSTRUCTIONS "Pídele al niño del vecino que sea el salvavidas"
+    SET CONTENT_ID "BEACHDAY_LIFEGUARD"
+END
+
+DEF TASK "BeachLifeguardRecruit"
+    SET NAME "Pídele al niño del vecino que sea el salvavidas"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachLifeguardRecruit"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Fill the backyard with water
+CLONE DEED "Rotate180Counter" "BeachOcean1"
+    SET INSTRUCTIONS "Abre la manguera"
+END
+
+CLONE DEED "Nothing2" "BeachOcean2"
+    SET INSTRUCTIONS "Déjalo correr..."
+END
+
+CLONE DEED "Nothing3" "BeachOcean3"
+    SET INSTRUCTIONS "Que sigue corriendo..."
+END
+
+CLONE DEED "QuickTap3" "BeachOcean4"
+    SET INSTRUCTIONS "¡Nada en tu nuevo 'oceano'!"
+END
+
+DEF TASK "BeachOcean"
+    SET NAME "Llena el patio trasero con agua"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachOcean1"
+    STEP "2" "BeachOcean2"
+    STEP "3" "BeachOcean3"
+    STEP "4" "BeachOcean4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : --------------------------------------------------
+
+REM : Flirt with lifeguard 
+CLONE DEED "Rotate1080" "BeachFlirt1"
+    SET INSTRUCTIONS "Bucea impresionantemente"
+END
+
+CLONE DEED "Hold2" "BeachFlirt2"
+    SET INSTRUCTIONS "Entabla una conversación"
+END
+
+CLONE DEED "Nothing2" "BeachFlirt3"
+    SET INSTRUCTIONS "Sé rechazado"
+END
+
+CLONE DEED "QuickTap3" "BeachFlirt4"
+    SET INSTRUCTIONS "Sal muy gruñón"
+END
+
+DEF TASK "BeachFlirt"
+    SET NAME "Coquetea con el salvavidas"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachFlirt1"
+    STEP "2" "BeachFlirt2"
+    STEP "3" "BeachFlirt3"
+    STEP "4" "BeachFlirt4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Enter the limbo contest
+CLONE DEED "SwipeDown" "BeachLimbo1"
+    SET INSTRUCTIONS "¡Baja!"
+END
+
+CLONE DEED "SwipeDown" "BeachLimbo2"
+    SET INSTRUCTIONS "Más abajo..."
+END
+
+CLONE DEED "SwipeBase" "BeachLimbo3"
+    SET INSTRUCTIONS "Deslízate debajo de la barra"
+    SET DIRECTION "RIGHT,RIGHT,RIGHT"
+END
+
+CLONE DEED "Hold2" "BeachLimbo4"
+    SET INSTRUCTIONS "Vomita como celebracion de la victoria"
+END
+
+DEF TASK "BeachLimbo"
+    SET NAME "Entra en el concurso de Limbo"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachLimbo1"
+    STEP "2" "BeachLimbo2"
+    STEP "3" "BeachLimbo3"
+    STEP "4" "BeachLimbo4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Collect 'shells'
+CLONE DEED "Tap1" "BeachShells1"
+    SET INSTRUCTIONS "Toma este"
+END
+
+CLONE DEED "QuickTap3" "BeachShells2"
+    SET INSTRUCTIONS "Toma esas"
+END
+
+CLONE DEED "Hold3" "BeachShells3"
+    SET INSTRUCTIONS "Mira dentro de esa otra"
+END
+
+CLONE DEED "QuickTap3" "BeachShells4"
+    SET INSTRUCTIONS "¡Aaah! ¡Una criatura marina! ¡Sácala!"
+END
+
+DEF TASK "BeachShells"
+    SET NAME "Colecciona 'conchas'"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachShells1"
+    STEP "2" "BeachShells2"
+    STEP "3" "BeachShells3"
+    STEP "4" "BeachShells4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Family tan
+CLONE DEED "Nothing3" "FamilyTan"
+    SET INSTRUCTIONS "Atrapa algunos rayos"
+    SET PARTICIPATION "ALL"
+END
+
+DEF TASK "FamilyTan"
+    SET NAME "Bronceado en familia"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "FamilyTan"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Party with the A/C guy
+CLONE DEED "Instructions4" "BeachACParty"
+    SET INSTRUCTIONS "Ten una fiesta con el chico del aire acondicionado"
+
+    SET MECHANIC_0 "TAP_HOLD"
+    SET INSTRUCTIONS_0 "Saluda al chico del aire acondicionado"
+    SET MECHANIC_1 "TAP_HOLD"
+    SET INSTRUCTIONS_1 "Ponte triste por el final del día en la playa"
+    SET MECHANIC_2 "TAP_3"
+    SET INSTRUCTIONS_2 "Ofrecele una bebida frutal o tres"
+    SET MECHANIC_3 "ROTATE_CLOCK"
+    SET INSTRUCTIONS_3 "¡Fiesta toda la noche!"
+END
+
+DEF TASK "BeachACParty"
+    SET NAME "Fiesta con el chico del aire acondicionado"
+    SET ASKER_NAME "Consigue que alguien te acompañe en la fiesta con el tipo del aire acondicionado"
+    SET HELPER_NAME "Join <ASKER> in partying with the A/C guy"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BeachACParty"
+
+    NEXT "1" SUCCESS FAILURE
+END

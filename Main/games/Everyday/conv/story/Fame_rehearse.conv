@@ -1,0 +1,17 @@
+MAIN(Productor): *leyendo el guión* "¿A dónde vas?"
+-DUCKS-> ¡Debemos salvar a esos PATOS!
+-MUST-> ¡DEBEMOS salvar a esos patos!
+-THESE-> ¡Debemos salvar a ESOS patos!
+-SAVE-> ¡Debemos SALVAR a esos patos!
+
+DUCKS(Productor): Buen énfasis. Los patos SON importantes
+-SUCCESS-> ¡La rompí!
+
+MUST(Productor): ¿Por qué lo dices tan raro?
+-SUCCESS-> Porque soy una ESTRELLA.
+
+THESE(Productor): Buen énfasis. Los otros patos son malvados.
+-SUCCESS-> ¡La rompí!
+
+SAVE(Productor): Excelente, y cómo sigue...
+-SUCCESS-> ¡Porque los AMO!

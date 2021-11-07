@@ -1,0 +1,17 @@
+MAIN(Gato): ¿Miau?
+-TWO-> ¡No! ¡Gato malo!
+-TWO-> ¡Esa silla era de la abuela Pazuzu!
+-SCRATCH-> ¡¿Cómo te sentirías si arañara tus cosas?!
+
+TWO(Gato): *mira fijamente*
+-END-> ¡Te traje varias cosas que sí puedes arañar!
+-SPRITZ-> ¡Listo! ¡Voy a rociarte con agua!
+
+SCRATCH(Gato): Mrrw.
+-END-> ¡Listo! ¡Voy a arañar tu juguete favorito!
+
+SPRIZ(Gato): ¡HISSSSS!
+-END-> Bueno, me siento como un imbécil.
+
+END(Gato): *se lame a sí mismo*
+-SUCCESS-> ¡Aw, no puedo enfadarme contigo!

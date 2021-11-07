@@ -1,0 +1,19 @@
+MAIN(Geek de la banda): ¡Nuestra banda de marcha no tiene buena pinta! ¿Le gustaría donar algo de dinero para ayudarnos a comprar uniformes nuevos?
+-DOLLAR-> Aquí tienes un dólar.
+-TWENTY-> ¿Les parecen bien unos veinte dólares?
+-NOMONEY-> Caminar y tocar música a la vez es una abominación.
+
+DOLLAR(Geek de la banda): Oh... gracias, supongo.
+-SUCCESS-> Sí que te cuesta soltar la gaita.
+
+TWENTY(Geek de la banda): ¡Qué alegría! ¡Nuevas llaves de agua para todos!
+-SUCCESS-> Recuerda apoyar el arte local, pero no DEMASIADO.
+
+NOMONEY(Geek de la banda): Supongo que tendremos que cancelar el desfile... ¿a menos que cambies de opinión?
+-SUCCESS-> ¡Nunca! ¡Dejen de marchar o váyanse de aquí!
+-TRYAGAIN-> Mmm...
+
+TRYAGAIN(Geek de la banda): ¡Yay! ¿Cuánto piensa donar?
+-DOLLAR-> Aquí tienes un dólar.
+-TWENTY-> ¿Les parecen bien unos veinte dólares?
+-NOMONEY-> Caminar y tocar música a la vez es una abominación.

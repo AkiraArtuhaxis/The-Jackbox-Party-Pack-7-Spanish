@@ -1,0 +1,31 @@
+MAIN(Jefe): Qué comida tan encantadora.
+-POLITE-> Gracias, eres demasiado amable.
+-CREEPY-> ¡Lo hice solo para ti, mi jefa perfecta!
+BIRD1-> ¡No tan encantador como el pájaro carpintero de pico de marfil! Por cierto, me gustan excesivamente los pájaros.
+
+BIRD1(Jefe): Oh, ¡un observador de aves como yo! ¿Notaste ese pinzón púrpura anidando en tu patio delantero?
+-OFCOURSE-> ¡Por supuesto que lo hice!
+-CORRECTJefe-> En realidad, creo que en realidad es un simple pinzón doméstico.
+-HONEST-> Para ser honesto, no sé nada sobre aves...
+
+OFCOURSE(Jefe): ¡Te engañe! ¡Ese es un pinzón común! Como siempre, ¡soy el maestro de las aves!
+-SUCCESS-> Exactamente lo que pensé.
+
+CORRECTJefe(Jefe): Oh, dios m... Tienes razón.
+-SUCCESS-> Espero que no llore.
+
+HONEST(Jefe): Respeto tu honestidad, pero tu falta de conocimiento sobre aves me enferma.
+-SUCCESS-> Es una victoria mixta.
+
+POLITE(Jefe): Tienes razón, soy demasiado amable. Recuérdame que te baje tu salario.
+-SUCCESS-> No voy a recordárselo.
+
+CREEPY(Jefe): Eh, eso es un poco aterrador.
+-JOKING-> ¡Jaja solo bromeaba!
+-DOBLEDOWN-> ¿Puedo pintarte?
+
+JOKING(Jefe): Okey...
+-SUCCESS-> ¡Salvado!
+
+DOUBLEDOWN(Jefe): Solo los vicepresidentes ejecutivos y puestos superiores pueden pintarme.
+-SUCCESS-> Nunca hace daño preguntar.

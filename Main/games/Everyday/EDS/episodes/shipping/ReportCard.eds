@@ -57,7 +57,7 @@ CLONE DEED "Tap1" "ReportCardFridge3"
 END
 
 DEF TASK "ReportCardFridge"
-    SET NAME "Ponga la boleta de calificaciones 'A+' en el refrigerador"
+    SET NAME "Pon la boleta de calificaciones de '10' en el refrigerador"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"

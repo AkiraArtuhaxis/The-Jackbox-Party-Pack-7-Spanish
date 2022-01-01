@@ -407,7 +407,7 @@
             "RANK_6": "sexto",
             "RANK_7": "séptimo",
             "RANK_8": "octavo",
-            "TEXT_DESCRIPTION_SKIP_OPTION": "The VIP puede omitir ahora mismo.",
+            "TEXT_DESCRIPTION_SKIP_OPTION": "El VIP puede omitir ahora mismo.",
             "TEXT_DESCRIPTION_PLAYER_JOINED_VIP": "%s se unió y es el VIP.",
             "TEXT_DESCRIPTION_PLAYER_VIP": "%s es el VIP.",
             "TEXT_DESCRIPTION_PLAYER_JOINED": "%s se unió.",

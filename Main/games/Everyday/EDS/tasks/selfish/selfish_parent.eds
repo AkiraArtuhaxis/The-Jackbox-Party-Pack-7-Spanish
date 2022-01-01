@@ -657,7 +657,7 @@ CLONE DEED "QuickTap3" "PostBabyPhotos5"
 END
 
 DEF TASK "PostBabyPhotos"
-    SET NAME "Publica fotos vergonzosas de bebé de tu hijo adolescente en línea"
+    SET NAME "Publica fotos vergonzosas de bebé de tu hijo joven en línea"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"

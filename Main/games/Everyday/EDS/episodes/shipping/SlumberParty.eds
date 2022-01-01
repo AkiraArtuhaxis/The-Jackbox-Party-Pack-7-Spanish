@@ -309,8 +309,8 @@ END
 
 DEF TASK "SlumberTeenSneak"
     SET NAME "Ir de paseo"
-    SET ASKER_NAME "Ir de paseo con el adolescente"
-    SET HELPER_NAME "Go on a joyride with <ASKER>"
+    SET ASKER_NAME "Ir de paseo con la persona joven"
+    SET HELPER_NAME "Ve de paseo con <ASKER>"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"

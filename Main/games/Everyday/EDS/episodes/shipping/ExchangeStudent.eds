@@ -3,8 +3,8 @@ DEF EPISODE "ExchangeStudent"
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Un intercambio justo"
     SET DESCRIPTION "Un <font color='#AF0000'>estudiante de intercambio</font> de Pearly Gates, Iowa, se hospeda con la familia durante el fin de semana. Traten de hacerle sentir como en casa, ¿lo harán?"
-    SET SUCCESS_MESSAGE "Nuestra red de madres nos ha informado de que el estudiante se sintió bienvenido en su morada. Felicitaciones por aprender cómo deben llevarse con la gente, una lección que la mayoría de nosotros aprendimos en el jardín de infancia. ¡Oh, y quédense con la receta de té helado!"
-    SET FAILURE_MESSAGE "Mala suerte, anfitriones. ¡Estamos escuchando informes que su estudiante no se sintió incluido en el amor de tu unidad familiar! Que cada sorbo de té helado les pique con el recuerdo de tu fracaso. "
+    SET SUCCESS_MESSAGE "Nuestra red de madres nos ha informado de que el estudiante se sintió bienvenido en su morada. Felicitaciones por aprender cómo deben llevarse bien con la gente, una lección que la mayoría de nosotros aprendimos en el jardín infantil. ¡Oh, y quédense con la receta de té helado!"
+    SET FAILURE_MESSAGE "Mala suerte, anfitriones. ¡Estamos escuchando informes que su estudiante no se sintió incluido en el amor de su unidad familiar! Que cada sorbo de té helado les pique con el recuerdo de su fracaso. "
 
 
     REM : ------------------------------
@@ -48,12 +48,12 @@ REM : Define this episode's story tasks below
 
 REM : Drive to pick up student at the train station
 CLONE DEED "TravelID" "PickUpEx"
-    SET INSTRUCTIONS "Recoge al estudiante en la estación de tren."
+    SET INSTRUCTIONS "Recoge al estudiante en la estación de tren"
     SET CONTENT_ID "ASTERTRAIN"
 END
 
 DEF TASK "PickUpEx"
-    SET NAME "Recoge al estudiante en la estación de tren."
+    SET NAME "Recoger al estudiante en la estación de tren"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -71,7 +71,7 @@ CLONE DEED "Instructions4" "MakeHousePresentable"
     SET MECHANIC_0 "TAP_3"
     SET INSTRUCTIONS_0 "Desempolva el sofá"
     SET MECHANIC_1 "SWIPE_LEFT"
-    SET INSTRUCTIONS_1 "Lava los rodapiés"
+    SET INSTRUCTIONS_1 "Lava los guardapolvos"
     SET MECHANIC_2 "ROTATE_CLOCK"
     SET INSTRUCTIONS_2 "Pule las manillas de las puertas"
     SET MECHANIC_3 "TAP_HOLD"
@@ -79,9 +79,9 @@ CLONE DEED "Instructions4" "MakeHousePresentable"
 END
 
 DEF TASK "MakeHousePresentable"
-    SET NAME "Haz la casa presentable para el estudiante de intercambio"
-    SET ASKER_NAME "Obtén ayuda para hacer la casa presentable para los estudiantes de intercambio"
-    SET HELPER_NAME "Help <ASKER> make house presentable for exchange student"
+    SET NAME "Hacer que la casa se vea presentable para el estudiante de intercambio"
+    SET ASKER_NAME "Obtener ayuda para hacer que la casa se vea presentable para el estudiante de intercambio"
+    SET HELPER_NAME "Ayudar a <ASKER> para hacer que la casa se vea presentable para el estudiante de intercambio"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -102,11 +102,11 @@ CLONE DEED "Tap1" "WelcomeStudent2"
 END
 
 CLONE DEED "Hold2" "WelcomeStudent3"
-    SET INSTRUCTIONS "Tragate las molestias"
+    SET INSTRUCTIONS "Trágate el disgusto"
 END
 
 DEF TASK "WelcomeStudent"
-    SET NAME "Dale la bienvenida al estudiante a la familia"
+    SET NAME "Darle la bienvenida al estudiante a la familia"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -132,7 +132,7 @@ CLONE DEED "QuickTap3" "IntellectualConvo2"
 END
 
 CLONE DEED "SwipeLeft" "IntellectualConvo3"
-    SET INSTRUCTIONS "Acepta su oferta de té helado fresco."
+    SET INSTRUCTIONS "Acepta su oferta de té helado fresco"
 END
 
 CLONE DEED "Nothing2" "IntellectualConvo4"
@@ -140,7 +140,7 @@ CLONE DEED "Nothing2" "IntellectualConvo4"
 END
 
 DEF TASK "IntellectualConvo"
-    SET NAME "Disfruta de la conversación intelectual con el estudiante."
+    SET NAME "Disfrutar de la conversación intelectual con el estudiante"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -163,9 +163,9 @@ CLONE DEED "TextBase" "TextBigWord"
 END
 
 DEF TASK "TextBigWord"
-    SET NAME "Busca la gran palabra que el estudiante de intercambio usó"
-    SET ASKER_NAME "Obtén ayuda para buscar la gran palabra que el estudiante de intercambio usó"
-    SET HELPER_NAME "Help <ASKER> look up the big word student used"
+    SET NAME "Buscar las palabras mayores que usó el estudiante de intercambio"
+    SET ASKER_NAME "Obtener ayuda para buscar las palabras mayores que usó el estudiante de intercambio"
+    SET HELPER_NAME "Ayudar a <ASKER> a buscar las palabras mayores que usó el estudiante"
     SET CAPTAIN "YOUNG"
     SET PARTICIPANT "ADULTS"
     SET CATEGORY "STORY"
@@ -179,7 +179,7 @@ END
 
 REM : Re-rearreange the book case student rearranged
 CLONE DEED "Nothing2" "RearrangeBookcase1"
-    SET INSTRUCTIONS "Dile al alumno que se ve genial"
+    SET INSTRUCTIONS "Dile al estudiante que se ve genial"
 END
 
 CLONE DEED "Hold3" "RearrangeBookcase2"
@@ -187,7 +187,7 @@ CLONE DEED "Hold3" "RearrangeBookcase2"
 END
 
 CLONE DEED "QuickTap3" "RearrangeBookcase3"
-    SET INSTRUCTIONS "¿¿Quién clasifica por color??"
+    SET INSTRUCTIONS "¡¿Quién clasifica por color?!"
 END
 
 CLONE DEED "Hold2" "RearrangeBookcase4"
@@ -195,7 +195,7 @@ CLONE DEED "Hold2" "RearrangeBookcase4"
 END
 
 DEF TASK "RearrangeBookcase"
-    SET NAME "Vuelve a reorganizar la estantería que reorganizó el estudiante de intercambio"
+    SET NAME "Reacomodar la estantería que el estudiante de intercambio acomodó"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -219,7 +219,7 @@ CLONE DEED "DialogID" "CallExParents"
 END
 
 DEF TASK "CallExParents"
-    SET NAME "Llama a los padres del estudiante de intercambio"
+    SET NAME "Llamar a los padres del estudiante de intercambio"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -236,7 +236,7 @@ CLONE DEED "QuickTap5" "CollegeApEx1"
 END
 
 CLONE DEED "SwipeRight" "CollegeApEx2"
-    SET INSTRUCTIONS "Echa un vistazo al puntaje del estudiante"
+    SET INSTRUCTIONS "Echa un vistazo al promedio del estudiante"
 END
 
 CLONE DEED "Hold2" "CollegeApEx3"
@@ -269,22 +269,22 @@ REM : -------------------------------------
 
 REM : Sink into melancholy
 CLONE DEED "Instructions4" "Melancholy"
-    SET INSTRUCTIONS "Hundirse en la melancolía"
+    SET INSTRUCTIONS "Húndete en la melancolía"
 
     SET MECHANIC_0 "SWIPE_LEFT"
-    SET INSTRUCTIONS_0 "Cerrar las cortinas"
+    SET INSTRUCTIONS_0 "Cierra las cortinas"
     SET MECHANIC_1 "TAP_HOLD"
-    SET INSTRUCTIONS_1 "Considerar un futor incierto"
+    SET INSTRUCTIONS_1 "Considera el futuro incierto"
     SET MECHANIC_2 "SWIPE_LEFT"
-    SET INSTRUCTIONS_2 "Arrojarse al sofá"
+    SET INSTRUCTIONS_2 "Tírate al sofá"
     SET MECHANIC_3 "SWIPE_RIGHT"
-    SET INSTRUCTIONS_3 "Arrojarse en otro sofá"
+    SET INSTRUCTIONS_3 "Tírate al otro sofá"
 END
 
 DEF TASK "Melancholy"
     SET NAME "Hundirse en la melancolía"
-    SET ASKER_NAME "Ayuda al adolescente a hundirse en la melancolía"
-    SET HELPER_NAME "Get <ASKER>'s help sinking into melancholy"
+    SET ASKER_NAME "Ayuda al joven a hundirse en la melancolía"
+    SET HELPER_NAME "Conseguir la ayuda de <ASKER> para hundirse en la melancolía"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -302,11 +302,11 @@ CLONE DEED "Tap1" "Glower1"
 END
 
 CLONE DEED "QuickTap3" "Glower2"
-    SET INSTRUCTIONS "Miralo enojado mas fuerte"
+    SET INSTRUCTIONS "Míralo más enojado"
 END
 
 CLONE DEED "SwipeLeft" "Glower3"
-    SET INSTRUCTIONS "Aceptar la oferta del estudiante de un té helado."
+    SET INSTRUCTIONS "Acepta la oferta del estudiante de un té helado"
 END
 
 CLONE DEED "Hold2" "Glower4"
@@ -314,7 +314,7 @@ CLONE DEED "Hold2" "Glower4"
 END
 
 CLONE DEED "QuickTap3" "Glower5"
-    SET INSTRUCTIONS "De vuelta a enojarse."
+    SET INSTRUCTIONS "De vuelta a mirarlo enojado"
 END
 
 DEF TASK "Glower"
@@ -344,19 +344,19 @@ CLONE DEED "SwipeBase" "DeadLizard1"
 END
 
 CLONE DEED "Tap2" "DeadLizard2"
-    SET INSTRUCTIONS "¡Pinchalo con un palo!"
+    SET INSTRUCTIONS "¡Pínchalo con un palo!"
 END
 
 CLONE DEED "Hold2" "DeadLizard3"
-    SET INSTRUCTIONS "Mira como un estudiante de intercambio lo devuelve a la vida"
+    SET INSTRUCTIONS "Mira cómo el estudiante de intercambio lo devuelve a la vida"
 END
 
 CLONE DEED "Tap2" "DeadLizard4"
-    SET INSTRUCTIONS "Pincha el aburrido lagarto vivo con tu palo"
+    SET INSTRUCTIONS "Pincha con un palo al aburrido lagarto vivo"
 END
 
 DEF TASK "DeadLizard"
-    SET NAME "Muestra el lagarto muerto que encontraste al estudiante de intercambio"
+    SET NAME "Mostrar al estudiante de intercambio el lagarto muerto que encontraste"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -391,7 +391,7 @@ CLONE DEED "Hold3" "PlayPretendEx4"
 END
 
 DEF TASK "PlayPretendEx"
-    SET NAME "Juega a fingir con el estudiante de intercambio"
+    SET NAME "Jugar a pretender con el estudiante de intercambio"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -419,15 +419,15 @@ CLONE DEED "Instructions5" "TeaRevenge"
     SET MECHANIC_2 "TAP_3"
     SET INSTRUCTIONS_2 "Acércate sigilosamente a tu enemigo..."
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Preparate..."
+    SET INSTRUCTIONS_3 "Prepárate..."
     SET MECHANIC_4 "TAP"
     SET INSTRUCTIONS_4 "¡Refrescante!"
 END
 
 DEF TASK "TeaRevenge"
-    SET NAME "Vierte la jarra de té helado en el estudiante como venganza"
-    SET ASKER_NAME "Obtén ayuda para vertir la jarra de té helado en el estudiante como venganza"
-    SET HELPER_NAME "Help <ASKER> pour jug of iced tea on student as revenge"
+    SET NAME "Vertir la jarra de té helado en el estudiante como venganza"
+    SET ASKER_NAME "Obtener ayuda para vertir la jarra de té helado en el estudiante como venganza"
+    SET HELPER_NAME "Ayudar a <ASKER> a vertir la jarra de té helado en el estudiante como venganza"
     SET CAPTAIN "CHILDREN"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"

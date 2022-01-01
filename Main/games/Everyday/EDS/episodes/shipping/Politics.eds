@@ -82,8 +82,8 @@ END
 DEF TASK "TextCampaign"
     SET DURATION <8H>
     SET NAME "Crea un hashtag de campaña 'genial'"
-    SET ASKER_NAME "Obtén ayuda para crear un hashtag COOL de la campaña"
-    SET HELPER_NAME "Help <ASKER> come up with 'cool' campaign hashtag"
+    SET ASKER_NAME "Obtén ayuda para crear un hashtag 'genial' de campaña"
+    SET HELPER_NAME "Ayuda a <ASKER> a crear un hashtag 'genial' de campaña"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "TEENS"
@@ -321,7 +321,7 @@ CLONE DEED "Nothing3" "SneakStash5"
 END
 
 DEF TASK "SneakStash"
-    SET NAME "Colarse en el alijo de helados del adolescente"
+    SET NAME "Colarse en el alijo de helados de la persona joven"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"

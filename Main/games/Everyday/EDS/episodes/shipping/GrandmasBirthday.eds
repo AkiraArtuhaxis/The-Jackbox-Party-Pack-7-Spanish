@@ -2,9 +2,9 @@ DEF EPISODE "GrandmasBirthday"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Un demonio para cenar"
-    SET DESCRIPTION "Es el <font color='#AF0000'>cumpleaños numero 666 de la abuela Pazuzu</font>, y aunque es un demonio de tres cabezas a quien nadie le gusta, la familia le está armando una fiesta."
-    SET SUCCESS_MESSAGE "Estuvimos encantados de escuchar que la fiesta de cumpleaños número 666 de la abuela Pazuzu se realizó sin problemas. Celebrar el cumpleaños de un pariente molesto es una larga tradición humana, muy parecida a los picnics de oficina y a fingir que te gustan los chalecos caseros."
-    SET FAILURE_MESSAGE "Ha llegado a nuestra atención que el cumpleaños de la abuela Pazuzu fue un desastre total. Nuestras plantas en su asilo nos dicen que no se calla sobre la terrible experiencia que tuvo. Solo un aviso, no esperen ver ninguno de vuestros nombres en el testamento."
+    SET DESCRIPTION "Es el <font color='#AF0000'>cumpleaños 666 de la abuela Pazuzu</font>, y aunque es un demonio de tres cabezas a quien nadie le gusta, la familia le está armando una fiesta."
+    SET SUCCESS_MESSAGE "Estuvimos encantados de escuchar que la fiesta de cumpleaños 666 de la abuela Pazuzu se realizó sin problemas. Celebrar el cumpleaños de un pariente molesto es una larga tradición humana, muy parecida a los picnics de oficina y a fingir que te gustan los suéteres caseros."
+    SET FAILURE_MESSAGE "Nos hemos dado cuenta de que el cumpleaños de la abuela Pazuzu fue un desastre total. Nuestras plantas en su asilo nos dicen que para de hablar sobre la terrible experiencia que tuvo. Solo un aviso, no esperen ver ninguno de sus nombres en el testamento."
 
     REM : ------------------------------
 
@@ -44,15 +44,15 @@ REM : ------------------------------
 
 REM : Get Party Supplies
 CLONE DEED "TravelCategory" "TravelGrammaSupplies"
-    SET INSTRUCTIONS "Conduce hasta la tienda para comprar artículos para fiestas."
+    SET INSTRUCTIONS "Conduce hasta la tienda para comprar artículos de fiesta"
     SET CONTENT_ID "PARTYTOWNSHIP"
 END
 
 DEF TASK "TravelPartySupplies"
     SET DURATION <8H>
-    SET NAME "Conduce a la tienda para comprar artículos para fiestas."
-    SET ASKER_NAME "Ve con alguien mayor para conseguir artículos para la fiesta"
-    SET HELPER_NAME "Drive to the store with <ASKER> to get party supplies"
+    SET NAME "Conducir a la tienda para comprar artículos de fiesta"
+    SET ASKER_NAME "Ir con alguien mayor para conseguir artículos de fiesta"
+    SET HELPER_NAME "Conducir a la tienda con <ASKER> para conseguir artículos de fiesta"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "MATURE"
@@ -70,9 +70,9 @@ END
 
 DEF TASK "TravelGrammaPresent"
     SET DURATION <8H>
-    SET NAME "Ve a comprarle un regalo a la abuela"
-    SET ASKER_NAME "Obtén un viaje a la tienda para comprarle un regalo a la abuela"
-    SET HELPER_NAME "Drive <ASKER> to the store to buy grandma a present"
+    SET NAME "Ir a comprarle un regalo a la abuela"
+    SET ASKER_NAME "Conseguir un viaje a la tienda para comprarle un regalo a la abuela"
+    SET HELPER_NAME "Llevar a <ASKER> a la tienda para comprarle un regalo a la abuela"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "MATURE"
@@ -92,9 +92,9 @@ END
 
 DEF TASK "TravelPickupGrandma"
     SET DURATION <8H>
-    SET NAME "Recoge a la abuela en su casa"
-    SET ASKER_NAME "Ve con alguien mayor a recoger a la abuela"
-    SET HELPER_NAME "Go with <ASKER> to pick up Grandma"
+    SET NAME "Recoger a la abuela en su casa"
+    SET ASKER_NAME "Ir con alguien mayor a recoger a la abuela"
+    SET HELPER_NAME "Ir con <ASKER> a recoger a la abuela"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "MATURE"
@@ -120,7 +120,7 @@ END
 
 DEF TASK "CallFriendGrandma"
     SET DURATION <8H>
-    SET NAME "Invita a la tía Hecuba a la fiesta"
+    SET NAME "Invitar a la tía Hecuba a la fiesta"
     SET CATEGORY "STORY"
     SET THEME "STORY"
 
@@ -133,7 +133,7 @@ END
 
 REM : Clean the house
 CLONE TASK "CleanHouse" "CleanParty"
-    SET NAME "Limpia para la fiesta"
+    SET NAME "Limpiar para la fiesta"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -142,7 +142,7 @@ END
 
 REM : Handmade present
 CLONE TASK "MakeSlimeMess" "GrandmaHandmadeGift"
-    SET NAME "Hazle a la abuela un regalo hecho a mano"
+    SET NAME "Hacerle a la abuela un regalo artesanal"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "CHILDREN"
@@ -170,7 +170,7 @@ END
 
 DEF TASK "WrapGrandmasGift"
     SET DURATION <8H>
-    SET NAME "Envuelve el regalo para la abuela"
+    SET NAME "Envolver el regalo para la abuela"
     SET CATEGORY "STORY"
     SET THEME "STORY"
 
@@ -188,14 +188,14 @@ END
 
 REM : Gramma Meal Cook
 CLONE DEED "GatherMeal" "GrammaMealIngredients"
-    SET INSTRUCTIONS "Reúne los ingredientes para la comida favorita de la abuela."
+    SET INSTRUCTIONS "Reúne los ingredientes para la comida favorita de la abuela"
     SET CATEGORY "DINNER"
 
 END
 
 DEF TASK "GatherGrandmaMeal"
     SET DURATION <8H>
-    SET NAME "Reúna los ingredientes para la comida favorita de la abuela."
+    SET NAME "Reunir los ingredientes para la comida favorita de la abuela"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
@@ -210,12 +210,12 @@ END
 
 REM : Gramma Meal Gather
 CLONE DEED "Tap3" "CramGrandmaMeal"
-    SET INSTRUCTIONS "Mételo en la nevera hasta la fiesta"
+    SET INSTRUCTIONS "Métela en la nevera hasta la fiesta"
 END
 
 DEF TASK "CookGrandmaMeal"
     SET DURATION <8H>
-    SET NAME "Prepara la comida favorita de la abuela"
+    SET NAME "Preparar la comida favorita de la abuela"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -231,11 +231,11 @@ END
 
 REM : Blow out candles
 CLONE DEED "Hold5" "GrandmaBlowCandles"
-    SET INSTRUCTIONS "¡Sopla mas fuerte!"
+    SET INSTRUCTIONS "¡Sopla fuerte!"
 END
 
 DEF TASK "GrandmaBlowCandles"
-    SET NAME "Ayuda a la abuela a apagar sus velas"
+    SET NAME "Ayudar a la abuela a apagar sus velas"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -254,7 +254,7 @@ CLONE DEED "DialogID" "GrandmaSmallTalk"
 END
 
 DEF TASK "GrandmaSmallTalk"
-    SET NAME "Ten una pequeña charla con la abuela"
+    SET NAME "Tener una pequeña charla con la abuela"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -267,13 +267,13 @@ END
 
 REM : Make Grandma a bouquet
 CLONE DEED "GatherBase" "GatherGrandmaBouquet"
-    SET INSTRUCTIONS "Reúna los ingredientes para el buqué."
+    SET INSTRUCTIONS "Reúne los ingredientes para el ramo"
     SET CONTENT_ID "GRANDMAS_FLOWERS"
 END
 
 DEF TASK "GatherGrandmaBouquet"
     SET DURATION <3H>
-    SET NAME "Haz un buqué a la abuela"
+    SET NAME "Hacer un ramo para la abuela"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAINLESS_BEHAVIOR "KICK_ALL"

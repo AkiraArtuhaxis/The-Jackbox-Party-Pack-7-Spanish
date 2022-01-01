@@ -2,9 +2,9 @@ DEF EPISODE "CousinVisit"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Porque sí"
-    SET DESCRIPTION "Tu <font color='#AF0000'>Primo Rompo</font> nos escribió y nos dijeron que querían visitarles. ¡Hasta se ofrecieron a ayudar con los deberes diarios! Estoy seguro de que los rumores de que son unos alborotadores precoces son completamente infundados."
-    SET SUCCESS_MESSAGE "Nos han dicho que su casa es un gran lugar para visitar monstruos y demonios. Así que preparen su sala de huéspedes, porque tenemos una serie de espíritus engañosos que necesitan un lugar para chocar. Literalmente."
-    SET FAILURE_MESSAGE "El Primo Rompo fue un poco como clawful, y tememos decirles que tiraron la pelota. La próxima vez que un críptico visitante llegue a la ciudad, les sugerimos que pasen más tiempo respondiendo a sus hábitos únicos y menos tiempo tomando fotos borrosas para el álbum."
+    SET DESCRIPTION "Tu <font color='#AF0000'>Primo Rompo</font> nos escribió y dijo que quiere visitarlos. ¡Hasta se ofreció a ayudar con los deberes diarios! Estoy seguro de que los rumores de que es un alborotador precoz son completamente infundados."
+    SET SUCCESS_MESSAGE "¡Rompo lo pasó genial! Nos dijo que tu casa es un gran lugar para visitar monstruos y demonios. Así que prepara tu sala de huéspedes, porque tenemos una serie de espíritus engañosos que necesitan un lugar para dormir. Literalmente."
+    SET FAILURE_MESSAGE "El primo Rompo era un poco difícil de manejar, y tememos decirles que lo dejaron abandonado. La próxima vez que un críptico visitante llegue a la ciudad, les sugerimos que pasen más tiempo respondiendo a sus hábitos singulares y menos tiempo tomándoles fotos borrosas para el álbum."
 
 
     REM : ------------------------------
@@ -50,12 +50,12 @@ CLONE DEED "SwipeLeft" "GreetCousin1"
 END
 
 CLONE DEED "DialogID" "GreetCousin2"
-    SET INSTRUCTIONS "Saluda al Primo Rompo"
+    SET INSTRUCTIONS "Saluda al primo Rompo"
     SET CONTENT_ID "COUSINVISIT_GREET"
 END
 
 DEF TASK "GreetCousin"
-    SET NAME "Saluda al Primo Rompo en la puerta"
+    SET NAME "Saludar al primo Rompo en la puerta"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -70,12 +70,12 @@ END
 
 REM : Take family photo with cousin Rompo
 CLONE DEED "Nothing3" "RompoPhoto"
-    SET INSTRUCTIONS "¡Aprietense!"
+    SET INSTRUCTIONS "¡Aprieta!"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "RompoPhoto"
-    SET NAME "Toma una foto familiar con el Primo Rompo"
+    SET NAME "Tomar una foto familiar con el primo Rompo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -96,15 +96,15 @@ CLONE DEED "ScrubMedium" "CousinGutters2"
 END
 
 CLONE DEED "SwipeUp" "CousinGutters3"
-    SET INSTRUCTIONS "Resbalate cuando el primo Rompo derribe la escalera"
+    SET INSTRUCTIONS "Resbálate cuando el primo Rompo derribe la escalera"
 END
 
 CLONE DEED "Hold5" "CousinGutters4"
-    SET INSTRUCTIONS "Aferrate a las canaletas para salvar tu vida"
+    SET INSTRUCTIONS "Aférrate a las canaletas para salvar tu vida"
 END
 
 DEF TASK "CousinGutters"
-    SET NAME "Limpia las canaletas con el primo"
+    SET NAME "Limpiar las canaletas con el primo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -124,22 +124,22 @@ END
 REM : Help cousin off roof
 
 CLONE DEED "Instructions4" "CousinRoof"
-    SET INSTRUCTIONS "Sacar al primo Rompo del tejado"
+    SET INSTRUCTIONS "Saca al primo Rompo del tejado"
 
     SET MECHANIC_0 "SWIPE_UP"
-    SET INSTRUCTIONS_0 "Tirate hacia arriba"
+    SET INSTRUCTIONS_0 "Levántate"
     SET MECHANIC_1 "TAP_HOLD"
-    SET INSTRUCTIONS_1 "Sostén la mano de Rompo"
+    SET INSTRUCTIONS_1 "Toma la mano de Rompo"
     SET MECHANIC_2 "TAP"
-    SET INSTRUCTIONS_2 "Súbete a Rompo a la espalda"
+    SET INSTRUCTIONS_2 "Pon a Rompo en tu espalda"
     SET MECHANIC_3 "TAP_3"
-    SET INSTRUCTIONS_3 "Trepa abajo"
+    SET INSTRUCTIONS_3 "Baja"
 END
 
 DEF TASK "CousinRoof"
-    SET NAME "Saca al Primo Rompo del tejado"
-    SET ASKER_NAME "Obtén ayuda para sacar al primo Rompo del techo"
-    SET HELPER_NAME "Help <ASKER> get cousin Rompo off the roof"
+    SET NAME "Sacar al primo Rompo del tejado"
+    SET ASKER_NAME "Obtener ayuda para sacar al primo Rompo del tejado"
+    SET HELPER_NAME "Ayudar a <ASKER> a bajar al primo Rompo del tejado"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -154,7 +154,7 @@ REM : ------------------------------------
 
 REM : Do dishes with cousin
 CLONE DEED "Rotate90Counter" "DishesCousin1"
-    SET INSTRUCTIONS "Enciende el fregadero"
+    SET INSTRUCTIONS "Usa el fregadero"
 END
 
 CLONE DEED "ScrubMedium" "DishesCousin2"
@@ -162,15 +162,15 @@ CLONE DEED "ScrubMedium" "DishesCousin2"
 END
 
 CLONE DEED "Nothing3" "DishesCousin3"
-    SET INSTRUCTIONS "Tus pies se estan mojando..."
+    SET INSTRUCTIONS "Tus pies se están mojando..."
 END
 
 CLONE DEED "Hold5" "DishesCousin4"
-    SET INSTRUCTIONS "Saca el trapo que Cousin Rompo dejó en el desagüe"
+    SET INSTRUCTIONS "Saca el trapo que el primo Rompo dejó en el desagüe"
 END
 
 DEF TASK "DishesCousin"
-    SET NAME "Lava los platos con el Primo Rompo"
+    SET NAME "Lavar los platos con el primo Rompo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -189,14 +189,14 @@ END
 
 REM : Run kitchen floor cleaner
 CLONE DEED "Gizmos3" "FloorCleaner"
-    SET INSTRUCTIONS "Ejecutar limpiador de piso de cocina"
-    SET NAME "Limpiador de suelos"
+    SET INSTRUCTIONS "Limpia el piso de la cocina"
+    SET NAME "Limpiador de pisos"
 END
 
 DEF TASK "FloorCleaner"
-    SET NAME "Ejecutar limpiador de piso de cocina"
-    SET ASKER_NAME "Obtenga ayuda para ejecutar el limpiador de pisos de cocina"
-    SET HELPER_NAME "Help <ASKER> run the kitchen floor cleaner"
+    SET NAME "Limpiar el piso de la cocina"
+    SET ASKER_NAME "Obtener ayuda para limpiar el piso de la cocina"
+    SET HELPER_NAME "Ayudar a <ASKER> a limpiar el piso de la cocina"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -209,12 +209,12 @@ END
 
 REM : Gather ingredients for samosa
 CLONE DEED "GatherLunch" "GatherSamosa"
-    SET INSTRUCTIONS "Reúna los ingredientes para preparar samosas"
+    SET INSTRUCTIONS "Reúne los ingredientes para samosas"
     SET CONTENT_ID "SAMOSA"
 END
 
 DEF TASK "GatherSamosa"
-    SET NAME "Reúna los ingredientes para samosas con primo Rompo"
+    SET NAME "Reunir los ingredientes para samosas con el primo Rompo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -233,11 +233,11 @@ CLONE DEED "Rotate360" "MakeSamosaCousin1"
 END
 
 CLONE DEED "Tap1" "MakeSamosaCousin2"
-    SET INSTRUCTIONS "Calienta el aceite en una sartén."
+    SET INSTRUCTIONS "Calienta el aceite en una sartén"
 END
 
 CLONE DEED "SwipeUp" "MakeSamosaCousin3"
-    SET INSTRUCTIONS "Enrolla la masa"
+    SET INSTRUCTIONS "Estira la masa"
 END
 
 CLONE DEED "Nothing5" "MakeSamosaCousin4"
@@ -245,7 +245,7 @@ CLONE DEED "Nothing5" "MakeSamosaCousin4"
 END
 
 DEF TASK "MakeSamosaCousin"
-    SET NAME "Prepara samosas con el Primo Rompo"
+    SET NAME "Preparar samosas con el primo Rompo"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -270,15 +270,15 @@ CLONE DEED "Hold2" "PutOutFireCousin1"
 END
 
 CLONE DEED "SwipeUp" "PutOutFireCousin2"
-    SET INSTRUCTIONS "Salpica con agua"
+    SET INSTRUCTIONS "Salpícalo con agua"
 END
 
 CLONE DEED "ScrubMedium" "PutOutFireCousin3"
-    SET INSTRUCTIONS "Solo pisa bien el fuego fuertemente"
+    SET INSTRUCTIONS "Solo tienes que pisar fuerte"
 END
 
 DEF TASK "PutOutFireCousin"
-    SET NAME "Apaga el fuego de la cocina causado por el Primo Rompo"
+    SET NAME "Apagar el fuego de la cocina causado por el primo Rompo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -301,7 +301,7 @@ CLONE DEED "SwipeLeft" "HideFromCousin1"
 END
 
 CLONE DEED "Hold3" "HideFromCousin2"
-    SET INSTRUCTIONS "Empuja a tu hermano"
+    SET INSTRUCTIONS "Saca a la persona de adentro"
 END
 
 CLONE DEED "SwipeRight" "HideFromCousin3"
@@ -309,7 +309,7 @@ CLONE DEED "SwipeRight" "HideFromCousin3"
 END
 
 DEF TASK "HideFromCousin"
-    SET NAME "Ocultate de primo Rompo"
+    SET NAME "Ocultarse del primo Rompo"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -326,11 +326,11 @@ END
 
 REM : Vacuum rug with cousin
 CLONE DEED "Tap1" "VacuumCousin1"
-    SET INSTRUCTIONS "Prende la aspiradora"
+    SET INSTRUCTIONS "Enciende la aspiradora"
 END
 
 CLONE DEED "Hold3" "VacuumCousin2"
-    SET INSTRUCTIONS "Pásala sobre la alfombra"
+    SET INSTRUCTIONS "Pásala por la alfombra"
 END
 
 CLONE DEED "Tap2" "VacuumCousin3"
@@ -342,7 +342,7 @@ CLONE DEED "Rotate180" "VacuumCousin4"
 END
 
 DEF TASK "VacuumCousin"
-    SET NAME "Aspira la alfombra con el Primo Rompo"
+    SET NAME "Aspirar la alfombra con el primo Rompo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -366,7 +366,7 @@ CLONE DEED "SearchID" "SearchRompoGame"
 END
 
 DEF TASK "SearchRompoGame"
-    SET NAME "Busca el amado juego de copa y pelota perdido del primo Rompo"
+    SET NAME "Buscar de la querida taza y juego de pelota perdidos del primo Rompo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -384,9 +384,9 @@ CLONE DEED "FindCategory" "FindCousinBag"
 END
 
 DEF TASK "FindCousinBag"
-    SET NAME "Encuentra la mochila del primo Rompo para que puedan irse."
-    SET ASKER_NAME "Obtén ayuda para encontrar la mochila del primo Rompo para que puedan IRSE"
-    SET HELPER_NAME "Help <ASKER> find cousin Rompo's backpack so they can LEAVE"
+    SET NAME "Encontrar la mochila del primo Rompo para que puedan irse."
+    SET ASKER_NAME "Obtener ayuda para encontrar la mochila del primo Rompo para que pueda IRSE"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la mochila del primo Rompo para que pueda IRSE"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

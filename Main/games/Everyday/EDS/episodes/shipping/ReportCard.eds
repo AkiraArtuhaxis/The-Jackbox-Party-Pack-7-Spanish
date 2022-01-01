@@ -109,7 +109,7 @@ END
 
 REM : Call teen's teacher
 CLONE DEED "PhoneID" "CallTeenTeacher1"
-    SET INSTRUCTIONS "Llama a la profesora del adolescente"
+    SET INSTRUCTIONS "Llama a la profesora de la persona joven"
     SET CONTENT_ID "YANLUO"
 END
 
@@ -119,7 +119,7 @@ CLONE DEED "DialogID" "CallTeenTeacher2"
 END
 
 DEF TASK "CallTeenTeacher"
-    SET NAME "Llamar a la profesora del adolescente"
+    SET NAME "Llamar a la profesora de la persona joven"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -136,7 +136,7 @@ REM : -------------------------------------------------
 
 REM : Take teen's phone
 CLONE DEED "Nothing3" "TakeTeenPhone1"
-    SET INSTRUCTIONS "Mirar hacia abajo al adolescente"
+    SET INSTRUCTIONS "Mira hacia abajo a la persona joven"
 END
 
 CLONE DEED "SwipeUp" "TakeTeenPhone2"
@@ -152,7 +152,7 @@ CLONE DEED "Tap1" "TakeTeenPhone4"
 END
 
 DEF TASK "TakeTeenPhone"
-    SET NAME "Quitarle el teléfono al adolescente como castigo"
+    SET NAME "Quitarle el teléfono a la persona joven como castigo"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -178,7 +178,7 @@ END
 DEF TASK "TravelPizzaRedeem"
     SET NAME "Canjea tus buenas calificaciones por pizza"
     SET ASKER_NAME "Obtén un viaje para canjear buenas calificaciones por pizza"
-    SET HELPER_NAME "Drive <ASKER> to redeem good grades for pizza"
+    SET HELPER_NAME "Lleva a <ASKER> para canjear buenas calificaciones por pizza"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -237,7 +237,7 @@ END
 DEF TASK "FindToy"
     SET NAME "Elige un nuevo juguete como recompensa"
     SET ASKER_NAME "Obtén ayuda para elegir un nuevo juguete de recompensa"
-    SET HELPER_NAME "Help <ASKER> choose a new reward toy"
+    SET HELPER_NAME "Ayuda a <PEDIDOR> a elegir un nuevo juguete de recompensa"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -255,9 +255,9 @@ CLONE DEED "TextBase" "TextMakeUpWork"
 END
 
 DEF TASK "TextMakeUpWork"
-    SET NAME "Haz la tarea de recuperación"
-    SET ASKER_NAME "Obtén ayuda de los padres con su tarea de recuperación"
-    SET HELPER_NAME "Help <ASKER> with their make up assignment"
+    SET NAME "Haz la tarea de recuperatorio"
+    SET ASKER_NAME "Obtén ayuda de tus padres con tu tarea de recuperatorio"
+    SET HELPER_NAME "Ayuda a <PEDIDOR> con su tarea de recuperatorio"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "STORY"

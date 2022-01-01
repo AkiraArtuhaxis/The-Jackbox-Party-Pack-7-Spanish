@@ -1,10 +1,10 @@
 DEF EPISODE "DangerousTrend"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "¡Es la moda mundial!"
-    SET DESCRIPTION "¡Noticias terribles! Hay una <font color='#AF0000'>nueva moda adolescente llamada 'gronking '</font> pero es una actividad tan obscena y rebelde que ni siquiera podemos describirla aquí. En este episodio tan especial, la familia deberá cuidar a los niños para que no caigan como presas de esta tentadora tendencia sin dejar de respetar su autonomía."
-    SET SUCCESS_MESSAGE "Todos aprendimos una valiosa lección esta semana. Al igual que los seres humanos, se enamoraron por un breve periodo de tiempo de una actividad popular, pero rápidamente aprendieron que era en realidad algo estúpido. Solo recuerden: La unión familiar es una 'manía' que nunca pierde el estilo."
-    SET FAILURE_MESSAGE "Aparentemente, fueron aplastados entre un 'Gronk' y un lugar duro. Es posible que tengamos que trasladarles a un pueblo que ni siquiera conoce el significado de la palabra 'de moda.' ¡Cleveland, allá vamos!"
+    SET NAME "Es la tendencia mundial"
+    SET DESCRIPTION "¡Noticias terribles! Hay una <font color='#AF0000'>nueva locura adolescente llamada 'gronking '</font> que es una actividad tan obscena y rebelde que ni siquiera podemos describirla aquí. En este episodio tan especial, la familia deberá cuidar a los niños para que no caigan como presas de esta tentadora tendencia sin dejar de respetar su autonomía."
+    SET SUCCESS_MESSAGE "Todos aprendimos una valiosa lección esta semana. Al igual que los humanos reales, se enamoraron brevemente de una actividad popular, pero rápidamente aprendieron que en realidad era algo estúpido. Solo recuerden: La unión familiar es una 'locura' que nunca pierde el estilo."
+    SET FAILURE_MESSAGE "Aparentemente, fueron aplastados entre un 'gronk' y un lugar duro. Es posible que tengamos que trasladarles a una ciudad que ni siquiera conoce el significado de la palabra 'tendencia'. ¡Cleveland, allá vamos!"
 
 
     REM : ------------------------------
@@ -49,15 +49,15 @@ CLONE DEED "QuickTap3" "LocalNews1"
 END
 
 CLONE DEED "Nothing4" "LocalNews2"
-    SET INSTRUCTIONS "Escuche al presentador describir la nueva moda adolescente 'gronking.'"
+    SET INSTRUCTIONS "Escucha al presentador describir la nueva locura adolescente 'gronking'."
 END
 
 CLONE DEED "Hold4" "LocalNews3"
-    SET INSTRUCTIONS "Tiembla en forma de pánico moral"
+    SET INSTRUCTIONS "Tiembla de pánico moral"
 END
 
 DEF TASK "LocalNews"
-    SET NAME "Mira las noticias para aprender sobre el 'gronking'"
+    SET NAME "Mirar las noticias para aprender sobre el 'gronking'"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -74,7 +74,7 @@ END
 
 REM : Try 'gronking'...just once
 CLONE DEED "Nothing3" "TryGronk1"
-    SET INSTRUCTIONS "Lee sobre el 'gronking' online"
+    SET INSTRUCTIONS "Lea sobre el 'gronking' en internet"
 END
 
 CLONE DEED "Tap1" "TryGronk2"
@@ -90,7 +90,7 @@ CLONE DEED "Tap3" "TryGronk4"
 END
 
 DEF TASK "TryGronk"
-    SET NAME "Prueba el 'gronking' ... solo una vez"
+    SET NAME "Probar el 'gronking' ... solo una vez"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -109,7 +109,7 @@ END
 
 REM : Watch anti-gronking PSA
 CLONE DEED "QuickTap3" "GronkPSA1"
-    SET INSTRUCTIONS "Cambiar de canal al especial después de la escuela"
+    SET INSTRUCTIONS "Cambia de canal al especial después de la escuela"
 END
 
 CLONE DEED "Nothing3" "GronkPSA2"
@@ -117,7 +117,7 @@ CLONE DEED "Nothing3" "GronkPSA2"
 END
 
 CLONE DEED "Nothing3" "GronkPSA3"
-    SET INSTRUCTIONS "Ahora eres aún más curioso..."
+    SET INSTRUCTIONS "Ahora tienes aún más curiosidad..."
 END
 
 DEF TASK "GronkPSA"
@@ -140,17 +140,17 @@ REM : ------------------------------------------------------
 
 REM : Join anti=gronking parents' group
 CLONE DEED "PhoneID" "JoinGronkGroup1"
-    SET INSTRUCTIONS "Llama al Serafín Cassiel"
+    SET INSTRUCTIONS "Llama a Casiel Serafín"
     SET CONTENT_ID "CASSIEL"
 END
 
 CLONE DEED "DialogID" "JoinGronkGroup2"
-    SET INSTRUCTIONS "Unete al grupo anti-gronk"
+    SET INSTRUCTIONS "Únete al grupo anti-gronk"
     SET CONTENT_ID "DANGEROUSTREND_JOIN"
 END
 
 DEF TASK "JoinGronkGroup"
-    SET NAME "Únete al grupo de padres anti-gronking"
+    SET NAME "Unirse al grupo de padres anti-gronking"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -165,19 +165,19 @@ END
 
 REM : Spy on teen gronking
 CLONE DEED "Tap3" "SpyTeenGronk1"
-    SET INSTRUCTIONS "Colarse en el armario"
+    SET INSTRUCTIONS "Cuélate en el armario"
 END
 
 CLONE DEED "ScrubMedium" "SpyTeenGronk2"
-    SET INSTRUCTIONS "Enterrarse en ropa sucia"
+    SET INSTRUCTIONS "Entiérrate en ropa sucia"
 END
 
 CLONE DEED "Hold3" "SpyTeenGronk3"
-    SET INSTRUCTIONS "No desmayarse por el olor"
+    SET INSTRUCTIONS "No te desmayes por el olor"
 END
 
 CLONE DEED "Nothing3" "SpyTeenGronk4"
-    SET INSTRUCTIONS "Observa el gronking"
+    SET INSTRUCTIONS "Mira el gronking"
 END
 
 DEF TASK "SpyTeenGronk"
@@ -200,19 +200,19 @@ END
 
 REM : Hide gronking paraphernalia
 CLONE DEED "SwipeRight" "HideGronk1"
-    SET INSTRUCTIONS "Abrir el armario bruscamente"
+    SET INSTRUCTIONS "Abre el armario bruscamente"
 END
 
 CLONE DEED "ScrubMedium" "HideGronk2"
-    SET INSTRUCTIONS "Cavar entre la ropa sucia"
+    SET INSTRUCTIONS "Cava entre la ropa sucia"
 END
 
 CLONE DEED "Tap1" "HideGronk3"
-    SET INSTRUCTIONS "Inserte con cuidado la amada parafernalia gronking"
+    SET INSTRUCTIONS "Inserta con cuidado la amada parafernalia gronking"
 END
 
 DEF TASK "HideGronk"
-    SET NAME "Esconder la parafernalia del gronking"
+    SET NAME "Esconder la parafernalia gronking"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -233,15 +233,15 @@ CLONE DEED "Tap1" "SkipSchoolGronk1"
 END
 
 CLONE DEED "Hold3" "SkipSchoolGronk2"
-    SET INSTRUCTIONS "escóndete en los arbustos"
+    SET INSTRUCTIONS "Escóndete en los arbustos"
 END
 
 CLONE DEED "QuickTap4" "SkipSchoolGronk3"
-    SET INSTRUCTIONS "Corre abajo la calle para ir de fiesta"
+    SET INSTRUCTIONS "Correr a la fiesta por la calle"
 END
 
 DEF TASK "SkipSchoolGronk"
-    SET NAME "Saltarse la escuela para ir a la fiesta gronking"
+    SET NAME "Faltar a la escuela para ir a la fiesta gronking"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -260,12 +260,12 @@ REM : -----------------------------------------------
 
 REM : Search teen's room
 CLONE DEED "SearchID" "SearchGronk"
-    SET INSTRUCTIONS "Busca en la habitación del adolescente una parafernalia gronking"
+    SET INSTRUCTIONS "Busca en la habitación adolescente una parafernalia gronking"
     SET CONTENT_ID "GRONK"
 END
 
 DEF TASK "SearchGronk"
-    SET NAME "Busca en la habitación del adolescente una parafernalia gronking"
+    SET NAME "Buscar en la habitación adolescente una parafernalia gronking"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -300,15 +300,15 @@ CLONE DEED "SwipeUp" "QuitGronk1"
 END
 
 CLONE DEED "Rotate180" "QuitGronk2"
-    SET INSTRUCTIONS "Enciende la ducha fría"
+    SET INSTRUCTIONS "Pon la ducha fría"
 END
 
 CLONE DEED "Tap1" "QuitGronk3"
-    SET INSTRUCTIONS "Cuelga un póster inspiracional"
+    SET INSTRUCTIONS "Cuelga un póster inspirador"
 END
 
 DEF TASK "QuitGronk"
-    SET NAME "Prometo dejar de gronkear"
+    SET NAME "Jurar renunciar al gronking"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -325,7 +325,7 @@ END
 
 REM : Sign anti-gronking pledge
 CLONE DEED "Tap1" "GronkPledge1"
-    SET INSTRUCTIONS "Firma el compromiso del pequeño Tyke 'En Contra Del Gronking'"
+    SET INSTRUCTIONS "Firma la Petición de pequeños niños contra el gronking'"
 END
 
 CLONE DEED "QuickTap3" "GronkPledge2"
@@ -333,7 +333,7 @@ CLONE DEED "QuickTap3" "GronkPledge2"
 END
 
 DEF TASK "GronkPledge1"
-    SET NAME "Firma compromiso anti-gronking"
+    SET NAME "Firmar la petición anti-gronking"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"

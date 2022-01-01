@@ -55,7 +55,7 @@ END
 DEF TASK "BuyCapsule"
     SET NAME "Compra una cápsula del tiempo vacía en la tienda de cápsulas."
     SET ASKER_NAME "Obtén un viaje a la tienda para comprar una cápsula del tiempo vacía"
-    SET HELPER_NAME "Drive <ASKER> to the store to buy empty time capsule"
+    SET HELPER_NAME "Lleva a <ASKER> a la tienda para comprar una cápsula del tiempo vacía."
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"

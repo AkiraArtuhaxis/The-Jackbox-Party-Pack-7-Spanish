@@ -146,7 +146,7 @@ END
 CLONE TASK "BaseAudience" "AudienceVetTrip"
     SET NAME "<CATNAME> está vomitando. Llévalo al veterinario"
     SET ASKER_NAME "Obtén un viaje para llevar a <CATNAME> al veterinario"
-    SET HELPER_NAME "Drive <ASKER> to take <CATNAME> to the vet"
+    SET HELPER_NAME "Lleva a <ASKER> para llevar <CATNAME> al veterinario"
     SET CAPTAIN "MATURE"
 
     STEP "1" "AudienceVetTrip1"

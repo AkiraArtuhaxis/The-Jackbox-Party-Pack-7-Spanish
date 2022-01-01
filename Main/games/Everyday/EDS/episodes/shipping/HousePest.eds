@@ -1,10 +1,10 @@
 DEF EPISODE "HousePest"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Iniciativa contra un Murcielago"
-    SET DESCRIPTION "¡Malas Noticias! La familia tiene un pequeño problema roedor. Y por pequeño roedor nos referimos a <font color='#AF0000'>Murcielago Demoníaco</font>. Parece que el bicho escapó del inframundo y ahora está escondido en alguna parte del hogar. ¡Buena Suerte!"
-    SET SUCCESS_MESSAGE "¡Como un murciélago de Hades... el murciélago vuelve al Hades! Los perdonaremos por usar un poco de magia para disipar este bicho maldito.De ahora en adelante, aunque les animamos a que se ocupen de las plagas de la forma humana normal: Solo dejen caer un gran yunque sobre ellos."
-    SET FAILURE_MESSAGE "Parece que esta vil alimaña alada ahora vive contigo. Se hundirá profundamente en sus paredes, reducirá el valor de reventa de su hogar, atormentará vuestras pesadillas y les susurrará insultos muy personales cada vez que estén solos."
+    SET NAME "Iniciativa contra un murciélago"
+    SET DESCRIPTION "¡Malas noticias! La familia tiene un pequeño problema roedor. Y por pequeño roedor nos referimos a <font color='#AF0000'>murciélago demoníaco</font>. Parece que la criatura escapó del inframundo y ahora está escondida en alguna parte del hogar. ¡Buena suerte!"
+    SET SUCCESS_MESSAGE "Como un murciélago de Hades... ¡el murciélago vuelve a Hades! Los perdonaremos por usar un poco de magia para disipar a esta criatura maldita. Aunque, de ahora en adelante, los alentamos a que se ocupen de las plagas de la forma humana normal: solo dejen caer un gran yunque sobre ellas."
+    SET FAILURE_MESSAGE "Parece que esta vil alimaña alada ahora vive con ustedes. Se hundirá profundamente en sus paredes, reducirá el valor de reventa de su hogar, atormentará sus pesadillas y les susurrará insultos muy personales cada vez que estén solos."
 
 
     REM : ------------------------------
@@ -45,11 +45,11 @@ REM : Define this episode's story tasks below
 
 REM : Get a morning snack
 CLONE DEED "SwipeUp" "BatSnack1"
-    SET INSTRUCTIONS "Coge unos chips de plátano frito"
+    SET INSTRUCTIONS "Toma unos trozos de plátano frito"
 END
 
 CLONE DEED "Nothing3" "BatSnack2"
-    SET INSTRUCTIONS "Hay pequeñas marcas de mordiscos en CADA chip"
+    SET INSTRUCTIONS "Hay pequeñas marcas de mordiscos en TODOS los trozos"
 END
 
 CLONE DEED "SwipeDown" "BatSnack3"
@@ -57,7 +57,7 @@ CLONE DEED "SwipeDown" "BatSnack3"
 END
 
 DEF TASK "BatSnack"
-    SET NAME "Consigue un bocadillo por la mañana"
+    SET NAME "Conseguir un bocadillo por la mañana"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -86,7 +86,7 @@ CLONE DEED "Tap1" "BatVacuum3"
 END
 
 DEF TASK "BatVacuum"
-    SET NAME "Intenta aspirar"
+    SET NAME "Intentar pasar la aspiradora"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -119,7 +119,7 @@ CLONE DEED "QuickTap5" "SearchBat4"
 END
 
 DEF TASK "SearchBat"
-    SET NAME "Busca el murciélago por la casa"
+    SET NAME "Buscar al murciélago por la casa"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -140,19 +140,19 @@ REM : ------------------------------------
 
 REM : Lay out bait for bat
 CLONE DEED "Tap3" "LayBatTrap1"
-    SET INSTRUCTIONS "Coloque plátanos fritos frescos"
+    SET INSTRUCTIONS "Coloca plátanos fritos frescos"
 END
 
 CLONE DEED "Rotate90" "LayBatTrap2"
-    SET INSTRUCTIONS "Agarra la manta"
+    SET INSTRUCTIONS "Toma la manta"
 END
 
 CLONE DEED "Hold5" "LayBatTrap3"
-    SET INSTRUCTIONS "Juega el juego de esperar"
+    SET INSTRUCTIONS "Juega al juego de esperar"
 END
 
 DEF TASK "LayBatTrap"
-    SET NAME "Coloca un cebo para el murciélago"
+    SET NAME "Colocar un cebo para el murciélago"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -179,15 +179,15 @@ CLONE DEED "SwipeUp" "CatchBatBlanket2"
 END
 
 CLONE DEED "ScrubMedium" "CatchBatBlanket3"
-    SET INSTRUCTIONS "¡Sostenlo en la manta!"
+    SET INSTRUCTIONS "¡Sosténlo en la manta!"
 END
 
 CLONE DEED "Nothing3" "CatchBatBlanket4"
-    SET INSTRUCTIONS "¡El murciélago RESPIRA FUEGO aparentemente! Se ha ido."
+    SET INSTRUCTIONS "¡Al parecer, el murciélago RESPIRA FUEGO! Se ha ido."
 END
 
 DEF TASK "CatchBatBlanket"
-    SET NAME "Intenta atrapar al murciélago con una manta"
+    SET NAME "Intentar atrapar al murciélago con una manta"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -206,14 +206,14 @@ END
 
 REM : Buy real bat traps
 CLONE DEED "TravelID" "DriveBuyBatTraps"
-    SET INSTRUCTIONS "Compra trampas para murciélagos profesionales"
+    SET INSTRUCTIONS "Compra trampas profesionales para murciélagos"
     SET CONTENT_ID "CAVE_O’_SAVI"
 END
 
 DEF TASK "DriveBuyBatTraps"
-    SET NAME "Compra trampas para murciélagos profesionales"
-    SET ASKER_NAME "Obtén un viaje para comprar trampas para murciélagos profesionales"
-    SET HELPER_NAME "Drive <ASKER> to buy professional bat traps"
+    SET NAME "Comprar trampas profesionales para murciélagos"
+    SET ASKER_NAME "Consigue un viaje para comprar trampas profesionales para murciélagos"
+    SET HELPER_NAME "Lleva a <ASKER> a comprar trampas profesionales para murciélagos"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -232,9 +232,9 @@ CLONE DEED "Instructions4" "AssembleBatTrap"
     SET INSTRUCTIONS "Arma una trampa para murciélagos complicada"
 
     SET MECHANIC_0 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_0 "Vierte las piezas fuera de la caja"
+    SET INSTRUCTIONS_0 "Saca las piezas de la caja"
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Ensambla las varillas A, B y C"
+    SET INSTRUCTIONS_1 "Arma las varillas A, B y C"
     SET MECHANIC_2 "ROTATE_CLOCK"
     SET INSTRUCTIONS_2 "Dale cuerda"
     SET MECHANIC_3 "SWIPE_DOWN"
@@ -242,9 +242,9 @@ CLONE DEED "Instructions4" "AssembleBatTrap"
 END
 
 DEF TASK "AssembleBatTrap"
-    SET NAME "Arma una trampa para murciélagos complicada"
-    SET ASKER_NAME "Obtén ayuda para armar una trampa para murciélagos complicada"
-    SET HELPER_NAME "Help <ASKER> assemble complicated bat trap"
+    SET NAME "Armar una trampa para murciélagos complicada"
+    SET ASKER_NAME "Obtener ayuda para armar una trampa para murciélagos complicada"
+    SET HELPER_NAME "Ayudar a <ASKER> a armar una trampa para murciélagos complicada"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -267,7 +267,7 @@ CLONE DEED "Tap1" "WatchBatTrap2"
 END
 
 CLONE DEED "Nothing3" "WatchBatTrap3"
-    SET INSTRUCTIONS "Mira como el murcielago se CONVIERTE EN NIEBLA y escapa"
+    SET INSTRUCTIONS "Mira cómo el murciélago SE CONVIERTE EN NIEBLA y escapa"
 END
 
 CLONE DEED "ScrubShort" "WatchBatTrap4"
@@ -275,7 +275,7 @@ CLONE DEED "ScrubShort" "WatchBatTrap4"
 END
 
 DEF TASK "WatchBatTrap"
-    SET NAME "Mira la elegante trampa para murciélagos en acción"
+    SET NAME "Mirar la elegante trampa para murciélagos en acción"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -294,12 +294,12 @@ END
 
 REM : Call exterminator/exorcist
 CLONE DEED "PhoneID" "CallBatExterminator"
-    SET INSTRUCTIONS "Llama a 'Captura & Secuestra Roedores S.A'"
+    SET INSTRUCTIONS "Llama a 'Captura y Secuestro de Roedores S.A.'"
     SET CONTENT_ID "RODENT_RAP"
 END
 
 DEF TASK "CallBatExterminator"
-    SET NAME "Llama al exterminador/exorcista"
+    SET NAME "Llamar al exterminador/exorcista"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -312,7 +312,7 @@ END
 
 REM : Explain 'bat' problem to paranormal exterminator
 CLONE DEED "DialogID" "TalkBatExterminator"
-    SET INSTRUCTIONS "Explicar el problema del 'murciélago'"
+    SET INSTRUCTIONS "Explica el problema del 'murciélago'"
     SET CONTENT_ID "HOUSEPEST_BAT"
 END
 
@@ -335,7 +335,7 @@ CLONE DEED "GatherID" "GatherBat"
 END
 
 DEF TASK "GatherBat"
-    SET NAME "Reúne los ingredientes para la sala anti-murciélagos demoníacos"
+    SET NAME "Reunir los ingredientes para la sala anti-murciélagos demoníacos"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -348,12 +348,12 @@ END
 
 REM : Chant anti-demon-bat spell
 CLONE DEED "Nothing4" "ChantSpell"
-    SET INSTRUCTIONS "Todos cantan '¡SALTE, DEMONIO MURCIELAGO!'"
+    SET INSTRUCTIONS "Todos cantan '¡SAL DE AQUÍ, DEMONIO MURCIÉLAGO!'"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "ChantSpell"
-    SET NAME "Cantar hechizo anti-murciélago-demonio"
+    SET NAME "Cantar el hechizo anti-murciélago-demoníaco"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

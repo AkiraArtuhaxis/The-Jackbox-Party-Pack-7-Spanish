@@ -127,7 +127,7 @@ END
 DEF TASK "SawWood"
     SET NAME "Sierra madera para la casa del árbol"
     SET ASKER_NAME "Obtén ayuda para aserrar madera para la casa del árbol"
-    SET HELPER_NAME "Help <ASKER> saw wood for treehouse"
+    SET HELPER_NAME "Ayuda a <ASKER> a aserrar madera para la casa del árbol"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"

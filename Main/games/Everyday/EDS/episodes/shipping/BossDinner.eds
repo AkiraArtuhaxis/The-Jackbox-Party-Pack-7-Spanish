@@ -1,10 +1,10 @@
 DEF EPISODE "BossDinner"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Estresar para Impresionar"
-    SET DESCRIPTION "El <font color='#AF0000'>jefe viene a cenar</font> y un jugoso ascenso cuelga en equilibrio. La familia tiene que tener su mejor comportamiento para ponerse en el lado bueno del pez gordo."
-    SET SUCCESS_MESSAGE "Todos los reportes indican que el jefe disfrutó mucho de su velada. Podría haber una promoción a Vicepresidente de Asuntos Importantes en vuestro futuro."
-    SET FAILURE_MESSAGE "Se dice alrededor del enfriador de agua que el jefe tuvo una visita espantosa. La comida era mala, y la compañía era aún peor. Comiencen a comprar zapatos para la nieve, porque están a punto de ser transferidos a la sucursal Siberiana."
+    SET NAME "Estresar para impresionar"
+    SET DESCRIPTION "El <font color='#AF0000'>jefe viene a cenar</font> y un jugoso ascenso pende de un hilo. La familia debe tener su mejor comportamiento para ponerse en el lado bueno del pez gordo."
+    SET SUCCESS_MESSAGE "Todos los informes indican que el jefe disfrutó mucho de su velada. Podría haber una promoción a Vicepresidente de Asuntos Importantes en su futuro."
+    SET FAILURE_MESSAGE "Se dice que el jefe tuvo una visita dolorosamente horrible. La comida era mala, y la compañía era aún peor. Comiencen a comprar zapatos para la nieve, porque están a punto de ser transferidos a la sucursal Siberiana."
 
     REM : ------------------------------
 
@@ -46,7 +46,7 @@ REM : ------------------------------
 
 REM : Invite boss to dinner
 CLONE DEED "PhoneCategory" "PhoneBoss"
-    SET INSTRUCTIONS "Llama a tu jefe (*GLUP*)"
+    SET INSTRUCTIONS "Llama a tu jefe (*TRAGA SALIVA*)"
     SET CATEGORY "BOSS"
 END
 
@@ -56,7 +56,7 @@ CLONE DEED "DialogID" "InviteBoss"
 END
 
 DEF TASK "InviteBossDinner"
-    SET NAME "Invita al jefe a cenar"
+    SET NAME "Invitar al jefe a cenar"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -72,7 +72,7 @@ END
 
 REM : Clean the house for boss
 CLONE TASK "CleanHouse" "CleanBoss"
-    SET NAME "Limpia la casa para la llegada del jefe"
+    SET NAME "Limpiar la casa para la llegada del jefe"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -86,7 +86,7 @@ CLONE DEED "SearchID" "SearchDinnerware"
 END
 
 DEF TASK "SearchDinnerware"
-    SET NAME "Busca la buena porcelana"
+    SET NAME "Buscar la porcelana buena"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -100,7 +100,7 @@ END
 
 REM : Set the table
 CLONE TASK "SetTable" "SetTableBoss"
-    SET NAME "Pon la mesa para una cena elegante"
+    SET NAME "Poner la mesa para una cena elegante"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -110,9 +110,9 @@ REM : -------------------
 
 REM : Find tie
 CLONE TASK "FindTie" "FindTieBoss"
-    SET NAME "Elige una corbata que le guste al jefe"
-    SET ASKER_NAME "Obtén ayuda para encontrar una corbata que le guste al jefe"
-    SET HELPER_NAME "Help <ASKER> find a tie the boss will like"
+    SET NAME "Elegir una corbata que le guste al jefe"
+    SET ASKER_NAME "Obtener ayuda para encontrar una corbata que le guste al jefe"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar una corbata que le guste al jefe"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "STORY"
@@ -124,7 +124,7 @@ END
 
 REM : Tie boss tie
 CLONE TASK "TieaTie" "TieaTieBoss"
-    SET NAME "Ata tu corbata"
+    SET NAME "Atar tu corbata"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "TEENS"
@@ -134,7 +134,7 @@ END
 
 REM : Learn birds
 CLONE DEED "SwipeUp" "DigOutBook"
-    SET INSTRUCTIONS "Desenterrar el libro de aves que el jefe recomendó el año pasado"
+    SET INSTRUCTIONS "Desentierra el libro de aves que el jefe te recomendó el año pasado"
 END
 
 CLONE DEED "Hold2" "BlowDustBook"
@@ -142,16 +142,16 @@ CLONE DEED "Hold2" "BlowDustBook"
 END
 
 CLONE DEED "SwipeBase" "FlipBirdBook"
-    SET INSTRUCTIONS "Hojear el libro"
+    SET INSTRUCTIONS "Hojea el libro"
     SET DIRECTION "LEFT,LEFT,LEFT"
 END
 
 CLONE DEED "Hold3" "AbsorbBird"
-    SET INSTRUCTIONS "Trata de absorber la información sobre las aves"
+    SET INSTRUCTIONS "Intenta absorber la información sobre las aves"
 END
 
 CLONE DEED "SwipeRight" "CloseBook"
-    SET INSTRUCTIONS "Tu entiendes la idea"
+    SET INSTRUCTIONS "Ya te haces una idea"
 END
 
 DEF TASK "BossBirdBook"
@@ -177,14 +177,14 @@ END
 
 REM : Boss Meal Gather
 CLONE DEED "GatherMeal" "BossMealIngredients"
-    SET INSTRUCTIONS "Reúna los ingredientes para una cena elegante."
+    SET INSTRUCTIONS "Reúne los ingredientes para una cena elegante."
     SET CATEGORY "DINNER"
 
 END
 
 DEF TASK "GatherBossMeal"
     SET DURATION <8H>
-    SET NAME "Reúna los ingredientes para una cena elegante."
+    SET NAME "Reunir los ingredientes para una cena elegante."
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
@@ -204,7 +204,7 @@ END
 
 DEF TASK "CookBossMeal"
     SET DURATION <8H>
-    SET NAME "Prepara una cena elegante para el jefe"
+    SET NAME "Preparar una cena elegante para el jefe"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -222,7 +222,7 @@ REM : -------------------
 REM : Greet Boss
 
 CLONE DEED "Hold2" "CheckTeeth"
-    SET INSTRUCTIONS "Revise los dientes en el espejo antes de abrir la puerta."
+    SET INSTRUCTIONS "Revisa tus dientes en el espejo antes de abrir la puerta"
 END
 
 CLONE DEED "SwipeRight" "OpenDoorBoss"
@@ -230,12 +230,12 @@ CLONE DEED "SwipeRight" "OpenDoorBoss"
 END
 
 CLONE DEED "DialogID" "DialogBossDoor"
-    SET INSTRUCTIONS "saluda al jefe"
+    SET INSTRUCTIONS "Saluda al jefe"
     SET CONTENT_ID "BOSS_GREET"
 END
 
 DEF TASK "GreetBoss"
-    SET NAME "Saluda al jefe en la puerta"
+    SET NAME "Saludar al jefe en la puerta"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -259,7 +259,7 @@ CLONE DEED "DialogID" "BossDinnerConvo"
 END
 
 DEF TASK "BossDinnerConvo"
-    SET NAME "Involucrar al jefe en una conversación educada"
+    SET NAME "Entablar una conversación educada con el jefe durante la cena"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -272,23 +272,23 @@ END
 
 REM : Sing a song
 CLONE DEED "Tap3" "TapToes"
-    SET INSTRUCTIONS "Toca tus pies"
+    SET INSTRUCTIONS "Golpea los dedos del pie"
 END
 
 CLONE DEED "SwipeLeft" "SashayLeft"
-    SET INSTRUCTIONS "Pasito pa la izquierda"
+    SET INSTRUCTIONS "Pasito a la izquierda"
 END
 
 CLONE DEED "SwipeRight" "SashayRight"
-    SET INSTRUCTIONS "Pasito pa la derecha"
+    SET INSTRUCTIONS "Pasito a la derecha"
 END
 
 CLONE DEED "Hold2" "BigFinish"
-    SET INSTRUCTIONS "Mantén tu pose pa termina'"
+    SET INSTRUCTIONS "Mantén tu pose para termina'"
 END
 
 DEF TASK "SingSongBoss"
-    SET NAME "Canta una cancion adorable para el jefe"
+    SET NAME "Cantar una cancion adorable para el jefe"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -313,7 +313,7 @@ CLONE DEED "DialogID" "FlatterBoss"
 END
 
 DEF TASK "FlatterBoss"
-    SET NAME "Adula al jefe fingiendo querer un consejo profesional"
+    SET NAME "Adular al jefe fingiendo querer un consejo profesional"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -326,7 +326,7 @@ END
 
 REM : Brew coffee
 CLONE TASK "BrewCoffee" "BrewCoffeeBoss"
-    SET NAME "Hacer café al jefe después de cenar"
+    SET NAME "Prepararle café al jefe para después de la cena"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "ADULTS"

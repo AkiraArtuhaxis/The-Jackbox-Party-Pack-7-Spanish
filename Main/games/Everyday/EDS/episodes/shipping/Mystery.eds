@@ -3,7 +3,7 @@ DEF EPISODE "Mystery"
     SET EMERGENCY "EmergencyTasks"
     SET NAME "El caso del suburbio embrujado"
     SET DESCRIPTION "El vecindario está en suspenso después de múltiples informes de un  <font color='#AF0000'>viejo capitán de barco fantasmal</font> que ronda las calles por la noche. Depende de la familia <font color='#AF0000'>resolver este misterio</font>. Sobre todo porque nadie más quiere."
-    SET SUCCESS_MESSAGE "Nos alegramos de escuchar que acabasteis con el falso reinado del terror del fantasma. El mundo humano tiene que lidiar con un viejo cascarrabias menos."
+    SET SUCCESS_MESSAGE "Nos alegramos de leer que han acabado con el falso reinado de terror del fantasma. El mundo humano tiene que lidiar con un viejo cascarrabias menos."
     SET FAILURE_MESSAGE "Desde la última temporada de Paradise Lost no hemos visto un final tan insatisfactorio para un misterio. Hemos preguntado específicamente si querían que el Cerbero parlante resolviera el crimen, pero no, tenían que tener un gato."
 
   
@@ -51,7 +51,7 @@ CLONE DEED "FindID" "MysteryFindBook"
 END
 
 DEF TASK "MysteryFindBook"
-    SET NAME "Encuentra un libro sobre la historia paranormal de la ciudad"
+    SET NAME "Encontrar el libro sobre la historia paranormal de la ciudad"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -69,7 +69,7 @@ CLONE DEED "DialogID" "TalkGhostWitness"
 END
 
 DEF TASK "TalkGhostWitness"
-    SET NAME "Habla con el testigo del ataque fantasma."
+    SET NAME "Hablar con el testigo del ataque fantasma."
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "SEARCH_FIND"
@@ -82,14 +82,14 @@ END
 
 REM : Set up ghost hutner equipment
 CLONE DEED "Gizmos3" "GhostHunterEquip"
-    SET INSTRUCTIONS "Configurar equipo"
-    SET NAME "Localizador de Espectros"
+    SET INSTRUCTIONS "Configurar el equipo"
+    SET NAME "Localizador de espectros"
 END
 
 DEF TASK "GhostHunterEquip"
     SET NAME "Configurar el equipo de cazador de fantasmas"
-    SET ASKER_NAME "Obtén ayuda para configurar el equipo del cazador de fantasmas"
-    SET HELPER_NAME "Help <ASKER> set up ghost hunter equipment"
+    SET ASKER_NAME "Obtener ayuda para configurar el equipo del cazador de fantasmas"
+    SET HELPER_NAME "Ayuda a <ASKER> para configurar el equipo del cazador de fantasmas"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -120,7 +120,7 @@ CLONE DEED "Nothing3" "MysteryFootprints4"
 END
 
 DEF TASK "MysteryFootprints"
-    SET NAME "Descubre misteriosas huellas de fantasma"
+    SET NAME "Descubrir misteriosas huellas de fantasma"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -144,7 +144,7 @@ CLONE DEED "SearchID" "SearchClues"
 END
 
 DEF TASK "SearchClues"
-    SET NAME "Busca en el vecindario por pistas importantes"
+    SET NAME "Buscar pistas importantes en el vecindario"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -164,13 +164,13 @@ CLONE DEED "Instructions3" "ExamineMachine"
     SET MECHANIC_1 "TAP_3"
     SET INSTRUCTIONS_1 "Enciende la máquina extraña"
     SET MECHANIC_2 "TAP_HOLD"
-    SET INSTRUCTIONS_2 "Me pregunto qué está haciendo un proyector holográfico en el sótano del Viejo Oldman"
+    SET INSTRUCTIONS_2 "Me pregunto qué está haciendo un proyector holográfico en el sótano del Viejo Anciano"
 END
 
 DEF TASK "ExamineMachine"
-    SET NAME "Examina la máquina sospechosa"
-    SET ASKER_NAME "Obtén ayuda para examinar una máquina sospechosa"
-    SET HELPER_NAME "Help <ASKER> examine suspicious machine"
+    SET NAME "Examinar la máquina sospechosa"
+    SET ASKER_NAME "Obtener ayuda para examinar la máquina sospechosa"
+    SET HELPER_NAME "Ayuda a <ASKER> para examinar la máquina sospechosa"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -187,7 +187,7 @@ CLONE DEED "TapAll" "WackyGhostChase"
 END
 
 DEF TASK "WackyGhostChase"
-    SET NAME "Entra en una loca persecución con el fantasma"
+    SET NAME "Entrar en una loca persecución con el fantasma"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -207,15 +207,15 @@ CLONE DEED "SwipeBase" "MysteryPapers1"
 END
 
 CLONE DEED "Hold2" "MysteryPapers2"
-    SET INSTRUCTIONS "Encuentra una página con el nombre del Viejo Oldman"
+    SET INSTRUCTIONS "Encuentra una página con el nombre del Viejo Anciano"
 END
 
 CLONE DEED "Nothing3" "MysteryPapers3"
-    SET INSTRUCTIONS "Está empezando a unirse todo..."
+    SET INSTRUCTIONS "Todo está empezando a calzar..."
 END
 
 DEF TASK "MysteryPapers"
-    SET NAME "Descubre documentos financieros incriminatorios"
+    SET NAME "Descubrir documentos financieros incriminatorios"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -232,7 +232,7 @@ END
 
 REM : Set up complicated ghost trap
 CLONE DEED "Instructions4" "MysteryGhostTrap"
-    SET INSTRUCTIONS "Configurar trampa fantasma"
+    SET INSTRUCTIONS "Configura la trampa fantasma"
 
     SET MECHANIC_0 "ROTATE_COUNTER"
     SET INSTRUCTIONS_0 "Enrolla la polea"
@@ -245,9 +245,9 @@ CLONE DEED "Instructions4" "MysteryGhostTrap"
 END
 
 DEF TASK "MysteryGhostTrap"
-    SET NAME "Configura una trampa fantasma complicada"
-    SET ASKER_NAME "Obtén ayuda para configurar la trampa fantasma complicada"
-    SET HELPER_NAME "Help <ASKER> set up complicated ghost trap"
+    SET NAME "Configurar una trampa fantasma complicada"
+    SET ASKER_NAME "Obtener ayuda para configurar la trampa fantasma complicada"
+    SET HELPER_NAME "Ayuda a <ASKER> para configurar la trampa fantasma complicada"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -260,12 +260,12 @@ END
 
 REM : Hide and wait for ghost
 CLONE DEED "Nothing3" "HideWaitGhost"
-    SET INSTRUCTIONS "¡Shh!"
+    SET INSTRUCTIONS "¡Chsss!"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "HideWaitGhost"
-    SET NAME "Escóndete y espera al fantasma"
+    SET NAME "Esconderse y esperar al fantasma"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -282,11 +282,11 @@ CLONE DEED "Tap5" "UnmaskGhost1"
 END
 
 CLONE DEED "Nothing3" "UnmaskGhost2"
-    SET INSTRUCTIONS "¡Fue el Viejo Oldman todo el tiempo!"
+    SET INSTRUCTIONS "¡Fue el Viejo Anciano todo el tiempo!"
 END
 
 DEF TASK "UnmaskGhost"
-    SET NAME "¡Desenmascara al fantasma!"
+    SET NAME "¡Desenmascarar al fantasma!"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

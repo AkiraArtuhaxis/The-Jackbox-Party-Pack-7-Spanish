@@ -315,7 +315,7 @@ END
 DEF TASK "GorboMuseum2"
     SET NAME "Lleva al tío Gorbo a otro museo aburrido"
     SET ASKER_NAME "Estafa a alguien para que vaya a otro museo aburrido contigo y con el tío Gorbo"
-    SET HELPER_NAME "Reluctantly agree to go to another boring museum with <ASKER> and Uncle Gorbo"
+    SET HELPER_NAME "Acepta a regañadientes ir a otro museo aburrido con <ASKER> y el tío Gorbo"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"

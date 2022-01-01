@@ -1,10 +1,10 @@
 DEF EPISODE "BeachDay"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Toalla Playera Demoníaca"
-    SET DESCRIPTION "El aire acondicionado está apagado y la familia está a 6400 kilómetros de la costa más cercana. Por lo que deciden tener un <font color='#AF0000'>día de playa en casa</font>. ¿Pueden permanecer en el horario de la isla y aún así hacer las tareas del hogar?"
-    SET SUCCESS_MESSAGE "¡Arriba esas aletas, demonios! Escuchamos un rumor sobre que ustedes pasaron el día con un uniforme bronceado y con un ambiente relajado. Hasta inspiraron a sus vecinos a hacer sus propios ecosistemas hechos en casa. ¡Asegúrense de visitar el bosque caducado en la cocina de Margaret!"
-    SET FAILURE_MESSAGE "Bad news: Some people just aren't ready for the responsibility of 'finding their beach.' Time to aloe those sunburns, and deal with that infestation of rat-crabs."
+    SET NAME "Manta de playa Belcebú"
+    SET DESCRIPTION "El aire acondicionado está descompuesto y la familia está a 6400 kilómetros de la costa más cercana. Así que deciden tener un <font color='#AF0000'>día de playa en casa</font>. ¿Podrán permanecer en modo isla y aún así hacer las tareas del hogar?"
+    SET SUCCESS_MESSAGE "¡Arriba esas aletas, demonios! Escuchamos un rumor sobre que ustedes pasaron el día con un uniforme bronceado y con un ambiente relajado. Hasta inspiraron a sus vecinos a hacer sus propios ecosistemas caseros. ¡Asegúrense de visitar el bosque caducifolio en la cocina de Margaret!"
+    SET FAILURE_MESSAGE "Malas noticias: algunas personas simplemente no están preparadas para la responsabilidad de 'encontrar su playa'. Es hora de eliminar esas quemaduras y lidiar con esa plaga de cangrejos rata."
 
 
     REM : ------------------------------
@@ -53,9 +53,9 @@ CLONE DEED "Gizmos3" "BeachThermo"
 END
 
 DEF TASK "BeachThermo"
-    SET NAME "Intenta arreglar el termostato"
-    SET ASKER_NAME "Consigue ayuda para intentar arreglar el termostato"
-    SET HELPER_NAME "Help <ASKER> attempt to fix the thermostat"
+    SET NAME "Intentar arreglar el termostato"
+    SET ASKER_NAME "Conseguir ayuda para intentar arreglar el termostato"
+    SET HELPER_NAME "Ayudar a <ASKER> a intentar arreglar el termostato"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -68,7 +68,7 @@ END
 
 REM : Call the A/C Ccompany
 CLONE DEED "PhoneID" "BeachCallAC1"
-    SET INSTRUCTIONS "Llama a la compañía de aire acondicionado"
+    SET INSTRUCTIONS "Llama a la empresa de aire acondicionado"
     SET CONTENT_ID "QUITE-A-REPA"
 END
 
@@ -78,7 +78,7 @@ CLONE DEED "DialogID" "BeachCallAC2"
 END
 
 DEF TASK "BeachCallAC"
-    SET NAME "Llama a la compañía de aire acondicionado"
+    SET NAME "Llamar a la empresa de aire acondicionado"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -93,14 +93,14 @@ END
 
 REM : Drive to pick up beach supplies
 CLONE DEED "TravelCategory" "BeachSupplies"
-    SET INSTRUCTIONS "Conduce para recoger suministros de playa."
+    SET INSTRUCTIONS "Conduce para recoger suministros de playa"
     SET CATEGORY "PARTY"
 END
 
 DEF TASK "BeachSupplies"
-    SET NAME "Conduce para recoger suministros de playa."
-    SET ASKER_NAME "Consigue un viaje para recoger suministros para la playa"
-    SET HELPER_NAME "Drive <ASKER> to pick up beach supplies"
+    SET NAME "Conducir para recoger suministros de playa"
+    SET ASKER_NAME "Pedir un viaje para recoger suministros para la playa"
+    SET HELPER_NAME "Llevar a <ASKER> para recoger suministros para la playa"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -118,7 +118,7 @@ CLONE DEED "Rotate180" "BeachRadio1"
 END
 
 CLONE DEED "Rotate360Counter" "BeachRadio2"
-    SET INSTRUCTIONS "Sintoniza mas fuerte"
+    SET INSTRUCTIONS "Sintoniza más fuerte"
 END
 
 CLONE DEED "Tap2" "BeachRadio3"
@@ -169,7 +169,7 @@ REM : -------------------------------------------
 
 REM : Blow up beach balls
 CLONE DEED "Tap3" "BeachBalls1"
-    SET INSTRUCTIONS "Parchea las viejas pelotas de playa"
+    SET INSTRUCTIONS "Parcha las viejas pelotas de playa"
 END
 
 CLONE DEED "Hold2" "BeachBalls2"
@@ -177,7 +177,7 @@ CLONE DEED "Hold2" "BeachBalls2"
 END
 
 CLONE DEED "Hold3" "BeachBalls3"
-    SET INSTRUCTIONS "¡Sooooplaaaa!"
+    SET INSTRUCTIONS "¡Sooooplaaa!"
 END
 
 CLONE DEED "Hold4" "BeachBalls4"
@@ -185,11 +185,11 @@ CLONE DEED "Hold4" "BeachBalls4"
 END
 
 CLONE DEED "Nothing2" "BeachBalls5"
-    SET INSTRUCTIONS "Desmayate solo un poco"
+    SET INSTRUCTIONS "Desmáyate solo un poco"
 END
 
 DEF TASK "BeachBalls"
-    SET NAME "Infla pelotas de playa"
+    SET NAME "Inflar pelotas de playa"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -214,15 +214,15 @@ CLONE DEED "Tap3" "TropicalBeverage1"
 END
 
 CLONE DEED "Hold3" "TropicalBeverage2"
-    SET INSTRUCTIONS "¡Muele!"
+    SET INSTRUCTIONS "¡Licúa!"
 END
 
 CLONE DEED "QuickTap5" "TropicalBeverage3"
-    SET INSTRUCTIONS "Haz una docena mas, solo por si acaso"
+    SET INSTRUCTIONS "Haz una docena más, solo por si acaso"
 END
 
 DEF TASK "TropicalBeverage"
-    SET NAME "Prepara bebidas tropicales"
+    SET NAME "Preparar bebidas tropicales"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -244,7 +244,7 @@ CLONE DEED "DialogID" "BeachLifeguardRecruit"
 END
 
 DEF TASK "BeachLifeguardRecruit"
-    SET NAME "Pídele al niño del vecino que sea el salvavidas"
+    SET NAME "Pedirle al niño del vecino que sea el salvavidas"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -261,19 +261,19 @@ CLONE DEED "Rotate180Counter" "BeachOcean1"
 END
 
 CLONE DEED "Nothing2" "BeachOcean2"
-    SET INSTRUCTIONS "Déjalo correr..."
+    SET INSTRUCTIONS "Déjala abierta..."
 END
 
 CLONE DEED "Nothing3" "BeachOcean3"
-    SET INSTRUCTIONS "Que sigue corriendo..."
+    SET INSTRUCTIONS "Que siga abierta..."
 END
 
 CLONE DEED "QuickTap3" "BeachOcean4"
-    SET INSTRUCTIONS "¡Nada en tu nuevo 'oceano'!"
+    SET INSTRUCTIONS "¡Nada en tu nuevo 'océano'!"
 END
 
 DEF TASK "BeachOcean"
-    SET NAME "Llena el patio trasero con agua"
+    SET NAME "Llenar el patio trasero con agua"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -294,7 +294,7 @@ REM : --------------------------------------------------
 
 REM : Flirt with lifeguard 
 CLONE DEED "Rotate1080" "BeachFlirt1"
-    SET INSTRUCTIONS "Bucea impresionantemente"
+    SET INSTRUCTIONS "Haz un buceo impresionante"
 END
 
 CLONE DEED "Hold2" "BeachFlirt2"
@@ -306,11 +306,11 @@ CLONE DEED "Nothing2" "BeachFlirt3"
 END
 
 CLONE DEED "QuickTap3" "BeachFlirt4"
-    SET INSTRUCTIONS "Sal muy gruñón"
+    SET INSTRUCTIONS "Sal violentamente"
 END
 
 DEF TASK "BeachFlirt"
-    SET NAME "Coquetea con el salvavidas"
+    SET NAME "Coquetear con el salvavidas"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -342,11 +342,11 @@ CLONE DEED "SwipeBase" "BeachLimbo3"
 END
 
 CLONE DEED "Hold2" "BeachLimbo4"
-    SET INSTRUCTIONS "Vomita como celebracion de la victoria"
+    SET INSTRUCTIONS "Rómpete la espalda victoriosamente"
 END
 
 DEF TASK "BeachLimbo"
-    SET NAME "Entra en el concurso de Limbo"
+    SET NAME "Participar en el concurso de limbo"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -365,15 +365,15 @@ END
 
 REM : Collect 'shells'
 CLONE DEED "Tap1" "BeachShells1"
-    SET INSTRUCTIONS "Toma este"
+    SET INSTRUCTIONS "Recoge esta"
 END
 
 CLONE DEED "QuickTap3" "BeachShells2"
-    SET INSTRUCTIONS "Toma esas"
+    SET INSTRUCTIONS "Recoge estas"
 END
 
 CLONE DEED "Hold3" "BeachShells3"
-    SET INSTRUCTIONS "Mira dentro de esa otra"
+    SET INSTRUCTIONS "Mira dentro de esta"
 END
 
 CLONE DEED "QuickTap3" "BeachShells4"
@@ -381,7 +381,7 @@ CLONE DEED "QuickTap3" "BeachShells4"
 END
 
 DEF TASK "BeachShells"
-    SET NAME "Colecciona 'conchas'"
+    SET NAME "Coleccionar 'conchas'"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -405,7 +405,7 @@ CLONE DEED "Nothing3" "FamilyTan"
 END
 
 DEF TASK "FamilyTan"
-    SET NAME "Bronceado en familia"
+    SET NAME "Broncearse en familia"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -425,15 +425,15 @@ CLONE DEED "Instructions4" "BeachACParty"
     SET MECHANIC_1 "TAP_HOLD"
     SET INSTRUCTIONS_1 "Ponte triste por el final del día en la playa"
     SET MECHANIC_2 "TAP_3"
-    SET INSTRUCTIONS_2 "Ofrecele una bebida frutal o tres"
+    SET INSTRUCTIONS_2 "Ofrécele una bebida frutal o quizá tres"
     SET MECHANIC_3 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_3 "¡Fiesta toda la noche!"
+    SET INSTRUCTIONS_3 "¡Festeja toda la noche!"
 END
 
 DEF TASK "BeachACParty"
-    SET NAME "Fiesta con el chico del aire acondicionado"
-    SET ASKER_NAME "Consigue que alguien te acompañe en la fiesta con el tipo del aire acondicionado"
-    SET HELPER_NAME "Join <ASKER> in partying with the A/C guy"
+    SET NAME "Haz una fiesta con el chico del aire acondicionado"
+    SET ASKER_NAME "Conseguir que alguien te acompañe en la fiesta con el chico del aire acondicionado"
+    SET HELPER_NAME "Unirse a <ASKER> en la fiesta con el chico del aire acondicionado"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

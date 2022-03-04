@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A late-night text you might get from one of the Mario Bros.",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "It's a me, u up?|This is a spicy text|new pipe. who dis?",
+   "n": "SafetyQuips"
+  }
+ ]
+}

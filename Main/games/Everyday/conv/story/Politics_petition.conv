@@ -4,7 +4,7 @@ MAIN(Vecino): ¿Una campaña política? ¿Cómo puedo ayudar?
 -DONATION-> ¿Haz una donación?
 -BROCHURE-> ¿Toma este folleto?
 
-PETITION(Vecino): De acuerdo, ¿por qué no?
+PETITION(Vecino): De acuerdo. ¿Por qué no?
 -SUCCESS-> ¡Firma en mayúsculas!
 
 FORGE(Vecino): ¿Eso no es un delito?
@@ -13,5 +13,5 @@ FORGE(Vecino): ¿Eso no es un delito?
 DONATION(Vecino): Muy bien. Aquí tienes $200.
 -SUCCESS-> ¿Cuánto debería declarar...?
 
-BROCHURE(Vecino): De acuerdo, ¿por qué no?
+BROCHURE(Vecino): De acuerdo. ¿Por qué no?
 -SUCCESS-> ¡Los hice yo mismo!

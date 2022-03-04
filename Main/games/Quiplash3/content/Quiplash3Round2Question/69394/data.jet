@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A sign that your romantic partner is actually a scarecrow",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "their kisses are super scratchy|they're always carrying that pole around|there are no crows in your bedroom ",
+   "n": "SafetyQuips"
+  }
+ ]
+}

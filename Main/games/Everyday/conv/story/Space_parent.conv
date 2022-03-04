@@ -8,10 +8,10 @@ PROUD(Entrevistador): Deberías estarlo.
 -SUCCESS-> Toma una foto mía con mis pantalones buenos.
 
 SCARED(Entrevistador): Deberías estarlo.
--SUCCESS-> ¿Es el espacio peligroso?
+-SUCCESS-> ¿El espacio no es seguro?
 
 BORED(Entrevistador): Mejor hablemos con alguien más interesante.
 -SUCCESS-> ¡Buena suerte!
 
-CONFUSED(Entrevistador): Aquí tienes un tentempié
+CONFUSED(Entrevistador): Aquí tienes un bocadillo
 -SUCCESS-> Gracias por tu apoyo.

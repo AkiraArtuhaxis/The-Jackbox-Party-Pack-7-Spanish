@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "mi mamá|mi madre|mi papá|mi padre|mis padres|mi gente|<PRONOUN> suegros | suegros|<PRONOUN> familia política | familia política|<PRONOUN> familiares políticos | familiares políticos",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Sí... odio decirlo, pero los suegros siempre ganarán esas batallas.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The landmark Supreme Court decision of 2045: My Wife v. <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "colonists on Mars|rising sea levels|my AI wife",
+   "n": "SafetyQuips"
+  }
+ ]
+}

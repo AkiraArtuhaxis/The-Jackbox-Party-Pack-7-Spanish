@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "popo|popis|Popo|mierda|cagar|defecar|hacer caca|hacer un movimiento de intestinos|hacer un MI",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¿Estás bromeando? ¿Qué te pasa? Esa es una de las grandes alegrías de la vida. No quiero que nadie defeque a nombre mío, aunque sea un profesional.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "It would be great to have a stunt double when you <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "have a mental breakdown|break up with your girlfriend|call your Grandma at Christmas",
+   "n": "SafetyQuips"
+  }
+ ]
+}

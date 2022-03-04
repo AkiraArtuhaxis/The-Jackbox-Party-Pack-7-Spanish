@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Quiplash|Quiplash3|Quiplash 3|este juego|el juego que estamos jugando|Quiplash!",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Lo siento, pero ¿eso es tan malo? ¿EN SERIO? Porque hace una hora estabas aburridísimo. ¡Pero mírate ahora! ¡Estás jugando a este \"estúpido juego\" y de repente la vida vuelve a tener sentido! De nada.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A game you only play when you’re really, really, really, REALLY bored",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Don't Disturb Daddy's REM Cycle|Look-At-Stick|Tumbleweed Races",
+   "n": "SafetyQuips"
+  }
+ ]
+}

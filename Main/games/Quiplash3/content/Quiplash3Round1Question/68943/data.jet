@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Ok, fellas, let’s have a fair fight. No spitting, no kicking and absolutely no <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "falling in love|double dutch|discussion of socialism",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> pollo | poyo|<ARTICLE> pollito | Pollito|<ARTICLE> poyito | pollitos",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡Maldito hijo de (piiip)! ¡Solo hay una manera de que supieras eso!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What unicorn meat tastes like",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "marshmallows|A very young elephant|dinosaur gummies",
+   "n": "SafetyQuips"
+  }
+ ]
+}

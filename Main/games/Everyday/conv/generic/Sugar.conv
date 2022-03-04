@@ -8,10 +8,10 @@ SURE(Vecino): ¡Eres tan dulce!
 -SUCCESS-> ¡Dulce como el azúcar!
 
 NOPE(Vecino): ...perdón
--FAILURE-> He perdido varias amistades para conseguir mi reserva de azúcar.
+-FAILURE-> Mi reserva de azúcar me ha costado muchos amigos.
 
-ONE(Vecino): ¿Pues me llevo 5 kilos si te sobra tanto?
+ONE(Vecino): ¿Me llevaré 5 kilos si te sobra tanto?
 -SUCCESS-> ¡Llévatelos!
 
 BORROW(Vecino): La devolveré
--SUCCESS-> Oh cierto, solo va a dar su dulce caminata semanal.
+-SUCCESS-> Oh, cierto, solo va a dar su dulce paseo semanal.

@@ -1,7 +1,7 @@
 MAIN(Gerente): ¿Por qué perdiste tu turno?
--CAR-> ¿Tuve problemas con el auto...?
--TIME-> ¿Se dio el cambio de horario...?
--WOLF-> ¿Estaba escapando de lobos salvajes...?
+-CAR-> ¿Problemas con el auto...?
+-TIME-> ¿Cambio de horario...?
+-WOLF-> ¿Huida de lobos salvajes...?
 -LIKE-> ¿No me gusta trabajar...?
 
 CAR(Gerente): Respeto tu honestidad, pero estás despedido.

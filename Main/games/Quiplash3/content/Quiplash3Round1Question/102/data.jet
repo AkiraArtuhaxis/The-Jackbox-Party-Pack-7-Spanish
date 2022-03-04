@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "You know a restaurant is bad when the waiter says “<BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Shhhh... only get the house salad|Would you like to hear my mixtape?|Run. RUN!!!!!",
+   "n": "SafetyQuips"
+  }
+ ]
+}

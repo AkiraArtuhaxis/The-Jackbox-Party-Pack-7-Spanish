@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> no se| no sé|<PRONOUN> no lo sé | no lo se|<PRONOUN> nada | ninguno|<PRONOUN> nadita | nada|<PRONOUN> Nada | Nadita|que importa|esto es estupido|estupidez|esto es vergonzoso|<PRONOUN> ni idea | Ni idea|<PRONOUN> sin pistas | ni una pista|<PRONOUN> no importa | no me importa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¿Qué tal esto?: Las rosas son rojas, las violetas son azules. Enviaste tu broma por correo, así que terminé contigo.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Finish the rhyme: “Roses are red, violets are blue, I got you this card, <BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "to break up with you|the bargain is complete",
+   "n": "SafetyQuips"
+  }
+ ]
+}

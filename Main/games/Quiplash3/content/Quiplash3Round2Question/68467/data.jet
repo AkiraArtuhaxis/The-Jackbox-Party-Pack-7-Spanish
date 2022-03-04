@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> pedo  | pedo|<PRONOUN> pedos | pedos|<PRONOUN> bocinazo | bocinazo|<PRONOUN> bocinear | bocinear|<PRONOUN> sonidos de pedo | sonidos de pedo|<PRONOUN> ruidos de pedo | ruidos de pedo|<PRONOUN> SFX de pedo | SFX de pedo|<PRONOUN> pedorrearse | pedorrearse|<ARTICLE> pedo | pedo|<ARTICLE> pedos | pedos|<ARTICLE> pedorrearse | pedorrearse|<ARTICLE> sonidos de pedo | sonidos de pedo|<ARTICLE> ruidos de pedo | ruidos de pedo|<ARTICLE> SFX de pedo | SFX de pedo",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Mi señor, permítame ir al grano... (impresionante pedo seguido de un estruendoso aplauso)",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "All the jesters have failed! Only one thing will entertain the king...",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "witty observations|shows about flipping houses",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,10 +1,10 @@
 DEF EPISODE "Vacation"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Los Demonios van de vacaciones"
+    SET NAME "Los demonios se toman unas vacaciones"
     SET DESCRIPTION "¡La familia ha ganado unas lujosas <font color='#AF0000'>vacaciones en París</font>! Solo hay un inconveniente: Tienen una sola semana para prepararse para el viaje."
-    SET SUCCESS_MESSAGE "Nos alegramos de oír que la visita a París fue un éxito rotundo. Sobrevivir unas vacaciones con su familia inmediata es un hito humano crítico. ¡No olvides aburrir a tus vecinos con las diapositivas!"
-    SET FAILURE_MESSAGE "Paris es tan lindo en esta época del año. Probablemente. Nunca sabrán porque una mala planificación hizo que perdieran su vuelo."
+    SET SUCCESS_MESSAGE "Nos alegramos de oír que la visita a París fue un éxito rotundo. Sobrevivir unas vacaciones con sus familiares directos es un hito humano fundamental. ¡No olvides aburrir a tus vecinos con las diapositivas!"
+    SET FAILURE_MESSAGE "París es tan hermosa en esta época del año. Probablemente. Nunca lo sabrán ya que su mala planificación les hizo perder el vuelo."
 
 
     REM : ------------------------------
@@ -71,9 +71,9 @@ CLONE DEED "FindCategory" "FindBeret"
 END
 
 DEF TASK "FindBeret"
-    SET NAME "Encuentra tu boina favorita"
-    SET ASKER_NAME "Obtén ayuda para encontrar tu boina favorita"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar su boina favorita"
+    SET NAME "Encontrar tu boina favorita"
+    SET ASKER_NAME "Pedir ayuda para encontrar tu boina favorita"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar su boina favorita"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -91,7 +91,7 @@ CLONE DEED "PhoneID" "BookParisHotel"
 END
 
 DEF TASK "BookParisHotel"
-    SET NAME "Llama para reservar hotel"
+    SET NAME "Llamar para reservar hotel"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -107,17 +107,17 @@ CLONE DEED "Instructions4" "MakeParisBudget"
     SET INSTRUCTIONS "Haz un presupuesto de viaje"
 
     SET MECHANIC_0 "TAP"
-    SET INSTRUCTIONS_0 "Agrega una línea de ítems para alimentos"
+    SET INSTRUCTIONS_0 "Agrega un renglón para comida"
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Agrega una línea de ítems para souvenirs"
+    SET INSTRUCTIONS_1 "Agrega un renglón para recuerdos"
     SET MECHANIC_2 "TAP"
-    SET INSTRUCTIONS_2 "Agrega una línea de ítems para quesos finos"
+    SET INSTRUCTIONS_2 "Agrega un renglón para quesos finos"
     SET MECHANIC_3 "SWIPE_LEFT"
     SET INSTRUCTIONS_3 "Recuerda que eres intolerante a la lactosa, borra esa última parte"
 END
 
 DEF TASK "MakeParisBudget"
-    SET NAME "Haz un presupuesto de viaje para Paris"
+    SET NAME "Hacer un presupuesto de viaje para París"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"
@@ -138,7 +138,7 @@ CLONE DEED "PhoneCategory" "CallCatSitter"
 END
 
 DEF TASK "CallCatSitter"
-    SET NAME "Llame al cuidador de gatos"
+    SET NAME "Llamar al cuidador de gatos"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -151,12 +151,12 @@ END
 
 REM : French for Clueless Tourists: Lesson 2
 CLONE DEED "DialogID" "French2"
-    SET INSTRUCTIONS "Francés para turistas desorientados: Lección 2"
+    SET INSTRUCTIONS "Francés para turistas despistados: Lección 2"
     SET CONTENT_ID "VACATION_FRENCH2"
 END
 
 DEF TASK "French2"
-    SET NAME "Francés para turistas desorientados: Lección 2"
+    SET NAME "Francés para turistas despistados: Lección 2"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -169,14 +169,14 @@ END
 
 REM : Drive to get passports made
 CLONE DEED "TravelCategory" "TravelPassports"
-    SET INSTRUCTIONS "Conducir para hacer los pasaportes"
+    SET INSTRUCTIONS "Conduce para hacer los pasaportes"
     SET CATEGORY "POSTOFFICE"
 END
 
 DEF TASK "TravelPassports"
     SET NAME "Conducir para hacer los pasaportes"
-    SET ASKER_NAME "Obtén un viaje a la oficina de correos para hacer el pasaporte"
-    SET HELPER_NAME "Lleva a <ASKER> a la oficina de correos para que haga su pasaporte"
+    SET ASKER_NAME "Obtener un viaje a la oficina de correos para hacer el pasaporte"
+    SET HELPER_NAME "Llevar a <ASKER> a la oficina de correos para hacer el pasaporte"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -190,13 +190,13 @@ END
 
 REM : Everyone hold still for passport photos
 CLONE DEED "NothingBase" "PassportPhotos"
-    SET INSTRUCTIONS "No sonrias"
+    SET INSTRUCTIONS "No sonrías"
     SET DURATION 5S
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "PassportPhotos"
-    SET NAME "Todos quedense quietos para las fotos del pasaporte"
+    SET NAME "Todos quédense quietos para las fotos del pasaporte"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -216,7 +216,7 @@ CLONE DEED "SearchID" "SearchAdaptors"
 END
 
 DEF TASK "SearchAdaptors"
-    SET NAME "Busca adaptadores de corriente internacionales"
+    SET NAME "Buscar adaptadores de corriente internacionales"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -260,9 +260,9 @@ CLONE DEED "Instructions4" "PackParisSuitcase"
 END
 
 DEF TASK "PackParisSuitcase"
-    SET NAME "Empaca la maleta con cuidado"
-    SET ASKER_NAME "Obtén ayuda para empacar cuidadosamente tu maleta"
-    SET HELPER_NAME "Ayuda a <ASKER> a empacar cuidadosamente su maleta"
+    SET NAME "Empacar la maleta con cuidado"
+    SET ASKER_NAME "Pedir ayuda para empacar su maleta con cuidado"
+    SET HELPER_NAME "Ayudar a <ASKER> a empacar su maleta con cuidado"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -280,7 +280,7 @@ CLONE DEED "PhoneCategory" "CallTaxiParis"
 END
 
 DEF TASK "CallTaxiParis"
-    SET NAME "Llama a un taxi para ir al aeropuerto"
+    SET NAME "Llamar a un taxi para ir al aeropuerto"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

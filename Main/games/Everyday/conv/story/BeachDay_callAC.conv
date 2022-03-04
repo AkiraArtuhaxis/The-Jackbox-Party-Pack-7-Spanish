@@ -1,14 +1,14 @@
 MAIN(AC): ¿Qué tan grave es su problema?
--SMOKE-> El aire acondicionado saca humo
+-SMOKE-> El aire acondicionado echa humo
 -COUCH-> Mi sofá se está derritiendo
 -FLAME-> Nuestro gato está en llamas
--COOL-> Estamos sin prisas
+-COOL-> Estamos bien
 
 SMOKE(AC): Puede esperar hasta mañana
 -SUCCESS-> *cof* *cof*
 
 COUCH(AC): Puede esperar hasta mañana
--SUCCESS-> Adiós otomano
+-SUCCESS-> Adiós, taburete
 
 FLAME(AC): ¿Solo un gato? Puede esperar
 -SUCCESS-> Voy a buscar la manguera.

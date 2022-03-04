@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "cerveza|cervezas|trago|alcohol|licor|vino|whisky|scotch|tequila|gin|vodka|ron|margaritas",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¿Sabes qué?, ¡qué (piiip piiip)! Probablemente, también destruyó todas las cosas buenas. Mmmh, supongo que podría beber este desinfectante de manos. (traga) (Schmitty tiene arcadas). Oh, diablos, eso fue un error. Necesita como absenta o algo así.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Thanos has gone too far this time! He destroyed half the <BLANK> in the universe.",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Hershey's Kisses|Marvel movies|toilet paper roll 4-packs",
+   "n": "SafetyQuips"
+  }
+ ]
+}

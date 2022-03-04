@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "pedos|pedorrearse",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Pero, ¿los pedos de QUIÉN? ¿Tus pedos? ¿Sus pedos? Sus pedos colectivos... Tengo tantas preguntas.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The worst breakup line: “It’s not you, it’s <BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "my hotter friend|my raised standards|...actually it definitely is you",
+   "n": "SafetyQuips"
+  }
+ ]
+}

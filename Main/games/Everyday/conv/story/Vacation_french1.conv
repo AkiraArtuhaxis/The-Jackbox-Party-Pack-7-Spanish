@@ -1,9 +1,9 @@
-MAIN(Cinta en idioma francés): La vache est incapable dobtenir un permis de conduire.
--RESPONSE1-> Parce quelle na pas didentification valide.
+MAIN(Cinta en idioma francés): La vache est incapable d'obtenir un permis de conduire.
+-RESPONSE1-> Parce qu'elle n'a pas d'identification valide.
 -RESPONSE1-> Et donc la vache doit payer le prix fort pour les livres audio.
 -RESPONSE1-> Disculpa, ¿qué? No hablo francés.
 
-RESPONSE1(Cinta en idioma francés): Trop de beurre darachide est mauvais pour votre teint.
+RESPONSE1(Cinta en idioma francés): Trop de beurre d'arachide est mauvais pour votre teint.
 -SUCCESS-> Les choses que nous aimons causeront notre mort.
--SUCCESS-> Je doute de lexactitude de vos recherches.
--FAILURE-> ¿No puedo hablar español con un un acento francés?
+-SUCCESS-> Je doute de l'exactitude de vos recherches.
+-FAILURE-> ¿No puedo hablar español con acento francés?

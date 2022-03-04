@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> no sé | no sé|<PRONOUN> no lo sé | no lo sé|<PRONOUN> nada | ninguno|<PRONOUN> nadita | nada|<PRONOUN> Nada | Nadita|qué importa|esto es estúpido|estupidez|qué importa|<PRONOUN> ni idea | Ni idea|<PRONOUN> sin pistas | ni una pista|<PRONOUN> no importa | no me importa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Sí, esa es la belleza de la Constitución. Te concede la libertad de poner CERO esfuerzo en tus respuestas. ¡Los fundadores estarían orgullosos de ti!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "One amendment you would add to the U.S. Constitution",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Elections determined by mud wrestling|Taco Tuesday enshrined in law|Supreme Court must issue verdicts in song",
+   "n": "SafetyQuips"
+  }
+ ]
+}

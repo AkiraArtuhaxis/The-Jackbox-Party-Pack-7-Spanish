@@ -4,11 +4,11 @@ MAIN(Tía Hecuba): ¿Hola? ¿Quién habla?
 -SCAM-> ¡Te estás perdiendo el fantástico ahorro a largo plazo!
 
 GRANDMA(Tía Hecuba): ¿Pazuzu? ¡Odio a esa vieja arrugada! ¡Olvídalo!
--REASON-> ¿Dije Pazuzu? Quise decir...¿alguien que te agrada?
+-REASON-> ¿Dije Pazuzu? Quise decir... ¿alguien que te agrada?
 -PIECE-> ¡Entonces ven a la fiesta y dile todo lo que piensas!
 
 REASON(Tía Hecuba): Sí, claro. Dame una buena razón para ir a esa fiesta de segunda.
--CAKE-> Pastel gratis
+-CAKE-> Torta gratis
 -PIECE-> Por fin puedes decirle todo lo que piensas
 -TWENTY-> Te daré 20 dolarucos
 
@@ -18,8 +18,8 @@ CAKE(Tía Hecuba): No es mucho, pero lo tomaré. Estaré ahí.
 PIECE(Tía Hecuba): ¡Ja! Ahora sí que nos estamos entendiendo. Estaré ahí.
 -SUCCESS-> Deje de prestar atención
 
-TWENTY(Tía Hecuba): Cerramos en $50.
--FINE-> Ugh. De acuerdo.
+TWENTY(Tía Hecuba): Que sean $50.
+-FINE-> Eh. Bien.
 -NOWAY-> ¡Ni loco!
 
 NOWAY(Tía Hecuba): ¡Entonces olvídalo!
@@ -29,15 +29,15 @@ NOWAY(Tía Hecuba): ¡Entonces olvídalo!
 FINE(Tía Hecuba): ¡Genial! ¡Estaré allí!
 -SUCCESS-> Más vale que valga la pena.
 
-MURDER(Tía Hecuba): ¡Odio esas cosas complicadas! ¡Encima, siempre termina siendo el mayordomo!
+MURDER(Tía Hecuba): ¡Odio esas cosas complicadas! De todos modos, ¡siempre es el mayordomo!
 -GRANDMA-> Es broma, es el cumpleaños de la abuela Pazuzu
--ESCAPEROOM-> ¿Y que te parece una escape room, entonces?
+-ESCAPEROOM-> ¿Qué tal una sala de escape en su lugar?
 
-ESCAPEROOM(Tía Hecuba): No sé que es eso.
+ESCAPEROOM(Tía Hecuba): No sé qué es eso.
 -GRANDMA-> No importa. Estoy tratando de invitarte al cumpleaños de la abuela Pazuzu.
 
 SCAM(Tía Hecuba): ¿De verdad? ¡Cuéntame más!
--BIGBAND-> ¡El servicio de internet que brinda GranBanda tiene un plan que funciona para todos!
+-BIGBAND-> ¡El Servicio de Internet AgrandaBanda tiene un plan que funciona para todos!
 -GRANDMA-> Es broma, es el cumpleaños de la abuela Pazuzu
 
 BIGBAND(Tía Hecuba): ¿Y tiene límites de datos?

@@ -111,7 +111,7 @@ REM : -------------------
 REM : Find tie
 CLONE TASK "FindTie" "FindTieBoss"
     SET NAME "Elegir una corbata que le guste al jefe"
-    SET ASKER_NAME "Obtener ayuda para encontrar una corbata que le guste al jefe"
+    SET ASKER_NAME "Pedir ayuda para encontrar una corbata que le guste al jefe"
     SET HELPER_NAME "Ayudar a <ASKER> a encontrar una corbata que le guste al jefe"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "TEENS"

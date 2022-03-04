@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> pollo | poyo|<ARTICLE> pollito | Pollito|<ARTICLE> poyito | pollitos",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡Es verdad! Nunca ves un pollo en una caja de galletas de animales. Supongo que son lo suficientemente buenas para comérselas en la vida real, ¿¿pero NO en el mundo ficticio de las galletas de animales?? ¡Me gustaría hablar con el gerente, por favor!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What shape never took off with animal crackers?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Endangered Chocolate Chip |Sloppy Pigs|sea anemone",
+   "n": "SafetyQuips"
+  }
+ ]
+}

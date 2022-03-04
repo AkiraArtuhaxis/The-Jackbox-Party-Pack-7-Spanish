@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "pedo|hacer sonidos de pedo|pedorrearse|cortar uno|pedo a la orden",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Hola, tú, me llamo Schmitty. (pedos) ¿Puedo invitarte un trago?",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "There’s nothing sexier than a tall, beefy boy who knows how to <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "build his own gaming PC|be emotionally available|pull off overalls",
+   "n": "SafetyQuips"
+  }
+ ]
+}

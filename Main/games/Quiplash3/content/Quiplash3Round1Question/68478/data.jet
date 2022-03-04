@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mamá | Mamá |<PRONOUN> madre | Madre|<PRONOUN> papá | Papá|<PRONOUN> padre | Padre",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Si, acecha Cleveland hasta las 20:00, y luego se va a la cama a leer un libro a las 21:30, tal vez a las 22:00 como máximo.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What obscure cryptid monster stalks the streets of Cleveland, Ohio?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Normal Foot|Brian",
+   "n": "SafetyQuips"
+  }
+ ]
+}

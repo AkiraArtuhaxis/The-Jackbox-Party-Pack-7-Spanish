@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A horrifying phrase to see embroidered on Grandma’s pillow",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "This Is Where Grandpa Died|Single and Ready To Mingle|a red line through the words \"love my grandkids\"",
+   "n": "SafetyQuips"
+  }
+ ]
+}

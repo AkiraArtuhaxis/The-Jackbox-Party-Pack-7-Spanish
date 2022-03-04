@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "pedos|pedorrearse|viento cortante|paso de gas|paso de viento|pedorrearse constantemente|constantemente pedorrearse|pedorreo|bocinazo",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Lo juro, ¿tienes compasión? ¡He sido maldecido por una bruja (pedo)! ¡Y hay más de donde vino eso!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Beware! A witch cursed me, and now I am doomed to a life of <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "unconditional love |ingrown toenails|bear attacks",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What Bill Murray whispered to Scarlett Johansson at the end of <i>Lost in Translation</i>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "I lost my keys|Congratulations on finishing the movie with me|Watermelon watermelon watermelon",
+   "n": "SafetyQuips"
+  }
+ ]
+}

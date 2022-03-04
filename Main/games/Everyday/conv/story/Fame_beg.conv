@@ -1,10 +1,10 @@
 MAIN(Productor): ¿Hola?
--NORMAL-> Vengo a pedir con todo respeto una segunda audición.
--CRAZY-> Ehm, habla el director. ¡Creo que deberíamos reconsiderar a ese atractivo diablo para Policía #2!
--CRAZY-> ¡Yo soy POLICÍA #2! ¡VIVO Y RESPIRO EL PAPEL DE POLICÍA #2!
+-NORMAL-> Me gustaría solicitar respetuosamente una segunda audición.
+-CRAZY-> Eh, habla el director. ¡Creo que deberíamos reconsiderar a ese atractivo diablo para 'Policía #2'!
+-CRAZY-> ¡YO SOY 'POLICÍA #2'! ¡VIVO Y RESPIRO EL PAPEL DE 'POLICÍA #2'!
 
 NORMAL(Productor): No tengo ni idea de quién es usted. Adiós.
 -SUCCESS-> Si no me recuerda, ¡todavía tengo una oportunidad!
 
 CRAZY(Productor): Borra este número.
--SUCCESS-> ¡No escuché un no!
+-SUCCESS-> ¡No escuché un 'no'!

@@ -1,4 +1,4 @@
-MAIN(Jefe): ¿Cena? ¡Suena bien! ¿Hay algo que debería llevar?
+MAIN(Jefe): ¿Cena? ¡Suena encantador! ¿Hay algo que debería llevar?
 -NOTHING-> Nada, ¡estamos bien!
 -APPETITE-> ¡Solo tu apetito!
 -MEATLOAFS-> ¡Un par de pasteles de carne!
@@ -10,7 +10,7 @@ NOTHING(Jefe): No... ¡Eres genial!
 APPETITE(Jefe): ¡Lo haré!
 -SUCCESS-> Esta noche va a ser genial.
 
-MEATLOAFS(Jefe): Um... no.
+MEATLOAFS(Jefe): Em... no.
 -SUCCESS-> Esta noche va a ser muy incómoda... y ahora tengo que cocinar.
 
 WINE(Jefe): ¡Lo haré!

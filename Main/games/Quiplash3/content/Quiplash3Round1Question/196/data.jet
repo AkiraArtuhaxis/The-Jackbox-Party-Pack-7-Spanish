@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "pedo|pedos",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Sí. Obviamente. El pedo cubre la roca, deforma el papel y oxida las tijeras. ¡Bum!, ahí lo tienes.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What defeats rock, paper AND scissors? ",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "hook 'em horns|the human heart|a military-issue flash grenade",
+   "n": "SafetyQuips"
+  }
+ ]
+}

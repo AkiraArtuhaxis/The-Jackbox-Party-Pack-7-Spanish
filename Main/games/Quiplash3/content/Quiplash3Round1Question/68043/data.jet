@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> pedo | pedo|<ARTICLE> Pedo | Pedorreo|<PRONOUN> Pedos | pedos|<PRONOUN> Gas | gases",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Por el bien de todos, espero que sea una vela para exteriores.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "If they made a candle of your life, it would smell like <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "day-old Doritos|chronic depression|gamer fuel",
+   "n": "SafetyQuips"
+  }
+ ]
+}

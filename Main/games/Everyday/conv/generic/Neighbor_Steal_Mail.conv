@@ -1,13 +1,13 @@
-MAIN(Neighbor): Hola, no he recibido mi correspondencia esta mañana. ¿La has visto?
+MAIN(Neighbor): Hola, no recibío mi periódico esta mañana. ¿Lo viste?
 -YES-> Sí. ¡Aquí tienes!
--NO-> No. Odio las noticias.
--PAPERBOY-> ¡Maldito repartidor!
--STOLEPAPER-> ¡TÚ has robado MI correo!
+-NO-> No. Odio las noticias
+-PAPERBOY-> ¡Maldito repartidor de periódicos!
+-STOLEPAPER-> ¡TÚ robaste MI periódico!
 YES(Neighbor): Oh, ¡Gracias!
 -SUCCESS-> Bien. No sospecharon nada...
-NO(Neighbor): Entonces, ¿Qué es eso?
--SUCCESS-> Mi sombrero de periódico me ha delatado
+NO(Neighbor): Entonces, ¿qué es eso?
+-SUCCESS-> Mi sombrero de periódico doblado me delató
 PAPERBOY(Neighbor): ¡Yo también las odio!
--SUCCESS-> He conseguido un nuevo aliado en mi lucha contra los repartidores
+-SUCCESS-> Conseguí un nuevo aliado en mi lucha contra los repartidores  de periódicos
 STOLEPAPER(Neighbor): Tienes razón. Aquí tienes.
--SUCCESS-> He ganado un correo, pero he perdido a un vecino.
+-SUCCESS-> Gané un periódico, pero perdí a un vecino.

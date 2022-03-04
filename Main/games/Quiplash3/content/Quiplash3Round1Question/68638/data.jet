@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mama | mamá|<PRONOUN> madre | Madre|<PROUNOUN> papa | Papa|<PRONOUN> Padre | padre|<PRONOUN> padres | padres",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bien, una anécdota divertida. Hace cinco años estaba pasando por, eh, una clase de ruptura. Entonces, le envié un mensaje de texto a mi grupo de terapistas sobre eso y recibí un mensaje desesperado, \"¡Josh! ¡¿Cuántos matrimonios puedes destruir?! Te crié mejor que eso. ¡Susan te ama! ¿Quién hará mis manicuras ahora?\" Resumiendo, Susan aún le hace manicuras a mi madre pero es, es, eh, es incómodo. Muy incómodo. ¿Ya dije que sería una anécdota divertida?",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The worst person to accidentally add to a group text about your love life",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "the person you're writing about|your old babysitter|your younger brother",
+   "n": "SafetyQuips"
+  }
+ ]
+}

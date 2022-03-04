@@ -2,7 +2,7 @@ DEF EPISODE "CousinVisit"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Porque sí"
-    SET DESCRIPTION "Tu <font color='#AF0000'>Primo Rompo</font> nos escribió y dijo que quiere visitarlos. ¡Hasta se ofreció a ayudar con los deberes diarios! Estoy seguro de que los rumores de que es un alborotador precoz son completamente infundados."
+    SET DESCRIPTION "Tu <font color='#AF0000'>primo Rompo</font> nos escribió y dijo que quiere visitarlos. ¡Hasta se ofreció a ayudar con los deberes diarios! Estoy seguro de que los rumores de que es un alborotador precoz son completamente infundados."
     SET SUCCESS_MESSAGE "¡Rompo lo pasó genial! Nos dijo que tu casa es un gran lugar para visitar monstruos y demonios. Así que prepara tu sala de huéspedes, porque tenemos una serie de espíritus engañosos que necesitan un lugar para dormir. Literalmente."
     SET FAILURE_MESSAGE "El primo Rompo era un poco difícil de manejar, y tememos decirles que lo dejaron abandonado. La próxima vez que un críptico visitante llegue a la ciudad, les sugerimos que pasen más tiempo respondiendo a sus hábitos singulares y menos tiempo tomándoles fotos borrosas para el álbum."
 
@@ -138,7 +138,7 @@ END
 
 DEF TASK "CousinRoof"
     SET NAME "Sacar al primo Rompo del tejado"
-    SET ASKER_NAME "Obtener ayuda para sacar al primo Rompo del tejado"
+    SET ASKER_NAME "Pedir ayuda para sacar al primo Rompo del tejado"
     SET HELPER_NAME "Ayudar a <ASKER> a bajar al primo Rompo del tejado"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
@@ -195,7 +195,7 @@ END
 
 DEF TASK "FloorCleaner"
     SET NAME "Limpiar el piso de la cocina"
-    SET ASKER_NAME "Obtener ayuda para limpiar el piso de la cocina"
+    SET ASKER_NAME "Pedir ayuda para limpiar el piso de la cocina"
     SET HELPER_NAME "Ayudar a <ASKER> a limpiar el piso de la cocina"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
@@ -385,7 +385,7 @@ END
 
 DEF TASK "FindCousinBag"
     SET NAME "Encontrar la mochila del primo Rompo para que puedan irse."
-    SET ASKER_NAME "Obtener ayuda para encontrar la mochila del primo Rompo para que pueda IRSE"
+    SET ASKER_NAME "Pedir ayuda para encontrar la mochila del primo Rompo para que pueda IRSE"
     SET HELPER_NAME "Ayudar a <ASKER> a encontrar la mochila del primo Rompo para que pueda IRSE"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"

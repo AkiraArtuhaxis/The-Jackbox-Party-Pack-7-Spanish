@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> no se| no sé|<PRONOUN> no lo sé | no lo se|<PRONOUN> nada | ninguno|<PRONOUN> nadita | nada|<PRONOUN> Nada | Nadita|que importa|esto es estupido|estupidez|esto es vergonzoso|<PRONOUN> ni idea | Ni idea|<PRONOUN> sin pistas | ni una pista|<PRONOUN> no importa | no me importa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bien, eso tampoco es algo que deberías escribir en un juego que te pide ser creativo. Ponte al nivel, ¿bueno?",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Something you shouldn’t say in a crowded elevator",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "I could use a cuddle|Oh great. Diarrhea again|Anybody mind if I practice my banjo?",
+   "n": "SafetyQuips"
+  }
+ ]
+}

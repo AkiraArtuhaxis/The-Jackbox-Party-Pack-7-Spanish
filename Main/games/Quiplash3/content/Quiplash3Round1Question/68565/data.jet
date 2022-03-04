@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "popo|popó|caca|caca|cacas|cacas|popis|excremento|cagada",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡¿Rechazaron ese título?! ¡Oh, vamos, editores. Ese es un libro que queremos leer!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A rejected fairy tale title: “Jack and the Giant <BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Noogie|property tax bill|chicken pox",
+   "n": "SafetyQuips"
+  }
+ ]
+}

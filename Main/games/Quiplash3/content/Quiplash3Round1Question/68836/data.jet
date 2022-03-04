@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> Schmitty|<ARTICLE> Shmitty|<ARTICLE> Smitty|<ARTICLE> Schmittie|<ARTICLE> Shmittie|<ARTICLE> Smitty",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Claro que sí, ¡“Schmitty” es un nombre perfecto para una espada ruda! Y juro que no soborné a este jugador para que escribiera eso. (Susurros) Pero intentaré ayudarte a ganar el juego.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What’s a badass name for a badass sword? ",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "The Hellcutter|Mr. Stabs|Harold Von Fearblade",
+   "n": "SafetyQuips"
+  }
+ ]
+}

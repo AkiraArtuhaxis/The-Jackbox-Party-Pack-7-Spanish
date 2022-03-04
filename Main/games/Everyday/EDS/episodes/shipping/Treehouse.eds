@@ -1,10 +1,10 @@
 DEF EPISODE "Treehouse"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "El Administramador"
-    SET DESCRIPTION "La familia ha decidido <font color='#AF0000'>construir una casa del árbol</font> en el patio trasero. ¿Pueden construir una morada arbórea sin arrancar su rutina regular?"
-    SET SUCCESS_MESSAGE "¡Bueno, parece que el mercado inmobiliario esta definitivamente SUBIENDO! Porque construisteis una casa en lo alto. ¿Entiendes? De todos modos, es una adición muy agradable a su patio trasero."
-    SET FAILURE_MESSAGE "Tus vecinos han reportado un fuerte choque en medio de la noche. Parece que su nuevo proyecto hizo como un árbol y se entramó. En el futuro, quizás quieran usar materiales de construcción más fuertes que cinta adhesiva y esfuerzo mínimo."
+    SET NAME "El administramador"
+    SET DESCRIPTION "La familia ha decidido <font color='#AF0000'>construir una casa del árbol</font> en el patio trasero. ¿Podrán construir una morada arbórea sin desarraigar su rutina habitual?"
+    SET SUCCESS_MESSAGE "¡Bueno, parece que el mercado inmobiliario está definitivamente SUBIENDO! Porque construyeron una casa en lo alto. ¿Entienden? De todos modos, es una adición muy agradable a su patio trasero."
+    SET FAILURE_MESSAGE "Sus vecinos han reportado una fuerte caída en medio de la noche. Parece que su nuevo proyecto hizo como un árbol y se entramó. En el futuro, quizás quieran usar materiales de construcción más fuertes que cinta adhesiva y un mínimo esfuerzo."
 
 
     REM : ------------------------------
@@ -52,7 +52,7 @@ CLONE DEED "TravelID" "DriveHardware"
 END
 
 DEF TASK "DriveHardware"
-    SET NAME "Conduce a la ferretería"
+    SET NAME "Conducir a la ferretería"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -69,7 +69,7 @@ CLONE DEED "Tap3" "TrimTreeBranches1"
 END
 
 CLONE DEED "SwipeBase" "TrimTreeBranches2"
-    SET INSTRUCTIONS "Poda Ramas"
+    SET INSTRUCTIONS "Poda ramas"
     SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
 END
 
@@ -78,7 +78,7 @@ CLONE DEED "Hold5" "TrimTreeBranches3"
 END
 
 DEF TASK "TrimTreeBranches"
-    SET NAME "Poda las ramas de los árboles"
+    SET NAME "Podar las ramas de los árboles"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -95,11 +95,11 @@ END
 
 REM : Raise treehouse side panel together
 CLONE DEED "TapAll" "RaisePanel"
-    SET INSTRUCTIONS "¡¡¡Eleva!!!"
+    SET INSTRUCTIONS "¡¡¡Levanta!!!"
 END
 
 DEF TASK "RaisePanel"
-    SET NAME "Levanten juntos el panel lateral de la casa del árbol"
+    SET NAME "Levantar juntos el panel lateral de la casa del árbol"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -112,22 +112,22 @@ END
 
 REM : Saw wood for treehouse
 CLONE DEED "Instructions4" "SawWood"
-    SET INSTRUCTIONS "Corta madera para la casa del árbol"
+    SET INSTRUCTIONS "Corta madera con una sierra para la casa del árbol"
 
     SET MECHANIC_0 "SWIPE_RIGHT"
-    SET INSTRUCTIONS_0 "Sierra madera"
+    SET INSTRUCTIONS_0 "Corta madera con una sierra"
     SET MECHANIC_1 "SWIPE_LEFT"
     SET INSTRUCTIONS_1 "Tira de la sierra hacia atrás"
     SET MECHANIC_2 "SWIPE_LEFT"
-    SET INSTRUCTIONS_2 "Está atascada, tira con más fuerza"
+    SET INSTRUCTIONS_2 "Está atascada, tira con fuerza"
     SET MECHANIC_3 "TAP"
     SET INSTRUCTIONS_3 "Rómpela sobre tu rodilla"
 END
 
 DEF TASK "SawWood"
-    SET NAME "Sierra madera para la casa del árbol"
-    SET ASKER_NAME "Obtén ayuda para aserrar madera para la casa del árbol"
-    SET HELPER_NAME "Ayuda a <ASKER> a aserrar madera para la casa del árbol"
+    SET NAME "Cortar madera con una sierra para la casa del árbol"
+    SET ASKER_NAME "Pedir ayuda para cortar madera con una sierra para la casa del árbol"
+    SET HELPER_NAME "Ayudar a <ASKER> a cortar madera con una sierra para la casa del árbol"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"
@@ -151,11 +151,11 @@ CLONE DEED "QuickTap3" "HammerBoards2"
 END
 
 CLONE DEED "Tap1" "HammerBoards3"
-    SET INSTRUCTIONS "Y una más para terminar"
+    SET INSTRUCTIONS "Y una más para que te empiece a gustar"
 END
 
 DEF TASK "HammerBoards"
-    SET NAME "Martillea tablas"
+    SET NAME "Martillar tablas"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -172,11 +172,11 @@ END
 
 REM : Paint treehouse
 CLONE DEED "Tap3" "PaintTreehouse1"
-    SET INSTRUCTIONS "Reúna latas de pintura"
+    SET INSTRUCTIONS "Reúne latas de pintura"
 END
 
 CLONE DEED "SwipeUp" "PaintTreehouse2"
-    SET INSTRUCTIONS "Salpicalas por todas partes"
+    SET INSTRUCTIONS "Salpícalas por todas partes"
 END
 
 CLONE DEED "ScrubMedium" "PaintTreehouse3"
@@ -184,7 +184,7 @@ CLONE DEED "ScrubMedium" "PaintTreehouse3"
 END
 
 DEF TASK "PaintTreehouse"
-    SET NAME "Pinta la casa del árbol"
+    SET NAME "Pintar la casa del árbol"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -201,7 +201,7 @@ END
 
 REM : Spy on neighbors from treehouse
 CLONE DEED "SwipeUp" "SpyTree1"
-    SET INSTRUCTIONS "Asomarte a la ventana de la casa del árbol"
+    SET INSTRUCTIONS "Asómate a la ventana de la casa del árbol"
 END
 
 CLONE DEED "Nothing3" "SpyTree2"
@@ -209,11 +209,11 @@ CLONE DEED "Nothing3" "SpyTree2"
 END
 
 CLONE DEED "Hold5" "SpyTree3"
-    SET INSTRUCTIONS "Intenta no cantar junto a él"
+    SET INSTRUCTIONS "Intenta no cantar con él"
 END
 
 DEF TASK "SpyTree"
-    SET NAME "Espia a los vecinos de la casa del árbol"
+    SET NAME "Espiar a los vecinos desde la casa del árbol"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -230,12 +230,12 @@ END
 
 REM : Lie to zoning board
 CLONE DEED "DialogID" "ZoningBoard"
-    SET INSTRUCTIONS "Miente al tablero de zonificación"
+    SET INSTRUCTIONS "Miente a la junta de urbanismo"
     SET CONTENT_ID "TREEHOUSE_ZONING"
 END
 
 DEF TASK "ZoningBoard"
-    SET NAME "Miente al tablero de zonificación"
+    SET NAME "Mentir a la junta de urbanismo"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -258,11 +258,11 @@ CLONE DEED "Hold3" "MakeOutBooTree2"
 END
 
 CLONE DEED "ScrubMedium" "MakeOutBooTree3"
-    SET INSTRUCTIONS "Aplasten las caras juntas... Esto es besar, ¿verdad?"
+    SET INSTRUCTIONS "Junten rápidamente sus caras... Esto es besar, ¿verdad?"
 END
 
 DEF TASK "MakeOutBooTree"
-    SET NAME "Besate con tu novia en la casa del árbol"
+    SET NAME "Besarse con tu pareja en la casa del árbol"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -287,11 +287,11 @@ CLONE DEED "Hold3" "MakeOutPartnerTree2"
 END
 
 CLONE DEED "Nothing5" "MakeOutPartnerTree3"
-    SET INSTRUCTIONS "Date cuenta de que necesitas descansar despues de subir esa escalera"
+    SET INSTRUCTIONS "Date cuenta de que necesitas descansar después de subir esa escalera"
 END
 
 DEF TASK "MakeOutPartnerTree"
-    SET NAME "Besate con tu pareja en la casa del árbol"
+    SET NAME "Besarse con tu cónyuge en la casa del árbol"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -312,15 +312,15 @@ CLONE DEED "Hold5" "TreeCracks1"
 END
 
 CLONE DEED "Tap3" "TreeCracks2"
-    SET INSTRUCTIONS "Tócalo un par de veces"
+    SET INSTRUCTIONS "Tócala un par de veces"
 END
 
 CLONE DEED "Nothing2" "TreeCracks3"
-    SET INSTRUCTIONS "Eso no puede ser bueno..."
+    SET INSTRUCTIONS "No puede ser algo bueno..."
 END
 
 DEF TASK "TreeCracks"
-    SET NAME "Inspecciona las grietas en la casa del árbol"
+    SET NAME "Inspeccionar las grietas en la casa del árbol"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -353,7 +353,7 @@ CLONE DEED "Tap2" "DuctTapeTree4"
 END
 
 DEF TASK "DuctTapeTree"
-    SET NAME "Inspecciona las grietas en la casa del árbol"
+    SET NAME "Inspeccionar las grietas en la casa del árbol"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

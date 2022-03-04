@@ -9,7 +9,7 @@ CLONE DEED "QuickTap10" "VideoGameStep2"
 END
 
 DEF TASK "VideoGames"
-    SET NAME "Ignora las tareas del hogar, juega videojuegos"
+    SET NAME "Ignorar los quehaceres, juega videojuegos"
     SET THEME "SELFISH"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "SELFISH"
@@ -34,11 +34,11 @@ CLONE DEED "Hold3" "ShootSpitball1"
 END
 
 CLONE DEED "SwipeUp" "ShootSpitball2"
-    SET INSTRUCTIONS "¡Fuego!"
+    SET INSTRUCTIONS "¡Dispara!"
 END
 
 DEF TASK "ShootSpitball"
-    SET NAME "Dispara una escupida a tu hermano"
+    SET NAME "Dispara una pelota ensalivada a tu hermano"
     SET CAPTAIN "YOUNG"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -73,7 +73,7 @@ CLONE DEED "Tap1" "KickMeSign4"
 END
 
 DEF TASK "KickMeSign"
-    SET NAME "Pon el letrero de 'pateame' en la espalda de los padres"
+    SET NAME "Pon el letrero de 'patéame' en la espalda de tus padres"
     SET CAPTAIN "YOUNG"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -108,7 +108,7 @@ CLONE DEED "Hold5" "LeaveMilkOut3"
 END
 
 DEF TASK "LeaveMilkOut"
-    SET NAME "Deja la leche"
+    SET NAME "Dejar la leche fuera"
     SET CAPTAIN "YOUNG"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -129,7 +129,7 @@ END
 REM : Alter bad report card
 
 CLONE DEED "SwipeRight" "AlterReportCard1"
-    SET INSTRUCTIONS "Usa bolígrafo rojo para convertir esa 'D' en una 'B'"
+    SET INSTRUCTIONS "Usa un bolígrafo rojo para convertir ese '7' en un '9'"
 END
 
 CLONE DEED "SwipeUp" "AlterReportCard2"
@@ -137,11 +137,11 @@ CLONE DEED "SwipeUp" "AlterReportCard2"
 END
 
 CLONE DEED "SwipeLeft" "AlterReportCard3"
-    SET INSTRUCTIONS "B +. No está nada mal"
+    SET INSTRUCTIONS "9,5. No está nada mal"
 END
 
 DEF TASK "AlterReportCard"
-    SET NAME "Altera una mala nota"
+    SET NAME "Altera las calificaciones"
     SET CAPTAIN "YOUNG"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -162,11 +162,11 @@ END
 REM : Disrespect your elders
 
 CLONE DEED "SwipeDown" "DisrespectElders1"
-    SET INSTRUCTIONS "Burlate"
+    SET INSTRUCTIONS "Búrlate"
 END
 
 CLONE DEED "SwipeUp" "DisrespectElders2"
-    SET INSTRUCTIONS "Mofate"
+    SET INSTRUCTIONS "Mófate"
 END
 
 CLONE DEED "Rotate360" "DisrespectElders3"
@@ -174,7 +174,7 @@ CLONE DEED "Rotate360" "DisrespectElders3"
 END
 
 DEF TASK "DisrespectElders"
-    SET NAME "Falta el respeto a tus mayores"
+    SET NAME "Fáltale el respeto a tus mayores"
     SET CAPTAIN "YOUNG"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -195,12 +195,12 @@ END
 REM : Prank call teacher 
 
 CLONE DEED "DialogBase" "PrankCallTeacher1"
-    SET INSTRUCTIONS "Bromea al profesor"
+    SET INSTRUCTIONS "Hazle una broma al profesor"
     SET CONTENT_ID "TEACHER_PRANK_CALL"
 END
 
 DEF TASK "PrankCallTeacher"
-    SET NAME "Llama al profesor de broma"
+    SET NAME "Hacer una broma telefónica al profesor"
     SET CAPTAIN "YOUNG"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"

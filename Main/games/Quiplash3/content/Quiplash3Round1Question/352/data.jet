@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> no se| no sé|<PRONOUN> no lo sé | no lo se|<PRONOUN> nada | ninguno|<PRONOUN> nadita | nada|<PRONOUN> Nada | Nadita|que importa|esto es estupido|estupidez|esto es vergonzoso|<PRONOUN> ni idea | Ni idea|<PRONOUN> sin pistas | ni una pista|<PRONOUN> no importa | no me importa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Sí, bien dicho. Bien dicho. Mira, gracias por tomarte el tiempo de escribirlo por nosotros. Fue un verdadero valor añadido a la experiencia.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The worst thing to be inscribed on a welcome mat",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Our Home Is Legally Your Home|Hello forever!|Please take off your feet",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -2,7 +2,7 @@ DEF EPISODE "FirstDate"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "El cuarto círculo de compromiso"
-    SET DESCRIPTION "¡El amor se siente en el aire! El infierno favorito de todos los adolescentes es llevar a casa su primera <font color='#AF0000'>pareja</font>. ¡Y es humana! La familia debe asegurarse de que la cita se desarrolle sin problemas."
+    SET DESCRIPTION "¡El amor se siente en el aire! El infierno favorito de todos los jóvenes es llevar a casa su primera <font color='#AF0000'>pareja</font>. ¡Y es humana! La familia debe asegurarse de que la cita se desarrolle sin problemas."
     SET SUCCESS_MESSAGE "De acuerdo con nuestras fuentes, su familia no fue TAN vergonzosa y Riley dijo que ustedes eran '¡Belce-bellos!' ¡¿Un enamorado que es lindo y sabe hacer juegos de palabras?! ¡Bingo!"
     SET FAILURE_MESSAGE "Predecimos que seguirán viendo a Riley por un tiempo, pero nunca más vuelvan a hablar de esta noche tan incómoda. Cuando mencionen el concepto de padres, sus ojos se pondrán vidriosos mientras mira al horizonte."
 
@@ -81,7 +81,7 @@ END
 
 REM : Phone teen's dating friend
 CLONE DEED "PhoneID" "PhoneRiley"
-    SET INSTRUCTIONS "Llama a la amiga de citas de la persona joven"
+    SET INSTRUCTIONS "Llama a la amiga de citas del joven"
     SET CONTENT_ID "RILEY"
 END
 
@@ -91,7 +91,7 @@ CLONE DEED "DialogID" "InviteRileyDialog"
 END
 
 DEF TASK "InviteRiley"
-    SET NAME "Llamar a la amiga de citas de la persona joven"
+    SET NAME "Llamar a la amiga de citas del joven"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -129,7 +129,7 @@ END
 
 DEF TASK "ThermostatForHumans"
     SET NAME "Programar el termostato a una temperatura adecuada para los humanos"
-    SET ASKER_NAME "Obtener ayuda para programar el termostato a una temperatura adecuada para los humanos"
+    SET ASKER_NAME "Pedir ayuda para programar el termostato a una temperatura adecuada para los humanos"
     SET HELPER_NAME "Ayudar a <ASKER> a programar el termostato a una temperatura adecuada para los humanos"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"

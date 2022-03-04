@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> no se | no sé|<PRONOUN> no lo sé | no lo se|<PRONOUN> nada | ninguno|<PRONOUN> nadita | Nadita|qué importa|esto es estúpido|estupidez|esto es vergonzoso|<PRONOUN>  ni idea | Ni idea|<PRONOUN> sin pistas | ni una pista|<PRONOUN>  no importa | no me importa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Realmente tienes una habilidad con las palabras.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Lo peor que se puede escribir dentro de una tarjeta de “mejórate pronto”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Eso fue tu culpa|¿Puedo pedir prestado tu esquí?|¡Feliz Aniversario!",
+   "n": "SafetyQuips"
+  }
+ ]
+}

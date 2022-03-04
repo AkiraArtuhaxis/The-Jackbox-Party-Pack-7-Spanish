@@ -1,8 +1,8 @@
 MAIN(Subdirector): ¿Por qué no vas a ir a la escuela?
 -FUNERAL-> El funeral de mi abuelo
--MINOR-> Me realizarán una pequeña cirugía
--MAJOR-> Me realizarán una cirugía de gravedad
--SURGERY-> Voy a realizar una cirugía amateur
+-MINOR-> Me realizarán una cirugía menor
+-MAJOR-> Me realizarán una cirugía mayor
+-SURGERY-> Voy a realizar una cirugía aficionada
 
 FUNERAL(Subdirector): ¿Cuántos abuelos tienes?
 -SUCCESS-> A este lo vengo usando 5 veces, ¡pero siempre funciona!

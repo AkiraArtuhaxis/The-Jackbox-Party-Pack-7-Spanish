@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> chocolate | Chocolate|una barra de chocolate|chocolatina",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Sí, bueno, ¡por supuesto que tendrás chocolate! ¡Tienes 12! Y, ya sabes, quizá Skittles.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "You’re twelve years old and you just got a blank check! What’s the first thing you’re buying?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "water slide, duh|attentive parents",
+   "n": "SafetyQuips"
+  }
+ ]
+}

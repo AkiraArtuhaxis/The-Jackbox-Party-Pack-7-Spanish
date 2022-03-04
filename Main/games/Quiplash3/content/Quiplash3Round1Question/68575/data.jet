@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> pedo | pedos|Pedos|gas|flatulencia|rompiendo el viento|sonidos de pedos|sonidos pedorros|<ARTICLE> sonido de pedo| sonidos de pedos",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bueno, no digas que nunca hice nada por ti. Aquí va. (pedo con auto-tune). De nada.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The greatest thing in the world to Auto-Tune",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "my podcast feed|an extended beer belch|Alvin and the Chipmunks",
+   "n": "SafetyQuips"
+  }
+ ]
+}

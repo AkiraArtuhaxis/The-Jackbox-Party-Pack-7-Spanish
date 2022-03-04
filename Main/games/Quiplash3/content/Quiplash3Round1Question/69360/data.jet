@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN>  nosé | nosé|<PRONOUN> yo nosé | yo nosé|<PRONOUN> nada | nada|<PRONOUN> nadita | nadita|<PRONOUN> nada | nadita|quien le importa|esto es estupido|esto es tonto|esto es aburrido|<PRONOUN> no tengo idea | no tengo idea|<PRONOUN> ni idea | ni idea|<PRONOUN> no me importa | no me importa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "De acuerdo. Esa es una frase pegadiza terrible para un mago. O para cualquiera, en realidad.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A terrible catchphrase for a magician",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "That's magic?|Science!|It doesn't always work!",
+   "n": "SafetyQuips"
+  }
+ ]
+}

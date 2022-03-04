@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A heartfelt dedication in a book that would make you immediately not want to read the book",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "This one's for Kappa Kappa Delta! MA BOYSSS!|For Joseph Stalin, who really cared",
+   "n": "SafetyQuips"
+  }
+ ]
+}

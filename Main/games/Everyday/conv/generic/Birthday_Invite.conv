@@ -1,5 +1,5 @@
-MAIN(Compañero de clase): Hola, ¿me prestas tu libro de texto? El mío se me cayó en barro.
--ANGRY-> Supongo que mi invitación a tu fiesta de cumpleaños también se cayó en el barro.
+MAIN(Compañero de clase): Hola, ¿me prestas tu libro de texto? El mío se me cayó al lodo.
+-ANGRY-> Supongo que mi invitación a tu fiesta de cumpleaños también se cayó al lodo.
 -SURE-> ¡Por supuesto! Haría lo que sea por un amigo. Somos amigos, ¿verdad?
 
 ANGRY(Compañero de clase): Perdóname, es una fiesta exclusiva solo para unas pocas personas.
@@ -11,8 +11,8 @@ SURE(Compañero de clase): Gracias, supongo. Ahora tengo que hacer esta estúpid
 -HINT-> Podrías copiar mis respuestas. Quizá podría dártelas en tu fiesta de cumpleaños...
 
 BYE(Compañero de clase): Cómo digas. Adiós, tonto.
--FAILURE-> ¡Pierdete, ridículo!
--HINT-> Un momento. ¿Qué te parece si dejo que te copies mis respuestas... en tu fiesta?
+-FAILURE-> ¡Vete, ridículo!
+-HINT-> Un momento. ¿Qué te parece si dejo que copies mis respuestas... en tu fiesta?
 
-HINT(Compañero de clase): Ugh, bueno. Puedes venir, pero no actúes raro.
+HINT(Compañero de clase): Uf, bueno. Puedes venir, pero no hagas ninguna locura.
 -SUCCESS-> ¡Gracias, mi amigui! ¡Te veo en la fiesta!

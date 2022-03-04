@@ -31,11 +31,11 @@ END
 REM : Power OLD
 
 CLONE DEED "Tap3" "PowerStep1"
-    SET INSTRUCTIONS "¡¡¡No hay energía!!! Encuentra la linterna"
+    SET INSTRUCTIONS "¡¡¡No hay electricidad!!! Encuentra la linterna"
 END
 
 CLONE DEED "SwipeBase" "PowerStep2"
-    SET INSTRUCTIONS "Abre los breakers"
+    SET INSTRUCTIONS "Abre los interruptores"
     SET DIRECTION "RIGHT,LEFT"
 END
 
@@ -50,7 +50,7 @@ CLONE DEED "SwipeBase" "PowerStep4"
 END
 
 CLONE DEED "SwipeBase" "PowerStep5"
-    SET INSTRUCTIONS "No. ¿Este?"
+    SET INSTRUCTIONS "Nop. ¿Este?"
     SET DIRECTION "RIGHT,LEFT"
 END
 
@@ -60,7 +60,7 @@ CLONE DEED "SwipeBase" "PowerStep6"
 END
 
 DEF TASK "PowerEmergencyOLD"
-    SET NAME "¡¡¡No hay energía!!!"
+    SET NAME "¡¡¡No hay electricidad!!!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     SET OBSERVER_BEHAVIOR_ID "EMERGENCY"
@@ -117,11 +117,11 @@ END
 
 REM : Basement flood
 CLONE DEED "TapEmergency" "FloodEmergency"
-    SET INSTRUCTIONS "¡EL SÓTANO SE INUNDA! ¡QUITA EL AGUA!"
+    SET INSTRUCTIONS "¡EL SÓTANO SE ESTÁ INUNDANDO! ¡SACA EL AGUA!"
 END
 
 DEF TASK "FloodEmergency"
-    SET NAME "¡EL SÓTANO SE INUNDA! ¡QUITA EL AGUA!"
+    SET NAME "¡EL SÓTANO SE ESTÁ INUNDANDO! ¡SACA EL AGUA!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     
@@ -132,11 +132,11 @@ END
 
 REM : Power's out
 CLONE DEED "TapEmergency" "PowerEmergency"
-    SET INSTRUCTIONS "¡NO HAY ENERGÍA! ¡ARRANCA EL GENERADOR!"
+    SET INSTRUCTIONS "¡NO HAY ELECTRICIDAD! ¡ARRANCA EL GENERADOR!"
 END
 
 DEF TASK "PowerEmergency"
-    SET NAME "¡NO HAY ENERGÍA! ¡ARRANCA EL GENERADOR!"
+    SET NAME "¡NO HAY ELECTRICIDAD! ¡ARRANCA EL GENERADOR!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     
@@ -162,11 +162,11 @@ END
 
 REM : Termites
 CLONE DEED "TapEmergency" "TermiteEmergency"
-    SET INSTRUCTIONS "¡INFESTACIÓN DE TERMITAS! ¡FUMIGA!"
+    SET INSTRUCTIONS "¡INFESTACIÓN DE TERMITAS! ¡FUMÍGALAS!"
 END
 
 DEF TASK "TermiteEmergency"
-    SET NAME "¡INFESTACIÓN DE TERMITAS! ¡FUMIGA!"
+    SET NAME "¡INFESTACIÓN DE TERMITAS! ¡FUMÍGALAS!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     

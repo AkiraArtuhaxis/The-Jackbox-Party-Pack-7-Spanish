@@ -7,18 +7,18 @@ EXCITED(Locutor de radio): ¿Qué animal australiano es conocido por sus saltos?
 -WRONG-> Caballo. Definitivamente el caballo.
 -KANGAROO-> ¿Canguro?
 
-KANGAROO(Locutor de radio): ¡Correcto! Siguiente pregunta, ¿H20 es la fórmula química para qué líquido?
--WRONG-> ¡Ketchup!
--WRONG-> Em...¿vinagre?
--WATER-> Rayos, yo lo sabía... em... oh, ¡es agua!
+KANGAROO(Locutor de radio): ¡Correcto! Siguiente pregunta, ¿H2O es la fórmula química para qué líquido?
+-WRONG-> ¡Kétchup!
+-WRONG-> Em... ¿vinagre?
+-WATER-> Rayos, esta me la sé... em... oh, ¡es agua!
 
 WATER(Locutor de radio): ¡Última pregunta! Según la mitología, ¿qué monstruos con cuernos viven en un inframundo subterráneo y ardiente?
--WIN-> Demonios.
--WIN-> Uh, está difícil. Tal vez sean los demonios.
--WIN-> Me la voy a jugar, y voy a decir que son los demonios.
+-WIN-> Diablos.
+-WIN-> Uh, está difícil. Tal vez sean los diablos.
+-WIN-> Me la voy a jugar, y voy a decir que son los diablos.
 
-WRONG(Locutor de radio): Guau, no puedo creer que te equivocaste con esa. Perdiste.
--FAILURE-> Maldita sea, quería esa lavadora-secadora.
+WRONG(Locutor de radio): Vaya, no puedo creer que te equivocaste con esa. Perdiste.
+-FAILURE-> Maldita sea, en serio quería esa lavadora-secadora.
 
-WIN(Locutor de radio): ¡Felicidades, ganaste!
+WIN(Locutor de radio): ¡Felicidades, tenemos un ganador!
 -SUCCESS-> ¡Al fin, mi propia lavadora-secadora que no tendré que compartir con la familia!

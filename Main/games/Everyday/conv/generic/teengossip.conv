@@ -1,42 +1,42 @@
 MAIN(Carl): Ve a por Carl.
--ETHEL-> ¿Qué es lo último en Ethel?
--MITCH-> ¿Tienes algún trapo sucio sobre Mitch?
+-ETHEL-> ¿Qué se sabe de Ethel?
+-MITCH-> ¿Tienes algún chisme de Mitch?
 -FRUMP-> ¿En qué ha estado el Sr. Frump?
 
-ETHEL(Carl): OMG no me hagas empezar. ¿Sabes cómo le dice a todo el mundo que su padre conoce a Weird Al Yankovic?
+ETHEL(Carl): ¡Cielos! No me hagas hablar. ¿Sabes que le dice a todo el mundo que su padre conoce a Weird Al Yankovic?
 -ETHEL2-> Sí...
 -ETHEL2-> Eh, no realmente...
 
-ETHEL2(Carl): Bueno es una COMPLETA mentira. Ellos fueron al mismo colegio pero hace AÑOS de diferencia.
+ETHEL2(Carl): Bueno es una COMPLETA mentira. Ellos fueron al mismo colegio pero con AÑOS de diferencia.
 -ETHEL3-> ¡ESCÁNDALO!
 -ETHEL3-> ¿Eso es todo lo que tienes?
 -ETHEL3-> Una vez conocí a Mads Mikkelsen.
 
 ETHEL3(Carl): ¿Y su incisivo inferior izquierdo? Totalmente falso. Se lo golpearon en un accidente de waterpolo cuando tenía 15 años y un dentista secreto de lujo se lo remplazó.
 -END-> ESO. ES. SALVAJE.
--END-> Eso es... no tan fuera de lo común.
--END-> Mads fue una completa ternura. Justo como lo imaginas.
+-END-> Eso no es... tan raro.
+-END-> Mads fue una completa ternura. Tal y como te lo imaginas.
 
-MITCH(Carl): ¿Mitch? Se dice que solo come bananas...
-¡Dime!
+MITCH(Carl): ¿Mitch? Se dice que está en un ayuno de bananas...
+MITCH2->¡Dime!
 -MITCH-> Espera, ¿qué?
 
-MITCH2(Carl): Ningún alimento que no sean plátanos. Y ningún líquido excepto caldo de pollo. Es lo que se lleva en L.A.
+MITCH2(Carl): Ningún alimento que no sean bananas. Y ningún líquido excepto caldo de pollo. Está de moda en Los Ángeles.
 -MITCH3-> Iba a intentar eso, totalmente.
 -MITCH3-> Funciona. Mitch se ve BIEN.
 -MITCH3-> Eso es repugnante.
 
-MITCH3(Carl): Por supuesto que no aguantará. Esto es lo mismo que la moda del zumo de almeja y gelatina del año pasado.
+MITCH3(Carl): Por supuesto que no aguantará. Esto es lo mismo que la moda del jugo de almeja y gelatina del año pasado.
 -END-> Verdad.
--END-> Ey, Mitch necesita tu ayuda ahora mismo.
+-END-> Oye, Mitch necesita tu ayuda ahora mismo.
 -END-> Gelatina y jugo de almeja. ¿Fuimos alguna vez tan jóvenes?
 
-FRUMP(Carl): Te encantará esto. ¡Ayer en la clase de Frump, Bobby Qualidee liberó a todas las ranas! ¡Estaban saltando por todos lados como locas y Frump se enfadó tanto que empezó a chillar con ese grito agudo que él hace!
--FRUMP2-> NO ME LO CREO BROMA DEL SIGLO
+FRUMP(Carl): Te encantará esto. ¡Ayer en la clase de Frump, Bobby Qualidee soltó a todas las ranas! ¡Estaban saltando por todos lados como locas y Frump se enfadó tanto que empezó a chillar con ese grito agudo que él hace!
+-FRUMP2-> NO TE CREO, LA BROMA DEL SIGLO
 -FRUMP2-> ¡Bobby es tan divertido! Debería trabajar en Saturday Night Live.
 -FRUMP2-> Espera... ¿las ranas para diseccionar?
 
-FRUMP2(Carl): Todo el mundo sabía que Bobby lo hizo, pero Frump no lo vio. Así que corría de un lado para otro gritando a todos para que confesaran. ¡Casi me muero de la risa!
+FRUMP2(Carl): Todos sabían que Bobby lo hizo, pero Frump no lo vio. Así que corría de un lado para otro gritando a todos para que confesaran. ¡Casi me muero de la risa!
 -FRUMP3-> ¡No puedo creer que me lo haya perdido!
 -FRUMP3-> Bobby y yo deberíamos tener una cita, ¿no crees? ¿Es una locura?
 -FRUMP32-> Las ranas para diseccionar deberían estar muertas, ¿cierto?
@@ -46,8 +46,8 @@ FRUMP3(Carl): Intentó castigar a toda la clase hasta que el vicedirector dijo q
 -END-> ¿Debería invitar a Bobby al baile? Es broma, es broma, no importa jaja
 -END-> ¿Es Bobby Qualidee un nigromante?
 
-END(Carl): En fin, ese es el último.
--SUCCESS-> Es suficiente chisme por ahora. Adiós Carl.
+END(Carl): En fin, eso es lo último.
+-SUCCESS-> Es suficiente chisme por ahora. Adiós, Carl.
 -ETHEL-> Volvamos con Ethel.
 -MITCH-> Volvamos con Mitch.
 -FRUMP-> Volvamos con el Sr. Frump.

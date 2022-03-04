@@ -1,17 +1,17 @@
 MAIN(Jefe): ¿Es el fin del mundo?
 -OFF-> Sí, necesito el día de mañana libre.
 -RAISE-> Síp, ¿puede subirme el sueldo?
--QUIT-> Uh huh, renuncio.
+-QUIT-> Eh huh, renuncio.
 -LOVE-> Sí, te quiero.
 
-OFF(Jefe): Oooookey
+OFF(Jefe): Bueeeno
 -SUCCESS-> ¡Bien!
 
 RAISE(Jefe): Claro, ¿por qué no?
 -SUCCESS-> ¡Gracias, roca asesina del espacio!
 
-QUIT(Jefe): Okey. Lo estoy escribiendo con un rotulador permanente.
--SUCCESS-> Hmmm... Espero que este apocalipsis sea real.
+QUIT(Jefe): Bueno. Lo estoy escribiendo con un marcador permanente.
+-SUCCESS-> Mmmh... Espero que este apocalipsis sea real.
 
-LOVE(Jefe): ¿La oficina o yo?
+LOVE(Jefe): ¿A mí o a la oficina?
 -SUCCESS-> Sí.

@@ -18,7 +18,7 @@
         },
         {
             "id": "POTATO_SALAD",
-            "name": "Ensalada apocalíptica de patata",
+            "name": "Ensalada apapalíptica",
             "category": "BBQ",
             "locationId": "KITCHEN",
             "requiredItemIds": [
@@ -47,7 +47,7 @@
         },
         {
             "id": "PEACHES_CREAM",
-            "name": "Melocotones y crema",
+            "name": "Duraznos y crema",
             "category": "BREAKFAST",
             "locationId": "KITCHEN",
             "requiredItemIds": [
@@ -107,7 +107,7 @@
         },
         {
             "id": "FRIED_PLANTAINS",
-            "name": "Banana frita",
+            "name": "Plátano frito",
             "category": "BREAKFAST",
             "locationId": "KITCHEN",
             "requiredItemIds": [
@@ -134,7 +134,7 @@
         },
         {
             "id": "PASTA_PRIM",
-            "name": "Pasta Primavera",
+            "name": "Pasta primavera",
             "category": "DINNER",
             "locationId": "KITCHEN",
             "requiredItemIds": [
@@ -199,7 +199,7 @@
         },
         {
             "id": "CHICKEN_CURRY",
-            "name": "Pollo al Curry",
+            "name": "Pollo al curry",
             "category": "DINNER",
             "locationId": "KITCHEN",
             "requiredItemIds": [
@@ -216,7 +216,7 @@
         },
         {
             "id": "DAL",
-            "name": "Dahl",
+            "name": "Dal",
             "category": "DINNER",
             "locationId": "KITCHEN",
             "requiredItemIds": [
@@ -351,7 +351,7 @@
         },
         {
             "id": "GRANDMAS_FLOWERS",
-            "name": "Un ramo a lo antiguo",
+            "name": "Un ramo anticuado",
             "category": "FLOWERS",
             "locationId": "FLOWER_SHOP",
             "requiredItemIds": [
@@ -378,7 +378,7 @@
         },
         {
             "id": "GORBO_CASSEROLE",
-            "name": "Cazuela de mantequilla de maní y Atún",
+            "name": "Cazuela de mantequilla de maní y atún",
             "category": "GORBO",
             "locationId": "KITCHEN",
             "requiredItemIds": [
@@ -424,7 +424,7 @@
         },
         {
             "id": "TUNA_SALAD_SANDWICHES",
-            "name": "Sandwich vegetal con atún",
+            "name": "Sándwiches de ensalada de atún",
             "category": "LUNCH",
             "locationId": "KITCHEN",
             "requiredItemIds": [
@@ -437,7 +437,7 @@
         },
         {
             "id": "FLUFFER_NUTTERS",
-            "name": "Sandwich de crema de maní y malvavisco",
+            "name": "Sándwiches de crema de maní y malvavisco",
             "category": "LUNCH",
             "locationId": "KITCHEN",
             "requiredItemIds": [
@@ -496,7 +496,7 @@
         },
         {
             "id": "MALA_MALA",
-            "name": "Ensalada de Fuego Mala Mala",
+            "name": "Ensalada de fuego de Mala Mala",
             "category": "LUNCH",
             "locationId": "KITCHEN",
             "requiredItemIds": [

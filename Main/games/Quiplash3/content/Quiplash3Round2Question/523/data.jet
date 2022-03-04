@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "God sent this warning sign and we totally missed it",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "The strange popularity of the Twilight series|Billboard that says \"Look Out! - God\"|The stuff that comes out during a sinus infection",
+   "n": "SafetyQuips"
+  }
+ ]
+}

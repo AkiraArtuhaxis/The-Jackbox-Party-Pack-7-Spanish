@@ -1,10 +1,10 @@
 DEF EPISODE "SkipDay"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Faltando a Clase"
-    SET DESCRIPTION "Han sido un par de meses largos, por lo que todos los miembros de la familia deciden tener su propio pequeño <font color='#AF0000'>día de descanso</font>. ¿Disfrutarán de un solo momento de privacidad por una vez en sus vidas?"
-    SET SUCCESS_MESSAGE "Nuestros pajarillos nos dijeron que parecían descansados, relajados, y recuperados el día después de su misteriosa 'enfermedad.' NO sospechamos de ustedes."
-    SET FAILURE_MESSAGE "Buen movimiento, chico laxante. No sólo les atraparon en el acto de camuflar sus responsabilidades, sino te enfermaste de VERDAD por todo el estrés."
+    SET NAME "Faltar a clases"
+    SET DESCRIPTION "Han sido un par de meses largos, por lo que todos los miembros de la familia deciden tener su propio pequeño <font color='#AF0000'>día de falta</font>. ¿Disfrutarán de un solo momento de privacidad por una vez en sus vidas?"
+    SET SUCCESS_MESSAGE "Nuestros pajarillos nos dijeron que parecían descansados, relajados, y recuperados el día después de sus misteriosas 'enfermedades'. Ciertamente NO sospechamos."
+    SET FAILURE_MESSAGE "Buen movimiento, chico flojo. No solo les atraparon en el acto de camuflar sus responsabilidades, si no que te enfermaste de VERDAD por todo el estrés."
 
 
     REM : ------------------------------
@@ -47,12 +47,12 @@ REM : Define this episode's story tasks below
 
 REM : Call in sick to work
 CLONE DEED "DialogID" "CallInWork"
-    SET INSTRUCTIONS "Llamar por estar enfermo para trabajar"
+    SET INSTRUCTIONS "Llama al trabajo para decir que estás enfermo"
     SET CONTENT_ID "SKIPDAY_SICKWORK"
 END
 
 DEF TASK "CallInWork"
-    SET NAME "Llamar por estar enfermo para trabajar"
+    SET NAME "Llamar al trabajo para decir que estás enfermo"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -65,12 +65,12 @@ END
 
 REM : Call in sick to school
 CLONE DEED "DialogID" "CallInSchool"
-    SET INSTRUCTIONS "Llamar por estar enfermo para ir a la escuela"
+    SET INSTRUCTIONS "Llama a la escuela para decir que estás enfermo"
     SET CONTENT_ID "SKIPDAY_SICKSCHOOL"
 END
 
 DEF TASK "CallInSchool"
-    SET NAME "Llamar por estar enfermo para ir a la escuela"
+    SET NAME "Llamar a la escuela para decir que estás enfermo"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -83,12 +83,12 @@ END
 
 REM : Call in sick to kindergarten
 CLONE DEED "DialogID" "CallInKinder"
-    SET INSTRUCTIONS "Llamar por estar enfermo para ir al jardín"
+    SET INSTRUCTIONS "Llama al jardín de infantes para decir que estás enfermo"
     SET CONTENT_ID "SKIPDAY_SICKKINDER"
 END
 
 DEF TASK "CallInKinder"
-    SET NAME "Llamar por estar enfermo para ir al jardín"
+    SET NAME "Llamar al jardín de infantes para decir que estás enfermo"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -117,7 +117,7 @@ CLONE DEED "Hold2" "SkipDummy4"
 END
 
 DEF TASK "SkipDummy"
-    SET NAME "Haz una versión ficticia de ti mismo"
+    SET NAME "Hacer un muñeco de ti mismo"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -138,7 +138,7 @@ REM : -------------------------------------
 
 REM : Enjoy peace and quiet
 CLONE DEED "SwipeDown" "PeaceQuiet1"
-    SET INSTRUCTIONS "Siéntate en la buena silla"
+    SET INSTRUCTIONS "Siéntate en la silla buena"
 END
 
 CLONE DEED "Hold2" "PeaceQuiet2"
@@ -146,15 +146,15 @@ CLONE DEED "Hold2" "PeaceQuiet2"
 END
 
 CLONE DEED "SwipeLeft" "PeaceQuiet3"
-    SET INSTRUCTIONS "Rompe tu pasatiempo más vergonzoso"
+    SET INSTRUCTIONS "Saca a relucir tu pasatiempo más vergonzoso"
 END
 
 CLONE DEED "QuickTap5" "PeaceQuiet4"
-    SET INSTRUCTIONS "Reorganiza tu colección de mármol"
+    SET INSTRUCTIONS "Reorganiza tu colección de canicas"
 END
 
 DEF TASK "PeaceQuiet"
-    SET NAME "Disfruta de la paz y la tranquilidad"
+    SET NAME "Disfrutar de la paz y la tranquilidad"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -178,9 +178,9 @@ CLONE DEED "Gizmos6" "BuildCard"
 END
 
 DEF TASK "BuildCard"
-    SET NAME "Construye un colisionador de partículas de cartón en el patio trasero."
-    SET ASKER_NAME "Obtén ayuda para construir un colisionador de partículas de cartón en el patio trasero"
-    SET HELPER_NAME "Ayuda a <ASKER> a construir un colisionador de partículas de cartón en el patio trasero"
+    SET NAME "Construir un colisionador de partículas de cartón en el patio trasero"
+    SET ASKER_NAME "Pedir ayuda para construir un colisionador de partículas de cartón en el patio trasero"
+    SET HELPER_NAME "Ayudar a <ASKER> a construir un colisionador de partículas de cartón en el patio trasero"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -202,14 +202,14 @@ END
 
 REM : Drive aimlessly around town
 CLONE DEED "TravelCategory" "TravelAimless"
-    SET INSTRUCTIONS "Vamos a buscar algo de comida"
+    SET INSTRUCTIONS "Vamos a comer algo"
     SET CATEGORY "FOOD"
 END
 
 DEF TASK "TravelAimless"
-    SET NAME "Conduce sin rumbo por la ciudad"
-    SET ASKER_NAME "Ve con un joven a conducir sin rumbo fijo por la ciudad"
-    SET HELPER_NAME "Conduce sin rumbo fijo por la ciudad con <ASKER> "
+    SET NAME "Conducir sin rumbo fijo por la ciudad"
+    SET ASKER_NAME "Ir con un joven a conducir sin rumbo fijo por la ciudad"
+    SET HELPER_NAME "Conducir sin rumbo fijo por la ciudad con <ASKER> "
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -225,12 +225,12 @@ REM : ----------------------------------------------
 
 REM : Answer call from school
 CLONE DEED "DialogID" "DialogSkipSchool"
-    SET INSTRUCTIONS "Interpreta de manera relajada"
+    SET INSTRUCTIONS "Mantén la calma"
     SET CONTENT_ID "SKIPDAY_CHECKIN"
 END
 
 DEF TASK "DialogSkipSchool"
-    SET NAME "Responder llamada de la escuela"
+    SET NAME "Contestar llamada de la escuela"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -243,15 +243,15 @@ END
 
 REM : Make fuel for your collider
 CLONE DEED "SwipeRight" "ColliderFuel1"
-    SET INSTRUCTIONS "Vaciar la nevera"
+    SET INSTRUCTIONS "Vacía la nevera"
 END
 
 CLONE DEED "Rotate360" "ColliderFuel2"
-    SET INSTRUCTIONS "Viértelo todo en un balde"
+    SET INSTRUCTIONS "Vierte todo en una cubeta"
 END
 
 CLONE DEED "Tap1" "ColliderFuel3"
-    SET INSTRUCTIONS "Solo un poco de lejía..."
+    SET INSTRUCTIONS "Solo un poco de lejía"
 END
 
 CLONE DEED "Hold3" "ColliderFuel4"
@@ -259,7 +259,7 @@ CLONE DEED "Hold3" "ColliderFuel4"
 END
 
 DEF TASK "ColliderFuel"
-    SET NAME "Haz combustible para tu colisionador del patio trasero"
+    SET NAME "Fabricar combustible para tu colisionador en el patio trasero"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -290,11 +290,11 @@ CLONE DEED "Nothing3" "GorgeSkip3"
 END
 
 CLONE DEED "Hold3" "GorgeSkip4"
-    SET INSTRUCTIONS "Oh oh... intoxicación alimentaria"
+    SET INSTRUCTIONS "Oh, oh... intoxicación alimentaria"
 END
 
 DEF TASK "GorgeSkip"
-    SET NAME "Atibórrate de bocadillos"
+    SET NAME "Atiborrarse de bocadillos"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -313,12 +313,12 @@ END
 
 REM : Find the makeup work you misplaced
 CLONE DEED "SearchID" "SkipMakeUp"
-    SET INSTRUCTIONS "Encuentra el trabajo de recuperación que perdiste"
+    SET INSTRUCTIONS "Encuentra el trabajo de recuperación que extraviaste"
     SET CONTENT_ID "MAKEUPWORK"
 END
 
 DEF TASK "SkipMakeUp"
-    SET NAME "Encuentra el trabajo de recuperación que perdiste"
+    SET NAME "Encontrar el trabajo de recuperación que extraviaste"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -331,24 +331,24 @@ END
 
 REM : Shut down collider
 CLONE DEED "Instructions5" "ShutDownCollider"
-    SET INSTRUCTIONS "¡Apaga el colisionador que se está sobrecalentando!"
+    SET INSTRUCTIONS "¡Apaga el colisionador que se sobrecalienta!"
 
     SET MECHANIC_0 "TAP_3"
-    SET INSTRUCTIONS_0 "Apaga el incendio"
+    SET INSTRUCTIONS_0 "Apaga el fuego"
     SET MECHANIC_1 "SWIPE_DOWN"
     SET INSTRUCTIONS_1 "Activa el interruptor de anulación"
     SET MECHANIC_2 "TAP_HOLD"
     SET INSTRUCTIONS_2 "Prepárate para la explosión"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Suspira de alivio"
+    SET INSTRUCTIONS_3 "Suspira aliviado"
     SET MECHANIC_4 "SWIPE_UP"
-    SET INSTRUCTIONS_4 "Queda atrapado en la lluvia"
+    SET INSTRUCTIONS_4 "Haz que te pille la lluvia"
 END
 
 DEF TASK "ShutDownCollider"
-    SET NAME "¡Apaga el colisionador de partículas del patio trasero que se sobrecalienta!"
-    SET ASKER_NAME "Obtén ayuda para apagar el colisionador de partículas de patio trasero que se sobrecalienta"
-    SET HELPER_NAME "Ayuda a <ASKER> a apagar el colisionador de partículas del patio trasero que se sobrecalienta"
+    SET NAME "¡Apagar el colisionador de partículas en el patio trasero que se sobrecalienta!"
+    SET ASKER_NAME "Pedir ayuda para apagar el colisionador de partículas en el patio trasero que se sobrecalienta"
+    SET HELPER_NAME "Ayudar a <ASKER> a apagar el colisionador de partículas en el patio trasero que se sobrecalienta"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

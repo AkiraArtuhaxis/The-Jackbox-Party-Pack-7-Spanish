@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Schmitty|Shmitty|Smitty|Schmittie|Shmittie|Smittie|<ARTICLE> host de Quiplash | host de Quiplash|<ARTICLE> Quiplash host | Quiplash host|<ARTICLE> locutor de este juego | locutor de este juego<ARTICLE> host",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "(Schmitty se ríe) ¿Crees que es divertido? Bueno, te tengo noticias. Uno de estos días va a ser TU cumpleaños. Podría ser este año, podría ser en unos años más. ¡Pero verás lo aterrador que soy cuando atravieso una maldita torta! No me importa si es un pastelillo. Me voy a miniaturizar porque tengo superpoderes, ¡¡¿me oyes?!! Y por cierto, prefiero el glaseado de coco con chocolate si alguien se lo pregunta.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The scariest thing that could pop out of your birthday cake",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "your mom|one million spiders|student debt",
+   "n": "SafetyQuips"
+  }
+ ]
+}

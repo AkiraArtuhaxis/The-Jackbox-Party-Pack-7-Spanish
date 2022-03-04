@@ -1,26 +1,26 @@
 MAIN(Víctima desprevenida): ¿Hola? ¿Quién habla?
 -UNDERSELL-> ¿Tienes un lugar para mantener tu comida fría?
--CLASSIC-> ¿Le anda el refrigerador?
--OVERSHOOT-> Ey, ¿qué le pasa a tu refrigerador?
--LOSTIT-> Eh... da igual.
+-CLASSIC-> ¿Está funcionando tu nevera?
+-OVERSHOOT-> Oye, ¿qué le pasa a tu refrigerador?
+-LOSTIT-> Eh... no importa.
 
-UNDERSELL(Víctima desprevenida): ¡Sí! Aunque, de hecho, no está funcionando bien, ¿podrías arreglarlo?
--SUCCESS-> Conseguiste un trabajo, pero a costo de perder la guerra de bromas.
+UNDERSELL(Víctima desprevenida): ¡Sí! Aunque, de hecho, no está funcionando bien, ¿podrías venir a arreglarlo?
+-SUCCESS-> Aprendiste un oficio, pero perdiste la guerra de bromas.
 
-CLASSIC(Víctima desprevenida): ¡Pues sí, anda! ¡Gracias por preguntar!
+CLASSIC(Víctima desprevenida): ¡Pues sí, funciona! ¡Gracias por preguntar!
 -SUCCESS-> ¡He tenido una conversación!
 
-OVERSHOOT(Víctima desprevenida): ¡Le creció patas y anda corriendo! ¡Estoy en ruinas!
--SUCCESS-> El fracaso de un pequeño emprendedor...la mejor broma.
+OVERSHOOT(Víctima desprevenida): ¡Le creció patas y anda corriendo! ¡Estoy arruinado!
+-SUCCESS-> El fracaso de un pequeño emprendedor... la broma definitiva.
 
-LOSTIT(Víctima desprevenida): ¿Seguro que no quieres continuar tu chistecito?
--FORGOT-> ¿Qué chiste? Soy un simple cliente. ¡Dos de cada cosa, por favor!
--TRYAGAIN-> ¡Oh, bueno! Déjame prepararme...
+LOSTIT(Víctima desprevenida): ¿Seguro que no quieres continuar tu bromita?
+-FORGOT-> ¿Qué broma? Sin duda soy un cliente. ¡Dos de cada cosa, por favor!
+-TRYAGAIN-> ¡Oh, bueno! Deja que me anime...
 
 FORGOT (Víctima desprevenida): ¡Un placer hacer negocios contigo!
 -FAILURE-> Te olvidaste de hacer una broma.
 
-TRYAGAIN(Víctima desprevenida): Ahem...¿Hola?
+TRYAGAIN(Víctima desprevenida): Ahem... '¿Hola?'
 -UNDERSELL-> ¿Tienes un lugar para mantener tu comida fría?
--CLASSIC-> ¿Le anda el refrigerador?
+-CLASSIC-> ¿Está funcionando tu nevera?
 -OVERSHOOT-> Ey, ¿qué le pasa a tu refrigerador?

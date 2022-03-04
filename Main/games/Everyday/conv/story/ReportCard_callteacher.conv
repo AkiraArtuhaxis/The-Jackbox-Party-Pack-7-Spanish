@@ -5,7 +5,7 @@ MAIN(Maestro): ¿Qué está dispuesto a hacer para mejorar las notas de su hijo?
 -BRIBE-> Sobornos y más sobornos.
 
 HOMEWORK(Maestro): ¡Eso sería genial!
--SUCCESS-> Oh oh. Ahora tengo que aprender francés.
+-SUCCESS-> Oh, oh. Ahora tengo que aprender francés.
 
 EXTRA(Maestro): Podrían construir un modelo...
 -SUCCESS-> ¡A la tienda de artesanía!

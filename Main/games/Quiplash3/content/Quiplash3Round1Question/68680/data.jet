@@ -7,7 +7,7 @@
   },
   {
    "t": "S",
-   "v": "Schmitty|Shmitty|Smitty|<ARTICLE> Quiplash host | Quiplash host|<ARTICLE> host of Quiplash | host of Quiplash|Schmittie|Shmittie|Smittie",
+   "v": "Schmitty|Shmitty|Smitty|<ARTICLE> host Quiplash | host Quiplash|<ARTICLE> host de Quiplash | host de Quiplash|Schmittie|Shmittie|Smittie",
    "n": "Keywords"
   },
   {
@@ -17,7 +17,7 @@
   },
   {
    "t": "S",
-   "v": "Well now hang on, what did I ever do to you!? Huh? I mean, I deserve love just like anybody else! Who are you people!?",
+   "v": "Bueno, ahora espera, ¡¿qué te he hecho?! ¿Eh? Quiero decir, ¡merezco amor como cualquier otra persona! ¡¿Quiénes son ustedes?!",
    "n": "KeywordResponseText"
   },
   {
@@ -32,7 +32,7 @@
   },
   {
    "t": "S",
-   "v": "Understandably, no one wants to adopt Little Orphan <BLANK>",
+   "v": "Es comprensible que nadie quiera adoptar a El pequeño huérfano <BLANK>",
    "n": "PromptText"
   },
   {

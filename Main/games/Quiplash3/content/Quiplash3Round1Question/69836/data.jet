@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Schmitty",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bueno, eso es solo malvado. ¿Por qué soporto este abuso?",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The worst thing to discover that your five-year-old is drawing",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "your face with devil horns|the pet pony they'll never have|the sun with a frowny face",
+   "n": "SafetyQuips"
+  }
+ ]
+}

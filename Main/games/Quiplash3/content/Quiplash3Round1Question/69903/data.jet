@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Quiplash|Quiplash3|Quiplash 3|este juego|<ARTICLE> el juego que jugamos|Quiplash!",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Incluso cuando escribe algo azul, es adorable.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Antes de la mermelada, el Oso Paddington tenía una adicción a <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "té|pijama|apuestas deportivas",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -12,7 +12,7 @@ CLONE DEED "SwipeUp" "AudienceGiveKittyTreat1"
 END
 
 CLONE DEED "Tap1" "AudienceGiveKittyTreat2"
-    SET INSTRUCTIONS "Ofrecelas al gato"
+    SET INSTRUCTIONS "Ofrécelas al gato"
 END
 
 CLONE DEED "Hold2" "AudienceGiveKittyTreat3"
@@ -20,7 +20,7 @@ CLONE DEED "Hold2" "AudienceGiveKittyTreat3"
 END
 
 CLONE TASK "BaseAudience" "AudienceGiveKittyTreat"
-    SET NAME "<CATNAME> el gato atrapó un bicho. Dale un regalo"
+    SET NAME "El gato <CATNAME> atrapó un bicho. Dale una golosina"
 
     STEP "1" "AudienceGiveKittyTreat1"
     STEP "2" "AudienceGiveKittyTreat2"
@@ -42,15 +42,15 @@ CLONE DEED "Hold2" "AudienceTakeKittyPic2"
 END
 
 CLONE DEED "Tap1" "AudienceTakeKittyPic3"
-    SET INSTRUCTIONS "¡Lo tengo!"
+    SET INSTRUCTIONS "¡La tengo!"
 END
 
 CLONE DEED "Tap3" "AudienceTakeKittyPic4"
-    SET INSTRUCTIONS "Publicalo en las redes sociales"
+    SET INSTRUCTIONS "Publícala en las redes sociales"
 END
 
 CLONE TASK "BaseAudience" "AudienceTakeKittyPic"
-    SET NAME "<CATNAME> el gato está posando. Toma una linda foto."
+    SET NAME "El gato <CATNAME> está posando. Toma una linda foto."
 
     STEP "1" "AudienceTakeKittyPic1"
     STEP "2" "AudienceTakeKittyPic2"
@@ -70,7 +70,7 @@ CLONE DEED "ScrubMedium" "AudiencePetKitty1"
 END
 
 CLONE TASK "BaseAudience" "AudiencePetKitty"
-    SET NAME "Acaricia la pancita de <CATNAME> el gato"
+    SET NAME "Acariciar la pancita del gato <CATNAME>"
 
     STEP "1" "AudiencePetKitty1"
 
@@ -99,7 +99,7 @@ CLONE DEED "PhoneBase" "AudienceFixVacuum1"
 END
 
 CLONE TASK "BaseAudience" "AudienceFixVacuum"
-    SET NAME "<CATNAME> el gato rompió el robot aspirador. Llama al fabricante."
+    SET NAME "El gato <CATNAME> rompió la aspiradora robot. Llama al fabricante."
     SET CAPTAIN "MATURE"
 
     STEP "1" "AudienceFixVacuum1"
@@ -115,7 +115,7 @@ CLONE DEED "SwipeBase" "AudienceCleanLitter1"
 END
 
 CLONE TASK "BaseAudience" "AudienceCleanLitter"
-    SET NAME "<CATNAME> el gato hizo un desastre. Barre la arena para gatos."
+    SET NAME "El gato <CATNAME> hizo un desastre. Barre la arena para gatos."
 
     STEP "1" "AudienceCleanLitter1"
 
@@ -129,7 +129,7 @@ CLONE DEED "Hold3" "AudienceMoveKitty1"
 END
 
 CLONE TASK "BaseAudience" "AudienceMoveKitty"
-    SET NAME "Empuja a <CATNAME> al gato de la computadora portátil"
+    SET NAME "Quita al gato <CATNAME> de la computadora portátil"
 
     STEP "1" "AudienceMoveKitty1"
 
@@ -145,8 +145,8 @@ END
 
 CLONE TASK "BaseAudience" "AudienceVetTrip"
     SET NAME "<CATNAME> está vomitando. Llévalo al veterinario"
-    SET ASKER_NAME "Obtén un viaje para llevar a <CATNAME> al veterinario"
-    SET HELPER_NAME "Lleva a <ASKER> para llevar <CATNAME> al veterinario"
+    SET ASKER_NAME "Obtener un viaje para llevar a <CATNAME> al veterinario"
+    SET HELPER_NAME "Conducir a <ASKER> para llevar a <CATNAME> al veterinario"
     SET CAPTAIN "MATURE"
 
     STEP "1" "AudienceVetTrip1"
@@ -157,12 +157,12 @@ END
 REM : Search for the cat
 REM : Spawned by DART_OUT
 CLONE DEED "SearchID" "AudienceFindKitty1"
-    SET INSTRUCTIONS "Busca el gato perdido"
+    SET INSTRUCTIONS "Busca al gato perdido"
     SET CONTENT_ID "OUTSIDE"
 END
 
 CLONE TASK "BaseAudience" "AudienceFindKitty"
-    SET NAME "¡<CATNAME> el gato salió de la casa!"
+    SET NAME "¡El gato <CATNAME> salió de la casa!"
 
     STEP "1" "AudienceFindKitty1"
 
@@ -177,7 +177,7 @@ CLONE DEED "DialogBase" "AudienceScoldKitty1"
 END
 
 CLONE TASK "BaseAudience" "AudienceScoldKitty"
-    SET NAME "Regaña a <CATNAME> el gato por arañar la buena silla"
+    SET NAME "Regaña al gato <CATNAME> por arañar la silla buena"
 
     STEP "1" "AudienceScoldKitty1"
     
@@ -191,7 +191,7 @@ CLONE DEED "Tap5" "AudiencePickUp1"
 END
 
 CLONE TASK "BaseAudience" "AudiencePickUp"
-    SET NAME "Recoge todas las cosas que <CATNAME> el gato tiró del escritorio"
+    SET NAME "Recoger todas las cosas que el gato <CATNAME> tiró del escritorio"
 
     STEP "1" "AudiencePickUp1"
 
@@ -201,11 +201,11 @@ END
 REM : Get new water
 REM : Spawned by PAW_WATER
 CLONE DEED "Rotate360" "AudienceGetWater1"
-    SET INSTRUCTIONS "Abre el grifo"
+    SET INSTRUCTIONS "Abre llave del agua"
 END
 
 CLONE DEED "Hold2" "AudienceGetWater2"
-    SET INSTRUCTIONS "Llénala"
+    SET INSTRUCTIONS "Llénalo"
 END
 
 CLONE DEED "Tap1" "AudienceGetWater3"
@@ -213,7 +213,7 @@ CLONE DEED "Tap1" "AudienceGetWater3"
 END
 
 CLONE TASK "BaseAudience" "AudienceGetWater"
-    SET NAME "<CATNAME> el gato volvió a meter una pata en el agua. Consigue una taza nueva."
+    SET NAME "El gato <CATNAME> volvió a meter una pata en tu agua. Consigue un vaso fresco."
 
     STEP "1" "AudienceGetWater1"
     STEP "2" "AudienceGetWater2"
@@ -231,7 +231,7 @@ CLONE DEED "Tap5" "AudiencePetKitty2"
 END
 
 CLONE TASK "BaseAudience" "AudiencePetKittyScratch"
-    SET NAME "Acaricia la pancita de <CATNAME> el gato"
+    SET NAME "Acariciar la pancita del gato <CATNAME>"
 
     STEP "1" "AudiencePetKitty1"
     STEP "2" "AudiencePetKitty2"

@@ -1,23 +1,23 @@
-MAIN(Vecino): Hola camarada, ¿Qué hay de nuevo?
+MAIN(Vecino): Hola, camarada, ¿qué hay de nuevo?
 -NORESPECT-> ¡Los niños de hoy en día no tienen modales!
 -PLENTYRESPECT> ¡Los niños de hoy en día tienen muchos modales!
 
-NORESPECT(Vecino): Tu lo has dicho, colega.
--NOTHINGHANDED-> Mmm, aunque supongo que nuestros niños trabajan bastante duro.
+NORESPECT(Vecino): Tú lo has dicho, colega.
+-NOTHINGHANDED-> Mmmh, aunque supongo que nuestros niños trabajan bastante duro.
 -EVERYTHINGHANDED-> ¡Estos niños desagradecidos tienen todo regalado!
 
-EVERYTHINGHANDED(Vecino): ¡Guau, sí que estás enfadado!
+EVERYTHINGHANDED(Vecino): ¡Vaya, sí que estás enfadado!
 -ANDONEMORETHING-> ¡Y una cosa más, mis hijos están demasiado consentidos!
 -THATSIT-> Y una cosa más, eh... emm...
 
 PLENTYRESPECT(Vecino): ¿Me alegro?
 -FAILURE-> Supongo que no me puedo quejar de mis hijos.
 
-NOTHINGHANDED(Vecino): ¡Los educaste bien, asumo!
+NOTHINGHANDED(Vecino): ¡Los criaste bien, supongo!
 -SUCCESS-> No tengo muchas quejas sobre mis hijos, considerándolo bien.
 
 THATSIT(Vecino): ¿No tienes nada más que quieras decir?
 -SUCCESS-> Supongo que solo tenía dos quejas sobre mis hijos.
 
-ANDONEMORETHING(Vecino): Vaya, ¡deberías visitar un terapeuta familiar!
+ANDONEMORETHING(Vecino): Guácala, ¡deberías visitar un terapeuta familiar!
 -SUCCESS-> Quién te preguntó.

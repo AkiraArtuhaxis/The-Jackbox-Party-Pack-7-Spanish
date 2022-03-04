@@ -1,4 +1,4 @@
-MAIN(Vecino): Hola vecino, creo que me llegó tu correo por accidente. Aquí tienes.
+MAIN(Vecino): Hola, vecino. Creo que me llegó tu correo por accidente. Aquí tienes.
 -THANKS-> Gracias, buen amigo
 -KEEPIT-> Puedes quedártelo
 -THIEF-> ¡Ladrón!
@@ -14,4 +14,4 @@ THIEF(Vecino): ¡Cómo te atreves! ¡Me quedaré con este folleto para secarme l
 -SUCCESS-> Sí que fue innecesario
 
 REWARD(Vecino): ¡Toma, como recompensa!
--SUCCESS-> Esos 2 dólares en monedas de 25 sí que le servirán al vecino
+-SUCCESS-> El vecino realmente necesitaba esos 2 dólares en monedas de 25 centavos

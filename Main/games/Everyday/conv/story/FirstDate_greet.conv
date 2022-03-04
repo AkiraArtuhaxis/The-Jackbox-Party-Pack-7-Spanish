@@ -7,14 +7,14 @@ COMEIN(Riley): ¡Tienes una casa tan bonita!
 -THANKS-> ¡Gracias, fue amueblada por demonios!
 -THANKS-> Bájale un tonito, Riley.
 
-THANKS(Riley): Estoy muy nerviosa.
+THANKS(Riley): Estoy muy nervioso.
 -SUCCESS-> Es agradable sentirse superior a un adolescente por una vez.
 
-DISH(Riley): Oh rayos. Oh no. Oh rayos.
+DISH(Riley): Oh, rayos. Oh, no. Oh, rayos.
 -SUCCESS-> He conseguido poner nerviosa a una adolescente vergonzosa.
 
-DONTSEE(Riley): Uh... bien... ¿la gente me dice que tengo una sonrisa agradable?
--SUCCESS-> Tomaré tu palabra por ello.
+DONTSEE(Riley): Eh... bien... ¿La gente me dice que tengo una sonrisa agradable?
+-SUCCESS-> Tomaré tu palabra.
 -SMILE-> Demuéstralo.
 
 SMILE(Riley): *Sonríe incómodamente*

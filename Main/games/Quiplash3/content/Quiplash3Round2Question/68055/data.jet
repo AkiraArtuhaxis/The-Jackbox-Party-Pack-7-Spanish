@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "pedo|pasar gas|cortar uno|pasar viento|pedorrearse|pasando gas|pasando viento|cortando uno|rasgar uno|cortar el queso",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡Ah, sí, el truco mas viejo del mundo! No funciona en aviones. Créanme, lo he intentado.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The best way to keep someone from sitting next to you on a bus",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "talk about how much you love the movie Speed|aggressive licking|introduce your ventriloquist's dummy",
+   "n": "SafetyQuips"
+  }
+ ]
+}

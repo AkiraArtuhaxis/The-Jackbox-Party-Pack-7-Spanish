@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "R.L. Stine|RL Stine|R L Stine|R. L. Stine|R.L. Stein|RL Stein|R. L. Stein|R L Stein|R.L. Stien|RL Stien|R L Stien|R. L. Stien",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Em, sí, eso es técnicamente cierto, supongo\nOR\n¿El muñeco de ventrílocuo asustó a alguien más?",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The leading cause of goosebumps, probably",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Timothée Chalamet|soft serve in a baseball helmet|the news",
+   "n": "SafetyQuips"
+  }
+ ]
+}

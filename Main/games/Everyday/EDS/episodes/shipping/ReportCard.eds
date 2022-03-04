@@ -1,10 +1,10 @@
 DEF EPISODE "ReportCard"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Pasa/Falla"
-    SET DESCRIPTION "<font color='#AF0000'>Las tarjetas de informe</font>  están en el correo. Algunas son buenas y otras son malas. ¿Puede la familia sobrevivir a estos altibajos académicos?"
-    SET SUCCESS_MESSAGE "Las buenas calificaciones fueron recompensadas, las malas calificaciones fueron abordadas y todos los demonios obtienen una 'A' por 'Dinámicas Familiares Adecuadas.' Pero también una nota real."
-    SET FAILURE_MESSAGE "La familia ha fracasado, y tendrán que repetir estas interacciones sociales este verano. Pueden empezar escribiendo 'He fallado en los juegos de grupo' 100 veces en la pizarra más cercana."
+    SET NAME "Aprobar/Reprobar"
+    SET DESCRIPTION "<font color='#AF0000'>Las calificaciones</font>  están en el correo. Algunas son buenas y otras son malas. ¿Podrá la familia sobrevivir a estos altibajos académicos?"
+    SET SUCCESS_MESSAGE "Las buenas calificaciones fueron recompensadas, las malas calificaciones fueron abordadas y todos los demonios obtienen un '10' por '10 Dinámicas Familiares Adecuadas'. Pero también una nota real."
+    SET FAILURE_MESSAGE "La familia ha fracasado, y tendrán que repetir estas interacciones sociales este verano. Pueden empezar escribiendo 'Reprobé en los juegos de fiesta' 100 veces en la pizarra más cercana."
 
 
     REM : ------------------------------
@@ -45,11 +45,11 @@ REM : Define this episode's story tasks below
 
 REM : Put A+ report card on fridge
 CLONE DEED "SwipeDown" "ReportCardFridge1"
-    SET INSTRUCTIONS "Elimina la foto del hermano"
+    SET INSTRUCTIONS "Quita la foto de tu hermano"
 END
 
 CLONE DEED "Tap1" "ReportCardFridge2"
-    SET INSTRUCTIONS "Coloca la boleta de calificaciones en el refrigerador con un imán"
+    SET INSTRUCTIONS "Coloca las calificaciones en el refrigerador con un imán"
 END
 
 CLONE DEED "Tap1" "ReportCardFridge3"
@@ -57,7 +57,7 @@ CLONE DEED "Tap1" "ReportCardFridge3"
 END
 
 DEF TASK "ReportCardFridge"
-    SET NAME "Pon la boleta de calificaciones de '10' en el refrigerador"
+    SET NAME "Poner las calificaciones de '10' en el refrigerador"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -78,11 +78,11 @@ CLONE DEED "Tap4" "ChangeReportCard1"
 END
 
 CLONE DEED "Rotate180" "ChangeReportCard2"
-    SET INSTRUCTIONS "Quita boleta de calificaciones REAL"
+    SET INSTRUCTIONS "Quita las calificaciones REALES"
 END
 
 CLONE DEED "Rotate180Counter" "ChangeReportCard3"
-    SET INSTRUCTIONS "Inserta la boleta de calificaciones DECOY"
+    SET INSTRUCTIONS "Inserta las calificaciones SEÑUELO"
 END
 
 CLONE DEED "QuickTap4" "ChangeReportCard4"
@@ -90,7 +90,7 @@ CLONE DEED "QuickTap4" "ChangeReportCard4"
 END
 
 DEF TASK "ChangeReportCard"
-    SET NAME "Intercepta y cambia la boleta de calificaciones incorrecta"
+    SET NAME "Interceptar y cambiar las calificaciones malas"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -109,7 +109,7 @@ END
 
 REM : Call teen's teacher
 CLONE DEED "PhoneID" "CallTeenTeacher1"
-    SET INSTRUCTIONS "Llama a la profesora de la persona joven"
+    SET INSTRUCTIONS "Llama a la profesora del joven"
     SET CONTENT_ID "YANLUO"
 END
 
@@ -119,7 +119,7 @@ CLONE DEED "DialogID" "CallTeenTeacher2"
 END
 
 DEF TASK "CallTeenTeacher"
-    SET NAME "Llamar a la profesora de la persona joven"
+    SET NAME "Llamar a la profesora del joven"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -136,11 +136,11 @@ REM : -------------------------------------------------
 
 REM : Take teen's phone
 CLONE DEED "Nothing3" "TakeTeenPhone1"
-    SET INSTRUCTIONS "Mira hacia abajo a la persona joven"
+    SET INSTRUCTIONS "Mira hacia abajo al joven"
 END
 
 CLONE DEED "SwipeUp" "TakeTeenPhone2"
-    SET INSTRUCTIONS "Extiende la mano para su teléfono"
+    SET INSTRUCTIONS "Extiende la mano para el teléfono"
 END
 
 CLONE DEED "Tap1" "TakeTeenPhone3"
@@ -152,7 +152,7 @@ CLONE DEED "Tap1" "TakeTeenPhone4"
 END
 
 DEF TASK "TakeTeenPhone"
-    SET NAME "Quitarle el teléfono a la persona joven como castigo"
+    SET NAME "Quitarle el teléfono al joven como castigo"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -171,14 +171,14 @@ END
 
 REM : Redeem good grades for pizza
 CLONE DEED "TravelID" "TravelPizzaRedeem"
-    SET INSTRUCTIONS "Conduce a Pizzeria Divertida"
+    SET INSTRUCTIONS "Conduce a la Pizzería Divertida"
     SET CONTENT_ID "PIZZA_FUN_TI"
 END
 
 DEF TASK "TravelPizzaRedeem"
-    SET NAME "Canjea tus buenas calificaciones por pizza"
-    SET ASKER_NAME "Obtén un viaje para canjear buenas calificaciones por pizza"
-    SET HELPER_NAME "Lleva a <ASKER> para canjear buenas calificaciones por pizza"
+    SET NAME "Canjear buenas calificaciones por pizza"
+    SET ASKER_NAME "Obtener un viaje para canjear las buenas calificaciones por pizza"
+    SET HELPER_NAME "Llevar a <ASKER> para canjear las buenas calificaciones por pizza"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -192,7 +192,7 @@ END
 
 REM : Steal phone back from parents
 CLONE DEED "Tap3" "StealBackPhone1"
-    SET INSTRUCTIONS "Marcha a la habitación de los padres"
+    SET INSTRUCTIONS "Arrástrate a la habitación de tus padres"
 END
 
 CLONE DEED "SwipeUp" "StealBackPhone2"
@@ -200,7 +200,7 @@ CLONE DEED "SwipeUp" "StealBackPhone2"
 END
 
 CLONE DEED "QuickTap5" "StealBackPhone3"
-    SET INSTRUCTIONS "Envía mensajes de texto a tus amigos: 'Teléfono fuera. Usen telégrafo."
+    SET INSTRUCTIONS "Envía mensajes de texto a tus amigos: 'No hay teléfono. Usen el telégrafo.'"
 END
 
 CLONE DEED "SwipeDown" "StealBackPhone4"
@@ -208,7 +208,7 @@ CLONE DEED "SwipeDown" "StealBackPhone4"
 END
 
 DEF TASK "StealBackPhone"
-    SET NAME "Roba tu teléfono de vuelta"
+    SET NAME "Recuperar tu teléfono"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -235,9 +235,9 @@ CLONE DEED "FindCategory" "FindToy"
 END
 
 DEF TASK "FindToy"
-    SET NAME "Elige un nuevo juguete como recompensa"
-    SET ASKER_NAME "Obtén ayuda para elegir un nuevo juguete de recompensa"
-    SET HELPER_NAME "Ayuda a <PEDIDOR> a elegir un nuevo juguete de recompensa"
+    SET NAME "Elegir un nuevo juguete como recompensa"
+    SET ASKER_NAME "Pedir ayuda para elegir un nuevo juguete de recompensa"
+    SET HELPER_NAME "Ayudar a <ASKER> a elegir un nuevo juguete de recompensa"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -255,9 +255,9 @@ CLONE DEED "TextBase" "TextMakeUpWork"
 END
 
 DEF TASK "TextMakeUpWork"
-    SET NAME "Haz la tarea de recuperatorio"
-    SET ASKER_NAME "Obtén ayuda de tus padres con tu tarea de recuperatorio"
-    SET HELPER_NAME "Ayuda a <PEDIDOR> con su tarea de recuperatorio"
+    SET NAME "Hacer la tarea de recuperación"
+    SET ASKER_NAME "Pedir ayuda de tus padres con tu tarea de recuperación"
+    SET HELPER_NAME "Ayudar a <ASKER> con su tarea de recuperación"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "STORY"
@@ -279,7 +279,7 @@ CLONE DEED "Tap2" "DigOutReportCards2"
 END
 
 CLONE DEED "Nothing3" "DigOutReportCards3"
-    SET INSTRUCTIONS "Mira tus viejas calificaciones con horror"
+    SET INSTRUCTIONS "Mira fijamente tus viejas calificaciones con horror"
 END
 
 CLONE DEED "Tap1" "DigOutReportCards4"
@@ -287,7 +287,7 @@ CLONE DEED "Tap1" "DigOutReportCards4"
 END
 
 DEF TASK "DigOutReportCards"
-    SET NAME "Desentierra tus viejas boletas de calificaciones"
+    SET NAME "Desenterrar tus viejas calificaciones"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -307,11 +307,11 @@ END
 
 REM : Play eductaional board game 
 CLONE DEED "Nothing4" "EduGame"
-    SET INSTRUCTIONS "¡Diviértete siendo edu-cado!"
+    SET INSTRUCTIONS "¡Diviértete siendo educado!"
 END
 
 DEF TASK "EduGame"
-    SET NAME "Juega un juego de mesa educativo en familia"
+    SET NAME "Jugar a un juego de mesa educativo en familia"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

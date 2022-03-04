@@ -1,14 +1,14 @@
-MAIN(Niño vecino): Hola, estoy vendiendo revistas. ¿Cuál le gustaría comprar?
+MAIN(Niño vecino): Hola, me gustaría venderle algunas revistas. ¿Cuál le gustaría comprar?
 -GARDENS-> Germina Jardines
 -CELEB-> Almuerzos de famosos
--DOGS-> Perros y armamento
+-DOGS-> Perros y Munición
 -NONE-> No somos ávidos lectores
 
 GARDENS(Niño vecino): ¡Genial! ¡Firma aquí!
--SUCCESS-> Solo mayores aburridos pueden leer esta revista.
+-SUCCESS-> Esta revista es solo para adultos aburridos.
 
 CELEB(Niño vecino): ¡Genial! ¡Firma aquí!
--SUCCESS-> Voy a buscar una buena receta de sandwich.
+-SUCCESS-> Voy a buscar una buena receta de sándwich.
 
 DOGS(Niño vecino): ¡Genial! ¡Firma aquí!
 -SUCCESS-> Seguro que ahora estoy en una lista de vigilancia.
@@ -20,5 +20,5 @@ NONE(Niño vecino): Rayos, ¿en serio?
 TRYAGAIN(Niño vecino):
 -GARDENS-> Germina Jardines
 -CELEB-> Almuerzos de famosos
--DOGS-> Perros y munición
+-DOGS-> Perros y Munición
 -NONE-> ¡Muerte a las publicaciones impresas!

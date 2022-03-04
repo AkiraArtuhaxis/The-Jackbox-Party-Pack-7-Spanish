@@ -1,7 +1,7 @@
 REM : Take Out Trash
 
 CLONE DEED "Tap2" "CrushBags"
-    SET INSTRUCTIONS "Machaca las bolsas"
+    SET INSTRUCTIONS "Tritura las bolsas"
 END
 
 CLONE DEED "SwipeDown" "Squash"
@@ -12,7 +12,7 @@ DEF TASK "TakeOutTrash2"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
     SET THEME "CLEANING"
-    SET NAME "Saca la basura"
+    SET NAME "Sacar la basura"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "LOW"
 
@@ -43,7 +43,7 @@ DEF TASK "WashTheCar2"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
     SET THEME "CLEANING"
-    SET NAME "Lava el auto"
+    SET NAME "Lavar el auto"
     SET CAPTAIN "YOUNG"
 
     STEP "HOSE" "Hose"
@@ -74,7 +74,7 @@ CLONE DEED "SwipeUp" "HomeworkFlipTable"
 END
 
 DEF TASK "DoHomework"
-    SET NAME "Haz la tarea"
+    SET NAME "Hacer la tarea"
     SET THEME "PAPERWORK"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -108,7 +108,7 @@ CLONE DEED "SwipeRight" "Rake1Step3"
 END
 
 DEF TASK "RakeLeaves1"
-    SET NAME "Rastrilla las hojas"
+    SET NAME "Rastrillar las hojas"
     SET THEME "YARD_WORK"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -179,7 +179,7 @@ DEF TASK "BrushYourTeeth"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
     SET THEME "BATHROOM"
-    SET NAME "Lava tus dientes"
+    SET NAME "Cepilla tus dientes"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "LOW"
 
@@ -208,15 +208,15 @@ CLONE DEED "SwipeLeft" "MowTurnAround"
 END
 
 CLONE DEED "SwipeRight" "MowMiss"
-    SET INSTRUCTIONS "Todavía me lo perdí de alguna manera"
+    SET INSTRUCTIONS "De alguna manera, me faltó de nuevo"
 END
 
 CLONE DEED "SwipeUp" "MowDone"
-    SET INSTRUCTIONS "Eh, Ya es suficiente por hoy"
+    SET INSTRUCTIONS "Eh, ya es suficiente por hoy"
 END
 
 DEF TASK "MowLawn"
-    SET NAME "Corta el patio"
+    SET NAME "Cortar el pasto"
     SET THEME "YARD_WORK"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "LOW"
@@ -243,7 +243,7 @@ CLONE DEED "SwipeLeft" "OrigamiCrane1"
 END
 
 CLONE DEED "ScrubShort" "OrigamiCrane2"
-    SET INSTRUCTIONS "Alisa las arrugas"
+    SET INSTRUCTIONS "Alisa los pliegues"
 END
 
 CLONE DEED "SwipeRight" "OrigamiCrane3"
@@ -255,11 +255,11 @@ CLONE DEED "SwipeLeft" "OrigamiCrane4"
 END
 
 CLONE DEED "Hold5" "OrigamiCrane5"
-    SET INSTRUCTIONS "...conformate con la paloma de origami"
+    SET INSTRUCTIONS "...confórmate con la paloma de origami"
 END
 
 DEF TASK "OrigamiCrane"
-    SET NAME "Haz una grulla de origami"
+    SET NAME "Hacer una grulla de origami"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "LOW"
     SET THEME "DECORATING"
@@ -291,7 +291,7 @@ CLONE DEED "DialogBase" "PrankCallBusiness2"
 END
 
 DEF TASK "PrankCallBusiness"
-    SET NAME "Llama a un negocio local para bromear con ellos"
+    SET NAME "Hacer broma telefónica a un negocio local"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "MEDIUM"
     SET THEME "TALKING"
@@ -307,7 +307,7 @@ END
 REM : Try on your new pants
 
 CLONE DEED "SwipeRight" "NewPants1"
-    SET INSTRUCTIONS "¡Abre tus nuevos jeans ajustados!"
+    SET INSTRUCTIONS "¡Abre tus nuevos pantalones ajustados!"
 END
 
 CLONE DEED "SwipeUp" "NewPants2"
@@ -319,11 +319,11 @@ CLONE DEED "SwipeUp" "NewPants3"
 END
 
 CLONE DEED "QuickTap5" "NewPants4"
-    SET INSTRUCTIONS "Salta un poco para levantarlos"
+    SET INSTRUCTIONS "Salta un poco para que suban"
 END
 
 CLONE DEED "Nothing3" "NewPants5"
-    SET INSTRUCTIONS "Consigue un poco de ayuda..."
+    SET INSTRUCTIONS "Consigue ayuda..."
 END
 
 CLONE DEED "Hold3" "NewPants6"
@@ -331,7 +331,7 @@ CLONE DEED "Hold3" "NewPants6"
 END
 
 DEF TASK "NewPants"
-    SET NAME "Pruebate tus nuevos pantalones"
+    SET NAME "Probarse los nuevos pantalones"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "MEDIUM"
     SET THEME "CLOTHES"

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> cerveza | cerveza|<ARTICLE> paquete de seis | paquete de seis|<ARTICLE> paquete de seis de cerveza | paquete de seis de cerveza|<ARTICLE> botella de cerveza | botella de cerveza|<ARTICLE> lata de cerveza | lata de cerveza|<ARTICLE> cerveza en botella | cerveza en botella|<ARTICLE> paquete de seis | paquete de seis|<ARTICLE> cerveza en paquete de seis | cerveza en paquete de seis|<ARTICLE>  paquete de 6 | paquete de 6|<ARTICLE> paquete de 6 de cerveza | paquete de 6 de cerveza|<ARTICLE> paquete 6 | paquete 6|<ARTICLE> paquete 6 de cerveza | paquete 6 de cerveza",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "(Schmitty se atraganta) Un centro de mesa de cerveza para papá. Ah, hijo, eso me llega justo en el corazón. (eructa) Disculpa.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "If Father’s Day dinner were a tradition, what would be the table centerpiece?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a Big Mouth Billy Bass|a bouquet of wrenches|a bucket of Bud Light",
+   "n": "SafetyQuips"
+  }
+ ]
+}

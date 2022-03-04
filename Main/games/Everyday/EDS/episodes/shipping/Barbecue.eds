@@ -2,9 +2,9 @@ DEF EPISODE "Barbecue"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Sobre la parrillada..."
-    SET DESCRIPTION "El verano ha llegado y es el momento perfecto para una relajante <font color='#AF0000'>barbacoa</font> con los vecinos. ¿Podrá la familia pasar por una parrillada humana normal sin invitar a todo el vecindario, o serán rastrillados sobre las brasas?"
+    SET DESCRIPTION "El verano ha llegado y es el momento perfecto para una relajante <font color='#AF0000'>parrillada</font> con los vecinos. ¿Podrá la familia pasar por una parrillada humana normal sin invitar a todo el vecindario, o serán rastrillados sobre las brasas?"
     SET SUCCESS_MESSAGE "¡Nuestras redes de susurros informan que su pequeña fiesta al aire libre fue jugosa, sabrosa y no fue ni muy dulce ni salada! Cuando se trata de parrillar, esta familia está bien cocida. Ustedes me entienden."
-    SET FAILURE_MESSAGE "Nuestros parrilleros secretos oyeron que su barbacoa estaba atestada de gente, fue bochornosa, ¡y que ni siquiera proporcionaron una buena variedad de kebabs! Diviértanse rehabitando su césped en ruinas, junto con la salmonella."
+    SET FAILURE_MESSAGE "Nuestros parrilleros secretos oyeron que su parrillada estaba atestada de gente, fue bochornosa, ¡y que ni siquiera proporcionaron una buena variedad de kebabs! Diviértanse rehabitando su pasto en ruinas, junto con la salmonella."
 
 
     REM : ------------------------------
@@ -45,12 +45,12 @@ REM : ------------------------------
 
 REM : Define this episode's story tasks below
 CLONE DEED "DialogID" "InviteNeighborsBBQ"
-    SET INSTRUCTIONS "Invita a los vecinos a la Barbacoa"
+    SET INSTRUCTIONS "Invita a los vecinos a la parrillada"
     SET CONTENT_ID "BARBECUE_INVITE1"
 END
 
 DEF TASK "InviteNeighborsBBQ"
-    SET NAME "Invitar vecinos a la barbacoa"
+    SET NAME "Invitar vecinos a la parrillada"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -129,12 +129,12 @@ END
 
 REM : Invite a date without permission
 CLONE DEED "DialogID" "TeenInviteSO"
-    SET INSTRUCTIONS "Invita a una cita a la barbacoa sin permiso"
+    SET INSTRUCTIONS "Invita a una cita a la parrillada sin permiso"
     SET CONTENT_ID "BARBECUE_INVITE3"
 END
 
 DEF TASK "TeenInviteSO"
-    SET NAME "Invitar a una cita a la barbacoa sin permiso"
+    SET NAME "Invitar a una cita a la parrillada sin permiso"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -163,7 +163,7 @@ END
 
 DEF TASK "UnfoldTable"
     SET NAME "Desplegar la mesa del patio trasero"
-    SET ASKER_NAME "Obtener ayuda para desplegar la mesa del patio trasero"
+    SET ASKER_NAME "Pedir ayuda para desplegar la mesa del patio trasero"
     SET HELPER_NAME "Ayudar a <ASKER> a desplegar la mesa del patio trasero"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
@@ -385,7 +385,7 @@ END
 
 DEF TASK "HideMeatShortage"
     SET NAME "Ocultar el hecho de que te has quedado sin carne"
-    SET ASKER_NAME "Obtener ayuda para ocultar el hecho de que te has quedado sin carne"
+    SET ASKER_NAME "Pedir ayuda para ocultar el hecho de que te has quedado sin carne"
     SET HELPER_NAME "Ayudar a <ASKER> a ocultar el hecho de que te has quedado sin carne"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"

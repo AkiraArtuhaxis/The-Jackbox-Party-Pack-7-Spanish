@@ -71,8 +71,8 @@ END
 
 DEF TASK "SoupUpMower"
     SET NAME "Mejorar la cortadora de pasto"
-    SET ASKER_NAME "Obtener ayuda para mejorar la cortadora de pasto"
-    SET HELPER_NAME "Ayuda a <ASKER> a mejorar la cortadora de pasto"
+    SET ASKER_NAME "Pedir ayuda para mejorar la cortadora de pasto"
+    SET HELPER_NAME "Ayudar a <ASKER> a mejorar la cortadora de pasto"
     SET CAPTAIN "YOUNG"
     SET PARTICIPANT "ADULTS"
     SET CATEGORY "STORY"
@@ -102,8 +102,8 @@ END
 
 DEF TASK "Topiary"
     SET NAME "Diseñar una instalación de poda ornamental complicada"
-    SET ASKER_NAME "Obtener ayuda para diseñar una instalación de poda ornamental"
-    SET HELPER_NAME "Ayuda a <ASKER> para diseñar una instalación de poda ornamental"
+    SET ASKER_NAME "Pedir ayuda para diseñar una instalación de poda ornamental"
+    SET HELPER_NAME "Ayudar a <ASKER> para diseñar una instalación de poda ornamental"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -117,7 +117,7 @@ END
 
 REM : Mow the lawn
 CLONE TASK "MowLawn" "ContestMowLawn"
-    SET NAME "Corta el pasto para el concurso"
+    SET NAME "Cortar el pasto para el concurso"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -178,8 +178,8 @@ DEF TASK "BuyMulch"
     SET NAME "Conducir hasta la ciudad para obtener más abono"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
-    SET ASKER_NAME "Ir con los padres a la ciudad para obtener más abono"
-    SET HELPER_NAME "Conduce con <ASKER> a la ciudad para obtener más abono"
+    SET ASKER_NAME "Ir con tus padres a la ciudad para obtener más abono"
+    SET HELPER_NAME "Conducir con <ASKER> a la ciudad para obtener más abono"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>

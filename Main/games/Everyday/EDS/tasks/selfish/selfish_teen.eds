@@ -7,7 +7,7 @@ END
 DEF TASK "FlipTable"
     SET DURATION <2H>
     REM : SELFISH TIMEOUT
-    SET NAME "Voltea una mesa del enojo"
+    SET NAME "Voltear una mesa del enojo"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
     SET CANCELER "SelfishCanceler"
@@ -37,7 +37,7 @@ CLONE DEED "SwipeDown" "MagazineStep3"
 END
 
 DEF TASK "HideMagazine"
-    SET NAME "Esconde revista para adultos"
+    SET NAME "Esconder la revista para adultos"
     SET THEME "SELFISH"
     SET CAPTAIN "TEENS"
     SET CATEGORY "SELFISH"
@@ -65,7 +65,7 @@ CLONE DEED "SwipeUp" "SneakOutStep1"
 END
 
 CLONE DEED "Hold10" "SneakOutStep2"
-    SET INSTRUCTIONS "Silensiosamente sal por la ventana"
+    SET INSTRUCTIONS "Sal por la ventana silenciosamente"
 END
 
 CLONE DEED "Hold10" "SneakOutStep3"
@@ -77,7 +77,7 @@ CLONE DEED "QuickTap5" "SneakOutStep4"
 END
 
 DEF TASK "SneakOutBase"
-    SET NAME "Escápate"
+    SET NAME "Escaparse"
     SET CAPTAIN "TEENS"
     SET DURATION <2H>
     REM : SELFISH TIMEOUT
@@ -121,7 +121,7 @@ CLONE DEED "Nothing5" "CoasterStep4"
 END
 
 DEF TASK "Coaster"
-    SET NAME "Niegate a usar un reposavasos"
+    SET NAME "Negarse a usar un posavasos"
     SET THEME "SELFISH"
     SET CAPTAIN "TEENS"
     SET CATEGORY "SELFISH"
@@ -145,7 +145,7 @@ END
 REM : Get Grandpa started on politics
 
 CLONE DEED "Tap1" "GrandpaPolitics1"
-    SET INSTRUCTIONS "Haz una pregunta inocua"
+    SET INSTRUCTIONS "Haz una pregunta inofensiva"
 END
 
 CLONE DEED "HoldBase" "GrandpaPolitics2"
@@ -159,7 +159,7 @@ CLONE DEED "NothingBase" "GrandpaPolitics3"
 END
 
 DEF TASK "GrandpaPolitics"
-    SET NAME "Haz que el abuelo hable de política"
+    SET NAME "Hacer que el abuelo hable de política"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -180,23 +180,23 @@ END
 REM : Watch "Graphic" Television Show
 
 CLONE DEED "Tap2" "GraphicTV1"
-    SET INSTRUCTIONS "Pone 'Cirugías innecesarias'"
+    SET INSTRUCTIONS "Pon 'Cirugías innecesarias'"
 END
 
 CLONE DEED "SwipeUp" "GraphicTV2"
-    SET INSTRUCTIONS "Cubrete los ojos"
+    SET INSTRUCTIONS "Cúbrete los ojos"
 END
 
 CLONE DEED "SwipeDown" "GraphicTV3"
-    SET INSTRUCTIONS "Olvídalo... debo ver esto"
+    SET INSTRUCTIONS "No importa... debes verlo"
 END
 
 CLONE DEED "Nothing5" "GraphicTV4"
-    SET INSTRUCTIONS "Observa aterrorizado"
+    SET INSTRUCTIONS "Mira aterrorizado a la nada"
 END
 
 DEF TASK "GraphicTV"
-    SET NAME "Ve un programa de televisión 'gráfico'"
+    SET NAME "Ver un programa de televisión 'gráfico'"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -224,7 +224,7 @@ CLONE DEED "Tap1" "HogBathroom1"
 END
 
 CLONE DEED "Hold5" "HogBathroom2"
-    SET INSTRUCTIONS "Aplánate el pelo"
+    SET INSTRUCTIONS "Alísate el pelo"
 END
 
 CLONE DEED "Nothing5" "HogBathroom3"
@@ -232,11 +232,11 @@ CLONE DEED "Nothing5" "HogBathroom3"
 END
 
 CLONE DEED "Hold5" "HogBathroom4"
-    SET INSTRUCTIONS "Clava ese estilo"
+    SET INSTRUCTIONS "Luce ese estilo"
 END
 
 DEF TASK "HogBathroom"
-    SET NAME "Acaparate el baño"
+    SET NAME "Acapararse el baño"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -268,7 +268,7 @@ CLONE DEED "Hold4" "UseUpData2"
 END
 
 CLONE DEED "Hold4" "UseUpData3"
-    SET INSTRUCTIONS "Transmitelo para tus amigos"
+    SET INSTRUCTIONS "Transmite para tus amigos"
 END
 
 CLONE DEED "Tap1" "UseUpData4"
@@ -280,7 +280,7 @@ CLONE DEED "Hold4" "UseUpData5"
 END
 
 DEF TASK "UseUpData"
-    SET NAME "Usa todos los datos"
+    SET NAME "Usar todos los datos"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -310,7 +310,7 @@ END
 
 CLONE DEED "HoldBase""TrentTalk2"
     SET DURATION 5S
-    SET INSTRUCTIONS "habla con Trent"
+    SET INSTRUCTIONS "Habla con Trent"
 END
 
 CLONE DEED "SwipeUp" "TrentTalk3"
@@ -322,7 +322,7 @@ CLONE DEED "Tap1" "TrentTalk4"
 END
 
 DEF TASK "TrentTalk"
-    SET NAME "Bloquea el teléfono hablando con Trent"
+    SET NAME "Bloquear el teléfono hablando con Trent"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -358,7 +358,7 @@ CLONE DEED "Hold3" "TakeSelfie3"
 END
 
 DEF TASK "TakeSelfieBase"
-    SET NAME "Toma una selfie"
+    SET NAME "Tomar una selfie"
     SET CAPTAIN "TEENS"
     SET DURATION <2H>
     REM : SELFISH TIMEOUT
@@ -385,11 +385,11 @@ END
 REM : "Borrow" parent's credit card
 
 CLONE DEED "SwipeUp" "BorrowCreditCard1"
-    SET INSTRUCTIONS "Recoge tu billetera"
+    SET INSTRUCTIONS "Recoge la billetera"
 END
 
 CLONE DEED "ScrubShort" "BorrowCreditCard2"
-    SET INSTRUCTIONS "Ordena según el contenido"
+    SET INSTRUCTIONS "Clasifica los contenidos"
 END
 
 CLONE DEED "Nothing5" "BorrowCreditCard3"
@@ -397,15 +397,15 @@ CLONE DEED "Nothing5" "BorrowCreditCard3"
 END
 
 CLONE DEED "Hold5" "BorrowCreditCard4"
-    SET INSTRUCTIONS "Empuja hacia abajo la culpa"
+    SET INSTRUCTIONS "Presiona el sentimiento de culpa"
 END
 
 CLONE DEED "SwipeUp" "BorrowCreditCard5"
-    SET INSTRUCTIONS "¡Tómala! ¡Sólo tómala!"
+    SET INSTRUCTIONS "¡Tómala! ¡Solo tómala!"
 END
 
 DEF TASK "BorrowCreditCard"
-    SET NAME "'Pedir prestada' la tarjeta de crédito de los padres"
+    SET NAME "'Pedir prestada la tarjeta de crédito de tus padres"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -439,11 +439,11 @@ CLONE DEED "Nothing5" "IHateYou2"
 END
 
 CLONE DEED "SwipeRight" "IHateYou3"
-    SET INSTRUCTIONS "Cierra la puerta de tu habitación de un portazo"
+    SET INSTRUCTIONS "Da un portazo a la puerta de tu habitación"
 END
 
 DEF TASK "IHateYou"
-    SET NAME "Grita '¡Te odio!' y golpea la puerta"
+    SET NAME "Gritar '¡Te odio!' y dar un portazo"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -468,11 +468,11 @@ CLONE DEED "Hold3" "Mope1"
 END
 
 CLONE DEED "Nothing3" "Mope2"
-    SET INSTRUCTIONS "Actua con indiferencia"
+    SET INSTRUCTIONS "Actúa con indiferencia"
 END
 
 CLONE DEED "SwipeUp" "Mope3"
-    SET INSTRUCTIONS "Mira a tus padres"
+    SET INSTRUCTIONS "Mira de reojo a tus padres"
 END
 
 DEF TASK "Mope"
@@ -506,15 +506,15 @@ CLONE DEED "SwipeDown" "Joyride2"
 END
 
 CLONE DEED "Rotate1080Counter" "Joyride3"
-    SET INSTRUCTIONS "¡Ahh, te diriges al buzón! ¡Vira!"
+    SET INSTRUCTIONS "¡Ahh, vas directo al buzón! ¡Vira rápido!"
 END
 
 CLONE DEED "SwipeUp" "Joyride4"
-    SET INSTRUCTIONS "Aparca antes de que te culpen por eso"
+    SET INSTRUCTIONS "Estaciona antes de que te culpen por eso"
 END
 
 DEF TASK "Joyride"
-    SET NAME "Pasea en el coche de tus padres"
+    SET NAME "Pasear en el auto de tus padres"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -537,19 +537,19 @@ END
 REM : Hide younger sibling's toys
 
 CLONE DEED "Tap1" "HideToys1"
-    SET INSTRUCTIONS "Agarra el preciado yo-yo"
+    SET INSTRUCTIONS "Agarra el preciado yoyó"
 END
 
 CLONE DEED "Hold4" "HideToys2"
-    SET INSTRUCTIONS "Mete el yo-yo"
+    SET INSTRUCTIONS "Mete el yoyó"
 END
 
 CLONE DEED "Nothing4" "HideToys3"
-    SET INSTRUCTIONS "Actua con indiferencia"
+    SET INSTRUCTIONS "Actúa indiferente"
 END
 
 DEF TASK "HideToys"
-    SET NAME "Esconde los juguetes de tu hermano menor"
+    SET NAME "Esconder los juguetes de tu hermano menor"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -569,7 +569,7 @@ END
 REM : Make a shrine to your favorite K-pop star
 
 CLONE DEED "QuickTap3" "KpopShrine1"
-    SET INSTRUCTIONS "Encuentra las fotos perfectas en la revista CelebChatz"
+    SET INSTRUCTIONS "Encuentra las fotos perfectas en la revista Charlas de Famosos"
 END
 
 CLONE DEED "Hold3" "KpopShrine2"
@@ -577,15 +577,15 @@ CLONE DEED "Hold3" "KpopShrine2"
 END
 
 CLONE DEED "Nothing3" "KpopShrine3"
-    SET INSTRUCTIONS "Sueña con tu eventual boda"
+    SET INSTRUCTIONS "Sueña con tu posible boda"
 END
 
 CLONE DEED "Hold3" "KpopShrine4"
-    SET INSTRUCTIONS "Llora abyectamente"
+    SET INSTRUCTIONS "Llora miserablemente"
 END
 
 DEF TASK "KpopShrine"
-    SET NAME "Haz un santuario a tu estrella favorita del K-pop"
+    SET NAME "Hacer un santuario a tu estrella de K-Pop favorita"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -611,7 +611,7 @@ CLONE DEED "SwipeRight" "HideManga1"
 END
 
 CLONE DEED "SwipeDown" "HideManga2"
-    SET INSTRUCTIONS "Coloca tu manga favorito 'Gatito Ninja Robot Luchador' dentro"
+    SET INSTRUCTIONS "Coloca tu manga favorito 'Gatito Robot Guerrero Ninja' dentro"
 END
 
 CLONE DEED "SwipeLeft" "HideManga3"
@@ -639,7 +639,7 @@ END
 REM : Call friend to gossip
 
 CLONE DEED "PhoneBase" "FriendGossip1"
-    SET INSTRUCTIONS "Llama a Chatty Carl"
+    SET INSTRUCTIONS "Llama a Carl Charlatán"
     SET CONTENT_ID "CHATTY_CARL"
 END
 
@@ -649,7 +649,7 @@ CLONE DEED "DialogBase" "FriendGossip2"
 END
 
 DEF TASK "FriendGossip"
-    SET NAME "Llama a un amigo para chismear"
+    SET NAME "Llamar a un amigo para chismear"
     SET CAPTAIN "TEENS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"

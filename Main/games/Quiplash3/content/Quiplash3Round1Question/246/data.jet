@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> cerveza| cervesa|<PRONOUN> cervezas | cervesas|<VERB> trago | trago|<PRONOUN> cerveza inglesa| cervesa inglesa|<PRONOUN> lager| lager|<PRONOUN> cerveza negra| cervesa negra|<PRONOUN> fermentar cerveza | fermentar cervesa|<VERB> ale| ale|<VERB> lager| lager|<PRONOUN> brewski | brewski | brewskies",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Mira, al tipo le gusta la cerveza. ¿Qué se le va a hacer? ¡No lo puedes cambiar! ¡No te lastimes de nuevo!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "He’s just not that into you... because he’s into <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Beyblades|perfecting his sourdough starter|stamp collecting",
+   "n": "SafetyQuips"
+  }
+ ]
+}

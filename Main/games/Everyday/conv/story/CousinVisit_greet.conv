@@ -1,13 +1,13 @@
 MAIN(Primo Rompo): ¿Dónde debo poner mi bolso?
--TOSS-> Tírala donde sea
--DOOR-> Déjala en la puerta
--NEVER-> Déjatela puesta.
+-TOSS-> Tíralo donde sea
+-DOOR-> Déjalo en la puerta
+-NEVER-> Déjatelo puesto.
 
 TOSS(Primo Rompo): *La arroja en una caja de vidrio*
--SUCCESS-> Dije donde sea
+-SUCCESS-> Yo dije donde sea
 
-DOOR(Primo Rompo): Sería mejor que lo alimentara primero entonces.
+DOOR(Primo Rompo): Entonces será mejor que lo alimente primero.
 -SUCCESS-> ¿Alimentar qué ahora?
 
-NEVER(Primo Rompo): Okey, entonces tengo que evitar las llamas.
+NEVER(Primo Rompo): Bueno, entonces tengo que evitar las llamas.
 -SUCCESS-> ...¿qué hay ahí?

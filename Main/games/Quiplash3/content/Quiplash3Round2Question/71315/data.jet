@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> no sé| no sé|<PRONOUN> no lo sé | no lo sé|<PRONOUN> nada | ninguno|<PRONOUN> nadita | nada|<PRONOUN> Nada | Nadita|qué importa|esto es estúpido|estupidez|esto es vergonzoso|<PRONOUN> ni idea | Ni idea|<PRONOUN> sin pistas | ni una pista|<PRONOUN> no importa | no me importa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Voy a ser sincero contigo. No puedo saber si no tenías nada mejor que escribir o si esta es una respuesta muy, muy buena.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The most noncommittal way of saying “I love you”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "ya know, you're alright|I love... texting you|OMG, you're so funny",
+   "n": "SafetyQuips"
+  }
+ ]
+}

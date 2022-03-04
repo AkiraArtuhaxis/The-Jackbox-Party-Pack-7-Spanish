@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Schmitty|Shmitty|Smitty|Schmittie|Shmittie|Smittie|<ARTICLE> anfitrión Quiplash | anfitrión Quiplash|<ARTICLE> anfitrión de Quiplash | Quiplash anfitrión",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¿Qué? ¡Estoy muy relajado! ¡Diablos, al menos no soy ese tipo de Bracketeering!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Reviews have been mixed for the new series <i>20 Minute Guided Meditations with</i> <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "nails on a chalkboard|an acid metal frontman|a rabid dog",
+   "n": "SafetyQuips"
+  }
+ ]
+}

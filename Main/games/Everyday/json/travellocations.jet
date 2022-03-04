@@ -3,25 +3,25 @@
         {
             "id": "ACTLIKE",
             "category": "ACTIVITY",
-            "name": "¡Actúa! (como si hubieras estado en la escuela de teatro)",
+            "name": "Actúa como si hubieras estado: escuela de teatro",
             "locationId": "NM"
         },
         {
             "id": "BASS_INSTINC",
             "category": "ACTIVITY",
-            "name": "Clases de guitarra Instintos Bajos",
+            "name": "Clases de guitarra Bajo Instinto",
             "locationId": "EE"
         },
         {
             "id": "BRASSY_BREND",
             "category": "ACTIVITY",
-            "name": "Lecciones de trompeta Brassy Brenda",
+            "name": "Lecciones de trompeta de Brassy Brenda",
             "locationId": "EJ"
         },
         {
             "id": "CANDOKENDU",
             "category": "ACTIVITY",
-            "name": "Kendo Puedes Hacerlo",
+            "name": "Kendo Leendo",
             "locationId": "WO"
         },
         {
@@ -45,7 +45,7 @@
         {
             "id": "DONNA_CHAFFI",
             "category": "ACTIVITY",
-            "name": "Estudio de baile Donna Chaffington",
+            "name": "Estudio de baile de Donna Chaffington",
             "locationId": "WG"
         },
         {
@@ -75,7 +75,7 @@
         {
             "id": "BESHAVE_YOUR",
             "category": "BARBER",
-            "name": "No Te Cortes",
+            "name": "Comcórtate",
             "locationId": "EA"
         },
         {
@@ -87,7 +87,7 @@
         {
             "id": "GINNY_ST._PO",
             "category": "BOSS",
-            "name": "Ginny St. Porridge",
+            "name": "Ginny San Porras",
             "locationId": "GD"
         },
         {
@@ -99,13 +99,13 @@
         {
             "id": "MARJORIE_HUM",
             "category": "BOSS",
-            "name": "Marjorie Humid",
+            "name": "Mayor Humedad",
             "locationId": "NW"
         },
         {
             "id": "YAMADA_HONEY",
             "category": "BOSS",
-            "name": "Yamada Honeycomb",
+            "name": "Yamada Depanal",
             "locationId": "LD"
         },
         {
@@ -129,19 +129,19 @@
         {
             "id": "LIGHTLY_STOL",
             "category": "CAR",
-            "name": "Coches (un poco) Robados",
+            "name": "Autos (un poco) Robados",
             "locationId": "NF"
         },
         {
             "id": "MID-LIFE_CRI",
             "category": "CAR",
-            "name": "Coches deportivos Crisis de media edad",
+            "name": "Coches deportivos Crisis de mediana edad",
             "locationId": "WO"
         },
         {
             "id": "ROB_CAMITTI’",
             "category": "CAR",
-            "name": "Coches Superfluos Rob Camitti",
+            "name": "Autos Superfluos Rob Camitti",
             "locationId": "NI"
         },
         {
@@ -165,19 +165,19 @@
         {
             "id": "VANCE_VANVAN",
             "category": "CAR",
-            "name": "Furgonetas Vance VanVan",
+            "name": "Camionetas de Cameron CamCam",
             "locationId": "LB"
         },
         {
             "id": "E.ROY_FINLEY",
             "category": "DENTIST",
-            "name": "Dentistas E.Roy Finley",
+            "name": "Dentistas E. Roy Finley",
             "locationId": "ET"
         },
         {
             "id": "JANET_BORGLE",
             "category": "DENTIST",
-            "name": "Odontóloga Janet Borgleman",
+            "name": "Odontóloga Janet Muella",
             "locationId": "EC"
         },
         {
@@ -195,13 +195,13 @@
         {
             "id": "VIVIAN_STICK",
             "category": "DENTIST",
-            "name": "Dentista Vivian Stickler",
+            "name": "Dentista Viviana Rigurosa",
             "locationId": "LD"
         },
         {
             "id": "ALL-IS-FROST",
             "category": "DESSERT",
-            "name": "Todo-Está-Congelado Helados",
+            "name": "Pura Escarcha Helados",
             "locationId": "CB"
         },
         {
@@ -231,7 +231,7 @@
         {
             "id": "DOCFRANK",
             "category": "DOCTOR",
-            "name": "Dr. Frank Spongemam",
+            "name": "Dr. Frank Esponja",
             "locationId": "N0"
         },
         {
@@ -261,7 +261,7 @@
         {
             "id": "PAY-BY-THE-M",
             "category": "ENTERTAINMENT",
-            "name": "Montañas Rusas Rublo Ruso",
+            "name": "Montañas Rusas de pago por minutos",
             "locationId": "AF"
         },
         {
@@ -273,13 +273,13 @@
         {
             "id": "THREE_MINUTE",
             "category": "ENTERTAINMENT",
-            "name": "Escape Rooms de 3 minutos",
+            "name": "Salas de escape de 3 minutos",
             "locationId": "LF"
         },
         {
             "id": "ANTENNA_RIPP",
             "category": "ERRAND",
-            "name": "Lavado de coches Destructores de Antenas",
+            "name": "Lavado de autos Rompe-Antenas",
             "locationId": "EV"
         },
         {
@@ -291,7 +291,7 @@
         {
             "id": "HAPPY_SCALES",
             "category": "ERRAND",
-            "name": "Salón Escamas Contentas de Lagartija",
+            "name": "Salón Escamas de Lagartija Felices",
             "locationId": "AC"
         },
         {
@@ -321,7 +321,7 @@
         {
             "id": "SHIRT-OUTTA-",
             "category": "ERRAND",
-            "name": "Camisetas-Sin-Suerte Tintorería",
+            "name": "Tintorería Camiseta Rota",
             "locationId": "EW"
         },
         {
@@ -363,7 +363,7 @@
         {
             "id": "RODENT_RAP",
             "category": "EXTERMINATOR",
-            "name": "Captura & Secuestra Roedores S.A",
+            "name": "Captura y Secuestro de Roedores S.A.",
             "locationId": "NL"
         },
         {
@@ -393,13 +393,13 @@
         {
             "id": "C.J._O’BALLY",
             "category": "FOOD",
-            "name": "Restaurante americano C.J. O’Ballyhoo",
+            "name": "Restaurante americano C.J. Balonoso",
             "locationId": "WD"
         },
         {
             "id": "CHIKN_4_U",
             "category": "FOOD",
-            "name": "Pollo Para Tí",
+            "name": "Pollo Para Ti",
             "locationId": "WO"
         },
         {
@@ -411,7 +411,7 @@
         {
             "id": "GAS_N_SUSHI",
             "category": "FOOD",
-            "name": "Gas N’ Sushi",
+            "name": "Bencina & Sushi",
             "locationId": "WK"
         },
         {
@@ -441,13 +441,13 @@
         {
             "id": "PHO-GETTA_BO",
             "category": "FOOD",
-            "name": "'Me olvidé' Servicio Telefónico",
+            "name": "Servicio Telefónico 'Me olvidé'",
             "locationId": "EM"
         },
         {
             "id": "PIZZA_FUN_TI",
             "category": "FOOD",
-            "name": "Pizzeria Divertida",
+            "name": "Pizzería Divertida",
             "locationId": "EQ"
         },
         {
@@ -459,7 +459,7 @@
         {
             "id": "THE_BACON_BA",
             "category": "FOOD",
-            "name": "El Granero del Bacon",
+            "name": "El Granero del Tocino",
             "locationId": "NJ"
         },
         {
@@ -495,7 +495,7 @@
         {
             "id": "WOK_THIS_WAY",
             "category": "FOOD",
-            "name": "Wok por Aquí",
+            "name": "Pasas por Aquí",
             "locationId": "LJ"
         },
         {
@@ -507,19 +507,19 @@
         {
             "id": "BUYNFOOD",
             "category": "GROCERY",
-            "name": "Comida y Compra",
+            "name": "Come y Compra",
             "locationId": "EO"
         },
         {
             "id": "GENTLYUSED",
             "category": "GROCERY",
-            "name": "Productos Uso Suave",
+            "name": "Productos de segunda mano",
             "locationId": "AF"
         },
         {
             "id": "MILESAISLES",
             "category": "GROCERY",
-            "name": "Mercado de oportunidad: Miles de Pasillos",
+            "name": "Mercado de descuentos: Pasa por los Pasillos",
             "locationId": "LH"
         },
         {
@@ -531,7 +531,7 @@
         {
             "id": "BIGROCK",
             "category": "MUSEUM",
-            "name": "Observatorio Astronómico Piedra Tremenda",
+            "name": "Observatorio Astronómico Tremenda Piedra",
             "locationId": "AL"
         },
         {
@@ -543,19 +543,19 @@
         {
             "id": "HAND_TURKEY_",
             "category": "MUSEUM",
-            "name": "Museo de Arte Con un Seis y un Cuatro",
+            "name": "Museo de Arte del Pavo de la Mano",
             "locationId": "N0"
         },
         {
             "id": "MUSEUM_OF_CL",
             "category": "MUSEUM",
-            "name": "Museo de Pegatinas de Coche Graciosas",
+            "name": "Museo de Pegatinas de Autos Graciosas",
             "locationId": "LC"
         },
         {
             "id": "MUSEUM_OF_PO",
             "category": "MUSEUM",
-            "name": "Museo de las Patatas con forma de Cosas",
+            "name": "Museo de las Papas con forma de Cosas",
             "locationId": "EJ"
         },
         {
@@ -573,13 +573,13 @@
         {
             "id": "PLANETARIUM_",
             "category": "MUSEUM",
-            "name": "El Planetario de los simios",
+            "name": "El Planetario de los Simios",
             "locationId": "CC"
         },
         {
             "id": "POPSICLE_STI",
             "category": "MUSEUM",
-            "name": "El Louvre de los Helados",
+            "name": "El Louvre de los Palitos de Helado",
             "locationId": "NL"
         },
         {
@@ -591,13 +591,13 @@
         {
             "id": "MUSEUM_ART",
             "category": "MUSEUM",
-            "name": "Museo del “Arte”",
+            "name": "El Museo de “Arte”",
             "locationId": "BG"
         },
         {
             "id": "MUSEUM_BENCHES",
             "category": "MUSEUM",
-            "name": "El Museo de los Bancos",
+            "name": "El Museo de los Banquillos",
             "locationId": "AK"
         },
         {
@@ -609,7 +609,7 @@
         {
             "id": "NASA",
             "category": "NASA",
-            "name": "Administracion del Espacio y Aerónautica Nacional",
+            "name": "Administración Nacional de Aeronáutica y el Espacio (NASA)",
             "locationId": "EL"
         },
         {
@@ -657,7 +657,7 @@
         {
             "id": "PARTYTOWNSHIP",
             "category": "PARTY",
-            "name": "Municipio Festivo",
+            "name": "Municipio del Partido",
             "locationId": "LN"
         },
         {
@@ -675,7 +675,7 @@
         {
             "id": "ALFRED_J._CH",
             "category": "POSTOFFICE",
-            "name": "Oficina de correos Alfred J. Charon",
+            "name": "Oficina de correos Alfredo Loe Charon",
             "locationId": "LF"
         },
         {
@@ -693,55 +693,55 @@
         {
             "id": "ADRIAN_GOOF",
             "category": "RESIDENCE",
-            "name": "Adrian Goof",
+            "name": "Antón Tinn",
             "locationId": "EL"
         },
         {
             "id": "AGATHA_COFFI",
             "category": "RESIDENCE",
-            "name": "Agatha Coffin",
+            "name": "Agatha Taud",
             "locationId": "EX"
         },
         {
             "id": "AGNES_LONGBO",
             "category": "RESIDENCE",
-            "name": "Agnes Longbottom",
+            "name": "Agnes Culargo",
             "locationId": "NO"
         },
         {
             "id": "AILEEN_TWADD",
             "category": "RESIDENCE",
-            "name": "Aileen Twaddle",
+            "name": "Aileen Charlatana",
             "locationId": "EV"
         },
         {
             "id": "ALEJANDRA_RA",
             "category": "RESIDENCE",
-            "name": "Alejandra Raisinette",
+            "name": "Alejandra Chocopasas",
             "locationId": "NH"
         },
         {
             "id": "AMELIA_SMELT",
             "category": "RESIDENCE",
-            "name": "Amelia Smelting-Foxery",
+            "name": "Amelia Fundezorrería",
             "locationId": "WK"
         },
         {
             "id": "ARMANDO_QUIX",
             "category": "RESIDENCE",
-            "name": "Armando Quixote",
+            "name": "Armando Quijote",
             "locationId": "EJ"
         },
         {
             "id": "ARTIE_CLICKM",
             "category": "RESIDENCE",
-            "name": "Artie Clickman",
+            "name": "Arturo Cliqueador",
             "locationId": "AK"
         },
         {
             "id": "ASHOK_KUMARV",
             "category": "RESIDENCE",
-            "name": "Ashok Kumarvelous",
+            "name": "Ashok Kumaravilla",
             "locationId": "NW"
         },
         {
@@ -759,19 +759,19 @@
         {
             "id": "BERDIE_FABBL",
             "category": "RESIDENCE",
-            "name": "Berdie Fabble",
+            "name": "Bernardo Fabuloso",
             "locationId": "EW"
         },
         {
             "id": "BIKE_MILDER",
             "category": "RESIDENCE",
-            "name": "Bike Milder",
+            "name": "Bicicleta Sinamigos",
             "locationId": "AL"
         },
         {
             "id": "BONIFACE_CHE",
             "category": "RESIDENCE",
-            "name": "Boniface Cheebles",
+            "name": "Bonifacio Cheebles",
             "locationId": "GF"
         },
         {
@@ -783,49 +783,49 @@
         {
             "id": "BUD_NEEDLETO",
             "category": "RESIDENCE",
-            "name": "Bud Needletoes",
+            "name": "Ricardo Agujas",
             "locationId": "N2"
         },
         {
             "id": "BURPIE_HALE",
             "category": "RESIDENCE",
-            "name": "Burpie Hale",
+            "name": "Eructitos Sanos",
             "locationId": "AL"
         },
         {
             "id": "CABBAGE_THOM",
             "category": "RESIDENCE",
-            "name": "Cabbage Thompson Jr.",
+            "name": "Repollo Thompson Jr.",
             "locationId": "EF"
         },
         {
             "id": "CALGARY_CHUM",
             "category": "RESIDENCE",
-            "name": "Calgary Chumprints",
+            "name": "Calgaria Carnadas",
             "locationId": "EC"
         },
         {
             "id": "CARMELLA_WHO",
             "category": "RESIDENCE",
-            "name": "Carmella Whoopingcough",
+            "name": "Carmela Tosrronca",
             "locationId": "NB"
         },
         {
             "id": "CARNIVAL_WIL",
             "category": "RESIDENCE",
-            "name": "Carnival Wilson",
+            "name": "Carnaval Wilson",
             "locationId": "N0"
         },
         {
             "id": "CASSIEL",
             "category": "RESIDENCE",
-            "name": "Cassiel Seraph",
+            "name": "Casiel Serafín",
             "locationId": "AF"
         },
         {
             "id": "CECELIA_BAGG",
             "category": "RESIDENCE",
-            "name": "Cecelia Baggage",
+            "name": "Cecilia Equipaje",
             "locationId": "GA"
         },
         {
@@ -837,7 +837,7 @@
         {
             "id": "CHIB_SPITTLE",
             "category": "RESIDENCE",
-            "name": "Chib Spittleton",
+            "name": "Chib Escupidor",
             "locationId": "NX"
         },
         {
@@ -849,7 +849,7 @@
         {
             "id": "CLORA_HEAD",
             "category": "RESIDENCE",
-            "name": "Clora Head",
+            "name": "Clora Beza",
             "locationId": "BF"
         },
         {
@@ -861,19 +861,19 @@
         {
             "id": "CORNCOB_MCBI",
             "category": "RESIDENCE",
-            "name": "Corncob McBilge",
+            "name": "Mazorca McSentina",
             "locationId": "EK"
         },
         {
             "id": "CORNWALLACE_",
             "category": "RESIDENCE",
-            "name": "Cornwallace Stickle",
+            "name": "Maiciano Pegajoso",
             "locationId": "LB"
         },
         {
             "id": "COWARD_APPLE",
             "category": "RESIDENCE",
-            "name": "Coward Appleton",
+            "name": "Cobarde Manzanatón",
             "locationId": "AL"
         },
         {
@@ -891,43 +891,43 @@
         {
             "id": "CRIMP_BEARDB",
             "category": "RESIDENCE",
-            "name": "Crimp Beardbody",
+            "name": "Crimp Barbudo",
             "locationId": "NO"
         },
         {
             "id": "CYRUS_MCNABB",
             "category": "RESIDENCE",
-            "name": "Cyrus McNabbers",
+            "name": "Ciro McAtrapadas",
             "locationId": "N2"
         },
         {
             "id": "DAPHNE_ORNER",
             "category": "RESIDENCE",
-            "name": "Daphne Ornery",
+            "name": "Dafne Irascible",
             "locationId": "NV"
         },
         {
             "id": "DAREDARE",
             "category": "RESIDENCE",
-            "name": "Daredare Si",
+            "name": "Daredare Sí",
             "locationId": "N2"
         },
         {
             "id": "DELILAH_HUCK",
             "category": "RESIDENCE",
-            "name": "Delilah Hucksuckle",
+            "name": "Delila Hucksuck",
             "locationId": "NE"
         },
         {
             "id": "DELLBERT_MIN",
             "category": "RESIDENCE",
-            "name": "Dellbert Mints",
+            "name": "Dellbert Mentas",
             "locationId": "WM"
         },
         {
             "id": "EDITH_WICKER",
             "category": "RESIDENCE",
-            "name": "Edith Wickerbasket",
+            "name": "Edith Cesta de Mimbre",
             "locationId": "ES"
         },
         {
@@ -939,13 +939,13 @@
         {
             "id": "EMMALINE",
             "category": "RESIDENCE",
-            "name": "Emmaline Morris",
+            "name": "Emmanuel Morris",
             "locationId": "EM"
         },
         {
             "id": "EZEKIEL_HORS",
             "category": "RESIDENCE",
-            "name": "Ezekiel Horsefeather",
+            "name": "Exequiel Plumacaballo",
             "locationId": "LF"
         },
         {
@@ -969,25 +969,25 @@
         {
             "id": "FLORENCE_BUT",
             "category": "RESIDENCE",
-            "name": "Florence Butt",
+            "name": "Florencio Culossé",
             "locationId": "GG"
         },
         {
             "id": "FORREST_SMAL",
             "category": "RESIDENCE",
-            "name": "Forrest Smallmouth",
+            "name": "Forrest Boquita",
             "locationId": "GF"
         },
         {
             "id": "FULANO_DE_TA",
             "category": "RESIDENCE",
-            "name": "Fulano de Tallgrass",
+            "name": "Fulano de Hierba Alta",
             "locationId": "EJ"
         },
         {
             "id": "GABRIEL_TOOT",
             "category": "RESIDENCE",
-            "name": "Gabriel Tootlebloom",
+            "name": "Gabriel Flordepedito",
             "locationId": "ET"
         },
         {
@@ -1011,7 +1011,7 @@
         {
             "id": "GERTRUDE_DIX",
             "category": "RESIDENCE",
-            "name": "Gertrude Dixie",
+            "name": "Gertrudis Sureña",
             "locationId": "NO"
         },
         {
@@ -1029,7 +1029,7 @@
         {
             "id": "GORTNOY_CORN",
             "category": "RESIDENCE",
-            "name": "Gortnoy Cornmedley",
+            "name": "Gortnoy Maicito",
             "locationId": "LM"
         },
         {
@@ -1041,55 +1041,55 @@
         {
             "id": "HAPPY_HAMSMA",
             "category": "RESIDENCE",
-            "name": "Happy Hamsmanning",
+            "name": "Feliz Manipulación de Jamones",
             "locationId": "EE"
         },
         {
             "id": "HARVEY_NUTTS",
             "category": "RESIDENCE",
-            "name": "Harvey Nutts",
+            "name": "Harvey Nueces",
             "locationId": "WF"
         },
         {
             "id": "HECK_PANCAKE",
             "category": "RESIDENCE",
-            "name": "Heck Pancake",
+            "name": "Enrique Panqueque",
             "locationId": "ER"
         },
         {
             "id": "MODHOLLY",
             "category": "RESIDENCE",
-            "name": "Holly T. Small",
+            "name": "Holly T. Pequeña",
             "locationId": "CC"
         },
         {
             "id": "HORACE_OAF",
             "category": "RESIDENCE",
-            "name": "Horace Oaf",
+            "name": "Horacio Zoquete",
             "locationId": "EX"
         },
         {
             "id": "IGNACIO_FIRE",
             "category": "RESIDENCE",
-            "name": "Ignacio Firestarter",
+            "name": "Ignacio Incendiario",
             "locationId": "NE"
         },
         {
             "id": "ISAAC_JEPHCO",
             "category": "RESIDENCE",
-            "name": "Isaac Jephcots",
+            "name": "Isaac Jefcots",
             "locationId": "WI"
         },
         {
             "id": "IVY_TRICKLE",
             "category": "RESIDENCE",
-            "name": "Ivy Trickle",
+            "name": "Hiedra Tronadora",
             "locationId": "LH"
         },
         {
             "id": "“ONION”_CROT",
             "category": "RESIDENCE",
-            "name": "J. “Onion” Crotchswaddle",
+            "name": "J. “Cebolla” Envoltura Entrepierna",
             "locationId": "LB"
         },
         {
@@ -1101,7 +1101,7 @@
         {
             "id": "JEFF_“GEOFF”",
             "category": "RESIDENCE",
-            "name": "Jeff “Geoff” Jefferstein",
+            "name": "Martín “Marty” Martínez",
             "locationId": "EF"
         },
         {
@@ -1125,19 +1125,19 @@
         {
             "id": "JOANNA_CUSTA",
             "category": "RESIDENCE",
-            "name": "Joanna Custardio",
+            "name": "Juana Custardio",
             "locationId": "LN"
         },
         {
             "id": "JOHN_BORING",
             "category": "RESIDENCE",
-            "name": "John Boring",
+            "name": "John Aburrido",
             "locationId": "EL"
         },
         {
             "id": "JOHN_KANGARO",
             "category": "RESIDENCE",
-            "name": "John Kangaroo",
+            "name": "John Canguro",
             "locationId": "AB"
         },
         {
@@ -1179,13 +1179,13 @@
         {
             "id": "MODLEMON",
             "category": "RESIDENCE",
-            "name": "Lem N. Forlolz",
+            "name": "Lem N. Porlolez",
             "locationId": "NB"
         },
         {
             "id": "LEON_FISHBUC",
             "category": "RESIDENCE",
-            "name": "Leon Fishbucket",
+            "name": "León Peceras",
             "locationId": "NI"
         },
         {
@@ -1203,7 +1203,7 @@
         {
             "id": "LIL_“LI’L_GO",
             "category": "RESIDENCE",
-            "name": "Lil “Li’l Goober” Goober",
+            "name": "So-yun “Soy un cacahuate” Cacahuate",
             "locationId": "EL"
         },
         {
@@ -1215,13 +1215,13 @@
         {
             "id": "LUELLA_BEDWE",
             "category": "RESIDENCE",
-            "name": "Luella Bedwetter",
+            "name": "Luana Mealacama",
             "locationId": "AD"
         },
         {
             "id": "LUKE_POODTOO",
             "category": "RESIDENCE",
-            "name": "Luke Poodtootle",
+            "name": "Lucas Cacapedito",
             "locationId": "AL"
         },
         {
@@ -1233,13 +1233,13 @@
         {
             "id": "MABEL_RUSTBU",
             "category": "RESIDENCE",
-            "name": "Mabel Rustbucket",
+            "name": "Mabel Cuboxidado",
             "locationId": "NN"
         },
         {
             "id": "MAN_VANDERSL",
             "category": "RESIDENCE",
-            "name": "Man Vanderslice",
+            "name": "Tipo Tiposo",
             "locationId": "NQ"
         },
         {
@@ -1251,7 +1251,7 @@
         {
             "id": "MATILDA_LAMP",
             "category": "RESIDENCE",
-            "name": "Matilda Lampfoot",
+            "name": "Matilda Piedelámpara",
             "locationId": "ET"
         },
         {
@@ -1263,7 +1263,7 @@
         {
             "id": "MOM_FATHERMA",
             "category": "RESIDENCE",
-            "name": "Mom Fatherman",
+            "name": "Mamá Padreman",
             "locationId": "ED"
         },
         {
@@ -1287,7 +1287,7 @@
         {
             "id": "NANDBEAR",
             "category": "RESIDENCE",
-            "name": "Nan D. Bear",
+            "name": "Nan D. Oso",
             "locationId": "N2"
         },
         {
@@ -1305,7 +1305,7 @@
         {
             "id": "POOPSIE_GUMB",
             "category": "RESIDENCE",
-            "name": "Poopsie Gumball",
+            "name": "Caquitas Chiclitas",
             "locationId": "CC"
         },
         {
@@ -1323,13 +1323,13 @@
         {
             "id": "RILEY",
             "category": "RESIDENCE",
-            "name": "Riley Phoenix",
+            "name": "Riley Fénix",
             "locationId": "GF"
         },
         {
             "id": "RONALD_STOOL",
             "category": "RESIDENCE",
-            "name": "Ronald Stoolback",
+            "name": "Ronald Taburete",
             "locationId": "NL"
         },
         {
@@ -1341,13 +1341,13 @@
         {
             "id": "SAMUEL_RAINT",
             "category": "RESIDENCE",
-            "name": "Samuel Raintoot",
+            "name": "Samuel Lluviapedito",
             "locationId": "WO"
         },
         {
             "id": "SANTIAGO_LEM",
             "category": "RESIDENCE",
-            "name": "Santiago Lemontoe",
+            "name": "Santiago Limondedo",
             "locationId": "WL"
         },
         {
@@ -1359,7 +1359,7 @@
         {
             "id": "SHERMAN_LYNE",
             "category": "RESIDENCE",
-            "name": "Sherman Lyness",
+            "name": "Sherman Leinés",
             "locationId": "ER"
         },
         {
@@ -1371,49 +1371,49 @@
         {
             "id": "SPECIAL_AGEN",
             "category": "RESIDENCE",
-            "name": "Agente Especial Normal Neighborman",
+            "name": "Agente Especial Vecino Normal",
             "locationId": "GE"
         },
         {
             "id": "STEVE_PHLANS",
             "category": "RESIDENCE",
-            "name": "Steve Phlansby",
+            "name": "Steve Flansby",
             "locationId": "AH"
         },
         {
             "id": "SYLVESTER_BR",
             "category": "RESIDENCE",
-            "name": "Sylvester Brunch",
+            "name": "Silvestre Desalmuerzo",
             "locationId": "NA"
         },
         {
             "id": "TAD_THOODLE",
             "category": "RESIDENCE",
-            "name": "Tad Thoodle",
+            "name": "Tad Dibujos",
             "locationId": "N2"
         },
         {
             "id": "TEEDS_WYVERN",
             "category": "RESIDENCE",
-            "name": "Teeds Wyvern",
+            "name": "Tadeo Guiverno",
             "locationId": "CC"
         },
         {
             "id": "THURMAN_NOGO",
             "category": "RESIDENCE",
-            "name": "Thurman Nogood",
+            "name": "Thurman Nobuenito",
             "locationId": "NX"
         },
         {
             "id": "TOM_PUDDING",
             "category": "RESIDENCE",
-            "name": "Tom Pudding",
+            "name": "Tenn Pudín",
             "locationId": "EH"
         },
         {
             "id": "TOOT_POOTLAD",
             "category": "RESIDENCE",
-            "name": "Toot Pootladder",
+            "name": "Pedito Escalagas",
             "locationId": "GA"
         },
         {
@@ -1437,7 +1437,7 @@
         {
             "id": "VINCENT_PRIC",
             "category": "RESIDENCE",
-            "name": "Vincent Pricecheck",
+            "name": "Vicente Comprobación de Precios",
             "locationId": "LN"
         },
         {
@@ -1479,13 +1479,13 @@
         {
             "id": "ANNEK",
             "category": "SHOPPING",
-            "name": "Llaves La Casa de Anne",
+            "name": "Ana y la casa de sus llaves",
             "locationId": "WF"
         },
         {
             "id": "BUILD-A-BRA-",
             "category": "SHOPPING",
-            "name": "Taller Házte Tu Propio Sujetador",
+            "name": "Taller Arma Tu Sostén",
             "locationId": "LB"
         },
         {
@@ -1521,7 +1521,7 @@
         {
             "id": "EMILY",
             "category": "SHOPPING",
-            "name": "Gemas (ligeramente corruptas) de Emily",
+            "name": "Gemas ligeramente corruptas de Emily",
             "locationId": "CC"
         },
         {
@@ -1587,7 +1587,7 @@
         {
             "id": "NOTHING_BUT_",
             "category": "SHOPPING",
-            "name": "Todo sobre Asientos de Inodoro",
+            "name": "Solo Asientos de Inodoro",
             "locationId": "LN"
         },
         {
@@ -1610,8 +1610,8 @@
         },
         {
             "id": "SAY_WHO_LIK",
-            "name": "Dime, ¿a quién no le gusta la basura?",
             "category": "SHOPPING",
+            "name": "Dime, ¿a quién no le gusta la basura?",
             "locationId": "NQ"
         },
         {
@@ -1683,13 +1683,13 @@
         {
             "id": "MODYOSUP",
             "category": "SHOPPING",
-            "name": "Bebidas de Togo To-Go",
+            "name": "Bebidas de Parayeva para llevar",
             "locationId": "GC"
         },
         {
             "id": "ZUZU’S_KETTL",
             "category": "SHOPPING",
-            "name": "Hervidores de Zuzu",
+            "name": "Teteras de Zuzu",
             "locationId": "BF"
         },
         {
@@ -1707,7 +1707,7 @@
         {
             "id": "TAKEMERIDE",
             "category": "TAXI",
-            "name": "Vamos a Dar una Vuelta: Compañía de Transportes",
+            "name": "Demos una vuelta: Compañía de Transportes",
             "locationId": "LH"
         },
         {
@@ -1719,7 +1719,7 @@
         {
             "id": "BILLS_BANKRU",
             "category": "THEATER",
-            "name": "Teatro independiente de Quebrado Bill",
+            "name": "Teatro independiente a la miseria de Bill",
             "locationId": "WH"
         },
         {
@@ -1737,7 +1737,7 @@
         {
             "id": "WRECKIN_CREW",
             "category": "THEATER",
-            "name": "Teatro Personal Arruinado",
+            "name": "Teatro Demoledor",
             "locationId": "NO"
         },
         {
@@ -1761,7 +1761,7 @@
         {
             "id": "MEOWSKI",
             "category": "VET",
-            "name": "Veterinario Meowski",
+            "name": "Veterinario Miawski",
             "locationId": "NH"
         },
         {

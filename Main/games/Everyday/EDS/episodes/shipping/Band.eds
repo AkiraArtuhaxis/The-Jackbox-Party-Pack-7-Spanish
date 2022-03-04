@@ -2,7 +2,7 @@ DEF EPISODE "Band"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Haciendo una banda juntos"
-    SET DESCRIPTION "Al igual que las generaciones de aburridas familias antes que ellos, los demonios decidieron formar una <font color='#AF0000'>banda de rock-folk</font>. ¡Es hora de rock-y-ar!"
+    SET DESCRIPTION "Al igual que las generaciones de aburridas familias antes que ellos, los demonios decidieron formar una <font color='#AF0000'>banda de folk rock</font>. ¡Es hora de rock-y-ar!"
     SET SUCCESS_MESSAGE "Parece que este 'Detrás de la Música' no será muy interesante. Felicitaciones por navegar por los altibajos de la industria de la música. Los veremos para la recaudación de dinero de la reunión de 20 años. Quiero decir, concierto."
     SET FAILURE_MESSAGE "Nuestros cazatalentos de la industria estaban bastante descontentos con su rendimiento. ¿Intentantaron ser buenos en la música? Como sea, buena suerte con sus carreras de solistas. No podemos esperar a usar sus CDs como unos divertidos posavasos."
 
@@ -160,7 +160,7 @@ CLONE DEED "DialogID" "SignAgent"
 END
 
 DEF TASK "SignAgent"
-    SET NAME "Firmar con el agente musical"
+    SET NAME "Registrarse con el agente musical"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"

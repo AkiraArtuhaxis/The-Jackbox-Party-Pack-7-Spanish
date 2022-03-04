@@ -1,11 +1,11 @@
 MAIN(Agente): Me gusta como suenan. ¿Cómo se llaman?
--SIN-> "Pop Pecador"
--HECK-> "La Casa de las Locuras"
--PITCH-> "La Orquesta de la Horca"
--BRIM-> "El Azufre Familiar"
+-SIN-> "Pop pecador"
+-HECK-> "La casa de las Locuras"
+-PITCH-> "La orquesta del tridente"
+-BRIM-> "El azufre familiar"
 
 SIN(Agente): ¡Me gusta! ¡Firmen aquí!
--SUCCESS-> ¡Vamos a gastarnos la plata ya mismo!
+-SUCCESS-> ¡Vamos a gastarnos el dinero ahora mismo!
 
 HECK(Agente): Cámbienlo a algo más atrevido y están contratados.
 -SUCCESS-> ¡Ya estamos agotando entradas!
@@ -14,4 +14,4 @@ PITCH(Agente): ¡Genial! ¡Tengo el festival perfecto para ustedes!
 -SUCCESS-> Espero que termine en "-alooza".
 
 BRIM(Agente): ¡Me gusta! ¡Firmen aquí!
--SUCCESS-> ¡Vamos a gastarnos la plata ya mismo!
+-SUCCESS-> ¡Vamos a gastarnos el dinero ahora mismo!

@@ -1,17 +1,17 @@
-MAIN(Vecino): Guau. ¿Entonces por qué te lanzaste a por este nuevo coche?
+MAIN(Vecino): Vaya. Entonces, ¿por qué compraste este auto nuevo?
 -MILEAGE-> Tiene un gran kilometraje
 -SEATS-> Tiene asientos de cuero
 -FAST-> Es como... bastante rápido
 -FLY-> Puede volar
 
 MILEAGE(Vecino): Muy responsable.
--SUCCESS-> Nada rima mejor con "coche" que "poco derroche"
+-SUCCESS-> Nada rima mejor con "auto" que "bastante cauto"
 
-SEATS(Vecino): Genial
--SUCCESS-> ¿Cuántas vacas en su coche?
+SEATS(Vecino): Bien
+-SUCCESS-> ¿Cuántas vacas hay en su auto?
 
 FAST(Vecino): Eso es... realmente genial
 -SUCCESS-> ¡Míranos! Hablando como engranajes.
 
-FLY(Vecino): Genial. ¡Lancémoslo por un acantilado!
+FLY(Vecino): Genial. ¡Tirémoslo por un acantilado!
 -SUCCESS-> ¡La mentira valió la pena para poder ganar a un compañero de ruta!

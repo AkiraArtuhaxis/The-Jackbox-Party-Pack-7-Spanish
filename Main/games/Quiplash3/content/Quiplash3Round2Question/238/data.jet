@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The random video YouTube keeps recommending that you end up loving",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "The Beginner's Guide to Bug Dissection|101 Things The 6th Sense Got Wrong About Ghosts|Epic TikToks Made By Dogs",
+   "n": "SafetyQuips"
+  }
+ ]
+}

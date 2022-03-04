@@ -1,8 +1,8 @@
 MAIN(Vecino): ¿Qué tengo que hacer como salvavidas?
 -PROTECT-> Proteger a los niños
--YELL-> Gritar a los niños
+-YELL-> Gritarle a los niños
 -MOCK-> Burlarse de los niños
--WHISTLE-> Solo silba
+-WHISTLE-> Solo silbar
 
 PROTECT(Vecino): ¡Suena bien!
 -SUCCESS-> ¡Sé nuestro fiel guardián!
@@ -10,8 +10,8 @@ PROTECT(Vecino): ¡Suena bien!
 YELL(Vecino): ¡Suena bien!
 -SUCCESS-> Aquí tienes un megáfono
 
-MOCK(Vecino): Um... Creo que me saltearé la parte de la burla...
--SUCCESS-> ¿¡¿¡¿Es que nadie va a burlarse de estos niños desobedientes?!?!?
+MOCK(Vecino): Em... Creo que me saltaré la parte de la burla...
+-SUCCESS-> ¡¡¿¿Es que nadie va a burlarse de estos niños desobedientes??!!
 
 WHISTLE(Vecino): ¡Suena bien!
 -SUCCESS-> ¡Sé nuestro agudo guardián!

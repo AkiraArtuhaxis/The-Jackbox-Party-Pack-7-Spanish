@@ -1,13 +1,13 @@
 REM : Stare Blankly Out Window
 
 CLONE DEED "Nothing2" "StareBlanklyOutWindow"
-    SET INSTRUCTIONS "Piensa en lo que pudo haber sido"
+    SET INSTRUCTIONS "Piensa en lo que podría haber sido"
     SET PARTICIPATION "SOLO"
 END
 
 
 DEF TASK "StareBlanklyOutWindow"
-    SET NAME "Mira fijamente por la ventana"
+    SET NAME "Mirar fijamente por la ventana"
     SET THEME "SELFISH"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "SELFISH"
@@ -48,7 +48,7 @@ CLONE DEED "Rotate90Counter" "RomanceTimeStep5"
 END
 
 DEF TASK "RomanceTime"
-    SET NAME "Pasa tiempo romántico con tu pareja"
+    SET NAME "Pasar tiempo romántico con tu pareja"
     SET THEME "SELFISH"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "SELFISH"
@@ -88,11 +88,11 @@ CLONE DEED "Hold5" "SwearWordStep3"
 END
 
 CLONE DEED "Rotate90Counter" "SwearWordStep4"
-    SET INSTRUCTIONS "Quitale el seguro a la puerta"
+    SET INSTRUCTIONS "Desbloquea la puerta"
 END
 
 DEF TASK "SwearWord"
-    SET NAME "Grita palabrotas en el armario"
+    SET NAME "Gritar palabrotas en el armario"
     SET THEME "SELFISH"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "SELFISH"
@@ -120,7 +120,7 @@ CLONE DEED "Tap1" "PourWineStep1"
 END
 
 CLONE DEED "Hold5" "PourWineStep2"
-    SET INSTRUCTIONS "Vierte... por un tiempo"
+    SET INSTRUCTIONS "Sírvete... por un tiempo"
 END
 
 CLONE DEED "SwipeUp" "PourWineStep3"
@@ -128,7 +128,7 @@ CLONE DEED "SwipeUp" "PourWineStep3"
 END
 
 DEF TASK "PourWine"
-    SET NAME "Sirve una copa de vino de tamaño *considerable*"
+    SET NAME "Servir una copa de vino de tamaño *considerable*"
     SET THEME "SELFISH"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "SELFISH"
@@ -151,15 +151,15 @@ END
 REM : Change Radio to Adult Contemporary
 
 CLONE DEED "Rotate270" "AdultRadioStep1"
-    SET INSTRUCTIONS "Encuentra una estación para adultos"
+    SET INSTRUCTIONS "Encuentra la estación para adultos"
 END
 
 CLONE DEED "Rotate90Counter" "AdultRadioStep2"
-    SET INSTRUCTIONS "Uf... lo movieron"
+    SET INSTRUCTIONS "Uf... la cambiaron"
 END
 
 CLONE DEED "Rotate270" "AdultRadioStep3"
-    SET INSTRUCTIONS "¡¿¡¿Dónde está?!?!"
+    SET INSTRUCTIONS "¡¡¿¿Dónde está??!!"
 END
 
 CLONE DEED "Nothing5" "AdultRadioStep4"
@@ -167,7 +167,7 @@ CLONE DEED "Nothing5" "AdultRadioStep4"
 END
 
 DEF TASK "AdultContemp"
-    SET NAME "Cambiar la radio a contemporánea para adultos"
+    SET NAME "Cambiar la radio por la contemporánea para adultos"
     SET THEME "SELFISH"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "SELFISH"
@@ -205,7 +205,7 @@ CLONE DEED "NothingBase" "HideAndSeek3"
 END
 
 DEF TASK "HideAndSeek"
-    SET NAME "Ocultate demasiado bien en las Escondidas"
+    SET NAME "Ocultarse demasiado bien al jugar al escondite"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -226,7 +226,7 @@ END
 REM : Ignore calls from in-laws
 
 CLONE DEED "Tap1" "IgnoreInLaws1"
-    SET INSTRUCTIONS "¡Contesta el teléfono, tu suegro está llamando!"
+    SET INSTRUCTIONS "Contesta el teléfono, ¡tu suegro está llamando!"
 END
 
 CLONE DEED "Hold5" "IgnoreInLaws2"
@@ -239,11 +239,11 @@ CLONE DEED "SwipeBase" "IgnoreInLaws3"
 END
 
 CLONE DEED "QuickTap5" "IgnoreInLaws4"
-    SET INSTRUCTIONS "¡Fue al correo de voz! ¡Hurra! ¡Ahora puedes jugar en tu teléfono!"
+    SET INSTRUCTIONS "¡Fue al buzón de voz! ¡Hurra! ¡Ahora puedes jugar en tu teléfono!"
 END
 
 DEF TASK "IgnoreInLaws"
-    SET NAME "Ignora la llamada de tus suegros"
+    SET NAME "Ignorar la llamada de tus suegros"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -270,7 +270,7 @@ CLONE DEED "PhoneBase" "CatchUpCall1"
 END
 
 CLONE DEED "Nothing5" "CatchUpCall2"
-    SET INSTRUCTIONS "Intercambia cortesías"
+    SET INSTRUCTIONS "Intercambia cumplidos"
 END
 
 CLONE DEED "NothingBase" "CatchUpCall3"
@@ -279,11 +279,11 @@ CLONE DEED "NothingBase" "CatchUpCall3"
 END
 
 CLONE DEED "Hold3" "CatchUpCall4"
-    SET INSTRUCTIONS "Haz una excusa para colgar"
+    SET INSTRUCTIONS "Inventa una excusa para colgar"
 END
 
 DEF TASK "CatchUpCall"
-    SET NAME "Llama a un viejo amigo para ponerte al día"
+    SET NAME "Llamar a un viejo amigo para ponerte al día"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -306,15 +306,15 @@ END
 REM : Brew a nice cup of tea
 
 CLONE DEED "Tap1" "BrewTea1"
-    SET INSTRUCTIONS "Saca el té de manzanilla del gabinete."
+    SET INSTRUCTIONS "Quita el té de manzanilla del gabinete"
 END
 
 CLONE DEED "Rotate90Counter" "BrewTea2"
-    SET INSTRUCTIONS "Enciente el quemador"
+    SET INSTRUCTIONS "Enciende el quemador"
 END
 
 CLONE DEED "Nothing5" "BrewTea3"
-    SET INSTRUCTIONS "Déjalo reposar"
+    SET INSTRUCTIONS "Déjalo que infusione"
 END
 
 CLONE DEED "SwipeUp" "BrewTea4"
@@ -322,7 +322,7 @@ CLONE DEED "SwipeUp" "BrewTea4"
 END
 
 DEF TASK "BrewTea"
-    SET NAME "Prepara una buena taza de té"
+    SET NAME "Preparar una buena taza de té"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -358,11 +358,11 @@ CLONE DEED "Tap1" "BoringBook3"
 END
 
 CLONE DEED "Hold5" "BoringBook4"
-    SET INSTRUCTIONS "Considera las implicaciones históricas de lo que acaba de leer."
+    SET INSTRUCTIONS "Considera las implicaciones históricas de lo que acabas de leer"
 END
 
 DEF TASK "BoringBook"
-    SET NAME "Disfruta de un libro aburrido sobre la Marina"
+    SET NAME "Disfrutar de un libro aburrido sobre la Marina"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -397,7 +397,7 @@ CLONE DEED "Tap5" "MidlifeCrisis3"
 END
 
 CLONE DEED "SwipeUp" "MidlifeCrisis4"
-    SET INSTRUCTIONS "Ponte esa chaqueta de cuero que ya ni te queda"
+    SET INSTRUCTIONS "Ponte la chaqueta de cuero que ya no te queda"
 END
 
 CLONE DEED "PhoneCategory" "MidlifeCrisis5"
@@ -406,7 +406,7 @@ CLONE DEED "PhoneCategory" "MidlifeCrisis5"
 END
 
 DEF TASK "MidlifeCrisis"
-    SET NAME "Ten una crisis de media edad"
+    SET NAME "Tener una crisis de la mediana edad"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -431,7 +431,7 @@ END
 REM : Read steamy romance novel
 
 CLONE DEED "SwipeLeft" "SteamyRomanceNovel1"
-    SET INSTRUCTIONS "Abre 'Pozos del deseo'"
+    SET INSTRUCTIONS "Abre 'Fosas del deseo'"
 END
 
 CLONE DEED "Nothing5" "SteamyRomanceNovel2"
@@ -447,7 +447,7 @@ CLONE DEED "SwipeRight" "SteamyRomanceNovel4"
 END
 
 DEF TASK "SteamyRomanceNovel"
-    SET NAME "Lee una novela romantica"
+    SET NAME "Leer una novela romántica erótica"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -470,11 +470,11 @@ END
 REM : Watch a telenovela
 
 CLONE DEED "Rotate180" "WatchTelenovela1"
-    SET INSTRUCTIONS "Prende la televisión"
+    SET INSTRUCTIONS "Enciende el televisor"
 END
 
 CLONE DEED "Tap4" "WatchTelenovela2"
-    SET INSTRUCTIONS "Mira a Rafael confrontar a Gloria sobre el misterioso incendio"
+    SET INSTRUCTIONS "Ve a Rafael confrontar a Gloria sobre el misterioso incendio"
 END
 
 CLONE DEED "Nothing2" "WatchTelenovela3"
@@ -486,7 +486,7 @@ CLONE DEED "Tap4" "WatchTelenovela4"
 END
 
 DEF TASK "WatchTelenovela"
-    SET NAME "Mira una telenovela"
+    SET NAME "Ver una telenovela"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -516,11 +516,11 @@ CLONE DEED "Rotate720Counter" "StashCandy2"
 END
 
 CLONE DEED "Hold2" "StashCandy3"
-    SET INSTRUCTIONS "Coloca una bolsa de dulces en la ventilación"
+    SET INSTRUCTIONS "Coloca una bolsa de caramelos en el conducto de aire"
 END
 
 DEF TASK "StashCandy"
-    SET NAME "Guarda una bolsa de caramelos en tu escondite secreto"
+    SET NAME "Guardar una bolsa de caramelos en tu escondite secreto"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -544,7 +544,7 @@ CLONE DEED "Hold2" "DonateToys1"
 END
 
 CLONE DEED "SwipeDown" "DonateToys2"
-    SET INSTRUCTIONS "Tira el peluche raído"
+    SET INSTRUCTIONS "Tira el peluche harapiento"
 END
 
 CLONE DEED "SwipeDown" "DonateToys3"
@@ -556,11 +556,11 @@ CLONE DEED "SwipeDown" "DonateToys4"
 END
 
 CLONE DEED "Hold2" "DonateToys5"
-    SET INSTRUCTIONS "Encogete de hombros cuando tus hijos pregunten dónde están sus cosas."
+    SET INSTRUCTIONS "Encógete de hombros cuando tus hijos pregunten dónde están sus cosas"
 END
 
 DEF TASK "DonateToys"
-    SET NAME "Introduce silenciosamente juguetes viejos en la caja de donaciones"
+    SET NAME "Introducir silenciosamente juguetes viejos en la caja de donaciones"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -596,7 +596,7 @@ CLONE DEED "SwipeDown" "TrashMail3"
 END
 
 DEF TASK "TrashMail"
-    SET NAME "Tira toda la pila de correo a la basura."
+    SET NAME "Tirar toda la pila de correo a la basura"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -616,12 +616,12 @@ END
 REM : Order garish novelty wind chime
 
 CLONE DEED "PhoneBase" "OrderWindChime1"
-    SET INSTRUCTIONS "Compra el carillón de viento más fuerte que tengan"
+    SET INSTRUCTIONS "Compra el carillón de viento más ruidoso que tengan"
     SET CONTENT_ID "PORCH_DEBRIS"
 END
 
 DEF TASK "OrderWindChime"
-    SET NAME "Ordena un novedoso carillón de viento"
+    SET NAME "Pide un novedoso carillón de viento"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -649,7 +649,7 @@ CLONE DEED "SwipeUp" "PostBabyPhotos3"
 END
 
 CLONE DEED "SwipeUp" "PostBabyPhotos4"
-    SET INSTRUCTIONS "Sube una foto de un bebé llorando debido a que el pañal está lleno"
+    SET INSTRUCTIONS "Sube una foto de un bebé llorando por tener el pañal lleno"
 END
 
 CLONE DEED "QuickTap3" "PostBabyPhotos5"
@@ -657,7 +657,7 @@ CLONE DEED "QuickTap3" "PostBabyPhotos5"
 END
 
 DEF TASK "PostBabyPhotos"
-    SET NAME "Publica fotos vergonzosas de bebé de tu hijo joven en línea"
+    SET NAME "Publicar fotos de bebé vergonzosas de tu hijo joven en internet"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -681,12 +681,12 @@ END
 REM : Complain about kids these days
 
 CLONE DEED "DialogBase" "KidsTheseDays1"
-    SET INSTRUCTIONS "Quejate de los niños en estos días"
+    SET INSTRUCTIONS "Quéjate de los niños de hoy en día"
     SET CONTENT_ID "COMPLAIN_ABOUT_KIDS"
 END
 
 DEF TASK "KidsTheseDays"
-    SET NAME "Quejate de los niños en estos días"
+    SET NAME "Quejarse de los niños de hoy en día"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -707,7 +707,7 @@ CLONE DEED "DialogBase" "MotivationalMantra1"
 END
 
 DEF TASK "MotivationalMantra"
-    SET NAME "Recítate un mantra motivacional"
+    SET NAME "Recitarse un mantra motivacional"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -723,7 +723,7 @@ END
 REM : Stand out in yard to be alone for a minute
 
 CLONE DEED "SwipeUp" "AloneInYard1"
-    SET INSTRUCTIONS "Ve fuera"
+    SET INSTRUCTIONS "Ve afuera"
 END
 
 CLONE DEED "Nothing2" "AloneInYard2"
@@ -731,15 +731,15 @@ CLONE DEED "Nothing2" "AloneInYard2"
 END
 
 CLONE DEED "Hold2" "AloneInYard3"
-    SET INSTRUCTIONS "Ignora el gríterio de la casa"
+    SET INSTRUCTIONS "Ignora los gritos del interior de la casa"
 END
 
 CLONE DEED "Nothing2" "AloneInYard4"
-    SET INSTRUCTIONS "Escucha el susurro del viento a través de los árboles."
+    SET INSTRUCTIONS "Escucha el susurro del viento a través de los árboles"
 END
 
 DEF TASK "AloneInYard"
-    SET NAME "Párate en el patio para estar solo por un minuto"
+    SET NAME "Sal al patio para estar solo un minuto"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -761,12 +761,12 @@ END
 REM : Sign up for a beef jerky of the month club
 
 CLONE DEED "PhoneBase" "BeefJerkyClub1"
-    SET INSTRUCTIONS "Suscríbete a La Caja de Carne Mensual"
+    SET INSTRUCTIONS "Suscríbete a la caja de cecinas mensual"
     SET CONTENT_ID "CLEARANCE-ME"
 END
 
 DEF TASK "BeefJerkyClub"
-    SET NAME "Regístrate en un club de carne seca del mes"
+    SET NAME "Registrarse al club de la cecina del mes"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -782,11 +782,11 @@ END
 REM : Disobey doctor's diet recommendations
 
 CLONE DEED "SwipeUp" "DisobeyDiet1"
-    SET INSTRUCTIONS "Coge chips de colesterol cubiertos de azúcar"
+    SET INSTRUCTIONS "Agarra papas fritas de colesterol cubiertas de azúcar"
 END
 
 CLONE DEED "Tap1" "DisobeyDiet2"
-    SET INSTRUCTIONS "Sostén la bolsa sobre la boca"
+    SET INSTRUCTIONS "Sostén la bolsa sobre tu boca"
 END
 
 CLONE DEED "Rotate180" "DisobeyDiet3"
@@ -798,7 +798,7 @@ CLONE DEED "Hold5" "DisobeyDiet4"
 END
 
 DEF TASK "DisobeyDiet"
-    SET NAME "Desobedecer las recomendaciones dietéticas del médico."
+    SET NAME "Desobedecer a las recomendaciones dietéticas del médico"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -825,7 +825,7 @@ CLONE DEED "PhoneCategory" "UselessCrap1"
 END
 
 DEF TASK "UselessCrap"
-    SET NAME "Compra basura inútil de la TV"
+    SET NAME "Comprar basura inútil de la TV"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"

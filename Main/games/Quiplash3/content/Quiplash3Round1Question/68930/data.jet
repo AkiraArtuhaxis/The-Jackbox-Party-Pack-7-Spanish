@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "cerveza|cerveza|trago|traguito|cervesa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bien, entonces ¿debería ser yo quien diga algo? ¿No? ¿No importa? Bien, ¡acaba el trago! Disfrútalo.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "There is no “i” in team... but there is an “i” in <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "My team is bad|Tim|losing",
+   "n": "SafetyQuips"
+  }
+ ]
+}

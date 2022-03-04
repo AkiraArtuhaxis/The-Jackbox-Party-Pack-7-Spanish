@@ -1,17 +1,17 @@
-MAIN(Zoning): ¿Qué está construyendo en su patio?
+MAIN(Urbanismo): ¿Qué está construyendo en su patio?
 -HOUSE-> Una casa del árbol ilegal
 -TOOL-> Un galpón aéreo para las herramientas
--BIRD-> Un comedero para pájaros absurdamente grande
+-BIRD-> Un comedero para aves absurdamente grande
 -WEIRD-> Nada. ¡A mi árbol mágicamente le creció una casa!
 
-HOUSE(Zoning): No tienes los papeles para ello
--SUCCESS-> Ugh... hora de traer la billetera de los sobornos
+HOUSE(Urbanismo): No tienes los papeles para ello
+-SUCCESS-> Eh... hora de traer la billetera de los sobornos
 
-TOOL(Zoning): ¡Suena creíble! ¡Disfrute!
--SUCCESS-> *Cuelga*...pero las herramientas son mi familia.
+TOOL(Urbanismo): ¡Suena creíble! ¡Disfrute!
+-SUCCESS-> *Cuelga*... pero mi familia son las herramientas.
 
-BIRD(Zoning): ¡Suena creíble! ¡Disfrute!
--SUCCESS-> *Cuelga*...pero los pájaros son mi familia.
+BIRD(Urbanismo): ¡Suena creíble! ¡Disfrute!
+-SUCCESS-> *Cuelga*... pero mi familia son las aves.
 
-WEIRD(Zoning): ¡Increíble, pero qué suerte!
--SUCCESS-> *Cuelga* ¿... nuestro gobierno es inútil?
+WEIRD(Urbanismo): ¡Increíble! ¡Pero qué suerte!
+-SUCCESS-> *Cuelga*... ¿nuestro gobierno es inútil?

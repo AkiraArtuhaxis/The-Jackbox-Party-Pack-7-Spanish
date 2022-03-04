@@ -1,15 +1,15 @@
 REM : Find Marble
 CLONE DEED "FindBase" "FindMarble"
-    SET INSTRUCTIONS "Encuantra tu canica"
+    SET INSTRUCTIONS "Encuentra la canica"
     SET CATEGORY "MARBLES"
 END
 
 DEF TASK "FindMarble"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra la canica perdida"
-    SET ASKER_NAME "Obtén ayuda de alguien mayor para encontrar tu canica"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar su canica perdida"
+    SET NAME "Encontrar la canica perdida"
+    SET ASKER_NAME "Pedir ayuda de alguien mayor para encontrar tu canica perdida"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar su canica perdida"
     SET THEME "SEARCH_FIND"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
@@ -29,9 +29,9 @@ END
 DEF TASK "FindSocks"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Enceuntra los calcetines perdidos"
-    SET ASKER_NAME "Obtén ayuda para encontrar tus calcetines perdidos"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar sus calcetines perdidos"
+    SET NAME "Encontrar los calcetines perdidos"
+    SET ASKER_NAME "Pedir ayuda para encontrar tus calcetines perdidos"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar sus calcetines perdidos"
     SET THEME "SEARCH_FIND"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "TEENS"
@@ -51,9 +51,9 @@ END
 DEF TASK "FindWrench"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra la parte que necesitas"
-    SET ASKER_NAME "Obtén ayuda para encontrar la parte que necesitas"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar la parte que necesita"
+    SET NAME "Encontrar la parte que necesitas"
+    SET ASKER_NAME "Pedir ayuda para encontrar la parte que necesitas"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la parte que necesita"
     SET THEME "SEARCH_FIND"
     SET CAPTAIN "YOUNG"
     SET PARTICIPANT "MATURE"
@@ -66,16 +66,16 @@ END
 
 REM : Find Drawing
 CLONE DEED "FindBase" "FindDrawing"
-    SET INSTRUCTIONS "¿No puedes decir cuál se supone que eres tú?"
+    SET INSTRUCTIONS "¿No puedes identificar cuál se supone que eres tú?"
     SET CATEGORY "DRAWINGS"
 END
 
 DEF TASK "FindDrawing"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "¡Hice un dibujo de tí!"
-    SET ASKER_NAME "Enséñale a tu hermano mayor tu dibujo de él"
-    SET HELPER_NAME "Identifica cuál de los dibujos de <ASKER> es de ti"
+    SET NAME "¡Hice un dibujo de ti!"
+    SET ASKER_NAME "Enseñarle a tu hermano mayor el dibujo que hiciste de él"
+    SET HELPER_NAME "Identificar cuál de los dibujos que hizo <ASKER> es de ti"
     SET THEME "SEARCH_FIND"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
@@ -95,9 +95,9 @@ END
 DEF TASK "FindShirt"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra esa camiseta genial"
-    SET ASKER_NAME "Obtén ayuda para encontrar tu camiseta más genial"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar su camiseta genial"
+    SET NAME "Encontrar esa camiseta genial"
+    SET ASKER_NAME "Pedir ayuda para encontrar tu camiseta más genial"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar su camiseta genial"
     SET THEME "SEARCH_FIND"
     SET CATEGORY "HIGH"
     
@@ -115,9 +115,9 @@ END
 DEF TASK "FindAnimal"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra al Sr. Cara de Garra"
-    SET ASKER_NAME "Obtén ayuda de alguien mayor para encontrar al Sr. Cara de Garra"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar al señor Cara de Garra"
+    SET NAME "Encontrar al Sr. Cara de Garra"
+    SET ASKER_NAME "Pedir ayuda de alguien mayor para encontrar al Sr. Cara de Garra"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar al señor Cara de Garra"
     SET THEME "SEARCH_FIND"
     SET CATEGORY "HIGH"
     SET PARTICIPANT "CHILDREN"
@@ -137,9 +137,9 @@ END
 DEF TASK "FindNoodle"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Elige fideos para la cena"
-    SET ASKER_NAME "Obtén ayuda para elegir fideos para la cena"
-    SET HELPER_NAME "Ayuda a <ASKER> a elegir fideos para la cena"
+    SET NAME "Elegir fideos para la cena"
+    SET ASKER_NAME "Pedir ayuda para elegir fideos para la cena"
+    SET HELPER_NAME "Ayudar a <ASKER> a elegir fideos para la cena"
     SET THEME "SEARCH_FIND"
     SET CATEGORY "HIGH"
     
@@ -157,9 +157,9 @@ END
 DEF TASK "FindKeys"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra las llaves"
-    SET ASKER_NAME "Obtén ayuda para encontrar tus llaves"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar sus llaves"
+    SET NAME "Encontrar las llaves"
+    SET ASKER_NAME "Pedir ayuda para encontrar tus llaves"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar sus llaves"
     SET THEME "SEARCH_FIND"
     SET CATEGORY "HIGH"
     SET PARTICIPANT "ADULTS"
@@ -180,9 +180,9 @@ END
 DEF TASK "FindTools"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra la herramienta correcta en la caja de herramientas"
-    SET ASKER_NAME "Obtén ayuda para encontrar la herramienta correcta en la caja de herramientas"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar la herramienta correcta en la caja de herramientas"
+    SET NAME "Encontrar la herramienta correcta en la caja de herramientas"
+    SET ASKER_NAME "Pedir ayuda para encontrar la herramienta correcta en la caja de herramientas"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la herramienta correcta en la caja de herramientas"
     SET THEME "SEARCH_FIND"
     SET PARTICIPANT "ADULTS"
     SET CAPTAIN "EVERYONE"
@@ -203,9 +203,9 @@ END
 DEF TASK "FindBirds"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra un pájaro interesante en el patio trasero"
-    SET ASKER_NAME "Obtén ayuda para detectar el pájaro genial en el patio trasero"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar el pájaro genial en el patio trasero"
+    SET NAME "Encontrar un pájaro genial en el patio trasero"
+    SET ASKER_NAME "Pedir ayuda para detectar al pájaro genial en el patio trasero"
+    SET HELPER_NAME "Ayudar a <ASKER> a detectar al pájaro genial en el patio trasero"
     SET THEME "SEARCH_FIND"
     SET CATEGORY "HIGH"
     
@@ -224,9 +224,9 @@ END
 DEF TASK "FindNiceShirt"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra tu linda camisa"
-    SET ASKER_NAME "Obtén ayuda para encontrar tu linda camisa"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar su linda camisa"
+    SET NAME "Encontrar tu linda camisa"
+    SET ASKER_NAME "Pedir ayuda para encontrar tu linda camisa"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar su linda camisa"
     SET THEME "SEARCH_FIND"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "YOUNG"
@@ -247,9 +247,9 @@ END
 DEF TASK "FindPoster"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Elige el Poster de Rock Más Genial"
-    SET ASKER_NAME "Obtén ayuda para elegir un póster de rock para tu habitación"
-    SET HELPER_NAME "Ayuda a <ASKER> a elegir un póster de rock para su habitación"
+    SET NAME "Elegir el póster de rock más genial"
+    SET ASKER_NAME "Pedir ayuda para elegir un póster de rock para tu habitación"
+    SET HELPER_NAME "Ayudar a <ASKER> a elegir un póster de rock para su habitación"
     SET THEME "SEARCH_FIND"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "TEENS"
@@ -270,9 +270,9 @@ END
 DEF TASK "FindClub"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Selecciona el club de golf perfecto"
-    SET ASKER_NAME "Obtén ayuda para seleccionar el palo de golf perfecto"
-    SET HELPER_NAME "Ayuda a <ASKER> a seleccionar el palo de golf perfecto"
+    SET NAME "Seleccionar el palo de golf perfecto"
+    SET ASKER_NAME "Pedir ayuda para seleccionar el palo de golf perfecto"
+    SET HELPER_NAME "Ayudar a <ASKER> a seleccionar el palo de golf perfecto"
     SET THEME "SEARCH_FIND"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "ADULTS"
@@ -293,9 +293,9 @@ END
 DEF TASK "FindHat"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra tu gorro de salir"
-    SET ASKER_NAME "Obtén ayuda para encontrar tu gorro de salir"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar su gorro de salir"
+    SET NAME "Encontrar tu gorro para salir"
+    SET ASKER_NAME "Pedir ayuda para encontrar tu gorro para salir"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar su gorro para salir"
     SET THEME "SEARCH_FIND"
     SET CATEGORY "HIGH"
     
@@ -314,9 +314,9 @@ END
 DEF TASK "FindBook"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra ese libro"
-    SET ASKER_NAME "Obtén ayuda para encontrar el libro que necesitas"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar el libro que necesita"
+    SET NAME "Encontrar ese libro"
+    SET ASKER_NAME "Pedir ayuda para encontrar el libro que necesitas"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar el libro que necesita"
     SET THEME "SEARCH_FIND"
     SET CATEGORY "HIGH"
     
@@ -335,9 +335,9 @@ END
 DEF TASK "FindShoes"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra tus zapatos"
-    SET ASKER_NAME "Obtén ayuda para encontrar tus zapatos"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar los zapatos que le faltan"
+    SET NAME "Encontrar tus zapatos"
+    SET ASKER_NAME "Pedir ayuda para encontrar tus zapatos perdidos"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar los zapatos perdidos"
     SET THEME "SEARCH_FIND"
     SET CATEGORY "HIGH"
     
@@ -349,16 +349,16 @@ END
 
 REM : Find Batteries
 CLONE DEED "FindBase" "FindBatteries"
-    SET INSTRUCTIONS "Encuentra las baterías correctas" 
+    SET INSTRUCTIONS "Encuentra las pilas correctas" 
     SET CATEGORY "BATTERIES"
 END 
 
 DEF TASK "FindBatteries"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra las baterías correctas"
-    SET ASKER_NAME "Obtén ayuda para encontrar las baterías correctas"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar las baterías correctas"
+    SET NAME "Encontrar las pilas correctas"
+    SET ASKER_NAME "Pedir ayuda para encontrar las pilas correctas"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar las pilas correctas"
     SET THEME "SEARCH_FIND"
     SET CATEGORY "HIGH"
     
@@ -377,9 +377,9 @@ END
 DEF TASK "FindEarrings"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra tus pendientes"
-    SET ASKER_NAME "Obtén ayuda para encontrar tus aretes"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar sus aretes"
+    SET NAME "Encontrar tus pendientes"
+    SET ASKER_NAME "Pedir ayuda para encontrar tus aretes"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar sus aretes"
     SET THEME "SEARCH_FIND"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "MATURE"
@@ -393,16 +393,16 @@ END
 
 REM : Find Controller
 CLONE DEED "FindBase" "FindController"
-    SET INSTRUCTIONS "Encuentra el control de juego adecuado" 
+    SET INSTRUCTIONS "Encuentra el mando de juego adecuado" 
     SET CATEGORY "CONTROLLER"
 END 
 
 DEF TASK "FindController"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra el control de juego adecuado"
-    SET ASKER_NAME "Obtén ayuda para encontrar el mando de juego adecuado"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar el mando de juego adecuado"
+    SET NAME "Encontrar el mando de juego adecuado"
+    SET ASKER_NAME "Pedir ayuda para encontrar el mando de juego adecuado"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar el mando de juego adecuado"
     SET THEME "SEARCH_FIND"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "YOUNG"
@@ -415,16 +415,16 @@ END
 
 REM : Find the extra chair
 CLONE DEED "FindBase" "FindChair1"
-    SET INSTRUCTIONS "Viene compañía. Encuentra la silla extra."
+    SET INSTRUCTIONS "Viene la compañía. Encuentra la silla extra."
     SET CATEGORY "CHAIRS"
 END
 
 DEF TASK "FindChair"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Viene compañía. Encuentra la silla extra."
+    SET NAME "Viene la compañía. Encuentra la silla extra."
     SET ASKER_NAME "Viene la compañía. Obtén ayuda para encontrar la silla extra."
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar la silla extra"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la silla extra"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "ADULTS"
     SET CATEGORY "HIGH"
@@ -437,16 +437,16 @@ END
 
 REM : Find the Remote
 CLONE DEED "FindBase" "FindRemote1"
-    SET INSTRUCTIONS "¡Apurate! Nos estamos perdiendo nuestros shows"
+    SET INSTRUCTIONS "¡Apúrate! Nos estamos perdiendo nuestros programas"
     SET CATEGORY "REMOTES"
 END
 
 DEF TASK "FindRemote"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra el control"
-    SET ASKER_NAME "Obtén ayuda para encontrar el control"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar el control remoto"
+    SET NAME "Encontrar el control remoto"
+    SET ASKER_NAME "Pedir ayuda para encontrar el control remoto"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar el control remoto"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "EVERYONE"
     SET CATEGORY "HIGH"
@@ -459,16 +459,16 @@ END
 
 REM : Find light bulb
 CLONE DEED "FindBase" "FindLightBulb1"
-    SET INSTRUCTIONS "Hmm... ¿Qué bombilla necesitamos?"
+    SET INSTRUCTIONS "Mmmh... ¿qué bombilla necesitamos?"
     SET CATEGORY "LIGHT_BULBS"
 END
 
 DEF TASK "FindLightBulb"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra la bombilla correcta"
-    SET ASKER_NAME "Obtén ayuda para encontrar la bombilla correcta"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar la bombilla correcta"
+    SET NAME "Encontrar la bombilla correcta"
+    SET ASKER_NAME "Pedir ayuda para encontrar la bombilla correcta"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la bombilla correcta"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "EVERYONE"
     SET CATEGORY "HIGH"
@@ -481,16 +481,16 @@ END
 
 REM : Find the aspirin
 CLONE DEED "FindBase" "FindAspirin1"
-    SET INSTRUCTIONS "Hmm... ¿cuál era?"
+    SET INSTRUCTIONS "Mmmh... ¿cuál era?"
     SET CATEGORY "ASPRIN"
 END
 
 DEF TASK "FindAspirin"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra la aspirina"
-    SET ASKER_NAME "Obtén ayuda para encontrar la aspirina"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar la aspirina"
+    SET NAME "Encontrar la aspirina"
+    SET ASKER_NAME "Pedir ayuda para encontrar la aspirina"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la aspirina"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "EVERYONE"
     SET CATEGORY "HIGH"
@@ -510,9 +510,9 @@ END
 DEF TASK "FindCreditCard"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra la tarjeta de crédito"
-    SET ASKER_NAME "Obtén ayuda para encontrar la tarjeta de crédito"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar la tarjeta de crédito"
+    SET NAME "Encontrar la tarjeta de crédito"
+    SET ASKER_NAME "Pedir ayuda para encontrar la tarjeta de crédito"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la tarjeta de crédito"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "HIGH"
@@ -533,9 +533,9 @@ END
 DEF TASK "FindTie"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Encuentra la corbata adecuada"
-    SET ASKER_NAME "Obtén ayuda para encontrar la corbata adecuada"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar la corbata adecuada"
+    SET NAME "Encontrar la corbata adecuada"
+    SET ASKER_NAME "Pedir ayuda para encontrar la corbata adecuada"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la corbata adecuada"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "HIGH"
@@ -549,15 +549,15 @@ END
 REM : Gizmos Cappuccino
 CLONE DEED "Gizmos3" "GizmosCappuccino"
     SET INSTRUCTIONS "Descifra la nueva máquina de capuchino" 
-    SET NAME "Máquina de Cafeína"
+    SET NAME "Máquina de cafeína"
 END
 
 DEF TASK "GizmosCappuccino"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Descifra la nueva máquina de capuchino"
-    SET ASKER_NAME "Obtén ayuda para descifrar la nueva máquina de capuchino"
-    SET HELPER_NAME "Ayuda a <ASKER> a descifrar la nueva máquina de capuchino"
+    SET NAME "Descifrar la nueva máquina de capuchino"
+    SET ASKER_NAME "Pedir ayuda para descifrar la nueva máquina de capuchino"
+    SET HELPER_NAME "Ayudar a <ASKER> a descifrar la nueva máquina de capuchino"
     SET THEME "FIXING"
     SET CATEGORY "ULTRA"
     
@@ -569,16 +569,16 @@ END
 
 REM : Gizmos Calculator
 CLONE DEED "Gizmos3" "GizmosCalculator"
-    SET INSTRUCTIONS "Las matemáticas no valen esto." 
-    SET NAME "TX666 Calculadora Gráfica"
+    SET INSTRUCTIONS "Las matemáticas no valen la pena." 
+    SET NAME "Calculadora gráfica TX666"
 END
 
 DEF TASK "GizmosCalculator"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Descifra la calculadora gráfica"
-    SET ASKER_NAME "Obtén ayuda para descifrar la calculadora gráfica"
-    SET HELPER_NAME "Ayuda a <ASKER> a descifrar su calculadora gráfica"
+    SET NAME "Descifrar la calculadora gráfica"
+    SET ASKER_NAME "Pedir ayuda para descifrar la calculadora gráfica"
+    SET HELPER_NAME "Ayudar a <ASKER> a descifrar su calculadora gráfica"
     SET THEME "FIXING"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"
@@ -592,16 +592,16 @@ END
 
 REM : Gizmos Security
 CLONE DEED "Gizmos3" "GizmosSecurity"
-    SET INSTRUCTIONS "¡Seguro y a salvo! ¡Ojalá!" 
-    SET NAME "Dwell Caja Fuerte X2000"
+    SET INSTRUCTIONS "¡Seguro y protegido! ¡Ojalá!" 
+    SET NAME "Dwellsafe X2000"
 END
 
 DEF TASK "GizmosSecurity"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Programa el sistema de seguridad del hogar"
-    SET ASKER_NAME "Obtén ayuda para programar el sistema de seguridad del hogar"
-    SET HELPER_NAME "Ayuda a <ASKER> a programar el sistema de seguridad del hogar"
+    SET NAME "Programar el sistema de seguridad del hogar"
+    SET ASKER_NAME "Pedir ayuda para programar el sistema de seguridad del hogar"
+    SET HELPER_NAME "Ayudar a <ASKER> a programar el sistema de seguridad del hogar"
     SET THEME "FIXING"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "ADULTS"
@@ -623,9 +623,9 @@ END
 DEF TASK "GizmosGame"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Vence un nivel difícil de un video juego"
-    SET ASKER_NAME "Obtén ayuda de alguien mayor para superar un nivel difícil de un videojuego"
-    SET HELPER_NAME "Ayuda a <ASKER> a superar un nivel difícil de un videojuego"
+    SET NAME "Vencer un nivel difícil de un videojuego"
+    SET ASKER_NAME "Pedir ayuda de alguien mayor para superar un nivel difícil de un videojuego"
+    SET HELPER_NAME "Ayudar a <ASKER> a superar un nivel difícil de un videojuego"
     SET THEME "RECREATION"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "YOUNG"
@@ -639,16 +639,16 @@ END
 
 REM : Gizmos Time Machine
 CLONE DEED "Gizmos3" "GizmosTimeMachine"
-    SET INSTRUCTIONS "Solo digámosles que vimos dinosaurios o algo." 
-    SET NAME "Máquina del Tiempo"
+    SET INSTRUCTIONS "Solo digámosles que vimos dinosaurios o algo así." 
+    SET NAME "Máquina del tiempo"
 END
 
 DEF TASK "GizmosTimeMachine"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Juega con la máquina del tiempo de cartón"
-    SET ASKER_NAME "Consigue que alguien mayor juegue con tu maquina del tiempo"
-    SET HELPER_NAME "Juega en la máquina del tiempo de cartón con <ASKER>"
+    SET NAME "Jugar con la máquina del tiempo de cartón"
+    SET ASKER_NAME "Conseguir que alguien mayor juegue con tu máquina del tiempo de cartón"
+    SET HELPER_NAME "Jugar en la máquina del tiempo de cartón con <ASKER>"
     SET THEME "RECREATION"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
@@ -663,15 +663,15 @@ END
 REM : Gizmos DJ
 CLONE DEED "Gizmos3" "GizmosDJ"
     SET INSTRUCTIONS "¡Dale ritmo!" 
-    SET NAME "Control de DJ de Fiesta"
+    SET NAME "Control de DJ de fiesta"
 END
 
 DEF TASK "GizmosDJ"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Elige la configuración correcta en el equipo de DJ"
-    SET ASKER_NAME "Obtén ayuda para elegir la configuración correcta en tu equipo de DJ"
-    SET HELPER_NAME "Ayuda a <ASKER> a elegir la configuración correcta en su equipo de DJ"
+    SET NAME "Elegir la configuración correcta para el equipo de DJ"
+    SET ASKER_NAME "Pedir ayuda para elegir la configuración correcta para tu equipo de DJ"
+    SET HELPER_NAME "Ayudar a <ASKER> a elegir la configuración correcta para su equipo de DJ"
     SET THEME "RECREATION"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "TEENS"
@@ -685,16 +685,16 @@ END
 
 REM : Gizmos ATM
 CLONE DEED "Gizmos3" "GizmosATM"
-    SET INSTRUCTIONS "Aprende a usar el ATM" 
-    SET NAME "Máquina de Dinero"
+    SET INSTRUCTIONS "Aprende a usar el cajero automático" 
+    SET NAME "Máquina de dinero"
 END
 
 DEF TASK "GizmosATM"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Aprende a usar el cajero automático"
-    SET ASKER_NAME "Obtén ayuda para aprender a usar el cajero automático"
-    SET HELPER_NAME "Enséñele a <ASKER> cómo usar el cajero automático"
+    SET NAME "Aprender a usar el cajero automático"
+    SET ASKER_NAME "Pedir ayuda para aprender a usar el cajero automático"
+    SET HELPER_NAME "Enseñarle a <ASKER> a usar el cajero automático"
     SET THEME "MISC"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"
@@ -715,9 +715,9 @@ END
 DEF TASK "GizmosLaundry"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Elige la configuracion correcta de la lavadora"
-    SET ASKER_NAME "Obtén ayuda para elegir la configuración correcta de la lavadora"
-    SET HELPER_NAME "Muéstrale a <ASKER> el ajuste correcto de la lavadora"
+    SET NAME "Elegir la configuración correcta para la lavadora"
+    SET ASKER_NAME "Pedir ayuda para elegir la configuración correcta para la lavadora"
+    SET HELPER_NAME "Mostrarle a <ASKER> el ajuste correcto para la lavadora"
     SET THEME "CLEANING"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
@@ -731,16 +731,16 @@ END
 
 REM : Gizmos Sprinkler
 CLONE DEED "Gizmos3" "GizmosSprinkler"
-    SET INSTRUCTIONS "Aseguremonos de no inundar el patio de nuevo" 
-    SET NAME "Patiomático Aspersor"
+    SET INSTRUCTIONS "Asegurémonos de no inundar el patio de nuevo" 
+    SET NAME "Aspersor patiomático"
 END
 
 DEF TASK "GizmosSprinkler"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Programa los aspersores automáticos"
-    SET ASKER_NAME "Obtén ayuda para programar los aspersores automáticos"
-    SET HELPER_NAME "Ayuda a <ASKER> a programar los aspersores automáticos"
+    SET NAME "Programar los aspersores automáticos"
+    SET ASKER_NAME "Pedir ayuda para programar los aspersores automáticos"
+    SET HELPER_NAME "Ayudar a <ASKER> a programar los aspersores automáticos"
     SET THEME "YARD_WORK"
     SET CATEGORY "ULTRA"
     
@@ -752,16 +752,16 @@ END
 
 REM : Gizmos Air Conditioner
 CLONE DEED "Gizmos3" "GizmosAirConditioner"
-    SET INSTRUCTIONS "Configura el Aire Acondicionado" 
-    SET NAME "Acondicionador de Aire"
+    SET INSTRUCTIONS "Configura el aire acondicionado" 
+    SET NAME "Aire acondicionado"
 END
 
 DEF TASK "GizmosAirConditioner"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Configura el Aire Acondicionado"
-    SET ASKER_NAME "Obtén ayuda para configurar el aire acondicionado"
-    SET HELPER_NAME "Ayuda a <ASKER> a configurar el aire acondicionado"
+    SET NAME "Configurar el aire acondicionado"
+    SET ASKER_NAME "Pedir ayuda para configurar el aire acondicionado"
+    SET HELPER_NAME "Ayudar a <ASKER> a configurar el aire acondicionado"
     SET THEME "MISC"
     SET CATEGORY "ULTRA"
     
@@ -773,16 +773,16 @@ END
 
 REM : Gizmos Massage Chair 
 CLONE DEED "Gizmos3" "GizmosMassageChair"
-    SET INSTRUCTIONS "Programa la silla de masajes" 
+    SET INSTRUCTIONS "Programar el sillón de masajes" 
     SET NAME "Silla de masajes"
 END
 
 DEF TASK "GizmosMassageChair"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Programa la silla dde masajes"
-    SET ASKER_NAME "Obtén ayuda para programar la silla de masajes"
-    SET HELPER_NAME "Ayuda a <ASKER> a programar el sillón de masajes"
+    SET NAME "Programar el sillón de masajes"
+    SET ASKER_NAME "Pedir ayuda para programar el sillón de masajes"
+    SET HELPER_NAME "Ayudar a <ASKER> a programar el sillón de masajes"
     SET THEME "MISC"
     SET CATEGORY "ULTRA"
     
@@ -801,9 +801,9 @@ END
 DEF TASK "GizmosPreheat"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Precalienta el horno"
-    SET ASKER_NAME "Obtén ayuda para precalentar el horno"
-    SET HELPER_NAME "Ayuda a <ASKER> a precalentar el horno"
+    SET NAME "Precalentar el horno"
+    SET ASKER_NAME "Pedir ayuda para precalentar el horno"
+    SET HELPER_NAME "Ayudar a <ASKER> a precalentar el horno"
     SET THEME "KITCHEN"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "TEENS"
@@ -817,16 +817,16 @@ END
 
 REM : Gizmos Microwave 
 CLONE DEED "Gizmos3" "GizmosMicrowave"
-    SET INSTRUCTIONS "Mete nuggets de pollo al microondas" 
+    SET INSTRUCTIONS "Mete los nuggets de pollo al microondas" 
     SET NAME "Microondas"
 END
 
 DEF TASK "GizmosMicrowave"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Mete nuggets de pollo al microondas"
-    SET ASKER_NAME "Obtén ayuda de alguien mayor para meter nuggets de pollo al microondas"
-    SET HELPER_NAME "Mete nuggets de pollo al microondas para <ASKER>"
+    SET NAME "Meter los nuggets de pollo al microondas"
+    SET ASKER_NAME "Pedir ayuda de alguien mayor para meter nuggets de pollo al microondas"
+    SET HELPER_NAME "Meter nuggets de pollo al microondas para <ASKER>"
     SET THEME "KITCHEN"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
@@ -846,9 +846,9 @@ END
 DEF TASK "GizmosReboot"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Reinicia el computador"
-    SET ASKER_NAME "Obtén ayuda para reiniciar el computador"
-    SET HELPER_NAME "Ayuda a <ASKER> a reiniciar la computadora"
+    SET NAME "Reiniciar el computador"
+    SET ASKER_NAME "Pedir ayuda para reiniciar el computador"
+    SET HELPER_NAME "Ayudar a <ASKER> a reiniciar el computador"
     SET THEME "FIXING"
     SET CATEGORY "ULTRA"
     
@@ -861,9 +861,9 @@ REM : Text Wifi
 DEF TASK "TextWifi"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Olvidé la contraseña del wifi"
-    SET ASKER_NAME "Pregúntale a tu hijo la contraseña del wifi"
-    SET HELPER_NAME "Ayuda a <ASKER> a recordar la contraseña del wifi"
+    SET NAME "Olvidar la contraseña del WiFi"
+    SET ASKER_NAME "Preguntarle a tu hijo la contraseña del WiFi"
+    SET HELPER_NAME "Ayudar a <ASKER> a recordar la contraseña del WiFi"
     SET THEME "MISC"
     SET CAPTAIN "YOUNG"
     SET PARTICIPANT "ADULTS"
@@ -879,9 +879,9 @@ REM : Text Stuff
 DEF TASK "TextStuff"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Añade item a la lista de compra"
-    SET ASKER_NAME "Pregunta que añadir a la lista de compras"
-    SET HELPER_NAME "Dile a <ASKER> qué agregar a la lista de compras"
+    SET NAME "Agregar artículos a la lista de compras"
+    SET ASKER_NAME "Preguntar qué agregar a la lista de compras"
+    SET HELPER_NAME "Decirle a <ASKER> qué agregar a la lista de compras"
     SET THEME "PAPERWORK"
     SET CATEGORY "ULTRA"
     
@@ -900,9 +900,9 @@ CLONE DEED "TextBase" "PayHOADues2"
 END
 
 DEF TASK "PayHOADues"
-    SET NAME "Paga los gastos comunes"
-    SET ASKER_NAME "Obtén ayuda para escribirle un cheque a la junta de vecinos"
-    SET HELPER_NAME "Ayuda a <ASKER> a escribir un cheque a la junta de vecinos"
+    SET NAME "Pagar los gastos comunes"
+    SET ASKER_NAME "Pedir ayuda para escribirle un cheque a la junta de vecinos"
+    SET HELPER_NAME "Ayudar a <ASKER> a escribir un cheque a la junta de vecinos"
     SET PARTICIPANT "ADULTS"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "ULTRA"
@@ -925,9 +925,9 @@ CLONE DEED "TextBase" "SerialNumber1"
 END
 
 DEF TASK "SerialNumber"
-    SET NAME "Encuentra el número de serie en la licuadora rota"
-    SET ASKER_NAME "Obtén ayuda para encontrar el número de serie en la licuadora rota"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar el número de serie de la licuadora rota"
+    SET NAME "Encontrar el número de serie en la licuadora rota"
+    SET ASKER_NAME "Pedir ayuda para encontrar el número de serie en la licuadora rota"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar el número de serie en la licuadora rota"
     SET PARTICIPANT "EVERYONE"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "ULTRA"
@@ -945,9 +945,9 @@ CLONE DEED "TextBase" "ScienceHomework1"
 END
 
 DEF TASK "ScienceHomework"
-    SET NAME "Termina la tarea de ciencias"
-    SET ASKER_NAME "Obtén ayuda de alguien mayor para terminar tu tarea de ciencias"
-    SET HELPER_NAME "Ayuda a <ASKER> con la tarea de ciencias"
+    SET NAME "Terminar la tarea de ciencias"
+    SET ASKER_NAME "Pedir ayuda de alguien mayor para terminar tu tarea de ciencias"
+    SET HELPER_NAME "Ayudar a <ASKER> con su tarea de ciencias"
     SET PARTICIPANT "YOUNG"
     SET CAPTAIN "MATURE"
     SET CATEGORY "HIGH"
@@ -966,9 +966,9 @@ CLONE DEED "TextBase" "GeographyHomework1"
 END
 
 DEF TASK "GeographyHomework"
-    SET NAME "Termina tu tarea de geografía"
-    SET ASKER_NAME "Obtén ayuda de alguien mayor para terminar tu tarea de geografía"
-    SET HELPER_NAME "Ayuda a <ASKER> con su tarea de geografía"
+    SET NAME "Terminar tu tarea de geografía"
+    SET ASKER_NAME "Pedir ayuda de alguien mayor para terminar tu tarea de geografía"
+    SET HELPER_NAME "Ayudar a <ASKER> con su tarea de geografía"
     SET PARTICIPANT "YOUNG"
     SET CAPTAIN "MATURE"
     SET CATEGORY "HIGH"
@@ -999,21 +999,21 @@ CLONE DEED "InstructionsBase" "InstructionsBikeDeed"
     SET INSTRUCTIONS_3 "Pon la rueda trasera" 
     
     SET MECHANIC_4 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_4 "Aprieta el otro tornillo"
+    SET INSTRUCTIONS_4 "Aprieta la otra tuerca"
     
     SET MECHANIC_5 "TAP_HOLD"
     SET INSTRUCTIONS_5 "Infla las ruedas" 
     
     SET MECHANIC_6 "TAP_3"
-    SET INSTRUCTIONS_6 "Buen trabajo. Ahora pégale a las ruedas." 
+    SET INSTRUCTIONS_6 "Buen trabajo. Ahora golpea las ruedas." 
 END
 
 DEF TASK "InstructionsBike"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Arma la nueva bicicleta"
-    SET ASKER_NAME "Obtén ayuda de alguien mayor para armar la nueva bicicleta"
-    SET HELPER_NAME "Ayuda a <ASKER> a armar su nueva bicicleta"
+    SET NAME "Armar la nueva bicicleta"
+    SET ASKER_NAME "Pedir ayuda de alguien mayor para armar la nueva bicicleta"
+    SET HELPER_NAME "Ayudar a <ASKER> a armar su nueva bicicleta"
     SET THEME "FIXING"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
@@ -1031,22 +1031,22 @@ CLONE DEED "InstructionsBase" "ShopToiletPaper1"
     SET INSTRUCTIONS "Compra papel higiénico"
 
     SET MECHANIC_0 "SWIPE_UP"
-    SET INSTRUCTIONS_0 "Encuentra papel de 3 capas" 
+    SET INSTRUCTIONS_0 "Encuentra papel higiénico triple hoja" 
     
     SET MECHANIC_1 "TAP_HOLD"
-    SET INSTRUCTIONS_1 "Date cuenta de lo caro que está el papel" 
+    SET INSTRUCTIONS_1 "Date cuenta de lo caro que está ese papel higiénico" 
     
     SET MECHANIC_2 "SWIPE_DOWN"
     SET INSTRUCTIONS_2 "Ponlo de vuelta en la estantería"
     
     SET MECHANIC_3 "TAP"
-    SET INSTRUCTIONS_3 "Agarra papel de 1 capa" 
+    SET INSTRUCTIONS_3 "Agarra papel higiénico de una hoja" 
 END
 
 DEF TASK "ShopToiletPaper"
-    SET NAME "Compra papel higiénico"
-    SET ASKER_NAME "Compra papel higiénico con alguien mayor"
-    SET HELPER_NAME "Compra papel higiénico con <ASKER>"
+    SET NAME "Comprar papel higiénico"
+    SET ASKER_NAME "Comprar papel higiénico con alguien mayor"
+    SET HELPER_NAME "Comprar papel higiénico con <ASKER>"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -1073,16 +1073,16 @@ CLONE DEED "InstructionsBase" "PaperAirplane1"
     SET INSTRUCTIONS_2 "Dobla la cosa entera por la mitad"
     
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Aplastalo todo" 
+    SET INSTRUCTIONS_3 "Aplástalo muy bien" 
 
     SET MECHANIC_4 "TAP"
     SET INSTRUCTIONS_4 "Tíralo" 
 END
 
 DEF TASK "PaperAirplane"
-    SET NAME "Haz un avión de papel"
-    SET ASKER_NAME "Enseña a tu hijo a hacer un avión de papel"
-    SET HELPER_NAME "Aprende a hacer un avión de papel con <ASKER>"	
+    SET NAME "Hacer un avión de papel"
+    SET ASKER_NAME "Enseñar a tu hijo a hacer un avión de papel"
+    SET HELPER_NAME "Aprender a hacer un avión de papel con <ASKER>"	
     SET PARTICIPANT "ADULTS"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "HIGH"
@@ -1103,10 +1103,10 @@ CLONE DEED "InstructionsBase" "MagicTrick1"
     SET INSTRUCTIONS_0 "Abanica las cartas" 
     
     SET MECHANIC_1 "SWIPE_UP"
-    SET INSTRUCTIONS_1 "Dile a tu voluntario que elija una carta" 
+    SET INSTRUCTIONS_1 "Pídele a tu voluntario que elija una carta" 
     
     SET MECHANIC_2 "SWIPE_DOWN"
-    SET INSTRUCTIONS_2 "Deja que la ponga de vuelta al mazo"
+    SET INSTRUCTIONS_2 "Deja que la ponga de vuelta al medio del mazo"
     
     SET MECHANIC_3 "TAP_HOLD"
     SET INSTRUCTIONS_3 "Secretamente usa tu meñique para marcar el lugar" 
@@ -1115,15 +1115,15 @@ CLONE DEED "InstructionsBase" "MagicTrick1"
     SET INSTRUCTIONS_4 "Baraja la carta a la parte superior" 
 
     SET MECHANIC_5 "TAP"
-    SET INSTRUCTIONS_5 "Exclama '¡Esta es tu carta!'" 
+    SET INSTRUCTIONS_5 "Exclama '¡ESTA es tu carta!'" 
 END
 
 DEF TASK "MagicTrick"
-    SET NAME "Haz un truco de magia"
+    SET NAME "Hacer un truco de magia"
     SET PARTICIPANT "TEENS"
     SET CAPTAIN "CHILDREN"
-    SET ASKER_NAME "Enseña a tu hermano un truco de magia"
-    SET HELPER_NAME "Aprende un truco de magia de <ASKER>"
+    SET ASKER_NAME "Enseñar a tu hermano un truco de magia"
+    SET HELPER_NAME "Aprender un truco de magia de <ASKER>"
     SET CATEGORY "HIGH"
     SET THEME "PLAYING"
     SET DURATION <5H>
@@ -1136,7 +1136,7 @@ END
 REM : Teach teen how to tie bowtie
 
 CLONE DEED "InstructionsBase" "TieBowtie1"
-    SET INSTRUCTIONS "Ata una pajarita"
+    SET INSTRUCTIONS "Ata un corbatín"
 
     SET MECHANIC_0 "SWIPE_RIGHT"
     SET INSTRUCTIONS_0 "Tira un extremo sobre el otro" 
@@ -1145,16 +1145,16 @@ CLONE DEED "InstructionsBase" "TieBowtie1"
     SET INSTRUCTIONS_1 "Tira un extremo hacia abajo" 
     
     SET MECHANIC_2 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_2 "Ata un moño"
+    SET INSTRUCTIONS_2 "Ata un lazo"
     
     SET MECHANIC_3 "SWIPE_LEFT"
-    SET INSTRUCTIONS_3 "Tira un extremo para apretar" 
+    SET INSTRUCTIONS_3 "Tira un extremo para apretarlo" 
 END
 
 DEF TASK "TieBowtie"
-    SET NAME "Ata una pajarita"
-    SET ASKER_NAME "Enseña al joven a atar una pajarita"
-    SET HELPER_NAME "Aprende a atar una pajarita con <ASKER>" 
+    SET NAME "Atar un corbatín"
+    SET ASKER_NAME "Enseñar al joven a atar un corbatín"
+    SET HELPER_NAME "Aprender a atar un corbatín con <ASKER>" 
     SET PARTICIPANT "ADULTS"
     SET CAPTAIN "TEENS"
     SET CATEGORY "HIGH"
@@ -1171,7 +1171,7 @@ CLONE DEED "Instructions6" "BrimstoneStew"
     SET INSTRUCTIONS "Prepara el estofado de azufre de la abuela"
 
     SET MECHANIC_0 "TAP_HOLD"
-    SET INSTRUCTIONS_0 "Encuentra el sulfuro"
+    SET INSTRUCTIONS_0 "Encuentra el azufre"
     SET MECHANIC_1 "ROTATE_CLOCK"
     SET INSTRUCTIONS_1 "Agrega las zanahorias malditas"
     SET MECHANIC_2 "ROTATE_COUNTER"
@@ -1179,15 +1179,15 @@ CLONE DEED "Instructions6" "BrimstoneStew"
     SET MECHANIC_3 "ROTATE_CLOCK"
     SET INSTRUCTIONS_3 "Revuelve con el rábano embrujado"
     SET MECHANIC_4 "TAP_HOLD"
-    SET INSTRUCTIONS_4 "Encuentra las lágrimas de la viuda"
+    SET INSTRUCTIONS_4 "Encuentra las lágrimas de viuda"
     SET MECHANIC_5 "SWIPE_UP"
-    SET INSTRUCTIONS_5 "Deslizalo en el horno durante 13 horas."
+    SET INSTRUCTIONS_5 "Mételo en el horno durante 13 horas"
 END
 
 DEF TASK "BrimstoneStew"
-    SET NAME "Prepara el estofado de azufre de la abuela"
-    SET ASKER_NAME "Obtén ayuda para preparar el estofado de azufre de la abuela"
-    SET HELPER_NAME "Ayuda a <ASKER> a preparar el estofado de azufre de la abuela"
+    SET NAME "Preparar el estofado de azufre de la abuela"
+    SET ASKER_NAME "Pedir ayuda para preparar el estofado de azufre de la abuela"
+    SET HELPER_NAME "Ayudar a <ASKER> a preparar el estofado de azufre de la abuela"
     SET CAPTAIN "ADULTS"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "HIGH"
@@ -1205,26 +1205,26 @@ REM : Adjust TV Brightness
 
 CLONE DEED "Gizmos3" "TVBrightness1"
     SET INSTRUCTIONS "Selecciona ajustes de visualización de pantalla" 
-    SET NAME "Ajustes de Visualización"
+    SET NAME "Ajustes de pantalla"
 END
 
 CLONE DEED "InstructionsBase" "TVBrightness2"
-    SET INSTRUCTIONS "Ajusta el brillo de la televisión"
+    SET INSTRUCTIONS "Ajusta el brillo del televisor"
 
     SET MECHANIC_0 "SWIPE_RIGHT"
-    SET INSTRUCTIONS_0 "Hazla más brillante" 
+    SET INSTRUCTIONS_0 "Hazlo más brillante" 
     
     SET MECHANIC_1 "SWIPE_RIGHT"
-    SET INSTRUCTIONS_1 "Hazla aún mas brillante" 
+    SET INSTRUCTIONS_1 "Hazlo aún más brillante" 
     
     SET MECHANIC_2 "ROTATE_COUNTER"
-    SET INSTRUCTIONS_2 "¡Muy brillante! Gíralo de vuelta"
+    SET INSTRUCTIONS_2 "¡Demasiado brillante! Devuélvelo a cómo estaba"
 END
 
 DEF TASK "TVBrightness"
-    SET NAME "Ajusta el brillo ed la televisión"
-    SET ASKER_NAME "Obtén ayuda para ajustar el brillo de la televisión"
-    SET HELPER_NAME "Ayuda a <ASKER> a ajustar el brillo de la televisión"
+    SET NAME "Ajustar el brillo del televisor"
+    SET ASKER_NAME "Pedir ayuda para ajustar el brillo del televisor"
+    SET HELPER_NAME "Ayudar a <ASKER> a ajustar el brillo del televisor"
     SET PARTICIPANT "EVERYONE"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
@@ -1241,10 +1241,10 @@ END
 REM : Teach kid how to ride a bike
 
 CLONE DEED "InstructionsBase" "RideBike1"
-    SET INSTRUCTIONS "Enseñale al niño como andar en bicicleta"
+    SET INSTRUCTIONS "Enséñale al niño cómo andar en bicicleta"
 
     SET MECHANIC_0 "SWIPE_UP"
-    SET INSTRUCTIONS_0 "¡Es facil andar en bici, chico! Solo súbete" 
+    SET INSTRUCTIONS_0 "¡Es fácil andar en bicicleta, chico! Solo súbete" 
     
     SET MECHANIC_1 "ROTATE_CLOCK"
     SET INSTRUCTIONS_1 "Empieza a pedalear" 
@@ -1253,16 +1253,16 @@ CLONE DEED "InstructionsBase" "RideBike1"
     SET INSTRUCTIONS_2 "Estás haciendo un gran trabajo, campeón"
     
     SET MECHANIC_3 "ROTATE_COUNTER"
-    SET INSTRUCTIONS_3 "Uh... quizas deberías ir un poco más lento" 
+    SET INSTRUCTIONS_3 "Oh... quizá reducir la velocidad un poco" 
 
     SET MECHANIC_4 "TAP_HOLD"
-    SET INSTRUCTIONS_4 "¡Aah! Aprieta los frenos"
+    SET INSTRUCTIONS_4 "¡Aaah! Aprieta los frenos"
 END
 
 DEF TASK "RideBike"
-    SET NAME "Anda en bicicleta"
-    SET ASKER_NAME "Enseña al niño cómo andar en bicicleta"
-    SET HELPER_NAME "Aprende a andar en bicicleta con <ASKER>"
+    SET NAME "Andar en bicicleta"
+    SET ASKER_NAME "Enseñar al niño cómo andar en bicicleta"
+    SET HELPER_NAME "Aprender a andar en bicicleta con <ASKER>"
     SET PARTICIPANT "ADULTS"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "HIGH"
@@ -1280,22 +1280,22 @@ CLONE DEED "InstructionsBase" "InstallBirdFeeder1"
     SET INSTRUCTIONS "Instala un comedero de aves"
 
     SET MECHANIC_0 "SWIPE_DOWN"
-    SET INSTRUCTIONS_0 "¡Alimentemos a algunos pájaros! Coloca el poste en su jardín" 
+    SET INSTRUCTIONS_0 "¡Alimentemos a algunas aves! Coloca el poste en tu patio" 
     
     SET MECHANIC_1 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_1 "Atornilla la pequeña casa" 
+    SET INSTRUCTIONS_1 "Atornilla la casita" 
     
     SET MECHANIC_2 "TAP_3"
-    SET INSTRUCTIONS_2 "Llenala con semillas para pájaros"
+    SET INSTRUCTIONS_2 "Llénala con semillas para aves"
     
     SET MECHANIC_3 "TAP_HOLD"
     SET INSTRUCTIONS_3 "Admira tu trabajo estelar" 
 END
 
 DEF TASK "InstallBirdFeeder"
-    SET NAME "Instala un comedero de aves"
-    SET ASKER_NAME "Obtén ayuda para instalar el comedero de aves"
-    SET HELPER_NAME "Ayuda a <ASKER> a instalar el comedero de aves"
+    SET NAME "Instalar un comedero de aves"
+    SET ASKER_NAME "Pedir ayuda para instalar un comedero de aves"
+    SET HELPER_NAME "Ayudar a <ASKER> a instalar un comedero de aves"
     SET PARTICIPANT "ADULTS"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "HIGH"
@@ -1319,20 +1319,20 @@ CLONE DEED "InstructionsBase" "AssemblePatioFurniture1"
     SET INSTRUCTIONS_1 "Alinea la primera pieza con la pieza siguiente" 
     
     SET MECHANIC_2 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_2 "Atornillenlas"
+    SET INSTRUCTIONS_2 "Atorníllalas"
     
     SET MECHANIC_3 "TAP_3"
-    SET INSTRUCTIONS_3 "Corran a través de los otros 90 pasos" 
+    SET INSTRUCTIONS_3 "Apresúrate a hacer los otros 90 pasos" 
 
     SET MECHANIC_4 "SWIPE_DOWN"
-    SET INSTRUCTIONS_4 "Siéntate en tu silla de patio incorrectamente construida"
+    SET INSTRUCTIONS_4 "Siéntate en tu silla de patio construida incorrectamente"
     
 END
 
 DEF TASK "AssemblePatioFurniture"
-    SET NAME "Arma los muebles para el patio"
-    SET ASKER_NAME "Obtén ayuda para armar muebles para el patio"
-    SET HELPER_NAME "Ayuda a <ASKER> a armar los muebles para el patio"
+    SET NAME "Armar los muebles para el patio"
+    SET ASKER_NAME "Pedir ayuda para armar los muebles para el patio"
+    SET HELPER_NAME "Ayudar a <ASKER> a armar los muebles para el patio"
     SET PARTICIPANT "ADULTS"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "HIGH"
@@ -1356,17 +1356,17 @@ CLONE DEED "InstructionsBase" "TeaParty1"
     SET INSTRUCTIONS_1 "Revuelve la crema" 
     
     SET MECHANIC_2 "TAP_3"
-    SET INSTRUCTIONS_2 "Pregúntele al Sr. Osito Abrazos si prefiere un bulto o dos"
+    SET INSTRUCTIONS_2 "Pregúntale al Sr. Osito Abrazos si prefiere un bulto o dos"
     
     SET MECHANIC_3 "SWIPE_DOWN"
-    SET INSTRUCTIONS_3 "Encantado, estoy seguro. Bebe tu masala chai"
+    SET INSTRUCTIONS_3 "Encantado, estoy seguro. Bebe tu té chai"
 
 END
 
 DEF TASK "TeaParty"
-    SET NAME "Ten una fiesta de té"
-    SET ASKER_NAME "Ten una fiesta de té con alguien mayor"
-    SET HELPER_NAME "Ve a la fiesta del té de <ASKER>"
+    SET NAME "Tener una fiesta de té"
+    SET ASKER_NAME "Tener una fiesta de té con alguien mayor"
+    SET HELPER_NAME "Ir a la fiesta del té de <ASKER>"
     SET PARTICIPANT "CHILDREN"
     SET CAPTAIN "MATURE"
     SET CATEGORY "HIGH"
@@ -1395,9 +1395,9 @@ CLONE DEED "InstructionsBase" "PlayPretend1"
 END
 
 DEF TASK "PlayPretend"
-    SET NAME "Juega a fingir"
-    SET ASKER_NAME "Consigue que alguien mayor juegue a pretender contigo"
-    SET HELPER_NAME "Juega a pretender con <ASKER>"
+    SET NAME "Jugar a fingir"
+    SET ASKER_NAME "Conseguir que alguien mayor juegue a fingir contigo"
+    SET HELPER_NAME "Jugar a fingir con <ASKER>"
     SET PARTICIPANT "CHILDREN"
     SET CAPTAIN "MATURE"
     SET CATEGORY "HIGH"
@@ -1429,9 +1429,9 @@ CLONE DEED "InstructionsBase" "PayAllowance1"
 END
 
 DEF TASK "PayAllowance"
-    SET NAME "Paga la mesada"
-    SET ASKER_NAME "Pide tu mesada"
-    SET HELPER_NAME "Dale a <ASKER> su mesada"
+    SET NAME "Pagar la mesada"
+    SET ASKER_NAME "Pedir tu mesada"
+    SET HELPER_NAME "Darle a <ASKER> su mesada"
     SET PARTICIPANT "YOUNG"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "HIGH"
@@ -1451,19 +1451,19 @@ CLONE DEED "Gizmos3" "DemonicPuzzle1"
 END
 
 CLONE DEED "InstructionsBase" "DemonicPuzzle2"
-    SET INSTRUCTIONS "Abre la caja de rompecabezas"
+    SET INSTRUCTIONS "Abre la caja de rompecabezas demoníaco"
 
     SET MECHANIC_0 "TAP_HOLD"
-    SET INSTRUCTIONS_0 "Tápate los ojos ante el portal impío" 
+    SET INSTRUCTIONS_0 "Protege tus ojos del portal impío" 
     
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Saluda al Tío Steve" 
+    SET INSTRUCTIONS_1 "Saluda al tío Steve" 
 END
 
 DEF TASK "DemonicPuzzle"
-    SET NAME "Abre la caja del rompecabezas demoníaco"
-    SET ASKER_NAME "Obtén ayuda para abrir la caja del rompecabezas demoníaco"
-    SET HELPER_NAME "Ayuda a <ASKER> a abrir la caja del rompecabezas demoníaco"
+    SET NAME "Abrir la caja del rompecabezas demoníaco"
+    SET ASKER_NAME "Pedir ayuda para abrir la caja del rompecabezas demoníaco"
+    SET HELPER_NAME "Ayudar a <ASKER> a abrir la caja del rompecabezas demoníaco"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "EVERYONE"
     SET CATEGORY "ULTRA"
@@ -1479,16 +1479,16 @@ END
 
 REM : What was that one guy's name again?
 CLONE DEED "TextBase" "TextGuyName1"
-    SET INSTRUCTIONS "Recuerda el nombre de ese chico"
+    SET INSTRUCTIONS "Recuerda el nombre de ese tipo"
     SET CATEGORY "NAME"
 END
 
 DEF TASK "TextGuyName"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "¿Cuál era el nombre de ese chico otra vez?"
-    SET ASKER_NAME "Pide ayuda para recordar el nombre de ese chico"
-    SET HELPER_NAME "Ayuda a <ASKER> a recordar el nombre de ese chico"
+    SET NAME "¿Cuál era el nombre de ese tipo otra vez?"
+    SET ASKER_NAME "Pedir ayuda para recordar el nombre de ese tipo"
+    SET HELPER_NAME "Ayudar a <ASKER> a recordar el nombre de ese tipo"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "EVERYONE"
     SET CATEGORY "ULTRA"
@@ -1501,16 +1501,16 @@ END
 
 REM : Study for Spelling Test
 CLONE DEED "TextBase" "TextSpellingTest1"
-    SET INSTRUCTIONS "Estudia para el exámen de deletreo"
+    SET INSTRUCTIONS "Estudia para el examen de deletreo"
     SET CATEGORY "SPELLING"
 END
 
 DEF TASK "TextSpellingTest"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Estudia para el examen de deletreo"
-    SET ASKER_NAME "Estudia para tu examen de deletreo con alguien mayor"
-    SET HELPER_NAME "Ayuda a <ASKER> a estudiar para su examen de ortografía"
+    SET NAME "Estudiar para el examen de deletreo"
+    SET ASKER_NAME "Estudiar para tu examen de deletreo con alguien mayor"
+    SET HELPER_NAME "Ayudar a <ASKER> a estudiar para su examen de deletreo"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "ULTRA"
@@ -1523,13 +1523,13 @@ END
 
 REM : Teach parent an internet dance
 CLONE DEED "InstructionsBase" "InstructionsDance1"
-    SET INSTRUCTIONS "Enseñale a un padre un baile de internet"
+    SET INSTRUCTIONS "Enséñale a tus padres un baile de internet"
 
     SET MECHANIC_0 "SWIPE_LEFT"
     SET INSTRUCTIONS_0 "Mueve tu cuerpo" 
     
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "Déjalo caer bajo" 
+    SET INSTRUCTIONS_1 "Déjalo caer" 
     
     SET MECHANIC_2 "ROTATE_CLOCK"
     SET INSTRUCTIONS_2 "Date vueltas" 
@@ -1541,9 +1541,9 @@ END
 DEF TASK "InstructionsDance"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Enseñale a un padre un baile de internet"
-    SET ASKER_NAME "Enseñale a tu padre un baile de internet"
-    SET HELPER_NAME "Aprende un baile en Internet de <ASKER>"
+    SET NAME "Enseñarle a tus padres un baile de internet"
+    SET ASKER_NAME "Enseñarle a tus padres un baile de internet"
+    SET HELPER_NAME "Aprende un baile de internet con <ASKER>"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -1556,10 +1556,10 @@ END
 
 REM : Teach kid new dance
 CLONE DEED "InstructionsBase" "InstructionsKidDance1"
-    SET INSTRUCTIONS "Enseña un nuevo baile popular"
+    SET INSTRUCTIONS "Enseña el nuevo baile popular"
 
     SET MECHANIC_0 "SWIPE_LEFT"
-    SET INSTRUCTIONS_0 "Un paso a la izquierda" 
+    SET INSTRUCTIONS_0 "Paso a la izquierda" 
     
     SET MECHANIC_1 "SWIPE_RIGHT"
     SET INSTRUCTIONS_1 "El esqueleto a la derecha" 
@@ -1568,15 +1568,15 @@ CLONE DEED "InstructionsBase" "InstructionsKidDance1"
     SET INSTRUCTIONS_2 "Saca tus manos" 
     
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Haz gestos descarados con las manos" 
+    SET INSTRUCTIONS_3 "Haz gestos atrevidos con las manos" 
 END
 
 DEF TASK "InstructionsKidDance"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Enseña un nuevo baile popular"
-    SET ASKER_NAME "Pídele a tu hermano mayor que te enseñe el nuevo baile"
-    SET HELPER_NAME "Enséñale el nuevo baile popular a <ASKER>"
+    SET NAME "Enseñar el nuevo baile popular"
+    SET ASKER_NAME "Pedirle a tu hermano mayor que te enseñe el nuevo baile"
+    SET HELPER_NAME "Enseñarle el nuevo baile popular a <ASKER>"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "HIGH"
@@ -1589,30 +1589,30 @@ END
 
 REM : Fix the garbage disposal
 CLONE DEED "InstructionsBase" "InstructionsGarbageDisposal1"
-    SET INSTRUCTIONS "Arregla el triturador de basura"
+    SET INSTRUCTIONS "Arregla la trituradora de basura"
 
     SET MECHANIC_0 "TAP"
-    SET INSTRUCTIONS_0 "Apágalo primero" 
+    SET INSTRUCTIONS_0 "Apágala primero" 
     
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Revisa tres veces que esté apagado" 
+    SET INSTRUCTIONS_1 "Revisa tres veces que esté apagada" 
     
     SET MECHANIC_2 "SWIPE_DOWN"
-    SET INSTRUCTIONS_2 "Pega tu mano adentro"
+    SET INSTRUCTIONS_2 "Mete tu mano"
     
     SET MECHANIC_3 "SWIPE_UP"
-    SET INSTRUCTIONS_3 "¡OH DIOS NO ESTÁ APAGADO! SÁCALA, SÁCALA" 
+    SET INSTRUCTIONS_3 "¡OH, CIELOS! ¡NO ESTÁ APAGADA! SÁCALA, SÁCALA" 
 
     SET MECHANIC_4 "TAP_HOLD"
-    SET INSTRUCTIONS_4 "Considera tirar el fregadero"
+    SET INSTRUCTIONS_4 "Considera botar el fregadero"
 END
 
 DEF TASK "InstructionsGarbageDisposal"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Arregla el triturador de basura"
-    SET ASKER_NAME "Obtén ayuda para arreglar el triturador de basura"
-    SET HELPER_NAME "Ayuda a <ASKER> a arreglar el triturador de basura"
+    SET NAME "Arreglar la trituradora de basura"
+    SET ASKER_NAME "Pedir ayuda para arreglar la trituradora de basura"
+    SET HELPER_NAME "Ayudar a <ASKER> a arreglar la trituradora de basura"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "EVERYONE"
     SET CATEGORY "HIGH"
@@ -1628,16 +1628,16 @@ CLONE DEED "InstructionsBase" "InstructionsHair1"
     SET INSTRUCTIONS "Plancha tu cabello"
 
     SET MECHANIC_0 "TAP_HOLD"
-    SET INSTRUCTIONS_0 "Calienta la plancha de pelo" 
+    SET INSTRUCTIONS_0 "Calienta la plancha de cabello" 
     
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "Baja por el pelo" 
+    SET INSTRUCTIONS_1 "Baja por el cabello" 
     
     SET MECHANIC_2 "SWIPE_UP"
-    SET INSTRUCTIONS_2 "Consigue el lugar que te perdiste"
+    SET INSTRUCTIONS_2 "Llega al lugar que te faltó"
     
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Vamos a hacer que quede SUPER recto" 
+    SET INSTRUCTIONS_3 "Vamos a hacer que quede SUPER liso" 
 
     SET MECHANIC_4 "TAP_3"
     SeT INSTRUCTIONS_4 "¡¡¡Fuego!!! Apágalo"
@@ -1646,9 +1646,9 @@ END
 DEF TASK "InstructionsHair"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Plancha tu pelo"
-    SET ASKER_NAME "Ayuda a tu hermano a planchar su cabello"
-    SET HELPER_NAME "Plancha tu cabello con la ayuda de <ASKER>"
+    SET NAME "Planchar tu cabello"
+    SET ASKER_NAME "Ayudar a tu hermano a planchar su cabello"
+    SET HELPER_NAME "Planchar tu cabello con la ayuda de <ASKER>"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "HIGH"
@@ -1661,7 +1661,7 @@ END
 
 REM : Humor a painting hobby
 CLONE DEED "InstructionsBase" "InstructionsPaint1"
-    SET INSTRUCTIONS "Humor, un pasatiempo de la pintura"
+    SET INSTRUCTIONS "Halaga un pasatiempo de pintura"
 
     SET MECHANIC_0 "TAP"
     SET INSTRUCTIONS_0 "Haz una pose para tu artista" 
@@ -1673,18 +1673,18 @@ CLONE DEED "InstructionsBase" "InstructionsPaint1"
     SET INSTRUCTIONS_2 "Esa tampoco. Haz otra pose"
     
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Quédate quieta mientras se captura tu esencia" 
+    SET INSTRUCTIONS_3 "Quédate quieto mientras capturan tu esencia" 
     
     SET MECHANIC_4 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_4 "Intenta darte cuenta cuando las cosas salieron tan mal" 
+    SET INSTRUCTIONS_4 "Trata de averiguar cuándo las cosas salieron tan mal" 
 END
 
 DEF TASK "InstructionsPaint"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Humor, un pasatiempo de la pintura"
-    SET ASKER_NAME "Pide a alguien que pose para tu pintura"
-    SET HELPER_NAME "El pasatiempo de pintura de humorista <ASKER>"
+    SET NAME "Halagar un pasatiempo de pintura"
+    SET ASKER_NAME "Pedir a alguien que pose para tu pintura"
+    SET HELPER_NAME "Halagar el pasatiempo de pintura de <ASKER>"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "EVERYONE"
     SET CATEGORY "HIGH"
@@ -1697,13 +1697,13 @@ END
 
 REM : Build Baking Soda Volcano
 CLONE DEED "InstructionsBase" "BakingSodaVolcano"
-    SET INSTRUCTIONS "Haz un volcán de bicarbonato"
+    SET INSTRUCTIONS "Construye un volcán de bicarbonato"
 
     SET MECHANIC_0 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_0 "Mezcla vinagre con bicarbonato de sodio" 
+    SET INSTRUCTIONS_0 "Mezcla vinagre con bicarbonato" 
     
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "¡ESTA EXPLOTANDO! ¡AGÁCHATE!" 
+    SET INSTRUCTIONS_1 "¡ESTÁ EXPLOTANDO! ¡AGÁCHATE!" 
 
     SET MECHANIC_2 "ROTATE_COUNTER"
     SET INSTRUCTIONS_2 "Limpia el desastre"
@@ -1712,9 +1712,9 @@ END
 DEF TASK "InstructionsBakingSodaVolcano"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Construye un volcan de bicarbonato"
-    SET ASKER_NAME "Pídele a alguien mayor que te ayude a construir un volcán de bicarbonato de sodio"
-    SET HELPER_NAME "Ayuda a <ASKER> a construir un volcán de bicarbonato de sodio"
+    SET NAME "Construir un volcán de bicarbonato"
+    SET ASKER_NAME "Pedirle a alguien mayor que te ayude a construir un volcán de bicarbonato"
+    SET HELPER_NAME "Ayudar a <ASKER> a construir un volcán de bicarbonato"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -1734,9 +1734,9 @@ END
 DEF TASK "TravelOrtho"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Conduce hasta el ortodoncista"
-    SET ASKER_NAME "Obtén un viaje al ortodoncista"
-    SET HELPER_NAME "Lleva a <ASKER> al ortodoncista"
+    SET NAME "Conducir hasta el ortodoncista"
+    SET ASKER_NAME "Conseguir un viaje al ortodoncista"
+    SET HELPER_NAME "Llevar a <ASKER> al ortodoncista"
     SET THEME "ERRAND"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
@@ -1750,16 +1750,16 @@ END
 
 REM : Travel Kid's friend
 CLONE DEED "TravelCategory" "TravelKidFriendStep"
-    SET INSTRUCTIONS "Conduce a la casa de un amigo idiota del niño"
+    SET INSTRUCTIONS "Conduce a la casa del amigo idiota del niño"
     SET CATEGORY "RESIDENCE"
 END
 
 DEF TASK "TravelKidFriend"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Conduce a la casa de un amigo idiota del niño"
-    SET ASKER_NAME "Obtén un viaje a la casa de tu amigo genial"
-    SET HELPER_NAME "Lleva a <ASKER> a la casa de su amigo idiota"
+    SET NAME "Conducir a la casa de un amigo idiota del niño"
+    SET ASKER_NAME "Conseguir un viaje a la casa de tu amigo genial"
+    SET HELPER_NAME "Llevar a <ASKER> a la casa de su amigo idiota"
     SET THEME "ERRAND"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
@@ -1772,16 +1772,16 @@ END
 
 REM : Travel After School Activity
 CLONE DEED "TravelCategory" "TravelActivityStep"
-    SET INSTRUCTIONS "Conduce a la actividad después de la escuela"
+    SET INSTRUCTIONS "Conduce a la actividad extraescolar"
     SET CATEGORY "ACTIVITY"
 END
 
 DEF TASK "TravelActivity"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Conduce a la actividad después de la escuela"
-    SET ASKER_NAME "Obtén un viaje a la actividad después de la escuela"
-    SET HELPER_NAME "Lleva a <ASKER> a la actividad después de la escuela"
+    SET NAME "Conducir a la actividad extraescolar"
+    SET ASKER_NAME "Conseguir un viaje a la actividad extraescolar"
+    SET HELPER_NAME "Llevar a <ASKER> a la actividad extraescolar"
     SET THEME "ERRAND"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
@@ -1794,16 +1794,16 @@ END
 
 REM : Travel Errand
 CLONE DEED "TravelCategory" "TravelErrandStep"
-    SET INSTRUCTIONS "Ve a hacer algunos recados"
+    SET INSTRUCTIONS "Ve a hacer algunos mandados"
     SET CATEGORY "ERRAND"
 END
 
 DEF TASK "TravelErrand"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Ve a hacer algunos recados"
-    SET ASKER_NAME "Ve con alguien mayor a hacer algunos recados"
-    SET HELPER_NAME "Ve a hacer recados con <ASKER>"
+    SET NAME "Ir a hacer algunos mandados"
+    SET ASKER_NAME "Ir con alguien mayor a hacer algunos mandados"
+    SET HELPER_NAME "Ir a hacer mandados con <ASKER>"
     SET THEME "ERRAND"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
@@ -1816,16 +1816,16 @@ END
 
 REM : Pick up dry cleaning
 CLONE DEED "TravelBase" "TravelDryCleaning1"
-    SET INSTRUCTIONS "Conduce a Camisetas-Sin-Suerte Tintorería"
+    SET INSTRUCTIONS "Conduce a Tintorería Camiseta Rota"
     SET CONTENT_ID "SHIRT-OUTTA-"
 END
 
 DEF TASK "TravelDryCleaning"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Recoge la ropa seca"
-    SET ASKER_NAME "Ve con alguien mayor a recoger la ropa seca"
-    SET HELPER_NAME "Conduce con <ASKER> para recoger la ropa seca"
+    SET NAME "Recoger la ropa seca"
+    SET ASKER_NAME "Ir con alguien mayor a recoger la ropa seca"
+    SET HELPER_NAME "Conducir con <ASKER> para recoger la ropa seca"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -1838,16 +1838,16 @@ END
 
 REM : Travel Barber
 CLONE DEED "TravelBase" "TravelBarber"
-    SET INSTRUCTIONS "Conduce al estilista"
+    SET INSTRUCTIONS "Conduce hasta el peluquero"
     SET CATEGORY "BARBER"
 END
 
 DEF TASK "TravelBarber"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Obtén un corte de pelo"
-    SET ASKER_NAME "Obtén un viaje a tu cita con el estilista"
-    SET HELPER_NAME "Lleva a <ASKER> a su cita para cortarse el pelo"
+    SET NAME "Cortarse el cabello"
+    SET ASKER_NAME "Conseguir un viaje a tu cita para cortarte el cabello"
+    SET HELPER_NAME "Llevar a <ASKER> a su cita para cortarse el cabello"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -1860,16 +1860,16 @@ END
 
 REM : Travel Ice Cream
 CLONE DEED "TravelBase" "TravelIceCream"
-    SET INSTRUCTIONS "Conduce a Todo-Está-Congelado Helados"
+    SET INSTRUCTIONS "Conduce a Pura Escarcha Helados"
     SET CONTENT_ID "ALL-IS-FROST"
 END
 
 DEF TASK "TravelIceCream"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Recoge un pastel de helado"
-    SET ASKER_NAME "Ve con alguien mayor a recoger el pastel de helado"
-    SET HELPER_NAME "Ve con <PEDIDOR> a recoger el pastel de helado"
+    SET NAME "Recoger una torta de helado"
+    SET ASKER_NAME "Ir con alguien mayor a recoger la torta de helado"
+    SET HELPER_NAME "Ir con <ASKER> a recoger la torta de helado"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -1882,16 +1882,16 @@ END
 
 REM : Travel License
 CLONE DEED "TravelBase" "TravelLicense"
-    SET INSTRUCTIONS "Muéstrale tu nueva licencia de conducir a tu pareja"
+    SET INSTRUCTIONS "Presume tu nueva licencia de conducir a tu enamorada"
     SET CATEGORY "RESIDENCE"
 END
 
 DEF TASK "TravelLicense"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Muestrale tu nueva licencia de conducir a tu pareja"
-    SET ASKER_NAME "Ve con el joven muentras le muestras tu nueva licencia de conducir a tu pareja"
-    SET HELPER_NAME "Conduce con <ASKER> para lucir tu licencia de conducir"
+    SET NAME "Presumir tu nueva licencia de conducir a tu enamorada"
+    SET ASKER_NAME "Ir con el joven mientras presume su nueva licencia de conducir"
+    SET HELPER_NAME "Conducir con <ASKER> para presumir tu licencia de conducir"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "HIGH"
@@ -1911,9 +1911,9 @@ END
 DEF TASK "TravelPark"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Ve al parque y pelea con algunos gansos"
-    SET ASKER_NAME "Obtén un viaje al parque y pelea con algunos gansos"
-    SET HELPER_NAME "Lleva a <ASKER> al parque y pelea con algunos gansos"
+    SET NAME "Ir al parque y pelea con algunos gansos"
+    SET ASKER_NAME "Conseguir un viaje al parque y pelear con algunos gansos"
+    SET HELPER_NAME "Llevar a <ASKER> al parque y que pelee con algunos gansos"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -1933,9 +1933,9 @@ END
 DEF TASK "TravelGift"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Devuelve el regalo no deseado"
-    SET ASKER_NAME "Obtén un viaje para devolver un regalo asqueroso a la tienda"
-    SET HELPER_NAME "Lleva a <ASKER> a devolver el regalo no deseado a la tienda"
+    SET NAME "Devolver el regalo no deseado"
+    SET ASKER_NAME "Conseguir un viaje para devolver un pésimo regalo a la tienda"
+    SET HELPER_NAME "Llevar a <ASKER> a devolver el regalo no deseado a la tienda"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -1948,16 +1948,16 @@ END
 
 REM : Travel Anniversary
 CLONE DEED "TravelBase" "TravelAnniversary"
-    SET INSTRUCTIONS "Obtén un regalo de aniversario de último minuto"
+    SET INSTRUCTIONS "Consigue un regalo de aniversario de último minuto"
     SET CATEGORY "SHOPPING"
 END
 
 DEF TASK "TravelAnniversary"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Obtén un regalo de aniversario de último minuto"
-    SET ASKER_NAME "Ve con un adulto a comprar un regalo de aniversario de último minuto"
-    SET HELPER_NAME "Lleva a <ASKER> a comprar un regalo de aniversario de último minuto"
+    SET NAME "Conseguir un regalo de aniversario de último minuto"
+    SET ASKER_NAME "Ve con un adulto a conseguir un regalo de aniversario de último minuto"
+    SET HELPER_NAME "Llevar a <ASKER> a conseguir un regalo de aniversario de último minuto"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -1977,9 +1977,9 @@ END
 DEF TASK "TravelToy"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Lleva a tu hermano a la juguetería para que se quede tranquilo"
-    SET ASKER_NAME "Obtén un viaje a la tienda de juguetes"
-    SET HELPER_NAME "Lleva a <ASKER> a la tienda de juguetes para que se calle"
+    SET NAME "Llevar a tu hermano a la juguetería para que se quede tranquilo"
+    SET ASKER_NAME "Conseguir un viaje a la tienda de juguetes"
+    SET HELPER_NAME "Llevar a <ASKER> a la tienda de juguetes para que se quede tranquilo"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "HIGH"
@@ -1999,9 +1999,9 @@ END
 DEF TASK "TravelBank"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Ve al banco para abrir una cuenta corriente"
-    SET ASKER_NAME "Obtén un viaje al banco para abrir una cuenta corriente"
-    SET HELPER_NAME "Lleva a <ASKER> al banco para abrir una cuenta corriente"
+    SET NAME "Ir al banco para abrir una cuenta corriente"
+    SET ASKER_NAME "Conseguir un viaje al banco para abrir una cuenta corriente"
+    SET HELPER_NAME "Llevar a <ASKER> al banco para abrir una cuenta corriente"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "HIGH"
@@ -2021,9 +2021,9 @@ END
 DEF TASK "TravelPizza"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Recoge una pizza vegana"
-    SET ASKER_NAME "Ve con alguien mayor a recoger la pizza vegana"
-    SET HELPER_NAME "Lleva a <ASKER> a comprar pizza vegana"
+    SET NAME "Recoger la pizza vegana"
+    SET ASKER_NAME "Ir con alguien mayor a recoger la pizza vegana"
+    SET HELPER_NAME "Llevar a <ASKER> a recoger la pizza vegana"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -2043,9 +2043,9 @@ END
 DEF TASK "TravelSleepover"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Que te dejen para una pijamada"
-    SET ASKER_NAME "Obtén un viaje a la gran pijamada"
-    SET HELPER_NAME "Lleva a <ASKER> a la gran pijamada"
+    SET NAME "Que te dejen en la pijamada"
+    SET ASKER_NAME "Conseguir un viaje a la gran pijamada"
+    SET HELPER_NAME "Llevar a <ASKER> a la gran pijamada"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "HIGH"
@@ -2068,8 +2068,8 @@ DEF TASK "TravelTP"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
     SET NAME "Se acabó el papel higiénico"
-    SET ASKER_NAME "Ve con alguien a comprar papel higiénico"
-    SET HELPER_NAME "Ve con <ASKER> a comprar papel higiénico"
+    SET ASKER_NAME "Ir con alguien a comprar papel higiénico"
+    SET HELPER_NAME "Ir con <ASKER> a comprar papel higiénico"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -2084,16 +2084,16 @@ END
 
 REM : Travel HOA 
 CLONE DEED "TravelBase" "TravelHOA"
-    SET INSTRUCTIONS "Lleva el cheque de la Junta de Vecinos a la oficina de correo"
+    SET INSTRUCTIONS "Lleva el cheque de la junta de vecinos a la oficina de correos"
     SET CATEGORY "POSTOFFICE"
 END
 
 DEF TASK "TravelHOA"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Lleva el cheque de la Junta de Vecinos a la oficina de correo"
-    SET ASKER_NAME "Ve con alguien mayor a dejar el cheque de la Junta de Vecinos a la oficina de correo"
-    SET HELPER_NAME "Conduce con <ASKER> para dejar el cheque de la Junta de Vecinos en la oficina de correo"
+    SET NAME "Llevar el cheque de la junta de vecinos a la oficina de correos"
+    SET ASKER_NAME "Ir con alguien mayor a dejar el cheque de la junta de vecinos a la oficina de correos"
+    SET HELPER_NAME "Conducir con <ASKER> para dejar el cheque de la junta de vecinos en la oficina de correos"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "ULTRA"
@@ -2114,8 +2114,8 @@ DEF TASK "TravelDelivery"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
     SET NAME "Ruta de entrega de periódicos"
-    SET ASKER_NAME "Únete al joven en su ruta de entregas"
-    SET HELPER_NAME "Lleva a <ASKER> a su ruta de entregas"
+    SET ASKER_NAME "Acompañar al joven en su ruta de entrega"
+    SET HELPER_NAME "Llevar a <ASKER> en tu ruta de entrega"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "HIGH"
@@ -2135,9 +2135,9 @@ END
 DEF TASK "TravelGas"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Consigue gasolina para el auto familiar"
-    SET ASKER_NAME "Ve con alguien mayor a conseguir gasolina para el auto familiar"
-    SET HELPER_NAME "Conduce con <ASKER> para conseguir gasolina para el auto"
+    SET NAME "Conseguir gasolina para el auto familiar"
+    SET ASKER_NAME "Ir con alguien mayor a conseguir gasolina para el auto familiar"
+    SET HELPER_NAME "Conducir con <ASKER> para conseguir gasolina para el auto"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -2150,16 +2150,16 @@ END
 
 REM : Travel Ennui
 CLONE DEED "TravelBase" "TravelEnnui"
-    SET INSTRUCTIONS "Alivia tu aburrimiento con entretenimiento frívolo"
+    SET INSTRUCTIONS "Alivia tu fastidio con entretenimiento frívolo"
     SET CATEGORY "ENTERTAINMENT"
 END
 
 DEF TASK "TravelEnnui"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
-    SET NAME "Alivia tu aburrimiento con entretenimiento frívolo"
-    SET ASKER_NAME "Alivia tu aburrimiento obteniendo un viaje a un entretenimiento frívolo"
-    SET HELPER_NAME "Conduce a <ASKER> al entretenimiento frívolo para aliviar el tedio"
+    SET NAME "Aliviar tu fastidio con entretenimiento frívolo"
+    SET ASKER_NAME "Alivia tu fastidio consiguiendo un viaje a un entretenimiento frívolo"
+    SET HELPER_NAME "Llevar a <ASKER> al entretenimiento frívolo para aliviar el fastidio"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"
@@ -2177,10 +2177,10 @@ CLONE DEED "FindCategory" "FindToyRecalled"
 END
 
 DEF TASK "FindToyRecalled"
-    SET NAME "Devuelve un juguete retirado del mercado"
+    SET NAME "Devolver un juguete retirado del mercado"
     SET CAPTAIN "EVERYONE"
-    SET ASKER_NAME "Obtén ayuda para devolver un juguete retirado del mercado"
-    SET HELPER_NAME "Ayuda a <ASKER> a devolver el juguete retirado del mercado"
+    SET ASKER_NAME "Pedir ayuda para devolver un juguete retirado del mercado"
+    SET HELPER_NAME "Ayudar a <ASKER> a devolver un juguete retirado del mercado"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
     SET DURATION <5H>
@@ -2197,9 +2197,9 @@ CLONE DEED "FindCategory" "FindEggBag"
 END
 
 DEF TASK "FindEggBag"
-    SET NAME "¡Ew! Encuentra la bolsa en la que dejaste un sándwich de huevo la semana pasada"
-    SET ASKER_NAME "¡Ew! Obtén ayuda para encontrar la bolsa en la que dejaste un sándwich de huevo la semana pasada"
-    SET HELPER_NAME "¡Ew! Ayuda a <ASKER> a encontrar la bolsa en la que dejó un sándwich de huevo la semana pasada"
+    SET NAME "¡Guácala! Encontrar la bolsa en la que dejaste un sándwich de huevo la semana pasada"
+    SET ASKER_NAME "¡Guácala! Pedir ayuda para encontrar la bolsa en la que dejaste un sándwich de huevo la semana pasada"
+    SET HELPER_NAME "¡Guácala! Ayuda a <ASKER> a encontrar la bolsa en la que dejó un sándwich de huevo la semana pasada"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2217,9 +2217,9 @@ CLONE DEED "FindCategory" "FindGiftCard"
 END
 
 DEF TASK "FindGiftCard"
-    SET NAME "Encuentra esa tarjeta de regalo que obtuviste de Sr. Grande Gran Caja Caja de Cajas Grandes "
-    SET ASKER_NAME "Obtén ayuda para encontrar esa tarjeta de regalo que obtuviste de Sr. Grande Gran Caja Caja de Cajas Grandes"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar esa tarjeta de regalo de Sr. Grande Gran Caja Caja de Cajas Grandes"
+    SET NAME "Encontrar esa tarjeta de regalo que obtuviste de Gran Caja Caja de Grandes Cajas del Sr. Grande"
+    SET ASKER_NAME "Pedir ayuda para encontrar esa tarjeta de regalo que obtuviste de Gran Caja Caja de Grandes Cajas del Sr. Grande"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar esa tarjeta de regalo de Gran Caja Caja de Grandes Cajas del Sr. Grande"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2237,9 +2237,9 @@ CLONE DEED "FindCategory" "FindBoringBook"
 END
 
 DEF TASK "FindBoringBook"
-    SET NAME "Encuentra el libro aburrido que siempre te deja dormir"
-    SET ASKER_NAME "Obtén ayuda para encontrar el libro aburrido que siempre te deja dormir"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar el libro aburrido que siempre hace que duerma"
+    SET NAME "Encontrar el libro aburrido que siempre te hace dormir"
+    SET ASKER_NAME "Pedir ayuda para encontrar el libro aburrido que siempre te hace dormir"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar el libro aburrido que siempre te hace dormir"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "ADULTS"
     SET CATEGORY "HIGH"
@@ -2254,14 +2254,14 @@ END
 
 REM : Find the best shoe for squashing that big bug (Find the most solid shoe)
 CLONE DEED "FindCategory" "FindBugShoe"
-    SET INSTRUCTIONS "Encuentra el zapato de aplastar bichos"
+    SET INSTRUCTIONS "Encuentra el zapato para aplastar insectos"
     SET CATEGORY "SHOES"
 END
 
 DEF TASK "FindBugShoe"
-    SET NAME "Encuentra el zapato de aplastar bichos"
-    SET ASKER_NAME "Obtén ayuda para encontrar el zapato de aplastar bichos"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar el zapato para aplastar bichos"
+    SET NAME "Encuentra el zapato para aplastar insectos"
+    SET ASKER_NAME "Pedir ayuda para encontrar el zapato para aplastar insectos"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar el zapato para aplastar insectos"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2280,9 +2280,9 @@ CLONE DEED "FindCategory" "FindArtNoodle"
 END
 
 DEF TASK "FindArtNoodle"
-    SET NAME "Encuentra la mejor pasta seca para tu pequeño y extraño proyecto de arte"
-    SET ASKER_NAME "Obtén ayuda para encontrar la mejor pasta seca para tu pequeño y extraño proyecto de arte"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar la mejor pasta seca para su pequeño y extraño proyecto de arte"
+    SET NAME "Encontrar la mejor pasta seca para tu pequeño y extraño proyecto de arte"
+    SET ASKER_NAME "Pedir ayuda para encontrar la mejor pasta seca para tu pequeño y extraño proyecto de arte"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la mejor pasta seca para su pequeño y extraño proyecto de arte"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "HIGH"
@@ -2301,9 +2301,9 @@ CLONE DEED "FindCategory" "FindHandcuffKeys"
 END
 
 DEF TASK "FindHandcuffKeys"
-    SET NAME "Ups, perdi las llaves de las esposas..."
-    SET ASKER_NAME "Ups, obtén ayuda para encontrar las llaves de las esposas..."
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar las llaves de las esposas. ¿Por qué usaba esposas? No te preocupes por eso."
+    SET NAME "Ups, perdí las llaves de las esposas..."
+    SET ASKER_NAME "Ups, pedir ayuda para encontrar las llaves de las esposas..."
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar las llaves de las esposas. ¿Por qué estaba usando esposas? No te preocupes."
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "ADULTS"
     SET CATEGORY "HIGH"
@@ -2318,14 +2318,14 @@ END
 
 REM : Find the batteries you took out of that annoying toy (Find batteries)
 CLONE DEED "FindCategory" "FindToyBatteries"
-    SET INSTRUCTIONS "Encuentra las baterías del juguete molesto"
+    SET INSTRUCTIONS "Encuentra las pilas del juguete molesto"
     SET CATEGORY "BATTERIES"
 END
 
 DEF TASK "FindToyBatteries"
-    SET NAME "Encuentra las baterías que sacaste de ese molesto juguete"
-    SET ASKER_NAME "Obtén ayuda para encontrar las baterías que sacaste de ese molesto juguete"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar las basterías que sacó de ese molesto juguete"
+    SET NAME "Encontrar las pilas que sacaste de ese molesto juguete"
+    SET ASKER_NAME "Pedir ayuda para encontrar las pilas que sacaste de ese molesto juguete"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar las pilas que sacó de ese molesto juguete"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "ADULTS"
     SET CATEGORY "HIGH"
@@ -2344,9 +2344,9 @@ CLONE DEED "FindCategory" "FindLuckyMarble"
 END
 
 DEF TASK "FindLuckyMarble"
-    SET NAME "Encuentra tu canica de la suerte"
-    SET ASKER_NAME "Obtén ayuda de alguien mayor para encontrar tu canica de la suerte"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar su canica de la suerte"
+    SET NAME "Encontrar tu canica de la suerte"
+    SET ASKER_NAME "Pedir ayuda de alguien mayor para encontrar tu canica de la suerte"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar su canica de la suerte"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "HIGH"
@@ -2360,14 +2360,14 @@ END
 
 REM : Which pasta should you make for the school potluck? (find pasta)
 CLONE DEED "FindCategory" "FindPotluckNoodle"
-    SET INSTRUCTIONS "Encuentra los fideos adecuados"
+    SET INSTRUCTIONS "Encontrar los fideos adecuados"
     SET CATEGORY "NOODLE"
 END
 
 DEF TASK "FindPotluckNoodle"
-    SET NAME "Encuentra la pasta adecuada para la comida de la escuela"
-    SET ASKER_NAME "Obtén ayuda para encontrar la pasta adecuada para la comida en la escuela"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar la pasta adecuada para la comida de la escuela"
+    SET NAME "Encontrar la pasta adecuada para la comida escolar"
+    SET ASKER_NAME "Pedir ayuda para encontrar la pasta adecuada para la comida escolar"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar la pasta adecuada para la comida escolar"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2385,9 +2385,9 @@ CLONE DEED "FindCategory" "FindPropUpBook"
 END
 
 DEF TASK "FindPropUpBook"
-    SET NAME "Elige un libro viejo para apuntalar la mesa tambaleante"
-    SET ASKER_NAME "Obtén ayuda para elegir un libro viejo para apuntalar la mesa tambaleante"
-    SET HELPER_NAME "Ayuda a <ASKER> a elegir un libro viejo para sostener la mesa tambaleante"
+    SET NAME "Elegir un libro viejo para sostener la mesa tambaleante"
+    SET ASKER_NAME "Pedir ayuda para elegir un libro viejo para sostener la mesa tambaleante"
+    SET HELPER_NAME "Ayudar a <ASKER> a elegir un libro viejo para sostener la mesa tambaleante"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2406,9 +2406,9 @@ CLONE DEED "FindCategory" "FindSturdyChair"
 END
 
 DEF TASK "FindSturdyChair"
-    SET NAME "Encuentra una silla lo suficientemente robusta como para pararte encima y llegar al estante alto"
-    SET ASKER_NAME "Obtén ayuda para encontrar una silla lo suficientemente robusta como para pararte encima y llegar al estante alto"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar una silla de estudio en la que puedas pararte y llegar al estante alto"
+    SET NAME "Encontrar una silla lo suficientemente robusta como para pararte encima y llegar al estante alto"
+    SET ASKER_NAME "Pedir ayuda para encontrar una silla lo suficientemente robusta como para pararte encima y llegar al estante alto"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar una silla lo suficientemente robusta como para pararse encima y llegar al estante alto"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2421,7 +2421,7 @@ END
 
 REM : Search for wallet
 CLONE DEED "SearchID" "SearchWallet"
-    SET INSTRUCTIONS "Busca la billetera de los padres"
+    SET INSTRUCTIONS "Busca la billetera de tus padres"
     SET CONTENT_ID "WALLET"
 END
 
@@ -2457,7 +2457,7 @@ END
 
 REM : Search for insoles
 CLONE DEED "SearchID" "SearchInsoles"
-    SET INSTRUCTIONS "Busca las plantillas ortopédicas de tu padre"
+    SET INSTRUCTIONS "Busca las plantillas ortopédicas de tus padres"
     SET CONTENT_ID "INSOLES"
 END
 
@@ -2475,7 +2475,7 @@ END
 
 REM : Search for promise ring
 CLONE DEED "SearchID" "SearchPromiseRing"
-    SET INSTRUCTIONS "Busca el anillo de compromiso de la persona joven"
+    SET INSTRUCTIONS "Busca el anillo de compromiso del joven"
     SET CONTENT_ID "PROMISERING"
 END
 
@@ -2516,7 +2516,7 @@ CLONE DEED "SearchID" "SearchRabbitFoot"
 END
 
 DEF TASK "SearchRabbitFoot"
-    SET NAME "Busca la pata de conejo de la suerte"
+    SET NAME "Buscar la pata de conejo de la suerte"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2620,12 +2620,12 @@ END
 
 REM : Search for beeping
 CLONE DEED "SearchID" "SearchBeeping"
-    SET INSTRUCTIONS "Busca lo que sea que está haciendo ese ruido de pitido"
+    SET INSTRUCTIONS "Busca lo que sea que haga ese ruido de pitido"
     SET CONTENT_ID "BEEPING"
 END
 
 DEF TASK "SearchBeeping"
-    SET NAME "Busca lo que sea que hace ese ruido de pitido"
+    SET NAME "Buscar lo que sea que haga ese ruido de pitido"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2679,7 +2679,7 @@ CLONE DEED "SearchID" "SearchWordJumble"
 END
 
 DEF TASK "SearchWordJumble"
-    SET NAME "Busca la palabra elefante en este revoltijo de palabras"
+    SET NAME "Buscar la palabra elefante en este revoltijo de palabras"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2692,7 +2692,7 @@ END
 
 REM : Search for thumbtack
 CLONE DEED "SearchID" "SearchThumbTack"
-    SET INSTRUCTIONS "Busca la chincheta caida"
+    SET INSTRUCTIONS "Busca la tachuela caída"
     SET CONTENT_ID "THUMBTACK"
 END
 
@@ -2728,12 +2728,12 @@ END
 
 REM : Search for the thingy we got to put on the keys so we wouldn't lose them
 CLONE DEED "SearchID" "SearchThingy"
-    SET INSTRUCTIONS "Busca lo cosita que ponemos en las llaves para no perderlas"
+    SET INSTRUCTIONS "Busca la cosita que ponemos en las llaves para no perderlas"
     SET CONTENT_ID "THINGY"
 END
 
 DEF TASK "SearchThingy"
-    SET NAME "Busca la cosita que ponemos en las llaves para no perderlas"
+    SET NAME "Buscar la cosita que ponemos en las llaves para no perderlas"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2751,7 +2751,7 @@ CLONE DEED "SearchID" "SearchTimeMime"
 END
 
 DEF TASK "SearchTimeMime"
-    SET NAME "Busca el sexto DVD de la caja de edición especial de 'Mimo del Tiempo'"
+    SET NAME "Buscar el sexto DVD de la caja de edición especial de 'Mimo del Tiempo'"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2769,7 +2769,7 @@ CLONE DEED "SearchID" "SearchMotivationalNote"
 END
 
 DEF TASK "SearchMotivationalNote"
-    SET NAME "Busca una nota motivacional vergonzosa (¡es MUY vergonzosa!)"
+    SET NAME "Buscar una nota motivacional vergonzosa (¡es MUY vergonzosa!)"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2787,7 +2787,7 @@ CLONE DEED "SearchID" "SearchRuinedSalad"
 END
 
 DEF TASK "SearchRuinedSalad"
-    SET NAME "Busca un lugar para enterrar la ensalada arruinada"
+    SET NAME "Buscar un lugar para enterrar la ensalada arruinada"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
     SET THEME "SEARCH_FIND"
@@ -2805,9 +2805,9 @@ CLONE DEED "TravelCategory" "TravelGrocery"
 END
 
 DEF TASK "TravelGrocery"
-    SET NAME "Ve a recoger víveres"
-    SET ASKER_NAME "Ve con alguien mayor a recoger víveres"
-    SET HELPER_NAME "Lleva a <ASKER> para recoger víveres"
+    SET NAME "Ir a recoger víveres"
+    SET ASKER_NAME "Ir con alguien mayor a recoger víveres"
+    SET HELPER_NAME "Llevar a <ASKER> para recoger víveres"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "HIGH"

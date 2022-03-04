@@ -1,14 +1,14 @@
 MAIN(Vecino): ¿Podrías recortar las ramas de tu árbol?
--RIGHT-> ¡Ya mismo lo hago!
--FINE-> UGH... ¡BUENO!
--LOVE-> No puedo, ¡me encantan!
+-RIGHT-> ¡Enseguida!
+-FINE-> EH... ¡BUENO!
+-LOVE-> No, ¡me encantan!
 -COOK-> Por una galleta
 
 RIGHT(Vecino): ¡Gracias!
 -SUCCESS-> Gracias a TI por darme la oportunidad de cortar cosas
 
-FINE(Vecino): UGH... ¡Gracias!
--SUCCESS-> UGH... ¡De nada! ¡¡¡ERES UN GRAN AMIGO!!!
+FINE(Vecino): EH... ¡Gracias!
+-SUCCESS-> EH... ¡De nada! ¡¡¡ERES UN GRAN AMIGO!!!
 
 LOVE(Vecino): Caramba, lo siento
 -SUCCESS-> Ahora haz como mi mejor amigo ¡y vete!

@@ -213,7 +213,7 @@ END
 DEF TASK "DriveBuyBatTraps"
     SET NAME "Comprar trampas profesionales para murciélagos"
     SET ASKER_NAME "Consigue un viaje para comprar trampas profesionales para murciélagos"
-    SET HELPER_NAME "Lleva a <ASKER> a comprar trampas profesionales para murciélagos"
+    SET HELPER_NAME "Llevar a <ASKER> a comprar trampas profesionales para murciélagos"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -243,7 +243,7 @@ END
 
 DEF TASK "AssembleBatTrap"
     SET NAME "Armar una trampa para murciélagos complicada"
-    SET ASKER_NAME "Obtener ayuda para armar una trampa para murciélagos complicada"
+    SET ASKER_NAME "Pedir ayuda para armar una trampa para murciélagos complicada"
     SET HELPER_NAME "Ayudar a <ASKER> a armar una trampa para murciélagos complicada"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"

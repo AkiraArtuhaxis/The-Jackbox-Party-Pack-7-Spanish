@@ -1,18 +1,18 @@
-MAIN(Jogging Club President): ¡Saludos! Soy el presidente del club de caminatas del vecindario, ¿me preguntaba si te interesaría unirte a nosotros esta mañana?
--POLITENO-> No gracias, ya salí a correr una vez el año pasado, fue suficiente.
--RUDENO-> ¡O corres o caminas, hacer las dos es una abominación!
+MAIN(Presidente del Club de Trote): ¡Saludos! Soy el presidente del club de trote del vecindario, ¿me preguntaba si te interesaría unirte a nosotros esta mañana?
+-POLITENO-> No, gracias, ya salí a trotar una vez el año pasado, fue suficiente.
+-RUDENO-> O corres o caminas, ¡todo lo demás es una abominación!
 -JOGYES-> Tenía ganas de estrenar mi nuevo conjunto de deporte...
--NOTHANKS-> No se supone que hable con desconocidos sudorosos...
-POLITENO(Jogging Club President): ¡Una respetable salida! ¡Sigue así!
--SUCCESS-> La mentira es el mejor ejercicio.
-RUDENO(Jogging Club President): ¡Seguro cambias de opinión! Pasaremos cada semana hasta que lo hagas.
+-NOTHANKS-> No se supone que hable con sudorosos desconocidos...
+POLITENO(Presidente del Club de Trote): ¡Una respetable cantidad de trote! ¡Sigue así!
+-SUCCESS-> Mentir es el mejor ejercicio.
+RUDENO(Presidente del Club de Trote): ¡Seguro cambias de opinión! Pasaremos cada semana hasta que lo hagas.
 -SUCCESS-> Hora de mudarse.
-JOGYES(Jogging Club President): ¡ESA es la actitud! ¡Vamos a recorrer el barrio!
+JOGYES(Presidente del Club de Trote): ¡ESA es la actitud! ¡Vamos a recorrer el barrio!
 - SUCCESS-> ¡Te queda bien la ropa de algodón!
-NOTHANKS(Jogging Club President): No soy un desconocido sudoroso, ¡soy un amigo sudoroso!
--SUCCESS-> Pues regresa cuando seas un conocido no sudoroso. ¡Que tengas un buen día!
+NOTHANKS(Presidente del Club de Trote): No soy un sudoroso desconocido, ¡soy un sudoroso amigo!
+-SUCCESS-> Pues, regresa cuando seas un conocido no sudoroso. ¡Que tengas un buen día!
 -TRYAGAIN-> ¡Oh! En ese caso...
-TRYAGAIN(Jogging Club President): ¿Entonces, saldrás con nosotros?
--POLITENO-> No gracias, ya salí a correr una vez el año pasado, fue suficiente.
--RUDENO-> ¡O corres o caminas, hacer las dos es una abominación!
+TRYAGAIN(Presidente del Club de Trote): ¿Entonces, saldrás con nosotros?
+-POLITENO-> No, gracias, ya salí a trotar una vez el año pasado, fue suficiente.
+-RUDENO-> O corres o caminas, ¡todo lo demás es una abominación!
 -JOGYES-> Tenía ganas de estrenar mi nuevo conjunto de deporte...

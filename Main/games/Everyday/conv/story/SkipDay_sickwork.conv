@@ -2,12 +2,12 @@ MAIN(Jefe): ¿Por qué no puedes venir a trabajar hoy?
 -SICK-> Me siento enfermo
 -HEAD-> Me duele mucho la cabeza
 -PARTY-> Anduve de fiesta en fiesta
--CAUGHT-> Me atrapó una trampa de oso
+-CAUGHT-> Estoy atrapado en una trampa para osos
 
-SICK(Jefe): Mmm, demasiado general para investigarlo
+SICK(Jefe): Mmmh, demasiado vago para investigarlo
 -SUCCESS-> ¡Excelente! Digo... tos tos
 
-HEAD(Jefe): Mmm, demasiado general para investigarlo
+HEAD(Jefe): Mmm, demasiado vago para investigarlo
 -SUCCESS-> ¡Excelente! Digo... auch
 
 PARTY(Jefe): Pues podemos descontarlo de tus días de vacaciones

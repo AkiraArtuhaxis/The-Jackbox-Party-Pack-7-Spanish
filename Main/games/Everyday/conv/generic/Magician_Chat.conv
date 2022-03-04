@@ -1,18 +1,18 @@
-Main(Mago): ¡Hola, soy un mago ambulante! ¿Me hace el gusto de elegir una carta?
--YES-> Claro que sí. ¡Me encanta elegir cosas!
--NO-> No gracias, mi vida ya es lo suficientemente mágica.
+Main(Mago): ¡Hola, soy un mago ambulante! ¿Podría elegir una carta?
+-YES-> Claro que sí, ¡me encanta elegir cosas!
+-NO-> No, gracias, mi vida ya es lo suficientemente mágica.
 -REVERSE-> Claro, pero antes, déjame mover mi mano sobre este sombrero de copa...
 -NOTSURE-> No lo sé, estoy indeciso.
 
-YES(Mago): ¡Fantástico! Ahora, voy a barajar las cartas y... ¿es ESTA tu carta? ¿No? Rayos.
--SUCCESS-> ¡Todos lo pasaron dentro de todo bien!
+YES(Mago): ¡Fantástico! Ahora, voy a barajarlas y... ¿es ESTA tu carta? ¿No? Rayos.
+-SUCCESS-> ¡Todos lo pasaron relativamente bien!
 
 NO(Mago): Tienes razón. Mejor regreso a mi trabajo en el banco.
 -SUCCESS-> ¡Una victoria para la seguridad financiera!
 
-REVERSE(Mago): ¡¡Pero que impresionante!! ¿Podrías enseñarme? ¡Te lo agradecería!
+REVERSE(Mago): ¡¡Eso fue asombroso!! ¿Podrías enseñarme? ¡Te lo agradecería MUCHO!
 -FAILURE-> Ahora me tengo que quedar enseñando trucos de magia.
 
 NOTSURE(Mago): ¿Y si te diera $10? ¿Verías el truco entonces?
 -SUCCESS-> ¡No puedes comprar mi atención! ¡Hasta nunca!
--YES-> ¿Diez dólares? ¡Muéstramelo!
+-YES-> ¿¿Diez dólares?? ¡Muéstramelo!

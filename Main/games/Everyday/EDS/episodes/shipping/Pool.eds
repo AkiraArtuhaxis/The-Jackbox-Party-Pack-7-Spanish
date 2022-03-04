@@ -2,9 +2,9 @@ DEF EPISODE "Pool"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "El agua está bien"
-    SET DESCRIPTION "Los días son cada vez más calurosos, por lo que nuestra familia alimentada con fuego intenta refrescarse a través de una <font color='#AF0000'>nueva piscina en el patio trasero.</font>. ¿Se divertirán bajo el sol o tendrán que conformarse en el pozo del dinero?"
-    SET SUCCESS_MESSAGE "¡Renovación adquirida! Ahora son oficialmente la familia cool con una piscina. ¡Nos vemos todos los días durante el resto del verano!"
-    SET FAILURE_MESSAGE "Parece que la mala construcción y las deficientes habilidades sociales han frustrado su misión de renovamiento.En cosa de minutos, la piscina se agrieta, inundando todo en un radio de tres bloques. En el lado bueno, ahora toda la casa es una piscina."
+    SET DESCRIPTION "Los días son cada vez más calurosos, por lo que nuestra familia alimentada con fuego intenta refrescarse con una <font color='#AF0000'>nueva piscina en el patio trasero.</font>. ¿Se divertirán bajo el sol o tendrán que conformarse en el pozo del dinero?"
+    SET SUCCESS_MESSAGE "¡Refresco adquirido! Ahora son oficialmente la genial familia con una piscina. ¡Nos vemos todos los días durante el resto del verano!"
+    SET FAILURE_MESSAGE "Parece que la mala construcción y las deficientes habilidades sociales han frustrado su misión de refresco. En cosa de minutos, la piscina se agrieta, inundando todo en un radio de tres bloques. El lado positivo, ahora toda la casa es una piscina."
 
 
     REM : ------------------------------
@@ -57,13 +57,13 @@ CLONE DEED "Instructions4" "PoolBlueprints"
     SET MECHANIC_2 "SWIPE_LEFT"
     SET INSTRUCTIONS_2 "Localiza la bomba de la piscina"
     SET MECHANIC_3 "ROTATE_COUNTER"
-    SET INSTRUCTIONS_3 "Date cuenta de que lo estás sosteniendo al revés"
+    SET INSTRUCTIONS_3 "Date cuenta de que lo tienes al revés"
 END
 
 DEF TASK "PoolBlueprints"
     SET NAME "Consultar los planos de la piscina"
-    SET ASKER_NAME "Obtén ayuda para consultar los planos de la piscina"
-    SET HELPER_NAME "Ayuda a <ASKER> a consultar planos de piscina"
+    SET ASKER_NAME "Pedir ayuda para consultar los planos de la piscina"
+    SET HELPER_NAME "Ayudar a <ASKER> para consultar los planos de la piscina"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -77,7 +77,7 @@ END
 
 REM : Order pool parts online
 CLONE DEED "Instructions5" "OrderPoolParts"
-    SET INSTRUCTIONS "Solicita piezas de piscina en línea"
+    SET INSTRUCTIONS "Compra piezas de piscina en internet"
 
     SET MECHANIC_0 "TAP_3"
     SET INSTRUCTIONS_0 "Visita el sitio web para artículos de natación con descuento de Ben El Negociador"
@@ -92,9 +92,9 @@ CLONE DEED "Instructions5" "OrderPoolParts"
 END
 
 DEF TASK "OrderPoolParts"
-    SET NAME "Solicita piezas de piscina en línea"
-    SET ASKER_NAME "Obtén ayuda para pedir piezas de piscina en línea"
-    SET HELPER_NAME "Ayuda a <ASKER> a pedir piezas de piscina en línea"
+    SET NAME "Comprar piezas de piscina en internet"
+    SET ASKER_NAME "Pedir ayuda para comprar piezas de piscina en internet"
+    SET HELPER_NAME "Ayudar a <ASKER> para comprar piezas de piscina en internet"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -120,7 +120,7 @@ CLONE DEED "QuickTap5" "SwimDryLand3"
 END
 
 DEF TASK "SwimDryLand"
-    SET NAME "Practica la natación en tierra firme"
+    SET NAME "Practicar la natación en tierra firme"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -141,15 +141,15 @@ CLONE DEED "PhoneCategory" "InviteFriendsPool1"
 END
 
 CLONE DEED "Tap4" "InviteFriendsPool2"
-    SET INSTRUCTIONS "Envíale un mensaje de texto a la persona que te gusta"
+    SET INSTRUCTIONS "Envía un mensaje de texto a la persona que te gusta"
 END
 
 CLONE DEED "SwipeUp" "InviteFriendsPool3"
-    SET INSTRUCTIONS "Publica una invitación pública en línea"
+    SET INSTRUCTIONS "Publica una invitación pública en internet"
 END
 
 DEF TASK "InviteFriendsPool"
-    SET NAME "Invita preventivamente a todos tus amigos a la fiesta en la piscina."
+    SET NAME "Invitar preventivamente a todos tus amigos a la fiesta en la piscina"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -175,7 +175,7 @@ CLONE DEED "Nothing3" "BuildPool2"
 END
 
 DEF TASK "BuildPool"
-    SET NAME "Trabajen juntos para construir la piscina"
+    SET NAME "Trabajar juntos para construir la piscina"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -197,7 +197,7 @@ CLONE DEED "PhoneID" "CallContractorPool"
 END
 
 DEF TASK "CallContractorPool"
-    SET NAME "Llame al contratista para que construya la piscina en su lugar"
+    SET NAME "Llamar al contratista para que él construya la piscina"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -216,9 +216,9 @@ CLONE DEED "FindCategory" "FindSwimSuit"
 END
 
 DEF TASK "FindSwimSuit"
-    SET NAME "Encuentra un traje de baño"
-    SET ASKER_NAME "Obtén ayuda para elegir un traje de baño"
-    SET HELPER_NAME "Ayuda a <ASKER> a elegir un traje de baño"
+    SET NAME "Encontrar un traje de baño"
+    SET ASKER_NAME "Pedir ayuda para elegir un traje de baño"
+    SET HELPER_NAME "Ayudar a <ASKER> para elegir un traje de baño"
     SET CAPTAIN "EVERYONE"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "STORY"
@@ -252,11 +252,11 @@ CLONE DEED "Nothing1" "KidContractor5"
 END
 
 CLONE DEED "ScrubShort" "KidContractor6"
-    SET INSTRUCTIONS "Llene la tarjeta de membresía sindical"
+    SET INSTRUCTIONS "Llena la tarjeta de membresía sindical"
 END
 
 DEF TASK "KidContractor"
-    SET NAME "Pregunta a los contratistas si puedes ayudar a construir la piscina."
+    SET NAME "Preguntar a los contratistas si puedes ayudar a construir la piscina."
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -284,7 +284,7 @@ CLONE DEED "Nothing3" "FillPool"
 END
 
 DEF TASK "FillPool"
-    SET NAME "¡Llena la piscina de agua!"
+    SET NAME "¡Llenar la piscina de agua!"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -307,7 +307,7 @@ CLONE DEED "Hold2" "Sunscreen2"
 END
 
 CLONE DEED "Nothing2" "Sunscreen3"
-    SET INSTRUCTIONS "Mantén el aliento..."
+    SET INSTRUCTIONS "Recobra el aliento..."
 END
 
 CLONE DEED "Hold2" "Sunscreen4"
@@ -315,7 +315,7 @@ CLONE DEED "Hold2" "Sunscreen4"
 END
 
 DEF TASK "Sunscreen"
-    SET NAME "Aplicate protector solar y luce tus músculos"
+    SET NAME "Aplicarse protector solar y lucir los músculos"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -334,7 +334,7 @@ END
 
 REM : Show off ultimate diving move
 CLONE DEED "Hold1" "DivingMove1"
-    SET INSTRUCTIONS "Grita '¡Bola de cañón!'"
+    SET INSTRUCTIONS "Grita '¡Bomba al agua!'"
 END
 
 CLONE DEED "SwipeRight" "DivingMove2"
@@ -346,7 +346,7 @@ CLONE DEED "SwipeDown" "DivingMove3"
 END
 
 DEF TASK "DivingMove"
-    SET NAME "Muestra tu movimiento de buceo definitivo"
+    SET NAME "Mostrar tu movimiento de buceo definitivo"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -381,7 +381,7 @@ END
 
 REM : Attempt to swim in your crowded pool
 CLONE DEED "Nothing2" "FitInPool1"
-    SET INSTRUCTIONS "¡No puedes encajar! ¡Invitaste a demasiada gente!"
+    SET INSTRUCTIONS "¡No cabes! ¡Invitaste a demasiada gente!"
 END
 
 CLONE DEED "Nothing2" "FitInPool2"
@@ -389,7 +389,7 @@ CLONE DEED "Nothing2" "FitInPool2"
 END
 
 DEF TASK "FitInPool"
-    SET NAME "Intenta nadar en tu piscina llena de gente"
+    SET NAME "Intentar nadar en tu piscina llena de gente"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

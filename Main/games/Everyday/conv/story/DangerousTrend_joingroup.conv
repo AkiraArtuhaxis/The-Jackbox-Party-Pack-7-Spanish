@@ -13,5 +13,5 @@ DRINK(Padre): Ni cerca. Te enviaremos un folleto.
 NOTHING(Padre): Los padres nunca debemos aceptar la ignorancia
 -SUCCESS-> Espero que mis hijos no perciban esta debilidad
 
-INVENTED(Padre): ¡Genial! ¡Entonces nos puedes decir lo que es!
--SUCCESS-> ¡Genial! ¡Y definitivamente no estaba mintiendo!
+INVENTED(Padre): ¡Genial! ¡Entonces puedes decirnos qué es!
+-SUCCESS-> ¡Genial! ¡Definitivamente no estoy mintiendo!

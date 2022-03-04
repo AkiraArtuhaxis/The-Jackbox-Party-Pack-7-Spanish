@@ -3,11 +3,11 @@ REM : Generic tasks that can be used for most episodes
 REM : Channel Surf
 
 CLONE DEED "QuickTap5" "Flip1"
-    SET INSTRUCTIONS "Haz zapping por los canales"
+    SET INSTRUCTIONS "Cambia de canales"
 END
 
 CLONE DEED "QuickTap5" "Flip2"
-    SET INSTRUCTIONS "¡Mas rapido, tonto!"
+    SET INSTRUCTIONS "¡Más rápido, tonto!"
 END
 
 CLONE DEED "Nothing3" "Watch"
@@ -38,11 +38,11 @@ CLONE DEED "Rotate180Counter" "UnscrewSD"
 END
 
 CLONE DEED "Tap2" "StealBatteries"
-    SET INSTRUCTIONS "Roba baterías AA"
+    SET INSTRUCTIONS "Roba pilas AA"
 END
 
 CLONE DEED "SwipeDown" "InsertBatteries"
-    SET INSTRUCTIONS "Inserta las baterías en el control remoto de la TV"
+    SET INSTRUCTIONS "Inserta las pilas en el control remoto de la TV"
 END
 
 CLONE DEED "Tap1" "TurnOnTV"
@@ -78,22 +78,22 @@ CLONE DEED "Hold3" "CarryFish"
 END
 
 CLONE DEED "Tap1" "TossFish"
-    SET INSTRUCTIONS "Tira al Sr. Burbujas en el inodoro"
+    SET INSTRUCTIONS "Tira al Sr. Burbujas al inodoro"
 END
 
 CLONE DEED "Nothing3" "Prayer"
-    SET INSTRUCTIONS "Detente por un momento de silencio"
+    SET INSTRUCTIONS "Detente para un minuto de silencio"
     SET PARTICIPATION "SOLO"
 END
 
 CLONE DEED "Rotate360" "FinalFlush"
-    SET INSTRUCTIONS "Deja que el inodoro se lleve a Mr. Burbujas"
+    SET INSTRUCTIONS "Deja que el inodoro se lleve al Sr. Burbujas"
 END
 
 DEF TASK "FlushFish"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
-    SET NAME "Celebra un funeral para el pez dorado muerto"
+    SET NAME "Tirar por el inodoro el pez dorado muerto"
     SET THEME "BATHROOM"
     SET CATEGORY "MEDIUM"
     SET LEWD TRUE
@@ -134,7 +134,7 @@ END
 DEF TASK "CleanHouse"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
-    SET NAME "Limpia la casa"
+    SET NAME "Limpiar la casa"
     SET THEME "CLEANING"
     SET CATEGORY "MEDIUM"
     
@@ -153,7 +153,7 @@ END
 REM : Clean The Gutters
 
 CLONE DEED "Rotate1080" "GutterStep1"
-    SET INSTRUCTIONS "Subir escalera"
+    SET INSTRUCTIONS "Subir por la escalera"
 END
 
 CLONE DEED "SwipeBase" "GutterStep2"
@@ -166,7 +166,7 @@ CLONE DEED "Hold2" "GutterStep3"
 END
 
 CLONE DEED "SwipeBase" "GutterStep4"
-    SET INSTRUCTIONS "Retira el resto de las hojas."
+    SET INSTRUCTIONS "Quita el resto de las hojas"
     SET DIRECTION "LEFT,LEFT,LEFT,LEFT"
 END
 
@@ -204,7 +204,7 @@ CLONE DEED "Tap3" "Dish1Step3"
 END
 
 DEF TASK "WashDishes1"
-    SET NAME "Lava los platos"
+    SET NAME "Lavar los platos"
     SET THEME "KITCHEN"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -226,19 +226,19 @@ CLONE DEED "ScrubMedium" "Dish2Step1"
 END
 
 CLONE DEED "ScrubLong" "Dish2Step2"
-    SET INSTRUCTIONS "Hay una mancha muy obstinada"
+    SET INSTRUCTIONS "Hay una mancha muy persistente"
 END
 
 CLONE DEED "Rotate360Counter" "Dish2Step3"
-    SET INSTRUCTIONS "¡Así esta bien! Sécalos"
+    SET INSTRUCTIONS "¡Suficiente! Sécalos"
 END
 
 CLONE DEED "Tap3" "Dish2Step4"
-    SET INSTRUCTIONS "Guardalos"
+    SET INSTRUCTIONS "Guárdalos"
 END
 
 DEF TASK "WashDishes2"
-    SET NAME "Lava los platos"
+    SET NAME "Lavar los platos"
     SET THEME "KITCHEN"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -262,7 +262,7 @@ CLONE DEED "ScrubMedium" "Dish3Step1"
 END
 
 CLONE DEED "ScrubLong" "Dish3Step2"
-    SET INSTRUCTIONS "Hay una mancha muy obstinada"
+    SET INSTRUCTIONS "Hay una mancha muy persistente"
 END
 
 CLONE DEED "ScrubXLong" "Dish3Step3"
@@ -278,7 +278,7 @@ CLONE DEED "Tap3" "Dish3Step5"
 END
 
 DEF TASK "WashDishes3"
-    SET NAME "Lava los platos"
+    SET NAME "Lavar los platos"
     SET THEME "KITCHEN"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -309,7 +309,7 @@ CLONE DEED "Rotate360" "Thermo2"
 END
 
 CLONE DEED "Rotate720Counter" "Thermo3"
-    SET INSTRUCTIONS "Bien, devuélvelo"
+    SET INSTRUCTIONS "Bien, devuélvelo a como estaba"
 END
 
 CLONE DEED "Rotate720" "Thermo4"
@@ -317,7 +317,7 @@ CLONE DEED "Rotate720" "Thermo4"
 END
 
 DEF TASK "MessWithThermo"
-    SET NAME "Líate con el termostato"
+    SET NAME "Desconfigurar el termostato"
     SET THEME "MISC"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -344,7 +344,7 @@ CLONE DEED "SwipeBase" "UnclogStep1"
 END
 
 CLONE DEED "SwipeBase" "UnclogStep2"
-    SET INSTRUCTIONS "Esfuérzate en ello"
+    SET INSTRUCTIONS "¡Haz tu mejor esfuerzo!"
     SET DIRECTION "DOWN,UP,DOWN,UP"
 END
 
@@ -356,7 +356,7 @@ END
 DEF TASK "UnclogToilet"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
-    SET NAME "Destapa el inodoro"
+    SET NAME "Destapar el inodoro"
     SET THEME "BATHROOM"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -374,7 +374,7 @@ END
 REM : Play Checkers
 
 CLONE DEED "SwipeBase" "FindBoard"
-    SET INSTRUCTIONS "Encuentra el tablero de ajedrez"
+    SET INSTRUCTIONS "Encuentra el tablero"
     SET DIRECTION "LEFT,RIGHT,UP,RIGHT"
 END
 
@@ -383,15 +383,15 @@ CLONE DEED "Tap1" "GrabBoard"
 END
 
 CLONE DEED "Tap5" "PlayCheckers"
-    SET INSTRUCTIONS "Juega damas, supongo."
+    SET INSTRUCTIONS "Juega damas, supongo"
 END
 
 CLONE DEED "SwipeUp" "FlipBoard"
-    SET INSTRUCTIONS "Perdiste. Tira el tablero en señal de disgusto."
+    SET INSTRUCTIONS "Perdiste. Voltea el tablero con disgusto."
 END
 
 DEF TASK "PlayCheckers"
-    SET NAME "Juega Damas"
+    SET NAME "Jugar a las damas"
     SET THEME "RECREATION"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -424,11 +424,11 @@ CLONE DEED "SwipeRight" "TuckLeftAgain"
 END
 
 CLONE DEED "SwipeUp" "ThrowBlanket"
-    SET INSTRUCTIONS "Olvídalo, solo tira una manta encima"
+    SET INSTRUCTIONS "No importa, solo tira una manta encima"
 END
 
 DEF TASK "MakeBed"
-    SET NAME "Haz tu cama"
+    SET NAME "Hacer tu cama"
     SET THEME "BEDROOM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -461,11 +461,11 @@ CLONE DEED "Rotate720" "UntangleWires"
 END
 
 CLONE DEED "Hold3" "PlugOutlet"
-    SET INSTRUCTIONS "Enchufe a la toma de corriente"
+    SET INSTRUCTIONS "Enchúfalo"
 END
 
 DEF TASK "ChargeElectronics"
-    SET NAME "Carga Electrónicos"
+    SET NAME "Cargar los electródomésticos"
     SET THEME "MISC"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -486,7 +486,7 @@ END
 REM : Pick Weeds
 
 CLONE DEED "Tap2" "PickWeeds1"
-    SET INSTRUCTIONS "Recoge malas hierbas"
+    SET INSTRUCTIONS "Recoge la maleza"
 END
 
 CLONE DEED "Nothing4" "AvoidFlowers1"
@@ -495,7 +495,7 @@ CLONE DEED "Nothing4" "AvoidFlowers1"
 END
 
 CLONE DEED "Tap2" "PickWeeds2"
-    SET INSTRUCTIONS "Recoge malas hierbas"
+    SET INSTRUCTIONS "Recoge la maleza"
 END
 
 CLONE DEED "Nothing4" "AvoidFlowers2"
@@ -504,12 +504,12 @@ CLONE DEED "Nothing4" "AvoidFlowers2"
 END
 
 CLONE DEED "SwipeBase" "YankRoots"
-    SET INSTRUCTIONS "Tira las raíces"
+    SET INSTRUCTIONS "Arranca las raíces"
     SET DIRECTION "UP,UP,UP"
 END
 
 DEF TASK "PickWeeds"
-    SET NAME "Recoge maleza"
+    SET NAME "Recoger la maleza"
     SET THEME "YARD_WORK"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -536,7 +536,7 @@ CLONE DEED "Hold5" "PlantWater"
 END
 
 CLONE DEED "Nothing5" "PlantDead"
-    SET INSTRUCTIONS "Observa la muerta"
+    SET INSTRUCTIONS "Mira fijamente a la que está muerta"
     SET PARTICIPATION "SOLO"
 END
 
@@ -545,7 +545,7 @@ CLONE DEED "Tap1" "PlantTear"
 END
 
 DEF TASK "WaterPlants"
-    SET NAME "Riega las plantas"
+    SET NAME "Regar las plantas"
     SET THEME "YARD_WORK"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -564,20 +564,20 @@ END
 REM : Pick Herbs From Window Garden
 
 CLONE DEED "SwipeLeft" "CutParsley"
-    SET INSTRUCTIONS "Corta Perejil"
+    SET INSTRUCTIONS "Corta perejil"
 END
 
 CLONE DEED "SwipeRight" "CutCilantro"
-    SET INSTRUCTIONS "Corta Cilantro"
+    SET INSTRUCTIONS "Corta cilantro"
 END
 
 CLONE DEED "Nothing5" "CilantroParsley"
-    SET INSTRUCTIONS "¿Espera cual es el cilantro?"
+    SET INSTRUCTIONS "Espera, ¿cuál es el cilantro?"
     SET PARTICIPATION "SOLO"
 END
 
 DEF TASK "PickWindowHerbs"
-    SET NAME "Recoge hierbas del jardín en la ventana"
+    SET NAME "Recoger hierbas del jardín de la ventana"
     SET THEME "YARD_WORK"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -596,13 +596,13 @@ END
 REM : Toast a bagel (ToastBagel)
 
 CLONE DEED "SwipeRight" "CutBagel"
-    SET INSTRUCTIONS "Corta por la mitad"
+    SET INSTRUCTIONS "Córtalo por la mitad"
 END
 REM : Change swipe direction to match bagel art
 
 
 CLONE DEED "SwipeDown" "ToastBagel"
-    SET INSTRUCTIONS "Metelo en la tostadora"
+    SET INSTRUCTIONS "Mételo en la tostadora"
 END
 
 CLONE DEED "Nothing5" "ToasterTune"
@@ -612,11 +612,11 @@ END
 
 CLONE DEED "ScrubBase" "CreamCheese"
     SET DISTANCE "SHORT"
-    SET INSTRUCTIONS "Pégate con el queso crema"
+    SET INSTRUCTIONS "Pégalo con el queso crema"
 END
 
 DEF TASK "ToastBagel"
-    SET NAME "Tuesta un Bagel"
+    SET NAME "Tostar un bagel"
     SET THEME "COOKING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -649,11 +649,11 @@ CLONE DEED "Hold5" "RecycleLandfill"
 END
 
 CLONE DEED "Tap1" "RecycleReward"
-    SET INSTRUCTIONS "Recoge tus cincuenta centavos"
+    SET INSTRUCTIONS "Toma tus cincuenta centavos"
 END
 
 DEF TASK "SortRecyclables"
-    SET NAME "Clasifica reciclables"
+    SET NAME "Clasificar los reciclables"
     SET THEME "KITCHEN"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -674,24 +674,24 @@ END
 REM : Catch a spider (CatchSpider)
  
 CLONE DEED "Nothing5" "SpiderWait"
-    SET INSTRUCTIONS "Espera a atacar"
+    SET INSTRUCTIONS "Espera para atacar"
     SET PARTICIPATION "SOLO"
 END
 
 CLONE DEED "Tap1" "SpiderTrap"
-    SET INSTRUCTIONS "Atrapa la araña debajo de la copa"
+    SET INSTRUCTIONS "Atrapa a la araña bajo la taza"
 END
 
 CLONE DEED "Hold5" "SpiderOutside"
-    SET INSTRUCTIONS "Llévala fuera"
+    SET INSTRUCTIONS "Llévala afuera"
 END
 
 CLONE DEED "SwipeUp" "SpiderFreedom"
-    SET INSTRUCTIONS "Vete araña, sé libre"
+    SET INSTRUCTIONS "Vete, araña, sé libre"
 END
 
 DEF TASK "CatchSpider"
-    SET NAME "Atrapa una araña"
+    SET NAME "Atrapar una araña"
     SET THEME "MISC"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -734,7 +734,7 @@ CLONE DEED "Tap1" "ForgetPool"
 END
 
 DEF TASK "KiddiePool"
-    SET NAME "Llena la piscina para niños"
+    SET NAME "Llenar la piscina para niños"
     SET THEME "PLAYING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -757,7 +757,7 @@ END
 REM : Build a Birdhouse
 
 CLONE DEED "Hold5" "BirdhouseStep1"
-    SET INSTRUCTIONS "Pega madera"
+    SET INSTRUCTIONS "Pega la madera"
 END
 
 CLONE DEED "Tap3" "BirdhouseStep2"
@@ -765,15 +765,15 @@ CLONE DEED "Tap3" "BirdhouseStep2"
 END
 
 CLONE DEED "QuickTap5" "BirdhouseStep3"
-    SET INSTRUCTIONS "Terminemos con esto"
+    SET INSTRUCTIONS "Acabemos con esto"
 END
 
 CLONE DEED "Nothing5" "BirdhouseStep4"
-    SET INSTRUCTIONS "El vínculo con la familia está por encima de los logros"
+    SET INSTRUCTIONS "Vincúlate con tu familia por los logros"
 END
 
 DEF TASK "Birdhouse"
-    SET NAME "Construye una casa para pájaros"
+    SET NAME "Construir una casa para pájaros"
     SET THEME "FIXING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -802,11 +802,11 @@ CLONE DEED "SwipeRight" "TupperwareStep2"
 END
 
 CLONE DEED "Rotate720" "TupperwareStep3"
-    SET INSTRUCTIONS "Metelo todo dentro"
+    SET INSTRUCTIONS "Mételo todo dentro"
 END
 
 DEF TASK "RearrangeTupperware1"
-    SET NAME "Reorganizar el Armario de Contenedores de Plástico"
+    SET NAME "Reorganizar el armario de contenedores plásticos"
     SET THEME "KITCHEN"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -833,11 +833,11 @@ CLONE DEED "SwipeRight" "TupperwareStep2"
 END
 
 CLONE DEED "Rotate720" "TupperwareStep3"
-    SET INSTRUCTIONS "Metelo todo dentro"
+    SET INSTRUCTIONS "Mételo todo dentro"
 END
 
 CLONE DEED "Hold10" "TupperwareStep4"
-    SET INSTRUCTIONS "¡Se está cayendo! ¡Empújalo de vuelta!"
+    SET INSTRUCTIONS "¡Se cae! ¡Empújalo!"
 END
 
 CLONE DEED "Tap4" "TupperwareStep5"
@@ -845,11 +845,11 @@ CLONE DEED "Tap4" "TupperwareStep5"
 END
 
 CLONE DEED "Rotate720" "TupperwareStep6"
-    SET INSTRUCTIONS "Se ve peor ahora, pero apriétalo"
+    SET INSTRUCTIONS "Se ve peor ahora, pero mételo"
 END
 
 DEF TASK "RearrangeTupperware2"
-    SET NAME "Reorganizar el Armario de Contenedores de Plástico"
+    SET NAME "Reorganizar el armario de contenedores plásticos"
     SET THEME "KITCHEN"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -882,15 +882,15 @@ CLONE DEED "QuickTap5" "SquishEscape"
 END
 
 CLONE DEED "Rotate1080" "GatherCarnage"
-    SET INSTRUCTIONS "Recoge la carnicería"
+    SET INSTRUCTIONS "Recoge la masacre"
 END
 
 CLONE DEED "Tap1" "TossAnts"
-    SET INSTRUCTIONS "Tiralas"
+    SET INSTRUCTIONS "Tíralas"
 END
 
 DEF TASK "OhNoAnts2"
-    SET NAME "¡Oh no! ¡Hormigas!"
+    SET NAME "¡Oh, no! ¡Hormigas!"
     SET THEME "CLEANING"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "LOW"
@@ -913,7 +913,7 @@ END
 REM : Fix the TV reception (FixTV)
 
 CLONE DEED "Rotate360Counter" "RotateTV"
-    SET INSTRUCTIONS "Un poco más a la izquierda"
+    SET INSTRUCTIONS "Un poco para la izquierda"
 END
 
 CLONE DEED "Rotate270Counter" "RotateTV2"
@@ -921,7 +921,7 @@ CLONE DEED "Rotate270Counter" "RotateTV2"
 END
 
 CLONE DEED "Rotate360" "RotateTVBack"
-    SET INSTRUCTIONS "Mucho, vuelve"
+    SET INSTRUCTIONS "Demasiado, vuelve"
 END
 
 CLONE DEED "Tap3" "SmackTV"
@@ -959,7 +959,7 @@ CLONE DEED "NothingBase" "MicroCook"
 END
 
 CLONE DEED "ScrubMedium" "MicroStir"
-    SET INSTRUCTIONS "Saca y revuelve"
+    SET INSTRUCTIONS "Sácala y revuelve"
 END
 
 CLONE DEED "Tap1" "MicroStartAgain"
@@ -976,7 +976,7 @@ CLONE DEED "ScrubLong" "MicroCool"
 END
 
 DEF TASK "MicrowaveSoup"
-    SET NAME "Sopa de Microondas"
+    SET NAME "Mete la sopa en el microondas"
     SET THEME "COOKING"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
@@ -1013,11 +1013,11 @@ CLONE DEED "ScrubMedium" "FlattenMore"
 END
 
 CLONE DEED "Tap1" "Candelabra"
-    SET INSTRUCTIONS "Añade un bonito candelabro"
+    SET INSTRUCTIONS "Añade un candelabro bonito"
 END
 
 DEF TASK "NiceTablecloth"
-    SET NAME "Saca el bonito mantel"
+    SET NAME "Pon el mantel bonito"
     SET THEME "GUESTS"
     SET CATEGORY "LOW"
     SET DURATION <3H>
@@ -1042,15 +1042,15 @@ CLONE DEED "Tap1" "Chimney1Step1"
 END
 
 CLONE DEED "SwipeLeft" "Chimney1Step2"
-    SET INSTRUCTIONS "Hmm, hay algo ahí arriba"
+    SET INSTRUCTIONS "Mmmh, hay algo ahí"
 END
 
 CLONE DEED "ScrubMedium" "Chimney1Step3"
-    SET INSTRUCTIONS "Siente a tu alrededor"
+    SET INSTRUCTIONS "Tantea el terreno para encontrarlo"
 END
 
 CLONE DEED "SwipeDown" "Chimney1Step4"
-    SET INSTRUCTIONS "¡Lo tengo! Oh no..."
+    SET INSTRUCTIONS "¡Lo tengo! Oh, no..."
 END
 
 CLONE DEED "Tap1" "Chimney1Step5"
@@ -1058,7 +1058,7 @@ CLONE DEED "Tap1" "Chimney1Step5"
 END
 
 DEF TASK "Chimney1"
-    SET NAME "Barre la chimenea"
+    SET NAME "Deshollinar la chimenea"
     SET THEME "CLEANING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1086,23 +1086,23 @@ CLONE DEED "Tap1" "Chimney2Step1"
 END
 
 CLONE DEED "SwipeLeft" "Chimney2Step2"
-    SET INSTRUCTIONS "Hmm, hay algo ahí arriba"
+    SET INSTRUCTIONS "Mmmh, hay algo ahí"
 END
 
 CLONE DEED "ScrubMedium" "Chimney2Step3"
-    SET INSTRUCTIONS "Siente a tu alrededor"
+    SET INSTRUCTIONS "Tantea el terreno para encontrarlo"
 END
 
 CLONE DEED "SwipeDown" "Chimney2Step4"
-    SET INSTRUCTIONS "¡Lo tengo! Oh no..."
+    SET INSTRUCTIONS "¡Lo tengo! Oh, no..."
 END
 
 CLONE DEED "Tap1" "Chimney2Step5"
-    SET INSTRUCTIONS "Así que ahí es donde se habían ido"
+    SET INSTRUCTIONS "Así que ahí estaban"
 END
 
 DEF TASK "Chimney2"
-    SET NAME "Barre la chimenea"
+    SET NAME "Deshollinar la chimenea"
     SET THEME "CLEANING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1129,7 +1129,7 @@ CLONE DEED "Hold5" "GreetNeighborStep1"
 END
 
 CLONE DEED "ScrubShort" "GreetNeighborStep2"
-    SET INSTRUCTIONS "Saluda para venderlo de verdad"
+    SET INSTRUCTIONS "Saluda para que te crean"
 END
 
 CLONE DEED "Hold5" "GreetNeighborStep3"
@@ -1137,7 +1137,7 @@ CLONE DEED "Hold5" "GreetNeighborStep3"
 END
 
 DEF TASK "GreetNeighbor"
-    SET NAME "Saluda al vecino"
+    SET NAME "Saludar al vecino"
     SET THEME "TALKING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1168,11 +1168,11 @@ CLONE DEED "Rotate180" "SetTable3"
 END
 
 CLONE DEED "ScrubMedium" "SetTable4"
-    SET INSTRUCTIONS "Hay algo de suciedad en este, quítalo"
+    SET INSTRUCTIONS "Hay algo de mugre en este, ráspalo"
 END
 
 DEF TASK "SetTable"
-    SET NAME "Pon la mesa"
+    SET NAME "Poner la mesa"
     SET CATEGORY "MEDIUM"
     SET THEME "KITCHEN"
     SET DURATION <3H>
@@ -1192,19 +1192,19 @@ END
 REM : Throw out expired food
 
 CLONE DEED "Tap3" "ExpiredFood1"
-    SET INSTRUCTIONS "Consulta fechas de vencimiento"
+    SET INSTRUCTIONS "Revisa las fechas de vencimiento"
 END
 
 CLONE DEED "Hold2" "ExpiredFood2"
-    SET INSTRUCTIONS "Este yogur caducó hace dos meses."
+    SET INSTRUCTIONS "Este yogur venció hace dos meses"
 END
 
 CLONE DEED "Tap3" "ExpiredFood3"
-    SET INSTRUCTIONS "¿Quizás todavía está bueno? Huelelo"
+    SET INSTRUCTIONS "¿Quizás todavía está bueno? Huélelo"
 END
 
 CLONE DEED "SwipeDown" "ExpiredFood4"
-    SET INSTRUCTIONS "¡Ew, definitivamente malo! Tíralo"
+    SET INSTRUCTIONS "¡Guácala, definitivamente está malo! Tíralo"
 END
 
 DEF TASK "ExpiredFood"
@@ -1236,16 +1236,16 @@ CLONE DEED "Rotate360" "MopFloor2"
 END
 
 CLONE DEED "SwipeBase" "MopFloor3"
-    SET INSTRUCTIONS "Haz un pequeño baile divertido con la mopa"
+    SET INSTRUCTIONS "Haz un bailecito divertido con el trapeador"
     SET DIRECTION "LEFT,RIGHT"
 END
 
 CLONE DEED "Hold3" "MopFloor4"
-    SET INSTRUCTIONS "Mira a tu alrededor para asegurarte de que nadie lo vió"
+    SET INSTRUCTIONS "Mira a tu alrededor para asegurarte de que nadie vio eso"
 END
 
 DEF TASK "MopFloor"
-    SET NAME "Trapea el suelo"
+    SET NAME "Trapear el suelo"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1265,7 +1265,7 @@ END
 REM : Put leftovers in the fridge
 
 CLONE DEED "Tap1" "LeftoversFridge1"
-    SET INSTRUCTIONS "Pon la caja de pizza"
+    SET INSTRUCTIONS "Tira la caja de pizza"
 END
 
 CLONE DEED "Hold2" "LeftoversFridge2"
@@ -1281,7 +1281,7 @@ CLONE DEED "SwipeDown" "LeftoversFridge4"
 END
 
 CLONE DEED "Tap1" "LeftoversFridge5"
-    SET INSTRUCTIONS "Tira el jamón ahi dentro"
+    SET INSTRUCTIONS "Tira el jamón ahí dentro"
 END
 
 CLONE DEED "SwipeUp" "LeftoversFridge6"
@@ -1289,11 +1289,11 @@ CLONE DEED "SwipeUp" "LeftoversFridge6"
 END
 
 CLONE DEED "Hold5" "LeftoversFridge7"
-    SET INSTRUCTIONS "Resuelve el problema comiendote la pizza"
+    SET INSTRUCTIONS "Resuelve el problema comiéndote la pizza"
 END
 
 DEF TASK "LeftoversFridge"
-    SET NAME "Pon restos de comida en la nevera"
+    SET NAME "Poner los restos de comida en la nevera"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1323,7 +1323,7 @@ CLONE DEED "Tap1" "PlasticSouvenirCups1"
 END
 
 CLONE DEED "Tap1" "PlasticSouvenirCups2"
-    SET INSTRUCTIONS "Di adiós a este chico"
+    SET INSTRUCTIONS "Dile adiós a este chico"
 END
 
 CLONE DEED "Tap1" "PlasticSouvenirCups3"
@@ -1339,7 +1339,7 @@ CLONE DEED "Tap1" "PlasticSouvenirCups5"
 END
 
 DEF TASK "PlasticSouvenirCups"
-    SET NAME "Desecha los vasos de plástico viejos de recuerdo"
+    SET NAME "Desechar los viejos vasos de plástico de recuerdo"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1361,11 +1361,11 @@ END
 REM : Bird Watching
 
 CLONE DEED "Nothing2" "BirdWatch1"
-    SET INSTRUCTIONS "¿Cuál es ese pajaro en tu jardín?"
+    SET INSTRUCTIONS "¿Cuál es esa ave en tu patio trasero?"
 END
 
 CLONE DEED "SwipeLeft" "BirdWatch2"
-    SET INSTRUCTIONS "Consulta tu guía de pájaros"
+    SET INSTRUCTIONS "Consulta tu guía de aves"
 END
 
 CLONE DEED "SwipeLeft" "BirdWatch3"
@@ -1377,7 +1377,7 @@ CLONE DEED "SwipeLeft" "BirdWatch4"
 END
 
 CLONE DEED "SwipeDown" "BirdWatch5"
-    SET INSTRUCTIONS "¡Ajá! ¡Es una Sagáz con Cresta!"
+    SET INSTRUCTIONS "¡Ajá! ¡Es una sagáz con cresta!"
 END
 
 CLONE DEED "ScrubMedium" "BirdWatch6"
@@ -1385,7 +1385,7 @@ CLONE DEED "ScrubMedium" "BirdWatch6"
 END
 
 DEF TASK "BirdWatch"
-    SET NAME "Ve a observar aves"
+    SET NAME "Ir a observar aves"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1409,21 +1409,21 @@ END
 REM : Make Ice Cubes
 
 CLONE DEED "Rotate1080Counter" "MakeIceCubes1"
-    SET INSTRUCTIONS "Abre el grifo de la cocina"
+    SET INSTRUCTIONS "Abre la llave de la cocina"
 END
 
 CLONE DEED "TapBase" "MakeIceCubes2"
     SET NUM_TAPS 8
     SET WAIT 0.25S
-    SET INSTRUCTIONS "Llena el mole para los hielos"
+    SET INSTRUCTIONS "Llena la cubeta para hielos"
 END
 
 CLONE DEED "SwipeUp" "MakeIceCubes3"
-    SET INSTRUCTIONS "Deslízalo en el congelador"
+    SET INSTRUCTIONS "Deslízala en el congelador"
 END
 
 DEF TASK "MakeIceCubes"
-    SET NAME "Haz cubos de hielo"
+    SET NAME "Hacer cubos de hielo"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1461,7 +1461,7 @@ CLONE DEED "Rotate720" "HosePatioFurniture5"
 END
 
 DEF TASK "HosePatioFurniture"
-    SET NAME "Limpia los muebles del patio"
+    SET NAME "Limpiar los muebles del patio con una manguera"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1491,7 +1491,7 @@ CLONE DEED "SwipeRight" "CleanShowerCurtain2"
 END
 
 CLONE DEED "SwipeUp" "CleanShowerCurtain3"
-    SET INSTRUCTIONS "Quita el moho con una espátula."
+    SET INSTRUCTIONS "Raspa el moho con una espátula"
 END
 
 CLONE DEED "SwipeDown" "CleanShowerCurtain4"
@@ -1499,7 +1499,7 @@ CLONE DEED "SwipeDown" "CleanShowerCurtain4"
 END
 
 CLONE DEED "SwipeUp" "CleanShowerCurtain5"
-    SET INSTRUCTIONS "Oh si, eso es satisfactorio"
+    SET INSTRUCTIONS "Oh, sí, eso es satisfactorio"
 END
 
 CLONE DEED "SwipeDown" "CleanShowerCurtain6"
@@ -1507,11 +1507,11 @@ CLONE DEED "SwipeDown" "CleanShowerCurtain6"
 END
 
 CLONE DEED "Tap1" "CleanShowerCurtain7"
-    SET INSTRUCTIONS "Tira una espatula perfectamente buena"
+    SET INSTRUCTIONS "Tira una espátula perfectamente buena"
 END
 
 DEF TASK "CleanShowerCurtain"
-    SET NAME "Limpia la cortina de ducha"
+    SET NAME "Limpiar la cortina de ducha"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -1537,7 +1537,7 @@ END
 REM : Put away clean laundry
 
 CLONE DEED "Rotate360" "PutAwayLaundry1"
-    SET INSTRUCTIONS "Quita los calcetines de los lados de la secadora."
+    SET INSTRUCTIONS "Quita los calcetines de los lados de la secadora"
 END
 
 CLONE DEED "Hold2" "PutAwayLaundry2"
@@ -1550,11 +1550,11 @@ CLONE DEED "SwipeBase" "PutAwayLaundry3"
 END
 
 CLONE DEED "Nothing2" "PutAwayLaundry4"
-    SET INSTRUCTIONS "Toma una siesta bien merecida en la ropa tibia"
+    SET INSTRUCTIONS "Toma una merecida siesta en la ropa tibia"
 END
 
 DEF TASK "PutAwayLaundry"
-    SET NAME "Guarda la ropa limpia"
+    SET NAME "Guardar la ropa limpia"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "LOW"
     SET THEME "CLOTHES"
@@ -1579,7 +1579,7 @@ CLONE DEED "SwipeDown" "CleanFancyDishes1"
 END
 
 CLONE DEED "Hold3" "CleanFancyDishes2"
-    SET INSTRUCTIONS "Llena una tina de agua tibia"
+    SET INSTRUCTIONS "Llena una tina con agua tibia"
 END
 
 CLONE DEED "ScrubMedium" "CleanFancyDishes3"
@@ -1587,11 +1587,11 @@ CLONE DEED "ScrubMedium" "CleanFancyDishes3"
 END
 
 CLONE DEED "Tap1" "CleanFancyDishes4"
-    SET INSTRUCTIONS "Seca con un paño de cocina fino de piel de oveja."
+    SET INSTRUCTIONS "Seca con un paño de cocina fino de piel de oveja"
 END
 
 DEF TASK "CleanFancyDishes"
-    SET NAME "Limpia los platos finos"
+    SET NAME "Limpiar los platos elegantes"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "MEDIUM"
     SET THEME "KITCHEN"
@@ -1612,7 +1612,7 @@ END
 REM : Hang framed picture
 
 CLONE DEED "SwipeUp" "HangFrame1"
-    SET INSTRUCTIONS "Pon la imagen con un clavo"
+    SET INSTRUCTIONS "Pon el cuadro con un clavo"
 END
 
 CLONE DEED "SwipeLeft" "HangFrame2"
@@ -1624,11 +1624,11 @@ CLONE DEED "SwipeRight" "HangFrame3"
 END
 
 CLONE DEED "SwipeUp" "HangFrame4"
-    SET INSTRUCTIONS "Se cayó. Cuélgalo de nuevo."
+    SET INSTRUCTIONS "Se cayó de la pared. Cuélgalo de nuevo."
 END
 
 DEF TASK "HangFrame"
-    SET NAME "Cuelga la foto enmarcada"
+    SET NAME "Colgar la cuadro enmarcada"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "LOW"
     SET THEME "DECORATING"
@@ -1652,7 +1652,7 @@ CLONE DEED "SwipeLeft" "PutBooksAway1"
 END
 
 CLONE DEED "Hold3" "PutBooksAway2"
-    SET INSTRUCTIONS "Lleva con cuidado tu pila de libros a la estantería."
+    SET INSTRUCTIONS "Lleva con cuidado tu pila de libros a la estantería"
 END
 
 CLONE DEED "QuickTap5" "PutBooksAway3"
@@ -1664,11 +1664,11 @@ CLONE DEED "SwipeRight" "PutBooksAway4"
 END
 
 CLONE DEED "Nothing4" "PutBooksAway5"
-    SET INSTRUCTIONS "Piérdete en un mundo de fantasía y deleite."
+    SET INSTRUCTIONS "Piérdete en un mundo de fantasía y deleite"
 END
 
 DEF TASK "PutBooksAway"
-    SET NAME "Guarda los libros"
+    SET NAME "Guardar los libros"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "LOW"
     SET THEME "PAPERWORK"
@@ -1698,23 +1698,23 @@ CLONE DEED "Hold3" "PaintSpill2"
 END
 
 CLONE DEED "Tap1" "PaintSpill3"
-    SET INSTRUCTIONS "Tira aserrín sobre la mancha"
+    SET INSTRUCTIONS "Tira aserrín sobre el charco"
 END
 
 CLONE DEED "SwipeUp" "PaintSpill4"
-    SET INSTRUCTIONS "Levántelo en un recogedor"
+    SET INSTRUCTIONS "Recógelo con un recipiente para el polvo"
 END
 
 CLONE DEED "Hold3" "PaintSpill5"
-    SET INSTRUCTIONS "Tiralo en la basura"
+    SET INSTRUCTIONS "Tíralo a la basura"
 END
 
 CLONE DEED "SwipeRight" "PaintSpill6"
-    SET INSTRUCTIONS "Accidentalmente derriba la lata de nuevo"
+    SET INSTRUCTIONS "Derriba accidentalmente una lata de pintura de nuevo"
 END
 
 DEF TASK "PaintSpill"
-    SET NAME "Limpia el derrame de pintura"
+    SET NAME "Limpiar el charco de pintura"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "MEDIUM"
     SET THEME "DECORATING"
@@ -1742,11 +1742,11 @@ CLONE DEED "Rotate360" "FoldLaundry1"
 END
 
 CLONE DEED "SwipeLeft" "FoldLaundry2"
-    SET INSTRUCTIONS "Doblala en el lado derecho"
+    SET INSTRUCTIONS "Dóblala en el lado derecho"
 END
 
 CLONE DEED "SwipeRight" "FoldLaundry3"
-    SET INSTRUCTIONS "Doblala en el lado izquierdo"
+    SET INSTRUCTIONS "Dóblala en el lado izquierdo"
 END
 
 CLONE DEED "SwipeUp" "FoldLaundry4"
@@ -1754,11 +1754,11 @@ CLONE DEED "SwipeUp" "FoldLaundry4"
 END
 
 CLONE DEED "Tap1" "FoldLaundry5"
-    SET INSTRUCTIONS "Colocala con amor en el cajón"
+    SET INSTRUCTIONS "Colócala con amor en el cajón"
 END
 
 DEF TASK "FoldLaundry"
-    SET NAME "Dobla la ropa"
+    SET NAME "Doblar la ropa"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "LOW"
     SET THEME "CLOTHES"
@@ -1797,7 +1797,7 @@ CLONE DEED "Nothing5" "HavePicnic4"
 END
 
 DEF TASK "HavePicnic"
-    SET NAME "Ten un picnic"
+    SET NAME "Hacer un pícnic"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "LOW"
     SET THEME "YARD_WORK"
@@ -1825,11 +1825,11 @@ CLONE DEED "SwipeLeft" "Mahjong1Step2"
 END
 
 CLONE DEED "Nothing5" "Mahjong1Step3"
-    SET INSTRUCTIONS "Suma puntos a la cabeza"
+    SET INSTRUCTIONS "Suma los puntos en tu cabeza"
 END
 
 DEF TASK "Mahjong1"
-    SET NAME "Juega Mahjong"
+    SET NAME "Jugar mahjong"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "MEDIUM"
     SET THEME "RECREATION"
@@ -1867,7 +1867,7 @@ CLONE DEED "QuickTap5" "Mahjong2Step5"
 END
 
 DEF TASK "Mahjong2"
-    SET NAME "Juega Mahjong"
+    SET NAME "Jugar mahjong"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "MEDIUM"
     SET THEME "RECREATION"
@@ -1889,23 +1889,23 @@ END
 REM : Play Shogi
 
 CLONE DEED "Tap1" "PlayShogi1"
-    SET INSTRUCTIONS "Empuja el Lancero hacia adelante"
+    SET INSTRUCTIONS "Empuja el lancero hacia adelante"
 END
 
 CLONE DEED "Tap1" "PlayShogi2"
-    SET INSTRUCTIONS "Mueve el General de Oro de lado"
+    SET INSTRUCTIONS "Mueve al general de oro de lado"
 END
 
 CLONE DEED "Nothing5" "PlayShogi3"
-    SET INSTRUCTIONS "Mirada de Intimidación"
+    SET INSTRUCTIONS "Mirada de intimidación"
 END
 
 CLONE DEED "Tap1" "PlayShogi4"
-    SET INSTRUCTIONS "Mueve el rey hacia atrás"
+    SET INSTRUCTIONS "Mueve al rey hacia atrás"
 END
 
 DEF TASK "PlayShogi"
-    SET NAME "Juega Shogi"
+    SET NAME "Jugar ajedrez japonés"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "LOW"
     SET THEME "RECREATION"
@@ -1936,12 +1936,12 @@ CLONE DEED "Hold3" "CheckMilkA3"
 END
 
 CLONE DEED "Tap1" "CheckMilkA4"
-    SET INSTRUCTIONS "Esta buena, devuelvela"
+    SET INSTRUCTIONS "Está buena, devuélvela"
 END
 
 
 DEF TASK "CheckMilkA"
-    SET NAME "Revisa la leche"
+    SET NAME "Revisar la leche"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "LOW"
     SET THEME "KITCHEN"
@@ -1976,7 +1976,7 @@ CLONE DEED "Hold5" "CheckMilkB4"
 END
 
 DEF TASK "CheckMilkB"
-    SET NAME "Revisa la leche"
+    SET NAME "Revisar la leche"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "LOW"
     SET THEME "KITCHEN"

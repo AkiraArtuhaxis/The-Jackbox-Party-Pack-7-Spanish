@@ -1,11 +1,11 @@
 MAIN(Representante de cable): ¿Qué canal le interesaría más agregar?
--SNACK-> Red de snacks
+-SNACK-> Red de bocadillos
 -VOYEUR-> Espía TV
 -BIRD-> Canal Buenas Aves
 -SPORT-> Deportes Malvados
 
-SNACK(Representante de cable): ¡Justo a tiempo para la semana de las palomitas!
--SUCCESS-> ¡"Maíz" vale creerlo!
+SNACK(Representante de cable): ¡Justo a tiempo para la semana de las palomitas de maíz!
+-SUCCESS-> ¡"Maíz" te vale creerlo!
 
 VOYEUR(Representante de cable): Ese canal no existe.
 -FAILURE-> Creo que estoy viendo la cámara de seguridad de mi vecino.

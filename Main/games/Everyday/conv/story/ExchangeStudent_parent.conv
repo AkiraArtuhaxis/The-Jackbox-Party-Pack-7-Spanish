@@ -1,17 +1,17 @@
-MAIN(Padre): ¿Cuál es exactamente su queja sobre mis hijos?
--NICE-> Son DEMASIADO agradables
+MAIN(Padre): ¿Cuál es exactamente su queja sobre mi hijo?
+-NICE-> Es DEMASIADO agradable
 -CLEAN-> La casa está DEMASIADO limpia
 -CHECK-> Mi cuenta bancaria está DEMASIADO equilibrada
 -FEAR-> Le tengo miedo al cambio
 
-NICE(Padre): Malditos niños. Hablaré con ellos.
+NICE(Padre): Ese maldito niño. Hablaré con él.
 -SUCCESS-> Así que es hereditario.
 
-CLEAN(Padre): No me di cuenta de que eso era un problema
--SUCCESS-> ¡No puedo volver a comer costillas en el sofá!
+CLEAN(Padre): No sabía que eso era un problema
+-SUCCESS-> ¡Ya no puedo comer costillas en el sofá!
 
-CHECK(Padre): No me di cuenta de que eso era un problema.
--SUCCESS-> ¡Está sacando toda la misteriosa diversión de nuestras finanzas!
+CHECK(Padre): No sabía que eso era un problema.
+-SUCCESS-> ¡Está quitando todo el misterio de la diversión a nuestras finanzas!
 
 FEAR(Padre): ...No puedo ayudar con eso.
 -SUCCESS-> ¡Bien! ¡Estoy cansado de que tu familia mejore mi vida!

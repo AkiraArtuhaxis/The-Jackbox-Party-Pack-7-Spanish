@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mamá| mama|<PRONOUN> mamás| mamas|<PRONOUN> madre| madre|<PRONOUN>madres | madres |<PRONOUN> padres | papás |<PRONOUN> muchachos | muchacho |<PRONOUN> papá | papa|<PRONOUN> papás | papas|<PRONOUN> padre | padre|<PRONOUN> padres | padres",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Y de la nada se enojan DEMASIADO consigo mismos por no llamar a casa más seguido.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Under a full moon, a small number of people turn into <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "real jerks|whatwolves|their younger selves",
+   "n": "SafetyQuips"
+  }
+ ]
+}

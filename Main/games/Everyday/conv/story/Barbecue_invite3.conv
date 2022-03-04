@@ -1,13 +1,13 @@
-MAIN(Riley): Así que, ¿organizando una barbacoa?
+MAIN(Riley): Así que, ¿vas a hacer una parrillada?
 -EAGER-> ¡Sí! ¡¡Deberías venir!!
--ANTI-> Ugh. Va a ser muy vergonzoso
--ALOOF-> Quizá. No estoy seguro. Ni me importa.
+-ANTI-> Eh. Va a ser muy vergonzoso
+-ALOOF-> Quizás. No estoy seguro. Ni me importa.
 
-EAGER(Riley): ¡Genial! ¡Voy a llevar a mi familia que está de visita!
--SUCCESS-> Calculo que... no habrá problema...
+EAGER(Riley): ¡Genial! ¡Lllevaré a mi extensa familia que está de visita!
+-SUCCESS-> Creo que... no habrá problema...
 
-ANTI(Riley): De hecho me gustan las barbacoas...
--SUCCESS-> ¡¡SÍÍÍ A MÍ TAMBIÉN DEBERÍAS VENIR!!
+ANTI(Riley): De hecho, como que me gustan las parrilladas...
+-SUCCESS-> ¡¡SÍ, A MÍ TAMBIÉN, DEBERÍAS VENIR!!
 
-ALOOF(Riley): He aprendido de interacciones anteriores que esto indica que quieres que vaya a la barbacoa.
--SUCCCESS-> ¡Riley es la mejor!
+ALOOF(Riley): He aprendido de nuestras interacciones anteriores que esto significa que quieres que vaya a la parrillada.
+-SUCCCESS-> ¡Riley es el mejor!

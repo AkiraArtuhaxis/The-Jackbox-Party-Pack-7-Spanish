@@ -11,14 +11,14 @@
             "id": "ACTION_FIGURES",
             "category": "ACTIONFIGURES",
             "icon": "HUMAN_2",
-            "name": "Finge que tus figuras de acción te hablan",
+            "name": "Finge que tus figuras de acción hablan",
             "sourceFile": "generic/Action_Figures.conv"
         },
         {
             "id": "BAND_GEEK",
             "category": "NEIGHBOR",
             "icon": "HUMAN_3",
-            "name": "Donación para la banda musical",
+            "name": "Donaciones para la banda musical",
             "sourceFile": "generic/Band_Geek.conv"
         },
         {
@@ -46,28 +46,28 @@
             "id": "COMPLAIN_ABOUT_KIDS",
             "category": "RAMBLING",
             "icon": "HUMAN_1",
-            "name": "Quejate de los niños de hoy en día",
+            "name": "Quéjate de los niños de hoy en día",
             "sourceFile": "generic/Complain_About_Kids.conv"
         },
         {
             "id": "DENTIST",
             "category": "MAKECALL",
             "icon": "HUMAN_2",
-            "name": "Haz una cita con el dentista",
+            "name": "Pide una cita con el dentista",
             "sourceFile": "generic/Dentist_Appt.conv"
         },
         {
             "id": "FRIDGE_REPAIR",
             "category": "MAKECALL",
             "icon": "HUMAN_4",
-            "name": "Llama a la tienda de reparaciones respecto a la nevera",
+            "name": "Llama al taller de reparaciones por la nevera",
             "sourceFile": "generic/Fix_Fridge.conv"
         },
         {
             "id": "FRIDGE_PRANK",
             "category": "MAKECALL",
             "icon": "HUMAN_3",
-            "name": "Haz una broma telefónica a negocio local",
+            "name": "Haz una broma telefónica a un negocio local",
             "sourceFile": "generic/Fridge_Prank.conv"
         },
         {
@@ -81,7 +81,7 @@
             "id": "NEIGHBOR_GOSSIP",
             "category": "NEIGHBOR",
             "icon": "HUMAN_2",
-            "name": "Cotillea con el vecino",
+            "name": "Chismea con el vecino",
             "sourceFile": "generic/Gossip_Neighbor.conv"
         },
         {
@@ -95,14 +95,14 @@
             "id": "JOGGING",
             "category": "NEIGHBOR",
             "icon": "HUMAN_4",
-            "name": "Rechaza el club de footing otra vez",
+            "name": "Rechaza el club de trote otra vez",
             "sourceFile": "generic/Jogging.conv"
         },
         {
             "id": "LIZARD_INSURANCE",
             "category": "ANSWERPHONE",
             "icon": "HUMAN_1",
-            "name": "Llama al vendedor telefónico",
+            "name": "El vendedor telefónico está llamando",
             "sourceFile": "generic/lizard_insurance.conv"
         },
         {
@@ -123,7 +123,7 @@
             "id": "MOTIVATIONAL_MANTRA",
             "category": "MANTRA",
             "icon": "HUMAN_1",
-            "name": "Recitate un mantra motivacional",
+            "name": "Recítate un mantra motivacional",
             "sourceFile": "generic/Motivational_Mantra.conv"
         },
         {
@@ -172,7 +172,7 @@
             "id": "SODA_POLL",
             "category": "ANSWERPHONE",
             "icon": "HUMAN_1",
-            "name": "Responde la encuesta por telefono sobre tus preferencias de refresco",
+            "name": "Responde la encuesta telefónica sobre tus preferencias de refresco",
             "sourceFile": "generic/Soda_Poll.conv"
         },
         {
@@ -186,21 +186,21 @@
             "id": "TALK_SPORTS",
             "category": "NEIGHBOR",
             "icon": "HUMAN_1",
-            "name": "Habla de deportes con el vecino",
+            "name": "Habla sobre deportes con tu vecino",
             "sourceFile": "generic/Talk_Sports.conv"
         },
         {
             "id": "TEACHER_PRANK_CALL",
             "category": "PRANKCALL",
             "icon": "HUMAN_1",
-            "name": "Haz una broma telefónica al profesor",
+            "name": "Haz una broma telefónica a tu profesor",
             "sourceFile": "generic/Teacher_Prank_Call.conv"
         },
         {
             "id": "TEEN_GOSSIP",
             "category": "TEENGOSSIP",
             "icon": "HUMAN_2",
-            "name": "Cotillea con Chismoso Carl",
+            "name": "Chismea con Carl Charlatán",
             "sourceFile": "generic/teengossip.conv"
         },
         {
@@ -221,14 +221,14 @@
             "id": "PIZZA_ORDER",
             "category": "MAKECALL",
             "icon": "HUMAN_3",
-            "name": "Ordena una Pizza",
+            "name": "Pide una pizza",
             "sourceFile": "generic/Vegan_Pizza_Order.conv"
         },
         {
             "id": "PLACEHOLDER",
             "category": "PLACEHOLDER",
             "icon": "DEVIL_2",
-            "name": "Conversación de marcador de posición: elimine todas las instancias antes del envío",
+            "name": "Conversación de marcador de posición: elimina todas las instancias antes del envío",
             "sourceFile": "placeholder.conv"
         },
         {
@@ -249,28 +249,28 @@
             "id": "BARBECUE_INVITE1",
             "category": "STORY",
             "icon": "HUMAN_2",
-            "name": "Invitación a la barbacoa 1",
+            "name": "Invitación a la parrillada 1",
             "sourceFile": "story/Barbecue_invite1.conv"
         },
         {
             "id": "BARBECUE_INVITE2",
             "category": "STORY",
             "icon": "HUMAN_3",
-            "name": "Invitación a la barbacoa 2",
+            "name": "Invitación a la parrillada 2",
             "sourceFile": "story/Barbecue_invite2.conv"
         },
         {
             "id": "BARBECUE_INVITE3",
             "category": "STORY",
             "icon": "HUMAN_2",
-            "name": "Invitación a la barbacoa 3",
+            "name": "Invitación a la parrillada 3",
             "sourceFile": "story/Barbecue_invite3.conv"
         },
         {
             "id": "BEACHDAY_AC",
             "category": "STORY",
             "icon": "HUMAN_3",
-            "name": "Aire acondionado",
+            "name": "Aire acondionado de playa",
             "sourceFile": "story/BeachDay_callAC.conv"
         },
         {
@@ -305,7 +305,7 @@
             "id": "BOSS_GREET",
             "category": "STORY",
             "icon": "HUMAN_1",
-            "name": "Da la bienvenida al jefe",
+            "name": "Saluda al jefe",
             "sourceFile": "story/BossDinner_Greet.conv"
         },
         {
@@ -319,21 +319,21 @@
             "id": "COUSINVISIT_GREET",
             "category": "STORY",
             "icon": "DEVIL_2",
-            "name": "Da la bienvenida a tu primo",
+            "name": "Saluda a tu primo",
             "sourceFile": "story/CousinVisit_greet.conv"
         },
         {
             "id": "DANGEROUSTREND_JOIN",
             "category": "STORY",
             "icon": "HUMAN_3",
-            "name": "El club de Gronk",
+            "name": "El grupo de Gronk",
             "sourceFile": "story/DangerousTrend_joingroup.conv"
         },
         {
             "id": "ENDOFTHEWORLD_NASA",
             "category": "STORY",
             "icon": "HUMAN_3",
-            "name": "Hablar con la NASA sobre el final del mundo",
+            "name": "Fin del mundo para la NASA",
             "sourceFile": "story/EndOfTheWorld_NASA.conv"
         },
         {
@@ -361,7 +361,7 @@
             "id": "FAME_BEG",
             "category": "STORY",
             "icon": "HUMAN_4",
-            "name": "Pregunta por una segunda audición",
+            "name": "Ruega por una segunda audición",
             "sourceFile": "story/Fame_beg.conv"
         },
         {
@@ -382,14 +382,14 @@
             "id": "FIRSTDATE_AKWARD",
             "category": "STORY",
             "icon": "HUMAN_2",
-            "name": "Historia embarazosa",
+            "name": "Historia vergonzosa",
             "sourceFile": "story/FirstDate_awkward.conv"
         },
         {
             "id": "FIRSTDATE_GREET",
             "category": "STORY",
             "icon": "HUMAN_2",
-            "name": "Da la bienvenida a Riley",
+            "name": "Saluda a Riley",
             "sourceFile": "story/FirstDate_greet.conv"
         },
         {
@@ -417,14 +417,14 @@
             "id": "HOUSEPEST_BAT",
             "category": "STORY",
             "icon": "HUMAN_3",
-            "name": "Exterminador de pestes domésticas",
+            "name": "Exterminador de plagas domésticas",
             "sourceFile": "story/HousePest_bat.conv"
         },
         {
             "id": "LAWN_TOPIARY",
             "category": "STORY",
             "icon": "HUMAN_4",
-            "name": "Topiario de césped",
+            "name": "Topiario de pasto",
             "sourceFile": "story/Lawn_topiary.conv"
         },
         {
@@ -452,7 +452,7 @@
             "id": "NEWCAR_BRAG",
             "category": "STORY",
             "icon": "HUMAN_3",
-            "name": "Alardea del coche",
+            "name": "Alardea del auto",
             "sourceFile": "story/NewCar_brag.conv"
         },
         {
@@ -508,42 +508,42 @@
             "id": "SCHOOLPLAY_AUDITION",
             "category": "STORY",
             "icon": "HUMAN_1",
-            "name": "AUDICIÓN_ESCOLAR",
+            "name": "SCHOOLPLAY_AUDITION",
             "sourceFile": "story/SchoolPlay_audition.conv"
         },
         {
             "id": "SKIPDAY_CHECKIN",
             "category": "STORY",
             "icon": "HUMAN_3",
-            "name": "Saltate el registro",
+            "name": "Sáltate el registro",
             "sourceFile": "story/SkipDay_checkin.conv"
         },
         {
             "id": "SKIPDAY_SICKKINDER",
             "category": "STORY",
             "icon": "HUMAN_4",
-            "name": "Saltate el jardín",
+            "name": "Sáltate el jardín",
             "sourceFile": "story/SkipDay_sickkinder.conv"
         },
         {
             "id": "SKIPDAY_SICKSCHOOL",
             "category": "STORY",
             "icon": "HUMAN_3",
-            "name": "Saltate la clase",
+            "name": "Sáltate la escuela",
             "sourceFile": "story/SkipDay_sickschool.conv"
         },
         {
             "id": "SKIPDAY_SICKWORK",
             "category": "STORY",
             "icon": "HUMAN_1",
-            "name": "Saltate el trabajo",
+            "name": "Sáltate el trabajo",
             "sourceFile": "story/SkipDay_sickwork.conv"
         },
         {
             "id": "SLUMBERPARTY_WELCOME",
             "category": "STORY",
             "icon": "HUMAN_4",
-            "name": "Da la bienvenida a los niños",
+            "name": "Saluda a los niños",
             "sourceFile": "story/SlumberParty_welcomekids.conv"
         },
         {
@@ -571,14 +571,14 @@
             "id": "SPACE_TEEN",
             "category": "STORY",
             "icon": "HUMAN_3",
-            "name": "Entrevista espacial con el jóven",
+            "name": "Entrevista espacial con el adolescente",
             "sourceFile": "story/Space_teen.conv"
         },
         {
             "id": "TREEHOUSE_ZONING",
             "category": "STORY",
             "icon": "HUMAN_4",
-            "name": "Junta de zonificación",
+            "name": "Junta de urbanismo",
             "sourceFile": "story/Treehouse_zoning.conv"
         },
         {
@@ -592,7 +592,7 @@
             "id": "UNCLEVISIT_LEAVE",
             "category": "STORY",
             "icon": "DEVIL_2",
-            "name": "El Tío se va",
+            "name": "El tío se va",
             "sourceFile": "story/UncleVisit_leave.conv"
         },
         {

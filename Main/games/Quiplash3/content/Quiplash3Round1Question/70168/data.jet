@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "In heaven, you will be surrounded by friends, family and, for some reason, <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Anakin Skywalker|that turtle you saw at the zoo in 2007|marshmallows",
+   "n": "SafetyQuips"
+  }
+ ]
+}

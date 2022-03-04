@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> pedo | pedo|<PRONOUN> Pedo | Pedorreo|<ARTICLE> Pedos | pedos|<ARTICLE> Gas | gases",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bueno, definitivamente yo soy el jefe de ese hogar. (pedo chiquito)",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "There’s a secret tax loophole that allows you to count <BLANK> as dependents",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "ideas|monsters under your bed",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -23,7 +23,7 @@ DEF TASK "DefaultEmergencyTask"
 END
 
 DEF TASK "SelfishCanceler"
-    SET NAME "¡Detén a <SELFISH_PLAYER> de ser egoísta!"
+    SET NAME "¡Detener a <SELFISH_PLAYER> de ser egoísta!"
     SET CATEGORY "CANCELER"
     SET DURATION <45M>
     SET THEME "CANCELER"

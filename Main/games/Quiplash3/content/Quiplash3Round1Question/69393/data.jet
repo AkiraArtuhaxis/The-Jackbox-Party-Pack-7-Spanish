@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Schmitty|Shmitty|Smitty|Shmittie|Schmittie|Smittie",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Así que estén advertidos, si preguntas por el Schmitty, vas a tener un corte de pelo muy corto.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The weirdest thing you could tell your hairdresser: “Give me the <BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Captain Picard|hair clippings|yoga instructor haircut",
+   "n": "SafetyQuips"
+  }
+ ]
+}

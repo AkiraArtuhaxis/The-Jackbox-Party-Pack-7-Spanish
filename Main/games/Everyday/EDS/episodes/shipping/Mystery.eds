@@ -2,7 +2,7 @@ DEF EPISODE "Mystery"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "El caso del suburbio embrujado"
-    SET DESCRIPTION "El vecindario está en suspenso después de múltiples informes de un  <font color='#AF0000'>viejo capitán de barco fantasmal</font> que ronda las calles por la noche. Depende de la familia <font color='#AF0000'>resolver este misterio</font>. Sobre todo porque nadie más quiere."
+    SET DESCRIPTION "El vecindario está en suspenso después de múltiples informes de un <font color='#AF0000'>viejo capitán de barco fantasmal</font> que ronda las calles por la noche. Depende de la familia <font color='#AF0000'>resolver este misterio</font>. Sobre todo porque nadie más quiere."
     SET SUCCESS_MESSAGE "Nos alegramos de leer que han acabado con el falso reinado de terror del fantasma. El mundo humano tiene que lidiar con un viejo cascarrabias menos."
     SET FAILURE_MESSAGE "Desde la última temporada de Paradise Lost no hemos visto un final tan insatisfactorio para un misterio. Hemos preguntado específicamente si querían que el Cerbero parlante resolviera el crimen, pero no, tenían que tener un gato."
 
@@ -88,8 +88,8 @@ END
 
 DEF TASK "GhostHunterEquip"
     SET NAME "Configurar el equipo de cazador de fantasmas"
-    SET ASKER_NAME "Obtener ayuda para configurar el equipo del cazador de fantasmas"
-    SET HELPER_NAME "Ayuda a <ASKER> para configurar el equipo del cazador de fantasmas"
+    SET ASKER_NAME "Pedir ayuda para configurar el equipo del cazador de fantasmas"
+    SET HELPER_NAME "Ayudar a <ASKER> para configurar el equipo del cazador de fantasmas"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -169,8 +169,8 @@ END
 
 DEF TASK "ExamineMachine"
     SET NAME "Examinar la máquina sospechosa"
-    SET ASKER_NAME "Obtener ayuda para examinar la máquina sospechosa"
-    SET HELPER_NAME "Ayuda a <ASKER> para examinar la máquina sospechosa"
+    SET ASKER_NAME "Pedir ayuda para examinar la máquina sospechosa"
+    SET HELPER_NAME "Ayudar a <ASKER> para examinar la máquina sospechosa"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -246,8 +246,8 @@ END
 
 DEF TASK "MysteryGhostTrap"
     SET NAME "Configurar una trampa fantasma complicada"
-    SET ASKER_NAME "Obtener ayuda para configurar la trampa fantasma complicada"
-    SET HELPER_NAME "Ayuda a <ASKER> para configurar la trampa fantasma complicada"
+    SET ASKER_NAME "Pedir ayuda para configurar la trampa fantasma complicada"
+    SET HELPER_NAME "Ayudar a <ASKER> para configurar la trampa fantasma complicada"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

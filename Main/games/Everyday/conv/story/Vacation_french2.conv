@@ -3,7 +3,7 @@ MAIN(Cinta en idioma francés): Gardez toujours votre tuba dans une valise trans
 -RESPONSE1-> Je joue, en fait, de la trompette.
 -RESPONSE1-> Algo sobre... ¿¿una tuba??
 
-RESPONSE1(Cinta en idioma francés): Il est peu probable que les iguanes aient besoin dune montre.
--SUCCESS-> Le poignet dun iguane est trop petit pour une montre.
--SUCCESS-> Je nai pas besoin de ces informations.
--FAILURE-> ¿Se entiende más fácil el portugués? Quizá deberíamos haber ido a Brasil...
+RESPONSE1(Cinta en idioma francés): Il est peu probable que les iguanes aient besoin d'une montre.
+-SUCCESS-> Le poignet d'un iguane est trop petit pour une montre.
+-SUCCESS-> Je n'ai pas besoin de ces informations.
+-FAILURE-> ¿Se entiende más fácil el portugués? Quizá deberíamos ir a Portugal...

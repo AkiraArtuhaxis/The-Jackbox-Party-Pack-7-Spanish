@@ -296,14 +296,14 @@ END
 
 REM : Pick up date
 CLONE DEED "TravelCategory" "PickUpDate"
-    SET INSTRUCTIONS "Recoge a tu cita"
+    SET INSTRUCTIONS "Pasa a buscar a tu cita"
     SET CATEGORY "RESIDENCE"
 END
 
 DEF TASK "PickUpDate"
-    SET NAME "Conducir para recoger a tu cita"
-    SET ASKER_NAME "Conseguir transporte para recoger a tu cita"
-    SET HELPER_NAME "Conducir a <ASKER> para recoger a la cita"
+    SET NAME "Conducir para pasar a buscar a tu cita"
+    SET ASKER_NAME "Conseguir transporte para pasar a buscar a tu cita"
+    SET HELPER_NAME "Llevar a <ASKER> para pasar a buscar a su cita"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"
     SET CATEGORY "STORY"
@@ -432,7 +432,7 @@ END
 
 DEF TASK "DefuseStinkBomb"
     SET NAME "Desactivar la broma de la bomba apestosa"
-    SET ASKER_NAME "Obtener ayuda para desactivar la bomba apestosa"
+    SET ASKER_NAME "Pedir ayuda para desactivar la bomba apestosa"
     SET HELPER_NAME "Ayudar a <ASKER> a desactivar la bomba apestosa"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"

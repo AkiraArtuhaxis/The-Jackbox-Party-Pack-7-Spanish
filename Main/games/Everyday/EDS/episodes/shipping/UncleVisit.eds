@@ -1,10 +1,10 @@
 DEF EPISODE "UncleVisit"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Llora Tío"
-    SET DESCRIPTION "¡El amado <font color='#AF0000'>Tío Gorbo</font> está en la ciudad! El único problema es que es conocido por quedarse más de lo esperado y molestar a todo el mundo. ¿Puede la familia entretener a su huésped sin perder el temperamento?"
-    SET SUCCESS_MESSAGE "Si las opiniones en línea del Tío Gorbo sirven de indicio, parece que ha tenido una maravillosa visita en tu bella ciudad. Y ya que se las arreglaron para aguantarle, el está obligado a volver el año que viene. Suertudos."
-    SET FAILURE_MESSAGE "Es difícil saber quién la pasó peor, si ustedes o Tío Gorbo. El no se quedará con ustedes de nuevo en el futuro cercano. Y si bien eso puede sonar bien, pueden despedirse de las famosas tartas de arándanos de la tía Flemm."
+    SET NAME "Llora, tío"
+    SET DESCRIPTION "¡El amado <font color='#AF0000'>tío Gorbo</font> está en la ciudad! El único problema es que es conocido por quedarse más de lo esperado y molestar a todo el mundo. ¿Podrá la familia entretener a su huésped sin perder los estribos?"
+    SET SUCCESS_MESSAGE "Si las opiniones en línea del tío Gorbo sirven de indicio, parece que ha tenido una maravillosa visita en su bella ciudad. Y ya que se las arreglaron para aguantarle, él está obligado a volver el año que viene. Suertudos."
+    SET FAILURE_MESSAGE "Es difícil saber quién la pasó peor, si ustedes o el tío Gorbo. Él no se quedará con ustedes de nuevo en un futuro próximo. Y si bien eso puede sonar bien, pueden despedirse de las famosas tartas de arándanos de la tía Flemm."
 
 
     REM : ------------------------------
@@ -53,7 +53,7 @@ CLONE DEED "TravelID" "PickUpGorbo"
 END
 
 DEF TASK "PickUpGorbo"
-    SET NAME "Recoge al tío Gorbo del aeropuerto."
+    SET NAME "Recoger al tío Gorbo en el aeropuerto."
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -66,7 +66,7 @@ END
 
 REM : Take Uncle Gorbo to museum
 CLONE DEED "Instructions4" "GorboMuseum1"
-    SET INSTRUCTIONS "Lleva al tío Gorbo a ver el museo."
+    SET INSTRUCTIONS "Lleva al tío Gorbo a ver el museo"
 
     SET MECHANIC_0 "SWIPE_UP"
     SET INSTRUCTIONS_0 "Toma el autobús al Museo de Perritos Calientes"
@@ -79,7 +79,7 @@ CLONE DEED "Instructions4" "GorboMuseum1"
 END
 
 DEF TASK "GorboMuseum1"
-    SET NAME "Lleva al tío Gorbo a ver el museo."
+    SET NAME "Llevar al tío Gorbo a ver el museo"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -97,7 +97,7 @@ CLONE DEED "GatherID" "GorboMeal"
 END
 
 DEF TASK "GorboMeal"
-    SET NAME "Prepara la cena favorita del tío Gorbo"
+    SET NAME "Preparar la cena favorita del tío Gorbo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -120,19 +120,19 @@ CLONE DEED "SwipeLeft" "GorboMoveDen2"
 END
 
 CLONE DEED "Tap4" "GorboMoveDen3"
-    SET INSTRUCTIONS "Vacía tu clóset"
+    SET INSTRUCTIONS "Vacía tu cómoda"
 END
 
 CLONE DEED "SwipeUp" "GorboMoveDen4"
-    SET INSTRUCTIONS "Cuelga un ambientador para contrarrestar el olor del tío Gorbo"
+    SET INSTRUCTIONS "Cuelga un aromatizante para contrarrestar el olor del tío Gorbo"
 END
 
 CLONE DEED "SwipeUp" "GorboMoveDen5"
-    SET INSTRUCTIONS "Cuelga un segundo ambientador por si acaso"
+    SET INSTRUCTIONS "Cuelga un segundo aromatizante por si acaso"
 END
 
 DEF TASK "GorboMoveDen"
-    SET NAME "Mueve tus cosas a la guarida para que el tío Gorbo pueda usar tu habitación"
+    SET NAME "Mover tus cosas al estudio para que el tío Gorbo pueda usar tu habitación"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -159,7 +159,7 @@ CLONE DEED "Nothing3" "GorboStory1"
 END
 
 CLONE DEED "Nothing3" "GorboStory2"
-    SET INSTRUCTIONS "Escucha una tediosa historia sobre devolver calcetines usados"
+    SET INSTRUCTIONS "Escucha un tedioso relato sobre devolver calcetines usados"
 END
 
 CLONE DEED "Nothing2" "GorboStory3"
@@ -167,15 +167,15 @@ CLONE DEED "Nothing2" "GorboStory3"
 END
 
 CLONE DEED "Hold1" "GorboStory4"
-    SET INSTRUCTIONS "Aléjate..."
+    SET INSTRUCTIONS "Distráete..."
 END
 
 CLONE DEED "SwipeDown" "GorboStory5"
-    SET INSTRUCTIONS "Ve a dormir..."
+    SET INSTRUCTIONS "Duérmete..."
 END
 
 DEF TASK "GorboStory"
-    SET NAME "Escucha las aburridas historias del tío Gorbo"
+    SET NAME "Escuchar las aburridas historias del tío Gorbo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -196,12 +196,12 @@ END
 
 REM : Search for important papers in the mess Gorbo made
 CLONE DEED "SearchID" "SearchGorbo"
-    SET INSTRUCTIONS "Busca papeles importantes"
+    SET INSTRUCTIONS "Busca documentos importantes"
     SET CONTENT_ID "GORBO"
 END
 
 DEF TASK "SearchGorbo"
-    SET NAME "Busca papeles importantes en el lío que hizo el tío Gorbo"
+    SET NAME "Buscar documentos importantes en el desorden que hizo el tío Gorbo"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -214,11 +214,11 @@ END
 
 REM :Watch boring documentary Uncle Gorbo wants to watch
 CLONE DEED "Rotate360" "GorboDoc1"
-    SET INSTRUCTIONS "Cambia de canal lejos de tu programa favorito"
+    SET INSTRUCTIONS "Cambia de canal y deja de ver tu programa favorito"
 END
 
 CLONE DEED "Rotate720" "GorboDoc2"
-    SET INSTRUCTIONS "Pón 'Antiácidos: La maravilla médica'"
+    SET INSTRUCTIONS "Pon 'Antiácidos: La maravilla médica'"
 END
 
 CLONE DEED "Nothing2" "GorboDoc3"
@@ -226,7 +226,7 @@ CLONE DEED "Nothing2" "GorboDoc3"
 END
 
 DEF TASK "GorboDoc"
-    SET NAME "Siéntate a ver el aburrido documental que el tío Gorbo quiere ver"
+    SET NAME "Sentarse a ver el aburrido documental que el tío Gorbo quiere ver"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -259,7 +259,7 @@ CLONE DEED "Hold2" "SleepDen4"
 END
 
 DEF TASK "SleepDen"
-    SET NAME "Trate de encontrar una posición cómoda para dormir en el sofá del estudio."
+    SET NAME "Tratar de encontrar una posición cómoda para dormir en el sofá del estudio"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -284,15 +284,15 @@ CLONE DEED "SwipeUp" "GorboOoze1"
 END
 
 CLONE DEED "SwipeDown" "GorboOoze2"
-    SET INSTRUCTIONS "Mojalo en el cubo"
+    SET INSTRUCTIONS "Mójalo en el cubo"
 END
 
 CLONE DEED "ScrubMedium" "GorboOoze3"
-    SET INSTRUCTIONS "Limpiar el charco de limo asqueroso"
+    SET INSTRUCTIONS "Limpia el charco de baba asquerosa"
 END
 
 DEF TASK "GorboOoze"
-    SET NAME "Limpia el rastro de moco del tío Gorbo"
+    SET NAME "Limpiar el rastro de moco del tío Gorbo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -313,9 +313,9 @@ CLONE DEED "TravelCategory" "GorboMuseum2"
 END
 
 DEF TASK "GorboMuseum2"
-    SET NAME "Lleva al tío Gorbo a otro museo aburrido"
-    SET ASKER_NAME "Estafa a alguien para que vaya a otro museo aburrido contigo y con el tío Gorbo"
-    SET HELPER_NAME "Acepta a regañadientes ir a otro museo aburrido con <ASKER> y el tío Gorbo"
+    SET NAME "Llevar al tío Gorbo a otro museo aburrido"
+    SET ASKER_NAME "Engañar a alguien para que vaya a otro museo aburrido contigo y con el tío Gorbo"
+    SET HELPER_NAME "Aceptar a regañadientes ir a otro museo aburrido con <ASKER> y el tío Gorbo"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -334,7 +334,7 @@ CLONE DEED "DialogID" "GorboLeave"
 END
 
 DEF TASK "GorboLeave"
-    SET NAME "Anima cortésmente al tío Gorbo a que se vaya"
+    SET NAME "Animar cortésmente al tío Gorbo a que se vaya"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -347,7 +347,7 @@ END
 
 REM : Uncle Gorbo clogged toilet
 CLONE TASK "UnclogToilet" "UnclogToiletGorbo"
-    SET NAME "El tío Gorbo volvió a obstruir el inodoro"
+    SET NAME "El tío Gorbo volvió a tapar el inodoro"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -360,12 +360,12 @@ CLONE DEED "PhoneID" "CallFlemm1"
 END
 
 CLONE DEED "DialogID" "CallFlemm2"
-    SET INSTRUCTIONS "Pídele a la tía Flemm que se lleve al tío Gorbo"
+    SET INSTRUCTIONS "Suplícale a la tía Flemm que se lleve al tío Gorbo"
     SET CONTENT_ID "UNCLEVISIT_AUNT"
 END
 
 DEF TASK "CallFlemm"
-    SET NAME "Llama a la tía Flemm y suplica que se lleve al tío Gorbo."
+    SET NAME "Llamar a la tía Flemm y suplica que se lleve al tío Gorbo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

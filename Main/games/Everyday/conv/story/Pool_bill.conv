@@ -1,7 +1,7 @@
 MAIN(Contratista): Hora de pagar.
 -POLITE-> ¿Hay alguna forma de que bajemos el precio un poco?
 -OUTRAGE-> ¡Qué indignante! ¡Me niego a pagar!
--AMNESIA-> No recuerdo haber encargado una piscina. No sé si sabe, tengo amnesia.
+-AMNESIA-> No recuerdo haber encargado una piscina. Verás, tengo amnesia.
 
 POLITE(Contratista): Depende. ¿Qué tan bien se le da negociar?
 -GOOD-> Solo responderé su pregunta si me da cinco dólares.
@@ -10,23 +10,23 @@ POLITE(Contratista): Depende. ¿Qué tan bien se le da negociar?
 GOOD(Contratista): Me has vencido, tu piscina es gratis.
 -SUCCESS-> ¡Esa cinta de autoayuda se pagó sola!
 
-BAD(Contratista): Gané esta negociación. Deberás pagar el doble y también construir MI piscina.
+BAD(Contratista): Gané esta negociación. Deberás pagar el doble y también instalar MI piscina.
 -SUCCESS-> Podría haber salido mejor.
 
-OUTRAGE(Contratista): Pues no pagues. Llenamos la piscina con veneno, ¡y solo yo tengo el antídoto!
--UNETHICAL-> La compleja naturaleza del sistema jurídico no me incentiva a denunciar este delito.
--WIN-> Pues no pagaré, ¡ME ENCANTA el veneno!
+OUTRAGE(Contratista): La broma es para ti. Llenamos la piscina con veneno, ¡y solo yo tengo el antídoto!
+-UNETHICAL-> La complejidad del sistema judicial me desanima a denunciar este delito.
+-WIN-> No hay broma para mí, ¡porque me ENCANTA el veneno!
 
 WIN(Contratista): Has ganado esta batalla, propietario. Pero ganaremos la guerra.
 -SUCCESS-> Ya no pienso hablar contigo.
 
-UNETHICAL(Contratista): Contaba con eso.
--SUCCESS-> Llévate mi billetera de una vez.
+UNETHICAL(Contratista): Contaba exactamente con eso.
+-SUCCESS-> Solo llévate mi billetera.
 
 AMNESIA(Contratista): Si tienes amnesia, ¿cómo recuerdas que tienes amnesia?
 -TATOO-> Con una compleja red de tatuajes en el cuerpo que me hace recordar mi pasado.
 -WIN-> No me acuerdo.
--BAD-> De acuerdo, estoy mintiendo.
+-BAD-> Bueno, estoy mintiendo.
 
 TATOO(Contratista): No veo ningún tatuaje. Ahora te cobro extra por esta ridícula conversación.
 -SUCCESS-> Valió la pena.

@@ -1,4 +1,4 @@
-MAIN(Separación): ¿Por qué se va a separar la banda?
+MAIN(Separación): ¿Por qué se va a separar su banda?
 -EGO-> Demasiados egos
 -SOLD-> Nos vendimos
 -SOLO-> Voy a comenzar mi carrera de solista
@@ -11,7 +11,7 @@ SOLD(Separación): Obviamente
 -SUCCESS-> Por favor compren alguno de nuestros productos cuando salgan
 
 SOLO(Separación): ¿Me recuerdas cuál de todos eras tú?
--SUCCESS-> No tengo tantos fans como pensaba
+-SUCCESS-> No tengo tantos fanáticos como pensaba
 
 MUSIC(Separación): Desgarrador
 -SUCCESS-> Por favor respeten nuestra privacidad por el momento

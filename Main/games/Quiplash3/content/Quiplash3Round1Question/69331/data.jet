@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "quiplash|quiplash 3|quiplash3",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Sí, y debido a toda esta experiencia que hemos compartido juntos, siento que realmente hemos unido nuestras almas de una manera especial y única... (risas) no, pero en serio.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "It isn’t called “sex” in honest relationships. It’s called “making <BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "one person feel good|the best use of our time",
+   "n": "SafetyQuips"
+  }
+ ]
+}

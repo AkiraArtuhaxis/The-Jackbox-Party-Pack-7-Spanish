@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Schmitty|Shmitty|Smitty|el host de Quiplash|el Quiplash host|Schmittie|Shmittie|Smittie|Schmity|Smity|Smitie|shmity",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Ah, robaste la carta Schmitty. No veo más que resentimiento y flatulencia en tu fut- (pedo). Bueno, eso fue rápido.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "You can expect tragedy when the tarot reader turns the card depicting <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "an empty refrigerator|the Accountant of Cups|someone buying a subprime mortgage",
+   "n": "SafetyQuips"
+  }
+ ]
+}

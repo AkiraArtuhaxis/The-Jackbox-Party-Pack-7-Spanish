@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> popo | popó|<PRONOUN> Popo | Popó|<PRONOUN> caquita | Caquita|<PRONOUN> Heces | heces|<PRONOUN> excremento | Excremento|<ARTICLE> mierda | Mierda|<ARTICLE> Cagada | cagada|<ARTICLE> caquita | Caquita|<ARTICLE> pedazo de popo | pedazo de popó | Pedazo de popo | pedazo de caca|<ARTICLE> popis| Popis",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "No me malinterpretes. No soy abogado, pero creo que eso ya es ilegal.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "It should be illegal to put <BLANK> in a buffet",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "cooked baby carrots|a dead body|great care and effort",
+   "n": "SafetyQuips"
+  }
+ ]
+}

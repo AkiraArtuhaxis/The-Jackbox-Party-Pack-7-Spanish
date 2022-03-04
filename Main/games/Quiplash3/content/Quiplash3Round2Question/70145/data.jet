@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> no sé | no sé|<PRONOUN> no lo sé | no lo sé|<PRONOUN> nada | ninguno|<PRONOUN> nadita | nada|<PRONOUN> Nada | Nadita|qué importa|esto es estúpido|estupidez|esto es vergonzoso|<PRONOUN> ni idea | Ni idea|<PRONOUN> sin pistas | ni una pista|<PRONOUN> no importa | no me importa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bueno, o simplemente no te importa una (piiip) o esa es una respuesta realmente buena. Es una decisión difícil.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The first astronaut to walk on Mars will make this famous quote",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "\"The moon sucks\"|\"I'm not going back to Earth\"|\"It's not as red as I expected\"",
+   "n": "SafetyQuips"
+  }
+ ]
+}

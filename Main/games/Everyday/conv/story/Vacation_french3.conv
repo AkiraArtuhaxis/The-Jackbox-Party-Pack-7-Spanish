@@ -1,9 +1,9 @@
 MAIN(Cinta en idioma francés): Cette blague vieillit-elle?
 -RESPONSE1-> Si vous ne parlez pas la langue, elle a probablement vieilli.
--RESPONSE1-> Je mamuse toujours.
+-RESPONSE1-> Je m'amuse toujours.
 -RESPONSE1-> No se entiende nada de nada.
 
-RESPONSE1(Cinta en idioma francés): Avez-vous conclu que cette interface ne prend en charge que lalphabet espagnol?
+RESPONSE1(Cinta en idioma francés): Avez-vous conclu que cette interface ne prend en charge que l'alphabet espagnol?
 -SUCCESS-> Maintenant que vous le mentionnez, il y a un manque flagrant de signes diacritiques.
 -SUCCESS-> Je suppose que vous avez appris cette limitation trop tard pour couper cette blague?
 -FAILURE-> ¿Cómo se dice "Me rindo" en francés?

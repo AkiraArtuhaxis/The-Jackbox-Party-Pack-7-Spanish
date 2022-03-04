@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mamá | mamá|<PRONOUN> mamás | mamás|<PRONOUN> madre | madre|<PRONOUN> padres | padres|<PRONOUN> progenitor | progenitor|<PRONOUN> mamá y papá | mamá y papá|<PRONOUN> papá | papá|<PRONOUN>  padre | padre|<PRONOUN> madre y padre | madre y padre|<PRONOUN> papá y mamá | papá y mamá",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¿Alguien más se siente incómodo? ¿Soy solo yo? Bien. Oigan, ¡continuemos!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A terrible thing to remember during sex",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "the oven is still on|you're a nun|where you just left your keys",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,10 +1,10 @@
 DEF EPISODE "Politics"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Un camino rocoso hasta la libertad"
-    SET DESCRIPTION "En una demostración equivocada de salud pública, la ciudad ha declarado <font color='#AF0000'>ilegal todos los helados</font>. Esta parodia de la justicia atrae a la familia a la política local, justo a tiempo para la próxima <font color='#AF0000'>carrera por el Concejo Municipal</font>."
+    SET NAME "Un camino rocoso hacia la libertad"
+    SET DESCRIPTION "En una demostración equivocada de salud pública, la ciudad ha declarado que todos <font color='#AF0000'>los helados son ilegales</font>. Esta parodia de la justicia atrae a la familia a la política local, justo a tiempo para la próxima <font color='#AF0000'>carrera por el Concejo Municipal</font>."
     SET SUCCESS_MESSAGE "Super Martes de elecciones dice 'Sí' a los helados. Una vez más, el helado es legal y su nuevo poder político entre los seres humanos es la cereza en la punta."
-    SET FAILURE_MESSAGE "Debido a su lamentable falta de 'elegibilidad' el helado sigue siendo ilegal en esta deprimente ciudad. Tu familia se ahoga en el amargo sabor de la derrota y el yogurt congelado.."
+    SET FAILURE_MESSAGE "Debido a su lamentable falta de 'elegibilidad', el helado sigue siendo ilegal en esta deprimente ciudad. Su familia se ahoga en el amargo sabor de la derrota y el yogurt congelado."
 
 
     REM : ------------------------------
@@ -55,11 +55,11 @@ CLONE DEED "Tap1" "Declare2"
 END
 
 CLONE DEED "SwipeRight" "Declare3"
-    SET INSTRUCTIONS "Limpiate el sudor de la frente"
+    SET INSTRUCTIONS "Limpia el sudor de tu frente"
 END
 
 DEF TASK "Declare"
-    SET NAME "Llama para declararte a la candidatura al Ayuntamiento"
+    SET NAME "Llamar para declararte a la candidatura al Concejo Municipal"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -81,9 +81,9 @@ END
 
 DEF TASK "TextCampaign"
     SET DURATION <8H>
-    SET NAME "Crea un hashtag de campaña 'genial'"
-    SET ASKER_NAME "Obtén ayuda para crear un hashtag 'genial' de campaña"
-    SET HELPER_NAME "Ayuda a <ASKER> a crear un hashtag 'genial' de campaña"
+    SET NAME "Crear un hashtag de campaña 'genial'"
+    SET ASKER_NAME "Pedir ayuda para crear un hashtag GENIAL de la campaña"
+    SET HELPER_NAME "Ayudar a <ASKER> para crear un hashtag de campaña 'genial'"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "TEENS"
@@ -96,15 +96,15 @@ END
 
 REM : Dress in power outfit
 CLONE DEED "SwipeLeft" "PowerOutfit1"
-    SET INSTRUCTIONS "Manosea por el armario"
+    SET INSTRUCTIONS "Rebusca en el armario"
 END
 
 CLONE DEED "Tap1" "PowerOutfit2"
-    SET INSTRUCTIONS "Seleccione el color MÁS ATREVIDO"
+    SET INSTRUCTIONS "Selecciona el color MÁS ATREVIDO"
 END
 
 CLONE DEED "Rotate360" "PowerOutfit3"
-    SET INSTRUCTIONS "Agregale una corbata INTELIGENTE"
+    SET INSTRUCTIONS "Agrégale una corbata INTELIGENTE"
 END
 
 CLONE DEED "SwipeUp" "PowerOutfit4"
@@ -112,7 +112,7 @@ CLONE DEED "SwipeUp" "PowerOutfit4"
 END
 
 DEF TASK "PowerOutfit"
-    SET NAME "Viste con poder"
+    SET NAME "Vestir con poder"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -131,7 +131,7 @@ END
 
 REM : Stage ice cream protest at school
 CLONE DEED "Nothing3" "IceCreamProtest1"
-    SET INSTRUCTIONS "Empiece a cantar '¡Sin helado, no hay libertad!'"
+    SET INSTRUCTIONS "Empieza a cantar '¡Sin helado, no hay libertad!'"
 END
 
 CLONE DEED "Nothing5" "IceCreamProtest2"
@@ -167,7 +167,7 @@ CLONE DEED "GatherID" "GatherIceCream"
 END
 
 DEF TASK "GatherIceCream"
-    SET NAME "Reúna los ingredientes para hacer helado de contrabando."
+    SET NAME "Reunir los ingredientes para hacer helado de contrabando."
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -186,7 +186,7 @@ CLONE DEED "Rotate720" "ChurnIceCream"
 END
 
 DEF TASK "ChurnIceCream"
-    SET NAME "Bate el helado de contrabando"
+    SET NAME "Batir el helado de contrabando"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -204,7 +204,7 @@ CLONE DEED "DialogID" "Petition"
 END
 
 DEF TASK "Petition"
-    SET NAME "Pide al vecino que firme una petición a favor del helado"
+    SET NAME "Pedir al vecino que firme una petición a favor del helado"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -217,11 +217,11 @@ END
 
 REM : Make campaign signs
 CLONE DEED "ScrubShort" "MakeSigns1"
-    SET INSTRUCTIONS "Dibuja a tu amado padre"
+    SET INSTRUCTIONS "Dibuja a tus amados padres"
 END
 
 CLONE DEED "ScrubShort" "MakeSigns2"
-    SET INSTRUCTIONS "Se vería aún mejor con un dulce bigote"
+    SET INSTRUCTIONS "Se verían aún mejor con un dulce bigote"
 END
 
 CLONE DEED "ScrubShort" "MakeSigns3"
@@ -259,7 +259,7 @@ CLONE DEED "DialogID" "SellIceCream"
 END
 
 DEF TASK "SellIceCream"
-    SET NAME "Vende helado ilegal en la sala de estudio"
+    SET NAME "Vender helado ilegal en la sala de estudio"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -276,11 +276,11 @@ CLONE DEED "QuickTap4" "SneakSigns1"
 END
 
 CLONE DEED "SwipeDown" "SneakSigns2"
-    SET INSTRUCTIONS "Empuja el letrero en el césped perfecto"
+    SET INSTRUCTIONS "Empuja el letrero en el pasto perfecto"
 END
 
 CLONE DEED "ScrubMedium" "SneakSigns3"
-    SET INSTRUCTIONS "Realmente trabajalo allí"
+    SET INSTRUCTIONS "Realmente trabájalo allí"
 END
 
 DEF TASK "SneakSigns"
@@ -317,11 +317,11 @@ CLONE DEED "Hold5" "SneakStash4"
 END
 
 CLONE DEED "Nothing3" "SneakStash5"
-    SET INSTRUCTIONS "Actúa cool... pero no demasiado"
+    SET INSTRUCTIONS "Actúa con frialdad... pero no demasiado"
 END
 
 DEF TASK "SneakStash"
-    SET NAME "Colarse en el alijo de helados de la persona joven"
+    SET NAME "Colarse en la reserva de helados del joven"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -354,7 +354,7 @@ CLONE DEED "Nothing3" "BigSpeech3"
 END
 
 DEF TASK "BigSpeech"
-    SET NAME "Haz un gran discurso de campaña"
+    SET NAME "Hacer un gran discurso de campaña"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -387,7 +387,7 @@ CLONE DEED "ScrubMedium" "DecorateCampaign4"
 END
 
 DEF TASK "DecorateCampaign"
-    SET NAME "Decorar para la fiesta de la victoria de la campaña."
+    SET NAME "Decorar para la fiesta de la victoria de la campaña"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

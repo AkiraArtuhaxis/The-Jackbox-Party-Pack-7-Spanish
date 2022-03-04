@@ -13,7 +13,7 @@ CLONE DEED "SwipeDown" "CookieStep3"
 END
 
 DEF TASK "StealCookies"
-    SET NAME "Roba unas galletas"
+    SET NAME "Robar unas galletas"
     SET THEME "SELFISH"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "SELFISH"
@@ -51,7 +51,7 @@ CLONE DEED "QuickTap5" "DrawWallStep4"
 END
 
 DEF TASK "DrawOnWalls"
-    SET NAME "Dibuja en las paredes"
+    SET NAME "Dibujar en las paredes"
     SET THEME "SELFISH"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "SELFISH"
@@ -79,7 +79,7 @@ CLONE DEED "Tap1" "CreekStep1"
 END
 
 CLONE DEED "SwipeLeft" "CreekStep2"
-    SET INSTRUCTIONS "Columpiate en el columpio de cuerda"
+    SET INSTRUCTIONS "Colúmpiate en el columpio de cuerda"
 END
 
 CLONE DEED "Hold5" "CreekStep3"
@@ -91,7 +91,7 @@ CLONE DEED "Nothing5" "CreekStep4"
 END
 
 DEF TASK "PlayCreek"
-    SET NAME "Juega en el peligroso arroyo"
+    SET NAME "Jugar en el peligroso arroyo"
     SET THEME "SELFISH"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "SELFISH"
@@ -115,7 +115,7 @@ END
 REM : Watch too-scary movie!
 
 CLONE DEED "Tap2" "WatchScaryMovie1"
-    SET INSTRUCTIONS "Enciende 'Exorcismo Extremo 3'"
+    SET INSTRUCTIONS "Pon 'Exorcismo Extremo 3'"
 END
 
 CLONE DEED "HoldBase" "WatchScaryMovie2"
@@ -124,7 +124,7 @@ CLONE DEED "HoldBase" "WatchScaryMovie2"
 END
 
 CLONE DEED "ScrubShort" "WatchScaryMovie3"
-    SET INSTRUCTIONS "Frotate la piel de gallina"
+    SET INSTRUCTIONS "Frótate la piel de gallina"
 END
 
 DEF TASK "WatchScaryMovie"
@@ -149,7 +149,7 @@ END
 REM : Ask unnecessary question
 
 CLONE DEED "Tap4" "UnnecessaryQuestion1"
-    SET INSTRUCTIONS "Tira de la camisa de los padres"
+    SET INSTRUCTIONS "Tira de la camisa de tus padres"
 END
 
 CLONE DEED "NothingBase" "UnnecessaryQuestion2"
@@ -158,11 +158,11 @@ CLONE DEED "NothingBase" "UnnecessaryQuestion2"
 END
 
 CLONE DEED "Tap4" "UnnecessaryQuestion3"
-    SET INSTRUCTIONS "Olvidar y salta lejos"
+    SET INSTRUCTIONS "Olvídala y salta lejos"
 END
 
 DEF TASK "UnnecessaryQuestion"
-    SET NAME "Pregunta una pregunta innecesaria"
+    SET NAME "Hacer una pregunta innecesaria"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -183,12 +183,12 @@ END
 REM : Yank the cat's tail
 
 CLONE DEED "Tap1" "YankCatsTail1"
-    SET INSTRUCTIONS "Date cuenta de lo divertido que sería tirarle de la cola al gato"
+    SET INSTRUCTIONS "Date cuenta de lo divertido que sería tirarle la cola al gato"
 END
 
 CLONE DEED "HoldBase" "YankCatsTail2"
     SET DURATION 5S
-    SET INSTRUCTIONS "Considera cómo el gato lo odiará y te odiará"
+    SET INSTRUCTIONS "Considera que el gato lo odiará y te odiará"
 END
 
 CLONE DEED "Tap1" "YankCatsTail3"
@@ -200,11 +200,11 @@ CLONE DEED "SwipeRight" "YankCatsTail4"
 END
 
 CLONE DEED "Rotate360" "YankCatsTail5"
-    SET INSTRUCTIONS "Lavate las nuevas heridas en tu cara"
+    SET INSTRUCTIONS "Lávate las nuevas heridas en tu cara"
 END
 
 DEF TASK "YankCatsTail"
-    SET NAME "Tira la cola del gato"
+    SET NAME "Tirar la cola del gato"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -234,7 +234,7 @@ CLONE DEED "HoldBase" "PoopPants1"
 END
 
 DEF TASK "PoopPants"
-    SET NAME "Cágate en los pantalones"
+    SET NAME "Cagarse en los pantalones"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -257,11 +257,11 @@ CLONE DEED "Hold5" "WhereBabiesComeFrom1"
 END
 
 CLONE DEED "Nothing3" "WhereBabiesComeFrom2"
-    SET INSTRUCTIONS "Escuche la torpe respuesta de los padres"
+    SET INSTRUCTIONS "Escucha la torpe respuesta de tus padres"
 END
 
 CLONE DEED "Tap1" "WhereBabiesComeFrom3"
-    SET INSTRUCTIONS "Pregunta '¿por qué?'"
+    SET INSTRUCTIONS "Pregunta '¿Por qué?'"
 END
 
 CLONE DEED "TapBase" "WhereBabiesComeFrom4"
@@ -270,7 +270,7 @@ CLONE DEED "TapBase" "WhereBabiesComeFrom4"
 END
 
 DEF TASK "WhereBabiesComeFrom"
-    SET NAME "Pregunta de donde vienen los bebés"
+    SET NAME "Preguntar de dónde vienen los bebés"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -306,7 +306,7 @@ CLONE DEED "SwipeUp" "ClimbDangerousTree3"
 END
 
 CLONE DEED "Nothing5" "ClimbDangerousTree4"
-    SET INSTRUCTIONS "¡AAH, muy alto! Congélate del terror"
+    SET INSTRUCTIONS "¡AAH, demasiado alto! Congélate del terror"
 END
 
 DEF TASK "ClimbDangerousTree"
@@ -333,7 +333,7 @@ END
 REM : Skip your chores and play the floor is lava
 
 CLONE DEED "ScrubMedium" "FloorIsLava1"
-    SET INSTRUCTIONS "Imagina que el living es un volcán"
+    SET INSTRUCTIONS "Imagina que la sala de estar es un volcán"
 END
 
 CLONE DEED "SwipeUp" "FloorIsLava2"
@@ -349,11 +349,11 @@ CLONE DEED "SwipeRight" "FloorIsLava4"
 END
 
 CLONE DEED "SwipeDown" "FloorIsLava5"
-    SET INSTRUCTIONS "Vaya, tropieza y cae a tu feroz destino"
+    SET INSTRUCTIONS "Vaya, tropieza y cae a tu ardiente perdición"
 END
 
 DEF TASK "FloorIsLava"
-    SET NAME "Sáltate tus quehaceres y juega a que el suelo es lava"
+    SET NAME "Saltarse los quehaceres y juega a que el suelo es lava"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -378,7 +378,7 @@ END
 REM : Read your older sibling's diary
 
 CLONE DEED "ScrubMedium" "ReadDiary1"
-    SET INSTRUCTIONS "Registra su habitación. Está escondido aquí en alguna parte"
+    SET INSTRUCTIONS "Busca en su habitación. Está escondido aquí en alguna parte"
 END
 
 CLONE DEED "SwipeLeft" "ReadDiary2"
@@ -390,12 +390,12 @@ CLONE DEED "SwipeLeft" "ReadDiary3"
 END
 
 CLONE DEED "QuickTap10" "ReadDiary4"
-    SET INSTRUCTIONS "Ellos vienen. ¡Corre!"
+    SET INSTRUCTIONS "Están llegando. ¡Corre!"
 
 END
 
 DEF TASK "ReadDiary"
-    SET NAME "Lee el diario de tu hermano mayor"
+    SET NAME "Leer el diario de tu hermano mayor"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -422,15 +422,15 @@ CLONE DEED "SwipeDown" "PillowFort1"
 END
 
 CLONE DEED "SwipeUp" "PillowFort2"
-    SET INSTRUCTIONS "Reconstruye una fortaleza impermeable"
+    SET INSTRUCTIONS "Acomódalas para hacer una fortaleza impermeable"
 END
 
 CLONE DEED "Hold5" "PillowFort3"
-    SET INSTRUCTIONS "Agachate dentro de tu fortaleza"
+    SET INSTRUCTIONS "Agáchate dentro de tu fortaleza"
 END
 
 DEF TASK "PillowFort"
-    SET NAME "Arruina el sofá y construye un fuerte de almohadas"
+    SET NAME "Arruinar el sofá y construir un fuerte de almohadas"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -451,7 +451,7 @@ END
 REM : Throw a big juicy tantrum
 
 CLONE DEED "Hold5" "ThrowTantrum1"
-    SET INSTRUCTIONS "Oh chico, aqui viene"
+    SET INSTRUCTIONS "Oh chico, aquí viene"
 END
 
 CLONE DEED "SwipeUp" "ThrowTantrum2"
@@ -459,11 +459,11 @@ CLONE DEED "SwipeUp" "ThrowTantrum2"
 END
 
 CLONE DEED "QuickTap10" "ThrowTantrum3"
-    SET INSTRUCTIONS "Déjalo salir todo, niño."
+    SET INSTRUCTIONS "Déjalo salir todo, niño"
 END
 
 DEF TASK "ThrowTantrum"
-    SET NAME "Lanza una gran rabieta"
+    SET NAME "Hacer un gran berrinche"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -484,23 +484,23 @@ END
 REM : Scatter toys around the stairs
 
 CLONE DEED "SwipeUp" "StairToys1"
-    SET INSTRUCTIONS "Consigue hombres del ejército"
+    SET INSTRUCTIONS "Consigue militares"
 END
 
 CLONE DEED "SwipeDown" "StairToys2"
-    SET INSTRUCTIONS "Coloca hombres del ejército por todo el piso"
+    SET INSTRUCTIONS "Coloca militares por todo el piso"
 END
 
 CLONE DEED "SwipeUp" "StairToys3"
-    SET INSTRUCTIONS "Obtén bloques de construcción de plástico"
+    SET INSTRUCTIONS "Consigue bloques de construcción de plástico"
 END
 
 CLONE DEED "QuickTap5" "StairToys4"
-    SET INSTRUCTIONS "Suéltalos por los pies incautos"
+    SET INSTRUCTIONS "Tíralos para los pies incautos"
 END
 
 DEF TASK "StairToys"
-    SET NAME "Esparce juguetes por las escaleras"
+    SET NAME "Dispersa juguetes por las escaleras"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -523,7 +523,7 @@ END
 REM : Toss football in the house and break something
 
 CLONE DEED "SwipeLeft" "TossFootball1"
-    SET INSTRUCTIONS "Tira de tu brazo hacia atrás"
+    SET INSTRUCTIONS "Tira hacia atrás tu brazo"
 END
 
 CLONE DEED "Hold2" "TossFootball2"
@@ -531,11 +531,11 @@ CLONE DEED "Hold2" "TossFootball2"
 END
 
 CLONE DEED "SwipeRight" "TossFootball3"
-    SET INSTRUCTIONS "Lanza la pelota de fútbol americano accidentalmente directamente a una lámpara"
+    SET INSTRUCTIONS "Lanza accidentalmente la pelota de fútbol americano directamente a una lámpara"
 END
 
 DEF TASK "TossFootball"
-    SET NAME "Tira una pelota de fútbol americano en la casa y rompe algo"
+    SET NAME "Tirar una pelota de fútbol americano en la casa y rompe algo"
     SET CAPTAIN "YOUNG"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -560,7 +560,7 @@ CLONE DEED "Nothing5" "LearnCurse1"
 END
 
 CLONE DEED "Hold5" "LearnCurse2"
-    SET INSTRUCTIONS "Memoriza una nueva palabra"
+    SET INSTRUCTIONS "Memoriza una palabra nueva"
 END
 
 CLONE DEED "Nothing5" "LearnCurse3"
@@ -568,7 +568,7 @@ CLONE DEED "Nothing5" "LearnCurse3"
 END
 
 DEF TASK "LearnCurse"
-    SET NAME "Aprende una mala palabra"
+    SET NAME "Aprender una mala palabra"
     SET CAPTAIN "CHILDREN"
     SET LEWD TRUE
     SET THEME "SELFISH"
@@ -599,7 +599,7 @@ CLONE DEED "Tap4" "StealCandy2"
 END
 
 CLONE DEED "ScrubShort" "StealCandy3"
-    SET INSTRUCTIONS "Tranquilízate... firme"
+    SET INSTRUCTIONS "Afírmate... firme"
 END
 
 CLONE DEED "SwipeUp" "StealCandy4"
@@ -607,7 +607,7 @@ CLONE DEED "SwipeUp" "StealCandy4"
 END
 
 DEF TASK "StealCandy"
-    SET NAME "Roba caramelos del estante alto"
+    SET NAME "Robar caramelos del estante alto"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -647,7 +647,7 @@ CLONE DEED "Nothing5" "PlayWithMatches4"
 END
 
 DEF TASK "PlayWithMatches"
-    SET NAME "Juega con fósforos"
+    SET NAME "Jugar con fósforos"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -675,7 +675,7 @@ CLONE DEED "SwipeBase" "BreakNewToy1"
 END
 
 CLONE DEED "Rotate360" "BreakNewToy2"
-    SET INSTRUCTIONS "¡Admira tu nuevo amigo!"
+    SET INSTRUCTIONS "¡Admira a tu nuevo amigo!"
 END
 
 CLONE DEED "Hold5" "BreakNewToy3"
@@ -687,11 +687,11 @@ CLONE DEED "Hold5" "BreakNewToy4"
 END
 
 CLONE DEED "Tap1" "BreakNewToy5"
-    SET INSTRUCTIONS "Rompelo inmediatamente"
+    SET INSTRUCTIONS "Rómpelo inmediatamente"
 END
 
 DEF TASK "BreakNewToy"
-    SET NAME "Rompe un juguete nuevo inmediatamente después de conseguirlo."
+    SET NAME "Romper un juguete nuevo inmediatamente después de recibirlo"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -717,11 +717,11 @@ END
 REM : Spin around in a circle for no reason
 
 CLONE DEED "Rotate1080" "SpinAround1"
-    SET INSTRUCTIONS "¡Empieza a girar!"
+    SET INSTRUCTIONS "¡Empieza a dar vueltas!"
 END
 
 CLONE DEED "Nothing5" "SpinAround2"
-    SET INSTRUCTIONS "Ponete mareado"
+    SET INSTRUCTIONS "Maréate"
 END
 
 CLONE DEED "Hold5" "SpinAround3"
@@ -733,7 +733,7 @@ CLONE DEED "Tap1" "SpinAround4"
 END
 
 DEF TASK "SpinAround"
-    SET NAME "Gira alrededor sin razón aparente"
+    SET NAME "Dar vueltas en círculo sin razón aparente"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -757,7 +757,7 @@ END
 REM : Swallow series of inedible objects
 
 CLONE DEED "SwipeLeft" "SwallowInedibleObjects1"
-    SET INSTRUCTIONS "¿Oooh, ¿qué tenemos aquí?"
+    SET INSTRUCTIONS "Oooh, ¿qué tenemos aquí?"
 END
 
 CLONE DEED "SwipeRight" "SwallowInedibleObjects2"
@@ -773,7 +773,7 @@ CLONE DEED "Tap1" "SwallowInedibleObjects4"
 END
 
 DEF TASK "SwallowInedibleObjects"
-    SET NAME "Traga una serie de objetos no comestibles."
+    SET NAME "Tragar una serie de objetos no comestibles"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -796,27 +796,27 @@ END
 REM : Try to adopt a pet you find
 
 CLONE DEED "Hold3" "AdoptPet1"
-    SET INSTRUCTIONS "Alimenta con barra de chocolate a un animal salvaje"
+    SET INSTRUCTIONS "Alimenta a un animal salvaje con una barra de chocolate"
 END
 
 CLONE DEED "ScrubMedium" "AdoptPet2"
-    SET INSTRUCTIONS "acaricia la criatura"
+    SET INSTRUCTIONS "Acaricia a la criatura"
 END
 
 CLONE DEED "SwipeUp" "AdoptPet3"
-    SET INSTRUCTIONS "Recoge el animal"
+    SET INSTRUCTIONS "Recoge al animal"
 END
 
 CLONE DEED "SwipeRight" "AdoptPet4"
-    SET INSTRUCTIONS "Llévalo dentro"
+    SET INSTRUCTIONS "Llévalo dentro de la casa"
 END
 
 CLONE DEED "SwipeDown" "AdoptPet5"
-    SET INSTRUCTIONS "Coloca el mapache en la cama de tus padres"
+    SET INSTRUCTIONS "Pon al mapache en la cama de tus padres"
 END
 
 DEF TASK "AdoptPet"
-    SET NAME "Intenta adoptar una mascota que encontraste"
+    SET NAME "Intentar adoptar una mascota que encontraste"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -843,7 +843,7 @@ CLONE DEED "QuickTap4" "BuryMagnets1"
 END
 
 CLONE DEED "QuickTap4" "BuryMagnets2"
-    SET INSTRUCTIONS "Coloca imanes en el agujero"
+    SET INSTRUCTIONS "Deja caer los imanes en el agujero"
 END
 
 CLONE DEED "ScrubMedium" "BuryMagnets3"
@@ -851,7 +851,7 @@ CLONE DEED "ScrubMedium" "BuryMagnets3"
 END
 
 DEF TASK "BuryMagnets"
-    SET NAME "Entierra los imanes de la nevera en el patio trasero"
+    SET NAME "Enterrar los imanes de la nevera en el patio trasero"
     SET CAPTAIN "CHILDREN"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -870,7 +870,7 @@ END
 
 REM : Refuse to take a nap
 CLONE DEED "Tap5" "RefuseNap1"
-    SET INSTRUCTIONS "Pisotea alrededor de la casa"
+    SET INSTRUCTIONS "Zapatea por la casa"
 END
 
 CLONE DEED "Hold3" "RefuseNap2"
@@ -882,7 +882,7 @@ CLONE DEED "Nothing3" "RefuseNap3"
 END
 
 DEF TASK "RefuseNap"
-    SET NAME "Niégate a tomar una siesta"
+    SET NAME "Negarse a tomar una siesta"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "SELFISH"
     SET THEME "SELFISH"
@@ -913,7 +913,7 @@ CLONE DEED "Tap5" "HalloweenCandy3"
 END
 
 DEF TASK "HalloweenCandy"
-    SET NAME "Adéntrate en los dulces sobrantes del último Halloween"
+    SET NAME "Rebusca en los caramelos sobrantes del último Halloween"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "SELFISH"
     SET THEME "SELFISH"

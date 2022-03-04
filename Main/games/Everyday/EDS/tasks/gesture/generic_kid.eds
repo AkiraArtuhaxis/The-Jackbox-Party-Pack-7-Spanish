@@ -1,11 +1,11 @@
 REM : Catch Bugs
 
 CLONE DEED "SwipeUp" "BugsStep1"
-    SET INSTRUCTIONS "Abre la Jarra"
+    SET INSTRUCTIONS "Abre el frasco"
 END
 
 CLONE DEED "Tap1" "BugsStep2"
-    SET INSTRUCTIONS "¡Ahí hay una hormiga! ¡Atrápala!"
+    SET INSTRUCTIONS "¡Hay una hormiga! ¡Atrápala!"
 END
 
 CLONE DEED "Tap1" "BugsStep3"
@@ -18,11 +18,11 @@ CLONE DEED "Nothing4" "BugsStep4"
 END 
 
 CLONE DEED "SwipeDown" "BugsStep5"
-    SET INSTRUCTIONS "Cierra la jarra"
+    SET INSTRUCTIONS "Cierra el frasco"
 END
 
 DEF TASK "CatchBugs"
-    SET NAME "Atrapa algunos bichos"
+    SET NAME "Atrapa algunos insectos"
     SET THEME "PLAYING"
     SET CAPTAIN "CHILDREN"
     SET DURATION <3H>
@@ -58,13 +58,13 @@ CLONE DEED "SwipeLeft" "TossMarbles"
 END
 
 CLONE DEED "TapBase" "PickUpMarbles"
-    SET INSTRUCTIONS "¡OH NO LAS CANICAS!"
+    SET INSTRUCTIONS "¡OH, NO, LAS CANICAS!"
     SET NUM_TAPS 10
     SET WAIT 0S
 END
 
 DEF TASK "CleanUpToys"
-    SET NAME "Limpia los juguetes"
+    SET NAME "Limpiar los juguetes"
     SET THEME "CLEANING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -86,7 +86,7 @@ END
 REM : Earn Merit Badge
 
 CLONE DEED "Hold5" "HelpOldLady"
-    SET INSTRUCTIONS "Ayuda a la señora mayor a cruzar la calle"
+    SET INSTRUCTIONS "Ayuda a la anciana a cruzar la calle"
 END
 
 CLONE DEED "Tap2" "PickUpLitter"
@@ -94,17 +94,17 @@ CLONE DEED "Tap2" "PickUpLitter"
 END
 
 CLONE DEED "SwipeBase" "TieKnots"
-    SET INSTRUCTIONS "Anuda corbatas"
+    SET INSTRUCTIONS "Ata nudos"
     SET DIRECTION "LEFT,UP,DOWN,RIGHT"
 END
 
 CLONE DEED "Nothing4" "WearBadge"
-    SET INSTRUCTIONS "Lleva con orgullo tu nueva insignia de explorador"
+    SET INSTRUCTIONS "Lleva con orgullo la nueva insignia de explorador"
     SET PARTICIPATION "SOLO"
 END
 
 DEF TASK "EarnMeritBadge"
-    SET NAME "Gana insignia de mérito"
+    SET NAME "Ganar una insignia de mérito"
     SET THEME "PLAYING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -130,13 +130,13 @@ CLONE DEED "Tap3" "SquishAntsSlow"
 END
 
 CLONE DEED "TapBase" "SquishAntsFast"
-    SET INSTRUCTIONS "¡Más rápido! ¡Se están acercando al pastel!"
+    SET INSTRUCTIONS "¡Más rápido! ¡Se están acercando a la tarta!"
     SET NUM_TAPS 10
     SET WAIT 0S
 END
 
 DEF TASK "SquishAnts"
-    SET NAME "Aplasta hormigas"
+    SET NAME "Aplastar hormigas"
     SET THEME "PLAYING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -155,7 +155,7 @@ END
 REM : Make Slime (and Play With It)
 
 CLONE DEED "Tap3" "SlimeSupplies"
-    SET INSTRUCTIONS "Consigue pegamento, bicarbonato de sodio y solución salina."
+    SET INSTRUCTIONS "Consigue pegamento, bicarbonato de sodio y solución salina"
 END
 
 CLONE DEED "RotateBase" "SlimeMix"
@@ -169,7 +169,7 @@ CLONE DEED "SwipeBase" "SlimePlay"
 END
 
 DEF TASK "MakeSlimePlay"
-    SET NAME "Haz slime"
+    SET NAME "Hacer slime"
     SET THEME "FIXING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -189,7 +189,7 @@ END
 REM : Make Slime (and Make a Mess)
 
 CLONE DEED "Tap3" "SlimeSupplies2"
-    SET INSTRUCTIONS "Consiga pegamento, bicarbonato de sodio y solución salina."
+    SET INSTRUCTIONS "Consigue pegamento, bicarbonato de sodio y solución salina"
 END
 
 CLONE DEED "RotateBase" "SlimeMix2"
@@ -202,11 +202,11 @@ CLONE DEED "SwipeLeft" "SlimeFall"
 END
 
 CLONE DEED "SwipeRight" "SlimeHide"
-    SET INSTRUCTIONS "Mueve el otomano para ocultar la mancha"
+    SET INSTRUCTIONS "Mueve el taburete para ocultar la mancha"
 END
 
 DEF TASK "MakeSlimeMess"
-    SET NAME "Haz slime"
+    SET NAME "Hacer slime"
     SET THEME "FIXING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -236,12 +236,12 @@ CLONE DEED "SwipeRight" "RunThroughSprinkler"
 END
 
 CLONE DEED "SwipeBase" "SprinklerRunMore"
-    SET INSTRUCTIONS "¡Wiiii!"
+    SET INSTRUCTIONS "¡Yupi!"
     SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
 END
 
 DEF TASK "PlayInSprinkler"
-    SET NAME "Juega en el aspersor"
+    SET NAME "Jugar en el aspersor"
     SET THEME "PLAYING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -262,11 +262,11 @@ REM : Pick up your toys! (PickUpToys)
 REM : Not to be confused with "CleanUpToys"
 
 CLONE DEED "Tap3" "PickToy1"
-    SET INSTRUCTIONS "¡Alguien podría romperles el cuello!"
+    SET INSTRUCTIONS "¡Alguien podría romperse el cuello!"
 END
 
 CLONE DEED "Tap3" "PickToy2"
-    SET INSTRUCTIONS "Y a estos..."
+    SET INSTRUCTIONS "Y estos..."
 END
 
 CLONE DEED "HoldBase" "ReturnToyBox"
@@ -275,7 +275,7 @@ CLONE DEED "HoldBase" "ReturnToyBox"
 END
 
 DEF TASK "PickUpToys"
-    SET NAME "¡Quita esos juguetes de las escaleras!"
+    SET NAME "¡Quitar esos juguetes de las escaleras!"
     SET THEME "CLEANING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -309,7 +309,7 @@ END
 
 
 DEF TASK "TakeBathKid"
-    SET NAME "Toma un baño"
+    SET NAME "Tomar un baño"
     SET THEME "BATHROOM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -345,7 +345,7 @@ CLONE DEED "Tap5" "VaseRun"
 END
 
 DEF TASK "FireSlingShot"
-    SET NAME "Dispara tu tirachinas"
+    SET NAME "Disparar con tu honda"
     SET THEME "PLAYING"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
@@ -375,16 +375,16 @@ CLONE DEED "ScrubMedium" "VasePieces"
 END
 
 CLONE DEED "SwipeDown" "GlueVase"
-    SET INSTRUCTIONS "Chorrea pegamento"
+    SET INSTRUCTIONS "Chorrea el pegamento"
 END
 
 CLONE DEED "HoldBase" "HoldVase"
-    SET INSTRUCTIONS "Mantenlo en el lugar"
+    SET INSTRUCTIONS "Manténlo en su lugar"
     SET DURATION 5S
 END
 
 DEF TASK "FixVase"
-    SET NAME "Arregla el jarrón que rompiste"
+    SET NAME "Arreglar el jarrón que rompiste"
     SET THEME "FIXING"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "LOW"
@@ -404,7 +404,7 @@ END
 REM : Double Dutch Jump Rope
 
 CLONE DEED "SwipeRight" "JumpRopeStep1"
-    SET INSTRUCTIONS "¡Salta dentro!"
+    SET INSTRUCTIONS "¡Salta!"
 END
 
 CLONE DEED "Tap3" "JumpRopeStep2"
@@ -416,11 +416,11 @@ CLONE DEED "QuickTap6" "JumpRopeStep3"
 END
 
 CLONE DEED "SwipeUp" "JumpRopeStep4"
-    SET INSTRUCTIONS "¡SALTA FUERA AHORA!"
+    SET INSTRUCTIONS "¡SALTA PARA AFUERA AHORA!"
 END
 
 DEF TASK "JumpRope"
-    SET NAME "Salta en el Salto Doble"
+    SET NAME "Salta la cuerda doble"
     SET THEME "PLAYING"
     SET CAPTAIN "CHILDREN"
     SET DURATION <3H>
@@ -445,7 +445,7 @@ CLONE DEED "SwipeDown" "ToyCereal1Step1"
 END
 
 CLONE DEED "ScrubMedium" "ToyCereal1Step2"
-    SET INSTRUCTIONS "Arrastrala por ahí"
+    SET INSTRUCTIONS "Arrástrala por ahí"
 END
 
 CLONE DEED "ScrubMedium" "ToyCereal1Step3"
@@ -457,7 +457,7 @@ CLONE DEED "Tap1" "ToyCereal1Step4"
 END
 
 DEF TASK "ToyCereal1"
-    SET NAME "Saca el juguete de la caja de cereal"
+    SET NAME "Sacar el juguete de la caja de cereal"
     SET THEME "KITCHEN"
     SET CAPTAIN "CHILDREN"
     SET DURATION <3H>
@@ -482,11 +482,11 @@ CLONE DEED "SwipeDown" "ToyCereal2Step1"
 END
 
 CLONE DEED "ScrubMedium" "ToyCereal2Step2"
-    SET INSTRUCTIONS "Arrastrala por ahí"
+    SET INSTRUCTIONS "Arrástrala por ahí"
 END
 
 CLONE DEED "ScrubLong" "ToyCereal2Step3"
-    SET INSTRUCTIONS "No importa, simplemente sácalo todo"
+    SET INSTRUCTIONS "No importa, solo sácalo todo"
 END
 
 CLONE DEED "Nothing5" "ToyCereal2Step4"
@@ -494,7 +494,7 @@ CLONE DEED "Nothing5" "ToyCereal2Step4"
 END
 
 DEF TASK "ToyCereal2"
-    SET NAME "Saca el juguete de la caja de cereal"
+    SET NAME "Sacar el juguete de la caja de cereal"
     SET THEME "KITCHEN"
     SET CAPTAIN "MATURE"
     SET DURATION <3H>
@@ -514,23 +514,23 @@ END
 REM : Make a PB&J
 
 CLONE DEED "SwipeLeft" "MakePBJ1"
-    SET INSTRUCTIONS "Unte la mantequilla de maní en la mitad"
+    SET INSTRUCTIONS "Unta la mantequilla de maní en una mitad"
 END
 
 CLONE DEED "Tap1" "MakePBJ2"
-    SET INSTRUCTIONS "Pon un poco de gelatina en el otro"
+    SET INSTRUCTIONS "Pon un poco de gelatina en la otra"
 END
 
 CLONE DEED "Hold3" "MakePBJ3"
-    SET INSTRUCTIONS "Aplastalo todo junto"
+    SET INSTRUCTIONS "Aplástalo todo junto"
 END
 
 CLONE DEED "Tap1" "MakePBJ4"
-    SET INSTRUCTIONS "¡Engulle a ese tonto!"
+    SET INSTRUCTIONS "¡Engulle esa cosa!"
 END
 
 DEF TASK "MakePBJ"
-    SET NAME "Haz un sandwich de mantequilla de maní y mermelada"
+    SET NAME "Hacer un sándwich de mantequilla de maní y mermelada"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
@@ -559,11 +559,11 @@ CLONE DEED "SwipeUp" "ColoringBook2"
 END
 
 CLONE DEED "ScrubMedium" "ColoringBook3"
-    SET INSTRUCTIONS "¡Colorea!"
+    SET INSTRUCTIONS "¡Haz garabatos!"
 END
 
 DEF TASK "ColoringBook"
-    SET NAME "Colorea en tu libro de colorear"
+    SET NAME "Colorear tu libro de colorear"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "LOW"
     SET THEME "DECORATING"
@@ -597,11 +597,11 @@ CLONE DEED "Tap1" "PackBackpack4"
 END
 
 CLONE DEED "SwipeRight" "PackBackpack5"
-    SET INSTRUCTIONS "Cierra la mochila"
+    SET INSTRUCTIONS "Cierra tu mochila"
 END
 
 DEF TASK "PackBackpack"
-    SET NAME "Empaca tu mochila"
+    SET NAME "Empacar tu mochila"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "LOW"
     SET THEME "MISC"
@@ -623,15 +623,15 @@ END
 REM : Run around the house in a cape
 
 CLONE DEED "Rotate360" "CapeRun1"
-    SET INSTRUCTIONS "Atate una sábana alrededor del cuello"
+    SET INSTRUCTIONS "Átate una sábana al cuello"
 END
 
 CLONE DEED "SwipeRight" "CapeRun2"
-    SET INSTRUCTIONS "¡Wiii!"
+    SET INSTRUCTIONS "¡Yupi!"
 END
 
 CLONE DEED "SwipeLeft" "CapeRun3"
-    SET INSTRUCTIONS "¡Wiii!"
+    SET INSTRUCTIONS "¡Yupi!"
 END
 
 CLONE DEED "Nothing3" "CapeRun4"
@@ -639,11 +639,11 @@ CLONE DEED "Nothing3" "CapeRun4"
 END
 
 CLONE DEED "SwipeRight" "CapeRun5"
-    SET INSTRUCTIONS "¡Wiii!"
+    SET INSTRUCTIONS "¡Yupi!"
 END
 
 DEF TASK "CapeRun"
-    SET NAME "Corre por la casa con una capa"
+    SET NAME "Correr por la casa con una capa"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "LOW"
     SET THEME "PLAYING"
@@ -666,19 +666,19 @@ END
 REM : Make macaroni art
 
 CLONE DEED "ScrubMedium" "MacaroniArt1"
-    SET INSTRUCTIONS "Elije macarrones sin romper"
+    SET INSTRUCTIONS "Elige macarrones sin romper"
 END
 
 CLONE DEED "Tap4" "MacaroniArt2"
-    SET INSTRUCTIONS "colocalos sobre papel con pegamento"
+    SET INSTRUCTIONS "Colócalos sobre papel con pegamento"
 END
 
 CLONE DEED "Hold5" "MacaroniArt3"
-    SET INSTRUCTIONS "Entrecierra los ojos para que parezca un gato"
+    SET INSTRUCTIONS "Entrecierra tus ojos para que parezca un gato"
 END
 
 DEF TASK "MacaroniArt"
-    SET NAME "Haz arte de macarrones"
+    SET NAME "Hacer arte de macarrones"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "LOW"
     SET THEME "DECORATING"
@@ -710,7 +710,7 @@ CLONE DEED "Rotate360Counter" "PutOnShoes3"
 END
 
 DEF TASK "PutOnShoes"
-    SET NAME "Ponte zapatos"
+    SET NAME "Ponerse zapatos"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "LOW"
     SET THEME "CLOTHES"
@@ -730,25 +730,25 @@ END
 REM : Swing on the swing set
 
 CLONE DEED "Tap1" "SwingSet1"
-    SET INSTRUCTIONS "Prueba de máxima velocidad de balanceo"
+    SET INSTRUCTIONS "Prueba la velocidad máxima del balanceo"
 END
 
 CLONE DEED "SwipeBase" "SwingSet2"
-    SET INSTRUCTIONS "¡Balanceate!"
+    SET INSTRUCTIONS "¡Balancéate!"
     SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
 END
 
 CLONE DEED "SwipeBase" "SwingSet3"
-    SET INSTRUCTIONS "¡Balanceate más fuerte!"
+    SET INSTRUCTIONS "¡Balancéate más fuerte!"
     SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
 END
 
 CLONE DEED "Hold3" "SwingSet4"
-    SET INSTRUCTIONS "¡Lanzate!"
+    SET INSTRUCTIONS "¡Lánzate!"
 END
 
 DEF TASK "SwingSet"
-    SET NAME "Columpiate en el columpio"
+    SET NAME "Balancéate en el columpio"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "LOW"
     SET THEME "PLAYING"
@@ -789,7 +789,7 @@ CLONE DEED "Nothing3" "Cartwheel5"
 END
 
 DEF TASK "Cartwheel"
-    SET NAME "Haz una voltereta"
+    SET NAME "Hacer una voltereta"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "LOW"
     SET THEME "PLAYING"
@@ -828,7 +828,7 @@ CLONE DEED "Nothing5" "PaperLantern1Step4"
 END
 
 DEF TASK "PaperLantern1"
-    SET NAME "Haz una linterna de papel"
+    SET NAME "Hacer una linterna de papel"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "DECORATING"
@@ -864,7 +864,7 @@ CLONE DEED "ScrubMedium" "PaperLantern2Step4"
 END
 
 DEF TASK "PaperLantern2"
-    SET NAME "Haz una linterna de papel"
+    SET NAME "Hacer una linterna de papel"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "DECORATING"
@@ -892,7 +892,7 @@ CLONE DEED "ScrubMedium" "JuiceBox2"
 END
 
 CLONE DEED "SwipeDown" "JuiceBox3"
-    SET INSTRUCTIONS "Mete la bombilla dentro"
+    SET INSTRUCTIONS "Mete la pajita dentro"
 END
 
 CLONE DEED "SwipeDown" "JuiceBox4"
@@ -900,11 +900,11 @@ CLONE DEED "SwipeDown" "JuiceBox4"
 END
 
 CLONE DEED "Hold3" "JuiceBox5"
-    SET INSTRUCTIONS "¡Refrescate!"
+    SET INSTRUCTIONS "¡Refréscate!"
 END
 
 DEF TASK "JuiceBox"
-    SET NAME "Bebe un jugo en caja"
+    SET NAME "Beber un jugo en caja"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "KITCHEN"
@@ -942,11 +942,11 @@ CLONE DEED "Rotate360Counter" "LittleWagon4"
 END
 
 CLONE DEED "Nothing4" "LittleWagon5"
-    SET INSTRUCTIONS "Relájate después de un duro día de trabajo."
+    SET INSTRUCTIONS "Relájate después de un duro día de trabajo"
 END
 
 DEF TASK "LittleWagon"
-    SET NAME "Empuja el pequeño carromato por la casa"
+    SET NAME "Empujar el vagoncito por la casa"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "PLAYING"
@@ -968,11 +968,11 @@ END
 REM : Try on grownup clothes
 
 CLONE DEED "SwipeLeft" "GrownupClothes1"
-    SET INSTRUCTIONS "Abre el armario de los padres"
+    SET INSTRUCTIONS "Abre el armario de tus padres"
 END
 
 CLONE DEED "Tap1" "GrownupClothes2"
-    SET INSTRUCTIONS "Elige el mejor blazer"
+    SET INSTRUCTIONS "Elige el mejor bléiser"
 END
 
 CLONE DEED "SwipeBase" "GrownupClothes3"
@@ -985,12 +985,12 @@ CLONE DEED "Hold4" "GrownupClothes4"
 END
 
 CLONE DEED "SwipeBase" "GrownupClothes5"
-    SET INSTRUCTIONS "Rechazar las normas sociales"
+    SET INSTRUCTIONS "Rechaza las normas sociales"
     SET DIRECTION "LEFT,RIGHT,DOWN,UP"
 END
 
 DEF TASK "GrownupClothes"
-    SET NAME "Prueba ropas de grande"
+    SET NAME "Probar ropa de adultos"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "CLOTHES"
@@ -1020,11 +1020,11 @@ CLONE DEED "Tap3" "FeedFish1Step2"
 END
 
 CLONE DEED "ScrubShort" "FeedFish1Step3"
-    SET INSTRUCTIONS "Sécate las manos en la toalla"
+    SET INSTRUCTIONS "Sécate las manos con la toalla"
 END
 
 DEF TASK "FeedFish1"
-    SET NAME "Alimenta al pez"
+    SET NAME "Alimentar al pez"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "MISC"
@@ -1050,11 +1050,11 @@ CLONE DEED "QuickTap4" "FeedFish2Step2"
 END
 
 CLONE DEED "SwipeUp" "FeedFish2Step3"
-    SET INSTRUCTIONS "Demasiado. Sacalas"
+    SET INSTRUCTIONS "Demasiado. Sácalas"
 END
 
 DEF TASK "FeedFish2"
-    SET NAME "Alimenta al pez"
+    SET NAME "Alimentar al pez"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "MISC"
@@ -1076,7 +1076,7 @@ CLONE DEED "Tap3" "FingerPainting1"
 END
 
 CLONE DEED "Hold3" "FingerPainting2"
-    SET INSTRUCTIONS "Consulta con tus musas"
+    SET INSTRUCTIONS "Consulta a tus musas"
 END
 
 CLONE DEED "ScrubMedium" "FingerPainting3"
@@ -1084,11 +1084,11 @@ CLONE DEED "ScrubMedium" "FingerPainting3"
 END
 
 CLONE DEED "SwipeUp" "FingerPainting4"
-    SET INSTRUCTIONS "Cuelga en la nevera para que se seque"
+    SET INSTRUCTIONS "Cuélgala en la nevera para que se seque"
 END
 
 DEF TASK "FingerPainting"
-    SET NAME "Haz una pintura con tus dedos"
+    SET NAME "Hacer una pintura con tus dedos"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "DECORATING"
@@ -1113,11 +1113,11 @@ CLONE DEED "SwipeBase" "PuppetShow1"
 END
 
 CLONE DEED "Hold5" "PuppetShow2"
-    SET INSTRUCTIONS "Familiariza a tus actores con el guión."
+    SET INSTRUCTIONS "Familiariza a tus actores con el libreto"
 END
 
 CLONE DEED "SwipeBase" "PuppetShow3"
-    SET INSTRUCTIONS "Clava el primer acto"
+    SET INSTRUCTIONS "Haz el primer acto perfectamente"
     SET DIRECTION "UP,DOWN"
 END
 
@@ -1126,11 +1126,11 @@ CLONE DEED "QuickTap5" "PuppetShow4"
 END
 
 CLONE DEED "Nothing3" "PuppetShow5"
-    SET INSTRUCTIONS "Presenta un 'talkback con el director'"
+    SET INSTRUCTIONS "Presenta un conversatorio con el director'"
 END
 
 DEF TASK "PuppetShow"
-    SET NAME "Haz un show de marionetas"
+    SET NAME "Hacer un espectáculo de marionetas"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "PLAYING"
@@ -1153,15 +1153,15 @@ END
 REM : Put dirty clothes in the hamper
 
 CLONE DEED "Tap1" "ClothesHamper1"
-    SET INSTRUCTIONS "Pon la ropa sucia en un cesto"
+    SET INSTRUCTIONS "Pon la ropa sucia en el cesto"
 END
 
 CLONE DEED "Nothing5" "ClothesHamper2"
-    SET INSTRUCTIONS "¿Que acaso quieres una medalla?"
+    SET INSTRUCTIONS "¿Quieres una medalla?"
 END
 
 DEF TASK "ClothesHamper"
-    SET NAME "Pon la ropa sucia en un cesto"
+    SET NAME "Poner la ropa sucia en el cesto"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "CLOTHES"
@@ -1177,7 +1177,7 @@ END
 REM : Make a collage
 
 CLONE DEED "QuickTap3" "MakeCollage1"
-    SET INSTRUCTIONS "Corta las revistas de los padres"
+    SET INSTRUCTIONS "Corta las revistas de tus padres"
 END
 
 CLONE DEED "ScrubMedium" "MakeCollage2"
@@ -1185,15 +1185,15 @@ CLONE DEED "ScrubMedium" "MakeCollage2"
 END
 
 CLONE DEED "Hold5" "MakeCollage3"
-    SET INSTRUCTIONS "Pegalas al tablero"
+    SET INSTRUCTIONS "Pégalas al tablero"
 END
 
 CLONE DEED "SwipeUp" "MakeCollage4"
-    SET INSTRUCTIONS "Cuelga tu collage en el baño"
+    SET INSTRUCTIONS "Cuélgalo en el baño"
 END
 
 DEF TASK "MakeCollage"
-    SET NAME "Haz un collage"
+    SET NAME "Hacer un collage"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "DECORATING"

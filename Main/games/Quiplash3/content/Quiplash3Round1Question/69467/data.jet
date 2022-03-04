@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> Schmitty | Schmitty|<ARTICLE> Shmitty | Shmitty|<ARTICLE> Smitty | Smitty|<ARTICLE> quiplash host | quiplash host|<ARTICLE> host de quiplash | host de quiplash|<ARTICLE> Schmittie | Schmittie|<ARTICLE> Shmittie | Shmittie|<ARTICLE> Smittie | Smittie",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Escucha, vándalo. ¡¿Alguna vez escuchaste de los Schmitties Luchadores del Colegio Comunitario del Remanso Inferior?! No, no lo habrías hecho pero hemos ganado nuestra división en teterbol cinco años seguidos. Adelante, ¡búscalo!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The community college was doomed after it made <BLANK> its mascot",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "A feral gila monster|student loan debt|the concept of auto maintenance",
+   "n": "SafetyQuips"
+  }
+ ]
+}

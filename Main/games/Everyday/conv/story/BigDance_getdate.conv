@@ -4,14 +4,14 @@ MAIN(Estudiante): No... No tengo una cita para el baile. ¿Por qué preguntas?
 -MOCK-> Vayamos a burlarnos de los demás.
 -SURVEY-> Estoy haciendo una encuesta. Ni siquiera voy a ir.
 
-SURVEY(Estudiante): Oh, okey.
+SURVEY(Estudiante): Oh, bueno.
 -SUCCESS-> Ahora tengo que llamar a toda mi clase para que mi historia sea creíble.
 
-WANT(Estudiante): ¡Dale! ¡Suena divertido!
--SUCCESS-> Un momento. ¿Encarar a las personas cara a cara funciona?
+WANT(Estudiante): ¡Sí! ¡Suena divertido!
+-SUCCESS-> Un momento. ¿Es bueno ser sincero con la gente?
 
-GROUP(Estudiante): Sí... oh. de acuerdo.
+GROUP(Estudiante): Sí... oh. Bueno.
 -SUCCESS-> Quizás apunté demasiado bajo
 
-MOCK(Estudiante): ¡Me encanta odiar otras cosas!
+MOCK(Estudiante): ¡Me encanta odiar cosas!
 -SUCCESS-> ¡Haremos de esta noche la más odiable de la historia!

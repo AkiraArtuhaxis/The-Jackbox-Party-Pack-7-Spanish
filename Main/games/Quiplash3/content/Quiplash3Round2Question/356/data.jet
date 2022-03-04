@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "In an alternate reality, we don’t play <i>Quiplash</i> at parties. We <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "stare at our hands in contemplation|play individual organs|play other exciting Jackbox Games ",
+   "n": "SafetyQuips"
+  }
+ ]
+}

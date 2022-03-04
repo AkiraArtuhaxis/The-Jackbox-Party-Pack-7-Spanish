@@ -5,9 +5,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que tiene toda buena orgía",
    "safetyQuips": [
-    "scented oils|a non-disclosure agreement|disgraced politician",
-    "a secret entrance|ornate masks|sense of whimsy",
-    "a teddy bear costume|a tub of Skittles|a Jonas Brother"
+    "aceites aromáticos|un acuerdo de confidencialidad|político en desgracia",
+    "una entrada secreta|máscaras ornamentales|sentido de capricho",
+    "un disfraz de oso de peluche|un bote de Skittles|un Jonas Brother"
    ],
    "us": false,
    "x": true
@@ -17,9 +17,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que debes hacer para sobrevivir a un apocalipsis zombie",
    "safetyQuips": [
-    "find a safe place|help strangers|learn humanity is real monster",
-    "hunker down|play video games|hope this all blows over",
-    "dress like sexy zombie|get zombie's attention|hit with cartoon mallet"
+    "encontrar un lugar seguro|ayudar a desconocidos|aprender que la humanidad es un verdadero monstruo",
+    "acurrucarse|jugar videojuegos|esperar que todo esto se calme",
+    "vestirse como un zombi sensual|llamar la atención de los zombis|golpear con un mazo de dibujos animados"
    ],
    "us": false,
    "x": false
@@ -29,9 +29,9 @@
    "includesPlayerName": false,
    "prompt": "Las únicas tres cosas que pueden traer verdadera felicidad",
    "safetyQuips": [
-    "money|money|money",
-    "true love|a puppy|TikTok videos",
-    "a monkey|monkey on roller skates|farting monkey on skates"
+    "dinero|dinero|dinero",
+    "el amor verdadero|un gatito|videos de TikTok",
+    "un mono|un mono en patines|un mono pedorro en patines"
    ],
    "us": false,
    "x": false
@@ -39,11 +39,11 @@
   {
    "id": "70220",
    "includesPlayerName": false,
-   "prompt": "Los tres peores disfraces de Halloween para hacer “sexy”",
+   "prompt": "Los tres peores disfraces de Halloween para hacer que se vean “sensuales”",
    "safetyQuips": [
-    "sexy pimple|sexy earthworm|sexy earwax",
-    "sexy lobster|sexy constipation|sexy spoiled milk",
-    "sexy cyst|sexy ingrown toenail|sexy pink eye"
+    "grano sensual|lombriz sensual|cerumen sensual",
+    "langosta sensual|estreñimiento sensual|leche rancia sensual",
+    "quiste sensual|uña encarnada sensual|conjuntivitis sensual"
    ],
    "us": false,
    "x": true
@@ -53,9 +53,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres formas más dolorosas en que una ardilla puede lastimarte",
    "safetyQuips": [
-    "bite your ears|scratch your eyes|ruin your credit",
-    "chew your internet cable|chew your electricity cable|poop in your pillow",
-    "throw acorns at you|throw garbage at you|throw insults at you"
+    "muerde tus orejas|rasguña tus ojos|arruina tu crédito",
+    "mastica tu cable de internet|mastica tu cable de electricidad|defeca en tu almohada",
+    "te arroja bellotas|te arroja basura|te arroja palabrotas"
    ],
    "us": false,
    "x": false
@@ -65,9 +65,9 @@
    "includesPlayerName": false,
    "prompt": "Como la ira o la negación, las tres etapas del duelo que no mencionó Kübler-Ross",
    "safetyQuips": [
-    "cake eating|ice cream eating|ice cream cake eating",
-    "gambling|mountain climbing|yelling at video games",
-    "blaming yourself|realizing you are to blame|destroying evidence"
+    "comer torta|comer helado|comer torta de helado",
+    "apostar|escalar montañas|gritarle a los videojuegos",
+    "culparte a ti mismo|darse cuenta de que la culpa es tuya|destruir la evidencia"
    ],
    "us": false,
    "x": false
@@ -77,9 +77,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que puedes decir para calmar una tensa situación de rehenes",
    "safetyQuips": [
-    "but is this your card?|No really. Look|I'll be here all week",
-    "knock knock|interrupting cow|mooo!",
-    "you like Frasier?|I think you'd like Frasier|Sending in DVDs of Frasier"
+    "¿pero es esta tu tarjeta?|No, realmente. Mira|estaré aquí toda la semana",
+    "toc toc|vaca interruptora|¡muuu!",
+    "¿te gusta Rammstein?|creo que te gustaría Rammstein|estoy enviando DVDs de Rammstein"
    ],
    "us": false,
    "x": false
@@ -87,11 +87,11 @@
   {
    "id": "70281",
    "includesPlayerName": false,
-   "prompt": "Las tres cosas que debes hacer para ser un buen perro ... un buen perro",
+   "prompt": "Las tres cosas que debes hacer para ser un buen perro... un buen perro",
    "safetyQuips": [
-    "sit up|roll over|solve crimes",
-    "fetch a stick|fetch a ball|stop trying 2 make fetch happen",
-    "sit|stay|manage my retirement fund"
+    "sentarte|rodar|resolver crímenes",
+    "buscar un palo|buscar una pelota|dejar de intentar hacer que la búsqueda ocurra",
+    "sentarte|quedarte|gestionar mi fondo de jubilación"
    ],
    "us": false,
    "x": false
@@ -101,9 +101,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas en la lista de tareas pendientes del Todopoderoso",
    "safetyQuips": [
-    "think about redesigning birds|stop that asteroid|chill in the afternoon",
-    "get some coffee|check social media|go back to bed",
-    "mow the lawn|take surf lessons|meet the gang for tacos"
+    "pensar en rediseñar las aves|detener ese asteroide|relajarse en la tarde",
+    "conseguir café|revisar las redes sociales|volver a la cama",
+    "cortar el pasto|tomar clases de surf|reunirse con la pandilla para comer tacos"
    ],
    "us": false,
    "x": false
@@ -113,9 +113,9 @@
    "includesPlayerName": false,
    "prompt": "Las 3 R de una franquicia de comida rápida exitosa",
    "safetyQuips": [
-    "relish|ranch|red tomato paste ",
-    "rich flavor|rushed service|random hugs",
-    "reheat the fries|refill the ball pit|reuse the grease"
+    "receta clásica|ranch|rodajas de tomate fresco",
+    "rico sabor|rápida atención|recuperar la tradición",
+    "recalentar las papas|rellenar la piscina de pelotas|reusar el aceite"
    ],
    "us": false,
    "x": false
@@ -123,11 +123,11 @@
   {
    "id": "70285",
    "includesPlayerName": false,
-   "prompt": "Tres mandamientos que no hicieron en la corte",
+   "prompt": "Tres mandamientos que no dieron la talla",
    "safetyQuips": [
-    "don't hate|be cool|wash hands",
-    "no more clothes|no more money|lots more chicken nuggets",
-    "Taco Tuesday is holy|thou shalt not be creepy|thou shalt brag about marathons"
+    "no odiar|ser genial|lavarse las manos",
+    "no más ropa|no más dinero|muchos más nuggets de pollo",
+    "Los martes de taco son sagrados|no debes ser aterrador|debes presumir las maratones"
    ],
    "us": false,
    "x": false
@@ -137,9 +137,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres pasos para una ruptura exitosa",
    "safetyQuips": [
-    "meet in public place|make eye contact|disappear in smoke bomb",
-    "be honest|not that honest|just say you're moving",
-    "tell them it's you|not them|but it could be them"
+    "reunirse en un lugar público|hacer contacto visual|desaparecer con una bomba de humo",
+    "ser honesto|no tan honesto|solo di que te vas a mudar",
+    "dile que eres tú|no ella|pero podría ser ella"
    ],
    "us": false,
    "x": false
@@ -149,9 +149,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que Batman insiste en hacer todos los días",
    "safetyQuips": [
-    "kicking butt|taking names|adopting young wards",
-    "working out|solving crime|struggling with latex",
-    "brooding|scowling|repeat"
+    "patear traseros|anotar nombres|adoptar jóvenes pupilos",
+    "hacer ejercicio|resolver crímenes|forcejear con el látex",
+    "melancolía|fruncir el ceño|repetir"
    ],
    "us": false,
    "x": false
@@ -161,9 +161,9 @@
    "includesPlayerName": false,
    "prompt": "Tres nombres innecesariamente explícitos para cócteles",
    "safetyQuips": [
-    "super buttery nipple|the nude lady|the \"I Want Sex\" and Tonic",
-    "butts and soda|boobs-ahol|harvey wallbanger part II",
-    "sex and soda|erotic beer|the wienertini"
+    "pezón supermantecoso|la dama desnuda|el \"Quiero sexo\" y tónica",
+    "traseros y gaseosa|senos-ahol|sexo en la playa",
+    "sexo y gaseosa|cerveza erótica|el salchitini"
    ],
    "us": false,
    "x": true
@@ -173,9 +173,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que DEBES hacer para sobrevivir al ataque de un oso",
    "safetyQuips": [
-    "stop|drop|get up and run",
-    "hide in a cave|realize it's HIS cave|find new cave",
-    "dress as sexy bear|marry bear|escape on 15th anniversary"
+    "detenerse|caerse|levantarse y correr",
+    "esconderse en una cueva|darse cuenta que es SU cueva|encontrar una cueva nueva",
+    "vestirse de un oso sensual|casarse con el oso|escapar en el 15° aniversario"
    ],
    "us": false,
    "x": false
@@ -185,9 +185,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres primeras palabras de un bebé que generaría mucha preocupación",
    "safetyQuips": [
-    "I|remember|everything",
-    "bring|me|ham",
-    "You'll|all|pay"
+    "lo|recuerdo|todo",
+    "tráiganme|el|jamón",
+    "todos|ustedes|pagarán"
    ],
    "us": false,
    "x": false
@@ -195,11 +195,11 @@
   {
    "id": "70385",
    "includesPlayerName": false,
-   "prompt": "Tres ingredientes que Baskin-Robbins nunca ofrecerá",
+   "prompt": "Tres coberturas que una heladería nunca ofrecerá",
    "safetyQuips": [
-    "croutons|shaved carrots|black olives",
-    "hot fidge|churries|spronkles",
-    "motor oil|spark plugs|a functional hemi engine"
+    "pan frito|zanahoria rallada|aceitunas negras",
+    "sopa|pimiento|choclo",
+    "aceite de motor|bujías|un motor hemi funcional"
    ],
    "us": false,
    "x": false
@@ -209,9 +209,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres hábitos más molestos del mundo",
    "safetyQuips": [
-    "lip smacking|knuckle cracking|finger licking",
-    "humming|humming loudly|humming loudly while operating",
-    "spitting|nose picking|playing banjo"
+    "lamer los labios|tronarse los nudillos|lamerse los dedos",
+    "tararear|tararear fuerte|tararear fuerte al operar",
+    "escupir|hurgarse la nariz|tocar el banjo"
    ],
    "us": false,
    "x": false
@@ -221,9 +221,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres pasos para castrar un caballo",
    "safetyQuips": [
-    "read books|ask experts|eat a light breakfast",
-    "greet horse|apologize|snip",
-    "put on gloves|shave area|ask yourself how you got here"
+    "leer libros|preguntarle a expertos|comer un desayuno liviano",
+    "saludar al caballo|pedir disculpas|cortar",
+    "ponerse guantes|afeitar el área|pregúntate cómo has llegado hasta aquí"
    ],
    "us": false,
    "x": true
@@ -233,9 +233,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas más difíciles de ser Mario",
    "safetyQuips": [
-    "nightmares about Bowser|rash from shooting fireballs|bad credit",
-    "constantly itchy mustache|all that jumping bad for knees|can't focus on plumbing",
-    "remembers every time he dies|not using his podiatry degree|can't start singing career"
+    "pesadillas sobre Bowser|sarpullido por disparar bolas de fuego|mal crédito",
+    "bigote que pica constantemente|todos esos saltos son malos para las rodillas|no puede concentrarse en la fontanería",
+    "recuerda cada vez que muere|no utiliza su título de podólogo|no puede empezar su carrera de cantante"
    ],
    "us": false,
    "x": false
@@ -245,9 +245,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres apodos que todo hermano de fraternidad intenta darse a sí mismo",
    "safetyQuips": [
-    "Crosby|Stills|Nash",
-    "Big Dog|Cool Cat|Mean Rabbit",
-    "Ham Bone|Silly String|Petunia"
+    "Gigante|Estiloso|Capitán",
+    "Perrote|Gatote|Conejote",
+    "Huesos|Cuerdo|Petunia"
    ],
    "us": true,
    "x": false
@@ -255,11 +255,11 @@
   {
    "id": "70411",
    "includesPlayerName": false,
-   "prompt": "Tres palabras que harían títulos de películas de terror efectivos",
+   "prompt": "Tres palabras que serían eficaces como títulos de películas de terror",
    "safetyQuips": [
-    "Bugs|Snakes|Life",
-    "Blood|Guts|Improv",
-    "Stab|Shriek|Marriage"
+    "Insectos|Serpientes|Vida",
+    "Sangre|Tripas|Improvisación",
+    "Puñalada|Alarido|Matrimonio"
    ],
    "us": false,
    "x": false
@@ -267,11 +267,11 @@
   {
    "id": "70413",
    "includesPlayerName": false,
-   "prompt": "Tres parques temáticos más peligrosos que <i>Jurassic Park</i>",
+   "prompt": "Tres parques temáticos más peligrosos que <i>Parque Jurásico</i>",
    "safetyQuips": [
-    "Murder Land|Punching Park|Broken Glass Garden",
-    "Jurassic World|Jurassic Universe|Jurassic Reality",
-    "Lava Land|Lightningville|Car Crash Canyon"
+    "Asesinatolandia|Parque Golpeástico|Jardín de Cristales Rotos",
+    "Mundo Jurásico|Universo Jurásico|Realidad Jurásica",
+    "Lavalandia|Villa Relámpago|Choque de Autos en el Cañón"
    ],
    "us": false,
    "x": false
@@ -281,9 +281,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas en las que Canadá es líder mundial",
    "safetyQuips": [
-    "beer|politeness|Torontos",
-    "moose|caribou|deer, in general",
-    "fir trees|Ryan Reynolds|that's it?"
+    "cerveza|cortesía|Torontos",
+    "alce|caribú|ciervos, en general",
+    "abetos|Ryan Reynolds|¿eso es todo?"
    ],
    "us": false,
    "x": false
@@ -293,9 +293,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que harías de inmediato si heredaras mil millones de dólares",
    "safetyQuips": [
-    "bring back dinosaurs|but real small|i mean pocket-sized",
-    "eliminate disease|eliminate hunger|but then buy a roller coaster",
-    "put brain in robot body|conquer world|realize I was happy before :("
+    "traer de vuelta a los dinosaurios|pero pequeñitos|me refiero a tamaño de bolsillo",
+    "eliminar las enfermedades|eliminar el hambre|pero luego comprar una montaña rusa",
+    "poner tu cerebro en el cuerpo de un robot|conquistar el mundo|darse cuenta de que antes era feliz :("
    ],
    "us": false,
    "x": false
@@ -305,9 +305,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres reglas para ganar dinero son <BLANK>, <BLANK>, <BLANK>",
    "safetyQuips": [
-    "No shirt|no shoes|no service",
-    "lather|rinse|repeat",
-    "have good idea|market it|steal better idea"
+    "Sin camisa|sin zapatos|no hay servicio",
+    "espuma|enjuague|repetir",
+    "tener una buena idea|comercializarla|robar una idea mejor"
    ],
    "us": false,
    "x": false
@@ -317,9 +317,9 @@
    "includesPlayerName": false,
    "prompt": "Tres pasos esenciales para una buena rutina de ejercicios son <BLANK>, <BLANK> y <BLANK>",
    "safetyQuips": [
-    "Hydration|Perspiration|wiping down bench for once",
-    "High reps|low weight|tons of energy bars",
-    "blasting the pecs|blasting the quads|a good chiropractor"
+    "Hidratación|transpiración|limpiar el banco de una vez",
+    "Repeticiones altas|peso bajo|toneladas de barritas energéticas",
+    "Explotar los pectorales|explotar los cuádriceps|un buen quiropráctico"
    ],
    "us": false,
    "x": false
@@ -327,11 +327,11 @@
   {
    "id": "70436",
    "includesPlayerName": false,
-   "prompt": "Tres servicios de súper lujo solo disponibles en los mejores hoteles",
+   "prompt": "Tres servicios de superlujo solo disponibles en los mejores hoteles",
    "safetyQuips": [
-    "Mineral water|white noise machines|spooning",
-    "rooftop views|stock assessments|hunting most dangerous game",
-    "tax cuts|continental money laundering|free \"one percenter\" tattoo"
+    "agua mineral|máquinas de ruido blanco|hacer cucharita",
+    "vistas de la azotea|asesoramiento de acciones|la caza más peligrosa",
+    "recortes de impuestos|lavado de dinero continental|tatuaje de \"un por ciento\" gratis"
    ],
    "us": false,
    "x": false
@@ -339,11 +339,11 @@
   {
    "id": "70437",
    "includesPlayerName": false,
-   "prompt": "Seamos honestos: lo único que realmente necesita para convertirse en abogado son <BLANK>, <BLANK> y <BLANK>",
+   "prompt": "Seamos honestos: lo único que realmente se necesita para convertirse en abogado es <BLANK>, <BLANK> y <BLANK>",
    "safetyQuips": [
-    "money|money|more money",
-    "time|passion|the last name \"Attorney\"",
-    "thumbs|suspenders|thick, texas accent"
+    "dinero|dinero|más dinero",
+    "tiempo|pasión|el apellido \"Abogado\"",
+    "pulgares|suspensores|acento rudo"
    ],
    "us": false,
    "x": false
@@ -351,11 +351,11 @@
   {
    "id": "70446",
    "includesPlayerName": false,
-   "prompt": "Permítanme presentarles a mis tres secuaces más duros: <BLANK>, <BLANK> y <BLANK>",
+   "prompt": "Permítanme presentarles a mis tres secuaces más rudos: <BLANK>, <BLANK> y <BLANK>",
    "safetyQuips": [
-    "Knuckles|Punchy|Mean Tweets",
-    "Max the Axe|Henry the Hammer|Lil' Stinker",
-    "Crusher|Grinder|Soft Jazzer"
+    "Nudillos|Golpeador|Tuits malvados",
+    "Marcial el Puñal|Enrique el Martillo|Apestoso",
+    "Machacador|Triturador|Carne Amarga"
    ],
    "us": false,
    "x": false
@@ -363,11 +363,11 @@
   {
    "id": "70449",
    "includesPlayerName": false,
-   "prompt": "Los tres pasos olvidados en el Cha-Cha Slide",
+   "prompt": "Los tres pasos olvidados del Cha Cha Slide",
    "safetyQuips": [
-    "slide to the middle|jump 20 times|back flip",
-    "shimmy|shake|Macarena",
-    "lay down|snooze|wake up in distant future"
+    "deslizarse hacia el centro|saltar 20 veces|vuelta atrás",
+    "menearse|sacudirse|Macarena",
+    "acostarse|dormitar|despertarse en un futuro lejano"
    ],
    "us": true,
    "x": false
@@ -377,9 +377,9 @@
    "includesPlayerName": false,
    "prompt": "Los siguientes tres personajes que deben agregar a <i>Super Smash Bros.</i> son <BLANK>, <BLANK> y <BLANK>",
    "safetyQuips": [
-    "The|Pep|Boys",
-    "Sonic|Dr. Eggman|Shirtless Mario",
-    "Godzilla|Mecha-Godzilla|Elmo"
+    "Harry|Hermione|Ron",
+    "Sonic|Dr. Eggman|Mario sin camiseta",
+    "Godzilla|Ultraman|Elmo"
    ],
    "us": false,
    "x": false
@@ -387,11 +387,11 @@
   {
    "id": "70531",
    "includesPlayerName": false,
-   "prompt": "Tres malos nombres para un gatito",
+   "prompt": "Tres nombres malos para un gatito",
    "safetyQuips": [
-    "Mr. Puppy|Spanish Flu|cumulonimbus",
-    "Gerald|Stinky|Rabies",
-    "Grapefruit|Cumulonimbus|Ol' Fungus Foot"
+    "Sr. Cachorro|Gripe española|Nube",
+    "Gerardo|Apestoso|Rabia",
+    "Pomelo|Nube|Viejo Pie de Hongo"
    ],
    "us": false,
    "x": false
@@ -401,9 +401,9 @@
    "includesPlayerName": false,
    "prompt": "¿Necesitas calmarte después de una discusión? Solo <BLANK>, luego <BLANK>, y <BLANK>",
    "safetyQuips": [
-    "light candles|pour tea|bury your rage",
-    "inhale|exhale|expel ",
-    "stand up|breathe deep|leave the buffet"
+    "enciende unas velas|sirve té|entierra tu rabia",
+    "inhala|exhala|expele",
+    "levántate|respira hondo|deja el bufet"
    ],
    "us": false,
    "x": false
@@ -411,10 +411,10 @@
   {
    "id": "70552",
    "includesPlayerName": false,
-   "prompt": "Así que has “leído totalmente la Biblia”, ¿eh? Entonces nombra TRES personajes del libro.",
+   "prompt": "Así que “leíste toda la biblia”, ¿eh? Entonces nombra TRES personajes.",
    "safetyQuips": [
-    "Jesus|Jesus' friend|Jesus' mom",
-    "God|is technically|three guys",
+    "Jesús|el amigo de Jesús|la mamá de Jesús",
+    "Técnicamente|dios|es tres tipos",
     "Doc|Biff|Marty"
    ],
    "us": false,
@@ -425,9 +425,9 @@
    "includesPlayerName": false,
    "prompt": "Tres nombres que podrían ser para un perro o un juguete para adultos",
    "safetyQuips": [
-    "Spot|Rex|Rabbit",
-    "Powerdrive|Lightning|Mr. Happy",
-    "Ruff Ruff|Sparky|Sir Barks-A-Lot"
+    "Punto|Rex|Coneja",
+    "Poderoso|Relámpago|Sr. Feliz",
+    "Ruff Ruff|Chispa|Señor Ladra Mucho"
    ],
    "us": false,
    "x": true
@@ -435,11 +435,11 @@
   {
    "id": "70556",
    "includesPlayerName": false,
-   "prompt": "Malas noticias: ahora te quitan tu “tarjeta genial” si te gusta <BLANK>, <BLANK>, o <BLANK>",
+   "prompt": "Malas noticias: ahora te quitan tu “tarjeta genial” si te gusta(n) <BLANK>, <BLANK>, o <BLANK>",
    "safetyQuips": [
-    "reading|writing|arithmetic",
-    "books|movies|your parents",
-    "cargo shorts|boat shoes|carrying a \"cool card\""
+    "leer|escribir|aritmética",
+    "los libros|las películas|tus padres",
+    "los pantalones cortos|zapatos de payaso|llevar una \"tarjeta genial\""
    ],
    "us": false,
    "x": false
@@ -449,9 +449,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que probablemente no existirán en veinte años",
    "safetyQuips": [
-    "bananas|polar bears|internet comments, hopefully",
-    "elephants|rhinos|but T-Rex's are coming back",
-    "pollution|anxiety|The Paw Patrol"
+    "plátanos|osos polares|comentarios de internet, con suerte",
+    "elefantes|rinocerontes|pero los tiranosaurios volverán",
+    "contaminación|ansiedad|Star Wars, ojalá"
    ],
    "us": false,
    "x": false
@@ -461,9 +461,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que la peor pareja que conoces siempre trae a las cenas",
    "safetyQuips": [
-    "forks|good wishes|their poetry",
-    "someone else's kids|stomach flu|a timeshare opportunity",
-    "non-alcoholic wine|non-alcoholic beer|non-alcoholic Jagermeister"
+    "tenedores|buenos deseos|su poesía",
+    "el hijo de alguien más|gastroenteritis|una oportunidad de pasarlo bien",
+    "vino sin alcohol|cerveza sin alcohol|Jägermeister sin alcohol"
    ],
    "us": false,
    "x": false
@@ -471,11 +471,11 @@
   {
    "id": "70630",
    "includesPlayerName": false,
-   "prompt": "Tres cosas en la lista de compras semanal de Vladimir Putin",
+   "prompt": "Tres cosas en la lista de compras semanal de Vladímir Putin",
    "safetyQuips": [
-    "eggs|milk|local government officials",
-    "two planes|a dozen bombs|Ben & Jerry's ice cream",
-    "camera|horse|no shirt"
+    "huevos|leche|funcionarios públicos locales",
+    "dos aviones|una docena de bombas|dos regiones ucranianas",
+    "cámara|caballo|sin camiseta"
    ],
    "us": false,
    "x": false
@@ -485,9 +485,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que NUNCA debes dejar en el baño de alguien",
    "safetyQuips": [
-    "a review|your... you know|your phone number",
-    "Christmas presents|Birthday presents|unless they never look there",
-    "stray hairs|stray fingernails|stray teeth"
+    "una reseña|tu... ya sabes|tu número de teléfono",
+    "regalos de Navidad|regalos de cumpleaños|a menos que nunca revisen ahí",
+    "pelos sueltos|uñas sueltas|dientes sueltos"
    ],
    "us": false,
    "x": false
@@ -497,9 +497,9 @@
    "includesPlayerName": false,
    "prompt": "Tres nombres de ejercicios en CrossFit, probablemente",
    "safetyQuips": [
-    "knee blaster|the sweat maker|leg jellier",
-    "mountain lifts|the strainsies|the near death experiences",
-    "the credit card charger|the merch push|the friend shamer"
+    "golpe de rodilla|el sudorífico|jaleador de piernas",
+    "levanta montañas|las tensiones|las experiencias cercanas a la muerte",
+    "el cargador de tarjetas de crédito|el impulso comercial|el amigo vergonzoso"
    ],
    "us": false,
    "x": false
@@ -509,9 +509,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres grandes hitos que experimentarán los niños de la Generación Z",
    "safetyQuips": [
-    "love|laughter|rising oceans",
-    "kids|travel|probably a meteor",
-    "World War 3|Climate Change|mechanical werewolves"
+    "amor|risas|la subida de los océanos",
+    "niños|viaje|probablemente un meteorito",
+    "Tercera Guerra Mundial|Cambio climático|hombres lobo mecánicos"
    ],
    "us": false,
    "x": false
@@ -519,11 +519,11 @@
   {
    "id": "70686",
    "includesPlayerName": false,
-   "prompt": "Tres palabras clave que seguramente mostrarían <ANYPLAYER> en los resultados de la primera página",
+   "prompt": "Tres palabras clave que seguramente mostrarían a <ANYPLAYER> en los resultados de la primera página",
    "safetyQuips": [
-    "nice|so nice|too nice, honestly",
-    "smart|very smart|too smart for flattery",
-    "bank|robbery|seriously, look it up"
+    "agradable|muy agradable|demasiado agradable, honestamente",
+    "listo|muy listo|demasiado listo para la adulación",
+    "banco|robo|en serio, búscalo"
    ],
    "us": false,
    "x": false
@@ -533,9 +533,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres peores trabajos del infierno",
    "safetyQuips": [
-    "calculus teacher | data entry specialist | liverwurst tester",
-    "Satan's masseuse | Satan's bathroom attendant | devil's advocate",
-    "Twitter reader|bathroom licker|skunk sniffer"
+    "profesor de cálculo|especialista en introducción de datos|probador de salchichas",
+    "masajista de Satanás|asistente de baño de Satanás|abogado del diablo",
+    "lector de Twitter|lamedor de baño|olfateador de zorrillos"
    ],
    "us": false,
    "x": false
@@ -543,11 +543,11 @@
   {
    "id": "70717",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que generalmente solo suceden después de las 3 a. M.",
+   "prompt": "Tres cosas que generalmente solo suceden después de las 3 de la mañana",
    "safetyQuips": [
-    "late night diner orders|greasy eggs|heartburn",
-    "vampires head back to crypts|werewolves start changing back|mummies just do their thing",
-    "the streets quiet down|businesses close|the rats paaaaaartaaaay"
+    "pedidos de cena nocturnos|huevos grasientos|acidez",
+    "los vampiros vuelven a las criptas|los hombres lobo empiezan a cambiar de nuevo|las momias hacen lo suyo",
+    "las calles se calman|los negocios cierran|la fieeeestaaaaa de ratas"
    ],
    "us": false,
    "x": false
@@ -557,9 +557,9 @@
    "includesPlayerName": false,
    "prompt": "Nunca podrías salir con alguien que <BLANK>, <BLANK> o <BLANK>",
    "safetyQuips": [
-    "hates karaoke|eats unsalted peanuts|hates penguins",
-    "licks their fingers|licks their mouth|licks anything. ewww",
-    "hangs out the passenger side|of his best friend's ride|trying to holler at me"
+    "odia el karaoke|come maní sin sal|odia a los pingüinos",
+    "lame sus dedos|se lame la boca|lame todo. guácala",
+    "se cuelga del lado del pasajero|del auto de su mejor amigo|tratando de gritarme"
    ],
    "us": false,
    "x": false
@@ -569,9 +569,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres pasos necesarios para hornear la peor barra de pan",
    "safetyQuips": [
-    "preheat oven|mix dough|stir in old dental floss",
-    "mix in yeast|mix in uranium|JK that's dangerous",
-    "buy ingredients|mix thoroughly|pour directly in toilet"
+    "precalentar el horno|mezclar la masa|revolver el hilo dental viejo",
+    "mezclar con levadura|mezclar con uranio|bromeaba, es peligroso",
+    "compra ingredientes|mezclar bien|viértela directamente al inodoro"
    ],
    "us": false,
    "x": false
@@ -581,9 +581,9 @@
    "includesPlayerName": false,
    "prompt": "Tres formas de llevar su próxima reunión del club de lectura a un nivel superior",
    "safetyQuips": [
-    "a book about werewolves|a treasure map|a seventh bottle of wine!",
-    "an alien abduction|an emergency appendectomy|nacho buffet",
-    "audiobooks only|or TV shows|or just cancelling it"
+    "un libro sobre hombres lobo|un mapa del tesoro|¡una séptima botella de vino!",
+    "una abducción extraterrestre|una apendicectomía de urgencia|bufet de nachos",
+    "solo audiolibros|o programas de televisión|o simplemente cancelarla"
    ],
    "us": false,
    "x": false
@@ -591,11 +591,11 @@
   {
    "id": "70742",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que derretirán tu corazón TODAS. DANG. HORA.",
+   "prompt": "Tres cosas que derretirán tu corazón CADA. MALDITA. VEZ.",
    "safetyQuips": [
-    "kittens|puppies|the kitten puppy jamboree",
-    "a baby's laugh|a romantic slow dance|i'm so lonely",
-    "a romantic comedy|a romantic drama|a romantic horror film"
+    "gatitos|perritos|la juerga de gatitos y perritos",
+    "una risa de bebé|un romántico baile lento|me siento tan solo",
+    "una comedia romántica|un drama romántico|una película de horror romántico"
    ],
    "us": false,
    "x": false
@@ -603,11 +603,11 @@
   {
    "id": "70768",
    "includesPlayerName": false,
-   "prompt": "Las tres cosas únicas que le ofreces al mundo son ...",
+   "prompt": "Las tres únicas cosas que le ofreces al mundo son...",
    "safetyQuips": [
-    "a sense of humor|a great smile|some slamming haiku",
-    "banana bread recipes|sourdough recipes|no, people are sick of those",
-    "a shoulder to cry on|a shoulder to lean on|I only have two shoulders"
+    "sentido del humor|una gran sonrisa|algunos haiku de golpe",
+    "recetas de pan de plátano|recetas con masa madre|no, la gentela gente está cansada de esas",
+    "un hombro para llorar|un hombro donde apoyarse|Solo tengo dos hombros"
    ],
    "us": false,
    "x": false
@@ -617,9 +617,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres pasos para volverse famoso en TikTok",
    "safetyQuips": [
-    "download TikTok|become 20 years younger|do stuff",
-    "find a song|dance|repeat",
-    "see what people are doing|do that|but louder"
+    "descargar TikTok|rejuvenecer 20 años|hacer cosas",
+    "encontrar una canción|bailar|repetir",
+    "ver lo que hace la gente|hacer eso|pero más fuerte"
    ],
    "us": false,
    "x": false
@@ -629,9 +629,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres principales búsquedas en Internet del país, probablemente",
    "safetyQuips": [
-    "singles in my area|singles outside my area|will a cat make me happy?",
-    "are UFOs real|is Bigfoot real|am I real",
-    "how to juggle|how to juggle chainsaws|emergency rooms near me"
+    "solteros en mi área|solteros fuera de mi área|¿un gato me hará feliz?",
+    "son reales los OVNI|es real Pie Grande|soy real",
+    "cómo hacer malabares|cómo hacer malabares con motosierras|salas de emergencia cerca de mí"
    ],
    "us": false,
    "x": false
@@ -641,9 +641,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que solo mejoran con la edad",
    "safetyQuips": [
-    "cheese|wine|some sort of cheese wine",
-    "old friends|old jokes|wait, no they don't",
-    "kittens|puppies|whatever baby swans are called"
+    "queso|vino|algún tipo de vino de queso",
+    "viejos amigos|chistes viejos|espera, no es así",
+    "gatitos|perritos|como sea que se llamen los cisnes bebé"
    ],
    "us": false,
    "x": false
@@ -651,11 +651,11 @@
   {
    "id": "70786",
    "includesPlayerName": false,
-   "prompt": "Tres formas de animar tu vieja y aburrida agua",
+   "prompt": "Tres maneras de darle vida a tu vieja y aburrida agua",
    "safetyQuips": [
-    "oranges|cucumbers|rusty nails",
-    "carbonate it|shake it|drown a town with it",
-    "drink it on roller coaster|put a fish in it|drop a bottle rocket in it"
+    "naranjas|pepinos|clavos oxidados",
+    "carbonatarla|sacudirla|ahogar una ciudad con ella",
+    "beberla en la montaña rusa|poner un pez en ella|tirar un cohete de botella en ella"
    ],
    "us": false,
    "x": false
@@ -665,9 +665,9 @@
    "includesPlayerName": false,
    "prompt": "El mundo sería mejor si tuviéramos menos <BLANK>, <BLANK> y <BLANK>",
    "safetyQuips": [
-    "war|crime|floppy chicken strips",
-    "people|places|things",
-    "reality shows|reality stars|reality"
+    "guerra|crimen|tiras de pollo flojas",
+    "gente|lugares|cosas",
+    "reality shows|estrellas de reality|realidad"
    ],
    "us": false,
    "x": false
@@ -675,11 +675,11 @@
   {
    "id": "70796",
    "includesPlayerName": false,
-   "prompt": "Las tres reglas de oro del gimnasio de trampolín",
+   "prompt": "Las tres reglas doradas del gimnasio de trampolín",
    "safetyQuips": [
-    "no double bouncing|socks on|you break it you buy it",
-    "don't break anything|no suing|have fun",
-    "no jumping with food|no jumping with drinks|no jumping with full bladder"
+    "no hay doble rebote|con calcetines|si los rompes, lo compras",
+    "no romper nada|no demandar|diviértete",
+    "no saltar con comida|no saltar con bebidas|no saltar con  la vejiga llena"
    ],
    "us": false,
    "x": false
@@ -687,11 +687,11 @@
   {
    "id": "70797",
    "includesPlayerName": false,
-   "prompt": "¿Cuáles son las tres cosas que necesita para MEJOR? DESPEDIDA DE SOLTERO. ¿¿¿¡¡¡SIEMPRE!!!???",
+   "prompt": "¡¡¡¿¿¿Cuáles son las tres cosas que necesitas para la MEJOR. DESPEDIDA DE SOLTERO. DE LA HISTORIA???!!!",
    "safetyQuips": [
-    "drinks|pals|a doctor on speed dial",
-    "cigars|champagne|fluids",
-    "cheap wine|a small bear|a strong survival instinct"
+    "bebidas|amigos|un médico en marcación rápida",
+    "puros|espumante|fluidos",
+    "vino barato|un osito|un fuerte instinto de supervivencia"
    ],
    "us": true,
    "x": false
@@ -701,9 +701,9 @@
    "includesPlayerName": false,
    "prompt": "Sabes que estás a punto de tener un mal día en Twitter si ves estos tres hashtags",
    "safetyQuips": [
-    "#killerbees|#beeattack|#definitelynotabee",
-    "#death|#destruction|#softjazz",
-    "#asteroid|#gettingcloser|#bunkersale"
+    "#AbejasAsesinas|#AtaqueDeAbejas|#DefinitivamenteNoEsUnaAbeja",
+    "#Muerte|#Destrucción|#JazzSuave",
+    "#Asteroide|#SeAcerca|#VentaDeBúnker"
    ],
    "us": false,
    "x": false
@@ -711,11 +711,11 @@
   {
    "id": "70829",
    "includesPlayerName": false,
-   "prompt": "Tres fallas que deberían descalificarlo para ocupar un cargo político",
+   "prompt": "Tres fallas que deberían descalificarte para ocupar un cargo político",
    "safetyQuips": [
-    "loves to lie|hates citizens|addicted to money",
-    "can't do math|won't read|allergic to science",
-    "sounds annoying|smells bad|tastes delicious "
+    "amar las mentiras|odiar a los ciudadanos|ser adicto al dinero",
+    "no poder hacer cálculos|no saber leer|ser alérgico a la ciencia",
+    "sonar molesto|oler mal|saber delicioso"
    ],
    "us": false,
    "x": false
@@ -725,9 +725,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres principales crímenes cometidos en la sociedad de las sirenas",
    "safetyQuips": [
-    "piracy|ship wrecking|wet murder",
-    "whaling|sharking|catfishing",
-    "stealing lobsters|kidnapping squids|forging tuna"
+    "piratería|naufragio de barcos|asesinato en húmedo",
+    "caza de ballenas|caza de tiburones|morder el anzuelo",
+    "robar langostas|secuestrar calamares|atún de forja"
    ],
    "us": false,
    "x": false
@@ -737,9 +737,9 @@
    "includesPlayerName": false,
    "prompt": "Tres formas de “hacer el amor” sin contacto físico",
    "safetyQuips": [
-    "intense stares|severe smiles|hardcore winks",
-    "write them a poem|sing them a song|build them a ham",
-    "whisper secrets|shout declarations|sing dirty words"
+    "mirar intensamente|sonreír severo|guiñar duro",
+    "escribirle un poema|cantarle una canción|construirle un jamón",
+    "susurrar secretos|gritar declaraciones|cantar palabras sucias"
    ],
    "us": false,
    "x": true
@@ -749,9 +749,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres pasos para traer de vuelta a los dinosaurios",
    "safetyQuips": [
-    "buy a lizard|feed him a lot|now feed him more",
-    "buy cake|throw welcome back party|hope they show up",
-    "tell kids they're not cool|tell them you forbid them|hear dinosaur roar in basement"
+    "comprar un lagarto|alimentarlo mucho|ahora aliméntalo más",
+    "comprar torta|hacer una fiesta de bienvenida|esperar que aparezca",
+    "decir que los niños no son geniales|decirles que los prohibes|oír el rugido de un dinosaurio en el sótano"
    ],
    "us": false,
    "x": false
@@ -761,9 +761,9 @@
    "includesPlayerName": false,
    "prompt": "Después de los primeros siete, ¿cuáles son los siguientes tres pecados capitales?",
    "safetyQuips": [
-    "messiness|poor manners|finger smelling",
-    "apathy|disinterest|being too cool for school",
-    "bad dresser|clumsiness|kind of a jerk"
+    "desorden|malos modales|oler el dedo",
+    "apatía|desinterés|ser demasiado genial para la escuela",
+    "vestirse mal|torpeza|un poco idiota"
    ],
    "us": false,
    "x": false
@@ -771,11 +771,11 @@
   {
    "id": "70876",
    "includesPlayerName": false,
-   "prompt": "¡Ella es alucinante! ... pero ¿qué tres roles desafiarían incluso a Meryl Streep?",
+   "prompt": "¡Ella es increíble!... pero, ¿qué tres papeles desafiarían incluso a Meryl Streep?",
    "safetyQuips": [
-    "Batman|the Lone Ranger|some lady named Sophie",
-    "a mean lady|an unpleasant woman|someone I'm not in love with",
-    "Deadpool|Pikachu|Blake Lively's husband"
+    "Batman|el Llanero Solitario|una dama llamada Sophie",
+    "una dama malvada|una mujer desagradable|alguien de quien no estoy enamorado",
+    "Deadpool|Pikachu|El marido de Halle Berry"
    ],
    "us": false,
    "x": false
@@ -783,11 +783,11 @@
   {
    "id": "70879",
    "includesPlayerName": false,
-   "prompt": "Tres pensamientos profundos que tiene un perezoso en un día normal",
+   "prompt": "Tres pensamientos profundos que tiene un perezoso en un día cualquiera",
    "safetyQuips": [
-    "I love this branch | could stay here all day | yes, I think I will",
-    "snakes on the ground |need to poop | I can hold it",
-    "what day is it?|Wednesday?|whoops, now it's Thursday"
+    "me encanta esta rama|podría estar aquí todo el día|sí, creo que lo haré",
+    "hay serpientes en el suelo|necesito defecar|puedo aguantar",
+    "¿qué día es?|¿miércoles?|ups, ahora es jueves"
    ],
    "us": false,
    "x": false
@@ -797,9 +797,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres temas principales de las canciones country tristes",
    "safetyQuips": [
-    "wife left me | she took the dog | and my Chevy pickup",
-    "whiskey | rain | drinking whiskey in the rain",
-    "truck problems|money problems|boot/hat problems"
+    "mi esposa me dejó|se llevó al perro|y mi camioneta Chevy",
+    "whisky|lluvia|bebiendo whisky bajo la lluvia",
+    "problemas con los camiones|problemas de dinero|problemas de botas/sombrero"
    ],
    "us": true,
    "x": false
@@ -809,9 +809,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres objetivos principales en su primer mandato como Gobernante de la Tierra",
    "safetyQuips": [
-    "get a really cool throne|send enemies into space|free ice cream for all",
-    "outlaw birds|hate the silence|DNA engineer new birds",
-    "make every day Tuesday|name everyone Tony|free Showtime for everybody"
+    "conseguir un trono muy genial|enviar enemigos al espacio|helado gratis para todos",
+    "aves fuera de la ley|odiar el silencio|nuevas aves diseñadas con ADN",
+    "hacer que todos los días sean sábado|nombrar a todos Antonio|salto a la fama gratis para todos"
    ],
    "us": false,
    "x": false
@@ -821,9 +821,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres accesorios más estúpidos para obligar a tu perro a usar",
    "safetyQuips": [
-    "nose ring|bangle bracelets|diving watch",
-    "a sailor hat|a sailor suit|inflatable Popeye arms",
-    "a cat costume|roller skates|I'm With Stupid shirt"
+    "anillo nasal|pulseras de brazalete|reloj de buceo",
+    "un gorro de marinero|un traje de marinero|brazos inflables de Popeye",
+    "un disfraz de gato|patines|camiseta de Estoy con un estúpido"
    ],
    "us": false,
    "x": false
@@ -831,11 +831,11 @@
   {
    "id": "70892",
    "includesPlayerName": false,
-   "prompt": "Tres redes Wi-Fi a las que no desea conectarse",
+   "prompt": "Tres redes WiFi a las que no deseas conectarte",
    "safetyQuips": [
-    "TakeMyWiFi|ManAndWiFi|MyWIFI!!! (in Borat voice)",
-    "Russian_Hackerz|StealinData|PerfectlySafeWiFi",
-    "TheWhiteHouse|Penta_Gone|TreasonRus"
+    "TomaMiWiFi|HusbandoYWiFi|¡¡¡MiyWIFI!!! (con voz de Borat)",
+    "Hackerz_Rusos|RobandoInformación|WiFiPerfectamenteSeguro",
+    "LaCasaBlanca|Penta_Ido|TraiciónRusa"
    ],
    "us": false,
    "x": false
@@ -843,11 +843,11 @@
   {
    "id": "70915",
    "includesPlayerName": false,
-   "prompt": "Tres búsquedas en Internet que debes borrar INMEDIATAMENTE",
+   "prompt": "Tres búsquedas en internet que debes borrar INMEDIATAMENTE",
    "safetyQuips": [
-    "drugs|drug money|Sexy Spongebob",
-    "how to tell if dead?|where to hide body|new identity",
-    "should I crime?|best places to crime|how to do 2nd crime"
+    "drugas|dinero de droga|Bob Esponja sensual",
+    "cómo saber si está muerto|dónde esconder el cuerpo|nueva identidad",
+    "¿debo delinquir?|mejores lugares para delinquir|cómo hacer un 2do crimen"
    ],
    "us": false,
    "x": false
@@ -857,9 +857,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que puedes ser además de talentoso",
    "safetyQuips": [
-    "rich|pretty|confident",
-    "depressed|angry|a mannequin",
-    "tall|interesting|an influencer"
+    "rico|apuesto|confiado",
+    "deprimido|enojado|un maniquí",
+    "alto|interesante|un influenciador"
    ],
    "us": false,
    "x": false
@@ -867,11 +867,11 @@
   {
    "id": "70927",
    "includesPlayerName": false,
-   "prompt": "Los tres primeros eventos del Mom Decathlon",
+   "prompt": "Los tres primeros eventos del Decatlón de Mamás",
    "safetyQuips": [
-    "Kid Pickup|Dish Toss|Power Nap",
-    "Laundry Lunge|Supermarket Sweep|vaulting the patriarchy",
-    "Zoom meeting|De-stress|guilt kids into chores"
+    "Recogida de niños|Tirar los platos|Siesta energética",
+    "Arrebato de lavandería|Barrido de supermercado|saltando el patriarcado",
+    "Reunión de Zoom|Desestresarse|culpar a los niños en las tareas"
    ],
    "us": false,
    "x": false
@@ -879,11 +879,11 @@
   {
    "id": "70937",
    "includesPlayerName": false,
-   "prompt": "Las tres cosas más groseras para calentar en el microondas del trabajo",
+   "prompt": "Las tres cosas más desagradables para poner en el microondas del trabajo",
    "safetyQuips": [
-    "tin foil|tuna casserole|Iron Man",
-    "fish|fermented vegetables|stink meat",
-    "old fries|stale burritos|unpoppable-corn"
+    "papel de aluminio|cazuela de atún|Iron Man",
+    "pescado|verduras fermentadas|carne apestosa",
+    "viejas papas fritas|burritos rancios|impopular-maíz"
    ],
    "us": false,
    "x": false
@@ -891,11 +891,11 @@
   {
    "id": "70967",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que diría un vaquero además de “Hola”",
+   "prompt": "Tres cosas que diría un vaquero además de “Quihubo”",
    "safetyQuips": [
-    "y'all|go on|horse",
-    "spittoon|g'day|rattler",
-    "stampede!|cattle rustlers|i'm emotionally distant"
+    "todos|van a|caballo",
+    "escupidor|buenas|cascabel",
+    "¡estampida!|cuatreros|estoy emocionalmente distante"
    ],
    "us": true,
    "x": false
@@ -903,7 +903,7 @@
   {
    "id": "70969",
    "includesPlayerName": false,
-   "prompt": "Los tres nombres de los Kardashians que estan “perdidos hace mucho tiempo”",
+   "prompt": "Los tres nombres de los Kardashians que están “perdidos hace mucho tiempo”",
    "safetyQuips": [
     "Kevin|Klayton|Paul",
     "Kymberlin|Katie|Kale",
@@ -917,9 +917,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres nombres que pensaron antes de aterrizar en “Dress Barn”",
    "safetyQuips": [
-    "Blouse Corral|Pants Field|Skirt Silo",
-    "The Frill World|Pleat Street|The Skirt Locker",
-    "Gown Town|The Garmentarium|Attire Fire"
+    "Blusa corral|Campo de pantalones|Silo de falda",
+    "El mundo de los volantes|Calle pliegues|El casillero de falda",
+    "Ciudad de bata|La tienda de ropa|Trajes de fuego"
    ],
    "us": true,
    "x": false
@@ -929,9 +929,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres peores mensajes de texto de dos palabras que podrías recibir",
    "safetyQuips": [
-    "You up?|Miss You|I'm Dead",
-    "Bees here|Bees everywhere|Lost bees",
-    "Love you|Wait, sorry|Like you"
+    "¿Estás despierto?|Te extraño|Estoy muerto",
+    "Abejas aquí|Abejas dondequiera|Abejas perdidas",
+    "Te amo|Espera, perdón|Me agradas"
    ],
    "us": false,
    "x": false
@@ -941,9 +941,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas más satisfactorias para gritar desde la cima de una montaña",
    "safetyQuips": [
-    "I'm king of the world|Yippie-Ki-Yay|I'm pregnant",
-    "I'm free|I love you|I lost my contact",
-    "Sarah!|The truth is out there|Riiiiiiicola!"
+    "Soy el rey del mundo|Larga vida|Estoy embarazada",
+    "Soy libre|Te amo|Perdí mi contacto",
+    "¡Sara!|La verdad está ahí afuera|Riiiiiiicola!"
    ],
    "us": false,
    "x": false
@@ -951,11 +951,11 @@
   {
    "id": "70984",
    "includesPlayerName": false,
-   "prompt": "Tres palabras que pueden describir tanto a una persona como a un par de jeans",
+   "prompt": "Tres palabras que pueden describir tanto a una persona como a un par de pantalones",
    "safetyQuips": [
-    "skinny|relaxed|boyfriend",
-    "small|stiff|stone-washed",
-    "boot cut|high-wasted|worn-out"
+    "delgado|relajado|novio",
+    "pequeño|rígido|lavado a piedra",
+    "corte de bota|alto desperdicio|desgastado"
    ],
    "us": false,
    "x": false
@@ -965,9 +965,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas con las que nunca debes rellenar un taco",
    "safetyQuips": [
-    "regret|spent uranium|cilantro",
-    "dead bugs|live bugs|unless you like it",
-    "gummy bears|gummy worms|just avoid \"gummy\" altogether"
+    "arrepentimiento|uranio gastado|cilantro",
+    "insectos muertos|insectos vivos|a menos que te gusten",
+    "ositos de goma|gusanos de goma|solo evita la \"goma\" por completo"
    ],
    "us": false,
    "x": false
@@ -975,11 +975,11 @@
   {
    "id": "71012",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que te disuaden de hacer en el Gran Cañón",
+   "prompt": "Tres cosas que desaconsejan hacer en el Gran Cañón",
    "safetyQuips": [
-    "yelling \"poopie\"|taking rocks home|filling it in with cement",
-    "calling it \"The Great Canyon\"|telling kids Santa lives here|throwing pennies in",
-    "calling your burro \"a donkey\"|acting unimpressed|acting like you don't see it"
+    "gritar \"caca\"|llevarse piedras a casa|rellenar con cemento",
+    "llamarlo \"el Gran Cañón\"|decirle a los niños que Papá Noel vive aquí|tirar monedas de un centavo",
+    "llamar a tu burro \"asno\"|actuar sin impresionarse|actuar como si no lo vieras"
    ],
    "us": true,
    "x": false
@@ -987,11 +987,11 @@
   {
    "id": "71013",
    "includesPlayerName": false,
-   "prompt": "Las tres cosas que todos debemos hacer para salvar el planeta Tierra",
+   "prompt": "Las tres cosas que debemos hacer para salvar el planeta Tierra",
    "safetyQuips": [
-    "eat less meat|use less gas|give up after a couple of days",
-    "plant more trees|let them grow|see if they have ideas",
-    "have a big concert|raise a lot of money|buy a new planet"
+    "comer menos carne|usar menos gasolina|rendirse después de un par de días",
+    "plantar más árboles|déjalos crecer|ve si tienen ideas",
+    "tener un gran concierto|recaudar mucho dinero|comprar un planeta nuevo"
    ],
    "us": false,
    "x": false
@@ -1001,9 +1001,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas por las que todos los historiadores recordarán el siglo XXI",
    "safetyQuips": [
-    "Twitter fights|hard seltzer|the robot uprising",
-    "Earth getting ruined|settling Mars|Mars getting ruined",
-    "the end of baseball|the end of hockey|the emergence of hockball"
+    "peleas en Twitter|soda dura|la sublevación de los robots",
+    "la Tierra se arruina|asentarse en Marte|Marte se arruina",
+    "el fin del béisbol|el fin del hockey|la aparición del hockbol"
    ],
    "us": false,
    "x": false
@@ -1011,11 +1011,11 @@
   {
    "id": "71034",
    "includesPlayerName": false,
-   "prompt": "Tres juegos rechazados por <i> The Price Is Right </i>",
+   "prompt": "Tres juegos rechazados por <i>El precio justo</i>",
    "safetyQuips": [
-    "Eat the Bugs!|Wrestle Drew Carey For A TV|Spay or Neuter?",
-    "Skin Tag Scramble|Toilet Trials|Lick the Wheel",
-    "Four Hour Plinko|Snake Catch|Bench Press For $$$"
+    "¡Cómete los insectos!|Lucha contra Adam Sandler por un televisor|¿Esterilizar o castrar?",
+    "Revoltijo de etiquetas de piel|Pruebas de inodoro|Lame la rueda",
+    "Plinko de cuatro horas|Captura de serpientes|Prensa de banco por $$$"
    ],
    "us": true,
    "x": false
@@ -1025,9 +1025,9 @@
    "includesPlayerName": false,
    "prompt": "Tres palabras que solo son divertidas para ustedes, aparentemente",
    "safetyQuips": [
-    "squeeze|flarp|toodles",
-    "howdy|bonjour|decorum",
-    "stinky|boogers|Belgium"
+    "apretar|slime|fideos",
+    "quihubo|bonjour|decoro",
+    "apestoso|mocos|Bélgica"
    ],
    "us": false,
    "x": false
@@ -1035,11 +1035,11 @@
   {
    "id": "71038",
    "includesPlayerName": false,
-   "prompt": "Las tres superpotencias más débiles serían ...",
+   "prompt": "Los tres super poderes más inútiles serían...",
    "safetyQuips": [
-    "garbage vision|sonic farts|partial invisibility",
-    "mom telekinesis|light floating|cilantro sensitivity",
-    "super strong toes|ability to talk to moss|super fast coupon clipper"
+    "visión de basura|pedos sónicos|invisibilidad parcial",
+    "telequinesis materna|luz flotante|sensibilidad al cilantro",
+    "dedos de los pies superfuertes|capacidad de hablar con el musgo|recortador de cupones superrápido"
    ],
    "us": false,
    "x": false
@@ -1049,9 +1049,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres principales cosas sobre las que te mintieron tus padres",
    "safetyQuips": [
-    "drugs|alcohol|happiness",
-    "how they met|how you were conceived|how much the car cost",
-    "their trip to New Mexico|the UFO|where you came from"
+    "drugas|alcohol|felicidad",
+    "cómo se conocieron|cómo fuiste concebido|cuanto cuesta el auto",
+    "su viaje a Nuevo México|el OVNI|de dónde vienes"
    ],
    "us": false,
    "x": true
@@ -1059,11 +1059,11 @@
   {
    "id": "71060",
    "includesPlayerName": false,
-   "prompt": "Las tres cosas que le pides a cualquier amante",
+   "prompt": "Las tres cosas que exiges a cualquier amante",
    "safetyQuips": [
-    "a nice smile|a good attitude|a large inheritance",
-    "a sense of humor|a gentle heart|a willingness to bury evidence",
-    "a love of art|a love of my art|a love of my clown art"
+    "una bonita sonrisa|una buena actitud|una gran herencia",
+    "sentido de humor|un corazón amable|voluntad de enterrar la evidencia",
+    "el amor al arte|el amor a mi arte|un amor a mi arte de payaso"
    ],
    "us": false,
    "x": true
@@ -1071,11 +1071,11 @@
   {
    "id": "71061",
    "includesPlayerName": false,
-   "prompt": "Olvídese de la comida, el agua y el refugio. Las tres cosas que necesitas para sobrevivir son ...",
+   "prompt": "Olvídate de la comida, el agua y el refugio. Las tres cosas que necesitas para sobrevivir son...",
    "safetyQuips": [
-    "long naps|puppy photos|no judgment",
-    "cheap beer|cheap meat|cheap cardiologists",
-    "a magic amulet|a sassy, talking zebra|a nose for adventure"
+    "largas siestas|fotos de perritos|no juzgar",
+    "cerveza barata|carne barata|cardiólogos baratos",
+    "un amuleto mágico|una cebra descarada y parlante|un olfato para la aventura"
    ],
    "us": false,
    "x": false
@@ -1085,9 +1085,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que probablemente nunca tendrás en tu mano",
    "safetyQuips": [
-    "the holy grail|no wait, that's the holy grail|I chose poorly",
-    "One million dollars|A dinosaur egg|The respect of my father",
-    "A giant diamond|A formula for endless energy|the perfect slice of pizza"
+    "el santo grial|no, espera, ese es el santo grial|elegí mal",
+    "un millón de dólares|un huevo de dinosaurio|el respeto de mi padre",
+    "un diamante gigante|una fórmula para la energía interminable|el trozo de pizza perfecto"
    ],
    "us": false,
    "x": false
@@ -1095,11 +1095,11 @@
   {
    "id": "71063",
    "includesPlayerName": false,
-   "prompt": "Tres cosas actualmente en el bolsillo del presidente de EE. UU.",
+   "prompt": "Tres cosas que actualmente están en el bolsillo del presidente de EE. UU.",
    "safetyQuips": [
-    "a watch|keys|nuclear codes",
-    "a handkerchief|ten dollars|country's to-do list",
-    "a cough drop|seven nickels|keys to the White House"
+    "un reloj|llaves|códigos nucleares",
+    "un pañuelo|diez dólares|lista de tareas del país",
+    "una pastilla para la tos|siete monedas|llaves de la Casa Blanca"
    ],
    "us": true,
    "x": false
@@ -1109,9 +1109,9 @@
    "includesPlayerName": false,
    "prompt": "Cuando lo piensas, SOLO hay tres emociones. Son...",
    "safetyQuips": [
-    "anger|sadness|a combo of 1 and 2",
-    "hungry|thirsty|gassy",
-    "angry|apologetic|ready to get angry again"
+    "ira|tristeza|una combinación de 1 y 2",
+    "hambre|sed|flatulencia",
+    "enojo|disculpa|listo para enojarse de nuevo"
    ],
    "us": false,
    "x": false
@@ -1121,9 +1121,9 @@
    "includesPlayerName": false,
    "prompt": "Las únicas tres cosas en la vida por las que vale la pena enojarse",
    "safetyQuips": [
-    "sports|taxes|slight changes to superheros",
-    "a Twitter fight|the government|the similarity of #1 and #2",
-    "cold weather|hot weather|only have weather to talk about"
+    "deportes|impuestos|ligeros cambios en los superhéroes",
+    "una pelea en Twitter|el gobierno|la similitud entre #1 y #2",
+    "clima frío|clima caliente|solo tenere que hablar del clima"
    ],
    "us": false,
    "x": false
@@ -1131,11 +1131,11 @@
   {
    "id": "71073",
    "includesPlayerName": false,
-   "prompt": "Tres cosas en las que TODOS pueden estar de acuerdo en estos días",
+   "prompt": "Tres cosas en las que TODOS están de acuerdo hoy en día",
    "safetyQuips": [
-    "roses are red|violets are blue|close your mouth when you chew",
-    "fire is hot|water is wet|these will be debated soon",
-    "nobody|agrees|anymore"
+    "las rosas son rojas|las violetas son azules|más te vale que te enchules",
+    "el fuego es caliente|el agua está mojada|se debatirá en breve",
+    "ya nadie|se pone|de acuerdo"
    ],
    "us": false,
    "x": false
@@ -1145,9 +1145,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas más comunes que la gente grita mientras se lanza en paracaídas desde un avión",
    "safetyQuips": [
-    "Never again!|This was a mistake!|I'm referring to my marriage!",
-    "Stupid gravity!|I hate air!|Birds are overrated",
-    "Come Fly with Me|Free Bird|All the Single Ladies"
+    "¡Nunca más!|¡Esto fue un error!|¡Me refiero a mi matrimonio!",
+    "¡Estúpida gravedad!|¡Odio el aire!|Las aves están sobrevaloradas",
+    "Ven a volar conmigo|Ave libre|Todas las solteras"
    ],
    "us": false,
    "x": false
@@ -1157,9 +1157,9 @@
    "includesPlayerName": false,
    "prompt": "Tres tendencias de moda extrañas que nunca se pondrán de moda",
    "safetyQuips": [
-    "pantsless pants|shirtless shirts|skorts",
-    "combustible hats|meat scarves|cargo shorts",
-    "belly button bowties|nose socks|extra sleeves"
+    "pantalones sin pantalones|camisas sin camisa|falda pantalón",
+    "sombreros combustibles|bufandas de carne|pantalones cortos",
+    "corbatín para el ombligo|calcetines para la nariz|mangas adicionales"
    ],
    "us": false,
    "x": false
@@ -1169,9 +1169,9 @@
    "includesPlayerName": false,
    "prompt": "Tres palabras seguras realmente ineficaces",
    "safetyQuips": [
-    "good|great|love it",
-    "Daniel|Day|Lewis",
-    "hmmmm|ok|sure"
+    "bien|genial|me encanta",
+    "Homero|J.|Simpson",
+    "Mmmh|bueno|seguro"
    ],
    "us": false,
    "x": true
@@ -1181,9 +1181,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres mejores regalos de cumpleaños para un hombre muy triste",
    "safetyQuips": [
-    "tissues|hankies|an imaginary friend",
-    "a new phone|a phone stand|a promise to call",
-    "a cactus|a cat|a mannequin to talk to"
+    "telas|pañuelos|un amigo imaginario",
+    "un teléfono nuevo|un soporte para teléfono|una promesa de llamar",
+    "una cactus|un gato|un maniquí para hablar"
    ],
    "us": false,
    "x": false
@@ -1193,9 +1193,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres peores materiales para construir tu casa",
    "safetyQuips": [
-    "cotton candy|gum|good wishes",
-    "hay|sticks|staples",
-    "love|hate|asbestos"
+    "algodón de azúcar|chicle|buenos deseos",
+    "heno|palos|grapas",
+    "amor|odio|asbesto"
    ],
    "us": false,
    "x": false
@@ -1205,9 +1205,9 @@
    "includesPlayerName": false,
    "prompt": "Tres nombres terribles para una nueva marca de cereales",
    "safetyQuips": [
-    "Regular Flakes|No Pops|Unlucky Charms",
-    "Fiber Plus|Bran-tastic|Too Many Oats",
-    "Milk Friends|Bowl Pals|Spoon Chums"
+    "Hojuelas Normales|Sin Pops|Amuletos de Mala Suerte",
+    "Fibra Plus|Salva-tástico|Demasiada Avena",
+    "Amigos de Leche|Amigos de Tazón|Chicos de Cuchara"
    ],
    "us": false,
    "x": false
@@ -1215,11 +1215,11 @@
   {
    "id": "71144",
    "includesPlayerName": false,
-   "prompt": "Otros tres lugares para gritar “¡Me opongo!” además de una sala de justicia",
+   "prompt": "Otros tres lugares para gritar “¡Me opongo!” además de un tribunal",
    "safetyQuips": [
-    "Waiting in supermarket line|Stepdad's house|DUI test",
-    "In a crowded elevator|In a bully's headlock|In a non-smoking zoo",
-    "At the end of a bad movie|In an expensive restaurant|While getting married"
+    "Esperando en la fila del supermercado|La casa del padrastro|Prueba de alcoholemia",
+    "En un ascensor lleno de gente|En una llave de cabeza de matón|En un zoológico para no fumadores",
+    "Al final de una película mala|En un restaurante caro|Mientras se casan"
    ],
    "us": true,
    "x": false
@@ -1227,11 +1227,11 @@
   {
    "id": "71145",
    "includesPlayerName": false,
-   "prompt": "Tres modelos de automóviles Chevy retirados del mercado por ser “demasiado impresionantes”",
+   "prompt": "Tres modelos de auto Chevy retirados del mercado por ser “demasiado impresionantes”",
    "safetyQuips": [
-    "The Rocket|The Hammer|The Overcompensater",
-    "The Jewel|The Diamond|The Super Camaro",
-    "The Good Car|The Better Car|The Best Car"
+    "Cohete|Martillo|Sobrecompensador",
+    "Joya|Diamante|Súper Camaro",
+    "Buen auto|Mejor auto|El mejor auto"
    ],
    "us": true,
    "x": false
@@ -1241,9 +1241,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que encontrarás en la venta de garaje de Queen",
    "safetyQuips": [
-    "crown|throne|perfectly good sweater",
-    "rugs|silverware|Scotland",
-    "motorcycle|ripped jeans|DJ turntables"
+    "corona|trono|un suéter perfectamente bueno",
+    "alfombras|cubiertos|Escocia",
+    "motocicleta|pantalones rasgados|DJ tocadiscos"
    ],
    "us": false,
    "x": false
@@ -1251,11 +1251,11 @@
   {
    "id": "71161",
    "includesPlayerName": false,
-   "prompt": "Las tres cosas que tienes que hacer como pasante de Darth Vader",
+   "prompt": "Las tres cosas que tienes que hacer como practicante de Darth Vader",
    "safetyQuips": [
-    "get coffee|clean helmet|crush the rebellion",
-    "dry clean cape|pick up donuts|oil mechanical parts",
-    "wash his spaceship|schedule appointments|repair relationship with kids"
+    "conseguir café|limpiar el casco|aplastar la rebelión",
+    "secar la capa limpia|recoger rosquillas|piezas mecánicas de aceite",
+    "lavar su nave espacial|programar citas|reparar la relación con los niños"
    ],
    "us": false,
    "x": false
@@ -1265,9 +1265,9 @@
    "includesPlayerName": false,
    "prompt": "Tres trucos de patineta que NUNCA deberías probar",
    "safetyQuips": [
-    "The Face Planter|The Knee Exploder|The Sudden Death",
-    "The Tooth Loosener|The Concrete Meeter|The Bone Buster",
-    "The Hurt Locker|The Time Traveler|The Cute Kitten"
+    "El plantador de cara|El explorador de rodillas|La muerte súbita",
+    "El aflojador de dientes|El medidor de hormigón|El rompehuesos",
+    "El armario herido|El viajero del tiempo|El lindo gatito"
    ],
    "us": false,
    "x": false
@@ -1277,9 +1277,9 @@
    "includesPlayerName": false,
    "prompt": "Hay tres tipos de personas en el mundo: <BLANK>, <BLANK> y <BLANK>",
    "safetyQuips": [
-    "Single people|People in relationships|Guys that own a tarantula",
-    "Non-conspiracy theorists|Conspiracy theorists|Lizard people",
-    "winners|losers|werewolves?"
+    "Personas solteras|Personas con relaciones|Tipos que tienen una tarántula",
+    "No conspiracionistas|Conspiracionistas|Reptilianos",
+    "ganadores|perdedores|¿hombres lobo?"
    ],
    "us": false,
    "x": false
@@ -1287,11 +1287,11 @@
   {
    "id": "71240",
    "includesPlayerName": false,
-   "prompt": "Los tres pasos para extirpar quirúrgicamente su propio apéndice",
+   "prompt": "Los tres pasos para extirpar quirúrgicamente tu propio apéndice",
    "safetyQuips": [
-    "Find your sharpest steak knife|Down a bottle of whiskey|Mutter \"here goes nothing\"",
-    "Poke around in your guts|Yank out your appendix|Realize that was your spleen",
-    "Read book|Chicken out|Hope it all works out"
+    "Encuentra tu cuchillo para carne más afilado|Bébete una botella de whisky|Murmulla \"aquí no pasa nada\"",
+    "Hurga en tus entrañas|Arranca tu apéndice|Date cuenta de que era tu bazo",
+    "Lee un libro|Acobárdate|Espero que todo salga bien"
    ],
    "us": false,
    "x": false
@@ -1299,11 +1299,11 @@
   {
    "id": "71244",
    "includesPlayerName": false,
-   "prompt": "Tres formas de pepitas de pollo rechazadas",
+   "prompt": "Tres formas de nuggets de pollo rechazadas",
    "safetyQuips": [
-    "hot dogs|the Sphinx|a sad turtle",
-    "fruit|vegetables|a map of Middle Earth",
-    "big butts|little butts|any butt, really"
+    "perritos calientes|la Esfinge|una tortuga triste",
+    "fruta|verduras|un mapa de la Tierra Media",
+    "traseros grandes|pequeños traseros|cualquier trasero, en verdad"
    ],
    "us": false,
    "x": false
@@ -1313,9 +1313,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que un robot deberá dominar antes de poder ser “humano”",
    "safetyQuips": [
-    "being happy|being sad|crying at random commercials",
-    "constantly being late|making up lame excuses|wondering why you got fired",
-    "driving in rush hour traffic|getting mad at another driver|letting that ruin your day"
+    "estar feliz|estar triste|llorar en anuncios al azar",
+    "llegar siempre tarde|inventar excusas poco convincentes|preguntarse por qué te despidieron",
+    "conducir en hora punta|enojarse con otro conductor|dejar que eso te arruine el día"
    ],
    "us": false,
    "x": false
@@ -1325,9 +1325,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas para poner en tu pared para mostrar lo varonil que eres",
    "safetyQuips": [
-    "Beer cans|deer head|ten Reservoir Dogs posters",
-    "road signs|jerseys|loose protein powder",
-    "a weight bench|Y chromosomes|repressed emotions"
+    "Latas de cerveza|cabeza de ciervo|diez pósters de Perros de la calle",
+    "señales de tráfico|camisetas de fútbol|polvo de proteína suelto",
+    "un banco de pesas|cromosomas Y|emociones reprimidas"
    ],
    "us": false,
    "x": false
@@ -1335,11 +1335,11 @@
   {
    "id": "71253",
    "includesPlayerName": false,
-   "prompt": "¡Yeehaw! ¿Cuáles son las tres cosas que un buen rodeo debería tener?",
+   "prompt": "¡Yija! ¿Cuáles son las tres cosas que un buen rodeo debería tener?",
    "safetyQuips": [
-    "cool cows|big hats|chasing clowns",
-    "popcorn|peanuts|meat of unknown origin",
-    "the smell of fried food|the smell of manure|the smell of belt buckles"
+    "vacas geniales|grandes sombreros|persecusión de payasos",
+    "palomitas de maíz|maníes|carne de origen desconocido",
+    "el olor a comida frita|el olor a estiércol|el olor a hebillas de cinturón"
    ],
    "us": true,
    "x": false
@@ -1349,9 +1349,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que encontrarás en el baño de tu tía... AHORA MISMO",
    "safetyQuips": [
-    "sea shells|painting of a boat|skull of a drowned sailor",
-    "toilet|toilet paper|but single ply!",
-    "potpourri|potpourri soap|potpourri toothpaste"
+    "caracolas|cuadro de un bote|calavera de un marinero ahogado",
+    "inodoro|papel higiénico|¡pero de una hoja!",
+    "popurrí|popurrí de jabón|popurrí de pasta de dientes"
    ],
    "us": false,
    "x": false
@@ -1361,9 +1361,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que arruinan instantáneamente una camisa",
    "safetyQuips": [
-    "chocolate|grape juice|catching on fire",
-    "ink|paint|probably uranium",
-    "drying on high|bleach|creating it in Tee K.O."
+    "chocolate|jugo de uva|que se queme",
+    "tinta|pintura|probablemente uranio",
+    "secado al máximo|lejía|crearla en Tee K.O.: Batalla de camisetas"
    ],
    "us": false,
    "x": false
@@ -1373,9 +1373,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que te darán mil millones de boletos en el mostrador de premios de la sala de juegos",
    "safetyQuips": [
-    "nice erasers|a snap bracelet|the US Presidency",
-    "the stuffed tiger|the SpongBbob T-Shirt|a million finger puppets",
-    "a sports car|a three bedroom condo|an appendectomy"
+    "buenas gomas de borrar|una pulsera a presión|la presidencia de los EE. UU.",
+    "el tigre de peluche|la camiseta de Bob Esponja|un millón de marionetas de dedo",
+    "un auto deportivo|un departamento de tres habitaciones|una apendicectomía"
    ],
    "us": true,
    "x": false
@@ -1385,9 +1385,9 @@
    "includesPlayerName": false,
    "prompt": "¿Quieres ganar el Derby de Kentucky? Los mejores entrenadores de caballos nunca dejan que sus caballos <BLANK>, <BLANK> o <BLANK>",
    "safetyQuips": [
-    "drink booze|eat cheeseburgers|subscribe to Netflix",
-    "take wide turns|start late|bet on the other horses",
-    "get cocky|smack talk|believe its own hype"
+    "beban alcohol|coman hamburguesas de queso|se suscribieran a Netflix",
+    "tomen giros amplios|empiecen tarde|apuesten a otros caballos",
+    "se pongan arrogantes|hablen mal|crean en sus propios rumores"
    ],
    "us": true,
    "x": false
@@ -1395,11 +1395,11 @@
   {
    "id": "71320",
    "includesPlayerName": false,
-   "prompt": "Tres opciones de atuendos extraños para que use un slasher de películas de terror",
+   "prompt": "Tres opciones de atuendos extraños para un acuchillador de películas de terror",
    "safetyQuips": [
-    "three piece suit|ball gown|rented tuxedo",
-    "just jeans|just a shirt|just socks",
-    "cowboy hat|pirate hat|beret"
+    "traje de tres piezas|vestido de baile|esmoquin alquilado",
+    "solo pantalones|solo una camiseta|solo calcetines",
+    "sombrero de vaquero|sombrero de pirata|boina"
    ],
    "us": false,
    "x": false
@@ -1407,11 +1407,11 @@
   {
    "id": "71321",
    "includesPlayerName": false,
-   "prompt": "Tres elementos que siempre ves en el fondo de las películas para adultos",
+   "prompt": "Tres objetos que siempre ves en el fondo de las películas para adultos",
    "safetyQuips": [
-    "don't know|never seen them|I swear",
-    "boom mic|camera reflection|camera man's thumb",
-    "fake dorm room|fake classroom|fake graduation ceremony"
+    "no sé|nunca las he visto|lo juro",
+    "micrófono de brazo|reflejo de cámara|el pulgar del camarógrafo",
+    "dormitorio falso|salón de clases falso|ceremonia de graduación falsa"
    ],
    "us": false,
    "x": true
@@ -1419,11 +1419,11 @@
   {
    "id": "71322",
    "includesPlayerName": false,
-   "prompt": "Según sus hechos, las tres cosas más probables en las que reencarnará en su próxima vida",
+   "prompt": "Según tus hechos, las tres cosas más probables en las que reencarnarás en tu próxima vida",
    "safetyQuips": [
-    "a beer fridge | reclining lounge chair | Nintendo Switch",
-    "a turtle|a snail|maybe a unicorn",
-    "a squirrel|a bat|the world's first bat-squirrel"
+    "una nevera de cerveza|sillón reclinable|Nintendo Switch",
+    "una tortuga|un caracol|tal vez un unicornio",
+    "una ardilla|un murciélago|el primer murciélago-ardilla del mundo"
    ],
    "us": false,
    "x": false
@@ -1433,9 +1433,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres regalos que todo papá quiere en secreto para el Día del Padre",
    "safetyQuips": [
-    "bacon|meat|bacon-wrapped meat",
-    "a sports hat|a sports shirt|sports in a pill",
-    "a #1 dad mug|a #1 dad tie|a place to cry"
+    "tocino|carne|carne envuelta en tocino",
+    "un gorro deportivo|una camiseta deportiva|deportes en una píldora",
+    "una taza de papá #1|una corbata de papá #1|un lugar para llorar"
    ],
    "us": true,
    "x": false
@@ -1443,11 +1443,11 @@
   {
    "id": "71333",
    "includesPlayerName": false,
-   "prompt": "Los tres términos que los niños geniales usan para el estreñimiento en estos días",
+   "prompt": "Los tres términos que los niños geniales usan para el estreñimiento hoy en día",
    "safetyQuips": [
-    "butt blocks|no goes|hard times",
-    "anti-diarrhea|log jams|pushies",
-    "ouchers|strainers|eye-bulgers"
+    "nalgas|no va|tiempos difíciles",
+    "anti diarrea|atascos de troncos|avasalladores",
+    "dolorímetro|coladores|de pana"
    ],
    "us": false,
    "x": false
@@ -1455,11 +1455,11 @@
   {
    "id": "71353",
    "includesPlayerName": false,
-   "prompt": "Tres actividades extracurriculares en una escuela secundaria muy, muy, muy rica",
+   "prompt": "Tres actividades extraescolares en una escuela secundaria muy, muy, muy rica",
    "safetyQuips": [
-    "Competitive Investing|Dressage|Art Acquisition",
-    "Jewel Cleaning|Money Laundering|Baseball Team Ownership",
-    "Butler Berating|Stock Market Watch Party|Pampering 101"
+    "Inversión competitiva|Adiestramiento|Adquisición de arte",
+    "Limpieza de joyas|Lavado de dinero|Propiedad de equipos de béisbol",
+    "Reprimenda de mayordomo|Fiesta de la bolsa de comercio|Consentimientos 101"
    ],
    "us": true,
    "x": false
@@ -1469,9 +1469,9 @@
    "includesPlayerName": false,
    "prompt": "Tres señales de que tu vecino está molesto contigo",
    "safetyQuips": [
-    "Tall fence|angry looks|late night bagpipe practice",
-    "dog poop on yard|dog poop on steps|dog poop in mailbox",
-    "moves away|but still drives by|and says \"you stink\""
+    "reja alta|mirada furiosa|práctica nocturna de gaita",
+    "caca de perro en el jardín|caca de perro en las escaleras|caca de perro en el buzón",
+    "se muda lejos|pero sigue pasando|y dice \"apestas\""
    ],
    "us": false,
    "x": false
@@ -1481,9 +1481,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que hace tu cuerpo cuando conoces al amor de tu vida",
    "safetyQuips": [
-    "heart races|breathing quickens|all hair falls out",
-    "sweaty palms|knees shake|can't stop screaming",
-    "pulse quickens|hands numb|this is a heart attack"
+    "el corazón se acelera|respiración rápida|todo el pelo se cae",
+    "palmas sudorosas|las rodillas tiemblan|no dejas de gritar",
+    "el pulso se acelera|manos entumecidas|este es un infarto"
    ],
    "us": false,
    "x": false
@@ -1493,9 +1493,9 @@
    "includesPlayerName": false,
    "prompt": "Tres formas de animarse cuando el café no es suficiente",
    "safetyQuips": [
-    "nipple clamps|butt clamps|eyeball clamps",
-    "rousing game of Stratego|getting kicked in the crotch|meth",
-    "horse steroids|shark blood|a good breakfast"
+    "pinzas para pezones|pinzas para el trasero|pinzas para los ojos",
+    "una emocionante partida de blakjack|recibir una patada en la entrepierna|metanfetamina",
+    "esteroides para caballos|sangre de tiburón|un buen desayuno"
    ],
    "us": false,
    "x": true
@@ -1505,9 +1505,9 @@
    "includesPlayerName": false,
    "prompt": "Mi profesor de gimnasia de la escuela secundaria me enseñó tres cosas: <BLANK>, <BLANK> y <BLANK>",
    "safetyQuips": [
-    "jump|run|fake injuries",
-    "clear eyes|full heart|we lost sometimes",
-    "math|science|our school was underfunded"
+    "saltar|correr|lesiones falsas",
+    "ojos claros|corazón lleno|a veces perdemos",
+    "matemáticas|ciencia|nuestra escuela no tenía fondos suficientes"
    ],
    "us": true,
    "x": false
@@ -1517,9 +1517,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres lecciones que aprendimos hoy",
    "safetyQuips": [
-    "eat right|get 8 hours of sleep|dumb answers win",
-    "wash your face|brush your teeth|hide the money in the yard",
-    "Callbacks|always|win"
+    "come bien|duerme 8 horas|las respuestas tontas ganan",
+    "lávate la cara|cepíllate los dientes|esconde el dinero en el patio",
+    "Las devoluciones de llamadas|siempre|ganan"
    ],
    "us": false,
    "x": false
@@ -1529,9 +1529,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres palabras que mejor describen tu estado mental actual",
    "safetyQuips": [
-    "Too|many|chips",
-    "Sad|Angry|Hungry",
-    "A|bit|gassy"
+    "Demasiadas|papas|fritas",
+    "Triste|Enojado|Hambriento",
+    "Un|poco|gaseoso"
    ],
    "us": false,
    "x": false
@@ -1541,9 +1541,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que encontrarás en cualquier riñonera",
    "safetyQuips": [
-    "sunscreen|mint chewing gum|zero dignity",
-    "sunglasses|hard candy|a theme park map",
-    "lotion|more lotion|even. more. lotion."
+    "protector solar|chicle de menta|cero dignidad",
+    "gafas de sol|caramelo duro|un mapa del parque temático",
+    "loción|más loción|aún. más. loción."
    ],
    "us": false,
    "x": false
@@ -1553,9 +1553,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cualidades que hacen que un hombre sea “material de matrimonio”",
    "safetyQuips": [
-    "goes to church|has a truck|loves his mama",
-    "tall|dark|handserm",
-    "must love dogs|must love hogs|must wear clogs"
+    "va a la iglesia|tiene un camión|ama a su mamá",
+    "alto|oscuro|sermoneador",
+    "debe amar los perros|debe amar los cerros|debe amar los fierros"
    ],
    "us": false,
    "x": false
@@ -1565,9 +1565,9 @@
    "includesPlayerName": false,
    "prompt": "Las últimas tres palabras que dirás antes de morir",
    "safetyQuips": [
-    "I|love|cheese",
-    "I'm|coming|Abe Lincoln",
-    "ew|gross|no"
+    "amo|el|queso",
+    "ya|voy|Cantinflas",
+    "ay|no|guácala"
    ],
    "us": false,
    "x": true
@@ -1575,11 +1575,11 @@
   {
    "id": "71788",
    "includesPlayerName": false,
-   "prompt": "Tres razones por las que no vas al cielo",
+   "prompt": "Tres razones por las que no vas a entrar al cielo",
    "safetyQuips": [
-    "sinning|every|day",
-    "stole chapstick|stole a pen|murder",
-    "parking tickets|speeding tickets|caused climate change"
+    "pecas|cada|día",
+    "robaste un labial|robaste un bolígrafo|asesinaste",
+    "multas de estacionamiento|multas por exceso de velocidad|causaste el cambio climático"
    ],
    "us": false,
    "x": true
@@ -1589,9 +1589,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que pasarán en el mejor día de tu vida",
    "safetyQuips": [
-    "ride a rollercoaster|have a baby|eat soft cheese",
-    "kill my enemy|dance on his grave|forgive myself",
-    "find cash|buy lottery ticket|get real close to winning"
+    "montar una montaña rusa|tener un bebé|comer queso blando",
+    "matar a mi enemigo|bailar sobre su tumba|perdonarme a mí mismo",
+    "encontrar dinero|comprar billete de lotería|estar muy cerca de ganar"
    ],
    "us": false,
    "x": false
@@ -1601,9 +1601,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres artículos que encontrarás en el bolso del diablo",
    "safetyQuips": [
-    "wallet|phone|gum",
-    "flames|coal|cell phone",
-    "souls|sins|dirty mags"
+    "billetera|teléfono|chicle",
+    "llamas|carbón|celular",
+    "almas|pecados|revistas sucias"
    ],
    "us": false,
    "x": false
@@ -1613,9 +1613,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que te preocuparían si aparecieran en tus sueños",
    "safetyQuips": [
-    "a giant duck|that knows my name|and is my dad?",
-    "a mannequin|a talking chainsaw|a unicorn with my face",
-    "a werewolf|a Frankenstein|a chorus line of Draculas"
+    "un pato gigante|que sepa mi nombre|¿y es mi papá?",
+    "un maniquí|una motosierra parlante|un unicornio con mi cara",
+    "un hombre lobo|un Frankenstein|un coro de Dráculas"
    ],
    "us": false,
    "x": false
@@ -1623,11 +1623,11 @@
   {
    "id": "71884",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que te harán dormir bien",
+   "prompt": "Tres cosas que te harán dormir enseguida",
    "safetyQuips": [
-    "warm milk|soothing music|five seconds of public radio",
-    "a warm bed|a fluffy pillow|a cartoon knock on the head",
-    "a hypnotist|a car ride|a 12 part WWII doc"
+    "leche caliente|música relajante|cinco segundos de radio pública",
+    "una cama caliente|una almohada esponjosa|un golpe de caricatura en la cabeza",
+    "un hipnotizador|un paseo en auto|un documental de 12 partes de la Segunda Guerra Mundial"
    ],
    "us": false,
    "x": false
@@ -1637,9 +1637,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que ves justo antes de morir",
    "safetyQuips": [
-    "someone pointing|a gigantic bird|hungry baby birds",
-    "an angel|Elvis|God and He's mad",
-    "your childhood|your adulthood|the people you disappointed"
+    "alguien señalando|un ave gigante|bebés de ave hambrientas",
+    "un ángel|Elvis|tu dios y está loco",
+    "tu infancia|tu adultez|la gente que decepcionaste"
    ],
    "us": false,
    "x": true
@@ -1649,9 +1649,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que te harán gruñir",
    "safetyQuips": [
-    "heavy lifting|a punch in the gut|a cheap bike seat",
-    "a pig impression|swallowing a quarter|passing that quarter",
-    "bad gas|good gas|someone else's gas"
+    "trabajo pesado|un golpe en las tripas|un asiento de bicicleta barato",
+    "una imitación de cerdo|tragar una moneda|pasando esa moneda",
+    "gas malo|gas bueno|el gas de alguien más"
    ],
    "us": false,
    "x": false
@@ -1659,11 +1659,11 @@
   {
    "id": "72046",
    "includesPlayerName": false,
-   "prompt": "Tres palabras que podrían describir a su familia o una evacuación intestinal",
+   "prompt": "Tres palabras que podrían describir a tu familia o una evacuación intestinal",
    "safetyQuips": [
-    "pushy|uptight|clingy",
-    "hard working|old fashioned|well-meaning",
-    "loosey-goosey|ill-tempered|large"
+    "insistente|nerviosa|pegajosa",
+    "trabajo duro|a la antigua|bienintencionada",
+    "holgada y ancha|malhumorada|extensa"
    ],
    "us": false,
    "x": false
@@ -1671,11 +1671,11 @@
   {
    "id": "72047",
    "includesPlayerName": false,
-   "prompt": "Tres palabras que podrían describir el circo o tu papá",
+   "prompt": "Tres palabras que podrían describir al circo o a tu papá",
    "safetyQuips": [
-    "intense|nightmarish|tiger-filled",
-    "tent-loving|peanut-scented|overpriced",
-    "archaic|cruel|organ-filled"
+    "intenso|pesadilla|lleno de tigres",
+    "amante de las carpas|con olor a maní|sobrevalorado",
+    "arcaico|cruel|lleno de órganos"
    ],
    "us": false,
    "x": false
@@ -1685,9 +1685,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que podrías gritar si estás borracho o tienes hijos",
    "safetyQuips": [
-    "you don't know me|please don't hit me|did you pee?",
-    "where are your shoes?|why are you crying|we're leaving the zoo",
-    "stop kicking|free bird!|I love you"
+    "no me conoces|no me golpees, por favor|¿te orinaste?",
+    "¿dónde están tus zapatos?|por qué lloras|nos vamos del zoológico",
+    "deja de patear|¡ave libre!|te amo"
    ],
    "us": false,
    "x": false
@@ -1695,11 +1695,11 @@
   {
    "id": "72051",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que cuando las ves, no puedes dejarlas de ver",
+   "prompt": "Tres cosas que cuando las ves, no puedes des-verlas",
    "safetyQuips": [
-    "surgery footage|a car wreck|those Chipmunk movies",
-    "a cow giving birth|colonoscopy footage|Batman vs Superman",
-    "a subway rat|a hundred subway rats|subway rats in a trenchcoat"
+    "grabación de cirugía|un accidente de auto|esas películas de ardillas",
+    "una vaca pariendo|grabación de colonoscopia|Batman contra Superman",
+    "una rata del metro|cien ratas del metro|ratas de metro con gabardina"
    ],
    "us": false,
    "x": false
@@ -1709,9 +1709,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres peores cosas que sentir de repente en tu hombro",
    "safetyQuips": [
-    "bird poop|a lizard|a pimple growing",
-    "a hawk|a bee sting|probably a ghost",
-    "a ghost hand|an angry wasp|hot breath"
+    "caca de ave|un lagarto|un grano creciendo",
+    "un halcón|una picadura de abeja|probablemente un fantasma",
+    "una mano fantasma|una avispa enojada|aliento caliente"
    ],
    "us": false,
    "x": false
@@ -1719,11 +1719,11 @@
   {
    "id": "72118",
    "includesPlayerName": false,
-   "prompt": "Al pasar por la seguridad del aeropuerto, asegúrese de quitar su <BLANK>, <BLANK> y <BLANK>",
+   "prompt": "Al pasar por la seguridad del aeropuerto, asegúrate de quitar tu <BLANK>, <BLANK> y <BLANK>",
    "safetyQuips": [
-    "rings|earrings|ring worms",
-    "shoes|hats|hand puppets",
-    "liquids|gels|anything in between"
+    "anillos|aretes|tiña",
+    "zapatos|sombreros|marionetas de mano",
+    "líquidos|geles|todo lo que está en medio"
    ],
    "us": false,
    "x": false
@@ -1731,11 +1731,11 @@
   {
    "id": "72123",
    "includesPlayerName": false,
-   "prompt": "Tres formas sencillas de lucir duro",
+   "prompt": "Tres formas sencillas de lucir rudo",
    "safetyQuips": [
-    "Flex aggressively|Scream for no reason|Wear a horn helmet",
-    "Crush soda cans on your head|Get some cool scars|tattoo that says \"Very Tough\"",
-    "Ride a motorcycle|Ride a bear|Ride a bear on a motorcycle"
+    "Flexión agresiva|Gritar sin motivo|Usar un casco con cuernos",
+    "Aplastar latas de gaseosa en tu cabeza|Conseguir unas cicatrices geniales|tatuaje que dice \"Muy rudo\"",
+    "Montar una motocicleta|Montar un oso|Montar un oso en una moto"
    ],
    "us": false,
    "x": false
@@ -1743,11 +1743,11 @@
   {
    "id": "72125",
    "includesPlayerName": false,
-   "prompt": "Siga estos tres consejos de supervivencia si está perdido en la naturaleza",
+   "prompt": "Sigue estos tres consejos de supervivencia si estás perdido en la naturaleza",
    "safetyQuips": [
-    "Panic|Run around the woods screaming|Cry like a baby ",
-    "Find a pack of wolves|Defeat the alpha wolf|You are the wolf king now",
-    "Start a fire|Boil water|Open small coffee shop"
+    "Pánico|Corre por el bosque gritando|Llora como un bebé",
+    "Encuentra una manada de lobos|Derrota al lobo alfa|Ahora eres el rey de los lobos",
+    "Enciende un fuego|Hierve agua|Abre una pequeña cafetería"
    ],
    "us": false,
    "x": false
@@ -1755,11 +1755,11 @@
   {
    "id": "72127",
    "includesPlayerName": false,
-   "prompt": "Tres nombres que un niño puede llamar a su abuelo además de “abuelo”",
+   "prompt": "Tres nombres que un niño puede decirle a su abuelo además de “abuelo”",
    "safetyQuips": [
-    "peepoo|dad's dad|the oldster",
-    "grampgramp|pawpamp|mega dad",
-    "silly man|candy giver|gray skull"
+    "dador de dinero|papá de mi papá|el más viejo",
+    "cuentacuentos|tata|mega papá",
+    "hombre tonto|dador de caramelos|cráneo gris"
    ],
    "us": false,
    "x": false
@@ -1769,9 +1769,9 @@
    "includesPlayerName": false,
    "prompt": "Mi mamá no lo llamaría un “trasero”. Ella lo llamaría <BLANK>, <BLANK> o <BLANK>",
    "safetyQuips": [
-    "bumper|caboose|ham sandwich",
-    "rear end|back end|tragic ending",
-    "beauty|perfection|the holy grail"
+    "parachoques|furgón de cola|sándwich de jamón",
+    "parte trasera|extremo posterior|los panes",
+    "belleza|perfección|el santo grial"
    ],
    "us": false,
    "x": false
@@ -1781,9 +1781,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas en tu “lugar feliz”",
    "safetyQuips": [
-    "unlimited pizza|unlimited chicken wings|unlimited antacid",
-    "football pre-game shows|football|football post-game shows",
-    "nothing|but|ice cream"
+    "pizza ilimitada|alas de pollo ilimitadas|antiácido ilimitado",
+    "programas previos al partido de fútbol|fútbol|programas pospartido de fútbol",
+    "nada|excepto|helado"
    ],
    "us": false,
    "x": false
@@ -1793,9 +1793,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas con las que el mundo se enfrentará el próximo año que nadie predeciría",
    "safetyQuips": [
-    "bird attack|alien invasion|return of Gangnam Style",
-    "goose storms|cheese lightning|global humming",
-    "toot disease|intelligent hamsters|pudding rain"
+    "ataque de aves|invasión extraterrestre|el regreso de Gangnam Style",
+    "tormentas de ganso|rayos de queso|Tercera Guerra Mundial",
+    "enfermedad del tobillo|hámsters inteligentes|lluvia de pudín"
    ],
    "us": false,
    "x": false
@@ -1805,9 +1805,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas raras para hacer con madera",
    "safetyQuips": [
-    "socks|a hat|boxer briefs",
-    "false teeth|a false chin|a false head",
-    "a laptop|a family sedan|memory foam mattress"
+    "calcetines|un sombrero|calzoncillos",
+    "dientes postizos|una barbilla falsa|una cabeza falsa",
+    "una computadora portátil|unsedán familiar|colchón de espuma con memoria"
    ],
    "us": false,
    "x": false
@@ -1817,9 +1817,9 @@
    "includesPlayerName": false,
    "prompt": "No es tu PEOR pesadilla hasta que haya <BLANK>, <BLANK> y finalmente <BLANK>",
    "safetyQuips": [
-    "a clown|a hatchet|an abandoned hotel",
-    "gym class|a ceiling rope|hundreds of people waiting",
-    "an ostrich|my stepdad|a get-rich-quick scheme"
+    "un payaso|un hacha|un hotel abandonado",
+    "clase de gimnasia|una cuerda en el techo|cientos de personas esperando",
+    "un avestruz|mi padrastro|un esquema de enriquecimiento rápido"
    ],
    "us": false,
    "x": false
@@ -1829,9 +1829,9 @@
    "includesPlayerName": false,
    "prompt": "Tres nuevos términos para la palabra “orgasmo”",
    "safetyQuips": [
-    "blast off|bingo|wowza",
-    "jackpot|the bounce house|prime time",
-    "touchdown|home run|hat trick?"
+    "despegue|bingo|vayaza",
+    "lotería|el castillo inflable|horario estelar",
+    "aterrizaje|gol|¿triplete?"
    ],
    "us": false,
    "x": true
@@ -1839,11 +1839,11 @@
   {
    "id": "72428",
    "includesPlayerName": false,
-   "prompt": "Las tres señales de que podrías ser pura maldad son ...",
+   "prompt": "Las tres señales de que podrías ser pura maldad son...",
    "safetyQuips": [
-    "you hate kids|you hate dogs|you like smooth jazz",
-    "holy water stings|crosses sting|brimstone is fine though",
-    "you levitate|misery gives you strength|you're always on fire"
+    "odias a los niños|odias a los perros|te gusta el jazz suave",
+    "el agua bendita arde|las cruces arden|pero el azufre está bien",
+    "levitas|la miseria te da fuerza|siempre estás en llamas"
    ],
    "us": false,
    "x": false
@@ -1851,11 +1851,11 @@
   {
    "id": "72429",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que cambiarías de Superman para hacerlo más identificable",
+   "prompt": "Tres cosas que cambiarías de Superman para hacerlo más cercano",
    "safetyQuips": [
-    "no powers|no job|wait, that's me",
-    "give him a new costume|like a bat|but like, a rich bat",
-    "has student loans|has a dead end job|loves hard seltzers"
+    "no tiene poderes|no tiene trabajo|espera, soy yo",
+    "dale un traje nuevo|como un murciélago|pero como, un murciélago rico",
+    "tiene préstamos estudiantiles|tiene un trabajo sin futuro|ama la soda dura"
    ],
    "us": false,
    "x": false
@@ -1863,11 +1863,11 @@
   {
    "id": "72430",
    "includesPlayerName": false,
-   "prompt": "Tres secretos que este grupo, ustedes, aquí mismo, se esconden el uno del otro",
+   "prompt": "Tres secretos que este grupo, sí, ustedes aquí mismo, se esconden el uno del otro",
    "safetyQuips": [
-    "we're allergic to nuts|we're allergic to cheese|we're allergic to each other",
-    "nothing|we're open books|except im an undercover spy",
-    "we're actually bears|in people clothes|roar"
+    "somos alérgicos a las nueces|somos alérgicos al queso|somos alérgicos el uno al otro",
+    "nada|somos libros abiertos|excepto que soy un espía encubierto",
+    "en realidad somos osos|disfrazados de humanos|rarrr"
    ],
    "us": false,
    "x": true
@@ -1877,9 +1877,9 @@
    "includesPlayerName": false,
    "prompt": "Tres títulos de trabajo que suenan demasiado buenos para ser verdad",
    "safetyQuips": [
-    "cookie tester|president of napping|money spender",
-    "vice-president of snoozing|mayor of cake town|CEO of cheese",
-    "Video game tester|Exercise avoider|Roller coaster pilot"
+    "probador de galletas|presidente de la siesta|gastador de dinero",
+    "vicepresidente de la siesta|alcalde de la ciudad de las tortas|director ejecutivo del queso",
+    "Probador de videojuegos|Evitar el ejercicio|Piloto de montaña rusa"
    ],
    "us": false,
    "x": false
@@ -1889,8 +1889,8 @@
    "includesPlayerName": false,
    "prompt": "¿Cuál es la historia de tres palabras más triste del mundo?",
    "safetyQuips": [
-    "Out|Of|Guac",
-    "Pooped|My|Pants"
+    "Guacamole|se|acabó",
+    "Defequé|mis|pantalones"
    ],
    "us": false,
    "x": false
@@ -1900,9 +1900,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres tendencias más calientes del verano serán <BLANK>, <BLANK> y <BLANK>",
    "safetyQuips": [
-    "being outdoors|growing long hair|becoming a sasquatch",
-    "missing spring|missing autumn|not missing winter",
-    "buying telescopes|forgetting abt telescopes|selling telescopes"
+    "estar al aire libre|crecimiento del cabello largo|convertirse en sasquatch",
+    "extrañar la primavera|extrañar el otoño|extrañar el invierno",
+    "comprar telescopios|olvidarse de los telescopios|vender telescopios"
    ],
    "us": false,
    "x": false
@@ -1910,11 +1910,11 @@
   {
    "id": "72550",
    "includesPlayerName": false,
-   "prompt": "Las tres reglas más importantes de tu propio club de cosquillas privado",
+   "prompt": "Las tres reglas más importantes de tu propio club privado de cosquillas",
    "safetyQuips": [
-    "no pictures|no fake laughs|no real names",
-    "must participate|must laugh|must be ticklish",
-    "no shirt|no shoes|that's it"
+    "sin fotos|sin risas falsas|sin nombres reales",
+    "debes participar|debes reírte|debes ser cosquilloso",
+    "sin camisa|sin zapatos|eso es todo"
    ],
    "us": false,
    "x": false
@@ -1924,9 +1924,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que es mejor que no traigas a una pelea con cuchillos, tonto",
    "safetyQuips": [
-    "a spoon|a sword|bad attitude",
-    "a weak stomach|a dull knife|hemophilia",
-    "a gun|unless it shoots knives|no that's still illegal"
+    "una cuchara|una espada|mala actitud",
+    "un estómago débil|un cuchillo sin filo|hemofilia",
+    "una pistola|a menos que dispare cuchillos|no, eso sigue siendo ilegal"
    ],
    "us": false,
    "x": false
@@ -1936,9 +1936,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que mejor tiene tu foto de perfil de citas si quieres un poco de amor",
    "safetyQuips": [
-    "a tiger|a mullet|a Netflix deal",
-    "a fancy car|a gold chain|lack of humility",
-    "an eagle on my shoulder|an explosion behind me|a permit to do these things"
+    "un tigre|un afro|un acuerdo con Netflix",
+    "un auto elegante|una cadena de oro|falta de humildad",
+    "un águila en mi hombro|una explosión detrás de mí|un permiso para hacer estas cosas"
    ],
    "us": false,
    "x": false
@@ -1948,9 +1948,9 @@
    "includesPlayerName": false,
    "prompt": "Las primeras tres palabras originales de la Biblia",
    "safetyQuips": [
-    "Whoa!|Total|darkness",
-    "What|to|do?",
-    "Start|this|party!"
+    "¡Oooh!|Oscuridad|total",
+    "¿Qué|puedo|hacer?",
+    "¡Empieza|la|fiesta!"
    ],
    "us": false,
    "x": false
@@ -1960,9 +1960,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres palabras que nunca deberían aparecer en la misma oración",
    "safetyQuips": [
-    "pass|the|spleen",
-    "charity|compassion|xenomorph",
-    "shave|me|grandma"
+    "pasar|el|bazo",
+    "caridad|compasión|xenomorfo",
+    "aféitame|todo|abuela"
    ],
    "us": false,
    "x": false
@@ -1972,9 +1972,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas más sorprendentes que se esconden debajo de los cojines del sofá",
    "safetyQuips": [
-    "missing pants|human soul|chicken sandwich",
-    "your last sofa | coins hidden in second sofa | sandwich",
-    "a mobster|a dead body|cash to forget what you saw"
+    "pantalones perdidos|alma humana|sándwich de pollo",
+    "tu último sofá|monedas ocultas en tu segundo sofá|sándwich",
+    "un mafioso|un cadáver|dinero para que olvides lo que viste"
    ],
    "us": false,
    "x": false
@@ -1984,9 +1984,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres pasos para una cirugía perfecta",
    "safetyQuips": [
-    "cut|copy|paste",
-    "greet the body|slice the body|heal the body",
-    "chug a Red Bull|watch an ER rerun|just feel it"
+    "cortar|copiar|pegar",
+    "saludar al cuerpo|cortar el cuerpo|sanar el cuerpo",
+    "beber una Red Bull|ver una repetición de Scrubs|solo sentirlo"
    ],
    "us": false,
    "x": false
@@ -1994,9 +1994,9 @@
   {
    "id": "72557",
    "includesPlayerName": false,
-   "prompt": "Según las personas mayores, las únicas tres cosas que hacen los jóvenes en estos días",
+   "prompt": "Según las personas mayores, las únicas tres cosas que hacen los jóvenes hoy en día",
    "safetyQuips": [
-    "Facebook|Instagram|invent new ways to disrespect"
+    "Facebook|Instagram|inventar nuevas formas de faltar el respeto"
    ],
    "us": false,
    "x": false
@@ -2006,9 +2006,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres pasos para tener una sesión de besos exitosa",
    "safetyQuips": [
-    "put on chill music|be emotionally available|try to have fun",
-    "lock eyes across room|heavily flirt|leave family reunion",
-    "light a bunch of candles|realize it's creepy|just get tipsy and smooch"
+    "poner música relajante|estar disponible emocionalmente|intentar divertirse",
+    "miradas fijas a través de la habitación|coquetear fuertemente|abandonar la reunión familiar",
+    "encender muchas velas|darse cuenta que es aterrador|solo emborracharse y besarse"
    ],
    "us": false,
    "x": true
@@ -2018,9 +2018,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que debes hacer el día de tu boda",
    "safetyQuips": [
-    "have fun|take some time together|avoid any witch's curses",
-    "argue over price of open bar|dance|get Aunt Cindy a ride home",
-    "slice cake|smash into each others' faces|hold grudge for years"
+    "divertirte|tomarse un tiempo juntos|evitar cualquier maldición de bruja",
+    "discutir sobre el precio de la barra libre|bailar|llevar a la tía Rosa a la casa",
+    "cortar la torta|golpear en la cara entre todos|guardar rencor por años"
    ],
    "us": false,
    "x": false
@@ -2030,9 +2030,9 @@
    "includesPlayerName": false,
    "prompt": "Sabes que te equivocaste de botella de champú cuando las instrucciones de tres pasos son <BLANK>, <BLANK>, <BLANK>",
    "safetyQuips": [
-    "rinse|lather|kill a whale",
-    "rinse|lather|smite your enemies",
-    "rinse|lather|if u value ur life dont repeat"
+    "enjuagar|espumar|matar una ballena",
+    "enjuagar|espumar|golpear a tus enemigos",
+    "enjuagar|espumar|si valoras tu vida no repitas"
    ],
    "us": false,
    "x": false
@@ -2042,9 +2042,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que debes evitar comer para vivir diez años más",
    "safetyQuips": [
-    "poison|uranium|oddly enough, toast",
-    "your words|your feelings|but mostly your feelings",
-    "glass|metal|anything \"chicken fried\""
+    "veneno|uranio|curiosamente, las tostadas",
+    "tus palabras|tus sentimientos|pero sobre todo sus sentimientos",
+    "vidrio|metal|todo lo que sea \"pollo frito\""
    ],
    "us": false,
    "x": false
@@ -2052,11 +2052,11 @@
   {
    "id": "72562",
    "includesPlayerName": false,
-   "prompt": "Las tres mentiras que te dices a ti mismo son ...",
+   "prompt": "Las tres mentiras que te dices a ti mismo son...",
    "safetyQuips": [
-    "the toilet isn't leaking|i'll fix it tomorrow|there isn't sewage everywhere",
-    "i don't like the Golden Girls|i didn't order a gray wig|u don't \"have\" to call me Sophia",
-    "i look good in bangs|i can trim my own bangs|i love my shaved head"
+    "el inodoro no gotea|lo arreglaré mañana|no hay aguas residuales en todas partes",
+    "no me gustan Los años dorados|no pedí una peluca gris|no \"tienes\" que decirme Sophia",
+    "me queda bien el flequillo|puedo recortar mi propio flequillo|me encanta mi cabeza rapada"
    ],
    "us": false,
    "x": false
@@ -2066,9 +2066,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas en las que debes ser bueno para realmente salir adelante en la vida",
    "safetyQuips": [
-    "lying|cheating|combo of lying and cheating",
-    "being born rich|acting like you work hard|that's it",
-    "being good|being honest|realizing that's for suckers"
+    "mentir|engañar|una combinación de mentir y engañar",
+    "nacer rico|actuar como si trabajaras duro|eso es todo",
+    "ser bueno|ser honesto|darse cuenta de que eso es para los tontos"
    ],
    "us": false,
    "x": false
@@ -2076,11 +2076,11 @@
   {
    "id": "72564",
    "includesPlayerName": false,
-   "prompt": "Los tres pasos para tener una pequeña mañana perfecta",
+   "prompt": "Los tres pasos para tener una mañana perfecta",
    "safetyQuips": [
-    "wake up|figure out where you are|rob the place",
-    "make some coffee|eat some cereal|go back to bed",
-    "struggle with vampire|pull back curtain|reveal sunrise"
+    "despertarse|descubrir dónde estás|robar ahí",
+    "preparar café|comer cereal|volver a la cama",
+    "luchar con el vampiro|correr la cortina|revelar el amanecer"
    ],
    "us": false,
    "x": false
@@ -2090,9 +2090,9 @@
    "includesPlayerName": false,
    "prompt": "Los niños están hechos de cosas como “azúcar, especias y todo lo bueno”. ¿De qué están hechos los adultos?",
    "safetyQuips": [
-    "regret|anger|stuffed crust pizza",
-    "debt|more debt|get rich quick schemes",
-    "retirement funds|lawn care knowledge|Facebook opinions"
+    "arrepentimiento|ira|pizza de masa rellena",
+    "deudas|más deudas|esquemas para hacerse rico rápidamente",
+    "fondos de jubilación|conocimientos sobre el cuidado del jardín|opiniones de Facebook"
    ],
    "us": false,
    "x": false
@@ -2100,11 +2100,11 @@
   {
    "id": "72718",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que realmente no quiere que su médico le diga durante un examen",
+   "prompt": "Tres cosas que realmente no quieres que tu médico diga durante un examen",
    "safetyQuips": [
-    "ew|what's that thing?|oh god it bit me",
-    "terrible bones|your blood sucks|worst. organs. ever.",
-    "wait|hold on|wrong room"
+    "guácala|¿qué es eso?|diablos, me mordió",
+    "huesos terribles|tu sangre es malísima|los peores. órganos. de la historia.",
+    "aguarda|espera|sala equivocada"
    ],
    "us": false,
    "x": false
@@ -2114,9 +2114,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que siempre olvidas cuando sales de casa",
    "safetyQuips": [
-    "keys|wallet|pants",
-    "sword|shield|map to dragon's lair",
-    "phone|hat|sense of direction"
+    "llaves|billetera|pantalones",
+    "espada|escudo|mapa a la guarida del dragón",
+    "celular|gorro|sentido de la orientación"
    ],
    "us": false,
    "x": false
@@ -2124,11 +2124,11 @@
   {
    "id": "72934",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que son mejores cuando son rápidos",
+   "prompt": "Tres cosas que son mejores cuando son rápidas",
    "safetyQuips": [
-    "planes|trains|root canals",
-    "racecars|jet planes|chest waxings",
-    "school recitals|haircuts|racehorses"
+    "aviones|trenes|endodoncias",
+    "autos de carreras|aviones de propulsión a chorro|depilación de pecho",
+    "recitales de la escuela|cortes de cabello|caballos de carreras"
    ],
    "us": false,
    "x": false
@@ -2138,9 +2138,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que puedes decir para llamar la atención de todos de inmediato",
    "safetyQuips": [
-    "fire|free tacos|the free tacos are on fire",
-    "I|Pooped|My Pants",
-    "Nobody Panic|It's Okay|But There's a Loose Cobra"
+    "fuego|tacos gratis|los tacos gratis se están quemando",
+    "me hice|caca|en los pantalones",
+    "Que no cunda el pánico|Está bien|Pero hay una cobra suelta"
    ],
    "us": false,
    "x": false
@@ -2148,11 +2148,11 @@
   {
    "id": "72975",
    "includesPlayerName": false,
-   "prompt": "Las tres señales de que ahora eres ... un adulto",
+   "prompt": "Las tres señales de que ahora eres... un adulto",
    "safetyQuips": [
-    "hair falls out|hair grows elsewhere|always saying \"huh\"",
-    "start talking about lawns|start talking about taxes|discover public radio",
-    "eat more fiber|in bed by 10|suddenly understand escrow"
+    "se te cae el cabello|te crece pelo en todas partes|siempre dices \"eh\"",
+    "empiezas a hablar de jardines|empiezas a hablar de impuestos|descubres la radio pública",
+    "comes más fibra|te acuestas a las 10|de repente entiendes el fideicomiso"
    ],
    "us": false,
    "x": false
@@ -2162,9 +2162,9 @@
    "includesPlayerName": false,
    "prompt": "Si una imagen vale más que mil palabras, ¿qué tres palabras dijo tu última selfie?",
    "safetyQuips": [
-    "what's|that|stain",
-    "sadness|depression|taco bell",
-    "I|need|attention"
+    "¿y|esa|mancha?",
+    "tristeza|depresión|Taco Bell",
+    "préstenme|su|atención"
    ],
    "us": false,
    "x": false
@@ -2172,11 +2172,11 @@
   {
    "id": "73012",
    "includesPlayerName": false,
-   "prompt": "Las tres etapas de la vida son simplemente ...",
+   "prompt": "Las tres etapas de la vida son simplemente...",
    "safetyQuips": [
-    "birth|death|come back as a rhino",
-    "birth|growing/losing hair|death",
-    "pre-high school|high school|missing high school"
+    "nacimiento|muerte|volver como un rinoceronte",
+    "nacimiento|crecimiento/pérdida de cabello|muerte",
+    "pre escuela secundaria|escuela secundaria|extrañar la escuela secundaria"
    ],
    "us": false,
    "x": false
@@ -2186,9 +2186,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres principales dolencias diagnosticadas por médicos veteranos",
    "safetyQuips": [
-    "bee brains|adventurer's elbow|monster toes",
-    "coal tongue|death poops|evil hair",
-    "wandering ear|excited spleen|haunted stomach"
+    "cerebros de abeja|codo de aventurero|dedos de los pies monstruosos",
+    "lengua de carbón|caca de la muerte|cabello malvado",
+    "oído errante|bazo excitado|estómago embrujado"
    ],
    "us": false,
    "x": false
@@ -2198,9 +2198,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas aterradoras con las que tropezar en el bosque",
    "safetyQuips": [
-    "a bear|a ghost|your past regrets",
-    "a UFO|a vampire|your credit card debt",
-    "a grizzled loner|but he wants to hang out|and talk fantasy baseball"
+    "un oso|un fantasma|tus arrepentimientos del pasado",
+    "un OVNI|un vampiro|la deuda de tu tarjeta de crédito",
+    "un solitario canoso|pero quiere pasar el rato|y hablar de béisbol de fantasía"
    ],
    "us": false,
    "x": false
@@ -2210,9 +2210,9 @@
    "includesPlayerName": true,
    "prompt": "Di tres cosas agradables sobre <ANYPLAYER>",
    "safetyQuips": [
-    "I can't|I'm not|actually here ",
-    "nice person|i don't have specific examples|but I assume so",
-    "playing Quiplash 3|not winning|but didn't give up"
+    "no puedo|en realidad|no estoy aquí",
+    "buena persona|no tengo ejemplos concretos|pero supongo que sí",
+    "juega Quiplash 3|no está ganando|pero no se rinde"
    ],
    "us": false,
    "x": false
@@ -2222,9 +2222,9 @@
    "includesPlayerName": false,
    "prompt": "Tres señales de que se registró en una casa de alquiler realmente mala",
    "safetyQuips": [
-    "no toaster|no blender|no roof",
-    "no air conditioning|no furniture|p sure it's a gas station",
-    "carpet smells|photographers everywhere|chalk outline still visible"
+    "no hay tostadora|ni licuadora|ni techo",
+    "no hay aire acondicionado|ni muebles|seguro que es una gasolinera",
+    "la alfombra apesta|hay fotógrafos por todos lados|el contorno de tiza aún es visible"
    ],
    "us": false,
    "x": false
@@ -2234,9 +2234,9 @@
    "includesPlayerName": false,
    "prompt": "Tres señales de que te estás convirtiendo lentamente en tus padres",
    "safetyQuips": [
-    "clip coupons|wake up early|show love through food",
-    "become passive aggressive|even to dogs|and babies",
-    "eat at buffets|yell at the news|eat a lot of bran"
+    "recortas cupones|despiertas temprano|demuestras amor con la comida",
+    "te vuelves pasivo agresivo|incluso con los perros|y bebés",
+    "comes en los bufet|le gritas a las noticias|comes mucho salvado"
    ],
    "us": false,
    "x": false
@@ -2246,9 +2246,9 @@
    "includesPlayerName": false,
    "prompt": "Tres palabras que te llevarán instantáneamente a una ira irracional",
    "safetyQuips": [
-    "pumpkin|spice|anything",
-    "overhead|bins|full",
-    "heard|my|podcast?"
+    "amigue|date|cuenta",
+    "basureros|completamente|llenos",
+    "¿viste|mi|video?"
    ],
    "us": false,
    "x": false
@@ -2258,9 +2258,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas raras para escuchar a un fantasma gemir en medio de la noche",
    "safetyQuips": [
-    "Chili's|baby back ribs|barbecue sauce",
-    "who|wants|margaritas",
-    "am i dead?|where's the TV remote?|we're outta peanut butter"
+    "ají|costillas de cerdo|salsa barbecue",
+    "¿quién|quiere|margaritas?",
+    "¿estoy muerto?|¿dónde está el control remoto?|se acabó la mantequilla de maní"
    ],
    "us": false,
    "x": false
@@ -2268,11 +2268,11 @@
   {
    "id": "73394",
    "includesPlayerName": false,
-   "prompt": "Las tres mejores cosas que Internet nos ha dado",
+   "prompt": "Las tres mejores cosas que internet nos ha dado",
    "safetyQuips": [
-    "puppy videos|instant news|angry uncles",
-    "stock tips|online banking|bankruptcy guidance",
-    "constant news|constant opinions|constant stress"
+    "videos de perritos|noticias al instante|tíos furiosos",
+    "consejos de acciones|banca en línea|orientación sobre quiebras",
+    "noticias constantes|opiniones constantes|estrés constante"
    ],
    "us": false,
    "x": false
@@ -2282,9 +2282,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas más ineficaces para escribir en la arena para señalar un avión de rescate",
    "safetyQuips": [
-    "Doing|Fine|Thanks",
-    "Get|Outta|Here",
-    "Need Tickets To Lolla|Ask Me About My Honor Student|Keep having a good day"
+    "Estoy|Bien|Gracias",
+    "Salir|de|aquí",
+    "Necesito entradas para Lollapalooza|Pregúntame sobre mi estudiante de honor|Sigue teniendo un buen día"
    ],
    "us": false,
    "x": false
@@ -2294,9 +2294,9 @@
    "includesPlayerName": false,
    "prompt": "Tres fondos de Zoom que nadie pide",
    "safetyQuips": [
-    "a sausage factory|toe surgery|an ant farm",
-    "a rerun of Matlock|budget debates|forklift accidents",
-    "a staring clown|a ball of leeches|a closeup of dandruff"
+    "una fábrica de salchichas|cirugía de dedos|una granja de hormigas",
+    "una repetición de El mentalista|debates sobre el presupuesto|accidentes con montacargas",
+    "un payaso con mirada fija|un baile de sanguijuelas|un primer plano de la caspa"
    ],
    "us": false,
    "x": false
@@ -2304,11 +2304,11 @@
   {
    "id": "73414",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que nunca debes mojarte",
+   "prompt": "Tres cosas que nunca debes mojar",
    "safetyQuips": [
-    "smart watch|smart phone|smart people",
-    "sugar|salt|a combination of the two",
-    "my hair|no, seriously|I finally got it how I want"
+    "reloj inteligente|teléfono inteligente|gente inteligente",
+    "azúcar|sal|una combinación de ambos",
+    "mi cabello|no, en serio|por fin lo tengo como quiero"
    ],
    "us": false,
    "x": false
@@ -2318,9 +2318,9 @@
    "includesPlayerName": false,
    "prompt": "¡Seamos positivos! ¡Nombra tres cosas que esperas con ansias!",
    "safetyQuips": [
-    "Quiplash 4|Quiplash 5|Quiplash: The Roller Coaster",
-    "a beach vacation|a margarita|getting sand out of my socks",
-    "the next superhero movie|unless it's dumb|it'll probably be dumb"
+    "Quiplash 4|Quiplash 5|Quiplash: La montaña rusa",
+    "unas vacaciones en la playa|una margarita|sacar la arena de mis calcetines",
+    "la próxima película de superhéroes|a menos que sea una tontería|probablemente será una tontería"
    ],
    "us": false,
    "x": false
@@ -2330,9 +2330,9 @@
    "includesPlayerName": false,
    "prompt": "Tres señales de que vives al lado de un jefe de la mafia",
    "safetyQuips": [
-    "bullets all over lawn|constant whacking sounds|makes offers you can't refuse",
-    "constantly paying you off|trash can full of subpoenas|has \"Mob Boss\" pajamas",
-    "spends fortune in rolled up rugs|always digging holes|wipes brow with $100 bills"
+    "balas por todo el jardín|constantes sonidos de golpes|hace ofertas que no puedes rechazar",
+    "te soborna constantemente|cubo de basura lleno de citaciones|tiene  pijama de \"jefe de la mafia\"",
+    "gasta una fortuna en alfombras enrolladas|siempre cava agujeros|se limpia la frente con billetes de 100 dólares"
    ],
    "us": false,
    "x": true
@@ -2342,9 +2342,9 @@
    "includesPlayerName": false,
    "prompt": "Tres de los descubrimientos menos impresionantes de Einstein",
    "safetyQuips": [
-    "the dishwasher heavy cycle|a missing sock|a very sexy planet",
-    "strawberry milk|chocolate milk|banana milk",
-    "several magic tricks|the theory of smellativity|Mumford and Sons"
+    "el ciclo pesado del lavavajillas|un calcetín perdido|un planeta muy sensual",
+    "leche de frutilla|leche de chocolate|leche de plátano",
+    "varios trucos de magia|la teoría de la oleosidad|la banda Ghost"
    ],
    "us": false,
    "x": false
@@ -2352,11 +2352,11 @@
   {
    "id": "73431",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que son los verdaderos tesoros que encontramos en el camino",
+   "prompt": "Tres cosas que son los VERDADEROS tesoros que encontramos en el camino",
    "safetyQuips": [
-    "friendship|family|a big big ruby",
-    "working organs|good credit|nice in-laws",
-    "self-esteem|good posture|callback jokes"
+    "amistad|familia|un enorme rubí",
+    "órganos en buen estado|buen crédito|suegros agradables",
+    "autoestima|buena postura|bromas telefónicas"
    ],
    "us": false,
    "x": false
@@ -2364,11 +2364,11 @@
   {
    "id": "73432",
    "includesPlayerName": false,
-   "prompt": "¡Sea positivo! ¿Cuáles son las tres cosas BUENAS de estar muerto?",
+   "prompt": "¡Sé positivo! ¿Cuáles son las tres cosas BUENAS de estar muerto?",
    "safetyQuips": [
-    "no more rent|no more small talk|quiet neighbors",
-    "free dirt|hang with ghosts|no more talking to the living ",
-    "no|social|media"
+    "no más alquiler|no más charla trivial|vecinos silenciosos",
+    "tierra gratis|salir con fantasmas|no hablar más con los vivos",
+    "sin|redes|sociales"
    ],
    "us": false,
    "x": true
@@ -2378,9 +2378,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que necesitas para comenzar esa nueva sociedad tuya",
    "safetyQuips": [
-    "butcher|baker|candlestick reseller",
-    "Tom Hanks|Tom Hanks' son|Guy Fieri",
-    "money|some property|UN recognition"
+    "carnicero|panadero|revendedor de candelabros",
+    "Tom Hanks|hijo de Tom Hanks|Dwayne Johnson",
+    "dinero|algunas propiedades|Reconocimiento de la ONU"
    ],
    "us": false,
    "x": false
@@ -2390,9 +2390,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas neutrales para escribir en una tarjeta de cumpleaños para un compañero de trabajo que no conoces muy bien",
    "safetyQuips": [
-    "You were born|general congratulations|many wishes",
-    "This is a card|good job|nice desk",
-    "Happy|Birthday|Ron?"
+    "Naciste|felicitaciones generales|muchos deseos",
+    "Esta es una tarjeta|buen trabajo|buen escritorio",
+    "Feliz|cumpleaños|¿Ron?"
    ],
    "us": false,
    "x": false
@@ -2402,8 +2402,8 @@
    "includesPlayerName": false,
    "prompt": "Resume tu último encuentro romántico en tres palabras",
    "safetyQuips": [
-    "rollercoaster|safety|needed",
-    "Asleep|by|nine"
+    "montaña rusa|necesita|seguridad",
+    "dormido|a las|nueve"
    ],
    "us": false,
    "x": true
@@ -2411,11 +2411,11 @@
   {
    "id": "73494",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que puede usar en una reunión de negocios para demostrar que merece respeto",
+   "prompt": "Tres cosas que puedes usar en una reunión de negocios para demostrar que mereces respeto",
    "safetyQuips": [
-    "a power tie|a fedora|brass knuckles",
-    "cool glasses|a big mustache|a cowboy hat",
-    "a bunch of rings|a magic amulet|nice shoes"
+    "una corbata poderosa|un sombrero|nudillos de bronce",
+    "anteojos geniales|un gran bigote|un sombrero de vaquero",
+    "muchos anillos|un amuleto mágico|zapatos lindos"
    ],
    "us": false,
    "x": false
@@ -2425,9 +2425,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que Marte necesita antes de que podamos vivir allí",
    "safetyQuips": [
-    "more oxygen|more water|more taco trucks",
-    "agriculture|entertainment|a mini Las Vegas",
-    "swimming pools|lazy rivers|any water features, really"
+    "más oxígeno|más agua|más camiones de tacos",
+    "agricultura|entretenimiento|una mini Las Vegas",
+    "piscinas|ríos tranquilos|cualquier elemento de agua, en verdad"
    ],
    "us": false,
    "x": false
@@ -2435,11 +2435,11 @@
   {
    "id": "73496",
    "includesPlayerName": false,
-   "prompt": "Honestamente, los tres mayores logros de la humanidad han sido ...",
+   "prompt": "Honestamente, los tres mayores logros de la humanidad han sido...",
    "safetyQuips": [
-    "geometry|poetry|calzones",
-    "fat free milk|video chatting|the Grand Canyon?",
-    "electricity|philosophy|drive-thrus"
+    "geometría|poesía|pizza",
+    "leche descremada|videochat|¿el Gran Cañón?",
+    "electricidad|filosofía|autoservicio"
    ],
    "us": false,
    "x": false
@@ -2449,9 +2449,9 @@
    "includesPlayerName": false,
    "prompt": "Tres consejos que le darías a tu yo más joven",
    "safetyQuips": [
-    "eat more veggies|but not deep fried|okay, some deep fried",
-    "save your money|save your photos|don't save toenails",
-    "travel more|eat more|write a predictable book"
+    "come más verduras|pero no fritas|bueno, algunas fritas",
+    "ahorra tu dinero|guarda tus fotos|no guardes las uñas de los pies",
+    "viaja más|come más|escribe un libro predecible"
    ],
    "us": false,
    "x": false
@@ -2459,11 +2459,11 @@
   {
    "id": "73571",
    "includesPlayerName": false,
-   "prompt": "¡Vamos a llegar a conocer unos a otros! ¡Descríbete en tres palabras!",
+   "prompt": "¡Vamos a conocernos! ¡Descríbete en tres palabras!",
    "safetyQuips": [
-    "cool|suave|delusional",
-    "hungry|sleepy|repeat",
-    "happy|beyond|belief"
+    "genial|cortés|delirante",
+    "hambriento|somnoliento|repite",
+    "feliz|por|mucho"
    ],
    "us": false,
    "x": false
@@ -2473,9 +2473,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que no debes hacer cuando estás enojado",
    "safetyQuips": [
-    "operate a chainsaw|make balloon animals|brain surgery",
-    "officiate a wedding|teach toddlers|get angrier",
-    "try on underwear|shave your legs|talk to the public"
+    "ocupar una motosierra|hacer animales con globos|cirugía cerebral",
+    "oficiar una boda|enseñar a los niños|enojarse más",
+    "probarse ropa interior|afeitar tus piernas|hablarle al público"
    ],
    "us": false,
    "x": false
@@ -2485,8 +2485,8 @@
    "includesPlayerName": false,
    "prompt": "Tres palabras que no querrás que alguien use para describir tus genitales",
    "safetyQuips": [
-    "rough|and|ready",
-    "fixer-upper|teardown|sewage problems"
+    "rugoso|y|listo",
+    "reparador|desmontaje|problemas de alcantarillado"
    ],
    "us": false,
    "x": true
@@ -2496,8 +2496,8 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que pondrías en una trampa como cebo para Ben Affleck",
    "safetyQuips": [
-    "cigarettes|Red Sox tickets|bad decisions",
-    "Dunkin' Donuts coffee|Dunkin' Donuts donuts|the CEO of Dunkin' Donuts"
+    "cigarrillos|Entradas para los Red Sox|malas decisiones",
+    "Café de Dunkin' Donuts|Rosquillas de Dunkin' Donuts|el director ejecutivo de Dunkin' Donuts"
    ],
    "us": true,
    "x": false
@@ -2507,9 +2507,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que quieres tocar AHORA MISMO",
    "safetyQuips": [
-    "hearts|minds|a turtle",
-    "slime|gak|combo slime-gak",
-    "a $10 bill|a $100 bill|honestly, just a living wage"
+    "corazones|mentes|una tortuga",
+    "plastilina|témpera|combinación de plastilina-témpera",
+    "un billete de $10|un billete de $100|honestamente, solo un salario digno"
    ],
    "us": false,
    "x": false
@@ -2519,9 +2519,9 @@
    "includesPlayerName": false,
    "prompt": "Tres metas poco realistas que debes fijarte este año",
    "safetyQuips": [
-    "lose weight|eat healthy|teach a dog to juggle",
-    "learn nine languages|write an opera|get more sleep",
-    "read a novel|write a novel|eat a novel"
+    "bajar de peso|comer sano|enseñarle a un perro a hacer malabares",
+    "aprender nueve idiomas|escribir una ópera|dormir un poco",
+    "leer una novela|escribir una novela|come una novela"
    ],
    "us": false,
    "x": false
@@ -2529,11 +2529,11 @@
   {
    "id": "73867",
    "includesPlayerName": false,
-   "prompt": "Tres elementos secretos fuera del menú que puede pedir en McDonald's",
+   "prompt": "Tres productos secretos fuera del menú que puedes pedir en McDonald's",
    "safetyQuips": [
-    "Chicken Cubes|1,000 Pounder|Large drink of ketchup",
-    "Fried iceberg lettuce|bag of stale buns|Sushi",
-    "ribeye steak|baked potato|a glass of scotch"
+    "Cubos de pollo|500 kilos|Trago grande de kétchup",
+    "Lechuga romana frita|bolsa de panecillos rancios|Sushi",
+    "bife de chorizo|papa asada|un vaso de whisky"
    ],
    "us": false,
    "x": false
@@ -2543,9 +2543,9 @@
    "includesPlayerName": false,
    "prompt": "Tres palabras que podrían describir tanto un beso como un sándwich",
    "safetyQuips": [
-    "sloppy|messy|unsanitary",
-    "sensual|erotic|beefy",
-    "a little dry|full of tongue|open-faced"
+    "descuidado|desordenado|insalubre",
+    "sensual|erótico|carnoso",
+    "un poco seco|lleno de lengua|jugoso"
    ],
    "us": false,
    "x": true
@@ -2555,9 +2555,9 @@
    "includesPlayerName": false,
    "prompt": "Tres simples verdades sobre la humanidad",
    "safetyQuips": [
-    "we stink|we drink|we like dogs",
-    "we're trying our best|our best isn't good enough|we're doomed",
-    "we live|we love|we're mean on Twitter"
+    "apestamos|bebemos|nos gustan los perros",
+    "nos esforzamos al máximo|el máximo no es suficiente|estamos perdidos",
+    "vivimos|amamos|somos malvados en Twitter"
    ],
    "us": false,
    "x": false
@@ -2565,11 +2565,11 @@
   {
    "id": "74275",
    "includesPlayerName": false,
-   "prompt": "Las tres cosas que se interponen entre usted y convertirse en presidente",
+   "prompt": "Las tres cosas que se interponen entre tú y convertirse en presidente",
    "safetyQuips": [
-    "intelligence|charisma|good looks",
-    "my mother|my father|my dastardly son Guavus",
-    "money|connections|all those crimes I did"
+    "inteligencia|carisma|buen aspecto",
+    "mi madre|mi padre|mi ruin hijo Gustavo",
+    "dinero|conexiones|todos esos crímenes que cometí"
    ],
    "us": true,
    "x": false
@@ -2579,9 +2579,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres ventajas de vivir en un barco pirata",
    "safetyQuips": [
-    "free food|free jewelry|access to cannons",
-    "salt air|salt water|salt, in general",
-    "free parrot|free cannonballs|occasional curses"
+    "comida gratis|joyas gratis|acceso a cañones",
+    "aire salado|agua salada|sal, en general",
+    "loro gratis|balas de cañón gratis|maldiciones ocasionales"
    ],
    "us": false,
    "x": false
@@ -2591,9 +2591,9 @@
    "includesPlayerName": false,
    "prompt": "Tres apodos que te gustaría tener",
    "safetyQuips": [
-    "Thunder Keg|Blast Zone|Cinnamon Roll",
-    "The Juggler|The Stinker|The Joker",
-    "Mustang|Camaro|Hyundai Sonata"
+    "Barril de trueno|Zona de explosión|Rollo de canela",
+    "El malabarista|La peste|El bromista",
+    "Mustang|Camaro|Yaris"
    ],
    "us": false,
    "x": false
@@ -2603,9 +2603,9 @@
    "includesPlayerName": false,
    "prompt": "Tres solicitudes frustrantes que puede hacer un captcha de un sitio web para demostrar que no eres un robot",
    "safetyQuips": [
-    "find all buses|find all crosswalks|find the meaning of life",
-    "find all cars|find all lampposts|find true love",
-    "read the letters|read the numbers|read The Lightning Thief"
+    "encuentra todos los buses|encuentra todos los pasos peatonales|encuentra el significado de la vida",
+    "encuentra todos los autos|encuentra todas las farolas|encuentra el verdadero amor",
+    "lee las letras|lee los números|lee El ladrón del rayo"
    ],
    "us": false,
    "x": false
@@ -2615,9 +2615,9 @@
    "includesPlayerName": false,
    "prompt": "Tres señales de que te estás enamorando",
    "safetyQuips": [
-    "sweaty palms|light fever|constant vomiting",
-    "writing poetry more|like a lot of poetry|and you use a big feather pen",
-    "you bathe more|you cut your toenails now|you stop skulking on rooftops"
+    "palmas sudorosas|ligera fiebre|vómitos constantes",
+    "escribes más poemas|bastantes poemas|y usas un bolígrafo de pluma grande",
+    "te bañas más|ahora te cortas las uñas de los pies|dejaste de merodear por los tejados"
    ],
    "us": false,
    "x": false
@@ -2627,9 +2627,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que le dirías a un lobo disfrazado de tu abuela",
    "safetyQuips": [
-    "what big paws you have|are you howling?|what happened on the rug?",
-    "what big eyes you have|what big ears you have|is that a deer carcass?",
-    "what big eyes you have|what big ears you have|what big fleas you have"
+    "qué garras más grandes tienes|¿estás aullando?|¿qué pasó con la alfombra?",
+    "qué ojos más grandes tienes|qué orejas más grandes tienes|¿eso es un cadáver de ciervo?",
+    "qué ojos más grandes tienes|qué orejas más grandes tienes|qué pulgas más grandes tienes"
    ],
    "us": false,
    "x": false
@@ -2639,9 +2639,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que realmente pensaste que ya habríamos inventado",
    "safetyQuips": [
-    "robot doctors|personal jetpacks|automatic toilet paper",
-    "sausage trees|hamburger bushes|better cholesterol medicine",
-    "robots that cook|robots that clean|robots who don't judge me"
+    "doctores robot|jetpacks personales|papel higiénico automático",
+    "árboles de salchica|arbustos de hamburgesa|mejor medicina para el colesterol",
+    "robots que cocinen|robots que limpien|robots que no me juzguen"
    ],
    "us": false,
    "x": false
@@ -2649,11 +2649,11 @@
   {
    "id": "74786",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que un buen padre lleva en la mochila de sus hijos",
+   "prompt": "Tres cosas que un buen padre echa en la mochila de sus hijos",
    "safetyQuips": [
-    "a banana|a pen|a trust fund",
-    "a pudding cup|a nice note|keys to a robot",
-    "a comic book|some crayons|deed to the family vineyard"
+    "un plátano|un bolígrafo|un fondo de fideicomiso",
+    "una taza de pudín|una bonita nota|llaves de un robot",
+    "una historieta|algunos lápices de colores|escritura del viñedo familiar"
    ],
    "us": false,
    "x": false
@@ -2663,9 +2663,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que DEBES considerar al comprar un anillo de bodas",
    "safetyQuips": [
-    "is it too expensive|is it too cheap|how can I steal it?",
-    "is it the right one|are they the right one|will this unite the kingdom",
-    "does it fit|does it glow green|will it give them superpowers"
+    "es demasiado caro|es demasiado barato|¿cómo lo puedo robar?",
+    "es el correcto|son los correctos|unirá esto al reino",
+    "cabe|brilla en verde|le dará superpoderes"
    ],
    "us": false,
    "x": false
@@ -2675,9 +2675,9 @@
    "includesPlayerName": false,
    "prompt": "Los tres peores materiales con los que los Tres Cerditos podrían haber construido sus casas",
    "safetyQuips": [
-    "paper|leaves|bacon",
-    "plastic bags|uranium|pretend bricks",
-    "paper mache|pudding|love"
+    "papel|hojas|tocino",
+    "bolsas plásticas|uranio|ladrillos de mentira",
+    "papel maché|pudín|amor"
    ],
    "us": false,
    "x": false
@@ -2685,11 +2685,11 @@
   {
    "id": "74789",
    "includesPlayerName": false,
-   "prompt": "Tres cosas que distraen y gritan cuando alguien intenta golpear una pelota de golf",
+   "prompt": "Tres cosas que gritan y distraen cuando alguien intenta golpear una pelota de golf",
    "safetyQuips": [
-    "miss it!|love you!|alley oop!",
-    "free coffee!|I'm your son!|ah, dragon!",
-    "kissie, kissie!|ah, robots!|why don't you love me?!"
+    "¡fállala!|¡te amo!|¡ay, caramba!",
+    "¡café gratis!|¡estoy con tu hijo!|¡ah, dragón!",
+    "¡el beso! ¡el beso!|¡ah, robots!|¡¿por qué no me amas?!"
    ],
    "us": false,
    "x": false
@@ -2699,9 +2699,9 @@
    "includesPlayerName": false,
    "prompt": "Tres formas de combatir el calor este verano",
    "safetyQuips": [
-    "stuff your pants with ice|move to Alaska|marry an ice cream millionaire",
-    "keep saying it's a dry heat|think cool thoughts|just give up and melt",
-    "take off clothes|go outside|enjoy air conditioned jail"
+    "rellenar tus pantalones con hielo|mudarse a Alaska|casarse con un empresario millonario de helados",
+    "seguir diciendo que es un calor seco|pensar en cosas frías|simplemente rendirse y derretirse",
+    "sacarse la ropa|salir de la casa|disfrutar del aire acondicionado de la prisión"
    ],
    "us": false,
    "x": false
@@ -2711,9 +2711,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que los extraterrestres están pensando mientras nos observan desde lejos",
    "safetyQuips": [
-    "they sure like pollution|they spend a lot on clothes|I miss MTV's Road Rules",
-    "they sure get mad a lot|especially about traffic|and everything, really",
-    "they aren't too smart|they're very impulsive|why aren't dogs in charge?"
+    "de seguro les gusta la contaminación|gastan mucho en ropa|extraño los reality shows antiguos de MTV",
+    "seguro que se enfadan mucho|sobre todo por el tráfico|y por todo, en verdad",
+    "no son muy listos|son muy impulsivos|¿por qué no mandan los perros?"
    ],
    "us": false,
    "x": false
@@ -2721,10 +2721,10 @@
   {
    "id": "74858",
    "includesPlayerName": false,
-   "prompt": "Tres cosas en tu lista de tareas pendientes si pudieras pasar el día con Albert Einstein",
+   "prompt": "Tres cosas en tu lista de tareas si pudieras pasar el día con Albert Einstein",
    "safetyQuips": [
-    "go fishing|play chess|have him build you a spaceship",
-    "talk about life|talk about the cosmos|get some sweet Insta photos"
+    "ir a pescar|jugar ajedrez|hacer que construya una nave espacial",
+    "hablar de la vida|hablar del cosmos|tomar algunas fotos para Instagram"
    ],
    "us": false,
    "x": false
@@ -2734,8 +2734,8 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que solo puedes hacer en Florida",
    "safetyQuips": [
-    "visit the Everglades|visit EPCOT|fight a giant mosquito",
-    "see a manatee|swim with a manatee|discover you hate manatees"
+    "visitar Disney World|visitar SeaWorld|combatir un mosquito gigante",
+    "ver a un manatí|nadar con un manatí|descubrir que odias a los manatíes"
    ],
    "us": false,
    "x": false
@@ -2743,11 +2743,11 @@
   {
    "id": "74867",
    "includesPlayerName": false,
-   "prompt": "Haga tres predicciones audaces que seguramente se harán realidad el próximo año",
+   "prompt": "Haz tres predicciones audaces que seguramente se harán realidad el próximo año",
    "safetyQuips": [
-    "dogs will talk|cats will fly|hamsters unchanged",
-    "sky will turn red|oceans will boil|we get a Cheers reboot",
-    "cars will fly|planes will drive|submarines in space"
+    "los perros hablarán|los gatos volarán|los hámsters seguirán igual",
+    "el cielo se volverá rojo|los océanos hervirán|habrá una nueva versión de Malcolm el de en medio",
+    "los autos volarán|los aviones serán terrestres|submarinos en el espacio"
    ],
    "us": false,
    "x": false
@@ -2757,9 +2757,9 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que sucedieron en Monster Mash sobre las que no podían cantar",
    "safetyQuips": [
-    "Frankenstein pooped his pants|Wolfman stole some change|Dracula broke his ankle",
-    "The Mummy clogged the toilet|Dracula got mono|They ran out pigs in a blanket",
-    "It was more a bash than a mash|It was at the YMCA|They were all very polite"
+    "Frankenstein se hizo en los pantalones|Hombre lobo robó algunas monedas|Drácula se rompió su tobillo",
+    "La momia tapó el inodoro|Drácula tiene mononucleosis|Se quedaron sin cerdos en una manta",
+    "Fue más una fiesta que un puré|Fue en la YMCA|Todos eran muy educados"
    ],
    "us": true,
    "x": false
@@ -2767,11 +2767,11 @@
   {
    "id": "74909",
    "includesPlayerName": false,
-   "prompt": "Tres preguntas que DEBE hacerle al propietario antes de comprar una casa",
+   "prompt": "Tres preguntas que DEBES hacerle al propietario antes de comprar una casa",
    "safetyQuips": [
-    "how haunted is it?|where's the best place to cry|will they visit?",
-    "what's that smell?|is it Godzilla-proof?|did they film Parent Trap here?",
-    "is that original crown molding?|is it a good school district?|can i buy just half?"
+    "¿qué tan embrujada está?|dónde está el mejor lugar para llorar|¿lo visitarán?",
+    "¿qué es ese olor?|¿es a prueba de Godzilla?|¿filmaron Mi pobre angelito aquí?",
+    "¿esa es la moldura de corona original?|¿es un buen barrio escolar?|¿puedo comprar solo la mitad?"
    ],
    "us": false,
    "x": false
@@ -2779,10 +2779,10 @@
   {
    "id": "74914",
    "includesPlayerName": false,
-   "prompt": "Las tres preguntas que debes hacerte antes de iniciar un podcast",
+   "prompt": "Las tres preguntas que debes hacerte antes de iniciar un pódcast",
    "safetyQuips": [
-    "are people interested?|am i interesting?|am I gonna do it anyways?",
-    "should it be funny?|should it be scary?|should it ramble on for hours?"
+    "¿le interesa a la gente?|¿soy interesante?|¿lo voy a hacer de todos modoso?",
+    "¿debería ser gracioso?|¿debería dar miedo?|¿debería divagar durante horas?"
    ],
    "us": false,
    "x": false
@@ -2790,10 +2790,10 @@
   {
    "id": "74915",
    "includesPlayerName": false,
-   "prompt": "Las tres lesiones más habituales que sufre Santa Claus",
+   "prompt": "Las tres lesiones más habituales que sufre Papá Noel",
    "safetyQuips": [
-    "chimney butt|reindeer lung|mistletoe hives",
-    "bird attacks|zapped by lightning|ungrateful kid bites"
+    "se cae por la chimenea|pulmón de reno|colmenas de muérdago",
+    "ataques de aves|le llega un relámpago|niño desagradecido lo muerde"
    ],
    "us": false,
    "x": false
@@ -2803,9 +2803,9 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas que piensas la primera vez que te golpean en la cara",
    "safetyQuips": [
-    "ow!|that hurt|why did I fight a kangaroo?",
-    "so this| is|kickboxing",
-    "that hurt|that really hurt|maybe I shouldn't be Batman"
+    "¡ay!|eso duele|¿por qué luché contra un canguro?",
+    "así que|esto es|el kickboxing",
+    "eso duele|en verdad duele|tal vez no debería ser Batman"
    ],
    "us": false,
    "x": false
@@ -2815,8 +2815,8 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas que se consideran de mala etiqueta en el gimnasio",
    "safetyQuips": [
-    "not wiping machines|using equipment too long|licking the dumbbells",
-    "throwing down weights|taking too long in shower|making a fort from used towels"
+    "no limpiar las máquinas|utilizar el equipo por mucho tiempo|lamer las mancuernas",
+    "lanzar las pesas|tardar demasiado en la ducha|hacer un fuerte con toallas usadas"
    ],
    "us": false,
    "x": false
@@ -2824,11 +2824,11 @@
   {
    "id": "74918",
    "includesPlayerName": false,
-   "prompt": "Tres cosas raras para que un culturista grite mientras hace algunas sentadillas pesadas",
+   "prompt": "Tres cosas raras para que un fisicoculturista grite mientras hace algunas sentadillas pesadas",
    "safetyQuips": [
-    "Mustard!|Ketchup!|Relish!",
-    "My Basement is Leaking!|Need A Repair Company!|Any recommendations?!",
-    "This|Gym|Is Haunted!"
+    "¡Mostaza!|Kétchup!|¡Rico!",
+    "¡Mi sótano tiene fugas!|¡Necesito una empresa de reparaciones!|¡¿Alguna recomendación?!",
+    "¡Este|gimnasio|está embrujado!"
    ],
    "us": false,
    "x": false
@@ -2838,8 +2838,8 @@
    "includesPlayerName": false,
    "prompt": "Tres advertencias que deben poner en el costado de las latas de cerveza",
    "safetyQuips": [
-    "may cause headaches|may cause inflated self-worth|may cause rambling conversations",
-    "may cause hangovers|may cause impulse purchases|may cause late night ex texts"
+    "puede causar dolores de cabeza|puede causar una autoestima inflada|puede provocar conversaciones incoherentes",
+    "puede causar resacas|puede causar compras impulsivas|puede causar mensajes nocturnos al ex"
    ],
    "us": false,
    "x": true
@@ -2849,8 +2849,8 @@
    "includesPlayerName": false,
    "prompt": "Tu plan de tres pasos para derrotar a King Kong",
    "safetyQuips": [
-    "climb Empire State Building|find out why he's mad|hug it out",
-    "dress like a sexy ape|get engaged|leave him altar, devastated"
+    "subir al Empire State|descubrir por qué está enfadado|abrazarlo",
+    "vestirse como un simio sensual|comprometerse|dejarlo en el altar, devastado"
    ],
    "us": false,
    "x": false
@@ -2860,8 +2860,8 @@
    "includesPlayerName": false,
    "prompt": "Tres señales de que te estás volviendo aburrido",
    "safetyQuips": [
-    "your parties are at 8AM|and you serve 2% milk|everyone out by 9",
-    "you buy a house|get really into your lawn|start a lawncare podcast"
+    "tus fiestas son a las 8 de la mañana|y sirves leche al 2%|todos se van a las 9",
+    "compras una casa|te involucras mucho con tu jardín|empiezas un pódcast sobre cuidado de jardines"
    ],
    "us": false,
    "x": false
@@ -2869,11 +2869,11 @@
   {
    "id": "74922",
    "includesPlayerName": false,
-   "prompt": "Tres veces raras para empezar a gritar “¡Vroom! ¡Vroom! ¡Vroom!”",
+   "prompt": "Tres veces raras para empezar a gritar “¡Brum! ¡Brum! ¡Brum!”",
    "safetyQuips": [
-    "during your wedding vows|at a class recital|after a big race",
-    "while petting a cat|while eating a taco|while hosting NPR",
-    "when grocery shopping|when making a bed|any time not in a car"
+    "durante tus votos matrimoniales|en un recital de clase|después de una gran carrera",
+    "mientras acaricias un gato|mientras comes un taco|mientras presentas en la radio nacional",
+    "cuando estás comprando|cuando haces la cama|en cualquier momento que no sea en un auto"
    ],
    "us": false,
    "x": false
@@ -2883,8 +2883,8 @@
    "includesPlayerName": false,
    "prompt": "Tu plan de tres pasos para crear un monstruo al estilo de Frankenstein",
    "safetyQuips": [
-    "zap him with lightning|give him a sportcoat|and neck bolts?",
-    "find a big guy|bring him back to life|hope you become pals"
+    "golpearlo con un rayo|darle un abrigo deportivo|¿y tornillos en el cuello?",
+    "encontrar un tipo grande|devolverle la vida|esperar que nos hagamos amigos"
    ],
    "us": false,
    "x": false
@@ -2894,8 +2894,8 @@
    "includesPlayerName": false,
    "prompt": "Las tres cosas más escuchadas en lugares de trabajo desnudos",
    "safetyQuips": [
-    "you can't borrow my chair|turn up the heat|how did you steal a stapler?",
-    "we wore the same thing!|is it casual Friday|where's the disinfectant?"
+    "no puedes tomar prestada mi silla|sube la temperatura|¿cómo robaste una engrapadora?",
+    "¡llevamos lo mismo!|es el viernes casual|¿dónde está el desinfectante?"
    ],
    "us": false,
    "x": true
@@ -2905,9 +2905,9 @@
    "includesPlayerName": false,
    "prompt": "Tu plan de tres pasos para escapar de la prisión que está destinado al fracaso",
    "safetyQuips": [
-    "get a spoon|dig a tunnel|to that nicer prison next door",
-    "collect all the  yarn you can|knit an airplane|fly to Hawaii",
-    "say \"I love it here\"|until they believe you|they let you go as punishment"
+    "consigue una cuchara|caba un túnel|a esa prisión más bonita de al lado",
+    "recoge todo el hilo que puedas|teje un avión|cuela a Hawái",
+    "di \"me encanta este lugar\"|hasta que te crean|como castigo, te dejan ir"
    ],
    "us": false,
    "x": false
@@ -2917,9 +2917,9 @@
    "includesPlayerName": false,
    "prompt": "Tres formas de evitar llorar en una película de Pixar",
    "safetyQuips": [
-    "think of something awful|like my life|now i'm bummed",
-    "think happy thoughts|think happier thoughts|give up and weep",
-    "take frequent breaks|don't get invested|be dead inside"
+    "piensa en algo horrible|como mi vida|ahora estoy deprimido",
+    "pensar en cosas felices|piensa en cosas más felices|ríndete y llora",
+    "hacer pausas frecuentes|no te involucres|muere por dentro"
    ],
    "us": false,
    "x": false
@@ -2927,11 +2927,11 @@
   {
    "id": "74927",
    "includesPlayerName": false,
-   "prompt": "La historia de tres actos de tu vida, hasta ahora",
+   "prompt": "La historia de tu vida, hasta ahora, en tres actos",
    "safetyQuips": [
-    "I was born|I went to college|it was expensive",
-    "I was a happy kid|a less happy teenager|then I fought a werewolf",
-    "I grew up in a small town|met the love of my life|got a dog last week"
+    "nací|fui a la universidad|era cara",
+    "era un niño feliz|un joven menos feliz|luego luché con un hombre lobo",
+    "me crié en una pequeña ciudad|conocí al amor de mi vida|tengo un perro desde la semana pasada"
    ],
    "us": false,
    "x": false
@@ -2939,11 +2939,11 @@
   {
    "id": "75042",
    "includesPlayerName": false,
-   "prompt": "¡Guau! ¡Los científicos acaban de descubrir estos tres hechos sorprendentes sobre los pandas!",
+   "prompt": "¡Vaya! ¡Los científicos acaban de descubrir estos tres hechos sorprendentes sobre los pandas!",
    "safetyQuips": [
-    "They can fly|They die in sunlight|Nope, that's vampires",
-    "They're too adorable|They hate bamboo|They're made of marshmallow",
-    "They're not bears|They're not cats|They're actually big skunks"
+    "Pueden volar|Mueren a la luz del sol|Nop, esos son los vampiros",
+    "Son demasiado adorables|Odian el bambú|Están hechos de malvaviscos",
+    "No son osos|No son gatos|En realidad son zorrillos grandes"
    ],
    "us": false,
    "x": false
@@ -2951,10 +2951,10 @@
   {
    "id": "75043",
    "includesPlayerName": false,
-   "prompt": "Las tres acciones que te expulsarán de The Land of Oz",
+   "prompt": "Las tres acciones que harán que te expulsen de La Tierra de Oz",
    "safetyQuips": [
-    "stealing yellow bricks|breeding flying monkeys|phone scams",
-    "stealing the tin man's axe|calling the scarecrow names|downloading movies"
+    "robar ladrillos amarillos|criar monos voladores|estafas telefónicas",
+    "robar el hacha del hombre de hojalata|llamar al espantapájaros|descargar películas"
    ],
    "us": false,
    "x": false
@@ -2962,11 +2962,11 @@
   {
    "id": "75044",
    "includesPlayerName": false,
-   "prompt": "Tres excusas horribles para no conseguirle a un niño la bicicleta que querían para su cumpleaños",
+   "prompt": "Tres excusas horribles para no regalarle a un niño la bicicleta que quería para su cumpleaños",
    "safetyQuips": [
-    "they were out|bikes are too dangerous|it's not your birthday",
-    "bikes were outlawed today|the dog ate it|bikes don't really exist",
-    "the store was closed|I gave you one, didn't I?|I thought you said pike"
+    "se acabaron|las bicicletas son demasiado peligrosas|no es tu cumpleaños",
+    "las bicicletas fueron prohibidas hoy|el perro se la comió|las bicicletas no existen realmente",
+    "la tienda estaba cerrada|ya te di una, ¿o no?|Pensé que habías dicho camiseta"
    ],
    "us": false,
    "x": false
@@ -2976,9 +2976,9 @@
    "includesPlayerName": false,
    "prompt": "Tres palabras que te sacarán de cualquier multa por exceso de velocidad",
    "safetyQuips": [
-    "I|Am|Batman",
-    "Here's|Some|Gold",
-    "Jedi|Mind|Trick!"
+    "Yo|Soy|Batman",
+    "Aquí|Hay|Oro",
+    "¡Truco|Mental|Jedi!"
    ],
    "us": true,
    "x": false

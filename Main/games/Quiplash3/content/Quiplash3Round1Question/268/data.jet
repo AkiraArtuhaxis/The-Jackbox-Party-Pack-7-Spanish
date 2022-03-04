@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "chocolate|salsa de chocolate|barra de chocolate|dulce de chocolate|chocolate|chocolatina|chocolatinas",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Se derrite en tu boca, no en tu cabello.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What every woman is hiding under her bangs",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "an all-seeing third eye|smaller, worse bangs|a tiny Bugs Bunny tattoo",
+   "n": "SafetyQuips"
+  }
+ ]
+}

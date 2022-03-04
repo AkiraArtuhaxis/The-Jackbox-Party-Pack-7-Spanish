@@ -1,23 +1,23 @@
 MAIN(Vendedor telefónico): ¿Puedo ofrecerle una póliza de seguro para lagartos?
--NOTHANKS-> Mi iguana ya fue asegurada.
+-NOTHANKS-> Mi iguana ya tiene seguro.
 -GOON-> Suena interesante, cuéntame más
--MARK-> Pero claro, ¡debo proteger mi dulce lagartito!
+-MARK-> Pero claro, ¡debo proteger a mi dulce lagartito!
 -DONOTCALL-> ¡Vete de aquí, estafador!
 
-NOTHANKS(Vendedor telefónico): Me preocupa su cortesía. Voy a colgar.
+NOTHANKS(Vendedor telefónico): Su cortesía es desagradable. Voy a colgar.
 -SUCCESS-> ¡La mentira es una vez más la respuesta!
 
-GOON(Vendedor telefónico): ¡Oh no, nunca había llegado tan lejos... eh...eh... ¡debería darle MI dinero!
+GOON(Vendedor telefónico): ¡Oh, no, nunca había llegado tan lejos... eh... eh... ¡debería darle MI dinero!
 -SUCCESS-> ¡Soy el mago de los lagartos!
 
-MARK(Vendedor telefónico): Excelente, podemos ofrecerle $100,000 en cobertura de escalas...
--FAILURE-> Le crece una cada minuto...
+MARK(Vendedor telefónico): Excelente, podemos ofrecerle $100.000 en cobertura de escamas...
+-FAILURE-> Le crece una cada un minuto...
 
 DONOTCALL(Vendedor telefónico): Oh, no lo habrá dicho en serio, ¿o sí?
 -SUCCESS-> ¡Voy a colgar tan fuerte que lo va a sentir hasta tu abuela!
 -TRYAGAIN-> Vaya, ahora me siento mal.
 
 TRYAGAIN(Vendedor telefónico): ¿Puedo ofrecerle una póliza de seguro para lagartos?
--NOTHANKS-> Mi iguana ya fue asegurada.
+-NOTHANKS-> Mi iguana ya tiene seguro.
 -GOON-> Suena interesante, cuéntame más
--MARK-> Pero claro, ¡debo proteger mi dulce lagartito!
+-MARK-> Pero claro, ¡debo proteger a mi dulce lagartito!

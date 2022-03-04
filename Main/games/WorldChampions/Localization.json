@@ -208,7 +208,7 @@
 
             "WINNER_PROMPT": "El ganador es %s <br>dibujado por %s<br> con %s votos",
 
-            "UNDERDOG_LABEL_TEXT": "DESVALIDO",
+            "UNDERDOG_LABEL_TEXT": "DESAFIANTE",
             "WINNER_BONUS_LABEL_TEXT": "BONUS GANADOR",
             "ULTIMATE_WINNER_BONUS": "BONUS CHAMP'D UP",
             "HERO_BONUS_LABEL_TEXT": "BONUS HÉROE",

@@ -2,7 +2,7 @@ DEF EPISODE "NewSchool"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Cuela para la escuela"
-    SET DESCRIPTION "Los demonios inscriben a los niños en la elegante <font color='#AF0000'>nueva escuela</font> de la ciudad. ¡Pueden convertir este Montessori en MONSTRUOSORI?"
+    SET DESCRIPTION "Los demonios inscriben a los niños en la elegante <font color='#AF0000'>nueva escuela</font> de la ciudad. ¿Pueden convertir este Montessori en MONSTRUOSORI?"
     SET SUCCESS_MESSAGE "De acuerdo con la Asociación de padres y maestros, pasaron el día y ahora pueden identificar alegorías en la literatura. ¡Esa sí que es una habilidad comercializable!"
     SET FAILURE_MESSAGE "Todos se avergonzaron a sí mismos y nadie en toda esta escuela lo olvidará jamás. ¡Jamás!"
 
@@ -70,8 +70,8 @@ END
 REM : Pick out cool first day outfit
 CLONE TASK "FindShirt" "FindShirtNewSchool"
     SET NAME "Elegir un atuendo genial para el primer día de clases"
-    SET ASKER_NAME "Obtener ayuda para elegir un atuendo genial para el primer día de clases"
-    SET HELPER_NAME "Ayuda a <ASKER> para elegir un atuendo genial para el primer día de clases"
+    SET ASKER_NAME "Pedir ayuda para elegir un atuendo genial para el primer día de clases"
+    SET HELPER_NAME "Ayudar a <ASKER> para elegir un atuendo genial para el primer día de clases"
     SET CAPTAIN "CHILDREN"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"
@@ -129,7 +129,7 @@ END
 DEF TASK "DriveSchoolSupplies"
     SET NAME "Conducir a la ciudad para comprar útiles escolares nuevos"
     SET ASKER_NAME "Conseguir un viaje a la ciudad para comprar útiles escolares"
-    SET HELPER_NAME "Lleva a <ASKER> a la ciudad para comprar útiles escolares"
+    SET HELPER_NAME "Llevar a <ASKER> a la ciudad para comprar útiles escolares"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -228,8 +228,8 @@ END
 REM : Find cool hat for new year new you look
 CLONE TASK "FindHat" "FindHatNewSchool"
     SET NAME "Encontrar un sombrero genial para el atuendo de 'nuevo año, nuevo tú'"
-    SET ASKER_NAME "Obtener ayuda para encontrar un sombrero genial para el atuendo de 'nuevo año, nuevo tú'"
-    SET HELPER_NAME "Ayuda a <ASKER> para encontrar un sombrero genial para el atuendo de 'nuevo año, nuevo tú'"
+    SET ASKER_NAME "Pedir ayuda para encontrar un sombrero genial para el atuendo de 'nuevo año, nuevo tú'"
+    SET HELPER_NAME "Ayudar a <ASKER> para encontrar un sombrero genial para el atuendo de 'nuevo año, nuevo tú'"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -394,7 +394,7 @@ END
 
 DEF TASK "NewSchoolGeographyHomework"
     SET NAME "Hacer la tarea de geografía"
-    SET ASKER_NAME "Obtener ayuda de tus padres con tu tarea de geografía"
+    SET ASKER_NAME "Pedir ayuda de tus padres con tu tarea de geografía"
     SET HELPER_NAME "Ayudar a <ASKER> con su tarea de geografía"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "TEENS"

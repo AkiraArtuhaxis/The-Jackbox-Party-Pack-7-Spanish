@@ -1,10 +1,10 @@
 MAIN(Hombre súper tremendo): ¡Saludos, héroe! Necesito tu ayuda para derrotar al Dr. Plan Malévolo.
 -YES-> ¡Lo cortaré con mi espada láser!
--NAH-> Mmm, creo que voy a ver la tele.
+-NAH-> Mmmh, creo que voy a ver la tele.
 
 NAH(Hombre súper tremendo): ¡Por favor, no abandones Ciudad Rascacielos cuando más te necesita!
--FAILURE-> Estoy demasiado grande para jugar con figuras de acción. ¿Dónde está el control?
--YES-> De acuerdo, dispararé a Dr. Plan Malévolo con mi visión de calor.
+-FAILURE-> Estoy demasiado viejo para jugar con figuras de acción. ¿Dónde está el control remoto?
+-YES-> De acuerdo, le dispararé a Dr. Plan Malévolo con mi visión de calor.
 
 YES(Dr Plan Malévolo): ¡Muajaja! ¡Una vez que libere mi Mecha-Vaca, Ciudad Rascacielos estará condenada!
 -DOOMED-> Supongo que el Dr. Malévolo gana esta ronda.
@@ -12,7 +12,7 @@ YES(Dr Plan Malévolo): ¡Muajaja! ¡Una vez que libere mi Mecha-Vaca, Ciudad Ra
 
 DOOMED(Dr Plan Malévolo): ¿En serio? ¿Me vas a dejar ganar?
 -NOTSOFAST-> ¡No, te estaba engañando... para poder dispararte con mi hiperrayo! ¡ZZZORCH!
--FAILURE-> Ya no quiero jugar a los superhéroes. ¿Dónde está el control?
+-FAILURE-> Ya no quiero jugar a los superhéroes. ¿Dónde está el control remoto?
 
 NOTSOFAST(Hombre súper tremendo): ¡Hurra! ¡Mataste al Dr. Malévolo y salvaste la ciudad!
 -SUCCESS-> ¡Esto es un día común para el superhéroe más grande del mundo!

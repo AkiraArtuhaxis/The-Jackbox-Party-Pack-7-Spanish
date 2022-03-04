@@ -1,10 +1,10 @@
 DEF EPISODE "Pox"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Enfermo y Cansado"
-    SET DESCRIPTION "Todos están <font color='#AF0000'>en casa enfermos</font> de viruela demoníaca, pero eso no significa que los quehaceres dejen de llegar. ¿Puede la familia mantener la casa en funcionamiento sin derrumbar su salud?"
+    SET NAME "Enfermo y cansado"
+    SET DESCRIPTION "Todos están <font color='#AF0000'>en casa enfermos</font> de viruela demoníaca, pero eso no significa que los quehaceres dejen de llegar. ¿Podrá la familia mantener la casa en funcionamiento sin que su salud se resienta?"
     SET SUCCESS_MESSAGE "Nos ha complacido escuchar la rápida recuperación de su familia. Trabajar cuando estás demasiado enfermo para trabajar es un aspecto desconcertante pero esencial de la cultura humana."
-    SET FAILURE_MESSAGE "El médico extremadamente atractivo que enviamos a su casa ha diagnosticado la puntuación de su familia como 'Basura Terminal.' Los antibióticos no curarán lo que sea que les impide trabajar juntos."
+    SET FAILURE_MESSAGE "El médico extremadamente atractivo que enviamos a su casa ha diagnosticado la puntuación de su familia como 'basura terminal'. Los antibióticos no curarán lo que sea que les impide trabajar juntos."
 
 
     REM : ------------------------------
@@ -55,7 +55,7 @@ CLONE DEED "SearchID" "SearchThermo"
 END
 
 DEF TASK "SearchThermo"
-    SET NAME "Busca por el termómetro"
+    SET NAME "Buscar el termómetro"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -68,19 +68,19 @@ END
 
 REM : Take your temperature
 CLONE DEED "SwipeUp" "TakeTempPox1"
-    SET INSTRUCTIONS "Ponte el termometro bajo la lengua"
+    SET INSTRUCTIONS "Ponte el termómetro bajo la lengua"
 END
 
 CLONE DEED "Hold3" "TakeTempPox2"
-    SET INSTRUCTIONS "Manténlo..."
+    SET INSTRUCTIONS "Mantenlo..."
 END
 
 CLONE DEED "Nothing2" "TakeTempPox3"
-    SET INSTRUCTIONS "Sep. Estás enfermo."
+    SET INSTRUCTIONS "Síp. Estás enfermo."
 END
 
 DEF TASK "TakeTempPox"
-    SET NAME "Tomate la temperatura"
+    SET NAME "Tomarse la temperatura"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -101,7 +101,7 @@ CLONE DEED "SwipeUp" "BlowNosePox1"
 END
 
 CLONE DEED "Hold3" "BlowNosePox2"
-    SET INSTRUCTIONS "¡Suenate!"
+    SET INSTRUCTIONS "¡Suénate!"
 END
 
 CLONE DEED "ScrubShort" "BlowNosePox3"
@@ -109,11 +109,11 @@ CLONE DEED "ScrubShort" "BlowNosePox3"
 END
 
 CLONE DEED "Nothing3" "BlowNosePox4"
-    SET INSTRUCTIONS "Observa cómo tus mocos ácidos comen a través del pañuelo"
+    SET INSTRUCTIONS "Mira cómo los mocos ácidos se comen el pañuelo"
 END
 
 DEF TASK "BlowNosePox"
-    SET NAME "Suénate la nariz"
+    SET NAME "Sonarse la nariz"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -132,12 +132,12 @@ END
 
 REM : Text friend to cancel weekend plans
 CLONE DEED "DialogID" "TeenCancelPlans"
-    SET INSTRUCTIONS "Cancelar planes de fin de semana"
+    SET INSTRUCTIONS "Cancela los planes de fin de semana"
     SET CONTENT_ID "POX_CANCEL"
 END
 
 DEF TASK "TeenCancelPlans"
-    SET NAME "Envía un mensaje de texto a un amigo para cancelar los planes de fin de semana"
+    SET NAME "Enviar un mensaje de texto a un amigo para cancelar los planes de fin de semana"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -152,11 +152,11 @@ REM : ---------------------------------------------
 
 REM : Make blandest possible meal
 CLONE DEED "GatherID" "BlandMeal"
-    SET INSTRUCTIONS "Prepara la comida más blanda posible"
+    SET INSTRUCTIONS "Prepara la comida más suave posible"
     SET CONTENT_ID "BLAND_MEAL"
 END
 DEF TASK "BlandMeal"
-    SET NAME "Prepara la comida más blanco posible"
+    SET NAME "Preparar la comida más suave posible"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -169,7 +169,7 @@ END
 
 REM : Watch daytime TV on the couch
 CLONE TASK "ChannelSurf" "ChannelSurfPox"
-    SET NAME "Mira la televisión durante el día en el sofá"
+    SET NAME "Ver la televisión durante el día en el sofá"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -183,9 +183,9 @@ CLONE DEED "FindCategory" "FindAntihistamine"
 END
 
 DEF TASK "FindAntihistamine"
-    SET NAME "Encuentra los antihistamínicos"
-    SET ASKER_NAME "Obtenga ayuda para encontrar antihistamínicos"
-    SET HELPER_NAME "Ayuda a <ASKER> a encontrar antihistamínicos"
+    SET NAME "Encontrar los antihistamínicos"
+    SET ASKER_NAME "Conseguir ayuda para encontrar antihistamínicos"
+    SET HELPER_NAME "Ayudar a <ASKER> a encontrar los antihistamínicos"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -198,14 +198,14 @@ END
 
 REM : Set up the humidifier
 CLONE DEED "Gizmos3" "Humidifier"
-    SET INSTRUCTIONS "Configurar el humidificador"
+    SET INSTRUCTIONS "Configura el humidificador"
     SET NAME "Humidificador Pulmón Húmedo®"
 END
 
 DEF TASK "Humidifier"
     SET NAME "Configurar el humidificador"
-    SET ASKER_NAME "Obtén ayuda para configurar el humidificador"
-    SET HELPER_NAME "Ayuda a <ASKER> a configurar el humidificador"
+    SET ASKER_NAME "Pedir ayuda para configurar el humidificador"
+    SET HELPER_NAME "Ayudar a <ASKER> a configurar el humidificador"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -223,9 +223,9 @@ CLONE DEED "TravelCategory" "TravelPharmacy"
 END
 
 DEF TASK "TravelPharmacy"
-    SET NAME "Corre a la farmacia por suministros médicos"
-    SET ASKER_NAME "Obtén un viaje a la farmacia para obtener suministros"
-    SET HELPER_NAME "Conduce con <ASKER> a la farmacia para obtener suministros"
+    SET NAME "Correr a la farmacia para obtener suministros"
+    SET ASKER_NAME "Conseguir un viaje a la farmacia para obtener suministros"
+    SET HELPER_NAME "Conducir con <ASKER> a la farmacia para obtener suministros"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -241,12 +241,12 @@ REM : ------------------------------------------------
 
 REM : Call the doctor
 CLONE DEED "PhoneCategory" "PoxCallDoctor"
-    SET INSTRUCTIONS "Llama a tu doctor"
+    SET INSTRUCTIONS "Llama al doctor"
     SET CATEGORY "DOCTOR"
 END
 
 DEF TASK "PoxCallDoctor"
-    SET NAME "Llama a tu doctor"
+    SET NAME "Llamar al doctor"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -259,12 +259,12 @@ END
 
 REM : Describe your weird devil pox to the doctor
 CLONE DEED "DialogID" "DoctorDiagnosePox"
-    SET INSTRUCTIONS "Describe tu viruela demoníaca al doctor."
+    SET INSTRUCTIONS "Describe tu viruela demoníaca al doctor"
     SET CONTENT_ID "POX_DOCTOR"
 END
 
 DEF TASK "DoctorDiagnosePox"
-    SET NAME "Describe tu rara viruela demoníaca al doctor."
+    SET NAME "Describir tu rara viruela demoníaca al doctor"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -277,15 +277,15 @@ END
 
 REM : Try to impress the hot doctor
 CLONE DEED "Hold2" "ImpressDoctor1"
-    SET INSTRUCTIONS "Toca el violín muy fuerte cerca del doctor caliente"
+    SET INSTRUCTIONS "Toca el violín muy fuerte cerca del doctor sexy"
 END
 
 CLONE DEED "Nothing3" "ImpressDoctor2"
-    SET INSTRUCTIONS "Escucha atentamente los consejos del doctor caliente"
+    SET INSTRUCTIONS "Escucha atentamente los consejos del doctor sexy"
 END
 
 CLONE DEED "Rotate270" "ImpressDoctor3"
-    SET INSTRUCTIONS "Haz una deliciosa sopa para agradecer al doctor caliente"
+    SET INSTRUCTIONS "Haz una deliciosa sopa para agradecer al doctor sexy"
 END
 
 CLONE DEED "SwipeDown" "ImpressDoctor4"
@@ -293,7 +293,7 @@ CLONE DEED "SwipeDown" "ImpressDoctor4"
 END
 
 DEF TASK "ImpressDoctor"
-    SET NAME "Trata de impresionar al doctor caliente"
+    SET NAME "Tratar de impresionar al doctor sexy"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -317,7 +317,7 @@ CLONE DEED "Nothing5" "PoxGoToBed"
 END
 
 DEF TASK "PoxGoToBed"
-    SET NAME "Acuéstate a una hora razonable"
+    SET NAME "Acostarse a una hora razonable"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

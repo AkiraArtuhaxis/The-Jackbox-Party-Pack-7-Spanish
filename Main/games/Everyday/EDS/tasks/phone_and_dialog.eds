@@ -7,7 +7,7 @@ END
 DEF TASK "NeighborAtDoor"
     SET DURATION <5H>
     REM : TALKING TIMEOUT
-    SET NAME "Alguien esta en la puerta"
+    SET NAME "Hay alguien en la puerta"
     SET THEME "TALKING"
     SET CATEGORY "MEDIUM"
     
@@ -18,14 +18,14 @@ END
 
 REM : Ice Cream Man
 CLONE DEED "DialogBase" "IceCreamDialog"
-    SET INSTRUCTIONS "Compra algo de helado"
+    SET INSTRUCTIONS "Compra un helado"
     SET CONTENT_ID "ICE_CREAM_VAN"
 END
 
 DEF TASK "IceCreamMan"
     SET DURATION <5H>
     REM : TALKING TIMEOUT
-    SET NAME "¡Camion de helados! ¡Camion de helados!"
+    SET NAME "¡Camión de helados! ¡Camión de helados!"
     SET THEME "TALKING"
     SET CATEGORY "MEDIUM"
 
@@ -37,19 +37,19 @@ END
 
 REM : Vegan Pizza
 CLONE DEED "DialogBase" "VeganPizzaDialog"
-    SET INSTRUCTIONS "Ordena pizza"
+    SET INSTRUCTIONS "Pide pizza"
     SET CONTENT_ID "PIZZA_ORDER"
 END
 
 CLONE DEED "PhoneBase" "PhoneVeganPizza"
-    SET INSTRUCTIONS "Llama a Teleforégano: Pizzas Veganas"
+    SET INSTRUCTIONS "Llama a Teleforégano Pizza Vegana"
     SET CONTENT_ID "PEPPER-VEGAN"
 END
 
 DEF TASK "PizzaOrder"
     SET DURATION <5H>
     REM : TALKING TIMEOUT
-    SET NAME "Ordena Pizza"
+    SET NAME "Pedir pizza"
     SET THEME "TALKING"
     SET CATEGORY "HIGH"
     
@@ -67,14 +67,14 @@ CLONE DEED "DialogBase" "FixFridgeDialog"
 END
 
 CLONE DEED "PhoneBase" "PhoneRepairShop"
-    SET INSTRUCTIONS "Llama a Toda Una Reparación"
+    SET INSTRUCTIONS "Llama a Reparaciones sin paragones"
     SET CONTENT_ID "QUITE-A-REPA"
 END
 
 DEF TASK "FridgeRepair"
     SET DURATION <5H>
     REM : TALKING TIMEOUT
-    SET NAME "Llama al taller de reparaciones por la nevera"
+    SET NAME "Llamar al taller de reparaciones por la nevera"
     SET THEME "TALKING"
     SET CATEGORY "HIGH"
     SET CAPTAIN "MATURE"
@@ -90,7 +90,7 @@ END
 
 REM : Fix the Wifi
 CLONE DEED "PhoneBase" "PhoneISP"
-    SET INSTRUCTIONS "Llama al servicio de Internet GranBanda"
+    SET INSTRUCTIONS "Llama al Servicio de Internet AgrandaBanda"
     SET CONTENT_ID "BIGBAND_INTE"
 END
 
@@ -99,7 +99,7 @@ CLONE DEED "Nothing5" "Wait"
 END
 
 CLONE DEED "SwipeLeft" "Unplug"
-    SET INSTRUCTIONS "Hmmm... tal vez desconectar el enrutador?"
+    SET INSTRUCTIONS "Mmmh... ¿tal vez si desconectas el enrutador?"
 END
 
 CLONE DEED "SwipeRight" "PlugIn"
@@ -111,7 +111,7 @@ CLONE DEED "SwipeDown" "Works"
 END
 
 DEF TASK "FixWifi"
-    SET NAME "Repara el Wifi"
+    SET NAME "Repara el WiFi"
     SET THEME "TALKING"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
@@ -137,7 +137,7 @@ CLONE DEED "SwipeUp" "OpenHood"
 END
 
 CLONE DEED "Hold3" "Look"
-    SET INSTRUCTIONS "Mira a tu alrededor pensativamente"
+    SET INSTRUCTIONS "Mira a tu alrededor cuidadosamente"
 END
 
 CLONE DEED "Tap5" "Hit"
@@ -145,7 +145,7 @@ CLONE DEED "Tap5" "Hit"
 END
 
 CLONE DEED "Nothing3" "Realize"
-    SET INSTRUCTIONS "Date cuenta de que lo emeporaste"
+    SET INSTRUCTIONS "Date cuenta de que lo empeoraste"
 END
 
 CLONE DEED "PhoneCategory" "Call"
@@ -154,7 +154,7 @@ CLONE DEED "PhoneCategory" "Call"
 END
 
 DEF TASK "CarSound"
-    SET NAME "El coche hace un sonido extraño"
+    SET NAME "El auto hace un sonido extraño"
     SET THEME "TALKING"
     SET CAPTAIN "MATURE"
     SET CATEGORY "HIGH"
@@ -188,7 +188,7 @@ CLONE DEED "PhoneCategory" "Exterminator"
 END
 
 DEF TASK "OhNoAnts1"
-    SET NAME "¡Oh no! ¡Hormigas!"
+    SET NAME "¡Oh, no! ¡Hormigas!"
     SET THEME "MISC"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
@@ -208,7 +208,7 @@ END
 REM : Food Prank
 
 CLONE DEED "PhoneCategory" "FoodPrank1"
-    SET INSTRUCTIONS "Hacer una broma de pedido de comida a los vecinos"
+    SET INSTRUCTIONS "Haz una broma de pedido de comida a los vecinos"
     SET CATEGORY "FOOD"
 END
 
@@ -217,7 +217,7 @@ CLONE DEED "Nothing3" "ThinkPrank1"
 END
 
 CLONE DEED "PhoneCategory" "FoodPrank2"
-    SET INSTRUCTIONS "Hacer una broma de pedido de comida a los vecinos"
+    SET INSTRUCTIONS "Haz una broma de pedido de comida a los vecinos"
     SET CATEGORY "FOOD"
 END
 
@@ -226,12 +226,12 @@ CLONE DEED "Nothing3" "ThinkPrank2"
 END
 
 CLONE DEED "PhoneCategory" "FoodPrank3"
-    SET INSTRUCTIONS "Hacer una broma de pedido de comida a los vecinos"
+    SET INSTRUCTIONS "Haz una broma de pedido de comida a los vecinos"
     SET CATEGORY "FOOD"
 END
 
 DEF TASK "Prank1"
-    SET NAME "Haz una broma clásica de pedidos de comida"
+    SET NAME "Hacer una broma clásica de pedidos de comida"
     SET THEME "TALKING"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "ULTRA"
@@ -255,12 +255,12 @@ END
 REM : Sleepover call
 
 CLONE DEED "PhoneCategory" "SleepoverPickupCall"
-    SET INSTRUCTIONS "Llama al padre para que te recoja de la pijamada"
+    SET INSTRUCTIONS "Llama a tus padres para que te recojan de la pijamada"
     SET CONTENT_ID "DEVILS_FAMIL"
 END
 
 DEF TASK "SleepoverPickup"
-    SET NAME "Llama al padre para que te recoja de la pijamada"
+    SET NAME "Llamar a tus padres para que te recojan de la pijamada"
     SET THEME "TALKING"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "HIGH"
@@ -279,7 +279,7 @@ CLONE DEED "PhoneCategory" "CallRooferTask"
 END
 
 DEF TASK "CallRoofer"
-    SET NAME "Llama al techador para arreglar la fuga"
+    SET NAME "Llamar al techador para arreglar la fuga"
     SET THEME "TALKING"
     SET CAPTAIN "MATURE"
     SET CATEGORY "HIGH"
@@ -294,16 +294,16 @@ END
 REM : Order a cake
 
 CLONE DEED "PhoneBase" "OrderCake1"
-    SET INSTRUCTIONS "Llama a Pasteles Cargados"
+    SET INSTRUCTIONS "Llama a Cargado y Cenado"
     SET CONTENT_ID "CAKED_N_LOAD"
 END
 
 CLONE DEED "Tap1" "OrderCake2"
-    SET INSTRUCTIONS "Pide un pastel Sin Inscripción"
+    SET INSTRUCTIONS "Pide una torta sin mensaje"
 END
 
 CLONE DEED "Tap1" "OrderCake3"
-    SET INSTRUCTIONS "Aclara que debe decir 'Sin inscripción'"
+    SET INSTRUCTIONS "Aclara que debe decir 'Sin mensaje'"
 END
 
 CLONE DEED "Nothing4" "OrderCake4"
@@ -311,7 +311,7 @@ CLONE DEED "Nothing4" "OrderCake4"
 END
 
 DEF TASK "OrderCake"
-    SET NAME "Pide un pastel"
+    SET NAME "Pedir una torta"
     SET CAPTAIN "MATURE"
     SET CATEGORY "HIGH"
     SET THEME "TALKING"
@@ -332,7 +332,7 @@ END
 REM : Negotiate Cable Bundle
 
 CLONE DEED "PhoneBase" "CableBundle1"
-    SET INSTRUCTIONS "Llame al servicio de Internet de GranBanda"
+    SET INSTRUCTIONS "Llama al Servicio de Internet AgrandaBanda"
     SET CONTENT_ID "BIGBAND_INTE"
 END
 
@@ -353,7 +353,7 @@ CLONE DEED "Tap1" "CableBundle5"
 END
 
 DEF TASK "CableBundle"
-    SET NAME "Negocia un paquete de cable"
+    SET NAME "Negociar un paquete de cable"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "HIGH"
     SET THEME "RECREATION"
@@ -376,7 +376,7 @@ END
 REM : Cancel dinner plans
 
 CLONE DEED "SwipeUp" "CancelDinner1"
-    SET INSTRUCTIONS "Uh oh, ¿eso es esta noche? Consulta tu calendario"
+    SET INSTRUCTIONS "Oh, oh, ¿era esta noche? Consulta tu calendario"
 END
 
 CLONE DEED "Nothing4" "CancelDinner2"
@@ -384,12 +384,12 @@ CLONE DEED "Nothing4" "CancelDinner2"
 END
 
 CLONE DEED "PhoneCategory" "CancelDinner3"
-    SET INSTRUCTIONS "Llama a los vecinos para cancelar sus planes en el último minuto"
+    SET INSTRUCTIONS "Llama a los vecinos para cancelar tus planes en el último minuto"
     SET CATEGORY "RESIDENCE"
 END
 
 DEF TASK "CancelDinner"
-    SET NAME "Cancela planes de cena"
+    SET NAME "Cancelar planes de cena"
     SET CAPTAIN "MATURE"
     SET CATEGORY "HIGH"
     SET THEME "GUESTS"
@@ -412,15 +412,15 @@ CLONE DEED "Hold2" "AnimalControl1"
 END
 
 CLONE DEED "SwipeDown" "AnimalControl2"
-    SET INSTRUCTIONS "¡Aah! ¡Métete adentro!"
+    SET INSTRUCTIONS "¡Aah! ¡Entra a la casa!"
 END
 
 CLONE DEED "SwipeLeft" "AnimalControl3"
-    SET INSTRUCTIONS "¡Dale un portazo la puerta!"
+    SET INSTRUCTIONS "¡Cierra la puerta!"
 END
 
 CLONE DEED "PhoneBase" "AnimalControl4"
-    SET INSTRUCTIONS "Llama al Control de Animales, ¡¡¡de inmediato!!!"
+    SET INSTRUCTIONS "Llama a Control de animales, ¡¡¡cuanto antes!!!"
     SET CATEGORY "ANIMALCONTROL"
 END
 
@@ -446,15 +446,15 @@ END
 REM : Cancel magazine subscriptions
 
 CLONE DEED "SwipeDown" "CancelMagazine1"
-    SET INSTRUCTIONS "Tira montones de revistas"
+    SET INSTRUCTIONS "Bota montones de revistas"
 END
 
 CLONE DEED "SwipeDown" "CancelMagazine2"
-    SET INSTRUCTIONS "¿Por qué estamos suscritos a todo esto?"
+    SET INSTRUCTIONS "¿Por qué estamos suscritos a todas estas?"
 END
 
 CLONE DEED "PhoneCategory" "CancelMagazine3"
-    SET INSTRUCTIONS "Llame para cancelar suscripciones a revistas"
+    SET INSTRUCTIONS "Llama para cancelar suscripciones a revistas"
     SET CATEGORY "MAGAZINE"
 END
 
@@ -478,20 +478,20 @@ END
 REM : Make restaurant reservation
 
 CLONE DEED "Hold2" "RestaurantReservation1"
-    SET INSTRUCTIONS "Hm, ¿dónde deberíamos comer?"
+    SET INSTRUCTIONS "Mmmh, ¿dónde deberíamos comer?"
 END
 
 CLONE DEED "PhoneCategory" "RestaurantReservation2"
-    SET INSTRUCTIONS "Llama al restaurante para reservar mesa"
+    SET INSTRUCTIONS "Llama al restaurante para reservar una mesa"
     SET CATEGORY "FOOD"
 END
 
 CLONE DEED "Hold2" "RestaurantReservation3"
-    SET INSTRUCTIONS "Resulta que no aceptan reservaciones"
+    SET INSTRUCTIONS "Resulta que no aceptan reservas"
 END
 
 DEF TASK "RestaurantReservation"
-    SET NAME "Haz una reserva de restaurante"
+    SET NAME "Reservar en un restaurante"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "HIGH"
     SET THEME "TALKING"
@@ -528,12 +528,12 @@ END
 
 REM : Make dentist appointment
 CLONE DEED "DialogID" "DentistAppt"
-    SET INSTRUCTIONS "Pide hora"
+    SET INSTRUCTIONS "Pide una cita"
     SET CONTENT_ID "DENTIST"
 END
 
 DEF TASK "DentistAppt"
-    SET NAME "Pide una cita con el dentista"
+    SET NAME "Pedir una cita con el dentista"
     SET CAPTAIN "MATURE"
     SET CATEGORY "MEDIUM"
     SET THEME "TALKING"
@@ -551,7 +551,7 @@ CLONE DEED "DialogID" "AddCableChannel"
 END
 
 DEF TASK "AddCableChannel"
-    SET NAME "Llame a la compañía de cable para agregar un canal"
+    SET NAME "Llamar a la compañía de cable para agregar un canal"
     SET CAPTAIN "MATURE"
     SET CATEGORY "MEDIUM"
     SET THEME "TALKING"
@@ -564,12 +564,12 @@ END
 
 REM : Pretend action figures are talking
 CLONE DEED "DialogID" "ActionFigures"
-    SET INSTRUCTIONS "Finge que las figuras de acción están hablando"
+    SET INSTRUCTIONS "Finge que las figuras de acción hablan"
     SET CONTENT_ID "ACTION_FIGURES"
 END
 
 DEF TASK "ActionFigures"
-    SET NAME "Finge que tus figuras de acción están hablando"
+    SET NAME "Fingir que tus figuras de acción hablan"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "TALKING"
@@ -587,7 +587,7 @@ CLONE DEED "DialogID" "BirthdayInvite"
 END
 
 DEF TASK "BirthdayInvite"
-    SET NAME "Recibe una invitación para el cumpleaños de un compañero"
+    SET NAME "Recibir una invitación para el cumpleaños de un compañero de clase"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "MEDIUM"
     SET THEME "TALKING"
@@ -605,7 +605,7 @@ CLONE DEED "DialogID" "Petunias"
 END
 
 DEF TASK "Petunias"
-    SET NAME "Elogia las petunias del vecino"
+    SET NAME "Elogiar las petunias del vecino"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "MEDIUM"
     SET THEME "TALKING"

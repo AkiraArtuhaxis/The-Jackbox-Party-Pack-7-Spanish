@@ -1,11 +1,11 @@
-MAIN(Audición): Puede empezar con su audición...
+MAIN(Audición): Adelante, comienza tu audición...
 -HARK-> "¡Escucha! Un dinosaurio..."
--OUCH-> "¡Ow! Me muero..."
--YOWZA-> "¡Caramba! La Reina..."
+-OUCH-> "¡Auch! Me muero..."
+-YOWZA-> "¡Caramba! La reina..."
 -LINE-> "...¿línea?"
 
 HARK(Audición): ¡Aterrador! ¡Obtienes el papel!
--SUCCESS-> Pure verdaderamente visualizar ese dinosaurio.
+-SUCCESS-> Realmente pude ver ese dinosaurio.
 
 OUCH(Audición): ¡Muy triste! ¡Obtienes el papel!
 -SUCCESS-> *Realiza una reverencia*
@@ -13,5 +13,5 @@ OUCH(Audición): ¡Muy triste! ¡Obtienes el papel!
 YOWZA(Audición): ¡Sátira muy inteligente! ¡Obtienes el papel!
 -SUCCESS-> De mis mejores "Caramba"
 
-LINE(Audición): ...harás la parte de la roca que no habla.
+LINE(Audición): ...Harás la parte de la roca que no habla.
 -SUCCESS-> ¿No pueden usar utilería y ya?

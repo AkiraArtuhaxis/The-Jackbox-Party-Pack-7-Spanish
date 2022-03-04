@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> pedos | pedos|pedorrearse|Exceso de gases",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Por supuesto, es un derecho humano básico esbozado en varios documentos, incluyendo el Pedus Magnus.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Nothing is certain but death and taxes... oh, also <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "happy hour|climate change|teen angst",
+   "n": "SafetyQuips"
+  }
+ ]
+}

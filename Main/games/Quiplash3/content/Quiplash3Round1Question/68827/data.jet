@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> Schmitty | Schmitty|<ARTICLE> Shmitty | Shmitty|<ARTICLE> Smitty | Smitty|<ARTICLE> host de Quiplash | host de Quiplash|<ARTICLE> host de quiplash | host de Quiplash|<ARTICLE> Schmittie | Schmittie|<ARTICLE> Shmittie | Shmittie|<ARTICLE> Smittie | Smittie",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "{Schmitty laughs} Crees que soy así de fácil, ¿o no? ¿Crees que voy a servirte un lindo y jugoso sonido de pedo solo para que te burles de mí? Bueno... ¡TIENES RAZÓN! (pedo masivo con explosión sónica)",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A good name for the opposite of a silent-but-deadly fart",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "loud n' proud|horn time|Chernobyl",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,7 +1,7 @@
-MAIN(Pizza): Aquí Pizzas Veganas de Teleforégano. ¿Cuál es su pedido?
+MAIN(Pizza): Aquí Teleforégano Pizza Vegana. ¿Cuál es su pedido?
 -WHEAT-> Champiñones y bolas de trigo
 -CANADIAN-> Berenjenas canadienses
--CHEESE-> Cuatro Queso-ides
+-CHEESE-> Algo con cuatro queso
 -GROUNDBEET-> Remolacha picada
 
 WHEAT(Pizza): ¡Genial! Estará listo en media hora

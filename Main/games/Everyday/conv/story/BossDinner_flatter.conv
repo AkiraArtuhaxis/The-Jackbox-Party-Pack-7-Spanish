@@ -3,7 +3,7 @@ MAIN(Jefe): ¿Cómo puedo ayudarle, joven capitalista?
 -BRATTY-> ¿Cómo puedo evitar los errores obvios que usted ha experimentado?
 -SHORTCUT-> ¿Hay algún atajo al éxito que no implique tanto eso de "intentarlo"?
 
-ADVICE(Jefe): Honestamente, todo está en la ropa. Consíguete un buen sastre y ya habrás conseguido más de la mitad de lo necesario.
+ADVICE(Jefe): Honestamente, todo está en la ropa. Consíguete un buen sastre y estarás a medio camino.
 -TAILOR-> ¿Quién es tu chico?
 -BODYTEMP-> Mi temperatura corporal extremadamente alta NO es buena para el lino.
 
@@ -11,13 +11,13 @@ TAILOR(Jefe): Habla con Vinny en el departamento de trajes y dile que yo te envi
 -SUCCESS-> ¡He hecho una conexión!
 
 BODYTEMP(Jefe): Últimamente están haciendo grandes cosas con la ropa de oficina con Nomex.
--SUCCESS-> Bueno, suficiente charla por hoy.
+-SUCCESS-> Bueno, suficiente charla por ahora.
 
-BRATTY(Jefe): Supongo que ir de nuevo a 1998 y decirle a Carolyn que no quiero que se mude a Detroit...
+BRATTY(Jefe): Supongo que regresar al año 1998 y decirle a Carolyn que no quiero que se mude a Detroit...
 -SUCCESS-> Esto se ha hecho demasiado real.
 
-SHORTCUT(Jefe): Eso depende. ¿Has nacido rico?
--NOTRICH-> Desafortunadamente, no.
+SHORTCUT(Jefe): Depende. ¿Naciste rico?
+-NOTRICH-> Por desgracia, no.
 -NOTRICH-> Si lo fuera, ¿estaría perdiendo mi tiempo hablando contigo?
 
 NOTRICH(Jefe): Entonces no puedo ayudarte.

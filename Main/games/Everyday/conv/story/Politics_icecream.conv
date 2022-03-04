@@ -4,11 +4,11 @@ MAIN(Compañero de estudio): Escuché que tenías un poco de... ¿"lo congelado"
 -NAIVE-> Nop, ¡solo tengo este helado ilegal!
 
 PASSWORD(Compañero de estudio): ..."Pistacho."
--SUCCESS-> No me acuerdo si esa era la contraseña, pero seguramente era esa.
+-SUCCESS-> No recuerdo si esa era la contraseña, pero seguramente era esa.
 
-MONEY(Compañero de estudio): ¡Oye, dale! ¡Sé que puedo tomarlo!
+MONEY(Compañero de estudio): ¡Vamos, hombre! ¡Sé que puedo tomarlo!
 -SUCCESS-> Bueno, pero me debes una.
 
 NAIVE(Compañero de estudio): ¡Oye, más bajo!
--SUCCESS-> ¡PERO ESTE HELADO ILEGAL ES GENIAL!
--SUCCESS-> ¡Oh cierto! Crímenes.
+-SUCCESS-> ¡PERO SOLO ESTOY HABLANDO DE ESTE GRAN HELADO ILEGAL!
+-SUCCESS-> ¡Oh, cierto! Crímenes.

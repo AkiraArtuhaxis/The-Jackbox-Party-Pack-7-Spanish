@@ -95,7 +95,7 @@ END
 
 DEF TASK "AstronomyFindBook"
     SET NAME "Encontrar un libro de astronomía"
-    SET ASKER_NAME "Obtener ayuda para encontrar un libro de astronomía"
+    SET ASKER_NAME "Pedir ayuda para encontrar un libro de astronomía"
     SET HELPER_NAME "Ayudar a <ASKER> a encontrar un libro de astronomía"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"

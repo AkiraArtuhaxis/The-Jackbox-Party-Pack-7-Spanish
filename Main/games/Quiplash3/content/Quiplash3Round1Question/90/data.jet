@@ -7,7 +7,7 @@
   },
   {
    "t": "S",
-   "v": "chocolate|chocolate sauce|hot chocolate|hot cocoa",
+   "v": "chocolate|salsa de chocolate|chocolate caliente|cacao caliente",
    "n": "Keywords"
   },
   {
@@ -17,7 +17,7 @@
   },
   {
    "t": "S",
-   "v": "Ehh, I don’t know about that one. Did you ever see Willy Wonka? That “river of chocolate” scene? Just saying.",
+   "v": "Eh, no estoy seguro de esa. ¿Has visto alguna vez a Willy Wonka? ¿Esa escena del \"río de chocolate\"? Solo digo.",
    "n": "KeywordResponseText"
   },
   {
@@ -32,7 +32,7 @@
   },
   {
    "t": "S",
-   "v": "It would actually be chill to die in an avalanche of <BLANK>",
+   "v": "En realidad sería genial morir en una avalancha de <BLANK>",
    "n": "PromptText"
   },
   {

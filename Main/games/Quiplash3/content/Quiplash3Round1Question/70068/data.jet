@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> popo | popó|<ARTICLE> Popo | Popó|<ARTICLE> caquita | Caquita|<PRONOUN> popo | popó|<PRONOUN> popo | popó|<PRONOUN> caquita | Caquita|<PRONOUN> Heces | heces|<PRONOUN> excremento | Excremento",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡Pisar caca con los pies descalzos! Esa es una respuesta sólida. ¿Cómo superarías eso? Como, eh, ¿caca altamente radiactiva? O como... O como una caca que tiene pirañas muy pequeñas anidando en su interior. Aun así, ¡es una gran respuesta!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Lo peor que se puede pisar con los pies descalzos",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "tu hijo|Limpiador de bañeras ácido del Sr. Jabonoso|magma caliente",
+   "n": "SafetyQuips"
+  }
+ ]
+}

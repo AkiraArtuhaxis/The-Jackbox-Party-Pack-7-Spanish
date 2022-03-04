@@ -129,7 +129,7 @@ CLONE DEED "Hold2" "SneakFilmSet3"
 END
 
 CLONE DEED "Nothing3" "SneakFilmSet4"
-    SET INSTRUCTIONS "¡¡¡Dios mío, es el adolescente rompecorazones, Billy O'Brien!!!"
+    SET INSTRUCTIONS "¡¡¡Dios mío, es el joven rompecorazones, Billy O'Brien!!!"
 END
 
 DEF TASK "SneakFilmSet"
@@ -225,7 +225,7 @@ CLONE DEED "DialogID" "MeetBilly"
 END
 
 DEF TASK "MeetBilly"
-    SET NAME "¡Conoce al galán adolescente Billy O'Brien!"
+    SET NAME "¡Conoce al joven galán Billy O'Brien!"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"

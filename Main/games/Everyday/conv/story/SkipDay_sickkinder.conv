@@ -1,16 +1,16 @@
 MAIN(Subdirector): ¿Por qué no asistirás a la escuela hoy?
 -THROW-> Estoy vomitando por todas partes.
--FIND-> Estoy perdido.
+-FIND-> Desaparecí.
 -CERN-> La CERN me necesita.
 -LOVE-> Me encanta la escuela. Esto es un castigo.
 
 THROW(Subdirector): Qué asco. ¡Quédate en casa!
--SUCCESS-> ¡Buajajaja!
+-SUCCESS-> ¡Muajajaja!
 
 FIND(Subdirector): Llamaremos a las autoridades
--SUCCESS-> Ehhhh... ¡uy qué cosa, me desperdí!
+-SUCCESS-> Ehhh... ¡no importa, me encontré!
 
-CERN(Subdirector): ¿¡Otra vez!?
+CERN(Subdirector): ¡¿Otra vez?!
 -SUCCESS-> ¡Eso son dólares en impuestos suizos en funcionamiento!
 
 LOVE(Subdirector): Duro, pero justo.

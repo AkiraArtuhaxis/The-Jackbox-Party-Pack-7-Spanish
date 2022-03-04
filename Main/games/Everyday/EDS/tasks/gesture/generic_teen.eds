@@ -1,11 +1,11 @@
 REM : Try Not To Pop Zit
 
 CLONE DEED "Tap3" "ZitStep1"
-    SET INSTRUCTIONS "Tócala"
+    SET INSTRUCTIONS "Tócalo"
 END
 
 CLONE DEED "ScrubMedium" "ZitStep2"
-    SET INSTRUCTIONS "Ráscala"
+    SET INSTRUCTIONS "Ráscalo"
 END
 
 CLONE DEED "Hold3" "ZitStep3"
@@ -16,7 +16,7 @@ DEF TASK "DontPopZit"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
     SET THEME "BATHROOM"
-    SET NAME "Intenta no reventar tu grano"
+    SET NAME "Intentar no reventar tu grano"
     SET CAPTAIN "TEENS"
     SET CATEGORY "LOW"
     SET LEWD TRUE
@@ -42,15 +42,15 @@ CLONE DEED "Hold5" "HoldMelon"
 END
 
 CLONE DEED "Tap3" "KissMelon"
-    SET INSTRUCTIONS "Besa la sandía"
+    SET INSTRUCTIONS "Besa a la sandía"
 END
 
 CLONE DEED "Rotate720" "FrenchKissMelon"
-    SET INSTRUCTIONS "Da un beso profundo a la sandía"
+    SET INSTRUCTIONS "Dale un beso con lengua a la sandía"
 END
 
 DEF TASK "PracticeKissing"
-    SET NAME "Practica besar"
+    SET NAME "Practicar los besos"
     SET THEME "MISC"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -73,12 +73,12 @@ REM : Fantasize (Fantasize)
 
 CLONE DEED "NothingBase" "Bobby"
     SET DURATION 5S
-    SET INSTRUCTIONS "Fantasea con besarte con Bobby Qualidee, Wide Receiver Estrella"
+    SET INSTRUCTIONS "Fantasea con besarte con Bobby Qualidee, receptor abierto estrella"
     SET PARTICIPATION "SOLO"
 END
 
 DEF TASK "Fantasize"
-    SET NAME "Sueña de día"
+    SET NAME "Soñar de día"
     SET THEME "MISC"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -94,7 +94,7 @@ END
 REM : Lift weights (LiftWeights)
 
 CLONE DEED "SwipeUp" "LiftIron1"
-    SET INSTRUCTIONS "¡Es hora de animarse! ¡Levanta ese metal!"
+    SET INSTRUCTIONS "¡Es hora de animarse! ¡Levanta ese fierro!"
 END
 
 CLONE DEED "SwipeUp" "LiftIron2"
@@ -106,11 +106,11 @@ CLONE DEED "SwipeUp" "LiftIron3"
 END
 
 CLONE DEED "Nothing3" "CatchBreath"
-    SET INSTRUCTIONS "Recupera el aliento. Tres repeticiones ya es suficiente ejercicio"
+    SET INSTRUCTIONS "Recupera el aliento. Tres repeticiones es suficiente ejercicio"
 END
 
 DEF TASK "LiftWeights"
-    SET NAME "Levanta peso"
+    SET NAME "Levantar pesas"
     SET THEME "PLAYING"
     SET CAPTAIN "TEENS"
     SET CATEGORY "LOW"
@@ -140,7 +140,7 @@ CLONE DEED "Hold3" "StandAround2"
 END
 
 DEF TASK "ExudeCool"
-    SET NAME "Suda genialidad"
+    SET NAME "Sudar genialidad"
     SET THEME "MISC"
     SET CAPTAIN "TEENS"
     SET CATEGORY "LOW"
@@ -161,7 +161,7 @@ CLONE DEED "SwipeUp" "DeodorantStep1"
 END
 
 CLONE DEED "ScrubMedium" "DeodorantStep2"
-    SET INSTRUCTIONS "Frotalo ahí"
+    SET INSTRUCTIONS "Frótalo ahí"
 END
 
 CLONE DEED "Hold5" "DeodorantStep3"
@@ -169,7 +169,7 @@ CLONE DEED "Hold5" "DeodorantStep3"
 END
 
 DEF TASK "Deodorant"
-    SET NAME "Ponte desodorante"
+    SET NAME "Ponerse desodorante"
     SET THEME "BATHROOM"
     SET CAPTAIN "TEENS"
     SET DURATION <3H>
@@ -188,7 +188,7 @@ END
 REM : Rewire the stereo speakers
 
 CLONE DEED "Tap2" "RewireSpeakers1"
-    SET INSTRUCTIONS "Golpea el viejo boom box para ver si tienes la magia de Fonz"
+    SET INSTRUCTIONS "Golpea la vieja radiograbadora para ver si tienes la magia de Fonz"
 END
 
 CLONE DEED "SwipeRight" "RewireSpeakers2"
@@ -209,7 +209,7 @@ CLONE DEED "Nothing3" "RewireSpeakers5"
 END
 
 DEF TASK "RewireSpeakers"
-    SET NAME "Vuelve a cablear los altavoces estéreo"
+    SET NAME "Recablear los altavoces del equipo de música"
     SET CAPTAIN "TEENS"
     SET CATEGORY "LOW"
     SET THEME "RECREATION"
@@ -231,7 +231,7 @@ END
 REM : Throw up after night of partying
 
 CLONE DEED "Nothing2" "PartyThrowUp1"
-    SET INSTRUCTIONS "Sientete mareado"
+    SET INSTRUCTIONS "Maréate"
 END
 
 CLONE DEED "Hold2" "PartyThrowUp2"
@@ -247,7 +247,7 @@ CLONE DEED "SwipeDown" "PartyThrowUp4"
 END
 
 DEF TASK "PartyThrowUp"
-    SET NAME "Vomita después de una noche de fiesta"
+    SET NAME "Vomitar después de una noche de fiesta"
     SET CAPTAIN "TEENS"
     SET CATEGORY "LOW"
     SET THEME "BATHROOM"
@@ -277,15 +277,15 @@ CLONE DEED "SwipeUp" "FixVCR2"
 END
 
 CLONE DEED "SwipeDown" "FixVCR3"
-    SET INSTRUCTIONS "Retira la cinta VHS"
+    SET INSTRUCTIONS "Saca la cinta VHS"
 END
 
 CLONE DEED "Rotate360Counter" "FixVCR4"
-    SET INSTRUCTIONS "¡La cinta magnética se fue a todas partes! ¡Rebobínalo de nuevo!"
+    SET INSTRUCTIONS "¡La cinta magnética se fue a todas partes! ¡Rebobínala de nuevo!"
 END
 
 DEF TASK "FixVCR"
-    SET NAME "Arregla la cinta atascada en la videograbadora"
+    SET NAME "Arreglar la cinta atascada en la videograbadora"
     SET CAPTAIN "TEENS"
     SET CATEGORY "LOW"
     SET THEME "RECREATION"

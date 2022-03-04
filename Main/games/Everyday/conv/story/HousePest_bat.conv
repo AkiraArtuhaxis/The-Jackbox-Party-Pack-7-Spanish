@@ -8,10 +8,10 @@ NORMAL(Exterminador): Entonces usaré trampas de murciélagos normales
 -SUCCESS-> Puede que haya llevado a esta persona a su muerte...
 
 DEMON(Exterminador): Mi especialidad
--SUCCESS-> ¡Aguanten los negocios pequeños!
+-SUCCESS-> ¡Hurra por los negocios pequeños!
 
 CURSE(Exterminador): Mi especialidad
--SUCCESS-> Aguanten los negocios pequeños
+-SUCCESS-> Hurra por los negocios pequeños
 
 EXTRA(Exterminador): Bien. Me encanta el drama.
 -SUCCESS-> ¡Cuidado, murciélago!

@@ -1,10 +1,10 @@
 DEF EPISODE "SlumberParty"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Pijamada y Afuera"
-    SET DESCRIPTION "El hijo menor de la familia está organizando su primera <font color='#AF0000'>pijamada</font>. ¿Pueden gestionar la anarquía pura de 8 niños con la cobertura de la oscuridad? Este es un desafío de la noche a la mañana, así que volveremos temprano para ver cómo te fue."
-    SET SUCCESS_MESSAGE "¡Nos alegramos de escuchar que todos durmieron la grandísima cantidad de tres horas y media de sueño! Crearon una tarde de malas conductas menores, flujos de sangre cafeinados y gritos nocturnos tardíos. Al igual que cualquier pijamada humana."
-    SET FAILURE_MESSAGE "Como dice el refrán, 'El infierno son cuatro niños.' No deberíamos sorprendernos de que alojar ocho era mas de lo que cualquier diablo podría aguantar. No solo los otros padres están sospechando de que tan faltos de sueño están sus hijos, ellos podrían haber jurado que estaban mucho menos 'poseídos por el demonio' cuando los pasaron a dejar."
+    SET NAME "Pijamada y afuera"
+    SET DESCRIPTION "El hijo menor de la familia está organizando su primera <font color='#AF0000'>pijamada</font>. ¿Podrán manejar la anarquía pura de 8 niños con la oscuridad de la cobertura? Este es un desafío de la noche a la mañana, así que volveremos temprano para ver cómo les fue."
+    SET SUCCESS_MESSAGE "¡Nos alegramos de escuchar que todos durmieron la enorme cantidad de tres horas y media! Crearon una tarde de malas conductas menores, flujos de sangre cafeinados y gritos de madrugada. Al igual que cualquier pijamada humana."
+    SET FAILURE_MESSAGE "Como dice el refrán, 'El infierno son cuatro niños'. No deberíamos sorprendernos de que alojar a ocho era más de lo que cualquier diablo podría aguantar. No solo los otros padres están sospechando de que tan faltos de sueño están sus hijos, ellos podrían haber jurado que estaban mucho menos 'poseídos por el demonio' cuando los pasaron a dejar."
 
 
     REM : ------------------------------
@@ -53,7 +53,7 @@ CLONE DEED "DialogID" "DialogGreetKids"
 END
 
 DEF TASK "WelcomeKids"
-    SET NAME "Da la bienvenida a los niños en la puerta"
+    SET NAME "Dar la bienvenida a los niños en la puerta"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -71,7 +71,7 @@ CLONE DEED "GatherID" "GatherSnackTray"
 END
 
 DEF TASK "GatherSnackTray"
-    SET NAME "Haz una bandeja con bocadillos"
+    SET NAME "Hacer una bandeja con bocadillos"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -84,23 +84,23 @@ END
 
 REM : Watch scary movie
 CLONE DEED "QuickTap5" "FlipChannelsScary"
-    SET INSTRUCTIONS "Haz zapping por los canales"
+    SET INSTRUCTIONS "Cambia de canales"
 END
 
 CLONE DEED "Hold3" "ChainsawTV"
-    SET INSTRUCTIONS "¡Guau... una motosierra!"
+    SET INSTRUCTIONS "Guau... ¡una motosierra!"
 END
 
 CLONE DEED "Hold5" "GripPillow"
-    SET INSTRUCTIONS "Agarrate a la almohada"
+    SET INSTRUCTIONS "Agarra la almohada"
 END
 
 CLONE DEED "SwipeUp" "HideEyes"
-    SET INSTRUCTIONS "Oculta tus ojos"
+    SET INSTRUCTIONS "Tápate los ojos"
 END
 
 DEF TASK "SlumberWatchScaryMovie"
-    SET NAME "Ve una película de terror"
+    SET NAME "Ver una película de terror"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -119,7 +119,7 @@ END
 
 REM : Load up on coffee
 CLONE DEED "SwipeUp" "LoadCoffee1"
-    SET INSTRUCTIONS "Levante la taza a los labios"
+    SET INSTRUCTIONS "Lleva la taza a tus labios"
 END
 
 CLONE DEED "Hold3" "LoadCoffee2"
@@ -135,7 +135,7 @@ CLONE DEED "Hold3" "LoadCoffee4"
 END
 
 DEF TASK "LoadCoffee"
-    SET NAME "Cargate de café"
+    SET NAME "Cargarse de café"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -168,11 +168,11 @@ CLONE DEED "SwipeRight" "SlumberSneakKid3"
 END
 
 CLONE DEED "Nothing3" "SlumberSneakKid4"
-    SET INSTRUCTIONS "Echa una última mirada melancólica a tu vida pasada"
+    SET INSTRUCTIONS "Da una última mirada melancólica a tu antigua vida"
 END
 
 DEF TASK "SlumberSneakKid"
-    SET NAME "Escápate"
+    SET NAME "Escaparse"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -198,7 +198,7 @@ CLONE DEED "SearchID" "SlumberSearch"
 END
 
 DEF TASK "SlumberSearchKids"
-    SET NAME "Busca a los niños que se escabulleron"
+    SET NAME "Buscar a los niños que se escabulleron"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"
@@ -213,7 +213,7 @@ END
 REM : Scare the kids
 
 CLONE DEED "Tap2" "SlumberScareKids1"
-    SET INSTRUCTIONS "Escondete en el armario"
+    SET INSTRUCTIONS "Escóndete en el armario"
 END
 
 CLONE DEED "ScrubMedium" "SlumberScareKids2"
@@ -229,7 +229,7 @@ CLONE DEED "SwipeUp" "SlumberScareKids4"
 END
 
 DEF TASK "SlumberScareKids"
-    SET NAME "Asusta a los niños"
+    SET NAME "Asustar a los niños"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -248,7 +248,7 @@ END
 
 REM : Investigate scary sound
 CLONE DEED "Tap3" "SlumberSound1"
-    SET INSTRUCTIONS "Arrastrate escaleras abajo"
+    SET INSTRUCTIONS "Arrástrate escaleras abajo"
 END
 
 CLONE DEED "Hold5" "SlumberSound2"
@@ -256,7 +256,7 @@ CLONE DEED "Hold5" "SlumberSound2"
 END
 
 CLONE DEED "Nothing3" "SlumberSound3"
-    SET INSTRUCTIONS "Eso solo es una sombra... ¿verdad?"
+    SET INSTRUCTIONS "Eso solo es una sombra... ¿cierto?"
 END
 
 CLONE DEED "QuickTap4" "SlumberSound4"
@@ -264,7 +264,7 @@ CLONE DEED "QuickTap4" "SlumberSound4"
 END
 
 DEF TASK "SlumberSound"
-    SET NAME "Investiga el sonido aterrador"
+    SET NAME "Investigar el sonido aterrador"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -303,14 +303,14 @@ REM : ------------------------------------------------
 
 REM : Teen sneak out for no reason
 CLONE DEED "TravelID" "SlumberTeenSneak"
-    SET INSTRUCTIONS "Tengo ganas de tekka maki"
+    SET INSTRUCTIONS "Tengo un antojo de sushi de atún"
     SET CONTENT_ID "GAS_N_SUSHI"
 END
 
 DEF TASK "SlumberTeenSneak"
     SET NAME "Ir de paseo"
-    SET ASKER_NAME "Ir de paseo con la persona joven"
-    SET HELPER_NAME "Ve de paseo con <ASKER>"
+    SET ASKER_NAME "Ir de paseo con el joven"
+    SET HELPER_NAME "Ir de paseo con <ASKER>"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -336,7 +336,7 @@ CLONE DEED "Nothing3" "HangOutGarage3"
 END
 
 DEF TASK "HangOutGarage"
-    SET NAME "Pasa el rato en el garaje"
+    SET NAME "Pasar el rato en el garaje"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -357,15 +357,15 @@ CLONE DEED "SwipeRight" "SlumberQuiet1"
 END
 
 CLONE DEED "Hold3" "SlumberQuiet2"
-    SET INSTRUCTIONS "Di 'Shhhh' fuerte"
+    SET INSTRUCTIONS "Di 'Chsss' fuerte"
 END
 
 CLONE DEED "Hold5" "SlumberQuiet3"
-    SET INSTRUCTIONS "¡No está funcionando, en serio 'SSSSHHHHH'ealos!"
+    SET INSTRUCTIONS "¡No está funcionando, en serio 'CHSSS'ealos!"
 END
 
 DEF TASK "SlumberQuiet"
-    SET NAME "Dile a los niños que se calmen"
+    SET NAME "Decirle a los niños que se calmen"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -394,7 +394,7 @@ CLONE DEED "Nothing5" "SlumberStayUp3"
 END
 
 DEF TASK "SlumberStayUp"
-    SET NAME "Quédate despierto haciendo preguntas existenciales"
+    SET NAME "Quedarse despierto haciendo preguntas existenciales"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"

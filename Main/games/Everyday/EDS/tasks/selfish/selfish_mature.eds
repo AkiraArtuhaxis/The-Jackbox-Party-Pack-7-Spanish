@@ -1,16 +1,16 @@
 REM : Get in a social media fight
 
 CLONE DEED "SwipeBase" "SocialMediaFight1"
-    SET INSTRUCTIONS "¡El Sr. Scram no está de acuerdo contigo en YellBook! Desplázate por la perorata."
+    SET INSTRUCTIONS "¡El Sr. Vete no está de acuerdo contigo en YellBook! Desplázate por la perorata."
     SET DIRECTION "UP,UP,UP"
 END
 
 CLONE DEED "QuickTap5" "SocialMediaFight2"
-    SET INSTRUCTIONS "¡Furiosamente escribe tu respuesta!"
+    SET INSTRUCTIONS "¡Escribe furioso tu respuesta!"
 END
 
 CLONE DEED "Hold5" "SocialMediaFight3"
-    SET INSTRUCTIONS "Intenta ser la persona más grande"
+    SET INSTRUCTIONS "Intenta ser la persona más madura"
 END
 
 CLONE DEED "Tap1" "SocialMediaFight4"
@@ -18,7 +18,7 @@ CLONE DEED "Tap1" "SocialMediaFight4"
 END
 
 DEF TASK "SocialMediaFight"
-    SET NAME "Participa en una pelea en las redes sociales"
+    SET NAME "Participar en una pelea en redes sociales"
     SET CAPTAIN "MATURE"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -46,19 +46,19 @@ CLONE DEED "SwipeDown" "TakeNap1"
 END
 
 CLONE DEED "Tap1" "TakeNap2"
-    SET INSTRUCTIONS "Etapa Uno del sueño"
+    SET INSTRUCTIONS "Fase uno del sueño"
 END
 
 CLONE DEED "Tap1" "TakeNap3"
-    SET INSTRUCTIONS "Etapa Dos del sueño"
+    SET INSTRUCTIONS "Fase dos del sueño"
 END
 
 CLONE DEED "Tap1" "TakeNap4"
-    SET INSTRUCTIONS "Etapa Tres del sueño"
+    SET INSTRUCTIONS "Fase tres del sueño"
 END
 
 CLONE DEED "Tap1" "TakeNap5"
-    SET INSTRUCTIONS "Ahhh, sueño REM al fin"
+    SET INSTRUCTIONS "Ahhh, REM del sueño al fin"
 END
 
 CLONE DEED "HoldBase" "TakeNap6"
@@ -71,7 +71,7 @@ CLONE DEED "SwipeUp" "TakeNap7"
 END
 
 DEF TASK "TakeNap"
-    SET NAME "Toma una siesta"
+    SET NAME "Tomar una siesta"
     SET CAPTAIN "MATURE"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -120,7 +120,7 @@ CLONE DEED "Nothing5" "ToiletPhone5"
 END
 
 DEF TASK "ToiletPhone"
-    SET NAME "Usa tu teléfono en el baño"
+    SET NAME "Usar tu teléfono en el baño"
     SET CAPTAIN "MATURE"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"

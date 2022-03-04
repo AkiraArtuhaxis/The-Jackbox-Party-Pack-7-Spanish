@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mama | mamá|<PRONOUN> madre | Madre|<PRONOUN> papa | Papa|<PRONOUN> Padre | padre|<PRONOUN> padres | padres",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡Eh, tranquilo! ¿Sabes qué? No voy a tocar eso.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Money can’t buy happiness, but it CAN buy <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "infinite puppies|a butler named 'Happiness'|a sick Jacuzzi ",
+   "n": "SafetyQuips"
+  }
+ ]
+}

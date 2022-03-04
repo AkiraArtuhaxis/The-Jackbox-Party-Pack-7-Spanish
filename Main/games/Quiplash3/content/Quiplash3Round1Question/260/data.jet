@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "popó|popis|popo|desperdicios|cagadita|cagaditas|mierda|mierdas|cagada|cagadas|numero 2|No. 2|#2|numero dos",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Aww, qué lástima que no competimos por la respuesta MENOS creativa. De ser así tendríamos un verdadero ganador aquí.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A cool nickname for your bowel movements",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "The Pain Train|Farty Friends|The Stinky Boyz",
+   "n": "SafetyQuips"
+  }
+ ]
+}

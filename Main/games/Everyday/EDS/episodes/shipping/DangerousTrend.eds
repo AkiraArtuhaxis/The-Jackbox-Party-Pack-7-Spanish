@@ -2,7 +2,7 @@ DEF EPISODE "DangerousTrend"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Es la tendencia mundial"
-    SET DESCRIPTION "¡Noticias terribles! Hay una <font color='#AF0000'>nueva locura adolescente llamada 'gronking '</font> que es una actividad tan obscena y rebelde que ni siquiera podemos describirla aquí. En este episodio tan especial, la familia deberá cuidar a los niños para que no caigan como presas de esta tentadora tendencia sin dejar de respetar su autonomía."
+    SET DESCRIPTION "¡Noticias terribles! Hay una <font color='#AF0000'>nueva locura entre los jóvenes llamada 'gronking'</font> que es una actividad tan obscena y rebelde que ni siquiera podemos describirla aquí. En este episodio tan especial, la familia deberá cuidar a los niños para que no caigan como presas de esta tentadora tendencia sin dejar de respetar su autonomía."
     SET SUCCESS_MESSAGE "Todos aprendimos una valiosa lección esta semana. Al igual que los humanos reales, se enamoraron brevemente de una actividad popular, pero rápidamente aprendieron que en realidad era algo estúpido. Solo recuerden: La unión familiar es una 'locura' que nunca pierde el estilo."
     SET FAILURE_MESSAGE "Aparentemente, fueron aplastados entre un 'gronk' y un lugar duro. Es posible que tengamos que trasladarles a una ciudad que ni siquiera conoce el significado de la palabra 'tendencia'. ¡Cleveland, allá vamos!"
 
@@ -49,7 +49,7 @@ CLONE DEED "QuickTap3" "LocalNews1"
 END
 
 CLONE DEED "Nothing4" "LocalNews2"
-    SET INSTRUCTIONS "Escucha al presentador describir la nueva locura adolescente 'gronking'."
+    SET INSTRUCTIONS "Escucha al presentador describir la nueva locura entre los jóvenes 'gronking'."
 END
 
 CLONE DEED "Hold4" "LocalNews3"
@@ -181,7 +181,7 @@ CLONE DEED "Nothing3" "SpyTeenGronk4"
 END
 
 DEF TASK "SpyTeenGronk"
-    SET NAME "Espiar el gronking adolescente"
+    SET NAME "Espiar el gronking de los jóvenes"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -260,12 +260,12 @@ REM : -----------------------------------------------
 
 REM : Search teen's room
 CLONE DEED "SearchID" "SearchGronk"
-    SET INSTRUCTIONS "Busca en la habitación adolescente una parafernalia gronking"
+    SET INSTRUCTIONS "Busca en la habitación de los jóvenes una parafernalia gronking"
     SET CONTENT_ID "GRONK"
 END
 
 DEF TASK "SearchGronk"
-    SET NAME "Buscar en la habitación adolescente una parafernalia gronking"
+    SET NAME "Buscar en la habitación de los jóvenes una parafernalia gronking"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"

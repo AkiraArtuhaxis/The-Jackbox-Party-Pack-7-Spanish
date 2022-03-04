@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> no sé | no sé|<PRONOUN> no lo sé | no lo sé|<PRONOUN> nada | ninguno|<PRONOUN> nadita | nada|<PRONOUN> Nada | Nadita|que importa|esto es estúpido|estupidez|esto es vergonzoso|<PRONOUN> ni idea | Ni idea|<PRONOUN> sin pistas | ni una pista|<PRONOUN> no importa | no me importa",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bueno, eso es solo un... Un esfuerzo sobresaliente. Sobresaliente de tu parte. Gracias. Muchas gracias. (explosión, cristales rotos)",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What’s the least helpful thing you can do while helping someone defuse a bomb?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "eat very crunchy chips|practice making balloon animals|keep saying \"just cut the blue wire\"",
+   "n": "SafetyQuips"
+  }
+ ]
+}

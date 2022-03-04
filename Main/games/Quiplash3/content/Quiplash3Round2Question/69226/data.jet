@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> cerveza | cerveza|cerveeeza|<PRONOUN> cervezaz | cervezaz|<PRONOUN> trago | trago|cerveeeeza|cerveeeeeza|<ARTICLE> cerveza | cerveza|<ARTICLE> trago | trago|<ARTICLE> cervezas | cervezas",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Síp, parece que derramaste un barril entero allí. Bien hecho.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "SorrY guYzz, I acccidentalllY sp*llled <BLANK> allllll over mY KeYboar-d",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "hot milk|Mountain Dew Baja Blast|emotions",
+   "n": "SafetyQuips"
+  }
+ ]
+}

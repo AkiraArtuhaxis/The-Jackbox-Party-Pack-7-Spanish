@@ -1,17 +1,17 @@
-MAIN(Carnicero): ¿Hay lugar para uno más?
--COURSE-> ¡Pero claro!
+MAIN(Carnicero): Supongo que no tienes espacio para uno más.
+-COURSE-> ¡Por supuesto!
 -FAMILY-> Es solo para la familia.
 -CHAIRS-> No tenemos más sillas.
--NOT-> Sí, pero no para tí.
+-NOT-> Sí, pero no para ti.
 
-COURSE(Carnicero): ¡Genial! Llevaré a mis hijos.
--SUCCESS-> El patio se está llenando...
+COURSE(Carnicero): ¡Genial! Llevaré a los niños.
+-SUCCESS-> El patio trasero se está llenando...
 
 FAMILY(Carnicero): Entiendo.
--SUCCESS-> ¡Olvídalo, puedes entrar!
+-SUCCESS-> ¡No importa, puedes venir!
 
 CHAIRS(Carnicero): Me puedo sentar en el piso.
--SUCCESS-> ¡De acuerdo, puedes venir!
+-SUCCESS-> ¡Bueno, puedes venir!
 
-NOT(Carnicero): ¿Puedo dejar a mis hijos?
+NOT(Carnicero): ¿Puedo solo enviar a mis hijos?
 -SUCCESS->...bueno.

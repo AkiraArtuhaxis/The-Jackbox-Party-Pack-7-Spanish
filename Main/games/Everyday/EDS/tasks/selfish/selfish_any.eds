@@ -13,7 +13,7 @@ CLONE DEED "Nothing5" "CoolFridgeStep3"
 END
 
 DEF TASK "CoolFridge"
-    SET NAME "Enfriate frente a la nevera abierta"
+    SET NAME "Refrescarse frente a la nevera abierta"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
     SET CANCELER "SelfishCanceler"
@@ -33,12 +33,12 @@ END
 
 REM : Call psychic hotline
 CLONE DEED "PhoneCategory" "PhonePsychic"
-    SET INSTRUCTIONS "Gasta dinero llamando a la línea directa psíquica"
+    SET INSTRUCTIONS "Derrocha dinero llamando a la línea directa psíquica"
     SET CATEGORY "PSYCHIC"
 END
 
 DEF TASK "PhonePsychic"
-    SET NAME "Gasta dinero llamando a la línea directa psíquica"
+    SET NAME "Derrocha dinero llamando a la línea directa psíquica"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "SELFISH"
     SET THEME "SELFISH"

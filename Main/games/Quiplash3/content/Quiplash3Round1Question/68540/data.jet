@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> pedos | pedos|<PRONOUN> pedorrear | pedorrearse|<PRONOUN> Exceso de gases| exceso de gases|<PRONOUN> peditos | Peditos|<PRONOUN> gas | Gas",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Ya sabes, yo no sé de eso. Mis pedos suelen oler como una granja abandonada.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Something that should never be described as “rustic”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "tampon|health care|set of linens",
+   "n": "SafetyQuips"
+  }
+ ]
+}

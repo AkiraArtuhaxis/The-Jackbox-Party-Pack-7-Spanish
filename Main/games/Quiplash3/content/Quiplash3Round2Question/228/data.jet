@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "chocolate|barras de chocolate|salsa de chocolate|chocolat|choclate|choclet|chocolet",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Es verdad. Es adicto al chocolate. ¡¿Cómo se mantiene tan delgado?!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Spider-Man’s secret guilty pleasure",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "flies|porch swinging|no underwear",
+   "n": "SafetyQuips"
+  }
+ ]
+}

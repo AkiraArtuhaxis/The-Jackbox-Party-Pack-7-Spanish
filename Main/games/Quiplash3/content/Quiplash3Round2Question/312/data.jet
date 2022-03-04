@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<VERB> cerveza | cerveza | una cerveza|<VERB> trago | trago|<VERB> alcohol | alcohol|<VERB> licor | licor|<VERB> vino | vino| una copa de vino | vino|<VERB> whisky | whisky|<VERB> escocés | escocés|<VERB> tequila | tequila|<VERB> gin | gin|<VERB> vodka | vodka",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Sí, ya sabes que él PARECE que está sentado en un bar y el barman solo sigue lo ignorándolo.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Supposedly, Rodin’s <i>The Thinker</i> was thinking about <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "reverse mortgages|stretching his legs and getting dressed|where to grab lunch",
+   "n": "SafetyQuips"
+  }
+ ]
+}

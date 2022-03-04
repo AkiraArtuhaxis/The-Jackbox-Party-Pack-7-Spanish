@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> pedo | Pedo|<PRONOUN> Pedos | pedos|<PRONOUN> gas | Gas|<PRONOUN> Pedorreo | pedorreo|<PRONOUN> caquita | Caquita|<PRONOUN> Cagando | cagando|<ARTICLE> pedito | Pedito|<ARTICLE> Cagadita | cagadita|<PRONOUN> flatulencia | se pedorreo|<PRONOUN> se hizo una cagadita | Se cagó|<PRONOUN> una caquita | Una caquita|<ARTICLE> pedos | Pedos",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Qué predecible. ¿Sabes? Jackbox lleva más de 20 años en el juego de pedos. Nuestra biblioteca de sonidos de pedos es la envidia de la industria de juegos. Demonios, incluso había una época que no pensábamos dos veces para satisfacer tus caprichos juveniles. Pero ahora somos más viejos y más sabios y sabemos cuándo decir (pedo viejito)... cuándo. Gracias por escuchar.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Fine! If nobody is going to ask... I will! What’s that smell?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "success|a delicious pie cooling on the window sill",
+   "n": "SafetyQuips"
+  }
+ ]
+}

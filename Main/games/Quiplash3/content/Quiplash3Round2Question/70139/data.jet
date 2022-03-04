@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "To get past the internet troll under this bridge, you must answer this riddle...",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "\"Why do I waste so much time on Twitter?\"|\"U up?\"|\"Why are hashtags on landline phones?\"",
+   "n": "SafetyQuips"
+  }
+ ]
+}

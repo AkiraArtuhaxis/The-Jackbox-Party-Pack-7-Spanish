@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE>  pollo | pollo|<ARTICLE>  pollo | pollo|<ARTICLE> pollito | pollito",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡Oh, por dios, eso es asqueroso! Todo el mundo sabe que saben a bolas de queso.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What skin tags probably taste like",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "niblets of corn|crab meat|candy canes",
+   "n": "SafetyQuips"
+  }
+ ]
+}

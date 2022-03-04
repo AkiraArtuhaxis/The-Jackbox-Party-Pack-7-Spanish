@@ -1,14 +1,14 @@
-MAIN(Observador de aves): ¡Acabo de ver un peculiar pájaro estornino de cuello rubí en tu patio trasero! ¿Quizás pueda tomarle una foto?
+MAIN(Observador de aves): ¡Acabo de ver un peculiar pájaro estornino de cuello rubí en tu patio trasero! ¿Podría tomarle una foto?
 -YES-> ¡Claro que sí!
 -MONEY-> Claro... por veinte dólares.
 -NO-> ¿Qué es esto, un museo de aves? ¡Largo de aquí!
 
-YES(Observador de aves): Mmmm, está en lo alto de aquel abedul tambaleante. ¿Debería escalarlo para tener un mejor ángulo?
+YES(Observador de aves): Mmmh, está en lo alto de aquel abedul tambaleante. ¿Debería escalarlo para tener un mejor ángulo?
 -LADDER-> Iré por la escalera.
 -YES2-> Adelante.
--NO2-> Esto se está poniendo algo extraño. ¡Volvamos a la calle!
+-NO2-> Esto se está poniendo algo extraño. ¡Nos vamos!
 
-MONEY(Observador de aves): Aqui está tu dinero, traficante de aves.
+MONEY(Observador de aves): Aquí está tu dinero, usurero de aves.
 -SUCCESS-> Obtuvieron la foto que querían, aunque, al final, el avistamiento de aves no me interesó mucho que digamos.
 
 NO(Observador de aves): ¡La Asociación Internacional de Ornitología se va a enterar de esto!

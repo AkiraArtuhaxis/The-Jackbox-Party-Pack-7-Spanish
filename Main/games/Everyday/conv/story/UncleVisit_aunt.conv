@@ -5,12 +5,12 @@ MAIN(Tía Flemm): ¿En qué puedo ayudarte, cariño?
 
 POLITE(Tía Flemm): ¿Ya se está poniendo pesado, eh?
 -LIE-> ¡No, no! ¡De hecho nos encantaría que se quede más tiempo!
--HELP-> Ayúdanos por favor.
+-HELP-> Ayúdanos, por favor.
 
-LIE(Tía Flemm): ¡No tengo problema! ¡Dile que lo veo en unos meses!
+LIE(Tía Flemm): ¡No tengo problema! ¡Dile que lo veo en un mes!
 -SUCCESS-> Mi cortesía fue mi perdición.
 
-HELP(Tía Flemm): Dile que estoy reorganizando su colección de hipopótamos de porcelana. Vendrá aquí en cualquier momento.
+HELP(Tía Flemm): Dile que estoy reorganizando su colección de hipopótamos de porcelana. Volverá aquí en poco tiempo.
 -SUCCESS-> La tía Flemm es la mejor.
 
 ROUNDABOUT(Tía Flemm): Pues bien, aquí preparándome para las tormentas de fuego de esta temporada.

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> cerveza | cerveza|<PRONOUN> cervezas | cervezas|<PRONOUN> licor | licor|<PRONOUN> alcohol | alcohol|<PRONOUN> licor | licor|<PRONOUN> vino | vino|<PRONOUN> whisky | whisky|<PRONOUN> Whisky escocés | Whisky escocés|<PRONOUN> tequila | tequila|<PRONOUN> gin | gin|<PRONOUN> vodka | vodka",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bueno, si eso no lo pone en el espíritu navideño, nada lo hará.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "First, the Grinch stole Christmas. But he went too far when he stole <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Our hearts|Arbor Day|my identity",
+   "n": "SafetyQuips"
+  }
+ ]
+}

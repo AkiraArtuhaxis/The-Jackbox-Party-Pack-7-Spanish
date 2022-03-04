@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "cerveza|cerbeza|trago|licor|vino|whiskey|escope|tequila|gin|vodka|ron",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Huh. Hice lo mismo en mi sótano.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Archaeologists won’t admit they’ve discovered cave paintings of <BLANK> ",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "the first hoagie|mindless small talk|our ugliest ancestor",
+   "n": "SafetyQuips"
+  }
+ ]
+}

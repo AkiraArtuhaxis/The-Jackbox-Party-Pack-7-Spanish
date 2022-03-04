@@ -3,7 +3,7 @@
         {
             "id": "WALLET",
             "category": "WALLET",
-            "name": "billetera de los padres",
+            "name": "billetera de tus padres",
             "locations": [
                 {
                     "id": "FRIDGETOP",
@@ -19,7 +19,7 @@
                 },
                 {
                     "id": "YARD",
-                    "name": "patio"
+                    "name": "patio trasero"
                 },
                 {
                     "id": "PANTS",
@@ -27,14 +27,14 @@
                 },
                 {
                     "id": "CAR",
-                    "name": "en el coche"
+                    "name": "en el auto"
                 }
             ]
         },
         {
             "id": "LIPBALM",
             "category": "LIPBALM",
-            "name": "pomada para labios",
+            "name": "bálsamo labial",
             "locations": [
                 {
                     "id": "CUSIONS",
@@ -50,7 +50,7 @@
                 },
                 {
                     "id": "CLOSET",
-                    "name": "armario"
+                    "name": "armario de limpieza"
                 },
                 {
                     "id": "FRIDGE",
@@ -62,7 +62,7 @@
                 },
                 {
                     "id": "TOILET",
-                    "name": "cerca del lavabo"
+                    "name": "al lado del inodoro"
                 }
             ]
         },
@@ -139,7 +139,7 @@
                 },
                 {
                     "id": "BACKCLOSET",
-                    "name": "parte trasera, pero que muy trasera del armario"
+                    "name": "parte trasera, pero muy trasera del armario"
                 },
                 {
                     "id": "SUITCASES",
@@ -174,11 +174,11 @@
                 },
                 {
                     "id": "CANDY",
-                    "name": "debajo de los envoltorios de Gorbo"
+                    "name": "debajo de los envoltorios de dulces de Gorbo"
                 },
                 {
                     "id": "CREAMS",
-                    "name": "bajo las cremas para la erupción de Gorbo"
+                    "name": "debajo de las cremas para el sarpullido de Gorbo"
                 },
                 {
                     "id": "GORBO",
@@ -224,7 +224,7 @@
             "locations": [
                 {
                     "id": "ENGINE",
-                    "name": "dentro del motor del coche"
+                    "name": "dentro del motor del auto"
                 },
                 {
                     "id": "ROBOT",
@@ -259,15 +259,15 @@
                 },
                 {
                     "id": "BASKETBALL",
-                    "name": "pista de tenis antigua que nadie utiliza (crearon una nueva)"
+                    "name": "pista de tenis antigua que nadie utiliza (construyeron una nueva)"
                 },
                 {
                     "id": "OLDMAN",
-                    "name": "patio viejo de Old man"
+                    "name": "patio viejo del Viejo Anciano"
                 },
                 {
                     "id": "HIGHSCHOOL",
-                    "name": "parking de la escuela secundaria"
+                    "name": "estacionamiento de la escuela secundaria"
                 }
             ]
         },
@@ -282,11 +282,11 @@
                 },
                 {
                     "id": "OLDPHONES",
-                    "name": "pila de viejos teléfonos"
+                    "name": "pila de teléfonos viejos"
                 },
                 {
                     "id": "ACTIONFIGURES",
-                    "name": "colección de muñecos de acción vintage"
+                    "name": "colección de muñecos de acción retro"
                 },
                 {
                     "id": "UNLABELED",
@@ -301,7 +301,7 @@
         {
             "id": "DANCESNACKS",
             "category": "DANCESNACKS",
-            "name": "los buenos aperitivos",
+            "name": "los aperitivos buenos",
             "locations": [
                 {
                     "id": "BLEACHERS",
@@ -317,7 +317,7 @@
                 },
                 {
                     "id": "JANITOR",
-                    "name": "aramario del conserje"
+                    "name": "armario del conserje"
                 }
             ]
         },
@@ -336,15 +336,15 @@
                 },
                 {
                     "id": "STORMDRAIN",
-                    "name": "alcantarilla terrorífica"
+                    "name": "desagüe pluvial espeluznante"
                 },
                 {
                     "id": "CONVENIENCE",
-                    "name": "parking de la tienda"
+                    "name": "estacionamiento de la tienda"
                 },
                 {
                     "id": "CIRCUS",
-                    "name": "circo errante"
+                    "name": "circo itinerante"
                 },
                 {
                     "id": "HOUSE",
@@ -363,7 +363,7 @@
                 },
                 {
                     "id": "BACKCLOSETWORK",
-                    "name": "parte trasera, pero que muy trasera del armario"
+                    "name": "parte trasera, pero muy trasera del armario"
                 },
                 {
                     "id": "SUITCASESWORK",
@@ -379,7 +379,7 @@
                 },
                 {
                     "id": "DUFFELWORK",
-                    "name": "al fondo de esa extraña bolsa de lona"
+                    "name": "fondo de esa extraña bolsa de lona"
                 }
             ]
         },
@@ -421,7 +421,7 @@
                 },
                 {
                     "id": "DESKGRONK",
-                    "name": "dentro del cajón del escritorio"
+                    "name": "dentro de los cajones del escritorio"
                 },
                 {
                     "id": "BOOKGRONK",
@@ -444,7 +444,7 @@
         {
             "id": "DIGSITE",
             "category": "DIGSITE",
-            "name": "un buen sitio para la cápsula temporal",
+            "name": "un buen sitio para la cápsula del tiempo",
             "locations": [
                 {
                     "id": "OAK",
@@ -479,11 +479,11 @@
             "locations": [
                 {
                     "id": "VACUUM",
-                    "name": "dentro del aspirador que Rompo destruyó"
+                    "name": "dentro de la aspiradora que Rompo destruyó"
                 },
                 {
                     "id": "ROOF",
-                    "name": "el tejado en el que Rompo quedó atrapado"
+                    "name": "el tejado en el que Rompo se quedó atrapado"
                 },
                 {
                     "id": "KITCHENWRECK",
@@ -541,7 +541,7 @@
                 },
                 {
                     "id": "DUNGEON",
-                    "name": "la mazmorra de la casa"
+                    "name": "el calabozo de la casa"
                 }
             ]
         },
@@ -564,7 +564,7 @@
                 },
                 {
                     "id": "GRAMPASTASH",
-                    "name": "alijo secreto del abuelo"
+                    "name": "escondite secreto del abuelo"
                 },
                 {
                     "id": "SAUCEHOLE",
@@ -587,7 +587,7 @@
                 },
                 {
                     "id": "PETUNIA_PATCH",
-                    "name": "dónde las petunias"
+                    "name": "en el área de las petunias"
                 },
                 {
                     "id": "UNDER_DECK",
@@ -599,18 +599,18 @@
                 },
                 {
                     "id": "IN_TREE",
-                    "name": "arriba en el árbol"
+                    "name": "arriba del árbol"
                 },
                 {
                     "id": "CAR_HOOD",
-                    "name": "en el capó del coche"
+                    "name": "en el capó del auto"
                 }
             ]
         },
         {
             "id": "INSOLES",
             "category": "INSOLES",
-            "name": "plantillas ortopédicas de un padre",
+            "name": "plantillas ortopédicas de tus padres",
             "locations": [
                 {
                     "id": "UNDERBED",
@@ -622,7 +622,7 @@
                 },
                 {
                     "id": "REMOTEBASKET",
-                    "name": "la cesta de los mandos a distancia"
+                    "name": "la cesta de los controles remotos"
                 },
                 {
                     "id": "UNDERTABLE",
@@ -653,7 +653,7 @@
                 },
                 {
                     "id": "JEANSHORTS",
-                    "name": "bolsillo de los tejanos cortos"
+                    "name": "bolsillo de los pantalones cortos"
                 },
                 {
                     "id": "JEWELRYBOX",
@@ -668,11 +668,11 @@
             "locations": [
                 {
                     "id": "JUNKDRAWER",
-                    "name": "cajon de los trastos"
+                    "name": "cajón de la chatarra"
                 },
                 {
                     "id": "PURSE",
-                    "name": "bolso"
+                    "name": "cartera"
                 },
                 {
                     "id": "PANTRY",
@@ -688,7 +688,7 @@
                 },
                 {
                     "id": "CAKE",
-                    "name": "pastel del año pasado"
+                    "name": "torta del año pasado"
                 }
             ]
         },
@@ -722,11 +722,11 @@
         {
             "id": "DRIVERSLICENSE",
             "category": "DRIVERSLICENSE",
-            "name": "carné de conducir",
+            "name": "licencia de conducir",
             "locations": [
                 {
                     "id": "WALLET",
-                    "name": "cartera"
+                    "name": "billetera"
                 },
                 {
                     "id": "DESKDRAWER",
@@ -749,7 +749,7 @@
         {
             "id": "STUDENTID",
             "category": "STUDENTID",
-            "name": "Identificación de estudiante",
+            "name": "identificación de estudiante",
             "locations": [
                 {
                     "id": "UNDERBED2",
@@ -769,7 +769,7 @@
                 },
                 {
                     "id": "BLACKLIGHT",
-                    "name": "debajo del cartel de luz negra"
+                    "name": "debajo del póster de la luz negra"
                 }
             ]
         },
@@ -811,7 +811,7 @@
                 },
                 {
                     "id": "NEIGHBORPORCH",
-                    "name": "porche del vecino"
+                    "name": "pórtico del vecino"
                 },
                 {
                     "id": "NEIGHBORFLOWERS",
@@ -838,7 +838,7 @@
                 },
                 {
                     "id": "LIVINGROOMFLOOR",
-                    "name": "piso de la sala"
+                    "name": "piso de la sala de estar"
                 },
                 {
                     "id": "TOILETTANK",
@@ -857,11 +857,11 @@
         {
             "id": "BEEPING",
             "category": "BEEPING",
-            "name": "lo que sea que esté haciendo ese pitido",
+            "name": "lo que sea que haga ese ruido de pitido",
             "locations": [
                 {
                     "id": "SMOKEDETECTOR",
-                    "name": "detector de incendios"
+                    "name": "detector de humo"
                 },
                 {
                     "id": "CO2ALARM",
@@ -877,7 +877,7 @@
                 },
                 {
                     "id": "COMPUTER",
-                    "name": "ordenador"
+                    "name": "computadora"
                 },
                 {
                     "id": "METALBOX",
@@ -935,11 +935,11 @@
                 },
                 {
                     "id": "UNDERTV",
-                    "name": "debajo de la televisión"
+                    "name": "debajo del televisor"
                 },
                 {
                     "id": "CATSMOUTH",
-                    "name": "la boca del gato"
+                    "name": "el hocico del gato"
                 }
             ]
         },
@@ -950,38 +950,38 @@
             "locations": [
                 {
                     "id": "HORIZONTAL",
-                    "name": "horizontal"
+                    "name": "horizontalmente"
                 },
                 {
                     "id": "VERTICAL",
-                    "name": "vertical"
+                    "name": "verticalmente"
                 },
                 {
                     "id": "DIAGONAL",
-                    "name": "diagonal"
+                    "name": "diagonalmente"
                 },
                 {
                     "id": "FORWARDS",
-                    "name": "hacia adelante"
+                    "name": "adelante"
                 },
                 {
                     "id": "BACKWARDS",
-                    "name": "hacia atrás"
+                    "name": "atrás"
                 }
             ]
         },
         {
             "id": "THUMBTACK",
             "category": "THUMBTACK",
-            "name": "chincheta caída",
+            "name": "tachuela caída",
             "locations": [
                 {
                     "id": "CARPET",
-                    "name": "alfombra del comedor"
+                    "name": "alfombra"
                 },
                 {
                     "id": "DOORMAT",
-                    "name": "felpudo"
+                    "name": "tapete"
                 },
                 {
                     "id": "THROWRUG",
@@ -993,18 +993,18 @@
                 },
                 {
                     "id": "SHOESOLE",
-                    "name": "suela del zapato"
+                    "name": "suela de zapato"
                 }
             ]
         },
         {
             "id": "QUARTERS",
             "category": "QUARTERS",
-            "name": "colección de monedas",
+            "name": "colección de monedas del estado",
             "locations": [
                 {
                     "id": "COINDESK",
-                    "name": "mesa de las monedas"
+                    "name": "escritorio de monedas"
                 },
                 {
                     "id": "STAMPDRAWER",
@@ -1027,15 +1027,15 @@
         {
             "id": "THINGY",
             "category": "THINGY",
-            "name": "la cosa que tenemos para poner las llaves para no perderlas",
+            "name": "la cosita que ponemos en las llaves para no perderlas",
             "locations": [
                 {
                     "id": "JUNKDRAWER2",
-                    "name": "cajon de los trastos"
+                    "name": "cajón de la chatarra"
                 },
                 {
                     "id": "DOODADDRAWER",
-                    "name": "cajón de adornos"
+                    "name": "cajón de baratijas"
                 },
                 {
                     "id": "LOSTITEMLEDGE",
@@ -1058,11 +1058,11 @@
         {
             "id": "TIMEMIME",
             "category": "TIMEMIME",
-            "name": "el sexto DVD de la caja edición especial de \"El Mimo del Tiempo\"",
+            "name": "el sexto DVD de la caja de edición especial de \"Mimo del Tiempo\"",
             "locations": [
                 {
                     "id": "DEN",
-                    "name": "guarida"
+                    "name": "estudio"
                 },
                 {
                     "id": "BASEMENT4",
@@ -1093,7 +1093,7 @@
                 },
                 {
                     "id": "BATHROOMMIRROR",
-                    "name": "esepjo del lavabo"
+                    "name": "espejo del baño"
                 },
                 {
                     "id": "DESKDRAWER3",
@@ -1105,7 +1105,7 @@
                 },
                 {
                     "id": "FRONTPORCH",
-                    "name": "porche delantero"
+                    "name": "pórtico delantero"
                 }
             ]
         },
@@ -1132,7 +1132,7 @@
                 },
                 {
                     "id": "SALADTREE",
-                    "name": "el árbol de la ensalada"
+                    "name": "el árbol de ensalada"
                 }
             ]
         }

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Quiplash|Quiplash 3|Quiplash3|este juego|el jueo que estamos jugando",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡¿Te refieres al juego de fiesta para reventar las tripas, de decir cualquier cosa, para hasta ocho jugadores y un público de miles de personas?! En realidad, ¡es el pasatiempo MÁS favorito de Estados Unidos!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "America’s second favorite pastime",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "eating|crying|extreme couponing",
+   "n": "SafetyQuips"
+  }
+ ]
+}

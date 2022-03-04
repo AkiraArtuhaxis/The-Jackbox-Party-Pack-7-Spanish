@@ -1,0 +1,25 @@
+{
+    "payload":[
+        { "determiner": "tener" },
+        { "determiner": "tener un" },
+        { "determiner": "tener una" },
+        { "determiner": "beber" },
+        { "determiner": "beber un" },
+        { "determiner": "beber una" },
+        { "determiner": "querer" },
+        { "determiner": "querer un" },
+        { "determiner": "querer una" },
+        { "determiner": "necesitar" },
+        { "determiner": "necesitar un" },
+        { "determiner": "necesitar una" },
+        { "determiner": "anhelar" },
+        { "determiner": "anhelar un" },
+        { "determiner": "anhelar una" },
+        { "determiner": "bajarse" },
+        { "determiner": "bajarse un" },
+        { "determiner": "bajarse una" },
+        { "determiner": "tragar" },
+        { "determiner": "tragar un" },
+        { "determiner": "tragar una" }
+    ]
+}

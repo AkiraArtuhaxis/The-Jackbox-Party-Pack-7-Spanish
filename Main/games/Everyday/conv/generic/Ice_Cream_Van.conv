@@ -1,8 +1,8 @@
-MAIN(Vendedor): ¡Buenos días! ¿Qué dulce y congelado postre quieres? Las opciones están en los lados de la camioneta.
+MAIN(Vendedor): ¡Buenos días! ¿Qué postre dulce y congelado quieres? Las opciones están en los lados de la camioneta.
 -VANILLA-> Mezcla de vainilla
 -CHOCO-> Choco-explosión
 -GRAPE-> Crema uva-lada
--NONE-> Eh, no gracias...
+-NONE-> Eh, no, gracias...
 
 VANILLA(Vendedor): ¡Aquí tienes!
 -SUCCESS-> ¡Una delicia común y corriente!
@@ -21,4 +21,4 @@ TRYAGAIN(Vendedor): ¿Echar otro vistazo?
 -VANILLA-> Mezcla de vainilla
 -CHOCO-> Choco-explosión
 -GRAPE-> Crema uva-lada
--NONE-> Eh, no gracias...
+-NONE-> Eh, no, gracias...

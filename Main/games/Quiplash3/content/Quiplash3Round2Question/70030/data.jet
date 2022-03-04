@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Quiplash|Quiplash3|Quiplash 3|Quiplash!|Juguemos Quiplash|Juguemos Quiplash 3",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Vaya, bueno. Solo estoy sentado aquí ocupándome de mis asuntos y tú me cortas sin ninguna razón. Sabes, si no estuviera descargando un virus en tu dispositivo ahora mismo, estaría muy molesto.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The title of the YouTube video with the MOST negative comments",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "\"Most beliefs are wrong\"|\"Watch me ignore a dog who wants pets\"|Michael Jordan was average",
+   "n": "SafetyQuips"
+  }
+ ]
+}

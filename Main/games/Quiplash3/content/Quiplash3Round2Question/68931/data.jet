@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mamá | mamá|<PRONOUN> madre | madre|<PRONOUN> papá | papá|<PRONOUN> padre | padre",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Sí, porque no hay suficiente mención de los padres en la Biblia.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A character that would really spice up the Bible",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Spicy Jesus|Goofy and his dog Pluto",
+   "n": "SafetyQuips"
+  }
+ ]
+}

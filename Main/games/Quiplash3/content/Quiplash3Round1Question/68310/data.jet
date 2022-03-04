@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> pedo| Pedo|<PRONOUN> Pedos | pedos|<PRONOUN> gas | Gas|<PRONOUN> Pedorreo | pedorreo|<PRONOUN> pedito | peditos|<PRONOUN> tirarse peditos | tirarse un pedito",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Claro que sí, ¿cómo crees que conocí a mi primera esposa? (silbido de tren \"toot toot!\")",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A request you’d make on your dating profile: “Must love <BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "being late all the time|cheese|my college roommate",
+   "n": "SafetyQuips"
+  }
+ ]
+}

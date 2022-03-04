@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Schmitty|Shmitty|Smitty|Schmittie|Smittie|<ARTICLE> anfitrión Quiplash | anfitrión Quiplash|<ARTICLE> anfitrión de Quiplash | anfitrión de Quiplash|Schmity|Shmity|Smity",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bueno. ¿Mejor o peor? ¿Mejor o peor? Bueno, esta respuesta definitivamente me hizo sentir peor. Muchas gracias.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What the vision chart spells out when the eye doctor secretly hates you",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "I H 8 U|U R G A R B A G E|NICE EYES LOSER",
+   "n": "SafetyQuips"
+  }
+ ]
+}

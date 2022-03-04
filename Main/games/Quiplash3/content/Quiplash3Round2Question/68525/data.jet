@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "pedo|pasar gas|pasar viento|cortar uno|bocinazo",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "(eco del pedo del estadio... aplauso cortés)",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "It’s your big moment on stage! You find your spotlight, face the audience and <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "sell some life insurance|hold back a sneeze|flub a knock-knock joke",
+   "n": "SafetyQuips"
+  }
+ ]
+}

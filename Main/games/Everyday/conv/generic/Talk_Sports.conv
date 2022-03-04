@@ -1,18 +1,18 @@
 MAIN(Vecino): ¿Viste qué gran partido el de anoche?
--WOW-> Ya ves, ¡menudo disparo!
--WOW-> Sí, ¡tremenda atajada!
+-WOW-> Vaya, ¡tremendo lanzamiento!
+-WOW-> Vaya, ¡tremenda atajada!
 
 WOW(Vecino): ¿Qué me dices de ese mega remate en la segunda mitad?
 -AMAZING-> ¡Así es como remata un rematador, menuda técnica!
 -AMAZING-> De todos los remates que he visto, ese es el remate más rematador.
 
 AMAZING(Vecino): Hay que admitir que vimos de lo mejor del deporte.
--CHAMPION-> ¡Vamos! ¡Nuestro equipo es el mejor equipo!
+-CHAMPION-> ¡Vamos! ¡Nuestro equipo es el mejor!
 -BONSAI-> De hecho, prefiero cultivar bonsáis a ver deportes.
 
 BONSAI(Vecino): ¿Eh? Pensaba que eras un fanático de los deportes como yo.
--FAILURE->No, yo soy un amante de los bonsáis. Supongo que no podemos ser amigos.
--CHAMPION->Quiero decir, ¡me encantan los deportes! ¡Viva el ejercicio!
+-FAILURE->No, me gustan los bonsáis. Supongo que no podemos ser amigos.
+-CHAMPION->Quiero decir, ¡me encantan los deportes! ¡Vivan los deportes!
 
 CHAMPION(Vecino): Creo que este año finalmente ganaremos el campeonato.
--SUCCESS->No sé de qué deporte hablábamos pero, ¡estoy de acuerdo!
+-SUCCESS->Sea cual sea el deporte del que hablamos, ¡estoy de acuerdo!

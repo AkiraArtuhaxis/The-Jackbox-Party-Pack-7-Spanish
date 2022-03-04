@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "quiplash|Quiplash3|Quiplash 3|este juego|este juego que estamos jugando|Quiplash!",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¿De verdad? ¿Ni siquiera por 100.000 dólares? A mí me pagaron 75 dólares por tatuarme Pulsa el Botón en el estómago. Por supuesto, eso fue antes de que se inventara este juego. Por suerte, todo salió bien.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Even for $100,000 you would not get this phrase tattooed across your back",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "my social security number|Mom mom mom please I'm sorry|epic fail",
+   "n": "SafetyQuips"
+  }
+ ]
+}

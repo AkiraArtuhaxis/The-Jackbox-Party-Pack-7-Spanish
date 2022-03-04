@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mama | mamá|<PRONOUN> madre | Madre|<PRONOUN> papa | Papa|<PRONOUN> Padre | padre|<PRONOUN> padres | padres",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Sip, originalmente “Welcome To The Jungle” se llamaba “Welcome To Guanajuato”. De verdad.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Little known fact: Guns N’ Roses used to to be called Guns N’ Roses N’ <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Little Donny Smith|Horses|Bake Sales",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> pollo | pollo|<ARTICLE> pechuga de pollo | pechuga de pollo|pollo|pollito|<ARTICLE> ala de pollo | ala de pollo|<ARTICLE> palitos de pollo | palitos de pollo|<ARTICLE> muslo de pollo | muslo de pollo|<ARTICLE> muslos de pollo | muslos de pollo|<ARTICLE> alitas de pollo | alitas de pollo",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡Incluso el Monstruo Comegalletas necesita un poco de proteínas!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What Cookie Monster snacks on when nobody’s looking",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "kale chips|celery|carrots",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -100,7 +100,7 @@ END
 DEF TASK "BeachSupplies"
     SET NAME "Conducir para recoger suministros de playa"
     SET ASKER_NAME "Pedir un viaje para recoger suministros para la playa"
-    SET HELPER_NAME "Llevar a <ASKER> para recoger suministros para la playa"
+    SET HELPER_NAME "Llevar a <ASKER> a recoger suministros para la playa"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"

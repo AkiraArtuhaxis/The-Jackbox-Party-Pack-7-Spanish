@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Quiplash|Quiplash3|Quiplash 3|este juego|el juego que jugamos|Quiplash!",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¡Auch! Bueno... bien, solo sería aburrido si TÚ estuvieras jugando. Uuuh, ¡mira lo que hice!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The most boring reality TV contest would feature competitive <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "watch repair|calligraphy|dry cleaning",
+   "n": "SafetyQuips"
+  }
+ ]
+}

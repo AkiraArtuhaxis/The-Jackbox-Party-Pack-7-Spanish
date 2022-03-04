@@ -1,17 +1,17 @@
 MAIN(Riley): ¿El mundo se va a terminar?
 -LOVE-> Sí, te quiero.
--BREAK-> Sí, rompamos
--BYE-> Uh huh, adiós
--RECORD-> ¿Puedo recuperar mis discos?
+-BREAK-> Síp, terminemos
+-BYE-> Eh huh, chaito
+-RECORD-> ¿Puedes devolverme mis discos?
 
 LOVE(Riley): Si sobrevivimos, ¡casémonos!
--SUCCESS-> Uh oh
+-SUCCESS-> Oh oh
 
 BREAK(Riley): ¡Es ESE tipo de día!
 -SUCCESS-> Echaré de menos tu sarcasmo
 
-BYE(Riley): adiosito amorcito
--SUCCESS-> Lo hemos manejado de una forma muy madura.
+BYE(Riley): Chaito, amorcito
+-SUCCESS-> Lo manejamos con mucha madurez.
 
 RECORD(Riley): ¡Jamás!
 -SUCCESS-> ¡Para qué siquiera tengo discos!

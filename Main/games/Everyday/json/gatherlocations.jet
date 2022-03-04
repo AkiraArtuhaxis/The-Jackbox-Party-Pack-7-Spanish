@@ -72,7 +72,7 @@
                         },
                         {
                             "id": "SOY_SAUCE",
-                            "name": "Salsa de soja",
+                            "name": "Salsa de soya",
                             "bgColor": "f7372e",
                             "textColor": "000000"
                         },
@@ -89,14 +89,14 @@
                             "textColor": "ffffff"
                         },
                         {
-                            "id": "PITCH",
-                            "name": "Tono en polvo",
+                            "id": "TIRADOR",
+                            "name": "Brea en polvo",
                             "bgColor": "222222",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "GARAM_MASALA",
-                            "name": "Garam Masala",
+                            "name": "Garam masala",
                             "bgColor": "e87c42",
                             "textColor": "000000"
                         },
@@ -170,7 +170,7 @@
                     "contents": [
                         {
                             "id": "SPAM",
-                            "name": "Spam",
+                            "name": "Carne enlatada",
                             "bgColor": "142a86",
                             "textColor": "ffffff"
                         },
@@ -188,7 +188,7 @@
                         },
                         {
                             "id": "CANNED_PEACHES",
-                            "name": "Melocotones en lata",
+                            "name": "Duraznos en lata",
                             "bgColor": "e87c42",
                             "textColor": "000000"
                         },
@@ -224,7 +224,7 @@
                         },
                         {
                             "id": "CRACKERS",
-                            "name": "Galletas",
+                            "name": "Galletas saladas",
                             "bgColor": "f3f7d8",
                             "textColor": "000000"
                         },
@@ -236,7 +236,7 @@
                         },
                         {
                             "id": "PEANUT_BUTTER",
-                            "name": "Crema de maní",
+                            "name": "Mantequilla de maní",
                             "bgColor": "9c5c29",
                             "textColor": "ffffff"
                         },
@@ -248,7 +248,7 @@
                         },
                         {
                             "id": "SYRUP",
-                            "name": "Sirope",
+                            "name": "Jarabe",
                             "bgColor": "843d1a",
                             "textColor": "ffffff"
                         },
@@ -314,13 +314,13 @@
                         },
                         {
                             "id": "SWEET_POTATOES",
-                            "name": "Patatas dulces",
+                            "name": "Papas dulces",
                             "bgColor": "e87c42",
                             "textColor": "000000"
                         },
                         {
                             "id": "SOY_BEANS",
-                            "name": "Semilla de soja",
+                            "name": "Semillas de soya",
                             "bgColor": "d8c1ba",
                             "textColor": "000000"
                         },
@@ -332,7 +332,7 @@
                         },
                         {
                             "id": "BOWTIE_PASTA",
-                            "name": "Pasta de pajarita",
+                            "name": "Pasta de mariposa",
                             "bgColor": "F3D342",
                             "textColor": "000000"
                         },
@@ -362,7 +362,7 @@
                         },
                         {
                             "id": "PLANTAINS",
-                            "name": "Bananas",
+                            "name": "Plátanos",
                             "bgColor": "dcb61c",
                             "textColor": "000000"
                         },
@@ -386,7 +386,7 @@
                         },
                         {
                             "id": "POTATOES",
-                            "name": "Patatas",
+                            "name": "Papas",
                             "bgColor": "51290f",
                             "textColor": "ffffff"
                         },
@@ -410,7 +410,7 @@
                         },
                         {
                             "id": "SULFUR",
-                            "name": "Jarabe de azufre",
+                            "name": "Melaza de azufre",
                             "bgColor": "f7372e",
                             "textColor": "000000"
                         },
@@ -428,7 +428,7 @@
                         },
                         {
                             "id": "POTATO_CHIPS",
-                            "name": "Patatas de bolsa",
+                            "name": "Papas fritas en bolsa",
                             "bgColor": "e6dd8d",
                             "textColor": "000000"
                         },
@@ -440,7 +440,7 @@
                         },
                         {
                             "id": "BANANAS",
-                            "name": "Plátanos",
+                            "name": "Bananas",
                             "bgColor": "dcb61c",
                             "textColor": "000000"
                         },
@@ -556,31 +556,31 @@
                         },
                         {
                             "id": "KETCHUP",
-                            "name": "Ketchup",
+                            "name": "Kétchup",
                             "bgColor": "9f0101",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "CHEDDAR_CHEESE",
-                            "name": "Queso Cheddar",
+                            "name": "Queso cheddar",
                             "bgColor": "ea9233",
                             "textColor": "000000"
                         },
                         {
                             "id": "GROUND_PORK",
-                            "name": "Carne de cerdo molida",
+                            "name": "Carne molida de cerdo",
                             "bgColor": "eb8282",
                             "textColor": "000000"
                         },
                         {
                             "id": "GROUND_BEEF",
-                            "name": "Carne de res molida",
+                            "name": "Carne molida de vacuno",
                             "bgColor": "9f0101",
                             "textColor": "FFFFFF"
                         },
                         {
                             "id": "HALF_AND_HALF",
-                            "name": "Mitad y Mitad",
+                            "name": "Mitad y mitad",
                             "bgColor": "effdff",
                             "textColor": "000000"
                         },
@@ -628,7 +628,7 @@
                         },
                         {
                             "id": "PIE",
-                            "name": "Pie",
+                            "name": "Tarta",
                             "bgColor": "e0a96e",
                             "textColor": "000000"
                         },
@@ -678,7 +678,7 @@
                         },
                         {
                             "id": "FROZEN_STRAWBERRIES",
-                            "name": "Fresas congeladas",
+                            "name": "Frutillas congeladas",
                             "bgColor": "e22d4b",
                             "textColor": "ffffff"
                         },
@@ -690,7 +690,7 @@
                         },
                         {
                             "id": "POPSICLES",
-                            "name": "Paletas de helado",
+                            "name": "Paletas",
                             "bgColor": "f72e4a",
                             "textColor": "ffffff"
                         },
@@ -752,7 +752,7 @@
                         },
                         {
                             "id": "LILIES",
-                            "name": "Lirios",
+                            "name": "Azucenas",
                             "bgColor": "F9D1D6",
                             "textColor": "000000"
                         },
@@ -782,7 +782,7 @@
                         },
                         {
                             "id": "IRISES",
-                            "name": "iris",
+                            "name": "Iris",
                             "bgColor": "9A77E7",
                             "textColor": "000000"
                         },
@@ -844,7 +844,7 @@
                         },
                         {
                             "id": "DUSTY_MILLER",
-                            "name": "Miller polvoriento",
+                            "name": "Clavel lanudo",
                             "bgColor": "D2D3D7",
                             "textColor": "000000"
                         },
@@ -862,7 +862,7 @@
                         },
                         {
                             "id": "BABYS_BREATH",
-                            "name": "La respiración del bebé",
+                            "name": "Gisófila",
                             "bgColor": "FDFEFA",
                             "textColor": "000000"
                         },
@@ -874,7 +874,7 @@
                         },
                         {
                             "id": "BELLS_OF_IRELAND",
-                            "name": "Campanas irlandesas",
+                            "name": "Campanas de Irlanda",
                             "bgColor": "5A9003",
                             "textColor": "ffffff"
                         },
@@ -918,7 +918,7 @@
                         },
                         {
                             "id": "METAL_BUCKET",
-                            "name": "Cubo de metal",
+                            "name": "Cubo metálico",
                             "bgColor": "ABB5B4",
                             "textColor": "000000"
                         },
@@ -948,7 +948,7 @@
                         },
                         {
                             "id": "TWISTY",
-                            "name": "Sinuoso",
+                            "name": "Retorcido",
                             "bgColor": "474C71",
                             "textColor": "ffffff"
                         }
@@ -974,7 +974,7 @@
                         },
                         {
                             "id": "RICKRACK",
-                            "name": "Rickrack",
+                            "name": "Trenzada",
                             "bgColor": "ECC2D7",
                             "textColor": "000000"
                         },
@@ -992,7 +992,7 @@
                         },
                         {
                             "id": "TWILL",
-                            "name": "Tela asargada",
+                            "name": "Sarga",
                             "bgColor": "6E8568",
                             "textColor": "ffffff"
                         },
@@ -1018,7 +1018,7 @@
                     "contents": [
                         {
                             "id": "BODYRASH",
-                            "name": "Hiel de baño",
+                            "name": "Sarpullido corporal",
                             "bgColor": "ebebeb",
                             "textColor": "000000"
                         },
@@ -1048,7 +1048,7 @@
                         },
                         {
                             "id": "STOCKS",
-                            "name": "Patines",
+                            "name": "Acciones",
                             "bgColor": "ebebeb",
                             "textColor": "000000"
                         },
@@ -1068,7 +1068,7 @@
                     "contents": [
                         {
                             "id": "SPOOLS",
-                            "name": "Aparatos cóleccionables",
+                            "name": "Bobinas coleccionables",
                             "bgColor": "ebebeb",
                             "textColor": "000000"
                         },
@@ -1080,7 +1080,7 @@
                         },
                         {
                             "id": "STOOLS",
-                            "name": "Aparatos cómodos",
+                            "name": "Bobinas cómodas",
                             "bgColor": "ebebeb",
                             "textColor": "000000"
                         },
@@ -1104,13 +1104,13 @@
                         },
                         {
                             "id": "MOONBOATS",
-                            "name": "Barcos lunares",
+                            "name": "Botes lunares",
                             "bgColor": "ebebeb",
                             "textColor": "000000"
                         },
                         {
                             "id": "MOONBOOTS",
-                            "name": "Botas lanares",
+                            "name": "Botas lunares",
                             "bgColor": "ebebeb",
                             "textColor": "000000"
                         }
@@ -1198,7 +1198,7 @@
                     "contents": [
                         {
                             "id": "ANGRYCARBOYS",
-                            "name": "Conductores Enfadados",
+                            "name": "Conductores enfadados",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1210,55 +1210,55 @@
                         },
                         {
                             "id": "BEEFYDOGATTA",
-                            "name": "Escuadrón de Ataque de Perros Fornidos",
+                            "name": "Escuadrón de ataque de perros fornidos",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BLUNTEDGES",
-                            "name": "Bordes Romos",
+                            "name": "Bordes romos",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BOMBSFORLUNC",
-                            "name": "Bombas para Almorzar",
+                            "name": "Bombas para almorzar",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "CUTTINGINLIN",
-                            "name": "Cortando en linea",
+                            "name": "Colarse en la fila",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "DEATHONSAFAR",
-                            "name": "Muerte en Safari",
+                            "name": "Muerte en el safari",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEDOUGLASVE",
-                            "name": "El Veredicto de Douglas: La Venganza",
+                            "name": "El veredicto de Douglas: Recargado",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "GUYPUNCHER3:",
-                            "name": "Chico golpeador 3: Ajuste de Cuentas",
+                            "name": "Chico golpeador 3: Ajuste de cuentas",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "HARDSLAPPING",
-                            "name": "Bofetadas Duras",
+                            "name": "Bofetadas duras",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "HUGEEXPLOSIO",
-                            "name": "Explosiones, Mujercitas",
+                            "name": "Enorme explosión, mujercitas",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1270,25 +1270,25 @@
                         },
                         {
                             "id": "KILLSAPLENTY",
-                            "name": "Pleno de Muertes",
+                            "name": "Muertes en abundancia",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "KISSLICKSHOO",
-                            "name": "Besa Lame Dispara Mata",
+                            "name": "Besa lame dispara mata",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEMANWHOCOU",
-                            "name": "El Hombre Que No Podia Parar De Explotar",
+                            "name": "El hombre que no podía parar de explotar",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "MISTERKARATE",
-                            "name": "Míster Karate",
+                            "name": "Señor Karate",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1300,25 +1300,25 @@
                         },
                         {
                             "id": "NEVERSAYCAUT",
-                            "name": "Nunca Digas Precaución",
+                            "name": "Nunca digas precaución",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "STEP-DAUGHTE",
-                            "name": "Academia de Hijastras Asesinas",
+                            "name": "Academia de hijastras asesinas",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THESPYWHOWAS",
-                            "name": "La espía que era ambivalente hacia mí",
+                            "name": "La espía que era indecisa conmigo",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THETOOMUCHAB",
-                            "name": "Los Excesivos",
+                            "name": "Los excesivos",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1338,13 +1338,13 @@
                     "contents": [
                         {
                             "id": "3KIDS&1NUNGO",
-                            "name": "3 Niños y 1 Monja Salen de Excursión",
+                            "name": "3 niños y 1 monja salen de excursión",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "AHOY!PIRATES",
-                            "name": "¡Arrr! Piratas en abundancia",
+                            "name": "¡Barco a la vista! Piratas en abundancia",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1362,49 +1362,49 @@
                         },
                         {
                             "id": "THEFIGHT-A-L",
-                            "name": "El Grupo de la Lucha",
+                            "name": "El grupo de la lucha",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "FUNHAVERS",
-                            "name": "Los que se Divierten",
+                            "name": "Los que se divierten",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "JENWHEN:TIME",
-                            "name": "Gutiérrez, Doblador... del Tiempo",
+                            "name": "Gutiérrez, doblador... del tiempo",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "MACHETEGUYS(",
-                            "name": "Los Chicos del Machete (Edición Corta-todo)",
+                            "name": "Los chicos del machete (Edición corta-todo)",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "MERMAIDSWAMP",
-                            "name": "El Pantano de las Sirenas",
+                            "name": "El pantano de las sirenas",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "MYTHOFTHELEG",
-                            "name": "El Mito de la Leyenda: Historia de la Misión",
+                            "name": "El mito de la leyenda: Historia de la misión",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEPLEASE-TO",
-                            "name": "Los Casi-tocables",
+                            "name": "Los casi-tocables",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "QUICKSANDDAN",
-                            "name": "Arenas de Mar y Arenas Movedizas",
+                            "name": "Arenas de mar y arenas movedizas",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1416,43 +1416,43 @@
                         },
                         {
                             "id": "RHINOROUNDUP",
-                            "name": "Redondeo Rinoceronte",
+                            "name": "Redondeo rinoceronte",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "SEVERALCHASE",
-                            "name": "Varias Persecuciones",
+                            "name": "Varias persecuciones",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "SHOVEPALSPAR",
-                            "name": "Compañeros de Pala Parte III: La Palación",
+                            "name": "Compañeros de pala parte III: La palación",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "SHOWDOWNATTH",
-                            "name": "Enfrentamiento en el Centro Comercial",
+                            "name": "Enfrentamiento en el centro comercial",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THETREASUREO",
-                            "name": "El Tesoro de los Pantalones del Tío Alberto",
+                            "name": "El tesoro de los pantalones del tío Alberto",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TOOMANYSNAKE",
-                            "name": "¡Demasiadas Serpientes!",
+                            "name": "¡Demasiadas serpientes!",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TREASURETYKE",
-                            "name": "Perro Tesoro",
+                            "name": "Chiquillo tesoro",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -1466,31 +1466,31 @@
                     "contents": [
                         {
                             "id": "AVERYWACKYPR",
-                            "name": "Una Oración muy Loca",
+                            "name": "Una oración muy loca",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BILLYMEETSAW",
-                            "name": "Billy Conoce a una Morsa",
+                            "name": "Billy conoce a una morsa",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BOATLOADO’FR",
-                            "name": "Un Montón de Marcos en Barcos",
+                            "name": "Un montón de marcos en barcos",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "CHASTECONTEM",
-                            "name": "Contemplación de Avellaneros en la Ciudad",
+                            "name": "Contemplación de avellaneros en la ciudad",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THECHIMPANZE",
-                            "name": "El chimpancé que llevaba ropa y hacía travesuras",
+                            "name": "El chimpancé que llevaba ropa y hacía payasadas",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1502,13 +1502,13 @@
                         },
                         {
                             "id": "DINOSAURCLOW",
-                            "name": "Dinosaurio Payaso",
+                            "name": "Dinosaurio payaso",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "DUCKDEMOCRAC",
-                            "name": "Democracía de Patos",
+                            "name": "Democracía de patos",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1520,25 +1520,25 @@
                         },
                         {
                             "id": "HELP!MYDADIS",
-                            "name": "¡Ayuda! ¡Mi Padre es un Perro!",
+                            "name": "¡Ayuda! ¡Mi padre es un perro!",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "HULLABALOO:U",
-                            "name": "Escándalo: Sin Clasificar",
+                            "name": "Escándalo: Sin clasificar",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "IHAVEMADEATE",
-                            "name": "He Hecho una Terrible Tarta de Pizza",
+                            "name": "He hecho una terrible tarta de pizza",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "INCONTINENT&",
-                            "name": "Incontinental e Incontinente",
+                            "name": "Incontinental e incontinente",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1550,37 +1550,37 @@
                         },
                         {
                             "id": "THISMANISRUD",
-                            "name": "Este Hombre es Grosero",
+                            "name": "Este hombre es grosero",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "NO,NOTMYGROI",
-                            "name": "¡No, No en mi Ingle!",
+                            "name": "¡No, no en mi ingle!",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEOLD-TIMEY",
-                            "name": "Gags humorísticos de media hora: La Ruta de la Risa",
+                            "name": "Rutinas humorísticas de media hora: La ruta de la risa",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "PASSIVEAGGRE",
-                            "name": "Lucha de Pasteles Pasiva-Agresiva",
+                            "name": "Lucha de tartas pasiva-agresiva",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "VEGETABLESFO",
-                            "name": "¡¿Verduras de Postre?!",
+                            "name": "¡¿Verduras de postre?!",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WEDGIEUNIVER",
-                            "name": "Universidad Novatada",
+                            "name": "Universidad Calzón Chino",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -1600,7 +1600,7 @@
                         },
                         {
                             "id": "CARLDREAMSOF",
-                            "name": "Los Sueños de Carlos: Crema de Maíz",
+                            "name": "Los sueños de Carlos: Crema de maíz",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1612,7 +1612,7 @@
                         },
                         {
                             "id": "COAL:THECOMB",
-                            "name": "Carbón: El Milagro Combustible",
+                            "name": "Carbón: El combustible milagroso",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1624,7 +1624,7 @@
                         },
                         {
                             "id": "FUNWARFACTSF",
-                            "name": "Datos divertidos sobre la guerra para padres",
+                            "name": "Datos divertidos para padres sobre la guerra",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1636,13 +1636,13 @@
                         },
                         {
                             "id": "THEHISTORYOF",
-                            "name": "La Historia de José",
+                            "name": "La historia de José",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "HORSESHAVENO",
-                            "name": "Los Caballos No Tienen Derecho a Lucir Tan Bien",
+                            "name": "Los caballos no tienen derecho a lucir tan bien",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1654,19 +1654,19 @@
                         },
                         {
                             "id": "MAKINGAMUDDE",
-                            "name": "Creando a un Ás del Espino",
+                            "name": "Creando a lodazal",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "NINEHOURSOFT",
-                            "name": "Nueve Horas hablando del Presidente Polk",
+                            "name": "Nueve horas hablando del presidente Polk",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THERUBBERPLA",
-                            "name": "La Planta de Caucho y Tú",
+                            "name": "La planta de caucho y tú",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1678,37 +1678,37 @@
                         },
                         {
                             "id": "SPACEISN’TRE",
-                            "name": "El Espacio no es Real",
+                            "name": "El espacio no es real",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TIMETOGETMAD",
-                            "name": "Tiempo para volverse loco",
+                            "name": "Hora de volverse loco",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WATCHYOURBAC",
-                            "name": "Vigila tu Espalda: Un tratado sobre el autovoyeurismo",
+                            "name": "Cuida tu espalda: Un tratado sobre el autovoyerismo",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WATERFEST:AF",
-                            "name": "El Festival del Agua: Un festival que fue bastante bien",
+                            "name": "El festival del agua: Un festival que fue bastante bien",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WHICHSENATOR",
-                            "name": "¿Qué Senador no fracasó?",
+                            "name": "¿Qué senador no fracasó?",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WHOOPSIE:IDI",
-                            "name": "Ups, he hecho un delito económico a nivel mundial",
+                            "name": "Ups: Cometí un delito de cuello y corbata",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -1734,7 +1734,7 @@
                         },
                         {
                             "id": "BADVIBESFROM",
-                            "name": "Hoy Kevin tiene Malas Sensaciones",
+                            "name": "Hoy Kevin tiene malas sensaciones",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1746,13 +1746,13 @@
                         },
                         {
                             "id": "THECOUNTESSA",
-                            "name": "La Condesa se confiesa",
+                            "name": "La condesa se confiesa",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "COUSINBETRAY",
-                            "name": "Primo Traición",
+                            "name": "Primo traición",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1770,13 +1770,13 @@
                         },
                         {
                             "id": "THEENDLESSMO",
-                            "name": "El luto sin fin Parte XXXVII",
+                            "name": "El luto sin fin: Parte XXXVII",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "ESOTERICESOT",
-                            "name": "Esoterico Esoterica",
+                            "name": "Esotérico esotérica",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1794,7 +1794,7 @@
                         },
                         {
                             "id": "THEHORSEDIES",
-                            "name": "El Caballo Muere, Espera No Has Escrito Eso Realmente Como El Título De La Película, ¿Verdad Sergio?",
+                            "name": "El caballo muere. Espera, en verdad no lo escribiste para el título, ¿cierto, Sergio?",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1806,7 +1806,7 @@
                         },
                         {
                             "id": "INLOVEWITHTW",
-                            "name": "Enamorado de dos Virreyes",
+                            "name": "Enamorado de dos virreyes",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1818,13 +1818,13 @@
                         },
                         {
                             "id": "LOVEISAFIB",
-                            "name": "El Amor es una Farsa",
+                            "name": "El amor es una farsa",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "RICHMANLEARN",
-                            "name": "Hombre Rico aprende la Lección",
+                            "name": "Hombre rico aprende su lección",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1848,7 +1848,7 @@
                         },
                         {
                             "id": "WEEP",
-                            "name": "LLORA",
+                            "name": "WEEP",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -1862,73 +1862,73 @@
                     "contents": [
                         {
                             "id": "THEBADSKULL",
-                            "name": "La Calavera Malvada",
+                            "name": "La calavera malvada",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BLOODONTHEFE",
-                            "name": "Sangre en el Helecho",
+                            "name": "Sangre en el helecho",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "BLOOD,MAYBE",
-                            "name": "Sangre, Tal Vez",
+                            "name": "Sangre, quizá",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "CLIMATECHANG",
-                            "name": "Cambio Climático",
+                            "name": "Cambio climático",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "SPOOKED2:2SP",
-                            "name": "Desvíados 2: 2 Desvíados",
+                            "name": "Desvíados 2: 2 desvíados",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THECORPORATE",
-                            "name": "Masacre en el Taller Corporativo",
+                            "name": "Masacre en el taller corporativo",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "DAREWOLF",
-                            "name": "Lobo Temerario",
+                            "name": "Lobo temerario",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "DON’TTOUCHTH",
-                            "name": "¡No Toques Eso!",
+                            "name": "¡No toques eso!",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEEDIBLECOF",
-                            "name": "El Ataúd Comestible",
+                            "name": "El ataúd comestible",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "EVILBOAT",
-                            "name": "Barco Malvado",
+                            "name": "Barco malvado",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "FRANKENSTEIN",
-                            "name": "Frankenstein Conoce a sus Suegros",
+                            "name": "Frankenstein conoce a sus suegros",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "GHOSTROACH:E",
-                            "name": "Cucaracha Fantasma: Infestación Etérea",
+                            "name": "Cucaracha fantasma: Infestación etérea",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -1946,67 +1946,67 @@
                         },
                         {
                             "id": "HAUNTEDASCAN",
-                            "name": "Tan Embrujados como sea posible",
+                            "name": "Tan embrujados como sea posible",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "HOUSEOFACOUP",
-                            "name": "La Casa con un par de Cadáveres",
+                            "name": "La casa con un par de cadáveres",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "ICKYSCENESWI",
-                            "name": "Escenas Asquerosas con Música Aterradora",
+                            "name": "Escenas asquerosas con música aterradora",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "MOREBLOODTHA",
-                            "name": "Más Sangre de la Esperada",
+                            "name": "Más sangre de lo que esperabas",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "MR.CHOPPYTHE",
-                            "name": "El Sr. Picador, el Maniquí que comete crímenes",
+                            "name": "El Sr. Picador, el maniquí que comete crímenes",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THENECKTHATW",
-                            "name": "El Cuello que no paraba de crecer",
+                            "name": "El cuello que no paraba de crecer",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "SKELETONSARE",
-                            "name": "Los Esqueletos son unos Tontos",
+                            "name": "Los esqueletos son unos imbéciles",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "STABBING&GAB",
-                            "name": "Acuchillando y Charlando",
+                            "name": "Acuchillando y charlando",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THATKNIFEFEL",
-                            "name": "El Cuchillo ha Vuelto",
+                            "name": "El amigo de los cuchillos ha vuelto",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TURNSOUTWE’R",
-                            "name": "Pues Parece que Somos Fantasmas",
+                            "name": "Parece que somos fantasmas",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "YOURINSIDESA",
-                            "name": "Tus Entrañas Están Para Afuera",
+                            "name": "Tus entrañas están para afuera",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -2014,25 +2014,25 @@
                 },
                 {
                     "id": "MYSTERY",
-                    "name": "Misterio",
+                    "name": "Mystery",
                     "bgColor": "FFFFFF",
                     "textColor": "000000",
                     "contents": [
                         {
                             "id": "THECASEOFTHE",
-                            "name": "El Caso del Caso Robado",
+                            "name": "El caso del caso robado",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "CHURCHOFTHEK",
-                            "name": "La Iglesia del Cuchillo",
+                            "name": "La iglesia del cuchillo",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THECRIMELIME",
-                            "name": "La Lima Asesina",
+                            "name": "El melón ladrón",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2044,13 +2044,13 @@
                         },
                         {
                             "id": "DETECTIVECON",
-                            "name": "Detective Alguacil",
+                            "name": "Detective alguacil",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "DIAGNOSIS:SH",
-                            "name": "Diagnóstico: Travesuras",
+                            "name": "Diagnóstico: Diabluras",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2068,13 +2068,13 @@
                         },
                         {
                             "id": "HERBERTACHRI",
-                            "name": "Herberta Christine presenta un misterio de Cornelius Thornwhistle: juego sucio en la propiedad de Cornwallis-Smythe Incorporated (incluidos los establos)",
+                            "name": "Herberta Christine presenta un misterio de Cornelius Thornwhistle: Juego sucio en la propiedad de Cornwallis-Smythe Incorporated (incluidos los establos)",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEHOUSETHAT",
-                            "name": "La Casa con sólo Mayordomos",
+                            "name": "La casa que solo fue de mayordomos",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2134,19 +2134,19 @@
                         },
                         {
                             "id": "SHERLOCKBONE",
-                            "name": "Huesock Holmes",
+                            "name": "Sherlock Hóseo",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "UNSATISFYING",
-                            "name": "Conclusion insatisfactoria",
+                            "name": "Conclusión insatisfactoria",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THEVANISHEDB",
-                            "name": "El trasero desaparecido",
+                            "name": "El trasero esfumado",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -2178,7 +2178,7 @@
                         },
                         {
                             "id": "BETWIXTLOVEA",
-                            "name": "Entre Amor y Lujuria",
+                            "name": "Entre amor y lujuria",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2238,7 +2238,7 @@
                         },
                         {
                             "id": "KISSMEI'MCLE",
-                            "name": "Bésame soy listo",
+                            "name": "Bésame, soy listo",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2262,13 +2262,13 @@
                         },
                         {
                             "id": "STRAWBERRYHU",
-                            "name": "Trozo de fresa",
+                            "name": "Trozo de frutilla",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TEMPORARYISF",
-                            "name": "Temporalmente es para siempre",
+                            "name": "Lo temporal es para siempre",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2280,7 +2280,7 @@
                         },
                         {
                             "id": "WHO’LLKISSPA",
-                            "name": "Quíen besará a Patsy",
+                            "name": "Quién besará a Patsy",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }
@@ -2288,7 +2288,7 @@
                 },
                 {
                     "id": "SCI_FI",
-                    "name": "Ciéncia Ficción",
+                    "name": "Ciencia Ficción",
                     "bgColor": "FFFFFF",
                     "textColor": "000000",
                     "contents": [
@@ -2342,7 +2342,7 @@
                         },
                         {
                             "id": "LET’SSHOOTTH",
-                            "name": "Disparemos a estos viejos en la órbita",
+                            "name": "Pongamos a estos viejos en órbita",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2354,49 +2354,49 @@
                         },
                         {
                             "id": "NASAVSMOONSH",
-                            "name": "NASA vs Tiburones de la Luna",
+                            "name": "La NASA contra los tiburones de la luna",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "THENOTGREATP",
-                            "name": "El Planeta No Tan Genial",
+                            "name": "El planeta no tan genial",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "PEWPEWPEWPEW",
-                            "name": "Pew Pew Pew Pew Pew",
+                            "name": "Pum pum pum pum pum",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "RADIOACTIVEA",
-                            "name": "Radio activa radiactiva",
+                            "name": "Radio activa radioactiva",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TECHNOSCAPE:",
-                            "name": "Technoscapada: Cyborgs Cazarecompensas en el año 1995",
+                            "name": "Tecnoescapada: Cyborgs cazarecompensas en el año 1995",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TIMEMIME",
-                            "name": "El Mimo del Tiempo",
+                            "name": "Mimo del Tiempo",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "UTI:UNIDENTI",
-                            "name": "ITNO: Inteligencia Terrestre No Identificada ",
+                            "name": "ITNO: Inteligencia terrestre no identificada",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "WEREBUILTLIN",
-                            "name": "Hemos Rehecho a Lincoln",
+                            "name": "Reconstruimos a Lincoln",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2458,7 +2458,7 @@
                         },
                         {
                             "id": "FRENEMYFILES",
-                            "name": "Archivos de amigos enemigos",
+                            "name": "Archivos de amienemigo",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2470,25 +2470,25 @@
                         },
                         {
                             "id": "HERCONFUSING",
-                            "name": "Su mensaje de voz confuso",
+                            "name": "Su buzón de voz confuso",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "IKNOWWHATYOU",
-                            "name": "Sé Lo Que Hicistéis Hace 5 Minutos",
+                            "name": "Sé lo que hicieron hace 5 minutos",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "MAMAMAFIA",
-                            "name": "Mamá Mafia",
+                            "name": "Mafia mamá",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "MYDRYCLEANER",
-                            "name": "Mi Tintoreria, Mi Enemiga",
+                            "name": "Mi tintorería, mi enemiga",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
@@ -2536,13 +2536,13 @@
                         },
                         {
                             "id": "TICKTOCK,BOM",
-                            "name": "Tic Toc, Bomba de Relojería",
+                            "name": "Tic toc, reloj bomba",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         },
                         {
                             "id": "TREACHERYATT",
-                            "name": "Traición en Playa Traición",
+                            "name": "Traición en playa Traición",
                             "bgColor": "607ed2",
                             "textColor": "ffffff"
                         }

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "quiplash|quiplash3|quiplash 3|este juego|el juego que jugamos|<ARTICLE> Jackbox party pack | Jackbox party pack | JPP| JPP7|<ARTICLE> party pack | party pack",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Claro, si quiere ser demandado por infracción de derechos de autor. ¡No creas que no lo haremos, Papa! Si es que es tu nombre real.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Something the Pope might sell on Home Shopping Network",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Jesus-shaped waffle iron|\"Miracle\" hair growth oil|Vatican timeshares",
+   "n": "SafetyQuips"
+  }
+ ]
+}

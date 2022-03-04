@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "pedo|flatulencia|rompiendo el silencio|exceso de gases|Rompiedo el viento|pedito",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Bueno, a decir verdad (pedo jugoso).",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "<BLANK> much?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "bite your nails|eat ramen|bad breath",
+   "n": "SafetyQuips"
+  }
+ ]
+}

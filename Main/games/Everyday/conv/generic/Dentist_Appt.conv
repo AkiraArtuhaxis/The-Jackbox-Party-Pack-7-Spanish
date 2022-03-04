@@ -1,13 +1,13 @@
-MAIN(Dentista): ¿Cuál es la razón de su visita?
+MAIN(Dentista): ¿Cuál es la razón de tu visita?
 -CLEAN-> Necesito una limpieza
--PAIN-> Mi boca siente solo dolor
+-PAIN-> Me duele mucho la boca
 -HUM-> Me tiemblan los dientes
 -MISS-> Te extrañaba
 
 CLEAN(Dentista): ¡Genial! Te veo el lunes
 -SUCCESS-> Espero no haber parecido desesperado
 
-PAIN(Dentista): ¡Oh oh! Te veo el lunes
+PAIN(Dentista): ¡Oh, oh! Te veo el lunes
 -SUCCESS-> Gracia...¡¡¡¡suaghgaAAAH!!!!
 
 HUM(Dentista): Sí, los escucho.

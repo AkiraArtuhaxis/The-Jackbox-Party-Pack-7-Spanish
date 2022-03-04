@@ -1,9 +1,9 @@
 DEF EPISODE "Space"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Demonios en el Espacio"
+    SET NAME "Demonios en el espacio"
     SET DESCRIPTION "Desde el inframundo al <font color='#AF0000'>espacio exterior</font>, la familia irá donde ningún diablo ha ido antes cuando son elegidos para ser lanzados a la órbita."
-    SET SUCCESS_MESSAGE "Este es un pequeño paso para los suburbios, un salto gigante para la raza diabólica. ¡Y todo por su patrocinador corporativo, la marca Poocho de comida para perros! Poocho, ¡la primera comida para perros en el espacio!"
+    SET SUCCESS_MESSAGE "Es un pequeño paso para los suburbios, pero un gran salto para la raza diabólica. ¡Y todo por su patrocinador corporativo, la marca Chucho de comida para perros! Chucho, ¡la primera comida para perros en el espacio!"
     SET FAILURE_MESSAGE "Nuestros espías en la NASA nos cuentan que el lanzamiento fue un lamentable fracaso. Si se hubieran tomado la misión seriamente, quizás hasta podrían haber dejado la atmósfera. Hemos visto un mejor entrenamiento en videos de yoga de famosos."
 
 
@@ -54,7 +54,7 @@ CLONE DEED "DialogID" "SpaceTVAdult"
 END
 
 DEF TASK "SpaceTVAdult"
-    SET NAME "Haz una entrevista de televisión sobre ser la primera familia en el espacio."
+    SET NAME "Hacer una entrevista de televisión sobre ser la primera familia en el espacio"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -72,7 +72,7 @@ CLONE DEED "DialogID" "SpaceTVTeen"
 END
 
 DEF TASK "SpaceTVTeen"
-    SET NAME "Haz una entrevista de televisión sobre ser el primer joven en el espacio"
+    SET NAME "Hacer una entrevista de televisión sobre ser el primer joven en el espacio"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -90,7 +90,7 @@ CLONE DEED "DialogID" "SpaceTVKid"
 END
 
 DEF TASK "SpaceTVKid"
-    SET NAME "Haz una entrevista de televisión sobre ser el primer niño en el espacio"
+    SET NAME "Hacer una entrevista de televisión sobre ser el primer niño en el espacio"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -108,7 +108,7 @@ CLONE DEED "GatherID" "SpaceBags"
 END
 
 DEF TASK "SpaceBags"
-    SET NAME "Haz las maletas para el espacio"
+    SET NAME "Hacer las maletas para el espacio"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -126,9 +126,9 @@ CLONE DEED "TravelID" "DriveToNASA"
 END
 
 DEF TASK "DriveToNASA"
-    SET NAME "Conduce a la NASA para entrenar"
-    SET ASKER_NAME "Obtén un viaje a la NASA para entrenar"
-    SET HELPER_NAME "Lleva a <ASKER> a la NASA para que reciba entrenamiento"
+    SET NAME "Conducir a la NASA para entrenar"
+    SET ASKER_NAME "Obtener un viaje a la NASA para entrenar"
+    SET HELPER_NAME "Llevar a <ASKER> a la NASA para entrenar"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -147,9 +147,9 @@ CLONE DEED "Gizmos6" "SpaceSim"
 END
 
 DEF TASK "SpaceSim"
-    SET NAME "Entrena en el simulador de espacio"
-    SET ASKER_NAME "Obtén ayuda para entrenar en simulador espacial"
-    SET HELPER_NAME "Ayuda a <ASKER> a entrenar en el simulador espacial"
+    SET NAME "Entrenar en el simulador espacial"
+    SET ASKER_NAME "Pedir ayuda para entrenar en el simulador espacial"
+    SET HELPER_NAME "Ayudar a <ASKER> para entrenar en el simulador espacial"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -165,14 +165,14 @@ REM : -----------------------------------------------------
 REM : Learn how to use space toilet
 CLONE DEED "Gizmos12" "SpaceToilet"
     SET INSTRUCTIONS "Aprende a usar el baño espacial"
-    SET NAME "Baño Espacial"
+    SET NAME "Baño espacial"
     SET TEXT_GIZMO_CHANCE_RATIO 0
 END
 
 DEF TASK "SpaceToilet"
-    SET NAME "Aprende a usar el baño espacial"
-    SET ASKER_NAME "Obtén ayuda para aprender a usar el baño espacial"
-    SET HELPER_NAME "Ayuda a <ASKER> a aprender a usar el baño espacial"
+    SET NAME "Aprender a usar el baño espacial"
+    SET ASKER_NAME "Pedir ayuda para aprender a usar el baño espacial"
+    SET HELPER_NAME "Ayudar a <ASKER> para aprender a usar el baño espacial"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -190,7 +190,7 @@ CLONE DEED "RotateBase" "Centrifuge"
 END
 
 DEF TASK "Centrifuge"
-    SET NAME "Entrena en la centrifugadora"
+    SET NAME "Entrenar en la centrifugadora"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -203,7 +203,7 @@ END
 
 REM : Train in swimming pool
 CLONE DEED "SwipeDown" "SpaceSwim1"
-    SET INSTRUCTIONS "Ponte tu casco"
+    SET INSTRUCTIONS "Ponte el casco"
 END
 
 CLONE DEED "SwipeDown" "SpaceSwim2"
@@ -211,15 +211,15 @@ CLONE DEED "SwipeDown" "SpaceSwim2"
 END
 
 CLONE DEED "ScrubLong" "SpaceSwim3"
-    SET INSTRUCTIONS "Empuja a través del agua"
+    SET INSTRUCTIONS "Impúlsate por el agua"
 END
 
 CLONE DEED "Tap3" "SpaceSwim4"
-    SET INSTRUCTIONS "Recoger juguetes de piscina perdidos"
+    SET INSTRUCTIONS "Recoge juguetes de piscina perdidos"
 END
 
 DEF TASK "SpaceSwim"
-    SET NAME "Entrena en la piscina de la NASA"
+    SET NAME "Entrenar en la piscina de la NASA"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -243,7 +243,7 @@ CLONE DEED "DialogID" "MeetSkip"
 END
 
 DEF TASK "MeetSkip"
-    SET NAME "Habla con el legendario astronauta Comandante Skip Moonley"
+    SET NAME "Hablar con el legendario astronauta Comandante Skip Moonley"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -267,15 +267,15 @@ CLONE DEED "Instructions5" "OxygenScrubber"
     SET MECHANIC_2 "ROTATE_CLOCK"
     SET INSTRUCTIONS_2 "Crea un 'cinturón' con un rollo de cinta adhesiva"
     SET MECHANIC_3 "TAP"
-    SET INSTRUCTIONS_3 "Pegue la bolsa sobre la manguera del traje rojo"
+    SET INSTRUCTIONS_3 "Pega la bolsa sobre la manguera del traje rojo"
     SET MECHANIC_4 "SWIPE_DOWN"
     SET INSTRUCTIONS_4 "Asegura la toalla en el orificio de desviación"
 END
 
 DEF TASK "OxygenScrubber"
-    SET NAME "Practica la reparación del depurador de oxígeno"
-    SET ASKER_NAME "Obtén ayuda para practicar cómo arreglar el depurador de oxígeno"
-    SET HELPER_NAME "Ayuda a <ASKER> a practicar cómo arreglar el depurador de oxígeno"
+    SET NAME "Practicar la reparación del depurador de oxígeno"
+    SET ASKER_NAME "Pedir ayuda para practicar la reparación del depurador de oxígeno"
+    SET HELPER_NAME "Ayudar a <ASKER> para practicar la reparación del depurador de oxígeno"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -288,19 +288,19 @@ END
 
 REM : Pose for promotional photo
 CLONE DEED "NothingBase" "PoochoPromo1"
-    SET INSTRUCTIONS "Levanta la bolsa de 'Poocho', la comida para perros que patrocina la misión."
+    SET INSTRUCTIONS "Levanta la bolsa de 'Chucho', la comida para perros que patrocina la misión."
     SET DURATION 3S
     SET PARTICIPATION "ALL"
 END
 
 CLONE DEED "NothingBase" "PoochoPromo2"
-    SET INSTRUCTIONS "Sonríe y di '¡Poocho!'"
+    SET INSTRUCTIONS "Sonríe y di '¡Chucho!'"
     SET DURATION 3S
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "PoochoPromo"
-    SET NAME "Posa para la foto promocional"
+    SET NAME "Posar para la foto promocional"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -320,9 +320,9 @@ CLONE DEED "FindID" "AstroFindBook"
 END
 
 DEF TASK "AstroFindBook"
-    SET NAME "Encuentra un libro de texto de astrofísica"
-    SET ASKER_NAME "Obtén ayuda para encontrar un libro de texto de astrofísica"
-    SET HELPER_NAME "Ayuda a <PEDIDOR> a encontrar un libro de texto de astrofísica"
+    SET NAME "Encontrar un libro de texto de astrofísica"
+    SET ASKER_NAME "Pedir ayuda para encontrar un libro de texto de astrofísica"
+    SET HELPER_NAME "Ayudar a <ASKER> para encontrar un libro de texto de astrofísica"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -335,7 +335,7 @@ END
 
 REM : BLAST OFF!
 CLONE DEED "TapAll" "BlastOff"
-    SET INSTRUCTIONS "¡Colapsa ese gran botón de lanzamiento!"
+    SET INSTRUCTIONS "¡Pulsa ese gran botón de lanzamiento!"
 END
 
 DEF TASK "BlastOff"

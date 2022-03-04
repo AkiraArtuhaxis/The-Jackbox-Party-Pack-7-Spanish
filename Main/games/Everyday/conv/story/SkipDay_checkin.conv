@@ -5,13 +5,13 @@ MAIN(Subdirector): ¿Vendrá usted mañana?
 -SERVE-> Depende... ¿qué habrá en la mesa?
 
 ABS(Subdirector): ¡Ese es el espíritu!
--SUCCESS-> ¿Extraño las clases?
+-SUCCESS-> ¿Extraño el aprendizaje?
 
-SURE(Subdirector): No cuentas con la emoción que buscamos. ¡Quédate en casa!
+SURE(Subdirector): Necesitamos más entusiasmo. ¡Quédate en casa!
 -SUCCESS-> ¡Rayos! ¡Otro día sin trabajar!
 
-WEATHER(Subdirector): Claro, yo tampoco trabajo cuando llueve.
+WEATHER(Subdirector): Sí, yo tampoco trabajo cuando llueve.
 -SUCCESS-> Los profesores son tal como nosotros.
 
-SERVE(Subdirector): ¡Una educación al punto!
+SERVE(Subdirector): ¡Una educación al rojo vivo!
 -SUCCESS-> ¡Qué delicia!

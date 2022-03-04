@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "pedos|soplar viento|bocinazo",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Privacidad, por favor. Me estoy tirando un pedo. ¡Ingenioso!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Idea for an improved hotel room sign: “Privacy, Please. I’m <BLANK>” ",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "barfing in the toilet|Cross-dressing|shy around housekeepers",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> pollo | poyo|<ARTICLE> pollito | Pollito|<ARTICLE> poyito | pollitos",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Creo que estás confundido. El animal más sensual SABE a pollo.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Fine!!! What’s the sexiest animal?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a bluebird with a steady job|a pile of carpenter ants|a swallow",
+   "n": "SafetyQuips"
+  }
+ ]
+}

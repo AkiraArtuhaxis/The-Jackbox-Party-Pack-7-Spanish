@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> caca humana | caca humana|<ARTICLE> caca humana | caca humana<ARTICLE> zurullo | zurullo|<PRONOUN> caca | caca | caca | caca|<PRONOUN> zurullo | zurullo|<PRONOUN> zurullos | zurullos|<ARTICLE> caca | caca|<ARTICLE> caca | caca|<ARTICLE> caca | caca|<ARTICLE> caca humana | caca humana|<ARTICLE> caca humana | caca humana|<ARTICLE> caca humana | caca humana",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "¿Cuándo aprenderá la gente? No puedes lavar esas cosas en un inodoro. Como dice en las instrucciones.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A surprising thing to get trapped in your Invisalign clear tooth aligner",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a thumbnail|a fishing lure|an entire bag of french fries",
+   "n": "SafetyQuips"
+  }
+ ]
+}

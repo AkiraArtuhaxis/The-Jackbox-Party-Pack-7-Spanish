@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "popo|popó|pedios|pedos|popis|po-po|pooh pooh|pooh-poohs",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "No hace falta decirlo, pero eso significa que eres (piiip) sin suerte.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "You know the lottery scratch-off ticket won’t pay out much when the goal is to get three <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "cigarette butts|socks with holes in them|cherry pits",
+   "n": "SafetyQuips"
+  }
+ ]
+}

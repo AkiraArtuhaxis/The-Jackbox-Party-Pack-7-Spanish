@@ -6,8 +6,8 @@
    "prompt": "Plan para robar un banco: Paso 1. Acercarse al cajero. Paso 2. <BLANK>",
    "safetyQuips": [
     "llorar",
-    "preguntarle a dónde se va al cine",
-    "destruir el capitalismo"
+    "invitarlo al cine",
+    "deconstruir el capitalismo"
    ],
    "us": false,
    "x": false
@@ -18,8 +18,8 @@
    "prompt": "El truco más maligno que el diablo hizo fue <BLANK>",
    "safetyQuips": [
     "el de la flor que escupe agua",
-    "la necesidad humana para el amor",
-    "meter un papelito debajo de la camiseta"
+    "la necesidad humana de amor",
+    "meter una pelota debajo de la camiseta"
    ],
    "us": false,
    "x": false
@@ -30,8 +30,8 @@
    "prompt": "La frase más intrigante que te podrías encontrar en un perfil de citas",
    "safetyQuips": [
     "sin caballos",
-    "¡odio viajar con toda mi alma!",
-    "mis amigos dicen que a veces soy estable"
+    "¡odio por completo los viajes!",
+    "los amigos dicen que suelo ser estable"
    ],
    "us": false,
    "x": false
@@ -43,7 +43,7 @@
    "safetyQuips": [
     "chocolates gratis para todos",
     "dije la verdad, ¿¿cierto??",
-    "llevar una venda de Naruto"
+    "llevar una cinta para la cabeza de Naruto"
    ],
    "us": false,
    "x": false
@@ -51,10 +51,10 @@
   {
    "id": "111",
    "includesPlayerName": false,
-   "prompt": "Un signo de que tu compañero de trabajo es un robot",
+   "prompt": "Una señal segura de que tu compañero de trabajo es un robot",
    "safetyQuips": [
-    "etiqueta dice \"hola, soy un robot\"",
-    "notas de la compañía en binario",
+    "etiqueta que dice \"hola, soy un robot\"",
+    "notas de la empresa en binario",
     "pide aceite de motor en la hora feliz"
    ],
    "us": false,
@@ -63,11 +63,11 @@
   {
    "id": "112",
    "includesPlayerName": false,
-   "prompt": "¿Qué signo del zodíaco fue excluido?",
+   "prompt": "¿Qué signo quedó fuera del zodiaco?",
    "safetyQuips": [
     "frappricornio",
     "alberto el caimán",
-    "cuscuscuario"
+    "carnicuario"
    ],
    "us": false,
    "x": false
@@ -77,9 +77,9 @@
    "includesPlayerName": false,
    "prompt": "Lo peor que podrías decir en una autopsia",
    "safetyQuips": [
-    "¡ahí va mi sandwich!",
+    "¡ahí va mi sándwich!",
     "¡así que ahí es dónde van los pulmones!",
-    "si no estaba muerto antes, te juro que ahora sí."
+    "si no estaba muerto antes, de seguro ahora sí."
    ],
    "us": false,
    "x": false
@@ -90,7 +90,7 @@
    "prompt": "Sabes que se viene una tragedia cuando el tarotista gira la carta que representa <BLANK>",
    "safetyQuips": [
     "una nevera vacía",
-    "the contador de tazas",
+    "un contador de tazas",
     "una casa hipotecada"
    ],
    "us": false,
@@ -99,11 +99,11 @@
   {
    "id": "117",
    "includesPlayerName": false,
-   "prompt": "¿Qué dan las escuelas súper-progresistas en vez de calificaciones?",
+   "prompt": "¿Qué dan las escuelas súper progresistas en vez de calificaciones?",
    "safetyQuips": [
     "tortugas",
     "un buen apretón de manos",
-    "un saludable bol de cereales"
+    "un saludable tazón de cereales"
    ],
    "us": false,
    "x": false
@@ -111,7 +111,7 @@
   {
    "id": "118",
    "includesPlayerName": false,
-   "prompt": "¿Qué truco los magos se niegan a hacer?",
+   "prompt": "¿Cuál es el único truco que los magos se niegan a hacer?",
    "safetyQuips": [
     "enamorarse",
     "robarle la nariz a un bebé",
@@ -135,10 +135,10 @@
   {
    "id": "120",
    "includesPlayerName": false,
-   "prompt": "Hay una asesina famosa que no muestra piedad alguna. Le llaman <BLANK>",
+   "prompt": "Hay una asesina famosa que no tiene piedad. La llaman <BLANK>",
    "safetyQuips": [
     "señora me enamora",
-    "maría la moribunda",
+    "Pía la Despiadada",
     "intoxicación alimenticia"
    ],
    "us": false,
@@ -147,10 +147,10 @@
   {
    "id": "121",
    "includesPlayerName": false,
-   "prompt": "Lo que hacen los elfos de Santa mientras él duerme",
+   "prompt": "Lo que hacen los elfos de Papá Noel mientras él duerme",
    "safetyQuips": [
-    "sindicarse",
-    "ligar con sra. claus",
+    "sindicalizarse",
+    "coquetear con la Sra. Noel",
     "revender juguetes en el mercado negro"
    ],
    "us": false,
@@ -170,11 +170,11 @@
   {
    "id": "124",
    "includesPlayerName": false,
-   "prompt": "Algo en lo que toda la familia está de acuerdo durante la cena de acción de gracias",
+   "prompt": "Algo en lo que toda la familia está de acuerdo durante la cena de Acción de gracias",
    "safetyQuips": [
     "la salsa de champiñones está asquerosa",
-    "los vecinos se lo están pasando mejor",
-    "el perro viejo lo está pasando canutas"
+    "los vecinos se divierten más",
+    "el perro viejo no se ve muy bien"
    ],
    "us": true,
    "x": false
@@ -184,8 +184,8 @@
    "includesPlayerName": false,
    "prompt": "“Ella es una policía. Y él, ¡un chef célebre! Y este verano son...”",
    "safetyQuips": [
-    "pesadilla en la comisaría",
-    "poniendo esposas con quique dacosta",
+    "La ley y la orden de comida",
+    "esposas y niños envueltos",
     "sospechosos a la parilla"
    ],
    "us": false,
@@ -194,10 +194,10 @@
   {
    "id": "133",
    "includesPlayerName": false,
-   "prompt": "Después de “la rueda” y “el fuego,” ¿cuál fue el tercer descubrimiento de la humanidad?",
+   "prompt": "Después de “la rueda” y “el fuego”, ¿cuál fue el tercer descubrimiento de la humanidad?",
    "safetyQuips": [
     "la oficina de patentes",
-    "calzones",
+    "ropa interior",
     "pizza mozzarella"
    ],
    "us": false,
@@ -206,11 +206,11 @@
   {
    "id": "135",
    "includesPlayerName": false,
-   "prompt": "Una obra de teatro que jamás verás en un instituto",
+   "prompt": "Una obra de teatro que jamás verás en una escuela primaria",
    "safetyQuips": [
     "sesiones acústicas locas de un payaso",
-    "chichatrizas, un músical informativo de las carnicerías",
-    "¡cuchillos! ¡cuchillos! el musical"
+    "Corderon, un ensayo musical sobre la industria de las carnes",
+    "¡Cuchillos! ¡Cuchillos! El musical"
    ],
    "us": true,
    "x": true
@@ -218,7 +218,7 @@
   {
    "id": "144",
    "includesPlayerName": false,
-   "prompt": "¿Qué trampa fue demasiado severa para el final de <i>Solo en casa</i>?",
+   "prompt": "¿Qué trampa fue demasiado dura para el final de <i>Mi pobre angelito</i>?",
    "safetyQuips": [
     "maratón de trampas de osos",
     "piscina de cloro"
@@ -231,9 +231,9 @@
    "includesPlayerName": false,
    "prompt": "Todos olvidan el episodio de <i>Friends</i> llamado “Ese donde <BLANK>”",
    "safetyQuips": [
-    "joey hace otros amigos",
-    "la pandilla se mete en un problemilla",
-    "ross conoce a dios"
+    "Joey hace otros amigos",
+    "la pandilla es acusada",
+    "Rross conoce a dios"
    ],
    "us": false,
    "x": false
@@ -241,10 +241,10 @@
   {
    "id": "158",
    "includesPlayerName": false,
-   "prompt": "Qué es lo que Ronald McDonald suele soñar",
+   "prompt": "¿Con qué sueña Ronald McDonald?",
    "safetyQuips": [
     "hamburguesas mohosas",
-    "wendy",
+    "Wendy",
     "alergias al maquillaje de payaso"
    ],
    "us": false,
@@ -255,7 +255,7 @@
    "includesPlayerName": false,
    "prompt": "El experto en <i>Queer Eye</i> que no entró en escena, especializado en <BLANK>",
    "safetyQuips": [
-    "monster trucks",
+    "camiones monstruo",
     "montañas rusas",
     "cardiología"
    ],
@@ -265,11 +265,11 @@
   {
    "id": "161",
    "includesPlayerName": false,
-   "prompt": "La peor cosa que puedes escuchar después de que te digan “Te amo”",
+   "prompt": "Lo peor que podrías escuchar después de decir “Te amo”",
    "safetyQuips": [
-    "oh, ¡qué dulce!",
-    "¿se lo podrías decir a mi marido?",
-    "¿quieres patatas con el pedido?"
+    "oh, ¡es muy amable de tu parte!",
+    "¿podrías decírselo también a mi marido?",
+    "¿quieres papas fritas con eso?"
    ],
    "us": false,
    "x": false
@@ -277,11 +277,11 @@
   {
    "id": "163",
    "includesPlayerName": false,
-   "prompt": "En qué estaba pensando Dios cuando inventó los testículos",
+   "prompt": "Lo que estaba pensando Dios cuando inventó los testículos",
    "safetyQuips": [
-    "luego lo arreglo",
-    "me encanta como cuelgan",
-    "lol, soy malísimo ;D"
+    "lo arreglaré después",
+    "me encantan cómo cuelgan",
+    "jeje, soy malísimo ;D"
    ],
    "us": false,
    "x": true
@@ -289,11 +289,11 @@
   {
    "id": "164",
    "includesPlayerName": false,
-   "prompt": "La pregunta que la ciencia jamás podrá responder",
+   "prompt": "La única pregunta que la ciencia nunca podrá responder",
    "safetyQuips": [
-    "¿quién se comió mis chuches?",
-    "¿por qué hay vigilantes en el cine?",
-    "¿por qué tengo granos en el culo?"
+    "¿quién robó las galletas del tarro de galletas?",
+    "¿por qué la gente estudia teatro?",
+    "¿está infectado este lunar?"
    ],
    "us": false,
    "x": false
@@ -301,7 +301,7 @@
   {
    "id": "166",
    "includesPlayerName": false,
-   "prompt": "Sabes que es una mala mañana cuando <BLANK> es tendencia en Twitter",
+   "prompt": "Sabes que es una mañana lenta cuando <BLANK> es tendencia en Twitter",
    "safetyQuips": [
     "el recuento del polen",
     "felicidad",
@@ -313,11 +313,11 @@
   {
    "id": "167",
    "includesPlayerName": false,
-   "prompt": "¿Qué hay detrás de la puerta cerrada que el agente inmobiliario se niega a enseñarte?",
+   "prompt": "¿Qué hay detrás de la puerta cerrada que el agente inmobiliario se niega a mostrarte?",
    "safetyQuips": [
-    "otro agente inmobiliario con una porra",
+    "un agente inmobiliario rival",
     "una granja de hormigas",
-    "un baño sin lavabo ni retrete"
+    "un baño sin ducha ni inodoro"
    ],
    "us": false,
    "x": false
@@ -325,11 +325,11 @@
   {
    "id": "169",
    "includesPlayerName": false,
-   "prompt": "Reglas de la casa encantada: 1. No toques a los actores 2. <BLANK>",
+   "prompt": "Reglas de la Casa encantada: 1. No toques a los actores 2. <BLANK>",
    "safetyQuips": [
     "no te enamores",
     "siempre usa uvas en vez de ojos",
-    "prohíbido besarse"
+    "prohibido besarse"
    ],
    "us": true,
    "x": false
@@ -337,7 +337,7 @@
   {
    "id": "170",
    "includesPlayerName": false,
-   "prompt": "¿Qué cosa podría desganar a un vampiro sexy?",
+   "prompt": "¿Cuál es el mayor matapasiones para un vampiro sensual?",
    "safetyQuips": [
     "vulnerabilidad emocional",
     "gente mañanera",
@@ -351,9 +351,9 @@
    "includesPlayerName": false,
    "prompt": "Lo único peor que ver <BLANK> es verlo en cámara lenta",
    "safetyQuips": [
-    "a belch",
-    "a breakup",
-    "paint dry"
+    "un eructo",
+    "una ruptura",
+    "secado de pintura"
    ],
    "us": false,
    "x": false
@@ -361,11 +361,11 @@
   {
    "id": "172",
    "includesPlayerName": false,
-   "prompt": "Un peligroso juego de sexo marital: te atas a la cama y ellos hacen <BLANK>",
+   "prompt": "Un peligroso juego de sexo marital: te atas a la cama y tu cónyuge <BLANK>",
    "safetyQuips": [
-    "juggle chainsaws",
-    "buy games on the darkweb",
-    "try to work the dishwasher by themselves"
+    "hace malabares con motosierras",
+    "compra juegos en la deep web",
+    "intenta reparar el lavavajillas por sí mismo"
    ],
    "us": false,
    "x": true
@@ -373,11 +373,11 @@
   {
    "id": "176",
    "includesPlayerName": false,
-   "prompt": "El nombre de una empresa nueva que está condenada al fracaso.",
+   "prompt": "El nombre de una empresa emergente que está condenada al fracaso",
    "safetyQuips": [
-    "Failr",
-    "Broken Glass Home Delivery",
-    "Slimeblz"
+    "Quiebr",
+    "Entrega de cristales rotos a domicilio",
+    "Planta muerta"
    ],
    "us": false,
    "x": false
@@ -385,11 +385,11 @@
   {
    "id": "180",
    "includesPlayerName": false,
-   "prompt": "¿Cuál es el crimen más alto reportado en Flavortown?",
+   "prompt": "¿Cuál es el delito más denunciado en Flavortown?",
    "safetyQuips": [
-    "Donkey Sauce poisoning",
-    "no checkered tablecloths",
-    "hot sauce is too mild"
+    "Envenenamiento con salsa de burro",
+    "no hay manteles a cuadros",
+    "la salsa picante es demasiado suave"
    ],
    "us": true,
    "x": false
@@ -397,11 +397,11 @@
   {
    "id": "184",
    "includesPlayerName": false,
-   "prompt": "La primera señal de que estás viendo una película de terror muy artística.",
+   "prompt": "La primera señal de que estás viendo una película de terror muy artística",
    "safetyQuips": [
-    "30 minutes examining the \"idea of a Wolfman\"",
-    "They pronounce it \"Barthelona\"",
-    "The real murderer is \"society\""
+    "30 minutos examinando la \"idea de un hombre lobo\"",
+    "La pronuncian \"Barzelona\"",
+    "El verdadero asesino es la \"sociedad\""
    ],
    "us": false,
    "x": false
@@ -409,11 +409,11 @@
   {
    "id": "19",
    "includesPlayerName": true,
-   "prompt": "<ANYPLAYER> realizó una prueba de ADN. Resulta que son 100% <BLANK>",
+   "prompt": "<ANYPLAYER> se hizo una prueba de ADN. Resulta que es/está 100% <BLANK>",
    "safetyQuips": [
-    "sad",
-    "going to give up that last slice of pizza",
-    "everyone's best friend"
+    "triste",
+    "dejando ese último trozo de pizza",
+    "el mejor amigo de todos"
    ],
    "us": false,
    "x": false
@@ -423,9 +423,9 @@
    "includesPlayerName": false,
    "prompt": "Un tema original para una sala de escape",
    "safetyQuips": [
-    "Team \"Unbuilding\"",
-    "Falling out of a plane",
-    "Three-Hour Low-Stakes Prison Break"
+    "\"Entorpecer\" el espíritu de grupo",
+    "Caer de un avión",
+    "Tres horas de fuga de prisión de bajo riesgo"
    ],
    "us": false,
    "x": false
@@ -433,11 +433,11 @@
   {
    "id": "198",
    "includesPlayerName": false,
-   "prompt": "Un podcast que nadie podría resistir sería sobre <BLANK>",
+   "prompt": "Un pódcast al que nadie podría resistirse sería sobre <BLANK>",
    "safetyQuips": [
-    "reviewing other movie review podcasts",
-    "true as well as false crime",
-    "feminist ghost hunters"
+    "críticas de otros pódcasts de crítica de cine",
+    "delitos tanto verdaderos como falsos",
+    "cazadores de fantasmas feministas"
    ],
    "us": false,
    "x": false
@@ -445,11 +445,11 @@
   {
    "id": "201",
    "includesPlayerName": false,
-   "prompt": "“Cariño, ¿no fue extrañamente inquietante cuando la niñera hizo <BLANK>?”",
+   "prompt": "“Cariño, ¿no fue extrañamente inquietante cuando la niñera <BLANK>?”",
    "safetyQuips": [
-    "stole our baby",
-    "did a better job than us",
-    "blinked with two sets of eyelids"
+    "se robó el bebé",
+    "hizo un mejor trabajo que nosotros",
+    "parpadeó con dos pares de párpados"
    ],
    "us": false,
    "x": false
@@ -457,11 +457,11 @@
   {
    "id": "202",
    "includesPlayerName": false,
-   "prompt": "La muerte de un <BLANK> es poco común, excepto en Florida.",
+   "prompt": "La muerte por <BLANK> es poco común, excepto en Florida.",
    "safetyQuips": [
-    "lost tourist",
-    "airboat",
-    "manatee"
+    "turistas perdidos",
+    "hidrodeslizador",
+    "manatí"
    ],
    "us": false,
    "x": false
@@ -469,11 +469,11 @@
   {
    "id": "208",
    "includesPlayerName": false,
-   "prompt": "¡Thanos ha ido demasiado lejos esta vez! El destruyó la mitad de <BLANK> en el universo.",
+   "prompt": "¡Thanos ha ido demasiado lejos esta vez! Destruyó la mitad de <BLANK> en el universo.",
    "safetyQuips": [
-    "Hershey's Kisses",
-    "Marvel movies",
-    "toilet paper roll 4-packs"
+    "los chocolates",
+    "las películas de Marvel",
+    "los paquetes de papel higiénico"
    ],
    "us": false,
    "x": true
@@ -481,11 +481,11 @@
   {
    "id": "214",
    "includesPlayerName": false,
-   "prompt": "Sabes que tu clon no es una combinación perfecta cuando <BLANK>",
+   "prompt": "Sabes que tu clon no es una pareja perfecta cuando <BLANK>",
    "safetyQuips": [
-    "does better than you on your finals",
-    "actually gets people to hang out with it",
-    "finishes a Sudoku for once"
+    "lo hace mejor que tú en tus finales",
+    "realmente hace que la gente pase el rato con él",
+    "termina un Sudoku por una vez"
    ],
    "us": false,
    "x": false
@@ -493,11 +493,11 @@
   {
    "id": "218",
    "includesPlayerName": false,
-   "prompt": "La mejor ventaja de estar en una secta.",
+   "prompt": "La mejor ventaja de estar en una secta",
    "safetyQuips": [
-    "Ample beverage selection",
-    "Lots of Twister buddies",
-    "No pesky \"thinking\""
+    "Amplio surtido de bebidas",
+    "Muchos compañeros para jugar Twister",
+    "No hay que \"pensar\""
    ],
    "us": false,
    "x": false
@@ -505,11 +505,11 @@
   {
    "id": "222",
    "includesPlayerName": false,
-   "prompt": "Puedes decir que eres un hijo del medio porque <BLANK>",
+   "prompt": "Se nota que eres el hijo del medio porque <BLANK>",
    "safetyQuips": [
-    "Do improv comedy",
-    "cry a lot",
-    "reply to chain letters"
+    "haces comedia de improvisación",
+    "lloras mucho",
+    "responde a las cadenas de correo"
    ],
    "us": false,
    "x": false
@@ -519,9 +519,9 @@
    "includesPlayerName": false,
    "prompt": "El placer culpable secreto de Spider-Man",
    "safetyQuips": [
-    "flies",
-    "porch swinging",
-    "no underwear"
+    "moscas",
+    "columpio en el pórtico",
+    "no usa ropa interior"
    ],
    "us": false,
    "x": false
@@ -531,8 +531,8 @@
    "includesPlayerName": false,
    "prompt": "El nombre de un crucero que solo atiende a tías solteras",
    "safetyQuips": [
-    "The Needlepoint",
-    "The Spinster"
+    "El Punto de Cruz",
+    "La Solterona"
    ],
    "us": false,
    "x": false
@@ -540,11 +540,11 @@
   {
    "id": "231",
    "includesPlayerName": false,
-   "prompt": "Una frase horrible para ver bordada en la almohada de la abuela",
+   "prompt": "Una frase espeluznante para ver bordada en la almohada de tu abuela",
    "safetyQuips": [
-    "This Is Where Grandpa Died",
-    "Single and Ready To Mingle",
-    "a red line through the words \"love my grandkids\""
+    "Aquí es donde murió el abuelo",
+    "Soltera y lista para ser fachera",
+    "una línea roja que atraviesa las palabras \"amo a mis nietos\""
    ],
    "us": false,
    "x": false
@@ -554,9 +554,9 @@
    "includesPlayerName": false,
    "prompt": "Si la cena del Día del Padre fuera una tradición, ¿cuál sería el centro de mesa?",
    "safetyQuips": [
-    "a Big Mouth Billy Bass",
-    "a bouquet of wrenches",
-    "a bucket of Bud Light"
+    "un pez que habla y canta",
+    "un ramo de llaves inglesas",
+    "un cubo de cerveza"
    ],
    "us": true,
    "x": false
@@ -564,11 +564,11 @@
   {
    "id": "235",
    "includesPlayerName": false,
-   "prompt": "Sería genial tener un doble de acrobacias cuando <BLANK>",
+   "prompt": "Sería genial tener un doble de acción para cuando tú <BLANK>",
    "safetyQuips": [
-    "have a mental breakdown",
-    "break up with your girlfriend",
-    "call your Grandma at Christmas"
+    "tenienes un colapso mental",
+    "tienes que romper con mi novia",
+    "llamas a tu abuela en Navidad"
    ],
    "us": false,
    "x": false
@@ -576,11 +576,11 @@
   {
    "id": "238",
    "includesPlayerName": false,
-   "prompt": "El video aleatorio que YouTube sigue recomendando que acabas amando",
+   "prompt": "El video aleatorio que YouTube te sigue recomendando que acabas amando",
    "safetyQuips": [
-    "The Beginner's Guide to Bug Dissection",
-    "101 Things The 6th Sense Got Wrong About Ghosts",
-    "Epic TikToks Made By Dogs"
+    "Guía para principiantes de la disección de insectos",
+    "101 cosas que El Sexto Sentido se equivocó sobre los fantasmas",
+    "TikToks épicos hechos por perros"
    ],
    "us": false,
    "x": false
@@ -590,9 +590,9 @@
    "includesPlayerName": false,
    "prompt": "Algo terrible para recordar durante el sexo.",
    "safetyQuips": [
-    "the oven is still on",
-    "you're a nun",
-    "where you just left your keys"
+    "el horno sigue encendido",
+    "eres una monja",
+    "donde acabas de dejar las llaves"
    ],
    "us": false,
    "x": true
@@ -602,9 +602,9 @@
    "includesPlayerName": false,
    "prompt": "La forma más rápida de ser despedido de Olive Garden",
    "safetyQuips": [
-    "Breadstick hoarding",
-    "Two words: pasta bath",
-    "Give company secrets to Chili's"
+    "Acaparar barras de pan",
+    "Tres palabras: baño de pasta",
+    "Dar secretos de empresa a Chili's"
    ],
    "us": true,
    "x": false
@@ -614,8 +614,8 @@
    "includesPlayerName": false,
    "prompt": "Una frase de búsqueda que probablemente encontrarás en el historial de navegación del presidente",
    "safetyQuips": [
-    "How to make cake in a mug",
-    "International Relations For Dummies"
+    "Cómo hacer una torta en una taza",
+    "Relaciones Internacionales para tontos"
    ],
    "us": true,
    "x": false
@@ -623,11 +623,11 @@
   {
    "id": "264",
    "includesPlayerName": false,
-   "prompt": "La frase más escandalosa de tu diario de sueños.",
+   "prompt": "La frase más escandalosa de tu diario de sueños",
    "safetyQuips": [
-    "...and they were roommates!",
-    "I can't look at my ceramics teacher the same way",
-    "I barfed in an extremely cool way"
+    "...¡y eran compañeros de habitación!",
+    "No puedo mirar a mi profesor de cerámica de la misma manera",
+    "Vomité de una manera extremadamente genial"
    ],
    "us": false,
    "x": false
@@ -635,11 +635,11 @@
   {
    "id": "265",
    "includesPlayerName": false,
-   "prompt": "La elección de la canción que te echó de la noche de karaoke",
+   "prompt": "La elección de la canción que hizo que te echaran de la noche de karaoke",
    "safetyQuips": [
-    "Teletubbies theme song ",
-    "anything by Anthrax",
-    "Happy Birthday song"
+    "la canción de los Teletubbies",
+    "cualquier canción de reggaetón",
+    "canción de cumpleaños feliz"
    ],
    "us": false,
    "x": false
@@ -649,9 +649,9 @@
    "includesPlayerName": false,
    "prompt": "Una buena forma de distinguirse como el “chico malo” de la oficina",
    "safetyQuips": [
-    "studded stapler",
-    "ride motorcycle into the elevator",
-    "refuse to collate your documents"
+    "grapadora con tachuelas",
+    "entrar en moto al ascensor",
+    "negarse a cotejar tus documentos"
    ],
    "us": false,
    "x": false
@@ -661,9 +661,9 @@
    "includesPlayerName": false,
    "prompt": "Una cosa sorprendente que impresiona mucho a Shania Twain",
    "safetyQuips": [
-    "Sumerian architecture",
-    "A glass of warm milk",
-    "Brad Pitt's even handsomer brother"
+    "Arquitectura sumeria",
+    "Un vaso de leche caliente",
+    "El hermano aún más guapo de Brad Pitt"
    ],
    "us": false,
    "x": false
@@ -671,11 +671,11 @@
   {
    "id": "284",
    "includesPlayerName": false,
-   "prompt": "Idea para un letrero mejorado en la habitación del hotel: “Privacidad, por favor. Estoy <BLANK>”",
+   "prompt": "Idea para un letrero mejorado en la habitación del hotel: “Privacidad, por favor. Soy/estoy <BLANK>”",
    "safetyQuips": [
-    "barfing in the toilet",
-    "Cross-dressing",
-    "shy around housekeepers"
+    "vomitando en el inodoro",
+    "travestido",
+    "tímido con las amas de casa"
    ],
    "us": false,
    "x": false
@@ -683,10 +683,10 @@
   {
    "id": "285",
    "includesPlayerName": false,
-   "prompt": "Una canción terrible para tocar durante el segmento <i> In Memoriam </i> de una entrega de premios.",
+   "prompt": "Una canción terrible para tocar durante el segmento <i>En memoria de</i> de una entrega de premios",
    "safetyQuips": [
-    "Happy Birthday song",
-    "Dead Man's Curve"
+    "canción de cumpleaños feliz",
+    "La balada del diablo y la muerte"
    ],
    "us": false,
    "x": false
@@ -696,9 +696,9 @@
    "includesPlayerName": false,
    "prompt": "Dos buenos emojis para enviar al romper con alguien",
    "safetyQuips": [
-    "eggplant and hammer",
-    "heart and thumb down",
-    "diamond ring and toilet"
+    "berenjena y martillo",
+    "corazón y pulgar hacia abajo",
+    "anillo de diamantes e inodoro"
    ],
    "us": false,
    "x": false
@@ -708,9 +708,9 @@
    "includesPlayerName": false,
    "prompt": "Una señal de que tu instructor de spinning te odia",
    "safetyQuips": [
-    "No seat on your bike",
-    "New \"Nothing But Hills\" class",
-    "Everyone gets a cool down but you"
+    "No hay asiento en tu bicicleta",
+    "Nueva clase de \"solo cerros\"",
+    "Todos tienen un refresco, menos tú"
    ],
    "us": false,
    "x": false
@@ -718,11 +718,11 @@
   {
    "id": "303",
    "includesPlayerName": false,
-   "prompt": "Los fantasmas pasivo-agresivos siempre están escribiendo <BLANK> en tu pared con sangre",
+   "prompt": "Los fantasmas pasivo-agresivos siempre escriben <BLANK> con sangre en tu pared",
    "safetyQuips": [
-    "Maybe vacuum?",
-    "Nice pants, loser",
-    "Eating out again?"
+    "¿Quizá si usas la aspiradora?",
+    "Lindos pantalones, perdedor",
+    "¿Otra vez comiendo afuera?"
    ],
    "us": false,
    "x": false
@@ -730,11 +730,11 @@
   {
    "id": "304",
    "includesPlayerName": false,
-   "prompt": "Un lavado de autos en bikini es una excelente manera de recaudar dinero. Un bikini <BLANK> no lo es.",
+   "prompt": "Un lavado de autos en bikini es una excelente manera de recaudar dinero. Un <BLANK> en bikini no lo es.",
    "safetyQuips": [
-    "cake walk",
-    "pole vaulting contest",
-    "calculus prep course"
+    "concurso de salto largo",
+    "concurso de salto de pértiga",
+    "curso de preparación para el cálculo"
    ],
    "us": false,
    "x": false
@@ -744,9 +744,9 @@
    "includesPlayerName": true,
    "prompt": "<ANYPLAYER> algún día será objeto de un meme viral llamado <BLANK>",
    "safetyQuips": [
-    "The Barracuda",
-    "When Pole Vaulting Goes Wrong",
-    "Botched Everything"
+    "La barracuda",
+    "Cuando el salto con pértiga sale mal",
+    "Estropea todo"
    ],
    "us": false,
    "x": false
@@ -754,11 +754,11 @@
   {
    "id": "311",
    "includesPlayerName": false,
-   "prompt": "El premio Nobel descontinuado: el premio Nobel en <BLANK>",
+   "prompt": "El premio Nobel descontinuado: el premio Nobel de <BLANK>",
    "safetyQuips": [
-    "Snack Breaks",
-    "Road Rage",
-    "internet memes"
+    "pausa para bocadillos",
+    "furia al volante",
+    "memes de internet"
    ],
    "us": false,
    "x": false
@@ -766,11 +766,11 @@
   {
    "id": "312",
    "includesPlayerName": false,
-   "prompt": "Supuestamente, <i> The Thinker </i> de Rodin estaba pensando en <BLANK>",
+   "prompt": "Supuestamente, <i>El pensador</i> de Rodin estaba pensando en <BLANK>",
    "safetyQuips": [
-    "reverse mortgages",
-    "stretching his legs and getting dressed",
-    "where to grab lunch"
+    "hipotecas inversas",
+    "estirar las piernas y vestirse",
+    "dónde almorzar"
    ],
    "us": false,
    "x": false
@@ -780,9 +780,9 @@
    "includesPlayerName": false,
    "prompt": "La resolución de Año Nuevo más deprimente",
    "safetyQuips": [
-    "spend more time alone",
-    "keep eating fried food",
-    "move to Nebraska"
+    "pasar más tiempo a solas",
+    "seguir comiendo frituras",
+    "mudarse a Chernóbil"
    ],
    "us": false,
    "x": false
@@ -790,11 +790,11 @@
   {
    "id": "319",
    "includesPlayerName": false,
-   "prompt": "Una especie de cosa mala que le desearías a tu segundo peor enemigo",
+   "prompt": "Un tipo de mal que le desearías a tu segundo peor enemigo",
    "safetyQuips": [
-    "benign tumors",
-    "wearing new white shoes in the rain",
-    "get turned down for their dream job"
+    "tumores benignos",
+    "usar zapatos blancos nuevos bajo la lluvia",
+    "que lo rechacen en el trabajo de sus sueños"
    ],
    "us": false,
    "x": false
@@ -802,11 +802,11 @@
   {
    "id": "320",
    "includesPlayerName": false,
-   "prompt": "La mejor manera de convencer a los clientes de comida rápida para que obtengan una comida económica",
+   "prompt": "La mejor manera de convencer a los clientes de comida rápida para que obtengan comida barata",
    "safetyQuips": [
-    "every dollar helps an orphan",
-    "drive-thru sexy talk",
-    "have a Hulk-out"
+    "cada dólar ayuda a un huérfano",
+    "charla sensual en el autoservicio",
+    "te enfureces"
    ],
    "us": false,
    "x": false
@@ -814,11 +814,11 @@
   {
    "id": "329",
    "includesPlayerName": false,
-   "prompt": "Un pequeño secreto: si la fila para el baño es demasiado larga, simplemente <BLANK>",
+   "prompt": "Un secretito: si la fila para el baño es demasiado larga, simplemente <BLANK>",
    "safetyQuips": [
-    "use the water fountain",
-    "yell fire!",
-    "say \"Someone call for a plumber?\""
+    "usa la fuente de agua",
+    "grita \"¡fuego!\"",
+    "di \"Que alguien llame a un plomero\""
    ],
    "us": false,
    "x": false
@@ -838,11 +838,11 @@
   {
    "id": "338",
    "includesPlayerName": false,
-   "prompt": "La peor parte de criar a un niño zombie es <BLANK>",
+   "prompt": "La peor parte de criar a un niño zombie es que <BLANK>",
    "safetyQuips": [
-    "never enough bandage supplies",
-    "always mumbling, won't enunciate",
-    "won't say \"I love you\" back"
+    "nunca hay suficientes vendas",
+    "siempre murmura, no modula",
+    "no te dice \"te quiero\" de vuelta"
    ],
    "us": false,
    "x": false
@@ -850,11 +850,11 @@
   {
    "id": "339",
    "includesPlayerName": false,
-   "prompt": "¿Cuál es la mejor respuesta a la pregunta, “¿Cómo conseguiste esa cicatriz?”",
+   "prompt": "¿Cuál es la mejor respuesta a la pregunta, “¿Cómo te hiciste esa cicatriz?”?",
    "safetyQuips": [
-    "shaving... with an axe",
-    "rescuing someone from a burning building",
-    "scuffle with Mufasa"
+    "afeitándome... con un hacha",
+    "rescatando a alguien de un edificio en llamas",
+    "en una pelea con Mufasa"
    ],
    "us": false,
    "x": false
@@ -862,11 +862,11 @@
   {
    "id": "34",
    "includesPlayerName": false,
-   "prompt": "El nombre del subreddit que solo tiene un seguidor: “r/<BLANK>”",
+   "prompt": "El nombre del subreddit que tiene un solo seguidor: “r/<BLANK>”",
    "safetyQuips": [
-    "home surgeries",
-    "The Adventures of Pluto Nash",
-    "calm debate"
+    "cirugías caseras",
+    "Titanic II",
+    "debate tranquilo"
    ],
    "us": false,
    "x": false
@@ -874,11 +874,11 @@
   {
    "id": "345",
    "includesPlayerName": false,
-   "prompt": "La nación finalmente se unió cuando el secretario de prensa del presidente anunció: “<BLANK>”",
+   "prompt": "La nación finalmente se unió cuando el encargado de prensa del presidente anunció: “<BLANK>”",
    "safetyQuips": [
-    "It's time for a nap.",
-    "Happy Free Milkshake Day!",
-    "I just got a new puppy"
+    "Es hora de una siesta.",
+    "¡Feliz día del batido gratis!",
+    "Acabo de recibir un nuevo perrito"
    ],
    "us": true,
    "x": false
@@ -886,11 +886,11 @@
   {
    "id": "356",
    "includesPlayerName": false,
-   "prompt": "En una realidad alternativa, no jugamos <i> Quiplash </i> en las fiestas. Nosotros <BLANK>",
+   "prompt": "En una realidad alterna, no jugamos <i>Quiplash</i> en las fiestas. Nosotros <BLANK>",
    "safetyQuips": [
-    "stare at our hands in contemplation",
-    "play individual organs",
-    "play other exciting Jackbox Games "
+    "miramos fijamente nuestras manos",
+    "tocamos órganos individuales",
+    "jugamos a otro emocionante juego de Jackbox Games"
    ],
    "us": false,
    "x": false
@@ -898,11 +898,11 @@
   {
    "id": "365",
    "includesPlayerName": false,
-   "prompt": "El sonido de <i> Ley y orden </i> debería reproducirse siempre que <BLANK>",
+   "prompt": "El sonido de <i>La ley y el orden</i> debería sonar siempre que <BLANK>",
    "safetyQuips": [
-    "I sit on a toilet",
-    "someone bowls a strike",
-    "you beat a boss"
+    "me siento en el inodoro",
+    "alguien haga un strike",
+    "derrotas a un jefe"
    ],
    "us": true,
    "x": false
@@ -910,11 +910,11 @@
   {
    "id": "367",
    "includesPlayerName": false,
-   "prompt": "El apocalipsis zombie será reemplazado por el apocalipsis <BLANK> más moderno",
+   "prompt": "El apocalipsis zombie será reemplazado por el apocalipsis <BLANK>, que es más moderno",
    "safetyQuips": [
-    "toilet paper",
-    "podcast",
-    "hashtag"
+    "papel higiénico",
+    "de pódcasts",
+    "de hashtags"
    ],
    "us": false,
    "x": false
@@ -922,10 +922,10 @@
   {
    "id": "37",
    "includesPlayerName": false,
-   "prompt": "Sabes que tu perro tiene FA básica cuando ...",
+   "prompt": "Sabes que tu perro es demasiado básico cuando...",
    "safetyQuips": [
-    "They only drink mineral toilet water",
-    "They only eat organic cat poop"
+    "Solo bebe agua mineral del baño",
+    "Solo come caca de gato orgánica"
    ],
    "us": false,
    "x": true
@@ -935,9 +935,9 @@
    "includesPlayerName": false,
    "prompt": "El hurto en tiendas disminuiría drásticamente si los centros comerciales introdujeran <BLANK>",
    "safetyQuips": [
-    "slippery packaging on merchandise",
-    "online shopping only",
-    "mall moats and drawbridges"
+    "envases resbaladizos en la mercancía",
+    "solo compras en internet",
+    "fosos y puentes levadizos"
    ],
    "us": false,
    "x": false
@@ -945,11 +945,11 @@
   {
    "id": "379",
    "includesPlayerName": false,
-   "prompt": "La impresión estaba muriendo hasta que sacaron <BLANK> <i> Magazine </i>",
+   "prompt": "La impresión estaba muriendo hasta que sacaron la <i>Revista de <BLANK></i>",
    "safetyQuips": [
-    "Free Money",
-    "Unlikely Animal Friendships",
-    "Save Magazines "
+    "Dinero gratis",
+    "Amistades animales improbables",
+    "Salven las revistas"
    ],
    "us": false,
    "x": false
@@ -959,8 +959,8 @@
    "includesPlayerName": false,
    "prompt": "El nombre de un programa de cocina intensamente competitivo",
    "safetyQuips": [
-    "Grill for Your Life",
-    "Pie or Die"
+    "Asa por tu vida",
+    "Masa o maza"
    ],
    "us": false,
    "x": false
@@ -968,11 +968,11 @@
   {
    "id": "385",
    "includesPlayerName": false,
-   "prompt": "En las fiestas sexuales más extrañas, la gente no usa máscaras. Llevan <BLANK>",
+   "prompt": "En las fiestas sexuales más extrañas, la gente no usa máscaras. Usan <BLANK>",
    "safetyQuips": [
-    "toll booth worker uniforms",
-    "merkins",
-    "lengths of butterfly nets"
+    "uniformes de los trabajadores de las cabinas de peaje",
+    "pelucas",
+    "redes de mariposas muy largas"
    ],
    "us": false,
    "x": true
@@ -980,11 +980,11 @@
   {
    "id": "388",
    "includesPlayerName": false,
-   "prompt": "Lo que realmente significa la marca de verificación azul verificada en Twitter",
+   "prompt": "Lo que realmente significa la marca de verificación azul en Twitter",
    "safetyQuips": [
-    "Ignore this person",
-    "nothing, it's purely decorative",
-    "A person who enjoys candy"
+    "Ignora a esta persona",
+    "nada, solo es decorativo",
+    "una persona que disfruta de los caramelos"
    ],
    "us": false,
    "x": false
@@ -992,11 +992,11 @@
   {
    "id": "393",
    "includesPlayerName": false,
-   "prompt": "Un video que no iría bien en TikTok",
+   "prompt": "Un video que no se vería bien en TikTok",
    "safetyQuips": [
-    "how to protect your identity",
-    "enjoying music quietly",
-    "the bug squish hour"
+    "cómo proteger tu identidad",
+    "disfrutar de la música tranquilamente",
+    "la hora de aplastar insectos"
    ],
    "us": false,
    "x": false
@@ -1004,11 +1004,11 @@
   {
    "id": "394",
    "includesPlayerName": false,
-   "prompt": "La actividad del día de campo que es considerada “demasiado mortal”",
+   "prompt": "La actividad del día de campo considerada “demasiado mortal”",
    "safetyQuips": [
-    "Relay Death Race",
-    "Four Scare",
-    "Three-Legged-Two-Headed Race"
+    "Carrera de relevos a muerte",
+    "Cuatro sustos",
+    "Carrera de tres patas y dos cabezas"
    ],
    "us": true,
    "x": false
@@ -1016,11 +1016,11 @@
   {
    "id": "396",
    "includesPlayerName": false,
-   "prompt": "Supongamos que tiene un bloqueo de escritor durante un juego de comedia ... ¿cuál es la cura?",
+   "prompt": "Supongamos que tienes un bloqueo de escritor durante un juego de comedia... ¿cuál es la cura?",
    "safetyQuips": [
-    "play a game from the Jackbox family of products",
-    "Spin around so fast you pass out",
-    "Definitely NOT drugs"
+    "jugar a un juego de la familia de productos Jackbox",
+    "girar tan rápido que te desmayas",
+    "Definitivamente NO drogas"
    ],
    "us": false,
    "x": false
@@ -1030,9 +1030,9 @@
    "includesPlayerName": false,
    "prompt": "Los griegos inventaron la democracia, pero pocos saben que también inventaron <BLANK>",
    "safetyQuips": [
-    "depression",
-    "a better way to make tater tots",
-    "the idea of birds"
+    "depresión",
+    "una mejor manera de hacer tostadas",
+    "la idea de las aves"
    ],
    "us": false,
    "x": false
@@ -1040,11 +1040,11 @@
   {
    "id": "399",
    "includesPlayerName": false,
-   "prompt": "La causa # 1 de divorcio entre ciudadanos de LEGOLAND",
+   "prompt": "La causa de divorcio #1 entre ciudadanos de LEGOLAND",
    "safetyQuips": [
-    "can't connect",
-    "don't like Danish guys",
-    "met a DUPLO block"
+    "no se conectan",
+    "no le gustan los daneses",
+    "conocen a un bloque DUPLO"
    ],
    "us": false,
    "x": false
@@ -1052,11 +1052,11 @@
   {
    "id": "401",
    "includesPlayerName": false,
-   "prompt": "El único perro que no subió al cielo",
+   "prompt": "El único perro que no llegó al cielo",
    "safetyQuips": [
-    "Clifford. He knows what he did.",
-    "That dang poodle next door",
-    "Cerberus"
+    "Clifford. Él sabe lo que hizo.",
+    "Ese maldito caniche de al lado",
+    "Cerbero"
    ],
    "us": false,
    "x": false
@@ -1064,11 +1064,11 @@
   {
    "id": "409",
    "includesPlayerName": false,
-   "prompt": "¿Qué descripción de un postre también sería un buen nombre de drag queen?",
+   "prompt": "¿Qué descripción de un postre también sería un buen nombre de transformista?",
    "safetyQuips": [
-    "Whipped Peaks",
-    "Sweet 'n Tangy",
-    "Sinfully Delicious"
+    "Picos de latigazos",
+    "Dulce y picante",
+    "Pecaminosamente delicioso"
    ],
    "us": false,
    "x": false
@@ -1076,11 +1076,11 @@
   {
    "id": "410",
    "includesPlayerName": false,
-   "prompt": "Un título universitario que será sorprendentemente útil en 20 años.",
+   "prompt": "Un título universitario que será sorprendentemente útil en 20 años",
    "safetyQuips": [
-    "Advanced Twitter Studies",
-    "Horde Management",
-    "Bachelors In Political Theater"
+    "Estudios Avanzados de Twitter",
+    "Gestión de la Horda",
+    "Licenciatura en Teatro Político"
    ],
    "us": true,
    "x": false
@@ -1088,11 +1088,11 @@
   {
    "id": "411",
    "includesPlayerName": false,
-   "prompt": "¿Cuál es la forma más fácil de acceder al carrete de lo más destacado de ESPN?",
+   "prompt": "¿Cuál es la forma más fácil de aparecer en el carrete de los mejores momentos de ESPN?",
    "safetyQuips": [
-    "Kiss the camera",
-    "Butt fumble",
-    "Add a front flip or two"
+    "Besar a la cámara",
+    "Mostrar el trasero",
+    "Hacer uno o dos saltos mortales"
    ],
    "us": true,
    "x": false
@@ -1100,11 +1100,11 @@
   {
    "id": "414",
    "includesPlayerName": false,
-   "prompt": "La fiesta de aventuras perfecta incluye un luchador, un mago y un <BLANK>",
+   "prompt": "El grupo de aventureros perfecto incluye un luchador, un mago y <BLANK>",
    "safetyQuips": [
-    "Brian",
-    "Plumber",
-    "snack boy"
+    "Brayatan",
+    "un fontanero",
+    "una ninfa"
    ],
    "us": false,
    "x": false
@@ -1114,9 +1114,9 @@
    "includesPlayerName": false,
    "prompt": "No, en serio... ¿qué es el amor?",
    "safetyQuips": [
-    "the reason I lost my house",
-    "a fatal design flaw",
-    "why my mom will never kick me out"
+    "la razón por la que perdí mi casa",
+    "un fallo de diseño fatal",
+    "por qué mi madre nunca me echará de casa"
    ],
    "us": false,
    "x": false
@@ -1126,9 +1126,9 @@
    "includesPlayerName": false,
    "prompt": "¿Cómo entra Papá Noel a las casas sin chimeneas?",
    "safetyQuips": [
-    "becomes part of the co-op board",
-    "squeezes through the mail slot",
-    "crawling through the TV, \"The Ring\"-style"
+    "pasa a formar parte del consejo de administración de la cooperativa",
+    "se cuela por la ranura del correo",
+    "se arrastra por el televisor, como en \"El aro\""
    ],
    "us": false,
    "x": false
@@ -1136,11 +1136,11 @@
   {
    "id": "426",
    "includesPlayerName": false,
-   "prompt": "¿Cómo puedes saber que una Inteligencia Artificial se ha vuelto malvada?",
+   "prompt": "¿Cómo puedes saber si una inteligencia artificial se ha vuelto malvada?",
    "safetyQuips": [
-    "Red glowing eyes, duh",
-    "Starts watching Hell's Kitchen",
-    "It runs for Mayor."
+    "Ojos rojos y brillantes, obvio",
+    "Empieza a obsesionarse con La Familia es un Infierno",
+    "Se postula para alcalde."
    ],
    "us": false,
    "x": false
@@ -1148,11 +1148,11 @@
   {
    "id": "428",
    "includesPlayerName": false,
-   "prompt": "¿Cómo gastaría su tiempo la sociedad si Netflix no existiera?",
+   "prompt": "Si no existiera Netflix, ¿cómo gastaría su tiempo la sociedad?",
    "safetyQuips": [
-    "staring at the ceiling",
-    "playing the old hoop 'n stick",
-    "reading!"
+    "mirando al techo",
+    "jugando a las escondidas",
+    "¡leyendo!"
    ],
    "us": false,
    "x": false
@@ -1162,9 +1162,9 @@
    "includesPlayerName": false,
    "prompt": "El título de un libro conocido como “el próximo <i>Cincuenta sombras de Grey</i>”",
    "safetyQuips": [
-    "100 Shades of Off-White",
-    "Sexy, Kinda",
-    "Erotica for Nice Moms"
+    "100 sombras de Grisáceo",
+    "Algo sensual",
+    "Erótica para buenas madres"
    ],
    "us": false,
    "x": true
@@ -1172,11 +1172,11 @@
   {
    "id": "434",
    "includesPlayerName": false,
-   "prompt": "La peor manera de terminar un discurso de boda de padrino",
+   "prompt": "La peor manera de terminar un discurso del padrino de boda",
    "safetyQuips": [
-    "Good luck, you'll need it",
-    "If you have kids, I'll never forgive you",
-    "You may be my ex-wife, but not my ex-friend"
+    "Buena suerte, la necesitarás",
+    "Si tienes hijos, nunca te perdonaré",
+    "Puedes ser mi ex esposa, pero no mi ex amiga"
    ],
    "us": false,
    "x": false
@@ -1186,9 +1186,9 @@
    "includesPlayerName": true,
    "prompt": "La vitrina de trofeos de <ANYPLAYER> está llena de <BLANK>",
    "safetyQuips": [
-    "certificates of completion",
-    "cannonball contest medals",
-    "stolen roller derby plaques"
+    "certificados de aprobación",
+    "medallas del concurso de balas de cañón",
+    "placas robadas de tiro al blanco"
    ],
    "us": false,
    "x": false
@@ -1196,11 +1196,11 @@
   {
    "id": "49",
    "includesPlayerName": false,
-   "prompt": "Uh-oh, ¿de qué está hablando el tío Scary Conspiracy este año?",
+   "prompt": "Oh, oh, ¿de qué va a hablar el tío de conspiraciones terroríficas este año?",
    "safetyQuips": [
-    "The government controls us through Candy Crush",
-    "5G making teeth too soft to chew red meat",
-    "Aliens are real, and they're sooooo boring"
+    "El gobierno nos controla a través de Candy Crush",
+    "El 5G hace que los dientes sean demasiado blandos para masticar carne roja",
+    "Los extraterrestres son reales, y son taaaan aburridos"
    ],
    "us": false,
    "x": false
@@ -1208,11 +1208,11 @@
   {
    "id": "504",
    "includesPlayerName": false,
-   "prompt": "Se puede decir que un documental sobre la naturaleza es falso cuando <BLANK>",
+   "prompt": "Puedes saber que un documental sobre la naturaleza es falso cuando <BLANK>",
    "safetyQuips": [
-    "You can't even touch the birds",
-    "The dinosaurs don't eat anyone",
-    "It recommends a perfect marinade for penguin meat"
+    "Ni siquiera puedes tocar las aves",
+    "Los dinosaurios no se comen a nadie",
+    "Recomienda un adobo perfecto para la carne de pingüino"
    ],
    "us": false,
    "x": false
@@ -1222,9 +1222,9 @@
    "includesPlayerName": false,
    "prompt": "El tema del baile de graduación más rechazado por las escuelas secundarias",
    "safetyQuips": [
-    "Vandalizing the Night Away",
-    "Eloping in Vegas",
-    "Booze Cruise"
+    "Vandalizar la noche",
+    "Fugarse en Las Vegas",
+    "Crucero de los tragos"
    ],
    "us": true,
    "x": false
@@ -1232,11 +1232,11 @@
   {
    "id": "509",
    "includesPlayerName": false,
-   "prompt": "En los nuevos cuentos de hadas, el “príncipe guapo” será reemplazado por <BLANK>",
+   "prompt": "En los nuevos cuentos de hadas, el “príncipe azul” será reemplazado por <BLANK>",
    "safetyQuips": [
-    "the friendly barista",
-    "the gender neutral influencer",
-    "the nerdy lit major"
+    "el amable barista",
+    "el influenciador de género neutro",
+    "el nerd de la literatura"
    ],
    "us": false,
    "x": false
@@ -1246,8 +1246,8 @@
    "includesPlayerName": false,
    "prompt": "En el Renacimiento, el apodo de Bob Ross habría sido <BLANK>",
    "safetyQuips": [
-    "The Little Tree",
-    "Signore Landscape",
+    "El arbolito",
+    "Paisaje Signore",
     "Bobangelo"
    ],
    "us": false,
@@ -1256,10 +1256,10 @@
   {
    "id": "512",
    "includesPlayerName": false,
-   "prompt": "El gadget secreto que James Bond nunca volverá a usar",
+   "prompt": "El artefacto secreto que James Bond nunca volverá a usar",
    "safetyQuips": [
-    "female repellent",
-    "facial acne inducer"
+    "repelente femenino",
+    "inductor de acné facial"
    ],
    "us": false,
    "x": false
@@ -1267,11 +1267,11 @@
   {
    "id": "513",
    "includesPlayerName": false,
-   "prompt": "Lo que nunca quieres escuchar después de las palabras: “No te preocupes ...”",
+   "prompt": "Lo que nunca quieres oír después de las palabras: “No te preocupes…”",
    "safetyQuips": [
-    "it's only painful the first year",
-    "on second thought, do worry",
-    "how hard can it be to fly a plane?"
+    "solo es doloroso el primer año",
+    "pensándolo bien, preocúpate",
+    "¿qué tan difícil puede ser volar un avión?"
    ],
    "us": false,
    "x": false
@@ -1279,11 +1279,11 @@
   {
    "id": "514",
    "includesPlayerName": false,
-   "prompt": "De que se quejan los jefes del monte Rushmore",
+   "prompt": "De lo que se quejan las cabezas del Monte Rushmore",
    "safetyQuips": [
-    "Washington's a snob",
-    "Roosevelt won't stop talking!",
-    "my nose itches!"
+    "Washington es un presumido",
+    "¡Roosevelt no deja de hablar!",
+    "¡me pica la nariz!"
    ],
    "us": true,
    "x": false
@@ -1293,9 +1293,9 @@
    "includesPlayerName": false,
    "prompt": "¿Qué se considera autocuidado para los brujos antiguos?",
    "safetyQuips": [
-    "Blood bubble bath",
-    "Organizing your cursed runes",
-    "An extra human sacrifice, as a treat"
+    "Baño de burbujas de sangre",
+    "Organizar tus runas malditas",
+    "Un sacrificio humano extra, como regalo"
    ],
    "us": false,
    "x": false
@@ -1305,9 +1305,9 @@
    "includesPlayerName": false,
    "prompt": "Una buena señal de que todo el mundo quiere atraparte",
    "safetyQuips": [
-    "Instead of handshakes, hand-snakes!",
-    "Sign on the lawn says \"We're out to get you.\"",
-    "Thumbtacks in every tire you own"
+    "En lugar de apretón de manos, ¡luxación de manos!",
+    "Letrero en el jardín dice \"Estamos afuera para atraparte\".",
+    "Tachuelas en cada neumático que tengas"
    ],
    "us": false,
    "x": false
@@ -1315,11 +1315,11 @@
   {
    "id": "520",
    "includesPlayerName": false,
-   "prompt": "Breve reseña de Dios sobre la humanidad",
+   "prompt": "Breve reseña de dios sobre la humanidad",
    "safetyQuips": [
-    "Too loud",
-    "lol love these little guys",
-    "Strange odor, good service though"
+    "Demasiado ruidosos",
+    "amo a estos tipos, jeje",
+    "Olor extraño. Sin embargo, el servicio es bueno"
    ],
    "us": false,
    "x": false
@@ -1327,11 +1327,11 @@
   {
    "id": "523",
    "includesPlayerName": false,
-   "prompt": "Dios envió esta señal de advertencia y la perdimos por completo",
+   "prompt": "Dios envió esta señal de advertencia y no la entendimos para nada",
    "safetyQuips": [
-    "The strange popularity of the Twilight series",
-    "Billboard that says \"Look Out! - God\"",
-    "The stuff that comes out during a sinus infection"
+    "La extraña popularidad de la serie Crepúsculo",
+    "Valla publicitaria que dice \"¡Cuidado! - Dios\"",
+    "Lo que sale durante una sinusitis"
    ],
    "us": false,
    "x": false
@@ -1341,9 +1341,9 @@
    "includesPlayerName": false,
    "prompt": "Una forma educada de debilitar a la aristocracia",
    "safetyQuips": [
-    "tell people wads of cash are gauche",
-    "Twitter comments",
-    "\"forget\" to invite them to kissing parties"
+    "decirle a la gente que los fajos de billetes son una tontería",
+    "comentarios de Twitter",
+    "te \"olvidas\" de invitarlos a fiestas de besos"
    ],
    "us": false,
    "x": false
@@ -1351,11 +1351,11 @@
   {
    "id": "534",
    "includesPlayerName": false,
-   "prompt": "Lo peor que se puede decir en una entrevista inmediatamente después de haber ganado la lotería",
+   "prompt": "Lo peor que se puede decir en una entrevista justo después de haber ganado la lotería",
    "safetyQuips": [
-    "I cheated, big time",
-    "I'm going to buy so many drugs",
-    "I'm so happy, here's my home address"
+    "Hice trampa, a lo grande",
+    "Voy a comprar muchas drogas",
+    "Estoy muy contento, aquí está la dirección de mi casa"
    ],
    "us": false,
    "x": false
@@ -1363,11 +1363,11 @@
   {
    "id": "535",
    "includesPlayerName": false,
-   "prompt": "El cumplido más extraño que su médico podría dar durante una colonoscopia",
+   "prompt": "El cumplido más extraño que tu médico podría darte durante una colonoscopia",
    "safetyQuips": [
-    "that's one beautiful colon",
-    "I could spend all day in there",
-    "you have really nice eyes"
+    "ese es un hermoso colon",
+    "podría pasar todo el día ahí dentro",
+    "tienes unos ojos muy bonitos"
    ],
    "us": false,
    "x": true
@@ -1375,11 +1375,11 @@
   {
    "id": "537",
    "includesPlayerName": false,
-   "prompt": "Lo que dicen los duendes reales sobre cómo aparecen en la cultura pop",
+   "prompt": "Lo que dicen los duendes reales sobre cómo aparecen en la cultura popular",
    "safetyQuips": [
-    "Some of us have brown hair!",
-    "What's with all the rainbows?",
-    "We're not all male! Think about it!"
+    "¡Algunos de nosotros tenemos el pelo castaño!",
+    "¿Qué es eso de los arcoíris?",
+    "¡No todos somos hombres! ¡Piénsalo!"
    ],
    "us": false,
    "x": false
@@ -1387,11 +1387,11 @@
   {
    "id": "541",
    "includesPlayerName": false,
-   "prompt": "¿Qué sucede después de haber recorrido todas las páginas de Internet?",
+   "prompt": "¿Qué sucede después de haber recorrido todas las páginas de internet?",
    "safetyQuips": [
-    "You are finally allowed to die",
-    "Clippy comes for your soul",
-    "You play games from the Jackbox family of products"
+    "Se te permite morir",
+    "Clippy viene por tu alma",
+    "Juegas a los juegos de la familia de productos Jackbox"
    ],
    "us": false,
    "x": false
@@ -1399,11 +1399,11 @@
   {
    "id": "543",
    "includesPlayerName": false,
-   "prompt": "¿Qué pasa realmente con esa mitad de una dona que no se ha comido en la sala de descanso de la oficina?",
+   "prompt": "¿Qué pasa realmente con esa mitad de dona que nadie se comió en la sala de descanso de la oficina?",
    "safetyQuips": [
-    "Sacrificed to the gods of the open layout",
-    "Ground up for printer toner",
-    "Offering to the Office Mouse Queen"
+    "Se sacrifica a los dioses de los sillones",
+    "Abono para tóners de impresora",
+    "Ofrenda a la Reina Rata de la Oficina"
    ],
    "us": false,
    "x": false
@@ -1411,10 +1411,10 @@
   {
    "id": "549",
    "includesPlayerName": false,
-   "prompt": "Olvídate del karaoke. La próxima serie viral se llamará <i> Carpool </i> <BLANK>",
+   "prompt": "Olvídate del karaoke. La próxima serie viral se llamará <i>Carpool</i> <BLANK>",
    "safetyQuips": [
-    "Charades",
-    "Family Therapy",
+    "Charadas",
+    "Terapia familiar",
     "Jenga"
    ],
    "us": false,
@@ -1425,9 +1425,9 @@
    "includesPlayerName": false,
    "prompt": "Una revisión absolutamente mordaz para un borrador",
    "safetyQuips": [
-    "Magic this is NOT!",
-    "Stupid piece of rubber doesn't even bounce",
-    "Can't erase memory of my mistakes"
+    "¡Esto NO es magia!",
+    "El estúpido pedazo de goma, ni siquiera rebota",
+    "No puede borrar la memoria de mis errores"
    ],
    "us": false,
    "x": false
@@ -1435,11 +1435,11 @@
   {
    "id": "556",
    "includesPlayerName": false,
-   "prompt": "Lo siento, ¿cómo me llamaste?",
+   "prompt": "Lo siento, ¡¿cómo me llamaste?!",
    "safetyQuips": [
-    "Who do you think you are!?",
-    "Mr. Big Bubble Butt",
-    "you told me to call you Mushmouth, didn't you?"
+    "¡¿Quién te crees que eres?!",
+    "Sr. Gran Trasero de Burbuja",
+    "tú me dijiste que te llamara Boca de Pato, ¿o no?"
    ],
    "us": false,
    "x": false
@@ -1449,9 +1449,9 @@
    "includesPlayerName": false,
    "prompt": "La peor forma de empezar una disculpa",
    "safetyQuips": [
-    "Hey dingus",
-    "And here's what's left of your dog",
-    "As the owner of the world's largest Shake Shack"
+    "Oye, zoquete",
+    "Y aquí está lo que queda de tu perro",
+    "Como propietario del mayor KFC del mundo"
    ],
    "us": false,
    "x": false
@@ -1459,11 +1459,11 @@
   {
    "id": "560",
    "includesPlayerName": false,
-   "prompt": "Por alguna razón, todavía tienen que hacer un tablero <i> Monopoly </i> con tema <BLANK>",
+   "prompt": "Por alguna razón, todavía tienen que hacer un tablero de <i>Monopoly</i> con temática de <BLANK>",
    "safetyQuips": [
-    "nuclear apocalypse",
-    "skeleton",
-    "rural artist co-op"
+    "apocalipsis nuclear",
+    "esqueletos",
+    "países latinoamericanos"
    ],
    "us": false,
    "x": false
@@ -1473,9 +1473,9 @@
    "includesPlayerName": false,
    "prompt": "Lo más sorprendente en el historial de búsqueda de Google de Batman",
    "safetyQuips": [
-    "Where to adopt acrobats",
-    "How to talk to hot burglars",
-    "Managing your butler/dad"
+    "Dónde adoptar acróbatas",
+    "Cómo hablar con ladrones sensuales",
+    "Gestión de tu mayordomo/papá"
    ],
    "us": false,
    "x": false
@@ -1483,11 +1483,11 @@
   {
    "id": "584",
    "includesPlayerName": false,
-   "prompt": "Un buen disfraz de Halloween para un niño con una “alma vieja”",
+   "prompt": "Un buen disfraz de Halloween para un niño con “alma vieja”",
    "safetyQuips": [
-    "Bea Arthur",
-    "the cast of Leave It to Beaver",
-    "car dealership owner"
+    "Marilyn Monroe",
+    "el elenco de Matrimonio con hijos",
+    "propietario de un concesionario de autos"
    ],
    "us": true,
    "x": false
@@ -1495,11 +1495,11 @@
   {
    "id": "66",
    "includesPlayerName": false,
-   "prompt": "Lo que esperaría ver en el canal de cable 1,000,000",
+   "prompt": "Lo que esperarías ver en el canal de cable 1.000.000",
    "safetyQuips": [
-    "Your death",
-    "The future",
-    "The last half of A Christmas Story"
+    "Tu muerte",
+    "El futuro",
+    "La última parte de Un cuento de Navidad"
    ],
    "us": true,
    "x": false
@@ -1507,11 +1507,11 @@
   {
    "id": "68",
    "includesPlayerName": false,
-   "prompt": "El nombre de una película que solo usa imágenes de la cámara trasera de un automóvil",
+   "prompt": "El nombre de una película que solo usa imágenes de la cámara trasera de un auto",
    "safetyQuips": [
-    "Back Boys",
-    "Crash",
-    "Miss Fisher's Small, Blurry Mysteries"
+    "Los chicos de atrás",
+    "Choque",
+    "Los pequeños y borrosos misterios de la señorita Fisher"
    ],
    "us": false,
    "x": false
@@ -1521,9 +1521,9 @@
    "includesPlayerName": false,
    "prompt": "La función más extraña que puede realizar la armadura de alta tecnología de Iron Man",
    "safetyQuips": [
-    "espresso maker",
-    "Swedish massage",
-    "trim facial hair into a \"Tony Stark\""
+    "cafetera de espresso",
+    "masaje sueco",
+    "recortar el vello facial como el de \"Tony Stark\""
    ],
    "us": false,
    "x": false
@@ -1533,9 +1533,9 @@
    "includesPlayerName": false,
    "prompt": "El cuestionario de personalidad que BuzzFeed se niega a publicar",
    "safetyQuips": [
-    "Which failed loaf of sourdough are you?",
-    "Which way will YOU topple the government?",
-    "Which Holy Grail map best fits your personality?"
+    "¿Qué pan fallido de masa madre eres?",
+    "¿Por dónde vas a derribar al gobierno?",
+    "¿Qué mapa del Santo Grial se ajusta mejor a tu personalidad?"
    ],
    "us": false,
    "x": false
@@ -1543,11 +1543,11 @@
   {
    "id": "68008",
    "includesPlayerName": false,
-   "prompt": "El uso más subestimado de un árbol",
+   "prompt": "El uso más infravalorado de un árbol",
    "safetyQuips": [
-    "Some good leanin'",
-    "Make-out practice",
-    "Home for squirrel army"
+    "Apoyarse",
+    "Práctica de besuqueo",
+    "Hogar del ejército de ardillas"
    ],
    "us": false,
    "x": false
@@ -1555,11 +1555,11 @@
   {
    "id": "68013",
    "includesPlayerName": false,
-   "prompt": "Cómo hacer que el chico del lugar de alquiler de kayak diga: “Qué asco, quédatelo”",
+   "prompt": "Cómo hacer que el tipo del lugar de alquiler de kayak diga: “Qué asco, quédatelo”",
    "safetyQuips": [
-    "Taste the whole thing",
-    "Explain how you couldn't find a toilet",
-    "Propose marriage to the boat"
+    "Muérdelo todo",
+    "Explícale cómo no pudiste encontrar un inodoro",
+    "Proponle matrimonio al kayak"
    ],
    "us": false,
    "x": false
@@ -1567,11 +1567,11 @@
   {
    "id": "68020",
    "includesPlayerName": false,
-   "prompt": "Un país es tan fuerte como su <BLANK>",
+   "prompt": "Un país es tan fuerte como su(s) <BLANK>",
    "safetyQuips": [
-    "very cool flag",
-    "Kevins",
-    "bears"
+    "bandera muy genial",
+    "feministas",
+    "osos"
    ],
    "us": false,
    "x": false
@@ -1579,11 +1579,11 @@
   {
    "id": "68022",
    "includesPlayerName": false,
-   "prompt": "“¡Objeción, su señoría! ¡El abogado defensor claramente esta <BLANK> al testigo!”",
+   "prompt": "“¡Objeción, su Señoría! ¡El abogado defensor claramente está <BLANK> el testigo!”",
    "safetyQuips": [
-    "dating",
-    "giving gentle kisses to",
-    "stabbing"
+    "saliendo con",
+    "dando suaves besos a",
+    "apuñalando a"
    ],
    "us": false,
    "x": false
@@ -1591,11 +1591,11 @@
   {
    "id": "68025",
    "includesPlayerName": false,
-   "prompt": "Un ejercicio de formación de equipos que es demasiado extremo para la mayoría de los retiros de empresas.",
+   "prompt": "Un ejercicio de formación de equipos que es demasiado extremo para la mayoría de los retiros de empresas",
    "safetyQuips": [
-    "three-story trust fall",
-    "walking over volcanic lava",
-    "reenacting Rambo III"
+    "caída de confianza de un fideicomiso de tres pisos",
+    "caminar sobre lava volcánica",
+    "recrear una película de Quentin Tarantino"
    ],
    "us": false,
    "x": false
@@ -1603,11 +1603,11 @@
   {
    "id": "68032",
    "includesPlayerName": false,
-   "prompt": "En lugar de oscuridad, es algo asombroso ver cada vez que parpadeas",
+   "prompt": "En lugar de oscuridad, algo impresionante para ver cada vez que parpadeas",
    "safetyQuips": [
-    "a warm thumbs up",
-    "a Marvel movie",
-    "your brain in a mirror"
+    "un cálido pulgar hacia arriba",
+    "la película de La naranja mecánica",
+    "tu cerebro en un espejo"
    ],
    "us": false,
    "x": false
@@ -1615,11 +1615,11 @@
   {
    "id": "68035",
    "includesPlayerName": false,
-   "prompt": "El nombre de un signo de puntuación que se utiliza cuando una declaración va seguida de un pedo.",
+   "prompt": "El nombre de un signo de puntuación que se utiliza cuando una declaración va seguida de un pedo",
    "safetyQuips": [
     "qwart",
-    "flatulation point",
-    "a doozy"
+    "punto de flatulencia",
+    "un dunto"
    ],
    "us": false,
    "x": false
@@ -1627,11 +1627,11 @@
   {
    "id": "68036",
    "includesPlayerName": false,
-   "prompt": "Una nueva sanción de fútbol: la infracción pierde 20 yardas para <BLANK>",
+   "prompt": "Una nueva sanción de fútbol: la infracción pierde 20 yardas por <BLANK>",
    "safetyQuips": [
-    "wearing hockey pads",
-    "ever",
-    "untucked jerseys"
+    "usar almohadillas de hockey",
+    "siempre",
+    "camisetas sin plegar"
    ],
    "us": true,
    "x": false
@@ -1639,10 +1639,10 @@
   {
    "id": "68038",
    "includesPlayerName": false,
-   "prompt": "Tu cónyuge guarda un terrible secreto. ¡¡¡Su <BLANK> no es real !!!",
+   "prompt": "Tu cónyuge guarda un terrible secreto. ¡¡¡Su <BLANK> no es real!!!",
    "safetyQuips": [
-    "cookie recipe",
-    "grandmother"
+    "receta de galletas",
+    "abuela"
    ],
    "us": false,
    "x": false
@@ -1650,10 +1650,10 @@
   {
    "id": "68044",
    "includesPlayerName": false,
-   "prompt": "Horario de la piscina: Después de nadar gratis y nadar para adultos, habrá natación <BLANK>.",
+   "prompt": "Horario de la piscina: Después de nado libre y nado para adultos, habrá nado <BLANK>.",
    "safetyQuips": [
-    "mid-life crisis",
-    "bad"
+    "de crisis de la mediana edad",
+    "el hielo"
    ],
    "us": false,
    "x": false
@@ -1661,11 +1661,11 @@
   {
    "id": "68046",
    "includesPlayerName": false,
-   "prompt": "Una mejor tradición de boda que arrojar el ramo sería lanzar <BLANK>",
+   "prompt": "Una mejor tradición de boda que lanzar el ramo sería lanzar <BLANK>",
    "safetyQuips": [
-    "your cookies",
-    "loose change",
-    "the Father of the Bride"
+    "tus galletas",
+    "monedas sueltas",
+    "al padre de la novia"
    ],
    "us": false,
    "x": false
@@ -1675,9 +1675,9 @@
    "includesPlayerName": false,
    "prompt": "ADVERTENCIA: El polvo de hadas puede contener <BLANK>",
    "safetyQuips": [
-    "asbestos",
-    "fiberglass",
-    "the sins of men"
+    "azufre",
+    "fibra de vidrio",
+    "los pecados del hombre"
    ],
    "us": false,
    "x": false
@@ -1687,9 +1687,9 @@
    "includesPlayerName": false,
    "prompt": "El nombre de la calle para la vitamina C masticable",
    "safetyQuips": [
-    "Wellness",
-    "Lil' Citrus",
-    "VC Rider"
+    "Bienestar",
+    "Citriquitos",
+    "Piloto VC"
    ],
    "us": false,
    "x": false
@@ -1697,11 +1697,11 @@
   {
    "id": "68052",
    "includesPlayerName": false,
-   "prompt": "Un reality show que nadie se perdería: <i> The Masked </i> <BLANK>",
+   "prompt": "Un reality show que nadie se perdería: <BLANK> <i>Enmascarado/a</i>",
    "safetyQuips": [
-    "Everyone",
-    "Prime Minister",
-    "Dog"
+    "Público",
+    "Presidente",
+    "Perro"
    ],
    "us": false,
    "x": false
@@ -1711,9 +1711,9 @@
    "includesPlayerName": false,
    "prompt": "La mejor manera de evitar que alguien se siente a tu lado en un autobús",
    "safetyQuips": [
-    "talk about how much you love the movie Speed",
-    "aggressive licking",
-    "introduce your ventriloquist's dummy"
+    "hablar de lo mucho que te gusta el k-pop",
+    "lamido agresivo",
+    "presenta a tu muñeco de ventrílocuo"
    ],
    "us": false,
    "x": false
@@ -1723,9 +1723,9 @@
    "includesPlayerName": false,
    "prompt": "Una señal de que su zoológico local se ha quedado sin dinero",
    "safetyQuips": [
-    "Bird exhibit is all pigeons",
-    "Snakes for sale by the dozen",
-    "Penguin exhibit just a showing of \"Happy Feet\""
+    "La exposición de aves son solo palomas",
+    "Venta de serpientes por docenas",
+    "La exposición de los pingüinos solo es una muestra de \"Happy Feet\""
    ],
    "us": false,
    "x": false
@@ -1733,11 +1733,11 @@
   {
    "id": "68058",
    "includesPlayerName": false,
-   "prompt": "Un beneficio inesperado de hacer pis en los pantalones",
+   "prompt": "Un beneficio inesperado de orinarte en los pantalones",
    "safetyQuips": [
-    "some alone time",
-    "get to change into favorite shorts",
-    "remember the asparagus you had last night"
+    "un tiempo a solas",
+    "ponerse los pantalones cortos favoritos",
+    "recuerda los espárragos que comiste anoche"
    ],
    "us": false,
    "x": false
@@ -1745,11 +1745,11 @@
   {
    "id": "68059",
    "includesPlayerName": false,
-   "prompt": "Una forma más suave de decir “baja cantidad de espermatozoides”",
+   "prompt": "Una forma más sutil de decir “bajo recuento de esperma”",
    "safetyQuips": [
-    "The boys are lonely",
-    "Not as many fish in the sea",
-    "not much fizz in your... you know"
+    "Los chicos se sienten solos",
+    "No hay tantos peces en el mar",
+    "no hay mucho movimiento en tu... tú sabes"
    ],
    "us": false,
    "x": true
@@ -1759,9 +1759,9 @@
    "includesPlayerName": false,
    "prompt": "¿Qué pondrías en una película para asegurarte de que gane un Oscar?",
    "safetyQuips": [
-    "a lot of British accents",
-    "main character performs act of self sacrifice",
-    "at least three crying scenes"
+    "muchos acentos británicos",
+    "el personaje principal realiza un acto de auto sacrificio",
+    "al menos tres escenas de llanto"
    ],
    "us": true,
    "x": false
@@ -1771,9 +1771,9 @@
    "includesPlayerName": false,
    "prompt": "Una buena señal de que te estás convirtiendo lentamente en una ardilla",
    "safetyQuips": [
-    "cheeks unusually puffy",
-    "spending more time in tree house",
-    "keep stealing bird food"
+    "mejillas inusualmente hinchadas",
+    "pasar más tiempo en la casa del árbol",
+    "seguir robando comida para pájaros"
    ],
    "us": false,
    "x": false
@@ -1783,9 +1783,9 @@
    "includesPlayerName": false,
    "prompt": "La principal razón por la que el mundo será mejor en cien años",
    "safetyQuips": [
-    "No more podcasts",
-    "Finally get that Firefly reboot",
-    "flying cars. I mean, by then, right?"
+    "No habrán más pódcasts",
+    "Por fin se hará la nueva versión de Buffy, la cazavampiros",
+    "autos voladores. Es decir, para entonces, ¿cierto?"
    ],
    "us": false,
    "x": false
@@ -1795,9 +1795,9 @@
    "includesPlayerName": false,
    "prompt": "Lo que suele pasar por la mente de Drácula cuando muerde a alguien",
    "safetyQuips": [
-    "I've become my father",
-    "skin is gross",
-    "I wonder how my hotel is doing?"
+    "Me convertí en mi padre",
+    "la piel es asquerosa",
+    "¿Me pregunto cómo está mi hotel?"
    ],
    "us": false,
    "x": false
@@ -1805,11 +1805,11 @@
   {
    "id": "68078",
    "includesPlayerName": false,
-   "prompt": "Una buena señal de que te echarán de la Liga de la Justicia.",
+   "prompt": "Una buena señal de que te echarán de la Liga de la Justicia",
    "safetyQuips": [
-    "not moody enough",
-    "they call you Worse Aquaman",
-    "you're very, very evil"
+    "no eres tan malhumorado",
+    "te llaman Peor Aquaman",
+    "eres muy, muy malvado"
    ],
    "us": true,
    "x": false
@@ -1817,11 +1817,11 @@
   {
    "id": "68079",
    "includesPlayerName": true,
-   "prompt": "un consejo que <ANYPLAYER> recibiría de un planificador financiero: “Usted gasta demasiado en <BLANK>”",
+   "prompt": "Un consejo que <ANYPLAYER> recibiría de un planificador financiero: “Gastas demasiado en <BLANK>”",
    "safetyQuips": [
-    "monster truck rallies",
-    "buying other people's affection",
-    "small turtle figurines"
+    "rally de camiones monstruosos",
+    "comprar el afecto de otras personas",
+    "figuritas de tortuga"
    ],
    "us": false,
    "x": false
@@ -1829,11 +1829,11 @@
   {
    "id": "68080",
    "includesPlayerName": false,
-   "prompt": "Un tema brutalmente honesto para un discurso de despedida",
+   "prompt": "Un tema brutalmente honesto para un discurso del mejor estudiante",
    "safetyQuips": [
-    "Forget College - Too Expensive",
-    "Let's Face It, We Were Never Friends",
-    "My Grades Were Better Than Yours"
+    "Olviden la universidad. Demasiado cara",
+    "Afrontémoslo, nunca fuimos amigos",
+    "Mis notas eran mejores que las suyas"
    ],
    "us": true,
    "x": false
@@ -1841,11 +1841,11 @@
   {
    "id": "68083",
    "includesPlayerName": false,
-   "prompt": "¿Cómo puede saber que ha sido secuestrado por delincuentes aficionados?",
+   "prompt": "¿Cómo puedes saber que fuiste secuestrado por delincuentes aficionados?",
    "safetyQuips": [
-    "they have name tags",
-    "they ransom you for bitcoin",
-    "they go around a circle and do introductions"
+    "tienen etiquetas con su nombre",
+    "te piden un rescate en bitcoin",
+    "se ponen en círculo y se presentan"
    ],
    "us": false,
    "x": false
@@ -1855,9 +1855,9 @@
    "includesPlayerName": false,
    "prompt": "Los padres no pueden estar demasiado orgullosos cuando su hijo resulta ser un prodigio en <BLANK>",
    "safetyQuips": [
-    "pickpocketing",
-    "identifying anime",
-    "competitive speedwalking"
+    "hurto",
+    "identificar el anime",
+    "trote competitivo"
    ],
    "us": false,
    "x": false
@@ -1867,9 +1867,9 @@
    "includesPlayerName": false,
    "prompt": "Un buen nombre para una agencia de detectives dirigida por niños",
    "safetyQuips": [
-    "The CIA",
-    "Law & Order: SV-Poo",
-    "Clue Kids on the Block"
+    "La CIA",
+    "La ley y el orden: Popó de víctimas especiales",
+    "31 muchachos"
    ],
    "us": false,
    "x": false
@@ -1879,7 +1879,7 @@
    "includesPlayerName": false,
    "prompt": "La noche de juegos familiares se quedó en un silencio mortal cuando la abuela sugirió que jugáramos <BLANK>",
    "safetyQuips": [
-    "for cash",
+    "por dinero",
     "The Witcher 2"
    ],
    "us": false,
@@ -1890,9 +1890,9 @@
    "includesPlayerName": false,
    "prompt": "Algo que Andy Warhol habría pintado hoy, probablemente",
    "safetyQuips": [
-    "the TikTok logo",
-    "Progresso Soup cans",
-    "a bunch of kale"
+    "el logo de TikTok",
+    "Latas de sopa Progresso",
+    "un puñado de col rizada"
    ],
    "us": true,
    "x": false
@@ -1900,11 +1900,11 @@
   {
    "id": "68102",
    "includesPlayerName": false,
-   "prompt": "Lo que Bill Murray le susurró a Scarlett Johansson al final de <i> Lost in Translation </i>",
+   "prompt": "Lo que Bill Murray le susurró a Scarlett Johansson al final de <i>Perdidos en Tokio</i>",
    "safetyQuips": [
-    "I lost my keys",
-    "Congratulations on finishing the movie with me",
-    "Watermelon watermelon watermelon"
+    "Perdí mis llaves",
+    "Felicidades por haber terminado la película conmigo",
+    "Sandía, sandía, sandía"
    ],
    "us": true,
    "x": false
@@ -1914,9 +1914,9 @@
    "includesPlayerName": false,
    "prompt": "¿Qué hace Punxsutawney Phil durante las vacaciones de primavera?",
    "safetyQuips": [
-    "Parties with his shadow",
-    "Hangs out with the Easter Bunny",
-    "Stays inside"
+    "Fiestas con su sombra",
+    "Pasa el rato con el conejo de Pascua",
+    "No sale de casa"
    ],
    "us": true,
    "x": false
@@ -1926,9 +1926,9 @@
    "includesPlayerName": true,
    "prompt": "Sabes que alguien robó la tarjeta de crédito de <ANYPLAYER> cuando hay un cargo por <BLANK>",
    "safetyQuips": [
-    "fancy gel pens",
-    "special-edition plant calendars",
-    "a new Switch for everyone!!"
+    "bolígrafos de gel de lujo",
+    "calendarios de plantas de edición especial",
+    "¡¡una Switch nueva para todos!!"
    ],
    "us": false,
    "x": false
@@ -1938,9 +1938,9 @@
    "includesPlayerName": false,
    "prompt": "La peor parte de tener a Tom Hanks como enemigo mortal",
    "safetyQuips": [
-    "He knows how to build a fire",
-    "can probably outspend you militarily",
-    "nobody sides with you"
+    "Sabe cómo encender el fuego",
+    "probablemente pueda gastar más que tú militarmente",
+    "nadie se pone de tu lado"
    ],
    "us": false,
    "x": false
@@ -1950,9 +1950,9 @@
    "includesPlayerName": false,
    "prompt": "Algo que podrías escuchar en la Baticueva",
    "safetyQuips": [
-    "Robin, you're grounded again.",
-    "Master Wayne, you're tracking blood on the carpet",
-    "I don't even mind bats that much. "
+    "Robin, estás castigado de nuevo.",
+    "Señor Wayne, está rastreando la sangre en la alfombra",
+    "Ni siquiera me importan tanto los murciélagos. "
    ],
    "us": false,
    "x": false
@@ -1962,9 +1962,9 @@
    "includesPlayerName": false,
    "prompt": "Una buena señal de que tu pareja te está engañando con un muñeco de nieve",
    "safetyQuips": [
-    "New frosted tips",
-    "Carrot in their purse",
-    "Collar smudged with coal"
+    "Nuevas puntas escarchadas",
+    "Zanahoria en su bolso",
+    "Cuello manchado de carbón"
    ],
    "us": false,
    "x": false
@@ -1972,11 +1972,11 @@
   {
    "id": "68118",
    "includesPlayerName": false,
-   "prompt": "Si tu mamá fuera un superhéroe, ¿qué señal brillarías en el cielo para convocarla?",
+   "prompt": "Si tu mamá fuera una superheroína, ¿qué señal harías en el cielo para convocarla?",
    "safetyQuips": [
-    "an empty plate",
-    "my dad napping",
-    "a giant M"
+    "un plato vacío",
+    "mi papá durmiendo la siesta",
+    "una M gigante"
    ],
    "us": false,
    "x": false
@@ -1986,8 +1986,8 @@
    "includesPlayerName": false,
    "prompt": "¿Qué dato interesante en el currículum de Stephen King?",
    "safetyQuips": [
-    "has never seen a dog",
-    "afraid of short books"
+    "nunca ha visto un perro",
+    "le teme a los libros cortos"
    ],
    "us": false,
    "x": false
@@ -1995,11 +1995,11 @@
   {
    "id": "68122",
    "includesPlayerName": false,
-   "prompt": "Una elección de canción atrevida e inesperada para el primer baile de una pareja de recién casados",
+   "prompt": "Una audaz e inesperada elección de canción para el primer baile de una pareja de recién casados",
    "safetyQuips": [
-    "Heart and Soul",
-    "Duel Of The Fates",
-    "Barbie Girl"
+    "Rap God - Eminem",
+    "Girlfriend - Avril Lavigne",
+    "Barbie Girl - Aqua"
    ],
    "us": false,
    "x": false
@@ -2009,9 +2009,9 @@
    "includesPlayerName": false,
    "prompt": "Un buen nombre para un golfista realmente malo",
    "safetyQuips": [
-    "Big Putter",
-    "Notorious G.O.L.F.",
-    "Daddy Long Drive"
+    "Gran holgazán",
+    "G.O.L.F. notorio",
+    "Papá largo viaje"
    ],
    "us": false,
    "x": false
@@ -2021,8 +2021,8 @@
    "includesPlayerName": false,
    "prompt": "En cincuenta años, las casas de retiro estarán llenas de <BLANK>",
    "safetyQuips": [
-    "bad Yelp reviews",
-    "irony"
+    "malas reseñas en Yelp",
+    "ironía"
    ],
    "us": false,
    "x": false
@@ -2030,11 +2030,11 @@
   {
    "id": "68133",
    "includesPlayerName": false,
-   "prompt": "Buenas noticias: hay pastel en la sala de descanso. Malas noticias: dice <BLANK>",
+   "prompt": "Buenas noticias: hay torta en la sala de descanso. Malas noticias: dice <BLANK>",
    "safetyQuips": [
-    "sorry for your loss",
-    "Don't eat, this cake is pois-",
-    "First one to eat me is fired"
+    "siento su pérdida",
+    "No comer, esta torta está enven-",
+    "El primero que me coma está despedido"
    ],
    "us": false,
    "x": false
@@ -2045,8 +2045,8 @@
    "prompt": "La casa de los sueños de <ANYPLAYER> viene con <BLANK>",
    "safetyQuips": [
     "Kit Kats",
-    "dusty light fixtures",
-    "the finest juice boxes money can buy"
+    "lámparas polvorientas",
+    "las mejores cajas de jugo que el dinero puede comprar"
    ],
    "us": false,
    "x": false
@@ -2054,11 +2054,11 @@
   {
    "id": "68189",
    "includesPlayerName": false,
-   "prompt": "Enamorarse no son todos los cachorros y unicornios. A veces es <BLANK>",
+   "prompt": "Enamorarse no es todo cachorros y unicornios. A veces es <BLANK>",
    "safetyQuips": [
-    "actually good",
-    "TWO puppies and THREE unicorns",
-    "kitties and Pegasuses"
+    "realmente bueno",
+    "DOS cachorros y TRES unicornios",
+    "gatitos y pegasos"
    ],
    "us": false,
    "x": false
@@ -2066,11 +2066,11 @@
   {
    "id": "68221",
    "includesPlayerName": false,
-   "prompt": "¿Qué obtiene la mujer que lo tiene todo?",
+   "prompt": "¿Qué le regalas a la mujer que lo tiene todo?",
    "safetyQuips": [
-    "a job",
-    "two of everything",
-    "a clue"
+    "un trabajo",
+    "dos de todo",
+    "una pista"
    ],
    "us": false,
    "x": false
@@ -2078,10 +2078,10 @@
   {
    "id": "68222",
    "includesPlayerName": false,
-   "prompt": "El exterminador más compasivo del mundo elimina los errores con <BLANK>",
+   "prompt": "El exterminador más compasivo del mundo elimina los insectos al <BLANK>",
    "safetyQuips": [
-    "breaking up with them",
-    "gentle sweeping"
+    "romper con ellos",
+    "barrer suave"
    ],
    "us": false,
    "x": false
@@ -2091,8 +2091,8 @@
    "includesPlayerName": false,
    "prompt": "Oh, ¿no crees en los milagros? ¡Entonces explica <BLANK>!",
    "safetyQuips": [
-    "ice cream",
-    "these deals"
+    "los helados",
+    "estas ofertas"
    ],
    "us": false,
    "x": false
@@ -2102,9 +2102,9 @@
    "includesPlayerName": false,
    "prompt": "¿Cuál es el secreto oscuro del chocolate amargo?",
    "safetyQuips": [
-    "adultery",
-    "death by chocolate",
-    "it loves milk chocolate"
+    "adulterio",
+    "muerte por chocolate",
+    "ama el chocolate con leche"
    ],
    "us": false,
    "x": false
@@ -2112,10 +2112,10 @@
   {
    "id": "68232",
    "includesPlayerName": false,
-   "prompt": "¿Cuál es la regla tácita de los clubes de tejido hardcore?",
+   "prompt": "¿Cuál es la regla tácita de los clubes de tejido extremos?",
    "safetyQuips": [
-    "You have to fight on your first night",
-    "No cops"
+    "Tienes que luchar en tu primera noche",
+    "No hay policías"
    ],
    "us": false,
    "x": false
@@ -2125,7 +2125,7 @@
    "includesPlayerName": false,
    "prompt": "¿Qué tatuaje realmente te ayudará en una entrevista para un trabajo de programador?",
    "safetyQuips": [
-    "something with minions",
+    "algo con minions",
     "\"C+\""
    ],
    "us": false,
@@ -2136,8 +2136,8 @@
    "includesPlayerName": false,
    "prompt": "Te despertaste cubierto de salsa de chocolate, junto a un cerdo vivo. ¿Dónde estabas anoche?",
    "safetyQuips": [
-    "forbidden Disneyland",
-    "solo birthday party"
+    "Disneylandia prohibida",
+    "fiesta de cumpleaños tú solo"
    ],
    "us": false,
    "x": false
@@ -2147,9 +2147,9 @@
    "includesPlayerName": false,
    "prompt": "Una forma brillante de engañar a la tecnología de reconocimiento facial",
    "safetyQuips": [
-    "high-quality fake mustaches",
-    "walk fast",
-    "invest in face removal technology"
+    "bigotes falsos de gran calidad",
+    "caminar rápido",
+    "invertir en tecnología para la eliminación de la cara"
    ],
    "us": false,
    "x": false
@@ -2159,9 +2159,9 @@
    "includesPlayerName": false,
    "prompt": "Una señal segura de que alguien ha sido alcanzado por un rayo más de una vez",
    "safetyQuips": [
-    "terrible split ends",
-    "magnetic skull",
-    "won't stop talking about \"the cloud king\""
+    "terribles puntas abiertas",
+    "cráneo magnético",
+    "no deja de hablar de \"el rey de las nubes\""
    ],
    "us": false,
    "x": false
@@ -2171,9 +2171,9 @@
    "includesPlayerName": false,
    "prompt": "Un lema político decepcionante de un candidato centrista",
    "safetyQuips": [
-    "white bread matters",
-    "make Peoria great again",
-    "read my lips: no new headlines!"
+    "el pan blanco importa",
+    "hagamos a Peoria genieal de nuevo",
+    "lean mis labios: ¡no hay titulares nuevos!"
    ],
    "us": true,
    "x": false
@@ -2181,11 +2181,11 @@
   {
    "id": "68300",
    "includesPlayerName": false,
-   "prompt": "El lugar más vergonzoso para presenciar a alguien gritando: “¡Quiero hablar con tu gerente!”",
+   "prompt": "El lugar más vergonzoso para presenciar a alguien gritando: “¡quiero hablar con tu gerente!”",
    "safetyQuips": [
-    "a monastery",
-    "my parents' bedroom",
-    "a cemetery "
+    "un monasterio",
+    "el dormitorio de mis padres",
+    "un cementerio"
    ],
    "us": false,
    "x": false
@@ -2193,11 +2193,11 @@
   {
    "id": "68306",
    "includesPlayerName": false,
-   "prompt": "¿Quiere saber qué elimina rápidamente un dolor de cabeza? Prueba <BLANK>",
+   "prompt": "¿Quieres saber qué es lo que te quita el dolor de cabeza rápidamente? Prueba <BLANK>",
    "safetyQuips": [
-    "not sniffing glue",
-    "winning the lottery",
-    "vegetables for once"
+    "no olfatear el pegamento",
+    "ganar la lotería",
+    "verduras de una vez"
    ],
    "us": false,
    "x": false
@@ -2208,7 +2208,7 @@
    "prompt": "Algo que es mejor dejar en manos de personas menores de 30",
    "safetyQuips": [
     "parkour",
-    "online trolling"
+    "troleo en internet"
    ],
    "us": false,
    "x": false
@@ -2218,9 +2218,9 @@
    "includesPlayerName": false,
    "prompt": "El segundo pasatiempo favorito de Estados Unidos",
    "safetyQuips": [
-    "eating",
-    "crying",
-    "extreme couponing"
+    "comer",
+    "llanto",
+    "cupones extremos"
    ],
    "us": true,
    "x": false
@@ -2228,11 +2228,11 @@
   {
    "id": "68326",
    "includesPlayerName": false,
-   "prompt": "¿Cómo puedes saber que tu sastre está enamorado de ti?",
+   "prompt": "¿Cómo puedes saber si tu sastre está enamorado de ti?",
    "safetyQuips": [
-    "Uses the softest thread",
-    "only makes you wedding dresses",
-    "spends too much time remeasuring you"
+    "Utiliza el hilo más suave",
+    "solo te hace vestidos de novia",
+    "pasa demasiado tiempo volviendo a medirte"
    ],
    "us": false,
    "x": false
@@ -2240,11 +2240,11 @@
   {
    "id": "68327",
    "includesPlayerName": false,
-   "prompt": "¿Qué hacen los maniquíes cuando cierran los grandes almacenes?",
+   "prompt": "¿Qué hacen los maniquíes cuando cierran los centros comerciales?",
    "safetyQuips": [
-    "water polo",
-    "change sizes on the jeans",
-    "stand around"
+    "waterpolo",
+    "cambian las tallas de los pantalones",
+    "pasean"
    ],
    "us": false,
    "x": false
@@ -2252,11 +2252,11 @@
   {
    "id": "68366",
    "includesPlayerName": false,
-   "prompt": "Un nuevo dispositivo de inodoro que nadie admite usar puede en realidad <BLANK>",
+   "prompt": "Un nuevo aparato de inodoro que nadie admite usar que en realidad puede <BLANK>",
    "safetyQuips": [
-    "improve your confidence",
-    "make your farts irresistible",
-    "tighten your glutes"
+    "mejorar tu confianza",
+    "hace que tus pedos sean irresistibles",
+    "aprieta tus glúteos"
    ],
    "us": false,
    "x": false
@@ -2266,9 +2266,9 @@
    "includesPlayerName": false,
    "prompt": "Lo peor que un padre podría decirle a su hijo el día de su boda",
    "safetyQuips": [
-    "Can't make it. Today's our office party.",
-    "I invited all your exes",
-    "I'm not your biological father"
+    "No puedo ir. Hoy es la fiesta de la oficina.",
+    "Invité a todos tus ex",
+    "No soy tu padre biológico"
    ],
    "us": false,
    "x": false
@@ -2278,9 +2278,9 @@
    "includesPlayerName": false,
    "prompt": "Una señal de advertencia que nadie ignoraría",
    "safetyQuips": [
-    "unsupervised babies crossing",
-    "beware of soccer moms",
-    "priceless jewelry ahead"
+    "cruce de bebés sin supervisión",
+    "cuidado con las madres futbolistas",
+    "joyas de incalculable valor por delante"
    ],
    "us": false,
    "x": false
@@ -2288,11 +2288,11 @@
   {
    "id": "68370",
    "includesPlayerName": false,
-   "prompt": "En lugar de música en espera, las empresas deberían ofrecer a las personas que llaman <BLANK>",
+   "prompt": "En vez de música de espera, las empresas deberían ofrecer a las personas que llaman <BLANK>",
    "safetyQuips": [
-    "sweet silence",
-    "on-demand neck massages",
-    "live on-hold music"
+    "dulce silencio",
+    "masajes cervicales a petición",
+    "música de espera en vivo"
    ],
    "us": false,
    "x": false
@@ -2302,9 +2302,9 @@
    "includesPlayerName": false,
    "prompt": "El paso en falso de citas más común entre los dragones",
    "safetyQuips": [
-    "bad breath",
-    "wearing too much eyeliner",
-    "flying too close on first date"
+    "lavas los dientes",
+    "usar demasiado delineador de ojos",
+    "volar demasiado cerca en la primera cita"
    ],
    "us": false,
    "x": false
@@ -2312,11 +2312,11 @@
   {
    "id": "68372",
    "includesPlayerName": false,
-   "prompt": "Lo que la mayoría de la gente no entiende sobre el sexo con elefantes",
+   "prompt": "Lo que la mayoría de la gente no entiende sobre el sexo de elefantes",
    "safetyQuips": [
-    "missionary is a bad idea",
-    "size actually matters",
-    "it's all in the trunk"
+    "el misionero es una mala idea",
+    "el tamaño sí importa",
+    "todo está en la trompa"
    ],
    "us": false,
    "x": true
@@ -2324,11 +2324,11 @@
   {
    "id": "68373",
    "includesPlayerName": false,
-   "prompt": "El thriller erótico que nadie quiere ver: <i>Los diarios prohibidos de</i> <BLANK>",
+   "prompt": "El suspenso erótico que nadie quiere ver: <i>Los diarios prohibidos de</i> <BLANK>",
    "safetyQuips": [
-    "knitting circle moms",
-    "my algebra teacher",
-    "shellfish"
+    "círculo de madres tejedoras",
+    "mi profesor de álgebra",
+    "mariscos"
    ],
    "us": false,
    "x": true
@@ -2338,9 +2338,9 @@
    "includesPlayerName": false,
    "prompt": "El artículo más embrujado en una venta inmobiliaria",
    "safetyQuips": [
-    "a doll with one eye",
-    "that glowing orb",
-    "the ghost"
+    "una muñeca con un ojo",
+    "ese orbe brillante",
+    "el fantasma"
    ],
    "us": false,
    "x": false
@@ -2348,11 +2348,11 @@
   {
    "id": "68386",
    "includesPlayerName": false,
-   "prompt": "Puede darse cuenta de que un asesino en serie está tratando de ser atrapado cuando <BLANK>",
+   "prompt": "Puedes saber que un asesino en serie está tratando de ser atrapado cuando <BLANK>",
    "safetyQuips": [
-    "tag themselves in crime scene photos",
-    "hangout next to their wanted posters",
-    "leave business cards at the crime scene"
+    "se etiquetan en las fotos de la escena del crimen",
+    "pasan el rato junto a sus carteles de se busca",
+    "dejan tarjetas de presentación en la escena del crimen"
    ],
    "us": false,
    "x": false
@@ -2362,8 +2362,8 @@
    "includesPlayerName": false,
    "prompt": "El error más común encontrado en Wikipedia",
    "safetyQuips": [
-    "My dog is not listed as the best dog",
-    "Nobody knows how to spell Timothee Chalameet "
+    "Mi perro no está en la lista de los mejores perros",
+    "Nadie sabe cómo se escribe Timothee Chalameet"
    ],
    "us": false,
    "x": false
@@ -2371,10 +2371,10 @@
   {
    "id": "68394",
    "includesPlayerName": false,
-   "prompt": "Este juego de aventuras de fantasía en 3D es tan real que puedes <BLANK>",
+   "prompt": "Este juego de aventura fantástica en 3D es tan real que puedes <BLANK>",
    "safetyQuips": [
-    "meet the families of your victims",
-    "hug a dragon"
+    "conocer a las familias de tus víctimas",
+    "abrazar a un dragón"
    ],
    "us": false,
    "x": false
@@ -2382,11 +2382,11 @@
   {
    "id": "68398",
    "includesPlayerName": false,
-   "prompt": "¿Qué nombre de pantalla puedes ver y asumir que es un bot?",
+   "prompt": "¿Qué nombre de usuario puedes suponer que es un bot?",
    "safetyQuips": [
-    "John",
-    "FanOfTrend7",
-    "NameNamerson"
+    "Juan",
+    "ChicoFiestero7",
+    "NombreApellido"
    ],
    "us": false,
    "x": false
@@ -2394,11 +2394,11 @@
   {
    "id": "68402",
    "includesPlayerName": false,
-   "prompt": "En aras de la precisión, el museo de historia natural tuvo que retirar la exhibición <BLANK>",
+   "prompt": "En aras de la precisión, el museo de historia natural tuvo que retirar la exhibición de <BLANK>",
    "safetyQuips": [
-    "jackalope",
-    "president bigfoot",
-    "wax celebrity"
+    "lebrílope",
+    "presidente pie grande",
+    "famosos de cera"
    ],
    "us": false,
    "x": false
@@ -2408,9 +2408,9 @@
    "includesPlayerName": false,
    "prompt": "Lo último que un guardia de seguridad de un museo de arte quiere encontrar por la noche",
    "safetyQuips": [
-    "Somebody ate all the frames",
-    "Da Vinci Code nonsense",
-    "masked teenagers"
+    "Alguien se comió todos los marcos",
+    "Tonterías del Código Da Vinci",
+    "adolescentes enmascarados"
    ],
    "us": false,
    "x": false
@@ -2418,11 +2418,11 @@
   {
    "id": "68408",
    "includesPlayerName": false,
-   "prompt": "Lo más poderoso que puedes declarar antes de salir de una habitación.",
+   "prompt": "Lo más poderoso que puedes declarar antes de salir de una habitación",
    "safetyQuips": [
-    "try to have fun without me",
-    "check please",
-    "it's good to be king"
+    "trata de divertirte sin mí",
+    "revisa, por favor",
+    "es bueno ser rey"
    ],
    "us": false,
    "x": false
@@ -2430,11 +2430,11 @@
   {
    "id": "68409",
    "includesPlayerName": true,
-   "prompt": "Si <ANYPLAYER> tuviera un eslogan, sería ...",
+   "prompt": "Si <ANYPLAYER> tuviera un lema, sería...",
    "safetyQuips": [
-    "It's the Lovemeister!",
-    "just a little pitchy, dawg",
-    "I'm with stupid!"
+    "¡Soy el maestro del amor!",
+    "solo un poco desafinado, manito",
+    "¡Estoy con el estúpido!"
    ],
    "us": false,
    "x": false
@@ -2442,11 +2442,11 @@
   {
    "id": "68410",
    "includesPlayerName": true,
-   "prompt": "<ANYPLAYER> ganaría un concurso de talentos al ...",
+   "prompt": "<ANYPLAYER> ganaría un concurso de talentos al...",
    "safetyQuips": [
-    "bribing the judges",
-    "singing the Celine Dion discography",
-    "just being cute"
+    "sobornar a los jueces",
+    "cantar la discografía de Shakira",
+    "solo ser lindo"
    ],
    "us": false,
    "x": false
@@ -2456,9 +2456,9 @@
    "includesPlayerName": true,
    "prompt": "Una habilidad especial que aparece en el currículum de <ANYPLAYER>",
    "safetyQuips": [
-    "competitive whistling",
-    "theoretical dance",
-    "forgetting house keys"
+    "silbido competitivo",
+    "danza teórica",
+    "olvidar las llaves de la casa"
    ],
    "us": false,
    "x": false
@@ -2468,9 +2468,9 @@
    "includesPlayerName": true,
    "prompt": "El nombre del movimiento de baile característico de <ANYPLAYER>",
    "safetyQuips": [
-    "the Angry Windmill",
-    "the Dying Flower",
-    "the Weed"
+    "el Molino Enfadado",
+    "la Flor Moribunda",
+    "la Hierba"
    ],
    "us": false,
    "x": false
@@ -2480,9 +2480,9 @@
    "includesPlayerName": true,
    "prompt": "La línea de apertura del programa individual de <ANYPLAYER>",
    "safetyQuips": [
-    "Oh, hi! I didn't notice you there.",
-    "You're wondering how I got in this situation.",
-    "How many chickens CAN fit in a car? "
+    "¡Oh, hola! No me di cuenta de que estabas allí.",
+    "Te preguntarás cómo he llegado a esta situación.",
+    "¿Cuántos pollos PUEDEN caber en un auto?"
    ],
    "us": false,
    "x": false
@@ -2492,9 +2492,9 @@
    "includesPlayerName": true,
    "prompt": "Tienes que derrotar a <ANYPLAYER> en combate de gladiadores. ¿Qué arma eliges?",
    "safetyQuips": [
-    "witty retorts",
-    "damp socks",
-    "loose grapes"
+    "réplicas ingeniosas",
+    "calcetines húmedos",
+    "uvas sueltas"
    ],
    "us": false,
    "x": false
@@ -2504,9 +2504,9 @@
    "includesPlayerName": true,
    "prompt": "<ANYPLAYER> nunca conoció a un <BLANK> que no le gustara",
    "safetyQuips": [
-    "tiny dog",
-    "plaid shirt",
-    "gourmet salad"
+    "perro minúsculo",
+    "camisa de cuadros",
+    "ensalada gourmet"
    ],
    "us": false,
    "x": false
@@ -2516,9 +2516,9 @@
    "includesPlayerName": true,
    "prompt": "Si los extraterrestres secuestraran a <ANYPLAYER>, ¿qué aprenderían sobre los humanos?",
    "safetyQuips": [
-    "we're very gassy",
-    "we say \"um\" all the time",
-    "we're addicted to Instagram"
+    "somos muy gaseosos",
+    "decimos \"em\" todo el tiempo",
+    "somos adictos a Instagram"
    ],
    "us": false,
    "x": false
@@ -2526,11 +2526,11 @@
   {
    "id": "68418",
    "includesPlayerName": true,
-   "prompt": "<ANYPLAYER> nunca lastimaría a una mosca, pero lastimarían a <BLANK>",
+   "prompt": "<ANYPLAYER> nunca lastimaría a una mosca, pero lastimaría a <BLANK>",
    "safetyQuips": [
-    "a cabinet door",
-    "your feelings",
-    "your ears by singing"
+    "una puerta de armario",
+    "tus sentimientos",
+    "tus oídos al cantar"
    ],
    "us": false,
    "x": false
@@ -2538,11 +2538,11 @@
   {
    "id": "68420",
    "includesPlayerName": false,
-   "prompt": "Un tema terrible para el baile de debutantes de tu hija",
+   "prompt": "Un tema terrible para el baile de debutante de tu hija",
    "safetyQuips": [
-    "Remember the Alamo",
-    "Sex",
-    "Crust and Rust"
+    "Careless Whisper",
+    "Sexbomb",
+    "Juegos de seducción"
    ],
    "us": false,
    "x": true
@@ -2552,9 +2552,9 @@
    "includesPlayerName": false,
    "prompt": "La razón por la que fuiste eliminado del testamento de tu abuelo",
    "safetyQuips": [
-    "my trousers revealed my ankles",
-    "got in a fight about free-range eggs",
-    "I'm so rich I don't need his cash"
+    "mis pantalones dejan mis tobillos al descubierto",
+    "se pelearon por los huevos de corral",
+    "soy tan rico que no necesito su dinero"
    ],
    "us": false,
    "x": true
@@ -2564,9 +2564,9 @@
    "includesPlayerName": false,
    "prompt": "Solo después de su muerte descubrimos el tatuaje de la abuela de <BLANK>",
    "safetyQuips": [
-    "\"Grandpa\" stenciled on her calf",
-    "Calvin and Hobbes sledding into hell",
-    "a nice smiling duck"
+    "\"Abuelo\" con una plantilla en su pantorrilla",
+    "Condorito en trineo hacia el infierno",
+    "un bonito pato sonriente"
    ],
    "us": false,
    "x": true
@@ -2574,11 +2574,11 @@
   {
    "id": "68433",
    "includesPlayerName": false,
-   "prompt": "Un pensamiento que tuvo en las últimas 24 horas pero que no compartió con nadie",
+   "prompt": "Un pensamiento que tuviste en las últimas 24 horas pero no compartiste con nadie",
    "safetyQuips": [
-    "can people smell this?",
-    "I love my wife",
-    "I wish I could eat soap"
+    "¿la gente puede oler esto?",
+    "amo a mi esposa",
+    "ojalá pudiera comer jabón"
    ],
    "us": false,
    "x": false
@@ -2588,9 +2588,9 @@
    "includesPlayerName": true,
    "prompt": "Es fácil molestar a <ANYPLAYER>. Solo <BLANK>",
    "safetyQuips": [
-    "keep butt dialing",
-    "disappear off the face of the earth for 60 days",
-    "knock on the door at 5am"
+    "sigue llamándolo por error",
+    "desapareces de la faz de la tierra durante 60 días",
+    "llamar a la puerta a las 5 de la mañana"
    ],
    "us": false,
    "x": false
@@ -2598,10 +2598,10 @@
   {
    "id": "68440",
    "includesPlayerName": true,
-   "prompt": "Si tienes un caso de fiebre de <ANYPLAYER>, solo se puede curar con <BLANK>",
+   "prompt": "Si tienes un caso de fiebre de <ANYPLAYER>, solo se puede curar <BLANK>",
    "safetyQuips": [
-    "Not talking",
-    "10 cc's of hugs"
+    "no hablando",
+    "10 cc de abrazos"
    ],
    "us": false,
    "x": false
@@ -2611,8 +2611,8 @@
    "includesPlayerName": true,
    "prompt": "Si <ANYPLAYER> fuera un modelo de moda, sería famoso por usar <BLANK>",
    "safetyQuips": [
-    "Cargo shorts",
-    "Rainbow suspenders"
+    "Pantalones cortos de carga",
+    "Tirantes arcoíris"
    ],
    "us": false,
    "x": false
@@ -2620,11 +2620,11 @@
   {
    "id": "68442",
    "includesPlayerName": true,
-   "prompt": "Le puse a mi gato el nombre de <ANYPLAYER> porque mi gato siempre es <BLANK>",
+   "prompt": "Le puse a mi gato el nombre de <ANYPLAYER> porque mi gato siempre <BLANK>",
    "safetyQuips": [
-    "correcting my grammar",
-    "letting mice live",
-    "knocking over glasses of water"
+    "corrige mi gramática",
+    "deja vivir a los ratones",
+    "derriba los vasos de agua"
    ],
    "us": false,
    "x": false
@@ -2634,8 +2634,8 @@
    "includesPlayerName": true,
    "prompt": "Lo único que impide que <ANYPLAYER> sea un agente secreto trotamundos",
    "safetyQuips": [
-    "doesn't own formal wear",
-    "can't find Canada "
+    "no tiene ropa formal",
+    "no puede encontrar Canadá"
    ],
    "us": false,
    "x": false
@@ -2645,9 +2645,9 @@
    "includesPlayerName": true,
    "prompt": "Hay espacio limitado en el refugio antiaéreo, pero <ANYPLAYER> insistió en traer <BLANK>",
    "safetyQuips": [
-    "a house warming gift",
-    "several dogs",
-    "a bouncy castle"
+    "un regalo de bienvenida a la casa",
+    "varios perros",
+    "un castillo inflable"
    ],
    "us": false,
    "x": false
@@ -2657,8 +2657,8 @@
    "includesPlayerName": true,
    "prompt": "¿Por qué <ANYPLAYER> sería el primero en morir en una película de terror?",
    "safetyQuips": [
-    "allergic to knives",
-    "audience's least favorite"
+    "es alérgico a los cuchillos",
+    "el menos preferido del público"
    ],
    "us": false,
    "x": false
@@ -2668,9 +2668,9 @@
    "includesPlayerName": true,
    "prompt": "Necesito esconder un tesoro en un lugar donde <ANYPLAYER> nunca buscará. ¿A dónde debería ir?",
    "safetyQuips": [
-    "nailed to front door",
-    "under a very large bush",
-    "inside a garden salad"
+    "clavado en la puerta principal",
+    "bajo un arbusto muy grande",
+    "dentro de una ensalada"
    ],
    "us": false,
    "x": false
@@ -2680,9 +2680,9 @@
    "includesPlayerName": true,
    "prompt": "¿Por qué no aparece <ANYPLAYER> en las fotografías?",
    "safetyQuips": [
-    "witness protection rules",
-    "must be that vampire encounter",
-    "always late"
+    "normas de protección de testigos",
+    "debe ser un vampiro",
+    "siempre llega tarde"
    ],
    "us": false,
    "x": false
@@ -2690,10 +2690,10 @@
   {
    "id": "68449",
    "includesPlayerName": true,
-   "prompt": "Quiero ir como <ANYPLAYER> para Halloween, pero no tengo <BLANK>",
+   "prompt": "Quiero disfrazarme de <ANYPLAYER> para Halloween, pero me falta <BLANK>",
    "safetyQuips": [
-    "sass",
-    "a jean jacket"
+    "insolencia",
+    "una chaqueta de mezclilla"
    ],
    "us": false,
    "x": false
@@ -2703,8 +2703,8 @@
    "includesPlayerName": true,
    "prompt": "¡La nueva muñeca de <ANYPLAYER> es perfecta! Cada vez que tiras la cuerda, la muñeca dice “<BLANK>”",
    "safetyQuips": [
-    "More tacos!",
-    "I don't want to go"
+    "¡Más tacos!",
+    "No quiero ir"
    ],
    "us": false,
    "x": false
@@ -2714,9 +2714,9 @@
    "includesPlayerName": false,
    "prompt": "Lo peor que se puede decir después de hacer contacto visual con alguien en un ascensor",
    "safetyQuips": [
-    "I love you",
-    "Mom?",
-    "Only one of us leaves here alive"
+    "Te amo",
+    "¿Mamá?",
+    "Solo uno de nosotros sale de aquí con vida"
    ],
    "us": false,
    "x": false
@@ -2724,10 +2724,10 @@
   {
    "id": "68467",
    "includesPlayerName": false,
-   "prompt": "¡Todos los bufones han fallado! Solo una cosa entretendrá al rey...",
+   "prompt": "¡Todos los bufones fallaron! Solo una cosa entretendrá al rey...",
    "safetyQuips": [
-    "witty observations",
-    "shows about flipping houses"
+    "observaciones ingeniosas",
+    "programas sobre restauraciones de casas"
    ],
    "us": false,
    "x": false
@@ -2737,9 +2737,9 @@
    "includesPlayerName": false,
    "prompt": "¿Cuál es la parte más difícil de luchar contra una muñeca asesina?",
    "safetyQuips": [
-    "Hurts resale value",
-    "It's really, really creepy",
-    "maybe it's a parody of a killer doll"
+    "Perjudica el valor de reventa",
+    "Es muy, pero muy espeluznante",
+    "tal vez sea una parodia de una muñeca asesina"
    ],
    "us": false,
    "x": false
@@ -2747,11 +2747,11 @@
   {
    "id": "68483",
    "includesPlayerName": false,
-   "prompt": "La principal diferencia entre los médicos de la televisión y los médicos reales.",
+   "prompt": "La principal diferencia entre los médicos de la televisión y los médicos reales",
    "safetyQuips": [
-    "more attractive stethoscopes",
-    "lack of Justin Chambers",
-    "only one was a theater major"
+    "estetoscopios más atractivos",
+    "falta de Hugh Laurie",
+    "solo uno tiene doctorado en teatro"
    ],
    "us": false,
    "x": false
@@ -2759,11 +2759,11 @@
   {
    "id": "68488",
    "includesPlayerName": false,
-   "prompt": "Debe haber un emoji que exprese el sentimiento de <BLANK>",
+   "prompt": "Debería haber un emoji que exprese el sentimiento de <BLANK>",
    "safetyQuips": [
-    "hungry, but not that hungry",
-    "mad at Greg",
-    "getting over a breakup"
+    "hambre, pero no tanta hambre",
+    "enojado con el gobierno",
+    "superar una ruptura"
    ],
    "us": false,
    "x": false
@@ -2771,10 +2771,10 @@
   {
    "id": "68490",
    "includesPlayerName": false,
-   "prompt": "Justo antes de la cirugía a corazón abierto, mejora tus probabilidades en informándole a tu médico <BLANK>",
+   "prompt": "Justo antes de la cirugía a corazón abierto, mejora tus probabilidades diciéndole a tu médico <BLANK>",
    "safetyQuips": [
-    "\"I have unused coupons\"",
-    "\"You have kind eyes\""
+    "\"Tengo cupones sin usar\"",
+    "\"Tienes la mirada amable\""
    ],
    "us": false,
    "x": false
@@ -2782,11 +2782,11 @@
   {
    "id": "68498",
    "includesPlayerName": false,
-   "prompt": "Lo que Dios estaba pensando cuando diseñó el trasero",
+   "prompt": "Lo que dios estaba pensando cuando diseñó el trasero",
    "safetyQuips": [
-    "I want it to be attractive but also stinky",
-    "How much hair should I put on it?",
-    "I have to make this \"poop\" come from somewhere"
+    "Quiero que sea atractivo pero también apestoso",
+    "¿Cuántos pelos debería ponerle?",
+    "Tengo que hacer que esta \"caca\" venga de alguna parte"
    ],
    "us": false,
    "x": false
@@ -2794,11 +2794,11 @@
   {
    "id": "68502",
    "includesPlayerName": false,
-   "prompt": "Dios mío, ahora Lin-Manuel Miranda está escribiendo un musical de hip-hop sobre <BLANK>",
+   "prompt": "Santo cielo, ahora Lin-Manuel Miranda está escribiendo un musical de hip-hop sobre <BLANK>",
    "safetyQuips": [
-    "how to flirt",
+    "coquetear",
     "Garfield",
-    "Mrs. Claus"
+    "Sra. Noel"
    ],
    "us": false,
    "x": false
@@ -2806,11 +2806,11 @@
   {
    "id": "68504",
    "includesPlayerName": false,
-   "prompt": "La histórica decisión de la Corte Suprema de 2045: Mi Esposa vs. <BLANK>",
+   "prompt": "La histórica decisión de la Corte Suprema de 2045: Mi Esposa contra <BLANK>",
    "safetyQuips": [
-    "colonists on Mars",
-    "rising sea levels",
-    "my AI wife"
+    "colonizadores en Marte",
+    "la elevación del nivel del mar",
+    "mi esposa con IA"
    ],
    "us": true,
    "x": false
@@ -2818,11 +2818,11 @@
   {
    "id": "68513",
    "includesPlayerName": false,
-   "prompt": "¿Cuál es la firma de correo electrónico más común para los estafadores?",
+   "prompt": "¿Cuál es la firma de correo electrónico más común de los estafadores?",
    "safetyQuips": [
-    "I'm very much real",
-    "You have to tell me if you're a cop",
-    "plaese escuse the typos"
+    "Soy muy real",
+    "Tienes que decirme si eres policía",
+    "pro fabor, disclupe los errores hortográfikos"
    ],
    "us": false,
    "x": false
@@ -2830,11 +2830,11 @@
   {
    "id": "68518",
    "includesPlayerName": false,
-   "prompt": "Suspiro... ¿por qué es imposible encontrar un buen hombre en estos días?",
+   "prompt": "Suspiro... ¿por qué es imposible encontrar un buen hombre hoy en día?",
    "safetyQuips": [
-    "More fun to find Pokémon",
-    "too busy playing WoW",
-    "they're still in quarantine"
+    "es más divertido encontrar Pokémon",
+    "están demasiado ocupados jugando Age of Empires II",
+    "todavía están en cuarentena"
    ],
    "us": false,
    "x": false
@@ -2844,9 +2844,9 @@
    "includesPlayerName": false,
    "prompt": "Algo que desearías que la vida real tuviera en común con las comedias de situación",
    "safetyQuips": [
-    "perfect hair",
-    "I wish my boss would come over for dinner",
-    "laugh tracks"
+    "cabello perfecto",
+    "me gustaría que mi jefe viniera a cenar",
+    "risas grabadas"
    ],
    "us": false,
    "x": false
@@ -2854,11 +2854,11 @@
   {
    "id": "68525",
    "includesPlayerName": false,
-   "prompt": "¡Es tu gran momento en el escenario! Encuentras tu centro de atención, enfrenta a la audiencia y <BLANK>",
+   "prompt": "¡Es tu gran momento en el escenario! Encuentras tu foco, enfrenta al público y <BLANK>",
    "safetyQuips": [
-    "sell some life insurance",
-    "hold back a sneeze",
-    "flub a knock-knock joke"
+    "vender algunos seguros de vida",
+    "contén un estornudo",
+    "estropea un chiste de gallegos"
    ],
    "us": false,
    "x": false
@@ -2866,11 +2866,11 @@
   {
    "id": "68526",
    "includesPlayerName": false,
-   "prompt": "¿Cuál es el peor mensaje que podría dejar en el buzón de voz de su terapeuta?",
+   "prompt": "¿Cuál es el peor mensaje que podrías dejar en el buzón de voz de tu terapeuta?",
    "safetyQuips": [
-    "\"I've forgotten your name\"",
-    "\"You're the tallest doctor I've had thus far\"",
-    "I'm calling from your bedroom"
+    "\"Olvidé tu nombre\"",
+    "\"Eres el médico más alto que he tenido hasta ahora\"",
+    "Te llamo desde tu dormitorio"
    ],
    "us": false,
    "x": false
@@ -2878,11 +2878,11 @@
   {
    "id": "68538",
    "includesPlayerName": false,
-   "prompt": "El nombre de una banda de chicos de la década de 1890.",
+   "prompt": "El nombre de una banda de chicos de la década de 1890",
    "safetyQuips": [
-    "Back Alley Rascals",
-    "Merry Men",
-    "Horze 2 Horze"
+    "Los Granujas del Callejón",
+    "Hombres Alegres",
+    "Caballo a caballo"
    ],
    "us": false,
    "x": false
@@ -2892,9 +2892,9 @@
    "includesPlayerName": false,
    "prompt": "Un mensaje de texto nocturno que puedes recibir de uno de los Mario Bros.",
    "safetyQuips": [
-    "It's a me, u up?",
-    "This is a spicy text",
-    "new pipe. who dis?"
+    "Soy yo, ¿estás despierto?",
+    "Este es un texto picante",
+    "nueva tubería. ¿quién es?"
    ],
    "us": false,
    "x": false
@@ -2904,8 +2904,8 @@
    "includesPlayerName": true,
    "prompt": "La(s) palabra(s) secreta(s) para ingresar al dormitorio de <ANYPLAYER>",
    "safetyQuips": [
-    "lager",
-    "purple",
+    "cerveza rubia",
+    "púrpura",
     "Cersei Lannister"
    ],
    "us": false,
@@ -2914,11 +2914,11 @@
   {
    "id": "68572",
    "includesPlayerName": false,
-   "prompt": "Lo más extraño de descubrir después de salir de la anestesia",
+   "prompt": "Lo más extraño que se descubre al salir de la anestesia",
    "safetyQuips": [
-    "I've gone back in time",
-    "you're covered in BBQ sauce",
-    "you're in the middle of an intersection"
+    "he retrocedido en el tiempo",
+    "estás cubierto de salsa barbacoa",
+    "estás en medio de un cruce"
    ],
    "us": false,
    "x": false
@@ -2928,9 +2928,9 @@
    "includesPlayerName": false,
    "prompt": "Lo peor que alguien podría poner en tu cofre antes de cerrar tu ataúd funerario",
    "safetyQuips": [
-    "deodorant",
-    "pictures of my ex",
-    "a note that says \"good riddance\""
+    "desodorante",
+    "fotos de mi ex",
+    "una nota que dice \"buen provecho\""
    ],
    "us": false,
    "x": false
@@ -2938,11 +2938,11 @@
   {
    "id": "68576",
    "includesPlayerName": false,
-   "prompt": "Lo que podrías haber visto en una foto sexy de Tinder en 1930",
+   "prompt": "Lo que podrías haber visto en una foto sensual de Tinder en 1930",
    "safetyQuips": [
-    "a dude holding a \"will work for food\" sign",
-    "a hottie waiting in line for toilet paper",
-    "a Prohibition sweetheart"
+    "un tipo con un cartel de \"trabajaré por comida\"",
+    "un bombón esperando en la fila del papel higiénico",
+    "un amor de la Prohibición"
    ],
    "us": true,
    "x": false
@@ -2952,9 +2952,9 @@
    "includesPlayerName": false,
    "prompt": "Algo realmente perturbador que podría decir un salvavidas durante un rescate",
    "safetyQuips": [
-    "Sorry, I'm new at this",
-    "mouth to mouth? uh no.",
-    "I'm the one who needs saving"
+    "Perdón, soy nuevo en esto",
+    "¿boca a boca? eh, no.",
+    "Yo soy el que necesita ser salvado"
    ],
    "us": false,
    "x": false
@@ -2964,9 +2964,9 @@
    "includesPlayerName": false,
    "prompt": "Lo que dice un portero extremadamente agradable cuando echa a la gente de los bares",
    "safetyQuips": [
-    "I love your shoes!",
-    "At least let me pay for your Uber",
-    "Wanna get a drink later?"
+    "¡Me encantan tus zapatos!",
+    "Al menos déjame pagar tu Uber",
+    "¿Quieres tomar algo más tarde?"
    ],
    "us": false,
    "x": false
@@ -2976,9 +2976,9 @@
    "includesPlayerName": false,
    "prompt": "Una señal segura de que estás viviendo en una película navideña de Hallmark Channel",
    "safetyQuips": [
-    "you own a bakery",
-    "you are an undercover princess",
-    "your lover is a nutcracker"
+    "eres dueño de una panadería",
+    "eres una princesa encubierta",
+    "tu amante es un cascanueces"
    ],
    "us": true,
    "x": false
@@ -2988,9 +2988,9 @@
    "includesPlayerName": true,
    "prompt": "Si <ANYPLAYER> iniciara una religión, se llamaría la Iglesia de <BLANK>",
    "safetyQuips": [
-    "Procrastination",
-    "Pointless Gestures",
-    "Hoagies"
+    "Procrastinación",
+    "Gestos Inútiles",
+    "Sándwiches"
    ],
    "us": false,
    "x": false
@@ -3000,9 +3000,9 @@
    "includesPlayerName": false,
    "prompt": "¿Quieres un poco de atención? Ve a un bar para solteros con una camiseta que diga “<BLANK>”",
    "safetyQuips": [
-    "drinks on me!",
-    "your mother would hate me",
-    "money-back guarantee"
+    "¡yo invito!",
+    "tu madre me odiaría",
+    "garantía de devolución del dinero"
    ],
    "us": false,
    "x": false
@@ -3010,11 +3010,11 @@
   {
    "id": "68598",
    "includesPlayerName": false,
-   "prompt": "La galleta de la fortuna más memorable: vas a hacer <BLANK>... en la cama.",
+   "prompt": "La galleta de la fortuna más memorable: vas a hacer <BLANK>… en la cama.",
    "safetyQuips": [
-    "get more than enough sleep",
-    "climb Mt. Everest",
-    "watch every episode of Law & Order"
+    "duerme más que suficiente",
+    "escala el Monte Everest",
+    "ve todos los episodios de Shingeki no Kyojin"
    ],
    "us": false,
    "x": false
@@ -3022,11 +3022,11 @@
   {
    "id": "68599",
    "includesPlayerName": false,
-   "prompt": "Ok, entonces atrapaste un pedo en un frasco. ¿Ahora que?",
+   "prompt": "Bueno, entonces atrapaste un pedo en un frasco. ¿Ahora qué?",
    "safetyQuips": [
-    "release it into the wild",
-    "send it to the Smithsonian",
-    "open in case of emergency"
+    "libéralo en la naturaleza",
+    "envíaselo al Smithsoniano",
+    "ábrelo en caso de emergencia"
    ],
    "us": false,
    "x": false
@@ -3036,9 +3036,9 @@
    "includesPlayerName": false,
    "prompt": "Lo que hace Papá Noel el 26 de diciembre",
    "safetyQuips": [
-    "drinks himself into oblivion",
-    "gets started on next year's toys",
-    "private time with Mrs. Claus"
+    "bebe hasta el olvido",
+    "empieza a pensar en los juguetes del año que viene",
+    "tiempo privado con la Sra. Noel"
    ],
    "us": false,
    "x": false
@@ -3046,11 +3046,11 @@
   {
    "id": "68606",
    "includesPlayerName": false,
-   "prompt": "Incluso por $100,000 no te tatuarías esta frase en la espalda",
+   "prompt": "Ni por 100.000 dólares te tatuarías esta frase a lo largo de tu espalda",
    "safetyQuips": [
-    "my social security number",
-    "Mom mom mom please I'm sorry",
-    "epic fail"
+    "los datos de mi tarjeta de crédito",
+    "Mamá, mamá, mamá, por favor, lo siento",
+    "fallo épico"
    ],
    "us": true,
    "x": false
@@ -3060,9 +3060,9 @@
    "includesPlayerName": false,
    "prompt": "El nombre de las nuevas memorias desgarradoras de Shrek",
    "safetyQuips": [
-    "Even Ogres Can Find Love",
-    "Fiona Never Loved Me, Not Truly",
-    "I Am Shrek: My Sad Story"
+    "Incluso los ogros pueden encontrar el amor",
+    "Fiona nunca me amó, no de verdad",
+    "Yo soy Shrek: mi triste historia"
    ],
    "us": false,
    "x": false
@@ -3070,10 +3070,10 @@
   {
    "id": "68617",
    "includesPlayerName": false,
-   "prompt": "Una broma que a Abe Lincoln le encantaba jugar en la Casa Blanca",
+   "prompt": "Una broma que a Abraham Lincoln le gustaba hacer en la Casa Blanca",
    "safetyQuips": [
-    "the Civil War",
-    "putting his hat on a dog"
+    "la Guerra Civil",
+    "poner su sombrero en un perro"
    ],
    "us": true,
    "x": false
@@ -3083,9 +3083,9 @@
    "includesPlayerName": false,
    "prompt": "Un eslogan terrible para los ravioles",
    "safetyQuips": [
-    "These are disgusting!",
-    "Italian poo pillows",
-    "stuffed with goo!"
+    "¡Son asquerosos!",
+    "Almohadas de caca italianas",
+    "¡relleno de pegajosidad!"
    ],
    "us": false,
    "x": false
@@ -3093,11 +3093,11 @@
   {
    "id": "68626",
    "includesPlayerName": false,
-   "prompt": "Papá, ¿a dónde vamos cuando morimos?",
+   "prompt": "Papi, ¿a dónde vamos cuando morimos?",
    "safetyQuips": [
-    "into the abyss, daughter",
-    "Applebee's",
-    "a theme park in Florida"
+    "al abismo, hija",
+    "a un Subway",
+    "a un parque temático en Florida"
    ],
    "us": false,
    "x": false
@@ -3107,9 +3107,9 @@
    "includesPlayerName": false,
    "prompt": "La evaluación honesta de un extraterrestre de <i>Star Trek</i>",
    "safetyQuips": [
-    "Data is seriously hot",
-    "Oh, we all have holodecks",
-    "Deep Space Nine wasn't terrible"
+    "Los datos están muy calientes",
+    "Oh, todos tenemos holocubiertas",
+    "Espacio Profundo Nueve no era terrible"
    ],
    "us": false,
    "x": false
@@ -3119,9 +3119,9 @@
    "includesPlayerName": false,
    "prompt": "Lo que dice Júpiter sobre otros planetas cuando se emborracha",
    "safetyQuips": [
-    "I poop bigger than Mercury",
-    "Get a life, Earth! Pun intended!",
-    "Neptune's in its own orbit"
+    "Hago caca más grande que Mercurio",
+    "¡Consigue una vida, Tierra! ¡Juego de palabras!",
+    "Neptuno está en su propia órbita"
    ],
    "us": false,
    "x": false
@@ -3129,11 +3129,11 @@
   {
    "id": "68633",
    "includesPlayerName": false,
-   "prompt": "El principal atractivo de la peor ceremonia de apertura en la historia de los Juegos Olímpicos\t",
+   "prompt": "La principal atracción de la peor ceremonia de apertura de la historia de los Juegos Olímpicos\t",
    "safetyQuips": [
-    "sock puppets",
-    "replay of old Super Bowl halftime shows",
-    "open mic comedy "
+    "marionetas de calcetín",
+    "repetición de antiguos espectáculos de medio tiempo del Super Tazón",
+    "comedia de micrófono abierto"
    ],
    "us": false,
    "x": false
@@ -3141,11 +3141,11 @@
   {
    "id": "68646",
    "includesPlayerName": false,
-   "prompt": "Como son los poetas...",
+   "prompt": "Los poetas son como...",
    "safetyQuips": [
-    "roses are CRIMSON, violets are SAD",
-    "meter, verse, stanza",
-    "yadda yadda yadda"
+    "las rosas son CARMESÍ, las violetas son ÍNDIGO",
+    "métrica, verso, estanza",
+    "bla, bla, bla"
    ],
    "us": false,
    "x": false
@@ -3153,11 +3153,11 @@
   {
    "id": "68649",
    "includesPlayerName": false,
-   "prompt": "Un eslogan para un baño embrujado",
+   "prompt": "Un eslogan para un inodoro embrujado",
    "safetyQuips": [
-    "Did I scare... your butt?",
-    "Booooooooo! I'm a toilet.",
-    "Flush away the ghost!"
+    "¿Asusté... a tu trasero?",
+    "¡Buuu! Soy un inodoro.",
+    "¡Tira por la cadena al fantasma!"
    ],
    "us": false,
    "x": false
@@ -3168,8 +3168,8 @@
    "prompt": "El Renacimiento de 2030 se definirá por un resurgimiento de <BLANK>",
    "safetyQuips": [
     "TikTok",
-    "Harry Potter fanfic",
-    "being nice to eachother"
+    "fanficción de Harry Potter",
+    "ser amable con los demás"
    ],
    "us": false,
    "x": false
@@ -3179,8 +3179,8 @@
    "includesPlayerName": false,
    "prompt": "El nombre del especial de Netflix de comedia stand-up de una sirena",
    "safetyQuips": [
-    "Under the See!?!",
-    "It's Wet!"
+    "¡¿Bajo el mar?!",
+    "¡Está mojado!"
    ],
    "us": false,
    "x": false
@@ -3188,11 +3188,11 @@
   {
    "id": "68658",
    "includesPlayerName": false,
-   "prompt": "Lo contrario de la musica",
+   "prompt": "Lo contrario a la música",
    "safetyQuips": [
-    "a stone",
-    "Post Malone",
-    "a car crash"
+    "una piedra",
+    "reggaetón",
+    "un accidente de autos"
    ],
    "us": false,
    "x": false
@@ -3200,11 +3200,11 @@
   {
    "id": "68662",
    "includesPlayerName": false,
-   "prompt": "Sería realmente extraño si este artículo tuviera una fecha de vencimiento impresa",
+   "prompt": "Sería realmente extraño si este producto tuviera una fecha de vencimiento impresa",
    "safetyQuips": [
-    "underwear",
-    "fake fruit",
-    "marriage certificate "
+    "ropa interior",
+    "fruta falsa",
+    "certificado de matrimonio"
    ],
    "us": false,
    "x": false
@@ -3212,11 +3212,11 @@
   {
    "id": "68664",
    "includesPlayerName": false,
-   "prompt": "Sabes que tu mecánico te estafa cuando te dicen esto",
+   "prompt": "Sabes que tu mecánico te estafa cuando te dice esto",
    "safetyQuips": [
-    "Your tires need new batteries",
-    "We need to redo your trunk shaft",
-    "I have to order parts from a guy in the Amazon "
+    "Tus neumáticos necesitan baterías nuevas",
+    "Tenemos que rehacer el hueco del maletero",
+    "Tengo que pedir partes a un tipo en el Amazonas"
    ],
    "us": false,
    "x": false
@@ -3226,9 +3226,9 @@
    "includesPlayerName": false,
    "prompt": "Lo que la muñeca espeluznante en la tienda de antigüedades está tratando de decirte con sus ojos",
    "safetyQuips": [
-    "kill me",
-    "bring me home, daddy",
-    "I can give you powers you've only dreamed of "
+    "mátame",
+    "llévame a casa, papi",
+    "puedo darte poderes que solo has soñado"
    ],
    "us": false,
    "x": false
@@ -3236,10 +3236,10 @@
   {
    "id": "68671",
    "includesPlayerName": false,
-   "prompt": "¿Qué harías si sólo midieras 2 pulgadas de altura?",
+   "prompt": "¿Qué harías si solo midieras 5 centímetros de altura?",
    "safetyQuips": [
-    "crawl inside a shell",
-    "take a bath in a cup of warm milk"
+    "arrastrarte dentro de un caparazón",
+    "bañarte en una taza de leche caliente"
    ],
    "us": true,
    "x": false
@@ -3247,11 +3247,11 @@
   {
    "id": "68678",
    "includesPlayerName": false,
-   "prompt": "Comprarías en secreto un libro llamado <i>Cómo hacer</i> <BLANK>",
+   "prompt": "Comprarías en secreto un libro llamado <i>Cómo</i> <BLANK>",
    "safetyQuips": [
-    "Get Into Heaven",
-    "Become More Powerful Than Your Dad",
-    "Be Hot"
+    "Entrar al cielo",
+    "Ser más poderoso que tu papá",
+    "Ser sensual"
    ],
    "us": false,
    "x": false
@@ -3259,11 +3259,11 @@
   {
    "id": "68682",
    "includesPlayerName": true,
-   "prompt": "El título de la serie MasterClass de <ANYPLAYER>",
+   "prompt": "El título de la serie de clase magistral de <ANYPLAYER>",
    "safetyQuips": [
-    "How to Sleep Past Noon",
-    "On Farting",
-    "Losing Keys: A Way of Life"
+    "Cómo dormir pasado el mediodía",
+    "Sobre pedos",
+    "Perder las llaves: Un estilo de vida"
    ],
    "us": false,
    "x": false
@@ -3271,11 +3271,11 @@
   {
    "id": "68708",
    "includesPlayerName": false,
-   "prompt": "Un anuncio de valla publicitaria de la autopista que lo haría precipitarse hacia la rampa de salida",
+   "prompt": "Un anuncio en la autopista que te haría correr hacia la rampa de salida",
    "safetyQuips": [
-    "Amish walnut bowls",
-    "the world's largest ball of used soap",
-    "a heavy petting zoo"
+    "tazones de nogal Amish",
+    "la mayor bola de jabón usado del mundo",
+    "un zoológico de mascotas pesadas"
    ],
    "us": true,
    "x": false
@@ -3283,11 +3283,11 @@
   {
    "id": "68709",
    "includesPlayerName": false,
-   "prompt": "Lo peor para leer en una pizarra al entrar en una sala de reuniones",
+   "prompt": "Lo peor que podrías leer en una pizarra al entrar en una sala de reuniones",
    "safetyQuips": [
-    "Next week: Layoffs",
-    "your home address",
-    "How to Synergize"
+    "Próxima semana: Despidos",
+    "la dirección de tu casa",
+    "Cómo crear sinergia"
    ],
    "us": false,
    "x": false
@@ -3297,9 +3297,9 @@
    "includesPlayerName": false,
    "prompt": "Una epifanía que tienes en tu reunión de secundaria de 20 años",
    "safetyQuips": [
-    "I married the wrong man",
-    "Life is meaningless",
-    "we looked younger 10 years ago"
+    "Me casé con el hombre equivocado",
+    "La vida no tiene sentido",
+    "parecíamos más jóvenes hace 10 años"
    ],
    "us": true,
    "x": false
@@ -3309,9 +3309,9 @@
    "includesPlayerName": false,
    "prompt": "El nombre de una comedia romántica donde dos pescadores se enamoran",
    "safetyQuips": [
-    "Deep Sea, Deeper Love, Deepest Lust",
-    "Fish For My Sweetheart",
-    "Hooked on You"
+    "Mar profundo, amor más profundo, la lujuria más profunda",
+    "Peces para mi amor",
+    "Mordió el anzuelo"
    ],
    "us": false,
    "x": false
@@ -3319,11 +3319,11 @@
   {
    "id": "68722",
    "includesPlayerName": false,
-   "prompt": "Deberían haber una actualizacion en <i>Stardew Valley</i> que te permita hacer <BLANK> en tu granja",
+   "prompt": "Debería haber una actualizacion en <i>Stardew Valley</i> que te permita hacer <BLANK> en tu granja",
    "safetyQuips": [
-    "eat bad fast food",
-    "breed giant rabbits",
-    "have fun"
+    "comer comida rápida en mal estado",
+    "criar conejos gigantes",
+    "divertirse"
    ],
    "us": false,
    "x": false
@@ -3334,7 +3334,7 @@
    "prompt": "La peor respuesta a “pasa el pack”",
    "safetyQuips": [
     "no hay pack",
-    "\"Esta es tu mamá.\""
+    "\"esta es tu mamá\""
    ],
    "us": false,
    "x": true
@@ -3342,11 +3342,11 @@
   {
    "id": "68743",
    "includesPlayerName": false,
-   "prompt": "Si un hombre usa esta palabra para describir un caballo, no debes comprarle un caballo.",
+   "prompt": "Si un hombre usa esta palabra para describir un caballo, no deberías comprarle un caballo.",
    "safetyQuips": [
-    "dripping",
-    "part cow",
-    "intoxicated"
+    "chorreante",
+    "mitad vaca",
+    "intoxicado"
    ],
    "us": false,
    "x": false
@@ -3354,11 +3354,11 @@
   {
    "id": "68752",
    "includesPlayerName": false,
-   "prompt": "Nunca debe firmar un documento que incluya la frase ...",
+   "prompt": "Nunca debes firmar un documento que incluya la frase...",
    "safetyQuips": [
-    "in case of oopsies",
-    "in exchange for your soul",
-    "no need for lawyers here"
+    "en caso de errores",
+    "a cambio de tu alma",
+    "no se necesitan abogados aquí"
    ],
    "us": false,
    "x": false
@@ -3366,11 +3366,11 @@
   {
    "id": "68768",
    "includesPlayerName": false,
-   "prompt": "Un candidato poco probable para el color del año de Pantone",
+   "prompt": "Un candidato improbable para el color del año de Pantone",
    "safetyQuips": [
-    "puce",
-    "three-week-old bruise",
-    "chicken nugget brown"
+    "morado",
+    "moretón de tres semanas",
+    "marrón de nugget de pollo"
    ],
    "us": false,
    "x": false
@@ -3380,9 +3380,9 @@
    "includesPlayerName": false,
    "prompt": "Lo mejor para salir de Nueva Jersey",
    "safetyQuips": [
-    "Bruce Springsteen cover bands",
-    "Rats from New York",
-    "A sandwich called \"The Hubcap\""
+    "Bandas tributo a Bruce Springsteen",
+    "Ratas de Nueva York",
+    "Un sándwich llamado \"El Tapón\""
    ],
    "us": true,
    "x": false
@@ -3390,11 +3390,11 @@
   {
    "id": "68777",
    "includesPlayerName": false,
-   "prompt": "El nombre de un periódico que solo informa sobre delitos sexys.",
+   "prompt": "El nombre de un periódico que solo informa sobre delitos sensuales",
    "safetyQuips": [
-    "The Prurient Picayune",
-    "The Tasty Times",
-    "The Miami Herald"
+    "El Lujurioso Insignificante",
+    "Los Tiempos Sabrosos",
+    "El Heraldo de Miami"
    ],
    "us": false,
    "x": true
@@ -3402,11 +3402,11 @@
   {
    "id": "68801",
    "includesPlayerName": false,
-   "prompt": "Una manera absolutamente fabulosa de morir",
+   "prompt": "Una manera absolutamente fabulooosa de morir",
    "safetyQuips": [
-    "by chocolate",
-    "Drowned, but in a cute bikini",
-    "Hit by a fully loaded SUV"
+    "con chocolate",
+    "Ahogada, pero con un bonito bikini",
+    "Atropellado por un todoterreno cargado"
    ],
    "us": false,
    "x": false
@@ -3416,9 +3416,9 @@
    "includesPlayerName": false,
    "prompt": "Cómo convertir la agricultura en “alta moda”",
    "safetyQuips": [
-    "models drive tractors",
-    "fill a cowboy hat with glitter",
-    "cornfield runways"
+    "modelos de tractores de arrastre",
+    "llenar un sombrero de vaquero con purpurina",
+    "pistas de aterrizaje en los campos de maíz"
    ],
    "us": false,
    "x": false
@@ -3426,11 +3426,11 @@
   {
    "id": "68804",
    "includesPlayerName": false,
-   "prompt": "Un efecto secundario impresionante del cambio climático, con suerte",
+   "prompt": "Un impresionante efecto secundario del cambio climático, con suerte",
    "safetyQuips": [
-    "people get nicer",
-    "water tastes better",
-    "polar bears come live with us and get jobs"
+    "la gente se vuelve más amable",
+    "el agua tiene mejor sabor",
+    "los osos polares vienen a vivir con nosotros y consiguen trabajo"
    ],
    "us": false,
    "x": false
@@ -3440,9 +3440,9 @@
    "includesPlayerName": false,
    "prompt": "Un uso radicalmente nuevo para una salsera",
    "safetyQuips": [
-    "a hat for a horse",
-    "fill it with vanilla pudding",
-    "a bath toy"
+    "de sombrero para un caballo",
+    "rellenarla con pudín de vainilla",
+    "un juguete de baño"
    ],
    "us": false,
    "x": false
@@ -3450,11 +3450,11 @@
   {
    "id": "68820",
    "includesPlayerName": false,
-   "prompt": "Este reloj de cuco es asqueroso. Cuando suena, en lugar de un pájaro sale un <BLANK>.",
+   "prompt": "Este reloj de cuco es asqueroso. Cuando suena, en lugar de un pájaro sale <BLANK>.",
    "safetyQuips": [
-    "dripping nose",
-    "Slimer figurine",
-    "film critic "
+    "una nariz goteante",
+    "figuritas de plastilina",
+    "un crítico de cine"
    ],
    "us": false,
    "x": false
@@ -3462,11 +3462,11 @@
   {
    "id": "68823",
    "includesPlayerName": false,
-   "prompt": "¡Los Keytars están fuera! El nuevo instrumento de combinación es el <BLANK>",
+   "prompt": "¡Los Keytars están fuera! El nuevo instrumento de combinación es <BLANK>",
    "safetyQuips": [
-    "double trumpet",
-    "tu-bass",
-    "singing at drums"
+    "la trompeta doble",
+    "la tubajo",
+    "cantando a la batería"
    ],
    "us": false,
    "x": false
@@ -3474,11 +3474,11 @@
   {
    "id": "68826",
    "includesPlayerName": false,
-   "prompt": "Una nueva característica del iPhone 37",
+   "prompt": "Una nueva función del iPhone 37",
    "safetyQuips": [
-    "skin implants",
-    "brain to brain texting",
-    "halfway decent coverage"
+    "implantes de piel",
+    "mensajes de texto de cerebro a cerebro",
+    "una cobertura medianamente decente"
    ],
    "us": false,
    "x": false
@@ -3488,9 +3488,9 @@
    "includesPlayerName": false,
    "prompt": "La última línea más decepcionante de una novela de misterio, probablemente",
    "safetyQuips": [
-    "We don't know who did it",
-    "It was all a dream",
-    "Oops."
+    "No sabemos quién lo hizo",
+    "Todo fue un sueño",
+    "Ups."
    ],
    "us": false,
    "x": false
@@ -3500,9 +3500,9 @@
    "includesPlayerName": false,
    "prompt": "¿Viste que van a tener una oferta de ese perfume fuera de marca, <BLANK>?",
    "safetyQuips": [
-    "Chanel No. 31",
+    "Chanel N° 31",
     "Eau de Bidet",
-    "Stained Linen"
+    "Lino Teñido"
    ],
    "us": false,
    "x": false
@@ -3512,9 +3512,9 @@
    "includesPlayerName": false,
    "prompt": "Nombre de un nuevo baile de TikTok por el que los niños están locos",
    "safetyQuips": [
-    "The Holding Hands",
-    "Triple Double Backflip Nova",
-    "Renegade II - The Renegadening "
+    "Las manos unidas",
+    "Salto mortal doble nova triple",
+    "Renegado II - La renegación"
    ],
    "us": false,
    "x": false
@@ -3522,11 +3522,11 @@
   {
    "id": "68847",
    "includesPlayerName": false,
-   "prompt": "Nombre para un programa de radio matutino verdaderamente insufrible",
+   "prompt": "Nombre para un programa de radio matutino realmente insufrible",
    "safetyQuips": [
-    "Slime Time Drive",
-    "Good Morning with Kathy and the Hog",
-    "Wake Up With Styx"
+    "La hora de la plastilina",
+    "Buenos días con Karen y el cerdo",
+    "Despierta con Styx"
    ],
    "us": false,
    "x": false
@@ -3534,10 +3534,10 @@
   {
    "id": "68851",
    "includesPlayerName": false,
-   "prompt": "Lo peor de estar en una cita con un hombre barbudo",
+   "prompt": "Lo peor de salir con un hombre con barba",
    "safetyQuips": [
-    "mustache jealousy",
-    "lost combs"
+    "celos del bigote",
+    "peines perdidos"
    ],
    "us": false,
    "x": false
@@ -3547,9 +3547,9 @@
    "includesPlayerName": false,
    "prompt": "Tu baño no está sucio, pero ha comenzado a crecer <BLANK>",
    "safetyQuips": [
-    "a vibrant personality",
-    "a mushroom kingdom",
-    "pods of lizards"
+    "una personalidad vibrante",
+    "un reino de hongos",
+    "vainas de lagartos"
    ],
    "us": false,
    "x": false
@@ -3557,11 +3557,11 @@
   {
    "id": "68854",
    "includesPlayerName": false,
-   "prompt": "Lo que dice la tabla de visión cuando el oculista te odia en secreto",
+   "prompt": "Lo que dice la tabla de visión cuando el oftalmólogo te odia en secreto",
    "safetyQuips": [
-    "I H 8 U",
-    "U R G A R B A G E",
-    "NICE EYES LOSER"
+    "B T A L V",
+    "K Y T E M B C I L",
+    "BONITOS OJOS PERDEDOR"
    ],
    "us": false,
    "x": false
@@ -3569,10 +3569,10 @@
   {
    "id": "68855",
    "includesPlayerName": false,
-   "prompt": "¿Por qué no quiere que lo encuentren el monstruo del lago Ness?",
+   "prompt": "¿Por qué el Monstruo del Lago Ness no quiere ser encontrado?",
    "safetyQuips": [
-    "world's largest introvert",
-    "doesn't like \"monster\" nickname"
+    "el mayor introvertido del mundo",
+    "no le gusta el apodo de \"monstruo\""
    ],
    "us": false,
    "x": false
@@ -3582,9 +3582,9 @@
    "includesPlayerName": false,
    "prompt": "El invento más inteligente de Euclides fue la geometría. Su invento más estúpido fue <BLANK>",
    "safetyQuips": [
-    "algebra",
-    "a boat for the land",
-    "chopsticks the size of toothpicks"
+    "el álgebra",
+    "un barco para andar en tierra",
+    "palillos chinos del tamaño de un mondadientes"
    ],
    "us": false,
    "x": false
@@ -3594,8 +3594,8 @@
    "includesPlayerName": false,
    "prompt": "Lo que dijo una mujer de las cavernas cuando creó fuego por primera vez",
    "safetyQuips": [
-    "sick!!",
-    "time to make banana bread"
+    "¡¡de lujo!!",
+    "hora de hacer pan de plátano"
    ],
    "us": false,
    "x": false
@@ -3603,10 +3603,10 @@
   {
    "id": "68867",
    "includesPlayerName": false,
-   "prompt": "Valhalla es el paraíso para los guerreros. Value City es el paraíso para <BLANK>",
+   "prompt": "El Valhalla es el cielo para los guerreros. Ciudad del Valor es el cielo para <BLANK>",
    "safetyQuips": [
-    "your mom",
-    "warriors"
+    "tu mamá",
+    "los guerreros"
    ],
    "us": true,
    "x": false
@@ -3616,8 +3616,8 @@
    "includesPlayerName": false,
    "prompt": "Algo que nunca debería decidirse lanzando una moneda",
    "safetyQuips": [
-    "baby name",
-    "court rulings"
+    "el nombre del bebé",
+    "sentencias judiciales"
    ],
    "us": false,
    "x": false
@@ -3627,9 +3627,9 @@
    "includesPlayerName": false,
    "prompt": "El próximo objetivo en el tablero de visión de Jeff Bezos",
    "safetyQuips": [
-    "YouTube stardom",
-    "a triple-decker yacht",
-    "buy a Christmas goose for a poor family"
+    "fama en YouTube",
+    "un yate de tres pisos",
+    "comprar un ganso de Navidad para una familia pobre"
    ],
    "us": false,
    "x": false
@@ -3637,11 +3637,11 @@
   {
    "id": "68893",
    "includesPlayerName": false,
-   "prompt": "Un juego al que solo juegas cuando estás realmente, realmente, realmente, REALMENTE aburrido",
+   "prompt": "Un juego al que solo juegas cuando estás muy, muy, muy, PERO MUY aburrido",
    "safetyQuips": [
-    "Don't Disturb Daddy's REM Cycle",
-    "Look-At-Stick",
-    "Tumbleweed Races"
+    "No perturbar el ciclo de sueño de papá",
+    "Mirar el palo",
+    "Carreras de planta rodadora"
    ],
    "us": false,
    "x": false
@@ -3651,9 +3651,9 @@
    "includesPlayerName": false,
    "prompt": "Algo que diría un profesor que intenta desesperadamente ser genial",
    "safetyQuips": [
-    "Phonics are radical, dude!",
-    "What's up, teen-agers?",
-    "I downloaded Snapchat!"
+    "¡La fonética es genialísima, amigo!",
+    "Yo también juego Valorant",
+    "¡Descargué Snapchat!"
    ],
    "us": false,
    "x": false
@@ -3661,10 +3661,10 @@
   {
    "id": "68898",
    "includesPlayerName": false,
-   "prompt": "¿Qué nueva regla haría que las MMA fueran más seguras?",
+   "prompt": "¿Qué nueva regla haría que las artes marciales mixtas fueran más seguras?",
    "safetyQuips": [
-    "juice breaks",
-    "3 doctors per fighter"
+    "pausas para tomar jugo",
+    "3 doctores por luchador"
    ],
    "us": false,
    "x": false
@@ -3672,10 +3672,10 @@
   {
    "id": "68912",
    "includesPlayerName": false,
-   "prompt": "Una inscripción común en la lápida de un pirata.",
+   "prompt": "Un epitafio común en la lápida de un pirata",
    "safetyQuips": [
-    "not in ship shape",
-    "buried with their parrot"
+    "no tiene forma de barco",
+    "enterrado con su loro"
    ],
    "us": false,
    "x": false
@@ -3683,10 +3683,10 @@
   {
    "id": "68931",
    "includesPlayerName": false,
-   "prompt": "Un personaje que realmente le daría vida a la Biblia",
+   "prompt": "Un personaje que realmente le daría vida a la biblia",
    "safetyQuips": [
-    "Spicy Jesus",
-    "Goofy and his dog Pluto"
+    "Jesús picante",
+    "Goofy y su perro Pluto"
    ],
    "us": false,
    "x": false
@@ -3696,9 +3696,9 @@
    "includesPlayerName": false,
    "prompt": "Una forma antigua de animar a tu amigo después de una ruptura",
    "safetyQuips": [
-    "roll her in a barrel into the river",
-    "make her a cake with gunpowder and beans",
-    "get back on a horse, literally"
+    "hacerla rodar en un barril hasta el río",
+    "hacerle una torta con pólvora y frijoles",
+    "volver a montar en un caballo, literalmente"
    ],
    "us": false,
    "x": false
@@ -3706,10 +3706,10 @@
   {
    "id": "68942",
    "includesPlayerName": false,
-   "prompt": "Una obra de Shakespeare escrita específicamente para contadores.",
+   "prompt": "Una obra de Shakespeare escrita específicamente para contadores",
    "safetyQuips": [
-    "Taming of the Spreadsheets",
-    "Twelfth Night of Auditing"
+    "Doma de las hojas de cálculo",
+    "La duodécima noche de la auditoría"
    ],
    "us": false,
    "x": false
@@ -3719,8 +3719,8 @@
    "includesPlayerName": false,
    "prompt": "El mejor plato que puedes preparar para impresionar a tu novio vampiro",
    "safetyQuips": [
-    "Slow-Roasted Carl",
-    "blood sausage"
+    "Carlos asado a fuego lento",
+    "morcilla"
    ],
    "us": false,
    "x": false
@@ -3728,11 +3728,11 @@
   {
    "id": "68949",
    "includesPlayerName": false,
-   "prompt": "Un sabor a jugo de vape hecho específicamente para personas mayores de 70 años.",
+   "prompt": "Un sabor de jugo de vape hecho específicamente para personas mayores de 70 años",
    "safetyQuips": [
-    "Werther's Original",
-    "Grandchildren-Visiting-Grape",
-    "bubblegum, but the old kind of bubblegum"
+    "Original de Werther",
+    "Uvas de nietos",
+    "chicle, pero la antigua clase de chicle"
    ],
    "us": false,
    "x": false
@@ -3742,9 +3742,9 @@
    "includesPlayerName": false,
    "prompt": "Un apodo para la marihuana que nunca se puso de moda",
    "safetyQuips": [
-    "Mr. Silly Leaf",
-    "Cousin Larry's medicine",
-    "The Big Scooby-Doo"
+    "Sra. Hoja Tonta",
+    "La medicina del primo Larry",
+    "El gran Scooby-Doo"
    ],
    "us": false,
    "x": false
@@ -3754,8 +3754,8 @@
    "includesPlayerName": false,
    "prompt": "Un nombre poco profesional para un canal de chat de oficina",
    "safetyQuips": [
-    "We hate Steven",
-    "Not Silly For Work"
+    "Odiamos a Rodrigo",
+    "No apropiado para el trabajo"
    ],
    "us": false,
    "x": false
@@ -3765,9 +3765,9 @@
    "includesPlayerName": false,
    "prompt": "Una ventaja inesperada de ser asistente de mago",
    "safetyQuips": [
-    "unlimited rabbits",
-    "free trunk to sleep in",
-    "Las Vegas vacations"
+    "conejos ilimitados",
+    "sombrero gratis para dormir",
+    "vacaciones en Las Vegas"
    ],
    "us": false,
    "x": false
@@ -3775,11 +3775,11 @@
   {
    "id": "68964",
    "includesPlayerName": false,
-   "prompt": "¡Tener cuidado! Una bruja me maldijo, y ahora estoy condenado a una vida de <BLANK>",
+   "prompt": "¡Cuidado! Una bruja me maldijo, y ahora estoy condenado a una vida de <BLANK>",
    "safetyQuips": [
-    "unconditional love ",
-    "ingrown toenails",
-    "bear attacks"
+    "amor incondicional",
+    "uñas encarnadas",
+    "ataques de oso"
    ],
    "us": false,
    "x": true
@@ -3787,10 +3787,10 @@
   {
    "id": "68969",
    "includesPlayerName": false,
-   "prompt": "¿Cuál es la tarea más desafiante cuando eres el manitas de una casa encantada?",
+   "prompt": "¿Cuál es la tarea más desafiante cuando eres el empleado de mantenimiento de una casa encantada?",
    "safetyQuips": [
-    "cleaning the ghoul-ters",
-    "patching the hole in this dimension"
+    "limpiar las brujalas",
+    "parchar el agujero en esta dimensión"
    ],
    "us": false,
    "x": false
@@ -3798,10 +3798,10 @@
   {
    "id": "68971",
    "includesPlayerName": false,
-   "prompt": "Prometo no decírselo a nadie ... pero en serio ... ¿con qué cosa matarías?",
+   "prompt": "Prometo no decírselo a nadie... pero en serio... ¿por qué matarías?",
    "safetyQuips": [
-    "two pizzas",
-    "pair of movie tickets"
+    "dos pizzas",
+    "un par de entradas de cine"
    ],
    "us": false,
    "x": false
@@ -3809,10 +3809,10 @@
   {
    "id": "68977",
    "includesPlayerName": false,
-   "prompt": "Una revista que no quiere ver en la sala de espera del consultorio de su médico",
+   "prompt": "Una revista que no quieres ver en la sala de espera del consultorio de tu doctor",
    "safetyQuips": [
-    "Medical Malpractice Today",
-    "What's a Leg?"
+    "Negligencia Médica Hoy en Día",
+    "¿Qué es una Pierna?"
    ],
    "us": false,
    "x": false
@@ -3820,10 +3820,10 @@
   {
    "id": "68978",
    "includesPlayerName": false,
-   "prompt": "Un comentario que te habría ofendido hace diez años, pero ahora te importa un c*rajo",
+   "prompt": "Un comentario que te habría ofendido hace diez años, pero ahora te importa una m*erda",
    "safetyQuips": [
-    "did you buy that at a thrift store?",
-    "you look older"
+    "¿lo compraste en una tienda de segunda mano?",
+    "pareces mayor"
    ],
    "us": false,
    "x": true
@@ -3831,10 +3831,10 @@
   {
    "id": "68979",
    "includesPlayerName": false,
-   "prompt": "La biblioteca local no quiere su donación de este libro.",
+   "prompt": "La biblioteca local no quiere que dones este libro",
    "safetyQuips": [
-    "Kenneth's Half Baked Ideas About Socialism",
-    "My Little Pony fan fiction from 2003",
+    "Las ideas a medias de Kenneth sobre el socialismo",
+    "Fanficción de My Little Pony de 2003",
     null
    ],
    "us": false,
@@ -3845,9 +3845,9 @@
    "includesPlayerName": false,
    "prompt": "La gente pagaría mucho dinero por ver imágenes históricas de <BLANK>",
    "safetyQuips": [
-    "Napoleon in the buff",
-    "Cleopatra without makeup",
-    "Mozart getting drunk"
+    "Napoleón desnudo",
+    "Cleopatra sin maquillaje",
+    "Mozart emborrachándose"
    ],
    "us": false,
    "x": false
@@ -3857,9 +3857,9 @@
    "includesPlayerName": false,
    "prompt": "En una sociedad justa, ¿cuál debería ser el castigo por tirar basura?",
    "safetyQuips": [
-    "no more hugs",
-    "immediate bee sting",
-    "nothing. I litter all the time!"
+    "no más abrazos",
+    "picadura de abeja inmediata",
+    "nada. ¡Yo tiro la basura todo el tiempo!"
    ],
    "us": true,
    "x": false
@@ -3867,11 +3867,11 @@
   {
    "id": "69",
    "includesPlayerName": false,
-   "prompt": "El peor nombre para una empresa de seguridad para el hogar",
+   "prompt": "El peor nombre para una empresa de seguridad doméstica",
    "safetyQuips": [
-    "KindaLast",
-    "Open Homes",
-    "Rock Key"
+    "AlgoSeguro",
+    "Hogares Abiertos",
+    "Llave de la Piedra"
    ],
    "us": false,
    "x": false
@@ -3879,10 +3879,10 @@
   {
    "id": "69002",
    "includesPlayerName": false,
-   "prompt": "Un nombre en clave que un espía nervioso se daría a sí mismo en su primera misión.",
+   "prompt": "Un nombre en clave que un espía nervioso se daría a sí mismo en su primera misión",
    "safetyQuips": [
-    "Daniel Notaspy",
-    "Henry B. Nicetome"
+    "Daniel Noespía",
+    "Enrique C. Infil Tra"
    ],
    "us": false,
    "x": false
@@ -3890,10 +3890,10 @@
   {
    "id": "69005",
    "includesPlayerName": false,
-   "prompt": "¿Qué suele evitar que regresen los bumeranes?",
+   "prompt": "¿Qué es lo que suele impedir que los bumeráns regresen?",
    "safetyQuips": [
-    "their pride",
-    "restraining order"
+    "su orgullo",
+    "orden de alejamiento"
    ],
    "us": false,
    "x": false
@@ -3901,10 +3901,10 @@
   {
    "id": "69010",
    "includesPlayerName": false,
-   "prompt": "¿Alguien podría decirme qué hace que los bateristas sean tan sexys?",
+   "prompt": "¿Alguien podría decirme qué hace que los bateristas sean tan sensuales?",
    "safetyQuips": [
-    "long arms",
-    "crush on Animal from the Muppets"
+    "brazos largos",
+    "mantienen el ritmo"
    ],
    "us": false,
    "x": true
@@ -3914,9 +3914,9 @@
    "includesPlayerName": false,
    "prompt": "El título de una serie web que nadie pidió",
    "safetyQuips": [
-    "The Secret Lives of Cartographers",
-    "Apartment Friends",
-    "Infected Piercings - Season Two"
+    "Las vidas secretas de los cartógrafos",
+    "Amigos del departamento",
+    "Piercings infectados - Temporada dos"
    ],
    "us": false,
    "x": false
@@ -3924,11 +3924,11 @@
   {
    "id": "69016",
    "includesPlayerName": false,
-   "prompt": "El mejor regalo de Navidad de 1910",
+   "prompt": "El mejor regalo de Navidad en 1910",
    "safetyQuips": [
-    "A new canary for your coal mine",
-    "A portable phonograph",
-    "A penicillin-of-the-month membership"
+    "Un nuevo canario para tu mina de carbón",
+    "Un fonógrafo portátil",
+    "Una afiliación a la penicilina del mes"
    ],
    "us": false,
    "x": false
@@ -3936,11 +3936,11 @@
   {
    "id": "69018",
    "includesPlayerName": false,
-   "prompt": "La mayor ventaja de vivir en una cueva.",
+   "prompt": "La mayor ventaja de vivir en una cueva",
    "safetyQuips": [
-    "All the bats you can eat",
-    "Weekly archaeologist visits",
-    "Save a fortune on sunscreen"
+    "Todos los murciélagos que puedas comer",
+    "Visitas semanales de arqueólogos",
+    "Ahorrar una fortuna en protección solar"
    ],
    "us": false,
    "x": false
@@ -3950,8 +3950,8 @@
    "includesPlayerName": false,
    "prompt": "¿Por qué la mayoría de los mimos terminan en el hospital?",
    "safetyQuips": [
-    "clowns",
-    "very loud explosions"
+    "payasos",
+    "explosiones muy fuertes"
    ],
    "us": false,
    "x": false
@@ -3961,8 +3961,8 @@
    "includesPlayerName": false,
    "prompt": "El nombre más confuso para un color de esmalte de uñas",
    "safetyQuips": [
-    "White Green",
-    "Not What You Pink It Is"
+    "Verde blanco",
+    "No puedes verde"
    ],
    "us": false,
    "x": false
@@ -3970,10 +3970,10 @@
   {
    "id": "69058",
    "includesPlayerName": false,
-   "prompt": "El científico probablemente tenía hambre cuando nombraron al pájaro que descubrieron <BLANK>",
+   "prompt": "El científico probablemente estaba hambriento cuando nombró <BLANK> al ave que descubrió",
    "safetyQuips": [
-    "the crested three-piece meal",
-    "the blue yum yum"
+    "la comida de tres piezas con cresta",
+    "el yum yum azul"
    ],
    "us": false,
    "x": false
@@ -3981,11 +3981,11 @@
   {
    "id": "69074",
    "includesPlayerName": false,
-   "prompt": "Una línea sólida para un jugador de hockey",
+   "prompt": "Una frase de coqueteo sólida para un jugador de fútbol",
    "safetyQuips": [
-    "You're my only goal tonight",
-    "Are you into ice?",
-    "you can body check me anytime"
+    "¡Vaya! Con esas delanteras acabarías goleándome",
+    "Eres tan bella como un gol al minuto 90",
+    "Entre todas las mujeres, eres un Mundial... Las demás son simples amistosos"
    ],
    "us": false,
    "x": false
@@ -3995,8 +3995,8 @@
    "includesPlayerName": false,
    "prompt": "El monumento al logro humano que los extraterrestres destruirán primero",
    "safetyQuips": [
-    "The GOOD Taco Bell",
-    "The secret pyramids"
+    "El BUEN Taco Bell",
+    "Las pirámides secretas"
    ],
    "us": false,
    "x": false
@@ -4004,10 +4004,10 @@
   {
    "id": "69079",
    "includesPlayerName": false,
-   "prompt": "Cuando la tierra sea polvo y las estrellas se apaguen, solo quedará una cosa ...",
+   "prompt": "Cuando la tierra sea polvo y las estrellas se consuman, solo quedará una cosa...",
    "safetyQuips": [
-    "a guy trying to give his opinion",
-    "toasters"
+    "un tipo que intenta dar su opinión",
+    "tostadoras"
    ],
    "us": false,
    "x": false
@@ -4015,10 +4015,10 @@
   {
    "id": "69081",
    "includesPlayerName": false,
-   "prompt": "¿Por qué Pac-Man y la Sra. Pac-Man finalmente se separaron?",
+   "prompt": "¿Por qué se separaron Pac-Man y la Sra. Pac-Man?",
    "safetyQuips": [
-    "ran out of quarters",
-    "can't recapture '80s magic"
+    "se quedaron sin monedas",
+    "no pueden recuperar la magia de los 80"
    ],
    "us": false,
    "x": false
@@ -4026,11 +4026,11 @@
   {
    "id": "69083",
    "includesPlayerName": false,
-   "prompt": "El extraño ritual de novatadas que los astronautas deben soportar en su primera misión espacial",
+   "prompt": "El extraño ritual de iniciación que los astronautas deben soportar en su primera misión espacial",
    "safetyQuips": [
-    "human dodgeball",
-    "sleeping upside down",
-    "blindfolded space walk"
+    "balón mano con humanos",
+    "dormir boca abajo",
+    "paseo espacial con los ojos vendados"
    ],
    "us": false,
    "x": false
@@ -4040,9 +4040,9 @@
    "includesPlayerName": false,
    "prompt": "Una buena señal de que tu abuela te odia",
    "safetyQuips": [
-    "Cross stitches \"You're No Good\"",
-    "Keeps calling you \"My only regret\"",
-    "Her apple pie is ticking"
+    "Teje \"No eres bueno\"",
+    "Sigue llamándote \"Mi único pesar\"",
+    "Su tarta de manzana hace tictac"
    ],
    "us": false,
    "x": false
@@ -4050,11 +4050,11 @@
   {
    "id": "69226",
    "includesPlayerName": false,
-   "prompt": "LO SIENTO CHICOzz, y0 AcciddeeeentaLLMENte d3rrAAAmEE3 <BLANK> EeeEEn MiII T3eCLaDOOoO",
+   "prompt": "Lo ZIENTO CHICOzz, AcciddeeeentaLLMENte d3rrAAAmEE3 <BLANK> EeeEEn MiII T3eCLaDOOoO",
    "safetyQuips": [
-    "hot milk",
-    "Mountain Dew Baja Blast",
-    "emotions"
+    "leche caliente",
+    "gaseosa de dieta",
+    "emociones"
    ],
    "us": false,
    "x": false
@@ -4064,9 +4064,9 @@
    "includesPlayerName": false,
    "prompt": "Sabes que eres adicto a Wikipedia cuando empiezas a leer sobre <BLANK>",
    "safetyQuips": [
-    "prominent Dutch hills",
-    "your own death",
-    "how sad whales are"
+    "colinas holandesas prominentes",
+    "tu propia muerte",
+    "lo tristes que son las ballenas"
    ],
    "us": false,
    "x": false
@@ -4076,9 +4076,9 @@
    "includesPlayerName": false,
    "prompt": "Sabrás que conociste a tu alma gemela cuando <BLANK>",
    "safetyQuips": [
-    "say \"hey soulmate\"",
-    "smell like your mom and your dad combined",
-    "make you feel like a cat fell asleep on your lap"
+    "dice \"oye, alma gemela\"",
+    "huele como tu mamá y tu papá combinados",
+    "te hace sentir como si un gato se hubiera dormido en tu regazo"
    ],
    "us": false,
    "x": false
@@ -4088,8 +4088,8 @@
    "includesPlayerName": false,
    "prompt": "Un nuevo juego de casino en el que definitivamente perderás dinero",
    "safetyQuips": [
-    "X-treme Rules Roulette",
-    "Blackjack II: Dealer's Choice"
+    "Ruletas con reglas X-tremas",
+    "Blackjack II: Elección del crupier"
    ],
    "us": false,
    "x": false
@@ -4097,11 +4097,11 @@
   {
    "id": "69320",
    "includesPlayerName": false,
-   "prompt": "Describe el modelo de la portada del calendario “Caballeros medievales de 1506”.",
+   "prompt": "Describe el modelo de la portada del calendario “Caballeros medievales de 1506”",
    "safetyQuips": [
-    "da Vinci in a thong",
-    "a blacksmith and his anvil",
-    "a dude with a longbow"
+    "da Vinci en tanga",
+    "un herrero y su yunque",
+    "un tipo con un arco largo"
    ],
    "us": false,
    "x": true
@@ -4111,9 +4111,9 @@
    "includesPlayerName": false,
    "prompt": "Una orden dada al perro más intelectual del mundo",
    "safetyQuips": [
-    "read Proust!",
-    "do the NY Times crossword",
-    "lecture on Marx"
+    "¡lee a Proust!",
+    "hacer el crucigrama del New York Times",
+    "da clases sobre Marx"
    ],
    "us": false,
    "x": false
@@ -4123,8 +4123,8 @@
    "includesPlayerName": false,
    "prompt": "La forma más radical y totalmente extrema de pedir perdón",
    "safetyQuips": [
-    "360 backflip over their heart",
-    "Apology poem on front lawn, on fire"
+    "salto mortal de 360° sobre su corazón",
+    "Poema de disculpa en el jardín delantero, en llamas"
    ],
    "us": false,
    "x": false
@@ -4132,11 +4132,11 @@
   {
    "id": "69338",
    "includesPlayerName": true,
-   "prompt": "Es solo cuestión de tiempo antes de que alguien revise el teléfono de <ANYPLAYER> y encuentre a <BLANK>",
+   "prompt": "Es solo cuestión de tiempo antes de que alguien revise el teléfono de <ANYPLAYER> y encuentre <BLANK>",
    "safetyQuips": [
-    "your memes",
-    "a second family",
-    "close-up nostril pics"
+    "tus memes",
+    "una segunda familia",
+    "fotos de pies en primer plano"
    ],
    "us": false,
    "x": false
@@ -4146,8 +4146,8 @@
    "includesPlayerName": false,
    "prompt": "La excusa menos convincente para ese chupetón",
    "safetyQuips": [
-    "fight with a vacuum cleaner",
-    "a successful science experiment"
+    "pelea con una aspiradora",
+    "un experimento científico exitoso"
    ],
    "us": false,
    "x": true
@@ -4155,11 +4155,11 @@
   {
    "id": "69361",
    "includesPlayerName": false,
-   "prompt": "Una señal segura de que su terapeuta ha dejado de escucharle",
+   "prompt": "Una señal segura de que tu terapeuta dejó de escucharte",
    "safetyQuips": [
-    "they call you mom",
-    "the snoring",
-    "they are eating a party sub"
+    "te llama mamá",
+    "los ronquidos",
+    "está comiendo un bocadillo de fiesta"
    ],
    "us": false,
    "x": false
@@ -4167,11 +4167,11 @@
   {
    "id": "69376",
    "includesPlayerName": false,
-   "prompt": "La gran participación de la audiencia en las proyecciones nocturnas de <i>El mago de Oz</i>",
+   "prompt": "La gran participación del público en las proyecciones nocturnas de <i>El mago de Oz</i>",
    "safetyQuips": [
-    "everyone throws straw",
-    "people yell \"Not in Kansas?\"",
-    "audience screams \"coward!\""
+    "todos tiran paja",
+    "la gente grita \"¿No está en Kansas?\"",
+    "el público grita \"¡cobarde!\""
    ],
    "us": false,
    "x": false
@@ -4181,9 +4181,9 @@
    "includesPlayerName": false,
    "prompt": "Una señal de que tu pareja romántica es en realidad un espantapájaros",
    "safetyQuips": [
-    "their kisses are super scratchy",
-    "they're always carrying that pole around",
-    "there are no crows in your bedroom "
+    "sus besos son super rasposos",
+    "siempre lleva esa asta a todas partes",
+    "no hay cuervos en tu habitación"
    ],
    "us": false,
    "x": false
@@ -4191,11 +4191,11 @@
   {
    "id": "69395",
    "includesPlayerName": false,
-   "prompt": "El título de la canción más de Bruce Springsteen que no existe",
+   "prompt": "El título de la canción como de Bruce Springsteen que no existe",
    "safetyQuips": [
-    "steel plant lovers",
-    "new jersey is my wife",
-    "a metaphor for america "
+    "amantes de la siderurgia",
+    "Nueva Jersey es mi esposa",
+    "una metáfora de Estados Unidos"
    ],
    "us": true,
    "x": false
@@ -4203,10 +4203,10 @@
   {
    "id": "69413",
    "includesPlayerName": false,
-   "prompt": "La mejor manera de distraer a un niño que recibe la vacuna contra la gripe",
+   "prompt": "La mejor manera de distraer a un niño que recibe la vacuna antigripal",
    "safetyQuips": [
-    "indoor fireworks",
-    "talking dog"
+    "fuegos artificiales de interior",
+    "perro parlante"
    ],
    "us": false,
    "x": false
@@ -4214,10 +4214,10 @@
   {
    "id": "69429",
    "includesPlayerName": false,
-   "prompt": "¿Qué escándalo sacudirá el Polo Norte este año?",
+   "prompt": "¿Qué escándalo sacudirá al Polo Norte este año?",
    "safetyQuips": [
-    "being bought out by Amazon",
-    "Santa's new coat made of reindeer fur"
+    "lo comprará Amazon",
+    "El nuevo abrigo de piel de reno de Papá Noel"
    ],
    "us": false,
    "x": false
@@ -4225,10 +4225,10 @@
   {
    "id": "69431",
    "includesPlayerName": false,
-   "prompt": "Cuando una estrella de rock pregunta: “¿¡Cómo están todos esta noche!?” ... nunca debes gritar “<BLANK>”",
+   "prompt": "Cuando una estrella de rock pregunta: “¡¿Cómo están esta noche?!”... nunca debes gritar de vuelta “<BLANK>”",
    "safetyQuips": [
-    "\"I have a cold!\"",
-    "\"Enough about me. How are you?\""
+    "\"¡Estoy resfriado!\"",
+    "\"Basta de hablar de mí. ¿Cómo estás tú?\""
    ],
    "us": false,
    "x": false
@@ -4238,9 +4238,9 @@
    "includesPlayerName": false,
    "prompt": "Una forma divertida de hacerle saber a tu pareja que “no estás de humor” esta noche",
    "safetyQuips": [
-    "leave the house",
-    "put a sign on your pants",
-    "pretend to not know them"
+    "sales de la casa",
+    "ponte un cartel en tus pantalones",
+    "finges no conocerlos"
    ],
    "us": false,
    "x": true
@@ -4250,8 +4250,8 @@
    "includesPlayerName": false,
    "prompt": "¿Qué fue lo SEGUNDO que dijo Alexander Graham Bell en la primera llamada telefónica?",
    "safetyQuips": [
-    "Can you hear me now?",
-    "Just text me."
+    "¿Me escuchas ahora?",
+    "Solo mensajéame."
    ],
    "us": false,
    "x": false
@@ -4259,11 +4259,11 @@
   {
    "id": "69447",
    "includesPlayerName": false,
-   "prompt": "Próximamente en BBC 4, la comedia nueva y extremadamente británica <BLANK>",
+   "prompt": "Próximamente en BBC 4, la nueva y extremadamente comedia de situación británica <BLANK>",
    "safetyQuips": [
-    "That's Not The Priest, It's Me Mum!",
-    "Two Dogs and A Soggy Mistress",
-    "Hartforshire-On-Green: The Early Years"
+    "No es el cura, ¡soy yo, mamá!",
+    "Dos perros y una ama de casa empapada",
+    "Hartforshire en verde: Los primeros años"
    ],
    "us": false,
    "x": false
@@ -4271,10 +4271,10 @@
   {
    "id": "69451",
    "includesPlayerName": false,
-   "prompt": "Bienvenido a la ciudad de Flangenheidenparanudevallen, que en inglés significa “<BLANK>”",
+   "prompt": "Bienvenido a la ciudad de Flangenheidenparanudevallen, que en español significa “<BLANK>”",
    "safetyQuips": [
     "Denver",
-    "The Town Near the Spring But Not Too Close "
+    "El pueblo cerca del manantial pero no demasiado cerca"
    ],
    "us": false,
    "x": true
@@ -4284,8 +4284,8 @@
    "includesPlayerName": false,
    "prompt": "¿Qué reseña se ajusta tanto a una película de gran éxito de verano como a tu última cita?",
    "safetyQuips": [
-    "\"Leave your brain at the door\"",
-    "\"Too many characters\""
+    "\"Deja tu cerebro en la puerta\"",
+    "\"Demasiados personajes\""
    ],
    "us": false,
    "x": false
@@ -4293,10 +4293,10 @@
   {
    "id": "69470",
    "includesPlayerName": false,
-   "prompt": "El nombre de un nuevo drama policial sobre el crimen en el cielo.",
+   "prompt": "El nombre de un nuevo drama policial sobre el crimen en el cielo",
    "safetyQuips": [
-    "CSI: (1000 Feet Above) Miami",
-    "Law & Order: Aerial Intent"
+    "CSI: (300 metros de altura) Miami",
+    "La ley y el orden: Intención aérea"
    ],
    "us": true,
    "x": false
@@ -4306,8 +4306,8 @@
    "includesPlayerName": false,
    "prompt": "Realmente deberían cancelar la clase de gimnasia de la escuela secundaria y reemplazarla con <BLANK>",
    "safetyQuips": [
-    "Pelotons for all students",
-    "a rousing game of checkers"
+    "Pelotones para todos los estudiantes",
+    "una partida de damas muy divertida"
    ],
    "us": true,
    "x": false
@@ -4317,8 +4317,8 @@
    "includesPlayerName": false,
    "prompt": "Una nueva tienda en el centro comercial que atiende a una clientela muy específica",
    "safetyQuips": [
-    "Gap Octogenarians",
-    "The Sword and Glass-Blown Dragon Statue Emporium"
+    "Octogenarios de la Brecha",
+    "El emporio de las estatuas de espadas y dragones de cristal"
    ],
    "us": false,
    "x": false
@@ -4326,10 +4326,10 @@
   {
    "id": "69501",
    "includesPlayerName": false,
-   "prompt": "Los clubes <BLANK> son los nuevos clubes de lectura",
+   "prompt": "Los clubes de <BLANK> son los nuevos clubes de lectura",
    "safetyQuips": [
     "Jackbox Games",
-    "hobbyist podcasts"
+    "pódcasts para aficionados"
    ],
    "us": false,
    "x": false
@@ -4337,11 +4337,11 @@
   {
    "id": "69502",
    "includesPlayerName": false,
-   "prompt": "Consejo de seguridad para el conductor: no es aconsejable operar un vehículo de motor y <BLANK> al mismo tiempo.",
+   "prompt": "Consejo de seguridad vial: no es aconsejable operar un vehículo motorizado y <BLANK> al mismo tiempo.",
    "safetyQuips": [
-    "do a complete makeover",
-    "ride a bicycle",
-    "take a quick nap"
+    "hacer un cambio de imagen completo",
+    "andar en bicicleta",
+    "tomar una siesta rápida"
    ],
    "us": false,
    "x": false
@@ -4349,10 +4349,10 @@
   {
    "id": "69503",
    "includesPlayerName": false,
-   "prompt": "Una dedicatoria sincera en un libro que haría que inmediatamente no quisiera leer el libro.",
+   "prompt": "Una dedicatoria sincera en un libro que haría que inmediatamente no quisieras leer el libro",
    "safetyQuips": [
-    "This one's for Kappa Kappa Delta! MA BOYSSS!",
-    "For Joseph Stalin, who really cared"
+    "¡Esta es para Kappa Kappa Delta! ¡MIZ CHICOSSS!",
+    "Para Iósif Stalin, a quien realmente le importaba"
    ],
    "us": false,
    "x": false
@@ -4362,8 +4362,8 @@
    "includesPlayerName": false,
    "prompt": "El nombre de un cortometraje pretencioso producido por un gato",
    "safetyQuips": [
-    "Spilled Cups of Water: A Meditation",
-    "Le Chat Ennui"
+    "Vasos de agua derramados: Una meditación",
+    "La fastidiosa conversación"
    ],
    "us": false,
    "x": false
@@ -4371,11 +4371,11 @@
   {
    "id": "69808",
    "includesPlayerName": false,
-   "prompt": "Se han dado reseñas mezcladas para la nueva serie <i>Meditaciones guiadas de 20 minutos con</i> <BLANK>",
+   "prompt": "Las críticas han sido variadas para la nueva serie <i>Meditaciones guiadas de 20 minutos con</i> <BLANK>",
    "safetyQuips": [
-    "nails on a chalkboard",
-    "an acid metal frontman",
-    "a rabid dog"
+    "uñas en una pizarra",
+    "un líder de metal ácido",
+    "un perro rabioso"
    ],
    "us": false,
    "x": false
@@ -4385,8 +4385,8 @@
    "includesPlayerName": false,
    "prompt": "¿Qué dijo Ricitos de Oro cuando se llevó a su cita a casa?",
    "safetyQuips": [
-    "That's juuust right.",
-    "Shh, I'm squatting in someone else's house."
+    "Peeerfecto.",
+    "Chsss, Estoy en cuclillas en la casa de otra persona."
    ],
    "us": false,
    "x": false
@@ -4396,9 +4396,9 @@
    "includesPlayerName": false,
    "prompt": "La frase favorita de tu profesor de geometría",
    "safetyQuips": [
-    "Will you be my cosign?",
-    "Our love is no theorem.",
-    "I think you're acute"
+    "Mi amor por ti es como pi, nunca termina",
+    "Nuestro amor no es un teorema.",
+    "Me encantaría estar en tu círculo cercano"
    ],
    "us": false,
    "x": false
@@ -4406,10 +4406,10 @@
   {
    "id": "69854",
    "includesPlayerName": false,
-   "prompt": "Curiosamente, el proyecto ganador de la Feria Mundial de la Ciencia es <BLANK>",
+   "prompt": "Curiosamente, el proyecto ganador de la Feria Mundial de Ciencia es <BLANK>",
    "safetyQuips": [
-    "\"The Tensile Strength of Charlotte's Web\"",
-    "\"How Many Books Can I Eat?\""
+    "\"La resistencia a la tracción de la telaraña de Charlotte\"",
+    "\"¿Cuántos libros puedo comer?\""
    ],
    "us": false,
    "x": false
@@ -4417,10 +4417,10 @@
   {
    "id": "69867",
    "includesPlayerName": false,
-   "prompt": "Pregunta seria: ¿quién es un buen chico? ¿Quién es un buen chico?",
+   "prompt": "Pregunta seria: ¿quién es un buen chico? ¿¿Quién es un buen chico??",
    "safetyQuips": [
-    "Me! Me me me!",
-    "My BFF"
+    "¡Yo! ¡Yo, yo, yo!",
+    "Mi mejor amigo"
    ],
    "us": false,
    "x": false
@@ -4428,11 +4428,11 @@
   {
    "id": "69875",
    "includesPlayerName": false,
-   "prompt": "Un titular que realmente le gustaría ver en el periódico de mañana",
+   "prompt": "Un titular que realmente te gustaría ver en el periódico de mañana",
    "safetyQuips": [
-    "All rivers now nacho cheese",
-    "All Alien Abduction Stories Proven True",
-    "Skinny Mirrors Are the Most Accurate"
+    "Ahora todos los ríos son de queso para nachos",
+    "Todas las historias de abducción extraterrestre probadas como verdaderas",
+    "Los espejos delgados son los más precisos"
    ],
    "us": false,
    "x": false
@@ -4442,8 +4442,8 @@
    "includesPlayerName": false,
    "prompt": "Un crossover de cómics por el que pagarías demasiado dinero para verlo en un cine",
    "safetyQuips": [
-    "Ant-Man vs. Batman",
-    "The Fantastic Four Meets Jesus"
+    "Ant-Man contra Batman",
+    "Los Cuatro Fantásticos conocen a Jesús"
    ],
    "us": false,
    "x": false
@@ -4453,8 +4453,8 @@
    "includesPlayerName": false,
    "prompt": "La lección más importante en una clase de redes sociales para personas mayores",
    "safetyQuips": [
-    "You don't have to forward everything",
-    "Instagram isn't real"
+    "No tienes que reenviar todo",
+    "Instagram no es real"
    ],
    "us": false,
    "x": false
@@ -4464,9 +4464,9 @@
    "includesPlayerName": false,
    "prompt": "Mark Zuckerberg probablemente tiene una carpeta en su escritorio con la etiqueta de “<BLANK>”",
    "safetyQuips": [
-    "everyone's info",
-    "how to smile",
-    "money burning vids"
+    "información de todos",
+    "cómo sonreír",
+    "videos de quema de dinero"
    ],
    "us": false,
    "x": false
@@ -4474,10 +4474,10 @@
   {
    "id": "69910",
    "includesPlayerName": false,
-   "prompt": "¡Fuimos tontos! Nunca deberíamos haber dado a las máquinas la capacidad de <BLANK>",
+   "prompt": "¡Fuimos tontos! Nunca debimos haberle dado a las máquinas la capacidad de <BLANK>",
    "safetyQuips": [
-    "insult our most beloved celebrities",
-    "recognize irony"
+    "insultar a nuestras celebridades más queridas",
+    "reconocer la ironía"
    ],
    "us": false,
    "x": false
@@ -4485,11 +4485,11 @@
   {
    "id": "69911",
    "includesPlayerName": false,
-   "prompt": "Una letra que nunca oirás en una canción punk rock",
+   "prompt": "Una frase que nunca escucharás en una canción de punk rock",
    "safetyQuips": [
-    "conformity has its merits",
-    "can I get that recipe?",
-    "my favorite tweed suit"
+    "la conformidad tiene sus méritos",
+    "¿puedo tener esa receta?",
+    "mi traje de gamuza favorito"
    ],
    "us": false,
    "x": false
@@ -4499,9 +4499,9 @@
    "includesPlayerName": false,
    "prompt": "Por qué nadie quiere ser compañero de cuarto de Sherlock Holmes",
    "safetyQuips": [
-    "Benedict Cumberbatch will steal your dates",
-    "he always knows who ate the salsa",
-    "secondhand pipe smoke"
+    "Benedict Cumberbatch se robará tus citas",
+    "siempre sabe quién se comió la salsa",
+    "tabaquismo pasivo"
    ],
    "us": false,
    "x": false
@@ -4509,11 +4509,11 @@
   {
    "id": "69922",
    "includesPlayerName": false,
-   "prompt": "Siendo realistas, el tercer cerdito debería haber hecho su casa con <BLANK>",
+   "prompt": "Siendo realistas, el tercer cerdito debería haber hecho su casa de <BLANK>",
    "safetyQuips": [
-    "metaphors",
-    "anti-wolf repellent ",
-    "a concrete structure with nice insulation"
+    "metáforas",
+    "repelente de lobos",
+    "una estructura de hormigón con un buen aislamiento"
    ],
    "us": false,
    "x": false
@@ -4523,9 +4523,9 @@
    "includesPlayerName": false,
    "prompt": "¡Humo verde sale por la chimenea de la Capilla Sixtina! Eso significa <BLANK>",
    "safetyQuips": [
-    "the Pope is Irish",
-    "someone's making a veggie stew",
-    "the Vatican's pipes are clogged"
+    "que el papa es irlandés",
+    "alguien está haciendo un guiso de verduras",
+    "las tuberías del Vaticano están obstruidas"
    ],
    "us": false,
    "x": false
@@ -4535,9 +4535,9 @@
    "includesPlayerName": false,
    "prompt": "Sería devastador que un dibujante de caricaturas te dibujara <BLANK>",
    "safetyQuips": [
-    "crying",
-    "being eaten by a tiger",
-    "giving a thumbs up"
+    "llanto",
+    "siendo comido por un tigre",
+    "levantando el pulgar"
    ],
    "us": false,
    "x": false
@@ -4547,9 +4547,9 @@
    "includesPlayerName": false,
    "prompt": "Esta simplemente no debería ser la imagen de un rompecabezas",
    "safetyQuips": [
-    "tiger eating dog eating rabbit eating bug",
-    "open heart surgery",
-    "a completely white square"
+    "tigre comiendo un perro comiendo un conejo comiendo un insecto",
+    "cirugía a corazón abierto",
+    "un cuadrado completamente blanco"
    ],
    "us": false,
    "x": false
@@ -4557,11 +4557,11 @@
   {
    "id": "70003",
    "includesPlayerName": false,
-   "prompt": "¡“sala de emergencias” es tan estresante! ¿Por qué no podemos simplemente llamarlo <BLANK>?",
+   "prompt": "¡“Sala de emergencias” es tan estresante! ¿Por qué no podemos simplemente llamarle <BLANK>?",
    "safetyQuips": [
-    "human reassembly line",
-    "a vet office but for people",
-    "hospital safe place"
+    "línea de reagrupación humana",
+    "un consultorio veterinario pero para personas",
+    "lugar seguro del hospital"
    ],
    "us": false,
    "x": false
@@ -4571,9 +4571,9 @@
    "includesPlayerName": true,
    "prompt": "El título de la gran novela estadounidense de <ANYPLAYER>",
    "safetyQuips": [
-    "A Tale of Two Kitties",
-    "The Scarlet Text Message",
-    "Septum Piercings In The Spring: A Memoir"
+    "Historia de dos maldades",
+    "La uretra escarlata",
+    "Piercings del tabique en primavera: Una memoria"
    ],
    "us": true,
    "x": false
@@ -4581,11 +4581,11 @@
   {
    "id": "70019",
    "includesPlayerName": false,
-   "prompt": "¡¡No puedes esquiar en esa montaña !! ¡Se llama <BLANK> por una razón!",
+   "prompt": "¡¡No puedes esquiar en esa montaña!! ¡Por algo se llama <BLANK>!",
    "safetyQuips": [
-    "Ski Mangler Pass",
-    "Spleen Buster Mountain",
-    "Avalanche Chute"
+    "Pase de Esquí Triturador",
+    "Montaña Destructor de Bazo",
+    "Paracaídas de las Avalanchas"
    ],
    "us": false,
    "x": false
@@ -4593,11 +4593,11 @@
   {
    "id": "70028",
    "includesPlayerName": false,
-   "prompt": "¿Qué es lo menos útil que puede hacer mientras ayuda a alguien a desactivar una bomba?",
+   "prompt": "¿Qué es lo menos útil que puedes hacer mientras ayudas a alguien a desactivar una bomba?",
    "safetyQuips": [
-    "eat very crunchy chips",
-    "practice making balloon animals",
-    "keep saying \"just cut the blue wire\""
+    "comer papas fritas muy crujientes",
+    "practicar hacer animales con globos",
+    "seguir diciendo \"solo corta el cable azul\""
    ],
    "us": false,
    "x": false
@@ -4607,9 +4607,9 @@
    "includesPlayerName": false,
    "prompt": "El título del video de YouTube con MÁS comentarios negativos",
    "safetyQuips": [
-    "\"Most beliefs are wrong\"",
-    "\"Watch me ignore a dog who wants pets\"",
-    "Michael Jordan was average"
+    "\"La mayoría de las creencias son erróneas\"",
+    "\"Mira cómo ignoro a un perro que quiere ser acariciado\"",
+    "Michael Jackson era mediocre"
    ],
    "us": false,
    "x": false
@@ -4617,11 +4617,11 @@
   {
    "id": "70033",
    "includesPlayerName": true,
-   "prompt": "Si no tienes un perro ... ¿por qué tienes esa casa para perros?",
+   "prompt": "Si no tienes un perro... ¿por qué tienes esa casa para perros?",
    "safetyQuips": [
-    "good real estate deal",
-    "It's a pig house!",
-    "sleeping quarters after tense board game night"
+    "buen acuerdo inmobiliario",
+    "¡Es una casa para cerdos!",
+    "dormitorios después de una tensa noche de juegos de mesa"
    ],
    "us": false,
    "x": false
@@ -4631,9 +4631,9 @@
    "includesPlayerName": false,
    "prompt": "¿Cómo pasan el tiempo un par de policías que no coinciden en una vigilancia?",
    "safetyQuips": [
-    "watching Lethal Weapon",
-    "falling in love",
-    "\"So how bout this weather, huh?\""
+    "viendo Arma Mortal",
+    "enamorarse",
+    "\"¿Qué tal el clima, eh?\""
    ],
    "us": false,
    "x": false
@@ -4643,8 +4643,8 @@
    "includesPlayerName": false,
    "prompt": "¿Cuál será la principal causa de muerte en 2200?",
    "safetyQuips": [
-    "ape revolution",
-    "need more Soylent Green"
+    "revolución de los simios",
+    "aburrimiento extremo"
    ],
    "us": false,
    "x": false
@@ -4654,8 +4654,8 @@
    "includesPlayerName": false,
    "prompt": "¿Para qué podría servir una aplicación llamada Squishlr?",
    "safetyQuips": [
-    "tracking dog poop",
-    "best places to buy slime"
+    "rastreo de caca de perro",
+    "encontrar lugares para presionar a la gente"
    ],
    "us": false,
    "x": false
@@ -4663,11 +4663,11 @@
   {
    "id": "70096",
    "includesPlayerName": false,
-   "prompt": "¿Cuál es la línea más suave que un jardinero puede ofrecer en una noche de solteros?",
+   "prompt": "¿Cuál es la frase más suave que un jardinero puede decir en una noche de solteros?",
    "safetyQuips": [
-    "Ever been to Eden? I have.",
-    "I'm weeding out the terrible dates",
-    "I promise I'm a perennial"
+    "¿Has estado alguna vez en el Edén? Yo sí.",
+    "Las rosas de mi jardín florecen en primavera, pero mi amor por ti florece la vida entera",
+    "No sabía que las rosas caminaban"
    ],
    "us": false,
    "x": false
@@ -4675,11 +4675,11 @@
   {
    "id": "70139",
    "includesPlayerName": false,
-   "prompt": "Para superar al troll de Internet debajo de este puente, debes responder a este acertijo ...",
+   "prompt": "Para superar al trol de internet debajo de este puente, debes responder a este acertijo...",
    "safetyQuips": [
-    "\"Why do I waste so much time on Twitter?\"",
-    "\"U up?\"",
-    "\"Why are hashtags on landline phones?\""
+    "\"¿Por qué pierdo tanto tiempo en Instagram?\"",
+    "\"¿Estás despierto?\"",
+    "\"¿Por qué hay hashtags en los teléfonos fijos?\""
    ],
    "us": false,
    "x": false
@@ -4689,9 +4689,9 @@
    "includesPlayerName": false,
    "prompt": "¿Qué causa de muerte es tanto una tragedia como una comedia?",
    "safetyQuips": [
-    "crushed by famous fat cat Garfield",
-    "clown car disaster",
-    "pratfall off cliff"
+    "aplastado por el famoso gato gordo Garfield",
+    "desastre con el auto de payasos",
+    "caída por el acantilado"
    ],
    "us": false,
    "x": false
@@ -4699,11 +4699,11 @@
   {
    "id": "70142",
    "includesPlayerName": false,
-   "prompt": "¿Cuál es la mayor diferencia entre pájaros y aviones?",
+   "prompt": "¿Cuál es la mayor diferencia entre aves y aviones?",
    "safetyQuips": [
-    "The Colonel can't season a plane",
-    "Planes don't perform live birth",
-    "birds aren't printed with Boeing logos"
+    "El coronel no puede sazonar un avión",
+    "Los aviones no dan a luz a un bebé vivo",
+    "Las aves no están impresos con los logotipos de Boeing"
    ],
    "us": false,
    "x": false
@@ -4713,9 +4713,9 @@
    "includesPlayerName": false,
    "prompt": "¿Qué calma a Hulk?",
    "safetyQuips": [
-    "The songs of Adele",
-    "box office numbers",
-    "seascapes sound machine"
+    "Las canciones de Adele",
+    "cifras de taquilla",
+    "máquina de sonido de paisajes marinos"
    ],
    "us": false,
    "x": false
@@ -4723,11 +4723,11 @@
   {
    "id": "70145",
    "includesPlayerName": false,
-   "prompt": "El primer astronauta en caminar sobre Marte hará esta famosa cita",
+   "prompt": "El primer astronauta en caminar sobre Marte dirá esta famosa cita",
    "safetyQuips": [
-    "\"The moon sucks\"",
-    "\"I'm not going back to Earth\"",
-    "\"It's not as red as I expected\""
+    "\"La luna apesta\"",
+    "\"No voy a volver a la Tierra\"",
+    "\"No es tan rojo como esperaba\""
    ],
    "us": false,
    "x": true
@@ -4735,11 +4735,11 @@
   {
    "id": "70150",
    "includesPlayerName": false,
-   "prompt": "¿Qué adorarías mientras tu líder hablaba con Dios en algún lugar de las montañas?",
+   "prompt": "¿A quién adorarías mientras tu líder hablaba con dios en algún lugar de las montañas?",
    "safetyQuips": [
-    "Golden calf every time, bro!",
-    "Zeus with a pinch of Pan for flair",
-    "cell phones, am I right"
+    "¡El becerro de oro siempre, hermano!",
+    "Zeus con una pizca de Pan para darle estilo",
+    "celulares, ¿o no?"
    ],
    "us": false,
    "x": false
@@ -4749,9 +4749,9 @@
    "includesPlayerName": false,
    "prompt": "Seamos honestos, sería difícil NO subir a una camioneta con <BLANK>",
    "safetyQuips": [
-    "a jacked wizard",
-    "a \"Free Tuition\" sign",
-    "a German chocolate cake"
+    "un mago de la juerga",
+    "un letrero de \"Matrícula gratis\"",
+    "una torta de chocolate alemán"
    ],
    "us": false,
    "x": false
@@ -4759,11 +4759,11 @@
   {
    "id": "70428",
    "includesPlayerName": false,
-   "prompt": "Una clara señal de que trajiste al bebé equivocado a casa desde el hospital",
+   "prompt": "Una clara señal de que trajiste a casa al bebé equivocado desde el hospital",
    "safetyQuips": [
-    "They're 24 years old",
-    "Has a pullstring in the back",
-    "They can levitate"
+    "Tiene 24 años",
+    "Tiene un cordón en la espalda",
+    "Puede levitar"
    ],
    "us": false,
    "x": false
@@ -4773,9 +4773,9 @@
    "includesPlayerName": false,
    "prompt": "Una cosa que es muchísimo más difícil de hacer si tienes diarrea",
    "safetyQuips": [
-    "say \"I don't have diarrhea\"",
-    "get constipated",
-    "deep power squats"
+    "decir \"no tengo diarrea\"",
+    "estreñirse",
+    "hacer sentadillas"
    ],
    "us": false,
    "x": false
@@ -4785,9 +4785,9 @@
    "includesPlayerName": false,
    "prompt": "La mejor excusa para ser un pésimo amante",
    "safetyQuips": [
-    "My school didn't have love classes",
-    "I'll be better once we achieve world peace",
-    "I'm not lousy, just ahead of my time"
+    "En mi escuela no había clases de amor",
+    "Seré mejor cuando logremos la paz mundial",
+    "No soy pésimo, sólo estoy adelantado a mi época"
    ],
    "us": false,
    "x": true
@@ -4797,9 +4797,9 @@
    "includesPlayerName": false,
    "prompt": "El consejo menos útil de <i>El arte de la guerra</i> de Sun Tzu",
    "safetyQuips": [
-    "War hard play hard",
-    "Remember to have fun!",
-    "Don't die"
+    "Guerra dura, juego duro",
+    "¡Recuerda divertirte!",
+    "No mueras"
    ],
    "us": false,
    "x": false
@@ -4809,9 +4809,9 @@
    "includesPlayerName": false,
    "prompt": "Lo único que siempre hará sonreír a un guardia del Palacio de Buckingham",
    "safetyQuips": [
-    "a baby's laughter",
-    "fart noises",
-    "timely observational comedy"
+    "un video de caídas",
+    "ruidos de pedos",
+    "oportuna comedia de observación"
    ],
    "us": false,
    "x": false
@@ -4821,9 +4821,9 @@
    "includesPlayerName": false,
    "prompt": "La principal cualidad que buscan los productores en un participante de un reality show",
    "safetyQuips": [
-    "unaware of the concept of shame",
-    "a real short fuse",
-    "a REAL housewife"
+    "desconocer el concepto de vergüenza",
+    "enojarse fácil",
+    "un ama de casa REAL"
    ],
    "us": false,
    "x": false
@@ -4831,7 +4831,7 @@
   {
    "id": "71165",
    "includesPlayerName": false,
-   "prompt": "El peor momento para conectar tu podcast",
+   "prompt": "El peor momento para promocionar tu pódcast",
    "safetyQuips": [
     "When a lifeguard is saving you",
     "During open heart surgery",
@@ -4843,11 +4843,11 @@
   {
    "id": "71228",
    "includesPlayerName": false,
-   "prompt": "Una enmienda que agregaría a la Constitución de EE. UU.",
+   "prompt": "Una enmienda que agregarías a la Constitución de EE. UU.",
    "safetyQuips": [
-    "Elections determined by mud wrestling",
-    "Taco Tuesday enshrined in law",
-    "Supreme Court must issue verdicts in song"
+    "Elecciones determinadas por la lucha en el lodo",
+    "Martes de taco consagrado en la ley",
+    "La Corte Suprema debe emitir veredictos cantados"
    ],
    "us": true,
    "x": false
@@ -4855,11 +4855,11 @@
   {
    "id": "71315",
    "includesPlayerName": false,
-   "prompt": "La forma más evasiva de decir “te amo”",
+   "prompt": "La forma más indiferente de decir “Te quiero",
    "safetyQuips": [
-    "ya know, you're alright",
-    "I love... texting you",
-    "OMG, you're so funny"
+    "tú sabes, estás bien",
+    "Te quiero... enviar un mensaje",
+    "Oh, cielos, eres muy gracioso"
    ],
    "us": false,
    "x": false
@@ -4869,9 +4869,9 @@
    "includesPlayerName": false,
    "prompt": "Una cosa de “chico genial” para decir cuando tropiezas y caes",
    "safetyQuips": [
-    "you didn't see anything!!!",
-    "what? I meant to do that.",
-    "hey, look at this ant!"
+    "¡¡¡no vieron nada!!!",
+    "¿qué? Yo quería hacer eso.",
+    "Oigan, ¡miren esta hormiga!"
    ],
    "us": false,
    "x": false
@@ -4879,11 +4879,11 @@
   {
    "id": "79",
    "includesPlayerName": false,
-   "prompt": "Algo que nunca querrás escuchar gritar desde la cocina de un restaurante",
+   "prompt": "Algo que nunca quieres oír que griten desde la cocina de un restaurante",
    "safetyQuips": [
-    "It's loose!!!",
-    "It's only been down there for an hour, it's fine",
-    "What is this bur-ger you speak of?"
+    "¡¡¡Está suelto!!!",
+    "Solo ha estado ahí abajo durante una hora, está bien",
+    "¡Otra vez entró el ratón!"
    ],
    "us": false,
    "x": false
@@ -4891,11 +4891,11 @@
   {
    "id": "80",
    "includesPlayerName": true,
-   "prompt": "Probablemente haya una imagen de Google Earth de <ANYPLAYER> que los vea haciendo <BLANK>",
+   "prompt": "Probablemente haya una imagen de <ANYPLAYER> en Google Earth en la que se le ve <BLANK>",
    "safetyQuips": [
-    "being super cool",
-    "eating a pint of ice cream",
-    "absolutely crushing it"
+    "super genial",
+    "comiendo un litro de helado",
+    "vestido de pollo"
    ],
    "us": false,
    "x": false
@@ -4905,9 +4905,9 @@
    "includesPlayerName": false,
    "prompt": "Algo que Gwyneth Paltrow tiene en su mesita de noche, probablemente",
    "safetyQuips": [
-    "the Ark of the Covenant",
-    "egg whites",
-    "all sorts of \"special\" eggs"
+    "el Arca de la Alianza",
+    "claras de huevo",
+    "toda clase de huevos \"especiales\""
    ],
    "us": false,
    "x": false
@@ -4917,9 +4917,9 @@
    "includesPlayerName": false,
    "prompt": "La dirección de correo electrónico más vergonzosa para incluir en un currículum laboral",
    "safetyQuips": [
-    "info@ihavehairplugs.biz",
-    "please@givemeajob.com",
-    "spot@emailsfordogs.woof"
+    "info@tengoimplantesdepelo.net",
+    "porfavor@denmetrabajo.com",
+    "punto@correosparaperros.guau"
    ],
    "us": false,
    "x": false
@@ -4929,9 +4929,9 @@
    "includesPlayerName": false,
    "prompt": "La verdadera razón por la que los tiburones no irán a tierra",
    "safetyQuips": [
-    "the McRib isn't back yet",
-    "pro-fish propaganda",
-    "too short to ride roller coasters"
+    "la McCostilla no ha vuelto aún",
+    "propaganda pro-pesca",
+    "demasiado cortos para subir a las montañas rusas"
    ],
    "us": false,
    "x": false
@@ -4939,11 +4939,11 @@
   {
    "id": "98",
    "includesPlayerName": false,
-   "prompt": "Si hubiera unos Juegos Olímpicos de otoño, el deporte más peligroso sería <BLANK>",
+   "prompt": "Si existieran los Juegos Olímpicos de Otoño, el deporte más peligroso sería <BLANK>",
    "safetyQuips": [
-    "extreme pumpkin carving",
-    "synchronized apple picking",
-    "head-to-head leaf blowing"
+    "tallado extremo de calabazas",
+    "recogida sincronizada de manzanas",
+    "soplado de hojas cara a cara"
    ],
    "us": false,
    "x": false

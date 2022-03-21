@@ -776,7 +776,7 @@
   {
    "id": "360",
    "includesPlayerName": false,
-   "prompt": "Los casinos odian cuando te acercas a la mesa de blackjack y gritas: “<BLANK>!”",
+   "prompt": "Los casinos odian cuando te acercas a la mesa de blackjack y gritas: “¡<BLANK>!”",
    "safetyQuips": [
     "¡Hoyo en uno!",
     "¡Conozco la teoría del juego!",
@@ -1291,7 +1291,7 @@
   {
    "id": "57",
    "includesPlayerName": false,
-   "prompt": "Una advertencia que debería venir con el alcohol: “Puede causar <BLANK>!”",
+   "prompt": "Una advertencia que debería venir con el alcohol: “¡Puede causar <BLANK>!”",
    "safetyQuips": [
     "Promesas vacías",
     "Decepción",
@@ -1327,7 +1327,7 @@
   {
    "id": "58",
    "includesPlayerName": false,
-   "prompt": "Un recordatorio que aparece en el teléfono del diablo: “Recuerda <BLANK> hoy!”",
+   "prompt": "Un recordatorio que aparece en el teléfono del diablo: “¡Recuerda <BLANK> hoy!”",
    "safetyQuips": [
     "sonreír",
     "conseguir un regalo de cumpleaños al hijo de dios",

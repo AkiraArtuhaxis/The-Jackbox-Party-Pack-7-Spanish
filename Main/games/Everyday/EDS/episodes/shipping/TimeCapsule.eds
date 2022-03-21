@@ -1,7 +1,7 @@
 DEF EPISODE "TimeCapsule"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "El tiempo nos convierte a todos en espíritus"
+    SET NAME "El tiempo nos convierte en espíritus"
     SET DESCRIPTION "Las <font color='#AF0000'>cápsulas del tiempo</font> ayudan a que tu yo del futuro recuerde el pasado poniendo tus intereses pasados en un tubo para el futuro. Esta semana, la familia se hace un regalo que no abrirá hasta en 15 años más."
     SET SUCCESS_MESSAGE "¡No solo estábamos encantados con la cápsula de tiempo que ensamblaron, sino que la antigua que cavaste contenía cientos de acciones en Computadores Pear! ¡Somos ricos! Te enviaremos un 2% en concepto de comisión de búsqueda."
     SET FAILURE_MESSAGE "Parece que tienen el doble de basura que antes, agujeros por todo el patio trasero, y algo que cavaron murió hace décadas."

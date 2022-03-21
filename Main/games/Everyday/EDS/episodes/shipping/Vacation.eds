@@ -1,7 +1,7 @@
 DEF EPISODE "Vacation"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Los demonios se toman unas vacaciones"
+    SET NAME "Los demonios se van de vacaciones"
     SET DESCRIPTION "¡La familia ha ganado unas lujosas <font color='#AF0000'>vacaciones en París</font>! Solo hay un inconveniente: Tienen una sola semana para prepararse para el viaje."
     SET SUCCESS_MESSAGE "Nos alegramos de oír que la visita a París fue un éxito rotundo. Sobrevivir unas vacaciones con sus familiares directos es un hito humano fundamental. ¡No olvides aburrir a tus vecinos con las diapositivas!"
     SET FAILURE_MESSAGE "París es tan hermosa en esta época del año. Probablemente. Nunca lo sabrán ya que su mala planificación les hizo perder el vuelo."

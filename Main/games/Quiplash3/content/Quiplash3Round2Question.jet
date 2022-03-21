@@ -2430,7 +2430,7 @@
   {
    "id": "68409",
    "includesPlayerName": true,
-   "prompt": "Si <ANYPLAYER> tuviera un lema, sería...",
+   "prompt": "Si <ANYPLAYER> tuviera una frase célebre, sería...",
    "safetyQuips": [
     "¡Soy el maestro del amor!",
     "solo un poco desafinado, manito",
@@ -3010,11 +3010,11 @@
   {
    "id": "68598",
    "includesPlayerName": false,
-   "prompt": "La galleta de la fortuna más memorable: vas a hacer <BLANK>… en la cama.",
+   "prompt": "La galleta de la fortuna más memorable: vas a <BLANK>… en la cama.",
    "safetyQuips": [
-    "duerme más que suficiente",
-    "escala el Monte Everest",
-    "ve todos los episodios de Shingeki no Kyojin"
+    "dormir más que lo suficiente",
+    "escalar el Monte Everest",
+    "ver todos los episodios de Shingeki no Kyojin"
    ],
    "us": false,
    "x": false

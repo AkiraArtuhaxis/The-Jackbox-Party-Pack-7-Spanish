@@ -943,7 +943,7 @@
    "safetyQuips": [
     "Soy el rey del mundo|Larga vida|Estoy embarazada",
     "Soy libre|Te amo|Perdí mi contacto",
-    "¡Sara!|La verdad está ahí afuera|Riiiiiiicola!"
+    "¡Sara!|La verdad está ahí afuera|¡Riiiiiiicola!"
    ],
    "us": false,
    "x": false
@@ -2826,7 +2826,7 @@
    "includesPlayerName": false,
    "prompt": "Tres cosas raras para que un fisicoculturista grite mientras hace algunas sentadillas pesadas",
    "safetyQuips": [
-    "¡Mostaza!|Kétchup!|¡Rico!",
+    "¡Mostaza!|¡Kétchup!|¡Rico!",
     "¡Mi sótano tiene fugas!|¡Necesito una empresa de reparaciones!|¡¿Alguna recomendación?!",
     "¡Este|gimnasio|está embrujado!"
    ],

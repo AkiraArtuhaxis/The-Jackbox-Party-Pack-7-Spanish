@@ -826,11 +826,11 @@
   {
    "id": "337",
    "includesPlayerName": false,
-   "prompt": "Nombre para una broma de pijamas que es un poco cruel",
+   "prompt": "Nombre para una broma de pijamada que es un poco muy cruel",
    "safetyQuips": [
-    "Making someone's whole family pee their pants",
-    "7 Minutes In The Haunted Shack",
-    "Steal grandma's teeth"
+    "Hacer que todos en una familia se hagan pipí",
+    "7 minutos en la casa embrujada",
+    "Robar los dientes de la abuela"
    ],
    "us": false,
    "x": false

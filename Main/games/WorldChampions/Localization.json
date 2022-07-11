@@ -104,7 +104,7 @@
             "SKIP_TUTORIALS_DESCRIPTION": "Omite las secciones de tutorial.",
 
             "FAMILY_FRIENDLY": "Para toda la familia",
-            "FAMILY_FRIENDLY_DESCRIPTION": "Evita el contenido más provocativo del juego. Para controlar las acciones de los jugadores, usa MODERACIÓN o el FILTRO DE LENGUAJE SOEZ.",
+            "FAMILY_FRIENDLY_DESCRIPTION": "Evita el contenido más provocativo del juego. Para controlar las acciones de los jugadores, usa MODERACIÓN o el FILTRO DE LENGUAJE VULGAR.",
 
             "FILTER_PLAYERNAME": "Filtrar enunciados con nombre de jugador",
             "FILTER_PLAYERNAME_DESCRIPTION": "Elimina los enunciados que mencionen a un jugador de la partida.",
@@ -124,10 +124,10 @@
             "STATIC_BACKGROUNDS": "Sensibilidad al movimiento",
             "STATIC_BACKGROUNDS_DESCRIPTION": "Reduce la sensibilidad al movimiento con fondos menos animados.",
 
-            "PLAYER_CONTENT_FILTERING": "Filtro de lenguaje soez",
+            "PLAYER_CONTENT_FILTERING": "Filtro de lenguaje vulgar",
             "PLAYER_CONTENT_FILTERING_OFF_DESCRIPTION": "No se habilita el filtrado de texto.",
-            "PLAYER_CONTENT_FILTERING_HATE_SPEECH_DESCRIPTION": "Palabras usadas en una manera de odio no podrán ser enviadas. Se permite el lenguaje soez.",
-            "PLAYER_CONTENT_FILTERING_PROFANITY_DESCRIPTION": "Palabras usadas en una manera de odio y lenguaje soez no podrán ser enviados.",
+            "PLAYER_CONTENT_FILTERING_HATE_SPEECH_DESCRIPTION": "Palabras usadas en una manera de odio no podrán ser enviadas. Se permite el lenguaje vulgar.",
+            "PLAYER_CONTENT_FILTERING_PROFANITY_DESCRIPTION": "Palabras usadas en una manera de odio y lenguaje vulgar no podrán ser enviados.",
             "PLAYER_CONTENT_FILTERING_OFF": "No",
             "PLAYER_CONTENT_FILTERING_HATE_SPEECH": "Moderado",
             "PLAYER_CONTENT_FILTERING_PROFANITY": "Estricto",

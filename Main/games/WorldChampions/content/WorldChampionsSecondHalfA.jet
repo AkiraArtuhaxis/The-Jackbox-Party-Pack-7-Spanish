@@ -419,8 +419,8 @@
    "x": true
   },
   {
-   "contest": "El campeón de las halucinaciones",
-   "gameText": "Halucinaciones",
+   "contest": "El campeón de las alucinaciones",
+   "gameText": "Alucinaciones",
    "id": "71946",
    "includesPlayerName": false,
    "linkedPrompts": [
@@ -1300,7 +1300,7 @@
   },
   {
    "contest": "El campeón del miedo escénico",
-   "gameText": "Stage Fright",
+   "gameText": "Miedo escénico",
    "id": "73978",
    "includesPlayerName": false,
    "linkedPrompts": [
@@ -1377,7 +1377,7 @@
   },
   {
    "contest": "El campeón de ficción para jóvenes adultos",
-   "gameText": "Young Adult Fiction",
+   "gameText": "Ficción para jóvenes adultos",
    "id": "74093",
    "includesPlayerName": false,
    "linkedPrompts": [
@@ -1926,8 +1926,8 @@
    "x": true
   },
   {
-   "contest": "El campeón del chusmerío",
-   "gameText": "Chusmerío",
+   "contest": "El campeón del chismorreo",
+   "gameText": "Chismorreo",
    "id": "74726",
    "includesPlayerName": false,
    "linkedPrompts": [
@@ -2003,8 +2003,8 @@
    "x": true
   },
   {
-   "contest": "El campeón de las halucinaciones",
-   "gameText": "Halucinaciones",
+   "contest": "El campeón de las alucinaciones",
+   "gameText": "Alucinaciones",
    "id": "74738",
    "includesPlayerName": false,
    "linkedPrompts": [

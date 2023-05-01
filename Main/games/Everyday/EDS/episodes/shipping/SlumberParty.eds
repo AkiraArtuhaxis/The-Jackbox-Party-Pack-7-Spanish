@@ -2,9 +2,9 @@ DEF EPISODE "SlumberParty"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Pijamada y afuera"
-    SET DESCRIPTION "El hijo menor de la familia está organizando su primera <font color='#AF0000'>pijamada</font>. ¿Podrán manejar la anarquía pura de 8 niños con la oscuridad de la cobertura? Este es un desafío de la noche a la mañana, así que volveremos temprano para ver cómo les fue."
+    SET DESCRIPTION "El hijo menor de la familia está organizando su primera <font color='#AF0000'>pijamada</font>. ¿Podrán lidiar con la anarquía pura de 8 niños con la oscuridad de la cobertura? Este es un desafío de la noche a la mañana, así que volveremos temprano para ver cómo les fue."
     SET SUCCESS_MESSAGE "¡Nos alegramos de escuchar que todos durmieron la enorme cantidad de tres horas y media! Crearon una tarde de malas conductas menores, flujos de sangre cafeinados y gritos de madrugada. Al igual que cualquier pijamada humana."
-    SET FAILURE_MESSAGE "Como dice el refrán, 'El infierno son cuatro niños'. No deberíamos sorprendernos de que alojar a ocho era más de lo que cualquier diablo podría aguantar. No solo los otros padres están sospechando de que tan faltos de sueño están sus hijos, ellos podrían haber jurado que estaban mucho menos 'poseídos por el demonio' cuando los pasaron a dejar."
+    SET FAILURE_MESSAGE "Como dice el refrán, 'El infierno son cuatro niños'. No deberíamos sorprendernos de que alojar a ocho era más de lo que cualquier diablo podría aguantar. No solo los otros padres están sospechando de qué tanta falta de sueño tienen sus hijos, ellos podrían haber jurado que estaban mucho menos 'poseídos por el demonio' cuando los pasaron a dejar."
 
 
     REM : ------------------------------

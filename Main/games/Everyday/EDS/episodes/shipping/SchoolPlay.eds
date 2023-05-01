@@ -2,9 +2,9 @@ DEF EPISODE "SchoolPlay"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Interpretando el papel"
-    SET DESCRIPTION "La escuela primaria está montando una producción de 'Un tranvía llamado Tranvía #124B.' ¿Será la familia la <font color='#AF0000'>estrella del espectáculo</font>, o se verán obligados a 'apagar la oscuridad'?"
-    SET SUCCESS_MESSAGE "¡Escuchamos que algunas 'Bravas' y 'Bravissimas' están en orden! El espectáculo fue una exhibición trascendente del teatro moderno. Gracias por traer entretenimiento humano a una clase muy necesitada."
-    SET FAILURE_MESSAGE "Parece que a las docenas de críticos de teatro que enviamos NO les interesó su 'producción'. Debido a su pequeño truco, el club de drama se vio forzado a disolverse completamente. ¿Están felices? ¡Ahora son una escuela de FÚTBOL!"
+    SET DESCRIPTION "La escuela primaria está montando una producción de 'Un tranvía llamado Tranvía #124B'. ¿Serán los miembros de la familia las <font color='#AF0000'>estrellas del espectáculo</font>, o se verán obligados a 'apagar la oscuridad'?"
+    SET SUCCESS_MESSAGE "¡Escuchamos que algunas 'Bravos' y 'Bravísimos' están en orden! El espectáculo fue una exhibición trascendente del teatro moderno. Gracias por traer entretenimiento humano a una clase muy necesitada."
+    SET FAILURE_MESSAGE "Parece que a las docenas de críticos de teatro que enviamos NO les interesó su 'producción'. Debido a su pequeño truco, el club de drama se vio forzado a disolverse completamente. ¿Están felices? ¡Ahora es una escuela de FÚTBOL!"
 
 
     REM : ------------------------------

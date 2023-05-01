@@ -1,10 +1,10 @@
 DEF EPISODE "SkipDay"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Faltar a clases"
+    SET NAME "Toda una falta"
     SET DESCRIPTION "Han sido un par de meses largos, por lo que todos los miembros de la familia deciden tener su propio pequeño <font color='#AF0000'>día de falta</font>. ¿Disfrutarán de un solo momento de privacidad por una vez en sus vidas?"
     SET SUCCESS_MESSAGE "Nuestros pajarillos nos dijeron que parecían descansados, relajados, y recuperados el día después de sus misteriosas 'enfermedades'. Ciertamente NO sospechamos."
-    SET FAILURE_MESSAGE "Buen movimiento, chico flojo. No solo les atraparon en el acto de camuflar sus responsabilidades, si no que te enfermaste de VERDAD por todo el estrés."
+    SET FAILURE_MESSAGE "Buen movimiento, chicos flojos. No solo los atraparon en el acto de camuflar sus responsabilidades, sino que se enfermaron de VERDAD por todo el estrés."
 
 
     REM : ------------------------------

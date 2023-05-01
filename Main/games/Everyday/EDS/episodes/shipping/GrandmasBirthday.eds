@@ -2,9 +2,9 @@ DEF EPISODE "GrandmasBirthday"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Un demonio para cenar"
-    SET DESCRIPTION "Es el <font color='#AF0000'>cumpleaños 666 de la abuela Pazuzu</font>, y aunque es un demonio de tres cabezas a quien nadie le gusta, la familia le está armando una fiesta."
-    SET SUCCESS_MESSAGE "Estuvimos encantados de escuchar que la fiesta de cumpleaños 666 de la abuela Pazuzu se realizó sin problemas. Celebrar el cumpleaños de un pariente molesto es una larga tradición humana, muy parecida a los picnics de oficina y a fingir que te gustan los suéteres caseros."
-    SET FAILURE_MESSAGE "Nos hemos dado cuenta de que el cumpleaños de la abuela Pazuzu fue un desastre total. Nuestras plantas en su asilo nos dicen que para de hablar sobre la terrible experiencia que tuvo. Solo un aviso, no esperen ver ninguno de sus nombres en el testamento."
+    SET DESCRIPTION "Es el <font color='#AF0000'>cumpleaños número 666 de la abuela Pazuzu</font>, y aunque es un demonio de tres cabezas a quien nadie le agrada, la familia le está armando una fiesta."
+    SET SUCCESS_MESSAGE "Estuvimos encantados de escuchar que la fiesta de cumpleaños número 666 de la abuela Pazuzu se realizó sin problemas. Celebrar el cumpleaños de un pariente molesto es una larga tradición humana, muy parecida a los picnics de oficina y a fingir que te gustan los suéteres caseros."
+    SET FAILURE_MESSAGE "Nos hemos dado cuenta de que el cumpleaños de la abuela Pazuzu fue un desastre total. Nuestras plantas en su asilo nos dicen que no para de hablar sobre la terrible experiencia que tuvo. Solo un aviso, no esperen ver ninguno de sus nombres en el testamento."
 
     REM : ------------------------------
 

@@ -3,8 +3,8 @@ DEF EPISODE "Mystery"
     SET EMERGENCY "EmergencyTasks"
     SET NAME "El caso del suburbio embrujado"
     SET DESCRIPTION "El vecindario está en suspenso después de múltiples informes de un <font color='#AF0000'>viejo capitán de barco fantasmal</font> que ronda las calles por la noche. Depende de la familia <font color='#AF0000'>resolver este misterio</font>. Sobre todo porque nadie más quiere."
-    SET SUCCESS_MESSAGE "Nos alegramos de leer que han acabado con el falso reinado de terror del fantasma. El mundo humano tiene que lidiar con un viejo cascarrabias menos."
-    SET FAILURE_MESSAGE "Desde la última temporada de Paradise Lost no hemos visto un final tan insatisfactorio para un misterio. Hemos preguntado específicamente si querían que el Cerbero parlante resolviera el crimen, pero no, tenían que tener un gato."
+    SET SUCCESS_MESSAGE "Nos alegramos de leer que han acabado con el reinado de terror del fantasma falso. El mundo humano tiene que lidiar con un viejo cascarrabias menos."
+    SET FAILURE_MESSAGE "No habíamos visto un final tan insatisfactorio para un misterio desde la última temporada de Paradise Lost. Preguntamos específicamente si querían que el Cerbero parlante resolviera el crimen, pero no, tenían que tener un gato."
 
   
     REM : ------------------------------

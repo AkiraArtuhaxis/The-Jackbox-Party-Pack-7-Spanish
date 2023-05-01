@@ -2,9 +2,9 @@ DEF EPISODE "Pox"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Enfermo y cansado"
-    SET DESCRIPTION "Todos están <font color='#AF0000'>en casa enfermos</font> de viruela demoníaca, pero eso no significa que los quehaceres dejen de llegar. ¿Podrá la familia mantener la casa en funcionamiento sin que su salud se resienta?"
+    SET DESCRIPTION "Todos están <font color='#AF0000'>en casa enfermos</font> de viruela demoníaca, pero eso no significa que los quehaceres dejen de llegar. ¿Podrá la familia mantener la casa en funcionamiento sin que su salud se desmorone?"
     SET SUCCESS_MESSAGE "Nos ha complacido escuchar la rápida recuperación de su familia. Trabajar cuando estás demasiado enfermo para trabajar es un aspecto desconcertante pero esencial de la cultura humana."
-    SET FAILURE_MESSAGE "El médico extremadamente atractivo que enviamos a su casa ha diagnosticado la puntuación de su familia como 'basura terminal'. Los antibióticos no curarán lo que sea que les impide trabajar juntos."
+    SET FAILURE_MESSAGE "El médico extremadamente atractivo que enviamos a su casa ha diagnosticado su puntaje familiar como 'basura terminal'. Los antibióticos no curarán lo que sea que les impide trabajar juntos."
 
 
     REM : ------------------------------

@@ -3,8 +3,8 @@ DEF EPISODE "Treehouse"
     SET EMERGENCY "EmergencyTasks"
     SET NAME "El administramador"
     SET DESCRIPTION "La familia ha decidido <font color='#AF0000'>construir una casa del árbol</font> en el patio trasero. ¿Podrán construir una morada arbórea sin desarraigar su rutina habitual?"
-    SET SUCCESS_MESSAGE "¡Bueno, parece que el mercado inmobiliario está definitivamente SUBIENDO! Porque construyeron una casa en lo alto. ¿Entienden? De todos modos, es una adición muy agradable a su patio trasero."
-    SET FAILURE_MESSAGE "Sus vecinos han reportado una fuerte caída en medio de la noche. Parece que su nuevo proyecto hizo como un árbol y se entramó. En el futuro, quizás quieran usar materiales de construcción más fuertes que cinta adhesiva y un mínimo esfuerzo."
+    SET SUCCESS_MESSAGE "Bueno, ¡parece que el mercado inmobiliario está definitivamente SUBIENDO! Porque construyeron una casa en lo alto. ¿Entienden? Como sea, es una adición muy agradable a su patio trasero."
+    SET FAILURE_MESSAGE "Sus vecinos han reportado una fuerte caída en medio de la noche. Parece que su nuevo proyecto hizo como un árbol y cayó. En el futuro, quizás quieran usar materiales de construcción más fuertes que cinta adhesiva y un mínimo esfuerzo."
 
 
     REM : ------------------------------

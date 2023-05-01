@@ -4,7 +4,7 @@ DEF EPISODE "Space"
     SET NAME "Demonios en el espacio"
     SET DESCRIPTION "Desde el inframundo al <font color='#AF0000'>espacio exterior</font>, la familia irá donde ningún diablo ha ido antes cuando son elegidos para ser lanzados a la órbita."
     SET SUCCESS_MESSAGE "Es un pequeño paso para los suburbios, pero un gran salto para la raza diabólica. ¡Y todo por su patrocinador corporativo, la marca Chucho de comida para perros! Chucho, ¡la primera comida para perros en el espacio!"
-    SET FAILURE_MESSAGE "Nuestros espías en la NASA nos cuentan que el lanzamiento fue un lamentable fracaso. Si se hubieran tomado la misión seriamente, quizás hasta podrían haber dejado la atmósfera. Hemos visto un mejor entrenamiento en videos de yoga de famosos."
+    SET FAILURE_MESSAGE "Nuestros espías en la NASA nos cuentan que el lanzamiento fue un lamentable fracaso. Si se hubieran tomado la misión seriamente, quizás hasta podrían haber salido de la atmósfera. Hemos visto un mejor entrenamiento en videos de yoga de famosos."
 
 
     REM : ------------------------------

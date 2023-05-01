@@ -2,9 +2,9 @@ DEF EPISODE "Pool"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "El agua está bien"
-    SET DESCRIPTION "Los días son cada vez más calurosos, por lo que nuestra familia alimentada con fuego intenta refrescarse con una <font color='#AF0000'>nueva piscina en el patio trasero.</font>. ¿Se divertirán bajo el sol o tendrán que conformarse en el pozo del dinero?"
-    SET SUCCESS_MESSAGE "¡Refresco adquirido! Ahora son oficialmente la genial familia con una piscina. ¡Nos vemos todos los días durante el resto del verano!"
-    SET FAILURE_MESSAGE "Parece que la mala construcción y las deficientes habilidades sociales han frustrado su misión de refresco. En cosa de minutos, la piscina se agrieta, inundando todo en un radio de tres bloques. El lado positivo, ahora toda la casa es una piscina."
+    SET DESCRIPTION "Los días son cada vez más calurosos, por lo que nuestra familia alimentada con fuego intenta refrescarse con una <font color='#AF0000'>nueva piscina en el patio trasero</font>. ¿Tendrán diversión bajo el sol o se pelearán en su dineral?"
+    SET SUCCESS_MESSAGE "¡Frescura adquirida! Ahora son oficialmente la familia genial con una piscina. ¡Nos veremos todos los días durante el resto del verano!"
+    SET FAILURE_MESSAGE "Parece que la mala construcción y las deficientes habilidades sociales han frustrado su misión de frescura. En cosa de minutos, la piscina se agrieta, inundando todo en un radio de tres cuadras. Viendo el lado positivo, ahora toda la casa es una piscina."
 
 
     REM : ------------------------------

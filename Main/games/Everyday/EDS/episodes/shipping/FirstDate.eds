@@ -3,7 +3,7 @@ DEF EPISODE "FirstDate"
     SET EMERGENCY "EmergencyTasks"
     SET NAME "El cuarto círculo de compromiso"
     SET DESCRIPTION "¡El amor se siente en el aire! El infierno favorito de todos los jóvenes es llevar a casa su primera <font color='#AF0000'>pareja</font>. ¡Y es humana! La familia debe asegurarse de que la cita se desarrolle sin problemas."
-    SET SUCCESS_MESSAGE "De acuerdo con nuestras fuentes, su familia no fue TAN vergonzosa y Riley dijo que ustedes eran '¡Belce-bellos!' ¡¿Un enamorado que es lindo y sabe hacer juegos de palabras?! ¡Bingo!"
+    SET SUCCESS_MESSAGE "De acuerdo con nuestras fuentes, su familia no fue TAN vergonzosa y Riley dijo que ustedes eran '¡Belce-bellos!' ¡¿Una persona enamorada que es linda y sabe hacer juegos de palabras?! ¡Bingo!"
     SET FAILURE_MESSAGE "Predecimos que seguirán viendo a Riley por un tiempo, pero nunca más vuelvan a hablar de esta noche tan incómoda. Cuando mencionen el concepto de padres, sus ojos se pondrán vidriosos mientras mira al horizonte."
 
 

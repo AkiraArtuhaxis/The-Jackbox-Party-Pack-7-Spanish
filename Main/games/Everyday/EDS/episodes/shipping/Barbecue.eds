@@ -4,7 +4,7 @@ DEF EPISODE "Barbecue"
     SET NAME "Sobre la parrillada..."
     SET DESCRIPTION "El verano ha llegado y es el momento perfecto para una relajante <font color='#AF0000'>parrillada</font> con los vecinos. ¿Podrá la familia pasar por una parrillada humana normal sin invitar a todo el vecindario, o serán rastrillados sobre las brasas?"
     SET SUCCESS_MESSAGE "¡Nuestras redes de susurros informan que su pequeña fiesta al aire libre fue jugosa, sabrosa y no fue ni muy dulce ni salada! Cuando se trata de parrillar, esta familia está bien cocida. Ustedes me entienden."
-    SET FAILURE_MESSAGE "Nuestros parrilleros secretos oyeron que su parrillada estaba atestada de gente, fue bochornosa, ¡y que ni siquiera proporcionaron una buena variedad de kebabs! Diviértanse rehabitando su pasto en ruinas, junto con la salmonella."
+    SET FAILURE_MESSAGE "Nuestros parrilleros secretos oyeron que su parrillada estaba atestada de gente, fue bochornosa, ¡y que ni siquiera proporcionaron una buena variedad de kebabs! Diviértanse rehabitando su césped arruinado, con un poco de salmonella."
 
 
     REM : ------------------------------

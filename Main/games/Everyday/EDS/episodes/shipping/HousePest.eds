@@ -2,7 +2,7 @@ DEF EPISODE "HousePest"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Iniciativa contra un murciélago"
-    SET DESCRIPTION "¡Malas noticias! La familia tiene un pequeño problema roedor. Y por pequeño roedor nos referimos a <font color='#AF0000'>murciélago demoníaco</font>. Parece que la criatura escapó del inframundo y ahora está escondida en alguna parte del hogar. ¡Buena suerte!"
+    SET DESCRIPTION "¡Malas noticias! La familia tiene un problema con un pequeño roedor. Y por pequeño roedor nos referimos a <font color='#AF0000'>murciélago demoníaco</font>. Parece que la criatura escapó del inframundo y ahora está escondida en alguna parte del hogar. ¡Buena suerte!"
     SET SUCCESS_MESSAGE "Como un murciélago de Hades... ¡el murciélago vuelve a Hades! Los perdonaremos por usar un poco de magia para disipar a esta criatura maldita. Aunque, de ahora en adelante, los alentamos a que se ocupen de las plagas de la forma humana normal: solo dejen caer un gran yunque sobre ellas."
     SET FAILURE_MESSAGE "Parece que esta vil alimaña alada ahora vive con ustedes. Se hundirá profundamente en sus paredes, reducirá el valor de reventa de su hogar, atormentará sus pesadillas y les susurrará insultos muy personales cada vez que estén solos."
 

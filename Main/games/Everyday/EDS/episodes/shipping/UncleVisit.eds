@@ -3,8 +3,8 @@ DEF EPISODE "UncleVisit"
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Llora, tío"
     SET DESCRIPTION "¡El amado <font color='#AF0000'>tío Gorbo</font> está en la ciudad! El único problema es que es conocido por quedarse más de lo esperado y molestar a todo el mundo. ¿Podrá la familia entretener a su huésped sin perder los estribos?"
-    SET SUCCESS_MESSAGE "Si las opiniones en línea del tío Gorbo sirven de indicio, parece que ha tenido una maravillosa visita en su bella ciudad. Y ya que se las arreglaron para aguantarle, él está obligado a volver el año que viene. Suertudos."
-    SET FAILURE_MESSAGE "Es difícil saber quién la pasó peor, si ustedes o el tío Gorbo. Él no se quedará con ustedes de nuevo en un futuro próximo. Y si bien eso puede sonar bien, pueden despedirse de las famosas tartas de arándanos de la tía Flemm."
+    SET SUCCESS_MESSAGE "Si las opiniones en línea del tío Gorbo sirven de indicio, parece que ha tenido una maravillosa visita en su bella ciudad. Y ya que se las arreglaron para aguantarlo, él está obligado a volver el año que viene. Qué suertudos."
+    SET FAILURE_MESSAGE "Es difícil saber quién la pasó peor, si ustedes o el tío Gorbo. Él no se quedará con ustedes de nuevo en un futuro próximo. Y aunque eso quizás suene bien, pueden despedirse de las famosas tartas de arándanos de la tía Flemm."
 
 
     REM : ------------------------------

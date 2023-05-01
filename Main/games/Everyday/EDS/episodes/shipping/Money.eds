@@ -2,9 +2,9 @@ DEF EPISODE "Money"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Empleo doloroso"
-    SET DESCRIPTION "<font color='#AF0000'>El dinero</font> hace que el mundo se mueva, y la familia quiere más. Esta semana, todos hacen lo que pueden por conseguir un trabajo, un aumento, o suerte para conseguir algo de dinero."
+    SET DESCRIPTION "<font color='#AF0000'>El dinero</font> hace que el mundo se mueva, y la familia quiere más. Esta semana, todos hacen lo que pueden por conseguir un trabajo, un aumento, o suerte para conseguir algo de efectivo."
     SET SUCCESS_MESSAGE "Nos complace escuchar que se han abierto camino hacia un segmento de impuestos más alto. La seguridad financiera es clave para la supervivencia en el mundo humano. Pero recuerden, el dinero no puede comprar la felicidad. Solo bromeaba. ¡Sí que puede!"
-    SET FAILURE_MESSAGE "Hay más cosas en la vida que el dinero, pero necesitan dinero para conseguirlas. Si no pueden llevar a casa el tocino, tendrán que confiar en el concepto abstracto del amor familiar para satisfacerlos. Y todos sabemos lo decepcionante que eso será."
+    SET FAILURE_MESSAGE "Hay más cosas en la vida que el dinero, pero necesitan dinero para conseguirlas. Si no pueden llevar a casa el tocino, tendrán que confiar en el concepto abstracto del amor familiar para satisfacerse. Y todos sabemos lo decepcionante que eso será."
 
 
     REM : ------------------------------

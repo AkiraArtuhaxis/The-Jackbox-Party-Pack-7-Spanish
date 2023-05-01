@@ -2,7 +2,7 @@ DEF EPISODE "ReportCard"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Aprobar/Reprobar"
-    SET DESCRIPTION "<font color='#AF0000'>Las calificaciones</font>  están en el correo. Algunas son buenas y otras son malas. ¿Podrá la familia sobrevivir a estos altibajos académicos?"
+    SET DESCRIPTION "<font color='#AF0000'>Las calificaciones</font> están en el correo. Algunas son buenas y otras son malas. ¿Podrá la familia sobrevivir a estos altibajos académicos?"
     SET SUCCESS_MESSAGE "Las buenas calificaciones fueron recompensadas, las malas calificaciones fueron abordadas y todos los demonios obtienen un '10' por '10 Dinámicas Familiares Adecuadas'. Pero también una nota real."
     SET FAILURE_MESSAGE "La familia ha fracasado, y tendrán que repetir estas interacciones sociales este verano. Pueden empezar escribiendo 'Reprobé en los juegos de fiesta' 100 veces en la pizarra más cercana."
 

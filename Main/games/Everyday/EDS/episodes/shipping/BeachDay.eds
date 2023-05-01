@@ -3,7 +3,7 @@ DEF EPISODE "BeachDay"
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Manta de playa Belcebú"
     SET DESCRIPTION "El aire acondicionado está descompuesto y la familia está a 6400 kilómetros de la costa más cercana. Así que deciden tener un <font color='#AF0000'>día de playa en casa</font>. ¿Podrán permanecer en modo isla y aún así hacer las tareas del hogar?"
-    SET SUCCESS_MESSAGE "¡Arriba esas aletas, demonios! Escuchamos un rumor sobre que ustedes pasaron el día con un uniforme bronceado y con un ambiente relajado. Hasta inspiraron a sus vecinos a hacer sus propios ecosistemas caseros. ¡Asegúrense de visitar el bosque caducifolio en la cocina de Margaret!"
+    SET SUCCESS_MESSAGE "¡Arriba esas aletas, demonios! Escuchamos un rumor sobre que ustedes pasaron el día con un uniforme bronceado y con un ambiente relajado. Hasta inspiraron a sus vecinos a hacer sus propios ecosistemas caseros. ¡Asegúrense de visitar el bosque caducifolio en la cocina de Margarita!"
     SET FAILURE_MESSAGE "Malas noticias: algunas personas simplemente no están preparadas para la responsabilidad de 'encontrar su playa'. Es hora de eliminar esas quemaduras y lidiar con esa plaga de cangrejos rata."
 
 

@@ -2,9 +2,9 @@ DEF EPISODE "ExchangeStudent"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Un intercambio justo"
-    SET DESCRIPTION "Un <font color='#AF0000'>estudiante de intercambio</font> de Pearly Gates, Iowa, se hospeda con la familia durante el fin de semana. Traten de hacerle sentir como en casa, ¿lo harán?"
+    SET DESCRIPTION "Un <font color='#AF0000'>estudiante de intercambio</font> de Pearly Gates, Iowa, se hospeda con la familia durante el fin de semana. Traten de hacerle sentir como en casa. ¿Lo harán?"
     SET SUCCESS_MESSAGE "Nuestra red de madres nos ha informado de que el estudiante se sintió bienvenido en su morada. Felicitaciones por aprender cómo deben llevarse bien con la gente, una lección que la mayoría de nosotros aprendimos en el jardín infantil. ¡Oh, y quédense con la receta de té helado!"
-    SET FAILURE_MESSAGE "Mala suerte, anfitriones. ¡Estamos escuchando informes que su estudiante no se sintió incluido en el amor de su unidad familiar! Que cada sorbo de té helado les pique con el recuerdo de su fracaso."
+    SET FAILURE_MESSAGE "Mala suerte, anfitriones. ¡Estamos escuchando informes de que su estudiante no se sintió incluido en el amor de su unidad familiar! Que cada sorbo de té helado les pique con el recuerdo de su fracaso."
 
 
     REM : ------------------------------

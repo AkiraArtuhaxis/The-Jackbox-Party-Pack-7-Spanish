@@ -1,0 +1,57 @@
+{
+    "content": [
+        {
+            "category": "thing",
+            "id": "70571",
+            "structures": [
+                "Es <article-1> <thing-noun-simple> <thing-adjective-simple>.",
+                "Esto <thing-verb-simple> <article-1> <thing-noun-simple>.",
+                "¡Estoy hablando de algo <thing-adjective-complex>!",
+                "Esto <thing-verb-simple> <article-1> <thing-noun-complex>.",
+                "¡Piensa en <article-1> <thing-noun-complex>!",
+                "Simplemente es <article-1> <thing-noun-complex> <thing-adjective-complex>."
+            ]
+        },
+        {
+            "category": "place",
+            "id": "70714",
+            "structures": [
+                "Es <article-1> <place-noun-simple-s1> <place-adjective-simple>.",
+                "Es en donde <place-verb-simple> <article-1> <place-noun-simple-s2>.",
+                "¡Piensa en <place-noun-complex>!",
+                "Este lugar tiene <article-1> <place-noun-complex> <place-adjective-complex>.",
+                "Es en donde <place-verb-simple> <article-1> <place-noun-complex>."
+            ]
+        },
+        {
+            "category": "person",
+            "id": "70743",
+            "structures": [
+                "Es <article-1> <person-noun-simple> <person-adjective-simple>.",
+                "<article-4> <person-verb-simple> <article-3> <person-noun-simple-s2>.",
+                "<person-pronoun-1> tan <person-adjective-complex>!",
+                "Se le conoce por <article-3> <person-noun-complex> <person-adjective-complex>.",
+                "Y <article-4> <person-verb-simple> <article-3> <person-noun-complex>."
+            ]
+        },
+        {
+            "category": "story",
+            "id": "70758",
+            "structures": [
+                "Es una historia acerca de <article-1> <story-noun-simple> <story-adjective-simple>.",
+                "Y <article-1> <story-noun-simple-s2> <story-adjective-simple>.",
+                "¡Guau! <article-1> <story-noun-complex> <story-adjective-complex>.",
+                "<article-2> protagonista <story-verb-simple> <article-1> <story-noun-complex>.",
+                "Con el tiempo, hay <article-1> <story-noun-complex> <story-adjective-complex>.",
+                "Después, <article-2> <story-noun-complex> <story-verb-ending>."
+            ]
+        },
+        {
+            "category": "response",
+            "id": "71167",
+            "structures": [
+                "<response-sentence> <PLAYERGUESS>"
+            ]
+        }
+    ]
+}

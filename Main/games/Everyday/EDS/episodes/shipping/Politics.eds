@@ -2,8 +2,8 @@ DEF EPISODE "Politics"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Un camino rocoso hacia la libertad"
-    SET DESCRIPTION "En una demostración equivocada de salud pública, la ciudad ha declarado que todos <font color='#AF0000'>los helados son ilegales</font>. Esta farsa de la justicia atrae a la familia a la política local, justo a tiempo para la próxima <font color='#AF0000'>carrera por el Concejo Municipal</font>."
-    SET SUCCESS_MESSAGE "Súper Martes de elecciones dice 'Sí' a los helados. Una vez más, el helado es legal y su nuevo poder político entre los seres humanos es la cereza en la punta."
+    SET DESCRIPTION "En una demostración equivocada de salud pública, la ciudad ha declarado que todos <font color='#AF0000'>los helados son ilegales</font>. Esta farsa de la justicia atrae a la familia a la política local, justo a tiempo para las próximas <font color='#AF0000'>elecciones del Concejo Municipal</font>."
+    SET SUCCESS_MESSAGE "Las elecciones dicen 'Sí' a los helados. Una vez más, el helado es legal y su nuevo poder político entre los seres humanos es la cereza en la punta."
     SET FAILURE_MESSAGE "Debido a su lamentable falta de 'elegibilidad', el helado sigue siendo ilegal en esta deprimente ciudad. Su familia se ahoga en el amargo sabor de la derrota y el yogur congelado."
 
 

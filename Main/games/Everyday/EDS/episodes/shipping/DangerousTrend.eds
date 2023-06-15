@@ -4,7 +4,7 @@ DEF EPISODE "DangerousTrend"
     SET NAME "Es el hit del mundo"
     SET DESCRIPTION "¡Noticias terribles! Hay una <font color='#AF0000'>nueva locura entre los jóvenes llamada 'gronking'</font> que es una actividad tan obscena y rebelde que ni siquiera podemos describirla aquí. En este episodio tan especial, la familia deberá cuidar a los niños para que no caigan como presas de esta tentadora moda sin dejar de respetar su autonomía."
     SET SUCCESS_MESSAGE "Todos aprendimos una valiosa lección esta semana. Al igual que los humanos reales, se enamoraron brevemente de una actividad popular, pero rápidamente aprendieron que en realidad era algo estúpido. Solo recuerden: La unión familiar es una 'tendencia' que nunca pierde el estilo."
-    SET FAILURE_MESSAGE "Aparentemente, fueron aplastados entre un 'gronk' y un lugar duro. Es posible que tengamos que trasladarlos a una ciudad que ni siquiera conoce el significado de la palabra 'tendencia'. ¡Cleveland, allá vamos!"
+    SET FAILURE_MESSAGE "Aparentemente, fueron aplastados entre un 'gronk' y un lugar duro. Es posible que tengamos que trasladarlos a una ciudad que ni siquiera conoce el significado de la palabra 'tendencia'. ¡Caracas, allá vamos!"
 
 
     REM : ------------------------------

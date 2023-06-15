@@ -43,7 +43,7 @@ END
 DEF TASK "CleanToothpaste"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
-    SET NAME "Limpia la pasta de dientes del espejo"
+    SET NAME "Limpiar la pasta de dientes del espejo"
     SET THEME "BATHROOM"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"

@@ -323,7 +323,7 @@ END
 REM : Program asteroid-destroying laser
 CLONE DEED "Gizmos12" "ProgramLaser"
     SET INSTRUCTIONS "Programa el láser"
-    SET NAME "ASTEROID LASER"
+    SET NAME "LÁSER DE ASTEROIDE"
     SET TEXT_GIZMO_CHANCE_RATIO 0
 END
 

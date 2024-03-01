@@ -1,0 +1,6001 @@
+{
+    "content": [
+     {
+      "id": "71024",
+      "safetyAnswers": [
+       "destruir todas las aves",
+       "robar sus contraseñas de Netflix",
+       "hacer que las siestas sean ilegales",
+       "hacer que mis músculos sean enormes",
+       "hacer desaparecer todo el café",
+       "quedarme despierto después de mi hora de dormir",
+       "darle bigotes a todos"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Quizás se pregunten por qué soy tan malvado"
+       },
+       {
+        "position": "middle",
+        "signpost": "Pero, ¿por qué les estoy revelando mi malvado plan?"
+       },
+       {
+        "position": "end",
+        "signpost": "Confieso que, hay una manera de detenerme, pero no les gustará"
+       },
+       {
+        "position": "end",
+        "signpost": "¡¡¡JA JA JA JA JA JA JA JA JA JA!!!"
+       },
+       {
+        "position": "end",
+        "signpost": "Pero esperen, ¿que pasaría si decidiera dejar de ser malvado?"
+       },
+       {
+        "position": "middle",
+        "signpost": "Pero, ¿cuál es la fuente de mis poderes malvados? Me alegro de que pregunten."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aún recuerdo el momento en 3er grado cuando se me ocurrió mi plan..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Qué haré después de completar mi plan? Les diré."
+       }
+      ],
+      "title": "¡Tiemblen de miedo mortales, nada podrá detener mi plan de <BLANK>!",
+      "x": false
+     },
+     {
+      "id": "71417",
+      "safetyAnswers": [
+       "las vacas hermosas",
+       "la persona que se sienta a tu lado en el trabajo",
+       "los duendes"
+      ],
+      "signposts": [],
+      "title": "La vida oculta de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71418",
+      "safetyAnswers": [
+       "el bocadillo perfecto",
+       "una noche de buen sueño",
+       "estrellato de YouTube"
+      ],
+      "signposts": [],
+      "title": "Misión: \"<BLANK>\"",
+      "x": false
+     },
+     {
+      "id": "71419",
+      "safetyAnswers": [
+       "una pequeña casa",
+       "algunos lobos",
+       "un tiburón para tu familia"
+      ],
+      "signposts": [],
+      "title": "Adelante, compra <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71420",
+      "safetyAnswers": [
+       "zapatos hechos de oro",
+       "estándares muy bajos",
+       "hamburguesas hechas de tierra"
+      ],
+      "signposts": [],
+      "title": "Desafía las expectativas con <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71421",
+      "safetyAnswers": [
+       "una reserva para cenar esta noche",
+       "lechuga con sabor a chocolate",
+       "más cafeterías Starbucks"
+      ],
+      "signposts": [],
+      "title": "Por qué necesitamos <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71422",
+      "safetyAnswers": [
+       "mis relaciones románticas",
+       "perros buenos",
+       "el fantasma en mi casa"
+      ],
+      "signposts": [],
+      "title": "Una breve historia de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71423",
+      "safetyAnswers": [
+       "concursos competitivos de miradas",
+       "un buen sándwich",
+       "rayo atrapable"
+      ],
+      "signposts": [],
+      "title": "El poder de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71424",
+      "safetyAnswers": [
+       "ver muchos memes de internet",
+       "una buena rebanada de pizza",
+       "bailar muy fuerte"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> puede arruinar tu vida",
+      "x": false
+     },
+     {
+      "id": "71425",
+      "safetyAnswers": [
+       "mí y mi increíblemente buena apariencia",
+       "perros que hablan",
+       "maquillaje permanente"
+      ],
+      "signposts": [],
+      "title": "No hay futuro sin <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71426",
+      "safetyAnswers": [
+       "las novedosas bandejas de cubitos de hielo",
+       "los Cheetos Extra Picantes",
+       "que las marcas tuitearan"
+      ],
+      "signposts": [],
+      "title": "Cómo era el mundo antes de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71427",
+      "safetyAnswers": [
+       "Conversación no deseada",
+       "La adolescencia",
+       "Terminar un programa de tv que ni siquiera me gustó"
+      ],
+      "signposts": [],
+      "title": "<BLANK>. Me ha pasado a mí.",
+      "x": false
+     },
+     {
+      "id": "71428",
+      "safetyAnswers": [
+       "Michael Jordan",
+       "La otra Tierra",
+       "Un delfín con láser"
+      ],
+      "signposts": [],
+      "title": "<BLANK> nos salvará",
+      "x": false
+     },
+     {
+      "id": "71429",
+      "safetyAnswers": [
+       "Tu inodoro",
+       "La deliciosa carne de almuerzo caducada",
+       "Alexa"
+      ],
+      "signposts": [],
+      "title": "<BLANK> está tratando de matarte",
+      "x": false
+     },
+     {
+      "id": "71430",
+      "safetyAnswers": [
+       "un dulce par de gafas de sol",
+       "ser notado por tus padres",
+       "una ropa interior mejor"
+      ],
+      "signposts": [],
+      "title": "Consigue <BLANK> y obtén ganancias",
+      "x": false
+     },
+     {
+      "id": "71431",
+      "safetyAnswers": [
+       "El cronograma de televisión infantil",
+       "El bronceado",
+       "Un agujero profundo"
+      ],
+      "signposts": [],
+      "title": "<BLANK> y por qué es tan bueno",
+      "x": false
+     },
+     {
+      "id": "71432",
+      "safetyAnswers": [
+       "Osos inteligentes",
+       "Sándwiches de atún en un avión",
+       "Un vecino te está saludando"
+      ],
+      "signposts": [],
+      "title": "Cuidado: <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71433",
+      "safetyAnswers": [
+       "ladrar como un perro",
+       "comer papel",
+       "controlar los sueños de otras personas"
+      ],
+      "signposts": [],
+      "title": "Cómo aprendí a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71434",
+      "safetyAnswers": [
+       "Mi pesada sábana",
+       "El actor que hace de House",
+       "El tocino"
+      ],
+      "signposts": [],
+      "title": "<BLANK> y yo: una historia de amor",
+      "x": false
+     },
+     {
+      "id": "71435",
+      "safetyAnswers": [
+       "probador profesional de pantalones",
+       "personaje de parque temático",
+       "puesto de limonada para adultos"
+      ],
+      "signposts": [],
+      "title": "Mi primer trabajo: <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71436",
+      "safetyAnswers": [
+       "las vacas no son caballos",
+       "puedo volar",
+       "soy dueño de un barco"
+      ],
+      "signposts": [],
+      "title": "¿Podrías creer que <BLANK>?",
+      "x": false
+     },
+     {
+      "id": "71437",
+      "safetyAnswers": [
+       "unirme a la compañía de viajes Stomp",
+       "hacer sándwiches con los ojos cerrados",
+       "hacer el dab"
+      ],
+      "signposts": [],
+      "title": "¡Ahora puedo <BLANK>!",
+      "x": false
+     },
+     {
+      "id": "71438",
+      "safetyAnswers": [
+       "un par de patines",
+       "batidos calientes",
+       "sonidos de ballenas"
+      ],
+      "signposts": [],
+      "title": "Dale la vuelta a tu vida con <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71439",
+      "safetyAnswers": [
+       "gritar",
+       "montar toros",
+       "ir al baño"
+      ],
+      "signposts": [],
+      "title": "El poder de <BLANK> positivamente",
+      "x": false
+     },
+     {
+      "id": "71440",
+      "safetyAnswers": [
+       "a que inventé la rueda",
+       "mi sonrisa",
+       "los fantasmas"
+      ],
+      "signposts": [],
+      "title": "Me volví rico gracias a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71441",
+      "safetyAnswers": [
+       "Sarah Jessica Parker",
+       "La Sirenita",
+       "un delfín que ahora es mi mejor amigo"
+      ],
+      "signposts": [],
+      "title": "Cómo salvé la vida de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71442",
+      "safetyAnswers": [
+       "siéntate en un cactus",
+       "come plástico",
+       "por favor recoge los alimentos que te pedí varias veces"
+      ],
+      "signposts": [],
+      "title": "Ve afuera y <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71443",
+      "safetyAnswers": [
+       "acerca de los pantalones cómodos",
+       "acerca del sushi de frutas",
+       "que fuera a la cama, porque todavía sigo despierto"
+      ],
+      "signposts": [],
+      "title": "Desearía que alguien me hubiese dicho <BLANK> cuando tenía tu edad",
+      "x": false
+     },
+     {
+      "id": "71444",
+      "safetyAnswers": [
+       "hagas un deseo en luna llena",
+       "salgas con un minotauro",
+       "estornudes, te tires un pedo y tosas al mismo tiempo. En serio."
+      ],
+      "signposts": [],
+      "title": "Este es mi consejo: nunca <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71445",
+      "safetyAnswers": [
+       "esa terrible cena que hiciste",
+       "abejas asesinas",
+       "las pesadillas"
+      ],
+      "signposts": [],
+      "title": "¡Pelea contra <BLANK> con risas!",
+      "x": false
+     },
+     {
+      "id": "71446",
+      "safetyAnswers": [
+       "de tocar mi cara",
+       "de terminar mis correos electrónicos de trabajo con \"te amo\"",
+       "mi membresía de gimnasio, porque no me dejan"
+      ],
+      "signposts": [],
+      "title": "Lo lamento, simplemente no puedo dejar <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71447",
+      "safetyAnswers": [
+       "tu miedo a los productos de papel",
+       "la necesidad de ir rápido",
+       "las normas de desayuno"
+      ],
+      "signposts": [],
+      "title": "Vive la vida dejando ir <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71448",
+      "safetyAnswers": [
+       "constructor de muñecos de nieve",
+       "camionero de larga distancia",
+       "imitador de estatuas vivientes"
+      ],
+      "signposts": [],
+      "title": "Cómo ser el mejor <BLANK> en la Tierra",
+      "x": false
+     },
+     {
+      "id": "71449",
+      "safetyAnswers": [
+       "me sumergí en ti como un campeón",
+       "fui de compras mientras tenía hambre",
+       "me comí ese insecto"
+      ],
+      "signposts": [],
+      "title": "¿Por qué yo <BLANK>? Déjame decirte",
+      "x": false
+     },
+     {
+      "id": "71450",
+      "safetyAnswers": [
+       "mamá futbolista",
+       "capitán de baile",
+       "crítico gastronómico independiente"
+      ],
+      "signposts": [],
+      "title": "Liberando tu <BLANK> interior",
+      "x": false
+     },
+     {
+      "id": "71451",
+      "safetyAnswers": [
+       "amante del baño de burbujas",
+       "granjero de unicornios",
+       "un Transformer llamado Lugnut"
+      ],
+      "signposts": [],
+      "title": "Mi vida secreta como <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71452",
+      "safetyAnswers": [
+       "espuma de embalaje",
+       "varias versiones más pequeñas de mí mismo",
+       "pizza fría y café"
+      ],
+      "signposts": [],
+      "title": "Eché un vistazo en mi interior y todo lo que encontré fue <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71453",
+      "safetyAnswers": [
+       "a un bebé dar un pulgar hacia arriba después de nacer",
+       "a Plutón",
+       "una hamburguesa con una rosquilla por pan"
+      ],
+      "signposts": [],
+      "title": "Vi <BLANK> y cambió mi vida",
+      "x": false
+     },
+     {
+      "id": "71454",
+      "safetyAnswers": [
+       "cerrar los ojos cuando la gente habla",
+       "nadar en una piscina de dinero",
+       "tener una alfombra que realmente combina con la habitación"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> me hizo exitoso en la vida",
+      "x": false
+     },
+     {
+      "id": "71455",
+      "safetyAnswers": [
+       "tus vecinos entrometidos",
+       "los perros súper lindos",
+       "el latte de especias de calabaza"
+      ],
+      "signposts": [],
+      "title": "Qué está realmente mal con respecto a <BLANK>, y por qué deberías preocuparte",
+      "x": false
+     },
+     {
+      "id": "71456",
+      "safetyAnswers": [
+       "portavoz de varios productos",
+       "detective",
+       "langosta y ahora soy una langosta adulta"
+      ],
+      "signposts": [],
+      "title": "Fui un adolescente <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71457",
+      "safetyAnswers": [
+       "actualizar tu perfil de LinkedIn",
+       "golpear a una serpiente",
+       "destapar un inodoro súper atascado"
+      ],
+      "signposts": [],
+      "title": "¿Alguna vez has intentado <BLANK>?",
+      "x": false
+     },
+     {
+      "id": "71458",
+      "safetyAnswers": [
+       "cerrar tu estúpida boca",
+       "tirarte un pedo en el transporte público",
+       "beber el líquido de una vieja jarra de pepinillos"
+      ],
+      "signposts": [],
+      "title": "Entendiendo los increíbles beneficios de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71459",
+      "safetyAnswers": [
+       "las pausas dramáticas",
+       "los tacos para gatos",
+       "los sueños lúcidos"
+      ],
+      "signposts": [],
+      "title": "Por qué inventé <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71460",
+      "safetyAnswers": [
+       "no a uno, sino a dos Godzillas.",
+       "mi deseo de ser feliz",
+       "este tonto rompecabezas que tiene demasiadas piezas tontas"
+      ],
+      "signposts": [],
+      "title": "Cómo eventualmente derroté <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71461",
+      "safetyAnswers": [
+       "un guardabosques que luchó contra varios osos",
+       "un agente inmobiliario en Arizona",
+       "una llama"
+      ],
+      "signposts": [],
+      "title": "Lo que aprendí de mi año siendo <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71462",
+      "safetyAnswers": [
+       "obsesionado con los peluches de bebé",
+       "caliente por los profesores",
+       "loco por los jeans de talla corta"
+      ],
+      "signposts": [],
+      "title": "Por qué estoy tan <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71463",
+      "safetyAnswers": [
+       "alergias de temporada",
+       "tu nuevo hermanito... hablemos, niño",
+       "tu amigo de la secundaria que vende aceites aromáticos"
+      ],
+      "signposts": [],
+      "title": "Toc, toc. ¿Quién es? <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71464",
+      "safetyAnswers": [
+       "tus tweets reflexivos",
+       "las camisetas novedosas",
+       "la charcutería"
+      ],
+      "signposts": [],
+      "title": "Hablando en serio, a nadie le gusta <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71465",
+      "safetyAnswers": [
+       "las rosquillas de pizza",
+       "aquella vez que tuve que quedarme en el trabajo hasta tarde",
+       "por qué la cara de un pug se ve lisa"
+      ],
+      "signposts": [],
+      "title": "Al infierno y de regreso: una historia de <BLANK>",
+      "x": true
+     },
+     {
+      "id": "71466",
+      "safetyAnswers": [
+       "el queso muy oloroso",
+       "los artículos de Buzzfeed",
+       "ser alguien que pide una hamburguesa en un restaurante de calidad"
+      ],
+      "signposts": [],
+      "title": "Una sorprendente nueva manera de pensar sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71532",
+      "safetyAnswers": [
+       "pez bailarín",
+       "ombligo",
+       "mesa de café"
+      ],
+      "signposts": [],
+      "title": "Admiren: mi increíble <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71542",
+      "safetyAnswers": [
+       "podar esos horribles setos",
+       "apreciar a su increíble esposa",
+       "calmarse y disfrutar ser Carl"
+      ],
+      "signposts": [],
+      "title": "Es por esto que mi vecino necesita <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71543",
+      "safetyAnswers": [
+       "bailar, bailar, ¡BAILAAAAAR!",
+       "aprender acerca de la leche",
+       "enfrentar a mi papá"
+      ],
+      "signposts": [],
+      "title": "Ok cabezas huecas, es hora de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71544",
+      "safetyAnswers": [
+       "pagar el derecho de alimentos",
+       "ir al baño",
+       "obedecer la Biblia"
+      ],
+      "signposts": [],
+      "title": "Oh, mierda. Olvidé <BLANK>",
+      "x": true
+     },
+     {
+      "id": "71546",
+      "safetyAnswers": [
+       "los ejercicios físicos",
+       "mi matrimonio",
+       "las matemáticas"
+      ],
+      "signposts": [],
+      "title": "Por qué soy el Jar Jar Binks de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71547",
+      "safetyAnswers": [
+       "Bebés",
+       "Payasos",
+       "Nerds"
+      ],
+      "signposts": [],
+      "title": "¿<BLANK>? No en mi guardia",
+      "x": false
+     },
+     {
+      "id": "71548",
+      "safetyAnswers": [
+       "mi magnífico cabello",
+       "provocar aquel incendio",
+       "mi terrible actitud"
+      ],
+      "signposts": [],
+      "title": "Nunca voy a pedir perdón por <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71549",
+      "safetyAnswers": [
+       "Vela Aromática",
+       "Bajas Expectativas",
+       "Angustia Adolescente"
+      ],
+      "signposts": [],
+      "title": "Vengan, por que los llevaré a la Ciudad <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71551",
+      "safetyAnswers": [
+       "los sudokus",
+       "los insectos",
+       "las cosquillas"
+      ],
+      "signposts": [],
+      "title": "¿Podrían ser <BLANK> el secreto de la inmortalidad?",
+      "x": false
+     },
+     {
+      "id": "71552",
+      "safetyAnswers": [
+       "asesino",
+       "terapista",
+       "dentista"
+      ],
+      "signposts": [],
+      "title": "Cómo ahorrar dinero siendo tu propio <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71554",
+      "safetyAnswers": [
+       "peleas contra mí",
+       "me arreglas el carro",
+       "lees revistas"
+      ],
+      "signposts": [],
+      "title": "Si tú no <BLANK>, te destruiré",
+      "x": false
+     },
+     {
+      "id": "71557",
+      "safetyAnswers": [
+       "Hazte calzón chino",
+       "Deprímete",
+       "Enciérrate"
+      ],
+      "signposts": [],
+      "title": "<BLANK> a ti mismo, ¡fácil como contar hasta 3!",
+      "x": false
+     },
+     {
+      "id": "71558",
+      "safetyAnswers": [
+       "los imitadores de Elvis",
+       "las abejas",
+       "la luna"
+      ],
+      "signposts": [],
+      "title": "Si yo estuviera a cargo de <BLANK>, esto es lo que cambiaría",
+      "x": false
+     },
+     {
+      "id": "71559",
+      "safetyAnswers": [
+       "es la hora dulce, bebé",
+       "las aves no son reales",
+       "los libros son aburridos"
+      ],
+      "signposts": [],
+      "title": "Griten conmigo: ¡<BLANK>!",
+      "x": false
+     },
+     {
+      "id": "71560",
+      "safetyAnswers": [
+       "causarme dolor",
+       "el internet",
+       "mi pizzería que también vende aves y computadores",
+       "la furia"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Pero, ¿por qué les menciono todo esto? La respuesta es tonta..."
+       },
+       {
+        "position": "end",
+        "signpost": "Una última nota respecto a las aves, computadores y la pizza..."
+       },
+       {
+        "position": "end",
+        "signpost": "Unámonos, como un pueblo, de una manera similar a estas tres cosas, y digamos..."
+       },
+       {
+        "position": "end",
+        "signpost": "Para terminar, también debería mencionar la cuarta cosa con la que las aves, computadores y la pizza también están relacionadas..."
+       },
+       {
+        "position": "middle",
+        "signpost": "En contraste, aquí hay algo totalmente diferente a las aves, computadores y pizzas..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Si juntamos estas 3 cosas, se pueden ilustrar en una sola imagen..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Durante mucho tiempo se les ha considerado individualmente, lo que ha tenido como resultado esta terrible consecuencia..."
+       }
+      ],
+      "title": "Aves, computadores y la pizza. Estas cosas están unidas por <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71580",
+      "safetyAnswers": [
+       "gasolinera",
+       "bañera",
+       "mafia"
+      ],
+      "signposts": [],
+      "title": "Mi increíble aventura dentro de una <BLANK> embrujada",
+      "x": false
+     },
+     {
+      "id": "71582",
+      "safetyAnswers": [
+       "un armadillo",
+       "un fantasma que espantó mi apartamento",
+       "invisible",
+       "imaginaria"
+      ],
+      "signposts": [],
+      "title": "Estarás impresionado al saber que mi alma gemela es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71583",
+      "safetyAnswers": [
+       "un camión monstruo",
+       "dormir al menos 8 horas"
+      ],
+      "signposts": [],
+      "title": "No te enojes, consigue <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71584",
+      "safetyAnswers": [
+       "húmedo",
+       "el cultivo de hormigas",
+       "de las sillas mecedoras"
+      ],
+      "signposts": [],
+      "title": "Olviden todo lo que saben: el futuro es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71585",
+      "safetyAnswers": [
+       "las toallas de papel acolchadas",
+       "los perros"
+      ],
+      "signposts": [],
+      "title": "Olvida todo y pon tu fe en <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71586",
+      "safetyAnswers": [
+       "un carrito de compras fuera de control",
+       "mi suegra",
+       "los extraterrestres canadienses"
+      ],
+      "signposts": [],
+      "title": "Cómo sobreviví a mi encuentro con <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71587",
+      "safetyAnswers": [
+       "calcetines multicolores",
+       "rechazos aplastantes",
+       "fantasmas"
+      ],
+      "signposts": [],
+      "title": "La vida es un tazón de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71589",
+      "safetyAnswers": [
+       "autocuarentenas",
+       "neandertales",
+       "robots"
+      ],
+      "signposts": [],
+      "title": "Cómo encontrar el amor estando hasta el cuello de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71590",
+      "safetyAnswers": [
+       "Thor",
+       "Bolsas de plástico",
+       "El emoji de caca"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "No pudimos obtener una entrevista real con la siguiente persona..."
+       },
+       {
+        "position": "end",
+        "signpost": "Todos sabemos cómo termina esta historia..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Nuestro sujeto pasó su adolescencia rebelándose de maneras inusuales, como por ejemplo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Su vida era de lindos colores, tal como se muestra en esta famosa imagen..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí está el porqué se rehusaron a cooperar en mi libro sobre ellos..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si no me demandan, mi próximo libro será sobre..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿El secreto de su éxito? Es esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Sobre todas las cosas, su legado está definido por una cosa..."
+       },
+       {
+        "position": "end",
+        "signpost": "Hay un gran misterio que mi libro no es capaz de responder..."
+       }
+      ],
+      "title": "<BLANK>: La biografía sin autorización",
+      "x": false
+     },
+     {
+      "id": "71628",
+      "safetyAnswers": [
+       "llorar y gritar",
+       "cocinar un muy buen pan",
+       "hacer una gran red"
+      ],
+      "signposts": [],
+      "title": "Cómo conseguí un millón de amigos cuando todo lo que hice fue <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71630",
+      "safetyAnswers": [
+       "tener loritos",
+       "callarte de una vez",
+       "hacer gente diminuta de papel"
+      ],
+      "signposts": [],
+      "title": "El sutil arte de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71631",
+      "safetyAnswers": [
+       "aprender malabarismo de contacto",
+       "hablar sobre tus sentimientos de una vez",
+       "mejorar tu velocidad de escritura"
+      ],
+      "signposts": [],
+      "title": "Ten una mejor vida gracias a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71633",
+      "safetyAnswers": [
+       "Las crujientes hojas de otoño",
+       "Un pez dorado",
+       "Sus palabras"
+      ],
+      "signposts": [],
+      "title": "<BLANK>: ¡algo que todos deberían comer!",
+      "x": false
+     },
+     {
+      "id": "71634",
+      "safetyAnswers": [
+       "de nieve",
+       "de recolectar insectos",
+       "riesgoso"
+      ],
+      "signposts": [],
+      "title": "No hay mejor negocio que el negocio <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71636",
+      "safetyAnswers": [
+       "dormir de pie",
+       "renunciar a tus sueños",
+       "cocinar un mal pan"
+      ],
+      "signposts": [],
+      "title": "Por favor, no te enojes conmigo por decirte que esta es la mejor manera de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71637",
+      "safetyAnswers": [
+       "Yoga",
+       "Cómo evadir impuestos",
+       "Empezar un canal de YouTube"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "No hay preguntas estúpidas. Excepto por esta..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Déjenme decirlo de forma que ustedes los normales lo entiendan..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¡Empecemos con lo básico!"
+       },
+       {
+        "position": "end",
+        "signpost": "¿Qué podría una persona ordinaria como yo hacer para ayudar?"
+       },
+       {
+        "position": "end",
+        "signpost": "Todo esto se puede resumir con una imagen..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora que descubrieron esto, ¡aquí hay un premio!"
+       },
+       {
+        "position": "middle",
+        "signpost": "Todos saben que esta es la llave para el éxito..."
+       },
+       {
+        "position": "middle",
+        "signpost": "En caso de que sea difícil de entender, les explicaré como si le hablara a un bebé..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Yo solía ser una persona común y corriente como tú, hasta que hice esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora que eres un experto, deberías hacer esto..."
+       }
+      ],
+      "title": "<BLANK> 101: Instrucciones para gente corriente",
+      "x": false
+     },
+     {
+      "id": "71638",
+      "safetyAnswers": [
+       "un buen matrimonio",
+       "dos cuchillos oxidados",
+       "todos tus Blu-ray favoritos"
+      ],
+      "signposts": [],
+      "title": "Usar <BLANK> para sobrevivir a los últimos días",
+      "x": false
+     },
+     {
+      "id": "71639",
+      "safetyAnswers": [
+       "una sonrisa en blanco",
+       "riqueza heredada",
+       "mucho, mucho café"
+      ],
+      "signposts": [],
+      "title": "Duplica tus ingresos con trabajo duro, perseverancia y <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71645",
+      "safetyAnswers": [
+       "Mi papá",
+       "Un elefante gritando"
+      ],
+      "signposts": [],
+      "title": "<BLANK>: el Shakespeare de nuestro tiempo",
+      "x": false
+     },
+     {
+      "id": "71657",
+      "safetyAnswers": [
+       "campo de golf en miniatura",
+       "plato de bocadillos",
+       "jardín",
+       "baño"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Mis planos iniciales se veían como esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Cómo sé que lo logré?"
+       },
+       {
+        "position": "middle",
+        "signpost": "El error mas común al comenzar es..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora deberías destruir eso y comenzar de nuevo, pero esta vez..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Usé solo los mejores materiales..."
+       },
+       {
+        "position": "end",
+        "signpost": "Después de que termines, ahora puedes hacer esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Ten cuidado de evitar este error común..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Necesitas ayuda? Aquí es donde deberías..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora que terminé, esto es lo que haré a continuación..."
+       }
+      ],
+      "title": "Construyendo un <BLANK> perfecto desde el inicio hasta el final",
+      "x": false
+     },
+     {
+      "id": "71658",
+      "safetyAnswers": [
+       "un tienda departamental de maniquís",
+       "una cucaracha",
+       "una gran oferta"
+      ],
+      "signposts": [],
+      "title": "Vive tu vida como si fueras <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71659",
+      "safetyAnswers": [
+       "Gooooooooool",
+       "Consigue el tuyo",
+       "Ñam ñam ñam"
+      ],
+      "signposts": [],
+      "title": "Comience cada día mirándose en un espejo y gritando: \"<BLANK>\"",
+      "x": false
+     },
+     {
+      "id": "71661",
+      "safetyAnswers": [
+       "gatos",
+       "compras en línea",
+       "amor no correspondido",
+       "deliciosos dulces"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "No hay escape de..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pero la llave para la celda es..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Es hora de presentarles a los guardias..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Quién hizo esta prisión?"
+       },
+       {
+        "position": "end",
+        "signpost": "Esta es la única manera de salir..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si piensas al respecto, todo esto es una metáfora, pero también es..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Por qué estás atrapado aquí? Te diré..."
+       }
+      ],
+      "title": "Estás atrapado en una prisión hecha de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71662",
+      "safetyAnswers": [
+       "fraudes de seguro",
+       "tu diario",
+       "tu ex",
+       "tú mismo"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "El mejor lugar para una cita es..."
+       },
+       {
+        "position": "end",
+        "signpost": "Asegúrate de terminar tu tarde con..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Impresiona a tu cita con un regalo de..."
+       },
+       {
+        "position": "end",
+        "signpost": "En vez de un beso de buenas noches, intenta esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "La forma segura de garantizar una segunda cita es..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Hay un solo modo de llegar al corazón de otra persona..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Recuerda, es natural estar nervioso sobre..."
+       }
+      ],
+      "title": "¡Cómo estar preparado para una cita con <BLANK>!",
+      "x": true
+     },
+     {
+      "id": "71672",
+      "safetyAnswers": [
+       "robots",
+       "queso crema",
+       "los océanos"
+      ],
+      "signposts": [],
+      "title": "No necesito suerte, porque tengo <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71680",
+      "safetyAnswers": [
+       "gaseosas",
+       "bicicletas",
+       "peces"
+      ],
+      "signposts": [],
+      "title": "Despierten nerds, no necesitamos <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71703",
+      "safetyAnswers": [
+       "bailar en la ducha",
+       "comer más manteca de frutos secos",
+       "soñar mientras esté despierto"
+      ],
+      "signposts": [],
+      "title": "Mi vida va a ser mejor cuando empiece a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71704",
+      "safetyAnswers": [
+       "jaulas de pájaros antiguas",
+       "Keanu Reeves",
+       "los sueños lúcidos"
+      ],
+      "signposts": [],
+      "title": "Estoy obsesionado con <BLANK>. ¡¿Y qué?!",
+      "x": false
+     },
+     {
+      "id": "71705",
+      "safetyAnswers": [
+       "montón de mis arrepentimientos personales",
+       "un sueño donde estoy desnudo en la escuela",
+       "el baño de una gasolinera"
+      ],
+      "signposts": [],
+      "title": "¡Ayuda! Estoy atrapado en <BLANK>",
+      "x": true
+     },
+     {
+      "id": "71706",
+      "safetyAnswers": [
+       "las nubes",
+       "Macaulay Culkin",
+       "tener un camión monstruo"
+      ],
+      "signposts": [],
+      "title": "¡Dejen de hablar sobre <BLANK>! ¡Lo digo en serio!",
+      "x": false
+     },
+     {
+      "id": "71707",
+      "safetyAnswers": [
+       "ojo nublado",
+       "sándwich de espagueti",
+       "equilibrio vida/trabajo"
+      ],
+      "signposts": [],
+      "title": "Cómo conseguir un <BLANK> perfecto",
+      "x": false
+     },
+     {
+      "id": "71708",
+      "safetyAnswers": [
+       "Wolverines",
+       "la compra de un zoológico",
+       "una cantidad saludable de miedo"
+      ],
+      "signposts": [],
+      "title": "Endulza tu matrimonio con <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71709",
+      "safetyAnswers": [
+       "Ensalada de atún",
+       "La dama del almuerzo",
+       "Capitán vuelve loco"
+      ],
+      "signposts": [],
+      "title": "La razón por que me dicen \"<BLANK>\"",
+      "x": false
+     },
+     {
+      "id": "71711",
+      "safetyAnswers": [
+       "ositos de goma",
+       "agua del grifo sin filtrar",
+       "sus habilidades gerenciales"
+      ],
+      "signposts": [],
+      "title": "Los humanos pueden sobrevivir con solo <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71712",
+      "safetyAnswers": [
+       "comer un gran sándwich",
+       "ser despedido del trabajo",
+       "deslizarte en el tobogán"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> como un tipo totalmente genial",
+      "x": false
+     },
+     {
+      "id": "71715",
+      "safetyAnswers": [
+       "comido un gran sándwich",
+       "obtenido un segundo divorcio",
+       "bailado con el diablo a la pálida luz de la luna"
+      ],
+      "signposts": [],
+      "title": "Realmente no has vivido tu vida hasta que hayas <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71719",
+      "safetyAnswers": [
+       "salmón salvaje",
+       "un mala tortilla",
+       "ser un asesino"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> me marcó de por vida",
+      "x": false
+     },
+     {
+      "id": "71721",
+      "safetyAnswers": [
+       "mi padre no puede cocinar",
+       "el gobierno está controlando las aves",
+       "soy el chico más guay que conocen"
+      ],
+      "signposts": [],
+      "title": "¿Podemos unirnos todos y estar de acuerdo en que <BLANK>?",
+      "x": false
+     },
+     {
+      "id": "71723",
+      "safetyAnswers": [
+       "una serie de inyecciones dolorosas",
+       "hormigas trituradas",
+       "oraciones"
+      ],
+      "signposts": [],
+      "title": "¿De verdad? ¡Sí! Consigue una piel más suave con <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71736",
+      "safetyAnswers": [
+       "limpiar tu ropa",
+       "llamar a tus padres",
+       "que las hadas de cocina existan"
+      ],
+      "signposts": [],
+      "title": "Abre tu mente a la posibilidad de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71739",
+      "safetyAnswers": [
+       "bailes",
+       "tengas un caimán de mascota",
+       "hagas una buena sopa"
+      ],
+      "signposts": [],
+      "title": "El miedo es lo único que te evita que <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71740",
+      "safetyAnswers": [
+       "maíces",
+       "mesas de billar",
+       "dedos de los pies"
+      ],
+      "signposts": [],
+      "title": "Han estado usando mal sus <BLANK> toda la vida, payasos.",
+      "x": false
+     },
+     {
+      "id": "71751",
+      "safetyAnswers": [
+       "El desayuno de la perdición",
+       "La espada de lava",
+       "Asesinato en alquiler"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Pero toda la historia cambia con la entrada de este personaje salvaje..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Pero esperen, no esperaban este giro de la trama..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Mientras tanto, en las profundidades del espacio..."
+       },
+       {
+        "position": "middle",
+        "signpost": "De repente, la historia avanza 20 años..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pareciera que no hay forma de que esta pelicula tenga un buen final, pero adivinen qué... ¡lo tiene!"
+       },
+       {
+        "position": "end",
+        "signpost": "¡La escena final les volará la mente!"
+       },
+       {
+        "position": "end",
+        "signpost": "De todos formas, sigue así por un rato. Pero me gustaría terminar hablando de oportunidades de comercialización."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Mencioné que hay vampiros? Es un dato importante para el final."
+       },
+       {
+        "position": "middle",
+        "signpost": "De repente, un automóvil sube y baja los escalones..."
+       },
+       {
+        "position": "end",
+        "signpost": "De repente aparecen los créditos. Pero luego, después de los créditos..."
+       }
+      ],
+      "title": "Ahora describiré la trama completa del guión lleno de acción que escribí, titulado: \"<BLANCO>\"",
+      "x": false
+     },
+     {
+      "id": "71755",
+      "safetyAnswers": [
+       "los hombres lobo son reales",
+       "deben aprender levantar 400 kilos en pesas de banco",
+       "no confíen en Kevin"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Cuando tenía tu edad, había cosas que no entendía del mundo real..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Algunos de ustedes han preguntado por qué soy su orador de graduación, y les diré la verdad..."
+       },
+       {
+        "position": "end",
+        "signpost": "Todos ustedes tienen muchas cosas raras de las que estar orgullosos..."
+       },
+       {
+        "position": "end",
+        "signpost": "Me gustaría dejarles una cita de mi canción favorita..."
+       },
+       {
+        "position": "end",
+        "signpost": "Finalmente, cuando salgan al mundo, hay una cosa que siempre deben llevar consigo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Espero que recuerdes con cariño tu tiempo aquí y nuestra inusual mascota escolar..."
+       },
+       {
+        "position": "end",
+        "signpost": "Finalmente, recitaré el lema de nuestra escuela en latín, y luego explicaré lo que significa..."
+       },
+       {
+        "position": "end",
+        "signpost": "Para cerrarlo, cantemos juntos la canción de nuestra escuela, Waka Waka de Shakira"
+       },
+       {
+        "position": "middle",
+        "signpost": "Dejémoslo por el maestro favorito de todos..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Cada estudiante aquí extrañarán asistir a esta clase..."
+       }
+      ],
+      "title": "Mi consejo para la clase que se gradúa de Liberty Benton High School es este: <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71763",
+      "safetyAnswers": [
+       "los emojis",
+       "los gofres",
+       "los carpinteros"
+      ],
+      "signposts": [],
+      "title": "¡Subestima a <BLANK> bajo tu propio riesgo!",
+      "x": false
+     },
+     {
+      "id": "71764",
+      "safetyAnswers": [
+       "los pantalones cómodos",
+       "los pasteles de hoja",
+       "mi persona"
+      ],
+      "signposts": [],
+      "title": "Es hora de que la sociedad deje de ignorar a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71765",
+      "safetyAnswers": [
+       "la leche de almendra",
+       "Tinder",
+       "besar"
+      ],
+      "signposts": [],
+      "title": "Creo que <BLANK> es un milagro de la vida moderna",
+      "x": false
+     },
+     {
+      "id": "71766",
+      "safetyAnswers": [
+       "los quesos duros",
+       "los hermanos Super Mario",
+       "los lagartos"
+      ],
+      "signposts": [],
+      "title": "Cómo aprendí a dejar ir, y a amar a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71767",
+      "safetyAnswers": [
+       "Capitalismo",
+       "Una bonita naranja madura",
+       "El azúcar"
+      ],
+      "signposts": [],
+      "title": "<BLANK>: hace al mundo girar",
+      "x": false
+     },
+     {
+      "id": "71768",
+      "safetyAnswers": [
+       "Un paquete de fósforos",
+       "Entradas para un rally de camiones monstruo",
+       "Dos caballos"
+      ],
+      "signposts": [],
+      "title": "<BLANK>: el regalo perfecto para cualquier situación",
+      "x": false
+     },
+     {
+      "id": "71769",
+      "safetyAnswers": [
+       "entrenar a mi gato a usar el inodoro",
+       "la celebración mundial",
+       "nuestro viaje a Disneylandia"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Para la gente que trata de detenerme..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Cómo me volví tan poderoso?"
+       },
+       {
+        "position": "end",
+        "signpost": "Y ahora, lo más importante de mi plan..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Tiene mi plan ALGÚN error?"
+       },
+       {
+        "position": "end",
+        "signpost": "¿Qué haré cuando tenga éxito?"
+       },
+       {
+        "position": "middle",
+        "signpost": "Permítanme explicar mi intrincado esquema..."
+       },
+       {
+        "position": "end",
+        "signpost": "Mi plan tiene un defecto. ESTA..."
+       },
+       {
+        "position": "end",
+        "signpost": "Únete a mí o te pasará esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Y solo para asegurarme de que nada salga mal, mi plan tiene esta medida de seguridad incorporada..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este plan funcionará mucho mejor que mi última trama..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Dijeron que no se podía hacer, pero ahora están asombrados por esto..."
+       }
+      ],
+      "title": "¡Es demasiado tarde! ¡Mi plan para <BLANK> ya está en marcha!",
+      "x": false
+     },
+     {
+      "id": "71770",
+      "safetyAnswers": [
+       "un festival de comida",
+       "el banco",
+       "el concurso de miradas"
+      ],
+      "signposts": [],
+      "title": "Cómo hice que todos en <BLANK> se enamoraran de mí",
+      "x": false
+     },
+     {
+      "id": "71771",
+      "safetyAnswers": [
+       "la televisión por cable",
+       "las matemáticas",
+       "hablar con cualquier mayor que tú"
+      ],
+      "signposts": [],
+      "title": "Por qué <BLANK> es una pérdida total de tiempo",
+      "x": false
+     },
+     {
+      "id": "71772",
+      "safetyAnswers": [
+       "Yo",
+       "La interpretación de Ryan Reynolds de Linterna Verde en 2011",
+       "Un refrescante vaso de limonada"
+      ],
+      "signposts": [],
+      "title": "¿Quién nos salvará? ¡<BLANK>, por supuesto!",
+      "x": false
+     },
+     {
+      "id": "71773",
+      "safetyAnswers": [
+       "el dueño de una moto de agua",
+       "planta sensible",
+       "cazador de tesoros"
+      ],
+      "signposts": [],
+      "title": "Las alegrías de ser <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71774",
+      "safetyAnswers": [
+       "el día que entrené a mi gato para ir al baño",
+       "tres días antes de navidad",
+       "mi cumpleaños"
+      ],
+      "signposts": [],
+      "title": "Por qué <BLANK> debería ser una festividad nacional",
+      "x": false
+     },
+     {
+      "id": "71775",
+      "safetyAnswers": [
+       "bebé elefante",
+       "gran crisis interna",
+       "postgrado"
+      ],
+      "signposts": [],
+      "title": "¡Sorpresa! Voy a tener un <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71777",
+      "safetyAnswers": [
+       "chocar los cinco",
+       "pintar la casa",
+       "acurrucarse"
+      ],
+      "signposts": [],
+      "title": "Una guía para principiantes sobre <BLANK> competitivamente",
+      "x": false
+     },
+     {
+      "id": "71783",
+      "safetyAnswers": [
+       "una tragedia",
+       "una carrera divertida",
+       "un incendio de basura"
+      ],
+      "signposts": [],
+      "title": "Cómo convertir cada fiesta en <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71791",
+      "safetyAnswers": [
+       "esa barba gigante",
+       "ese conjunto de increíbles movimientos de baile",
+       "ese enjambre de abejas"
+      ],
+      "signposts": [],
+      "title": "Tienes que dejar de esconderte detrás de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71808",
+      "safetyAnswers": [
+       "los invernaderos",
+       "arte dadaísta",
+       "cuidar aves"
+      ],
+      "signposts": [],
+      "title": "Todo lo que sabes acerca de <BLANK> está totalmente equivocado",
+      "x": false
+     },
+     {
+      "id": "71810",
+      "safetyAnswers": [
+       "un buen té helado",
+       "lavar finalmente mi ropa",
+       "el teatro musical"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> me sacó de mi sendero y me llevó a una nueva vida",
+      "x": false
+     },
+     {
+      "id": "71811",
+      "safetyAnswers": [
+       "semi-iluminación",
+       "la humanidad básica",
+       "el perfecto salto mortal",
+       "dominación mundial",
+       "un ambiente genial en general"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Y ese es el primer paso. Aquí está el paso dos..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí hay un pequeño paso secreto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "El siguiente paso es un poco peligroso..."
+       },
+       {
+        "position": "end",
+        "signpost": "Eso lo deja, lo adivinaste, paso tres..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿En qué paso estaba? De todos formas, aquí está la última parte..."
+       },
+       {
+        "position": "end",
+        "signpost": "El tercer paso es el más difícil..."
+       },
+       {
+        "position": "end",
+        "signpost": "Déjame mostrarte la mejor parte del último paso..."
+       }
+      ],
+      "title": "Tres sencillos pasos para lograr <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71813",
+      "safetyAnswers": [
+       "mis propios defectos",
+       "la telerrealidad",
+       "un mal pastel de carne"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> finalmente me convenció de dejar la sociedad",
+      "x": false
+     },
+     {
+      "id": "71814",
+      "safetyAnswers": [
+       "la Reina de Inglaterra",
+       "un drenaje para mis padres",
+       "Superman"
+      ],
+      "signposts": [],
+      "title": "Por qué renuncié a mi trabajo para convertirme en <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71815",
+      "safetyAnswers": [
+       "taco",
+       "trompeta",
+       "frijoles"
+      ],
+      "signposts": [],
+      "title": "Una palabra cambió mi vida, y fue <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71818",
+      "safetyAnswers": [
+       "un mal espía",
+       "fan de la música country",
+       "un vampiro"
+      ],
+      "signposts": [],
+      "title": "Así es, secretamente soy <BLANK>. ¡No se lo digas a nadie!",
+      "x": false
+     },
+     {
+      "id": "71819",
+      "safetyAnswers": [
+       "chocolates infinitos",
+       "¡abrazos, por favor!",
+       "sombreros más elegantes",
+       "¡una fiesta de baile!"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "¡Esto es lo que he hecho por ustedes, campesinos ingratos!"
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Cómo beneficiará esto a mi reino?"
+       },
+       {
+        "position": "end",
+        "signpost": "No olviden las palabras sagradas de mi casa real..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Qué pasará con los que se rebelen?"
+       },
+       {
+        "position": "end",
+        "signpost": "Obedezcan mis caprichos y serán recompensado con esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Déjenme mostrarles por qué soy diferente a otros reyes..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Miren, recibí este magnífico regalo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Vamos, esto no es tan difícil como mi última demanda real..."
+       }
+      ],
+      "title": "Como tu rey, solo tengo una demanda: <BLANK>",
+      "x": false
+     },
+     {
+      "id": "71820",
+      "safetyAnswers": [
+       "mi actitud",
+       "la olla dañada",
+       "esta montaña de basura"
+      ],
+      "signposts": [],
+      "title": "Por qué <BLANK> es toda tu culpa",
+      "x": false
+     },
+     {
+      "id": "71821",
+      "safetyAnswers": [
+       "taxidermia",
+       "relaciones de otras personas",
+       "fingir hasta que lo hagas"
+      ],
+      "signposts": [],
+      "title": "Conviértase en un experto en <BLANK> en menos de cinco minutos",
+      "x": false
+     },
+     {
+      "id": "72058",
+      "safetyAnswers": [
+       "un sótano secreto",
+       "un cazador de monstruos",
+       "una rueda de la fortuna"
+      ],
+      "signposts": [],
+      "title": "¿El secreto de la casa perfecta? ¡<BLANK>!",
+      "x": false
+     },
+     {
+      "id": "72061",
+      "safetyAnswers": [
+       "cómo ser un pirata",
+       "la tristeza",
+       "qué pizza es la mejor"
+      ],
+      "signposts": [],
+      "title": "Lo único que aprendí en la universidad fue <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72062",
+      "safetyAnswers": [
+       "mi tío Juan",
+       "mi barista",
+       "un montón de fantasmas"
+      ],
+      "signposts": [],
+      "title": "Cómo me convertí en el mejor amigo de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72065",
+      "safetyAnswers": [
+       "las plantas carnívoras",
+       "un novato de masa fermentada",
+       "un montón de arañas"
+      ],
+      "signposts": [],
+      "title": "La guía de chico malo para <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72131",
+      "safetyAnswers": [
+       "un panal de abejas",
+       "una cucharada de helado de chocolate",
+       "mi yo malvado"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "¿Qué llevó a este ultimátum?"
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Cómo describiría nuestro amor?"
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Cómo se me puede culpar si mi pareja estaba obsesionada con esto...?"
+       },
+       {
+        "position": "end",
+        "signpost": "¿Existe una tercera opción?"
+       },
+       {
+        "position": "end",
+        "signpost": "El único compromiso que aceptaré es..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Qué hago ahora?"
+       },
+       {
+        "position": "end",
+        "signpost": "Finalmente me siento libre. Mírenme ahora..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Cuál fue la mayor señal de que las cosas se estaban derrumbando?"
+       }
+      ],
+      "title": "Le dije a mi pareja que eligiera: soy yo o <BLANK>",
+      "x": true
+     },
+     {
+      "id": "72132",
+      "safetyAnswers": [
+       "finalmente despertarte por la mañana",
+       "finalmente lavar tu ropa",
+       "llorar constantemente"
+      ],
+      "signposts": [],
+      "title": "Deberías <BLANK> para volverte una mejor versión de ti mismo",
+      "x": false
+     },
+     {
+      "id": "72134",
+      "safetyAnswers": [
+       "bebés",
+       "tazas de yogurt vacías",
+       "maridos fornidos"
+      ],
+      "signposts": [],
+      "title": "Así vivo yo: mi casa está llena de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72135",
+      "safetyAnswers": [
+       "el impuesto sobre la renta",
+       "el maíz en la mazorca",
+       "toda la historia humana"
+      ],
+      "signposts": [],
+      "title": "La repugnante verdad sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72136",
+      "safetyAnswers": [
+       "un sentido de paz",
+       "una pista del asesinato",
+       "un propósito de vida"
+      ],
+      "signposts": [],
+      "title": "Encontré <BLANK> mientras buscaba mis calcetines",
+      "x": false
+     },
+     {
+      "id": "72138",
+      "safetyAnswers": [
+       "gerente medio",
+       "tomate maduro",
+       "una persona muy triste"
+      ],
+      "signposts": [],
+      "title": "Pronto alcanzaré mi forma final: <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72142",
+      "safetyAnswers": [
+       "escabullirse de una fiesta",
+       "atar tus zapatos",
+       "lavar los trastos"
+      ],
+      "signposts": [],
+      "title": "¡La guía completa de <BLANK> con un presupuesto limitado!",
+      "x": false
+     },
+     {
+      "id": "72143",
+      "safetyAnswers": [
+       "pirata",
+       "billonario",
+       "besador de peces"
+      ],
+      "signposts": [],
+      "title": "Nunca es demasiado tarde para convertirse en un <BLANK> profesional",
+      "x": false
+     },
+     {
+      "id": "72145",
+      "safetyAnswers": [
+       "la película de Sonic",
+       "la súper \"S\"",
+       "Garfield",
+       "mi pelo"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Prepárense para la belleza que estoy a punto de mostrarles..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No soy crítico de arte, pero aquí están mis credenciales..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esto es lo que se exhibe en nuestro museo local..."
+       },
+       {
+        "position": "end",
+        "signpost": "Lo que esto nos dice sobre el futuro de la cultura es esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Tenemos que estar de acuerdo en que esta obra de arte es al menos tan valiosa como..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Todo el resto del arte es basura! Especialmente esto..."
+       }
+      ],
+      "title": "Por qué <BLANK> es la obra de arte más grande de nuestro tiempo",
+      "x": false
+     },
+     {
+      "id": "72482",
+      "safetyAnswers": [
+       "las llamadas de broma",
+       "los gusanos",
+       "la historia del arte",
+       "el boliche",
+       "nuestros sentimientos"
+      ],
+      "signposts": [],
+      "title": "Es el momento de entrar en pánico por <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72504",
+      "safetyAnswers": [
+       "un poco de paz y tranquilidad",
+       "interminables elogios de desconocidos",
+       "galletas recién horneadas"
+      ],
+      "signposts": [],
+      "title": "Por qué di absolutamente todo por <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72506",
+      "safetyAnswers": [
+       "la sociedad",
+       "Will Smith",
+       "mi gato"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Solíamos pasar buenos momentos, como..."
+       },
+       {
+        "position": "end",
+        "signpost": "Un día pasarán a una nueva vida con..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esta es la razón por la que todo se volvió demasiado para mí..."
+       },
+       {
+        "position": "end",
+        "signpost": "Encontré un nuevo amor de mi vida..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Conozco el dicho, \"ama a la persona con la que estás\", pero el dicho debería ser..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Déjame mostrarte este momento de nuestro álbum de fotos..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esto libera mi tiempo para mi verdadera pasión..."
+       }
+      ],
+      "title": "Por qué estoy rompiendo con <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72507",
+      "safetyAnswers": [
+       "contraseña de redes sociales",
+       "luz del sol",
+       "cuenta de Netflix"
+      ],
+      "signposts": [],
+      "title": "Esto es lo que les haré si roban mi <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72509",
+      "safetyAnswers": [
+       "la ganadería intensiva",
+       "Coca-Cola",
+       "mi nueva novela"
+      ],
+      "signposts": [],
+      "title": "Un emocionante viaje por el mundo de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72510",
+      "safetyAnswers": [
+       "ver a un perro caminar sobre sus patas traseras",
+       "la trigonometría",
+       "beber de una fuente de soda"
+      ],
+      "signposts": [],
+      "title": "Razones por las que me aterra <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72511",
+      "safetyAnswers": [
+       "a Gordon Ramsay",
+       "un chico que solo usa jeans vaqueros",
+       "el pan"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Aquí hay una metáfora que describe perfectamente el amor..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aunque mi corazón está lleno de amor, todavía estoy molesto por esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Cómo defino el amor?"
+       },
+       {
+        "position": "end",
+        "signpost": "No puedo esperar para pasar el resto de mis días haciendo nuestra cosa favorita..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Cómo se siente cuando estamos juntos?"
+       },
+       {
+        "position": "end",
+        "signpost": "Encuentra a alguien que te trate así..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Si amas algo, esto es lo que haces..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si tu vida no tiene amor, esto es lo que puedes hacer para arreglarla..."
+       },
+       {
+        "position": "end",
+        "signpost": "Hay algo más que también amo..."
+       }
+      ],
+      "title": "No conocía el amor verdadero hasta que conocí <BLANK>",
+      "x": true
+     },
+     {
+      "id": "72512",
+      "safetyAnswers": [
+       "una buena técnica de cuchillo",
+       "cómo evadir impuestos",
+       "por qué compramos una casa rodante"
+      ],
+      "signposts": [
+       {
+        "position": "end",
+        "signpost": "Antes de irme, su madre quería que les dijera una última cosa..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Una vez fui como ustedes..."
+       },
+       {
+        "position": "end",
+        "signpost": "Me siento incómodo al mencionarlo, pero su madre no deja de hablar de..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Van por un mal camino, y ese camino lleva a esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Por qué estoy aquí realmente? Su mamá y yo estamos conectados por esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esto puede resultarles confuso. Déjenme simplificarlo con una pequeña historia..."
+       }
+      ],
+      "title": "Niños, su madre me trajo aquí para hablarles sobre <BLANK>",
+      "x": true
+     },
+     {
+      "id": "72514",
+      "safetyAnswers": [
+       "un gatito",
+       "el respeto de mis compañeros de trabajo",
+       "un Nintendo Switch"
+      ],
+      "signposts": [],
+      "title": "Solía ​​ser una persona vacía. Todavía lo soy, pero ahora tengo <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72515",
+      "safetyAnswers": [
+       "vaquero fallido",
+       "gran fracasado",
+       "padre de perros"
+      ],
+      "signposts": [],
+      "title": "Hola amigo, sé el <BLANK> que quieres ver en el mundo",
+      "x": false
+     },
+     {
+      "id": "72516",
+      "safetyAnswers": [
+       "mi colección de espadas",
+       "mi mejor juicio",
+       "el podcast sobre ti"
+      ],
+      "signposts": [],
+      "title": "No eres tú, es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72518",
+      "safetyAnswers": [
+       "que Eggo hace el mejor gofre congelado",
+       "dónde está mi mal tesoro",
+       "mis aceites aromáticos"
+      ],
+      "signposts": [],
+      "title": "Soy un fantasma, y ​​mi asunto pendiente es que necesito hablarte de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72646",
+      "safetyAnswers": [
+       "Este zoológico de mascotas",
+       "Robar pasteles",
+       "La risa"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "No se reirán cuando les muestre esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora compartiré con ustedes algo que en realidad es bastante gracioso..."
+       },
+       {
+        "position": "end",
+        "signpost": "También, paren de llorar. Y dejen de..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esto es de lo que se deberían estar riendo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Les voy a contar algo sobre las personas que encuentran este tipo de cosas graciosas..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esperen, he cambiado de opinión. Es gracioso y he aquí el porqué..."
+       }
+      ],
+      "title": "<BLANK> no es una broma, así que paren de reirse",
+      "x": false
+     },
+     {
+      "id": "72647",
+      "safetyAnswers": [
+       "la suerte",
+       "el pan",
+       "los lobos"
+      ],
+      "signposts": [],
+      "title": "No hay nada tan malo como <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72650",
+      "safetyAnswers": [
+       "Hotel para perros",
+       "mascar chicle",
+       "las antiguas mansiones embrujadas"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "¿Qué hace que un adolescente como yo sea tan genial?"
+       },
+       {
+        "position": "end",
+        "signpost": "¿Qué pueden aprender de esto las personas mayores como ustedes?"
+       },
+       {
+        "position": "end",
+        "signpost": "Asegúrense de contarle en sus vidas a un adolescente genial lo siguiente..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Me estoy tomando un descanso del skate para decirles esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí hay algunas palabras del dialecto adolescente que ustedes, los viejos marginales no conocen..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esto que sigue no es para nada genial..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Todos en la escuela le están enviando la siguiente foto a todos..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si le dicen a alguien lo que les he dicho aquí hoy, solo diré..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ustedes solo desean poder ser así..."
+       },
+       {
+        "position": "end",
+        "signpost": "Hasta luego perdedores, tengo que ir a hacer esta cosa increíble..."
+       }
+      ],
+      "title": "¿Por qué todos los adolescentes geniales hablan de <BLANK>? Soy un adolescente genial, así que te lo diré.",
+      "x": true
+     },
+     {
+      "id": "72652",
+      "safetyAnswers": [
+       "Taco Bell",
+       "Un hormiguero",
+       "Dónde está Wally"
+      ],
+      "signposts": [],
+      "title": "<BLANK> es un misterio que vale la pena resolver",
+      "x": false
+     },
+     {
+      "id": "72698",
+      "safetyAnswers": [
+       "materiales preciosos",
+       "insultos",
+       "caramelos"
+      ],
+      "signposts": [],
+      "title": "Por qué merezco todos los <BLANK> del mundo",
+      "x": false
+     },
+     {
+      "id": "72747",
+      "safetyAnswers": [
+       "bailar tap",
+       "criar cachorros Corgi",
+       "seguir regalando mis millones de dólares"
+      ],
+      "signposts": [],
+      "title": "Lamento anunciar que ya no voy a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72748",
+      "safetyAnswers": [
+       "zapatos de bebé",
+       "metros de cinta de burbujas",
+       "asesinos"
+      ],
+      "signposts": [],
+      "title": "¿A dónde se han ido todos los <BLANK>? La respuesta puede sorprenderte",
+      "x": false
+     },
+     {
+      "id": "72749",
+      "safetyAnswers": [
+       "disfrutar mis largas charlas sobre botes",
+       "vivir en un buen distrito escolar",
+       "comer tomates"
+      ],
+      "signposts": [],
+      "title": "Si quieres ser mi amante, necesitas <BLANK>",
+      "x": true
+     },
+     {
+      "id": "72750",
+      "safetyAnswers": [
+       "la microgestión cuidadosa",
+       "una serie de malas decisiones",
+       "la harina de avena"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> me convirtió en la persona que soy hoy",
+      "x": false
+     },
+     {
+      "id": "72754",
+      "safetyAnswers": [
+       "Groot",
+       "varios conejos",
+       "tu agente de bolsa",
+       "un lobo con computador"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "¿Por no revelé esto antes?"
+       },
+       {
+        "position": "end",
+        "signpost": "Solo rezo por poder detener a mi mayor archienemigo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿NO te sorprende? Bueno, esto puede darte una sorpresa..."
+       },
+       {
+        "position": "end",
+        "signpost": "En el fondo, sigo siendo yo mismo por esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esta es la razón por la que he ocultado esta identidad..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Honestamente, la primera pista de mi identidad debería haber sido esta..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Sorpresa! Tengo otra identidad aún más secreta..."
+       },
+       {
+        "position": "end",
+        "signpost": "También tengo una voz secreta que empezaré a usar al terminar este discurso..."
+       }
+      ],
+      "title": "Es hora de revelar mi identidad secreta... Yo soy <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72756",
+      "safetyAnswers": [
+       "horrible",
+       "comer semillas como un pájaro",
+       "usar hongos"
+      ],
+      "signposts": [],
+      "title": "Encontré la clave para la juventud eterna, y es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72761",
+      "safetyAnswers": [
+       "television por cable",
+       "gusanos",
+       "sándwiches"
+      ],
+      "signposts": [],
+      "title": "Los placeres prohibidos de usar <BLANK> en el dormitorio",
+      "x": true
+     },
+     {
+      "id": "72763",
+      "safetyAnswers": [
+       "se laven las manos",
+       "su madre quiere que llamen",
+       "el especial de esta noche es muy bueno"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Este siguiente punto podría hacer que digas \"Yeehaw\" por estar de acuerdo..."
+       },
+       {
+        "position": "end",
+        "signpost": "Un punto más antes de que huya por ese sendero solitario..."
+       },
+       {
+        "position": "middle",
+        "signpost": "La vida en el campo te lleva a encontrar muchos... bueno, déjenme mostrarles a todos..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Ahora, lo último que querrías ver en el camino es..."
+       },
+       {
+        "position": "end",
+        "signpost": "Tres cosas que necesita un vaquero. 1. Sombrero. 2. Botas. 3..."
+       },
+       {
+        "position": "end",
+        "signpost": "Hasta la próxima, extraño, espero que tu vida esté llena de esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Estaba montando en mi fiel caballo cuando presencié este motivo de consternación..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Ven esta insignia en mi pecho? No soy el sheriff, pero estoy a cargo de esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí hay algo que solo verán en el oeste..."
+       },
+       {
+        "position": "end",
+        "signpost": "La frontera está llena de esto, si sabes dónde buscar..."
+       },
+       {
+        "position": "end",
+        "signpost": "Que tengan un buen viaje, amigos, y recuerden esta pequeña pepita de sabiduría..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Debo advertirles, hay una sola cosa que me hará desafiarlos a un tiroteo al mediodía..."
+       }
+      ],
+      "title": "Hola. Solo soy un vaquero que vino a decirles que <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72770",
+      "safetyAnswers": [
+       "una decepción profesional",
+       "un payaso de carnaval",
+       "rey de Burger King"
+      ],
+      "signposts": [],
+      "title": "Sangre, sudor y lágrimas: mi vida siendo <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72773",
+      "safetyAnswers": [
+       "comerse a los ricos",
+       "echar siestas",
+       "la jardinería de techo competitiva"
+      ],
+      "signposts": [],
+      "title": "Por qué <BLANK> debería ser nuestro nuevo pasatiempo nacional",
+      "x": false
+     },
+     {
+      "id": "72774",
+      "safetyAnswers": [
+       "una cafetera vacía",
+       "un suéter suave",
+       "zapatos sin atar"
+      ],
+      "signposts": [],
+      "title": "Honestamente, lo único que puede hacerme llorar es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72776",
+      "safetyAnswers": [
+       "la prohibición de gafas de tamaño mundial",
+       "mi mamá",
+       "este mal sitio web"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> está cambiando la forma en que vemos el mundo",
+      "x": false
+     },
+     {
+      "id": "72777",
+      "safetyAnswers": [
+       "colección de peluches de bebé",
+       "horda de dragones",
+       "contraseña de Club Penguin"
+      ],
+      "signposts": [],
+      "title": "¡He tenido suficiente! ¡Dejen de preguntarme sobre mi <BLANK>!",
+      "x": false
+     },
+     {
+      "id": "72785",
+      "safetyAnswers": [
+       "hormigas",
+       "coleccionistas de monedas",
+       "tubistas"
+      ],
+      "signposts": [],
+      "title": "Mis años viviendo encubierto con <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72787",
+      "safetyAnswers": [
+       "llorar",
+       "tomates",
+       "la ópera"
+      ],
+      "signposts": [],
+      "title": "Los científicos solían reírse de mí, pero ahora necesitan mis conocimientos sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72823",
+      "safetyAnswers": [
+       "un perdedor",
+       "un pirómano",
+       "un padre terrible"
+      ],
+      "signposts": [],
+      "title": "Después de 25 años siendo <BLANK>, aprendí algunas cosas importantes",
+      "x": false
+     },
+     {
+      "id": "72833",
+      "safetyAnswers": [
+       "arruinar mi vida",
+       "ponerme triste",
+       "encontrar mi casa"
+      ],
+      "signposts": [],
+      "title": "Usé internet para <BLANK>, y tú también puedes",
+      "x": false
+     },
+     {
+      "id": "72838",
+      "safetyAnswers": [
+       "perderte en un pantano",
+       "mirar al sol por 1 hora",
+       "esconderte bajo de tu cama"
+      ],
+      "signposts": [],
+      "title": "Transforma toda tu vida en una hora con solo <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72967",
+      "safetyAnswers": [
+       "un padre",
+       "un muerto",
+       "buena persona"
+      ],
+      "signposts": [],
+      "title": "La vida es demasiado corta para gastarla siendo <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72970",
+      "safetyAnswers": [
+       "botón de autodestrucción",
+       "perro en la oficina",
+       "director ejecutivo bebé"
+      ],
+      "signposts": [],
+      "title": "Toda empresa necesita un <BLANK>",
+      "x": false
+     },
+     {
+      "id": "72985",
+      "safetyAnswers": [
+       "es lindo",
+       "es una morsa",
+       "está molesto"
+      ],
+      "signposts": [],
+      "title": "Vi a Dios y estoy aquí para decirles que Dios <BLANK>",
+      "x": true
+     },
+     {
+      "id": "73013",
+      "safetyAnswers": [
+       "las librerías",
+       "los pretzels",
+       "los acertijos"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "¿Por qué es esto tan aterrador?"
+       },
+       {
+        "position": "end",
+        "signpost": "Aquí hay algunas formas de enfrentar nuestros miedos..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¡Aaaah! Lo siento, solo estaba pensando en esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿De dónde vino este terror?"
+       },
+       {
+        "position": "middle",
+        "signpost": "He aquí por qué es incluso peor de lo que piensas..."
+       },
+       {
+        "position": "end",
+        "signpost": "Una vez que estemos libres de este miedo, podemos ver un nuevo y más brillante futuro lleno de..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pero la buena noticia es que también tenemos una cosa por la que estar felices..."
+       },
+       {
+        "position": "end",
+        "signpost": "La mejor forma de ser valiente es..."
+       }
+      ],
+      "title": "Solo tenemos una cosa que temer: <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73016",
+      "safetyAnswers": [
+       "consumo de frutas",
+       "colección de sellos",
+       "acceso al chicle"
+      ],
+      "signposts": [],
+      "title": "Maximicé mi vida maximizando mi <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73017",
+      "safetyAnswers": [
+       "Una manada de lagartos",
+       "Alf",
+       "Mi dragón imaginario"
+      ],
+      "signposts": [],
+      "title": "¡No escuches la razón! <BLANK> es la mascota ideal",
+      "x": false
+     },
+     {
+      "id": "73018",
+      "safetyAnswers": [
+       "libros de la biblioteca",
+       "macroeconomía",
+       "quién se tiro el pedo"
+      ],
+      "signposts": [],
+      "title": "Una discusión íntima sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73019",
+      "safetyAnswers": [
+       "colección de espadas",
+       "manada de lagartos",
+       "colección de artefactos embrujados"
+      ],
+      "signposts": [],
+      "title": "Por qué tengo la intención de mantener mi <BLANK>, sin importar lo que digas, mamá",
+      "x": false
+     },
+     {
+      "id": "73020",
+      "safetyAnswers": [
+       "estar sin chips",
+       "todo nuestro mundo",
+       "un sándwich húmedo"
+      ],
+      "signposts": [],
+      "title": "Aceptando la aterradora realidad de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73021",
+      "safetyAnswers": [
+       "ositos de goma",
+       "huesos",
+       "madera"
+      ],
+      "signposts": [],
+      "title": "Cómo hacer la transición a una dieta basada en <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73022",
+      "safetyAnswers": [
+       "mi separación",
+       "este récipe de lasaña",
+       "the state of my room"
+      ],
+      "signposts": [],
+      "title": "La única explicacion para <BLANK> son los extraterrestres",
+      "x": false
+     },
+     {
+      "id": "73023",
+      "safetyAnswers": [
+       "comer toneladas de queso",
+       "una nueva esponja",
+       "volver a dormir"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> me ayudo a superar un corazón roto",
+      "x": false
+     },
+     {
+      "id": "73025",
+      "safetyAnswers": [
+       "Ocuparse de lo suyo",
+       "Caramelos de chocolate",
+       "Bocados secretos de bagel"
+      ],
+      "signposts": [],
+      "title": "<BLANK>: la clave para una mejor mente, alma y cuerpo",
+      "x": false
+     },
+     {
+      "id": "73026",
+      "safetyAnswers": [
+       "Mi vida amorosa",
+       "La llegada a la luna",
+       "Elevadores"
+      ],
+      "signposts": [],
+      "title": "<BLANK>: ¿realidad o ficción?",
+      "x": false
+     },
+     {
+      "id": "73027",
+      "safetyAnswers": [
+       "tierra",
+       "ropa deportiva",
+       "cosquillas"
+      ],
+      "signposts": [],
+      "title": "¡Todos entren en pánico! ¡¡¡Nos estamos quedando sin <BLANK>!!!",
+      "x": false
+     },
+     {
+      "id": "73028",
+      "safetyAnswers": [
+       "la telerrealidad",
+       "habilidades básicas para la vida",
+       "cómo cargar un lavavajillas"
+      ],
+      "signposts": [],
+      "title": "Por qué deberíamos enseñar <BLANK> en las escuelas",
+      "x": false
+     },
+     {
+      "id": "73029",
+      "safetyAnswers": [
+       "mi patio",
+       "un vertedero escénico",
+       "algún otro planeta"
+      ],
+      "signposts": [],
+      "title": "¡En serio! Vámonos todos a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73031",
+      "safetyAnswers": [
+       "un artista de sándwiches",
+       "una mala persona en línea",
+       "un Joker"
+      ],
+      "signposts": [],
+      "title": "Entonces, ¿has decidido ser <BLANK>? ¡Aquí está todo lo que necesitas saber!",
+      "x": false
+     },
+     {
+      "id": "73032",
+      "safetyAnswers": [
+       "rendirse",
+       "construir una pajarera",
+       "entrenar a un equipo de baloncesto"
+      ],
+      "signposts": [],
+      "title": "La única manera de ser verdaderamente feliz es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73034",
+      "safetyAnswers": [
+       "Legolas",
+       "este sándwich de jamón",
+       "un espantapájaros"
+      ],
+      "signposts": [],
+      "title": "Por qué <BLANK> es la pareja romántica perfecta",
+      "x": true
+     },
+     {
+      "id": "73035",
+      "safetyAnswers": [
+       "imitadores de Jack Black",
+       "una salsa de tomate agria",
+       "una computadora que huela mal"
+      ],
+      "signposts": [],
+      "title": "No me importa lo que digan, ¡el mundo necesita <BLANK>!",
+      "x": false
+     },
+     {
+      "id": "73036",
+      "safetyAnswers": [
+       "mi padre",
+       "el chili del aeropuerto",
+       "una tarjeta de regalo de $25"
+      ],
+      "signposts": [],
+      "title": "Por qué <BLANK> es la mejor experiencia gastronómica",
+      "x": false
+     },
+     {
+      "id": "73037",
+      "safetyAnswers": [
+       "robar la \"Mona Lisa\"",
+       "ser un tonto adorable",
+       "comer insectos"
+      ],
+      "signposts": [],
+      "title": "No cometas mi mismo error: arruiné mi vida por <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73038",
+      "safetyAnswers": [
+       "cinta adhesiva",
+       "un hombre muy alto",
+       "gusanos"
+      ],
+      "signposts": [],
+      "title": "Por qué conseguir <BLANK> podría arreglar todo en mi vida",
+      "x": false
+     },
+     {
+      "id": "73039",
+      "safetyAnswers": [
+       "música Disco",
+       "una segunda sociedad",
+       "un círculo de tambores"
+      ],
+      "signposts": [],
+      "title": "Es hora de tirar todo y reemplazarlo con <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73043",
+      "safetyAnswers": [
+       "mi padre",
+       "la industria de perros calientes",
+       "un ratón inteligente"
+      ],
+      "signposts": [],
+      "title": "Soy el elegido: una profecía dijo que soy <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73048",
+      "safetyAnswers": [
+       "muffins",
+       "crayones",
+       "coches de bebé",
+       "robots"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Imaginen esta escena clave..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Lo que conduce al clímax emocionante!"
+       },
+       {
+        "position": "end",
+        "signpost": "Si hoy inviertes en mi película, esto es lo que te daré..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Dijeron que la siguiente parte costaría demasiado dinero..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Mira este guión gráfico que armé..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este siguiente punto de la trama es ciertamente un cliché, pero simplemente funciona..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si te gustó ese discurso, te encantará mi otro guión sobre..."
+       },
+       {
+        "position": "end",
+        "signpost": "La película es solo el comienzo. Esta es mi idea para una serie de televisión derivada..."
+       },
+       {
+        "position": "end",
+        "signpost": "También tengo una idea para una precuela..."
+       }
+      ],
+      "title": "Hollywood tiene demasiado miedo para hacer mi película sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73049",
+      "safetyAnswers": [
+       "la procrastinación",
+       "el día de Valentín",
+       "el azúcar"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "¿Qué come este tiburón?"
+       },
+       {
+        "position": "end",
+        "signpost": "¿Cuál es tu balsa salvavidas emocional?"
+       },
+       {
+        "position": "middle",
+        "signpost": "Imagina que esto te ataca bajo el agua..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡UH, oh! Vamos a necesitar uno más grande..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Pero, ¿quiénes son los peces payaso? La respuesta puede sorprenderte..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este es tu esnórquel..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este tiburón no te come. Hace algo aún peor..."
+       },
+       {
+        "position": "end",
+        "signpost": "Me he quedado sin cosas para esta metáfora, así que la siguiente diapositiva es de mis últimas vacaciones de verano..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Y quién soy yo en esta metáfora? Soy esta hermosa criatura..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si quieres nadar a través del océano de la vida, esto es lo que debes hacer..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No puedes nadar más rapido que el tiburón, pero puedes..."
+       }
+      ],
+      "title": "La vida es el océano y <BLANK> es el tiburón",
+      "x": false
+     },
+     {
+      "id": "73050",
+      "safetyAnswers": [
+       "el ritmo",
+       "alergias de temporada",
+       "el internet de acceso telefónico"
+      ],
+      "signposts": [],
+      "title": "¡En lugar de ceder a la desesperación, cede ante <BLANK>!",
+      "x": false
+     },
+     {
+      "id": "73051",
+      "safetyAnswers": [
+       "Trabajar desde casa",
+       "Comprar una granja de hormigas",
+       "Un suministro gratuito de aceitunas de por vida"
+      ],
+      "signposts": [],
+      "title": "<BLANK> parecía un sueño hecho realidad, pero se convirtió en una pesadilla",
+      "x": false
+     },
+     {
+      "id": "73056",
+      "safetyAnswers": [
+       "ser un adulto",
+       "cuidar adecuadamente un caballo",
+       "hacer deportes"
+      ],
+      "signposts": [],
+      "title": "No es por alardear, pero soy el único en el mundo que puede <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73059",
+      "safetyAnswers": [
+       "cuidar a mi niño",
+       "conducir un camión monstruo",
+       "unirte a mi cuarteto de barbería"
+      ],
+      "signposts": [],
+      "title": "Hey chico sabio, ¿crees que eres demasiado bueno para <BLANK>?",
+      "x": false
+     },
+     {
+      "id": "73062",
+      "safetyAnswers": [
+       "los osos",
+       "las patatas fritas",
+       "las películas de Tom Hanks"
+      ],
+      "signposts": [],
+      "title": "Advertencia: no sean víctimas de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73063",
+      "safetyAnswers": [
+       "encontrar estacionamiento en un fin de semana",
+       "un mal día en la playa",
+       "mi gnomo de baño"
+      ],
+      "signposts": [],
+      "title": "Reúnanse y escuchen mi historia de dolor sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73066",
+      "safetyAnswers": [
+       "mi hijo Gregory",
+       "lo bueno que eres jugando rayuela",
+       "delfines"
+      ],
+      "signposts": [],
+      "title": "Oh, no, cada aspecto de tu vida está controlado por <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73068",
+      "safetyAnswers": [
+       "comencé a gatear como bebé",
+       "me cubrí de grasa",
+       "se me atraparon las manos en ratoneras"
+      ],
+      "signposts": [],
+      "title": "Nadie solía prestarme atención, pero <BLANK> y ahora soy la reina del baile",
+      "x": false
+     },
+     {
+      "id": "73070",
+      "safetyAnswers": [
+       "el hombre lobo",
+       "mi par de zapatos ajustados",
+       "mi hermano"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Esa sensación escalofriante que tienes podría deberse a esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Cómo podemos matar a esta bestia?"
+       },
+       {
+        "position": "middle",
+        "signpost": "Incluso el fuego no lo puede destruir..."
+       },
+       {
+        "position": "middle",
+        "signpost": "El siguiente punto te dará el escalofrío más espeluznante..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Se ve hermoso, pero aquí está la verdadera amenaza..."
+       },
+       {
+        "position": "end",
+        "signpost": "Le debemos una gran disculpa a lo que solíamos pensar que era el monstruo..."
+       },
+       {
+        "position": "end",
+        "signpost": "Nuestra mejor protección es probablemente esta..."
+       },
+       {
+        "position": "end",
+        "signpost": "Hago un llamado al único verdadero asesino que puede salvarnos de esta monstruosidad..."
+       },
+       {
+        "position": "end",
+        "signpost": "Hoy aprendimos una lección importante sobre juzgar a un libro por su portada..."
+       }
+      ],
+      "title": "Resulta que todo el tiempo <BLANK> fue el verdadero monstruo",
+      "x": false
+     },
+     {
+      "id": "73072",
+      "safetyAnswers": [
+       "usar jeans",
+       "comer rocas",
+       "usar harina de avena"
+      ],
+      "signposts": [],
+      "title": "Parece inocente, pero de verdad <BLANK> es muy peligroso",
+      "x": false
+     },
+     {
+      "id": "73073",
+      "safetyAnswers": [
+       "un tornadopocalípisis",
+       "un ataque de Pie grande",
+       "ser atacado por cientos de palomas"
+      ],
+      "signposts": [],
+      "title": "Si quieres sobrevivir a <BLANK>, debes hacer exactamente lo que te digo",
+      "x": false
+     },
+     {
+      "id": "73074",
+      "safetyAnswers": [
+       "sopa",
+       "nuevo paso de baile",
+       "plan para extinguir los elefantes"
+      ],
+      "signposts": [],
+      "title": "Ignora todas las críticas sobre mi <BLANK>, están totalmente equivocadas",
+      "x": false
+     },
+     {
+      "id": "73076",
+      "safetyAnswers": [
+       "que los perros conspiran contra la humanidad",
+       "que Hulk Hogan y el Increíble Hulk son dos personas diferentes",
+       "que mis padres están en un calendario nudista"
+      ],
+      "signposts": [],
+      "title": "Lo siento si parezco agitado. Acabo de enterarme de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73077",
+      "safetyAnswers": [
+       "podcast",
+       "cactus",
+       "codo"
+      ],
+      "signposts": [],
+      "title": "Nada personal, pero aquí hay una dura verdad sobre tu <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73079",
+      "safetyAnswers": [
+       "besar a Optimus Prime",
+       "el Tigre Toño",
+       "My Little Pony"
+      ],
+      "signposts": [],
+      "title": "Mi fánfic sobre <BLANK> no es solo entretenimiento, es un cambio de vida",
+      "x": false
+     },
+     {
+      "id": "73080",
+      "safetyAnswers": [
+       "mi ruda actitud",
+       "el cereal para el desayuno",
+       "la economía de Finlandia"
+      ],
+      "signposts": [],
+      "title": "¿Qué pasa con <BLANK>? Oh chico, te lo diré.",
+      "x": false
+     },
+     {
+      "id": "73082",
+      "safetyAnswers": [
+       "Mi botella de Champú",
+       "Mi Biblia especial",
+       "Un menú de Burger King"
+      ],
+      "signposts": [],
+      "title": "<BLANK> puede que en realidad no sea un libro, pero es el único libro que necesitarás leer",
+      "x": false
+     },
+     {
+      "id": "73084",
+      "safetyAnswers": [
+       "YouTube",
+       "Tatuajes de axilas",
+       "Periodismo"
+      ],
+      "signposts": [],
+      "title": "<BLANK>: la mejor manera de decepcionar a tus padres",
+      "x": true
+     },
+     {
+      "id": "73086",
+      "safetyAnswers": [
+       "jeans de Calvin Klein",
+       "el sombrero de un granjero",
+       "mi propio pelo"
+      ],
+      "signposts": [],
+      "title": "Cállense... De ahora en adelante solo usaré <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73088",
+      "safetyAnswers": [
+       "las librerías",
+       "los sombreros de copa",
+       "los carritos chocones"
+      ],
+      "signposts": [],
+      "title": "Hay una guerra por <BLANK> y yo soy el general",
+      "x": false
+     },
+     {
+      "id": "73089",
+      "safetyAnswers": [
+       "bueno en los videojuegos",
+       "el dueño de una motocicleta",
+       "un poquito más alto que él"
+      ],
+      "signposts": [],
+      "title": "Mejor que él: Albert Einstein era inteligente, pero yo soy <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73090",
+      "safetyAnswers": [
+       "los perros calientes cuentan como postre",
+       "no ser devorado por lobos",
+       "gritar"
+      ],
+      "signposts": [],
+      "title": "Mi vida se basa en un simple y unico principio: <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73093",
+      "safetyAnswers": [
+       "la tienda de pretzels",
+       "la fábrica de kazoos",
+       "un parque de atracciones con temática de pañales"
+      ],
+      "signposts": [],
+      "title": "Como exempleado de <BLANK>, esto es lo que no quieren que los clientes sepan",
+      "x": false
+     },
+     {
+      "id": "73096",
+      "safetyAnswers": [
+       "entres a mi habitación",
+       "te vuelvas barbero",
+       "conectes en LinkedIn"
+      ],
+      "signposts": [],
+      "title": "Lo siento, pero la próxima vez que tú <BLANK>, se te caerá la cara",
+      "x": false
+     },
+     {
+      "id": "73097",
+      "safetyAnswers": [
+       "el amor",
+       "el vínculo entre un vaquero y su caballo",
+       "ir al parque acuático"
+      ],
+      "signposts": [],
+      "title": "Idiotas, el tesoro más grande del mundo no es la riqueza, es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73101",
+      "safetyAnswers": [
+       "la NASA",
+       "un gato y un ratón que se han unido en mi contra",
+       "los elevadores"
+      ],
+      "signposts": [],
+      "title": "Un juego del gato y ratón: mi pelea en curso contra <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73102",
+      "safetyAnswers": [
+       "café descafeinado",
+       "cómo funcionan los teléfonos móviles",
+       "el amor verdadero"
+      ],
+      "signposts": [],
+      "title": "Los científicos no pueden explicar <BLANK>, pero yo lo descubrí por mi cuenta",
+      "x": false
+     },
+     {
+      "id": "73109",
+      "safetyAnswers": [
+       "hacer una computadora con piernas",
+       "inventar un mejor abrelatas",
+       "darme un billón de dólares"
+      ],
+      "signposts": [],
+      "title": "A pesar de toda su tecnología mágica, Silicon Valley todavía no puede <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73114",
+      "safetyAnswers": [
+       "un atleta",
+       "un rey",
+       "un tonto"
+      ],
+      "signposts": [],
+      "title": "Claro, soy patético, pero... ¿y si te dijera que también fui <BLANK>?",
+      "x": false
+     },
+     {
+      "id": "73129",
+      "safetyAnswers": [
+       "que por favor inventen nachos a prueba de agua",
+       "que dejen de orinar en el océano",
+       "que la Atlántida es para los amantes",
+       "que las aves son malvadas"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Cuidado, yo mando el viento, las olas y..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Las profundidades del océano contienen vistas más allá de su comprensión humana, como..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Mi tridente encantado hará esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "La ley submarina del reino oceánico es clara en esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Pueden coexistir la humanidad y los tritones?"
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora les traduciré el canto de las ballenas..."
+       },
+       {
+        "position": "end",
+        "signpost": "Hay una última pregunta que tengo sobre el mundo de la superficie..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Pero, ¿qué le importan los problemas de los habitantes de la tierra a un dios del agua como yo? Ustedes tienen algo que deseo..."
+       },
+       {
+        "position": "end",
+        "signpost": "Les dejaré ahora con un último secreto sobre el mar..."
+       }
+      ],
+      "title": "Soy el Señor de la Atlántida y mi terrible mensaje para ustedes, habitantes de la superficie es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73130",
+      "safetyAnswers": [
+       "lave tu ropa",
+       "te preste mi podadora",
+       "cuide a tus hijos",
+       "te enseñe a bailar"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Mi código de honor exige que les diga esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "A pesar de lo que has escuchado, no soy un monstruo. De hecho soy..."
+       },
+       {
+        "position": "middle",
+        "signpost": "He aquí el porqué soy un valioso amigo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Por qué debería conceder esta bendición?"
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora me deben una deuda, que es esta..."
+       },
+       {
+        "position": "end",
+        "signpost": "Me alegro de que hayamos llegado al siguiente acuerdo..."
+       },
+       {
+        "position": "end",
+        "signpost": "Bien, bien. Ahora besen mi anillo y hagan esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Les he contado la historia de lo que le pasó al último hombre que me preguntó esto?"
+       },
+       {
+        "position": "end",
+        "signpost": "Váyanse de aquí y cuéntenles esto a sus amigos y familiares..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esto es lo que no entienden sobre mi negocio..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No soy un pequeño criminal, así es como dirijo mi operación..."
+       },
+       {
+        "position": "end",
+        "signpost": "Vayan con mi ejecutor principal, y díganle esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "En mi país hay un viejo refrán, un principio que todos los mafiosos siguen..."
+       }
+      ],
+      "title": "Soy un poderoso jefe de la mafia y me has pedido como favor que <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73136",
+      "safetyAnswers": [
+       "mi tortuga mascota",
+       "cuando los dinosaurios controlaban la Tierra",
+       "la indigestión"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "\"Bajo la luz de la mañana, divisé por mi ventana...\""
+       },
+       {
+        "position": "middle",
+        "signpost": "\"¿Por qué tengo fruncido el ceño? ¿Quieres que te cuente? Deja te enseño...\""
+       },
+       {
+        "position": "middle",
+        "signpost": "\"Mi amor es profundo y no es salvaje, y se puede ver en la siguiente imagen...\""
+       },
+       {
+        "position": "end",
+        "signpost": "\"Mi vida ahora, sellada por el destino, es una historia en la que no puedo cambiar mi camino...\""
+       },
+       {
+        "position": "end",
+        "signpost": "\"Adiós queridos amigos, cambiaré de dirección. Pero les aseguro que en mi viaje los guardaré en mi corazón...\""
+       },
+       {
+        "position": "end",
+        "signpost": "\"En medio de la sombría llanura, susurro estas palabras en mi habitación oscura...\""
+       },
+       {
+        "position": "middle",
+        "signpost": "\"Una cosa con mucha relevancia, este es un hecho sobre mi infancia...\""
+       },
+       {
+        "position": "end",
+        "signpost": "Si esta última parte se parece a las letras de canciones populares, es simplemente una coincidencia"
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora romperé la métrica para formular un corto poema..."
+       },
+       {
+        "position": "middle",
+        "signpost": "\"Fue una noción poderosa, que llenó mi alma de pétalos y rosas...\""
+       },
+       {
+        "position": "end",
+        "signpost": "\"Ahora por fin veo con gran seguridad, una profunda verdad sobre la humanidad...\""
+       }
+      ],
+      "title": "Ahora leeré mi poema sobre el amor, la pérdida y <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73143",
+      "safetyAnswers": [
+       "el acuario",
+       "Movistar",
+       "mi oficina"
+      ],
+      "signposts": [],
+      "title": "Estoy advirtiendo a esos idiotas en <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73164",
+      "safetyAnswers": [
+       "es Will Smith",
+       "es como una cama para perros",
+       "está molesto por ello"
+      ],
+      "signposts": [],
+      "title": "Mi historia: mi madre es como una vela aromática y mi padre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73165",
+      "safetyAnswers": [
+       "suricatas",
+       "mujeres millonarias",
+       "luchadores profesionales"
+      ],
+      "signposts": [],
+      "title": "Historia real: encontré mi \"Hogar\" en un grupo de <BLANK> ",
+      "x": false
+     },
+     {
+      "id": "73288",
+      "safetyAnswers": [
+       "mi propia incompetencia",
+       "un gran perro inteligente",
+       "el calentamiento global",
+       "las redes sociales"
+      ],
+      "signposts": [
+       {
+        "position": "end",
+        "signpost": "No me subestimen, porque no están preparados para mi PRÓXIMO plan..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¡Demonios! La peor parte fue cuando..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Debí haber sabido que no estaba terminado cuando..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¡Maldición! ¿Cómo me recuperaré de la peor vergüenza de todas...?"
+       },
+       {
+        "position": "end",
+        "signpost": "Cómo pude ser tan tonto, todavía tenía esperanza en mi malvado plan cuando vi que..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Esto es solo un revés momentáneo antes de mi siniestro triunfo!"
+       },
+       {
+        "position": "middle",
+        "signpost": "Debería haber sabido que no debía confiar este plan a mi incompetente súbdito..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¡Miren lo que le han hecho a mi guarida malvada!"
+       },
+       {
+        "position": "middle",
+        "signpost": "¡Oh no, mi arma secreta está en ruinas!"
+       },
+       {
+        "position": "end",
+        "signpost": "Puede que hayan ganado esta ronda, ¡pero volveré! Y la próxima vez..."
+       }
+      ],
+      "title": "¡Maldición! Mi malvado plan ha sido frustrado, y todo debido a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73289",
+      "safetyAnswers": [
+       "intercambio de Bitcoins",
+       "parque de diversiones",
+       "láser fatal"
+      ],
+      "signposts": [],
+      "title": "Por qué deben ser los primeros inversionistas en mi nuevo <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73290",
+      "safetyAnswers": [
+       "las jirafas",
+       "largas filas para ir al baño",
+       "estos malditos teléfonos celulares"
+      ],
+      "signposts": [],
+      "title": "Únanse a mí en la lucha contra la tiranía, la opresión y <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73295",
+      "safetyAnswers": [
+       "estamos comprando un convertible",
+       "nos besamos mucho",
+       "vendimos al perro"
+      ],
+      "signposts": [
+       {
+        "position": "end",
+        "signpost": "Anímate, campeón. Sé algo que te hará sentir mejor..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Voy a necesitar que seas valiente, amigo, porque..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Está bien llorar en la siguiente parte..."
+       },
+       {
+        "position": "end",
+        "signpost": "Recuerda dos cosas. 1. Te amamos, y 2. ..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Cambiará tu día a día? Sí, y aquí verás cómo..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esta familia va a estar bien, y aquí está el porqué..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Pedimos la opinión de tus abuelos, y dijeron..."
+       },
+       {
+        "position": "end",
+        "signpost": "Cuando seas mayor entenderás esta última parte..."
+       }
+      ],
+      "title": "He aquí por qué tu mamá y yo <BLANK>",
+      "x": true
+     },
+     {
+      "id": "73298",
+      "safetyAnswers": [
+       "un campeón comiendo perritos calientes",
+       "la momia más joven del mundo",
+       "en alguien deprimido"
+      ],
+      "signposts": [],
+      "title": "¡Apártate! Nadie se interpondrá en mi sueño de convertirme en <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73299",
+      "safetyAnswers": [
+       "'Bee Movie: La Historia de una Abeja'",
+       "'El padrino III'",
+       "'La Biblia: la película'"
+      ],
+      "signposts": [],
+      "title": "Un breve resumen de todo lo que puedo recordar de la película <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73300",
+      "safetyAnswers": [
+       "las mitocondrias",
+       "todos los asesinatos de esta noche",
+       "por qué este pastel es tan delicioso"
+      ],
+      "signposts": [],
+      "title": "Nadie saldrá de esta habitación hasta que sepamos la verdad de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73303",
+      "safetyAnswers": [
+       "una conciencia limpia",
+       "un enorme perro roncando",
+       "bebidas alcohólicas de oferta"
+      ],
+      "signposts": [],
+      "title": "Duerma mejor por la noche con <BLANK> en su cama",
+      "x": false
+     },
+     {
+      "id": "73304",
+      "safetyAnswers": [
+       "El tratamiento silencioso",
+       "Olvidar literalmente todo lo que sabes",
+       "Corbatas graciosas"
+      ],
+      "signposts": [],
+      "title": "<BLANK>: la clave para una reunión eficiente",
+      "x": false
+     },
+     {
+      "id": "73305",
+      "safetyAnswers": [
+       "sobre el hundimiento debajo de tus pies",
+       "que los caballos son geniales",
+       "acerca de los viajes en el tiempo"
+      ],
+      "signposts": [],
+      "title": "Como su abogado, tengo la obligación legal de informarle <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73306",
+      "safetyAnswers": [
+       "Nestlé",
+       "Oreo",
+       "radicalismo"
+      ],
+      "signposts": [],
+      "title": "Estas son todas las razones por las que renuncié como CEO de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73307",
+      "safetyAnswers": [
+       "un esqueleto",
+       "confianza en mí mismo",
+       "veinte perros"
+      ],
+      "signposts": [],
+      "title": "Cómo fue crecer sin <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73310",
+      "safetyAnswers": [
+       "una revolución",
+       "ver a mi hermano caerse del tobogán",
+       "llorar"
+      ],
+      "signposts": [],
+      "title": "No hay nada mejor que un día soleado, una bebida fría y <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73311",
+      "safetyAnswers": [
+       "feliz",
+       "un viajero del tiempo",
+       "presidente de la clase"
+      ],
+      "signposts": [],
+      "title": "Alguien tiene que decirte toda la verdad... Nunca vas a ser <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73418",
+      "safetyAnswers": [
+       "desayunar tarde",
+       "correr rápido",
+       "ser tu propio abogado"
+      ],
+      "signposts": [],
+      "title": "Una relación sana te da la habilidad secreta de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73419",
+      "safetyAnswers": [
+       "las barbas",
+       "las fiestas de pizza",
+       "el Top 40 éxitos de música"
+      ],
+      "signposts": [],
+      "title": "¡La ciencia está mal! El cuerpo humano funciona gracias a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73420",
+      "safetyAnswers": [
+       "citar frases de películas",
+       "criar niños",
+       "saltar diálogos de videojuegos"
+      ],
+      "signposts": [],
+      "title": "La inteligencia artificial nunca reemplazará la capacidad de la humanidad para <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73423",
+      "safetyAnswers": [
+       "estar vivo",
+       "estar hambriento",
+       "ser magnético"
+      ],
+      "signposts": [],
+      "title": "Hola jóvenes, ser genial no es más importante que <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73424",
+      "safetyAnswers": [
+       "Un par de pantalones camuflados",
+       "Un ave en mi cabeza",
+       "El amor por las verduras"
+      ],
+      "signposts": [],
+      "title": "¡<BLANK> no es una debilidad, es una herramienta perfecta para iniciar una conversación!",
+      "x": false
+     },
+     {
+      "id": "73426",
+      "safetyAnswers": [
+       "gente desnuda",
+       "dientes que se caen",
+       "robots sin cara"
+      ],
+      "signposts": [],
+      "title": "Sigue tus sueños y rodéate de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73428",
+      "safetyAnswers": [
+       "el viejo Oeste",
+       "una bola gigante de hámsters",
+       "un laberinto de maíz"
+      ],
+      "signposts": [],
+      "title": "Conocí al amor de mi vida en <BLANK> y tú también puedes",
+      "x": false
+     },
+     {
+      "id": "73449",
+      "safetyAnswers": [
+       "caballo",
+       "pequeño montón de piedras",
+       "lanzallamas",
+       "montón de basura"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "¿Alguna vez le ha sucedido esto a usted?"
+       },
+       {
+        "position": "middle",
+        "signpost": "¡Tiene que haber una mejor manera!"
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Le gusta lo que ve? Bueno, tengo noticias para usted..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Solía ​​ser tan difícil y frustrante..."
+       },
+       {
+        "position": "end",
+        "signpost": "Solo cuenta hasta uno... ¡y habrás terminado!"
+       },
+       {
+        "position": "end",
+        "signpost": "Repite después de mí..."
+       },
+       {
+        "position": "end",
+        "signpost": "Tu vida ahora es increíble, gracias a este producto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Saque su tarjeta de crédito y haga lo siguiente..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Qué inspiró esta invención? Es una historia con la que puede que se identifique..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Pero espere! Si compra en los próximos cinco minutos también obtendrá esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Todo esto está respaldado por una celebridad muy famosa..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Necesita un poco más de ayuda? Puedes comprar nuestra versión de grado profesional..."
+       }
+      ],
+      "title": "Este increíble <BLANK> puede cambiar tu vida por solo 4 pagos fáciles de $39.95",
+      "x": false
+     },
+     {
+      "id": "73454",
+      "safetyAnswers": [
+       "audiencia",
+       "paquete de pasas",
+       "concepto de moralidad"
+      ],
+      "signposts": [],
+      "title": "Disculpe, pero su <BLANK> es inaceptable y exijo ver al gerente",
+      "x": false
+     },
+     {
+      "id": "73455",
+      "safetyAnswers": [
+       "ese ratón engañoso",
+       "mi grupo de coro",
+       "una abeja"
+      ],
+      "signposts": [],
+      "title": "¡Después de todos estos años de esconderme, <BLANK> finalmente me encontró!",
+      "x": false
+     },
+     {
+      "id": "73467",
+      "safetyAnswers": [
+       "papel de baño reutilizable",
+       "un robot que pueda llorar",
+       "grapas comestibles"
+      ],
+      "signposts": [],
+      "title": "¡Ya es el siglo XXI! ¿Por qué aun no inventan <BLANK>?",
+      "x": false
+     },
+     {
+      "id": "73468",
+      "safetyAnswers": [
+       "una nueva emoción llamada Amor 2",
+       "un caballo que sabe cómo bailar tap",
+       "las ollas de oro al final del arcoíris"
+      ],
+      "signposts": [],
+      "title": "He pasado mi vida tratando de demostrar la existencia de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73469",
+      "safetyAnswers": [
+       "el gran cerdo",
+       "el camello táctico",
+       "la vaca cuchillo"
+      ],
+      "signposts": [],
+      "title": "Pie grande es solo un mito, pero <BLANK> es demasiado real",
+      "x": false
+     },
+     {
+      "id": "73511",
+      "safetyAnswers": [
+       "gritar",
+       "un buen bistec de procedencia desconocida",
+       "el boxeo de nudillos"
+      ],
+      "signposts": [],
+      "title": "Por qué <BLANK> es lo que condimenta nuestras vidas",
+      "x": false
+     },
+     {
+      "id": "73512",
+      "safetyAnswers": [
+       "a mi sótano",
+       "al interior de mi mente",
+       "a un hotel fuera de la propiedad de Disney en el área de Orlando"
+      ],
+      "signposts": [],
+      "title": "¡Adiós perdedores! ¡Me voy <BLANK>!",
+      "x": false
+     },
+     {
+      "id": "73513",
+      "safetyAnswers": [
+       "Leer mi tesis",
+       "Leer la enciclopedia entera",
+       "Organizar un clóset"
+      ],
+      "signposts": [],
+      "title": "<BLANK> no es tan aburrido como crees. ¡Mira cuánta diversion estoy teniendo!",
+      "x": false
+     },
+     {
+      "id": "73514",
+      "safetyAnswers": [
+       "George Clooney",
+       "el señor del almuerzo",
+       "Ricardo Arjona"
+      ],
+      "signposts": [],
+      "title": "Por qué <BLANK> ya no es mi mejor amigo",
+      "x": false
+     },
+     {
+      "id": "73515",
+      "safetyAnswers": [
+       "motos de agua infinitas",
+       "caridades para perros",
+       "mi láser que congela el mundo"
+      ],
+      "signposts": [],
+      "title": "Soy un aspirante a genio maligno y tengo la intención de usar mi herencia en <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73517",
+      "safetyAnswers": [
+       "mi nueva empresa de carros",
+       "mi compañero de trabajo Carlos",
+       "mi ex, que ahora es tu esposa",
+       "un sueño raro que tuve"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Sí, estoy al borde de las lágrimas. Este es el por qué..."
+       },
+       {
+        "position": "end",
+        "signpost": "Para terminar, hay una bendición irlandesa que es perfecta para este momento..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ah, por cierto, el DJ canceló, pero tenemos algo más para la recepción..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Por qué he guardado silencio sobre esto durante tanto tiempo? Este es el porqué..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Hay algo en lo que ustedes dos no han sido honestos..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Probablemente se estén preguntando cómo puedo encajar en su relación..."
+       },
+       {
+        "position": "middle",
+        "signpost": "En lugar de tener hijos, deberían hacer esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Antes de que me echen, tengo una última cosa que decir..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si quieren que esta relación funcione, sigan mi consejo..."
+       }
+      ],
+      "title": "¡Un brindis por la pareja feliz! Pero también necesito hablar sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73518",
+      "safetyAnswers": [
+       "mi corazón",
+       "todo El Museo de Louvre",
+       "las figuras de porcelana de mi madre"
+      ],
+      "signposts": [],
+      "title": "Es literalmente imposible robar <BLANK>... ¿o no?",
+      "x": false
+     },
+     {
+      "id": "73519",
+      "safetyAnswers": [
+       "beber agua",
+       "ocuparme de mis asuntos",
+       "comer un solo col de Bruselas"
+      ],
+      "signposts": [],
+      "title": "Cómo <BLANK> mejoró mi productividad y me hizo inmortal",
+      "x": false
+     },
+     {
+      "id": "73520",
+      "safetyAnswers": [
+       "por qué los huesos son sexys",
+       "los dedos de los pies",
+       "trucos de patineta geniales"
+      ],
+      "signposts": [],
+      "title": "No soy médico, pero ahora les daré consejos médicos sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73537",
+      "safetyAnswers": [
+       "abuelas",
+       "gusanos",
+       "cangrejos"
+      ],
+      "signposts": [],
+      "title": "Hola nerds, aquí se explica cómo sobrevivir a un ataque de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73539",
+      "safetyAnswers": [
+       "comprado una moto de agua",
+       "inventado un baile de éxito",
+       "pateado mi trasero"
+      ],
+      "signposts": [],
+      "title": "En los proximos diez años, todos habrán <BLANK> o me comeré mi sombrero",
+      "x": false
+     },
+     {
+      "id": "73540",
+      "safetyAnswers": [
+       "bailando",
+       "resbalándome con una cáscara de plátano",
+       "horneando croissants"
+      ],
+      "signposts": [],
+      "title": "Es vergonzoso admitirlo, pero actualmente estoy <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73541",
+      "safetyAnswers": [
+       "mi papá",
+       "la temporada de impuestos",
+       "un bebé tiburón"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Por supuesto, todo esto se había puesto en marcha hace 100 años..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pero esta es la razón por la que les digo esto ahora mismo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Cómo figura una canasta de gatitos recién nacidos en esto? Buena pregunta..."
+       },
+       {
+        "position": "end",
+        "signpost": "Así que más tarde, cuando todo esté en silencio y realmente escuchen... esto es lo que oirán..."
+       },
+       {
+        "position": "end",
+        "signpost": "Por supuesto, nada de eso es real. ¡¡¿O sí?!!"
+       },
+       {
+        "position": "end",
+        "signpost": "Esperen... creo que acabo de escuchar algo. Miren allá..."
+       },
+       {
+        "position": "end",
+        "signpost": "La gente del pueblo está de acuerdo: está sucediendo de nuevo"
+       },
+       {
+        "position": "end",
+        "signpost": "¡Uy! ¿Qué fue ese sonido? ¿Podría ser esto que estoy a punto de mostrarles?"
+       },
+       {
+        "position": "middle",
+        "signpost": "Algo horrible pasó aquí hace mucho tiempo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Algunos dicen que todo es solo una leyenda, pero ¿cómo explicarías esto?..."
+       }
+      ],
+      "title": "Siéntense alrededor de la fogata y prepárense para ser aterrorizados por la historia de <BLANK>",
+      "x": true
+     },
+     {
+      "id": "73542",
+      "safetyAnswers": [
+       "invocan al Diablo",
+       "se comen a un ratón vivo",
+       "se tragan $50 en monedas sueltas"
+      ],
+      "signposts": [],
+      "title": "Todos los días, millones de personas <BLANK> sin siquiera darse cuenta",
+      "x": false
+     },
+     {
+      "id": "73543",
+      "safetyAnswers": [
+       "repostero",
+       "payaso de rodeo",
+       "cantante a la tirolesa"
+      ],
+      "signposts": [],
+      "title": "Para vengarme dulcemente de mis enemigos, he pasado toda mi vida entrenando como <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73544",
+      "safetyAnswers": [
+       "mi par de calcetines perdido",
+       "Alaska",
+       "por qué la pizza es deliciosa"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "¡Los culpables están en esta misma habitación!"
+       },
+       {
+        "position": "middle",
+        "signpost": "Ahora les presento, la pista más grande..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Probablemente se estén preguntando por qué los reuní a todos aquí..."
+       },
+       {
+        "position": "end",
+        "signpost": "Un enigma diabólico con una solución tortuosa..."
+       },
+       {
+        "position": "end",
+        "signpost": "Después de eliminar lo imposible, se presentó una respuesta..."
+       },
+       {
+        "position": "end",
+        "signpost": "En retrospectiva parece tan obvio..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No podría haber resuelto este caso sin la ayuda de mi fiel compañero..."
+       },
+       {
+        "position": "end",
+        "signpost": "Solo hay un castigo adecuado por esta mala acción..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Oficiales, arresten a este villano! Y llévalo a..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ah, pero el criminal lleva un disfraz astuto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Quién podría haber adivinado que la clave del misterio estuvo justo frente a nosotros todo el tiempo..."
+       }
+      ],
+      "title": "Después de examinar las pistas, he resuelto el misterio de... <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73552",
+      "safetyAnswers": [
+       "ordenar pizza sin pagar",
+       "tirar cosas en nuestro patio",
+       "hacer que sus espías roben nuestro plan",
+       "aprender a golpear fuerte"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Se perdieron muchas vidas para traer esta información..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Nuestro topo interceptó un mensaje altamente clasificado..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Así es como nuestros agentes encubiertos se enteraron de este nefasto plan..."
+       },
+       {
+        "position": "end",
+        "signpost": "Debemos responder con lo único que el enemigo entiende..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Lo que verán a continuación nunca debe salir de esta habitación."
+       },
+       {
+        "position": "middle",
+        "signpost": "Permítanme presentarle a nuestro agente doble..."
+       },
+       {
+        "position": "end",
+        "signpost": "Su misión, si deciden aceptarla, es esta..."
+       },
+       {
+        "position": "end",
+        "signpost": "Sé que podemos ganar esto, porque tenemos..."
+       }
+      ],
+      "title": "¡Tengo un informe de nuestros espías! El plan del enemigo es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73560",
+      "safetyAnswers": [
+       "la lavandería",
+       "la alcantarilla",
+       "la granja a la que van los perros cuando son viejos",
+       "la casa de mi vecino"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Aquí hay una parada del viaje que desearía haberme saltado..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Evité las trampas para turistas y encontré esta joya escondida..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Había un monumento particularmente interesante entre lo que vi..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esto es lo que tengo planeado para mis próximas vacaciones..."
+       },
+       {
+        "position": "end",
+        "signpost": "Aprendí algo importante de este viaje..."
+       },
+       {
+        "position": "end",
+        "signpost": "Antes de que se vayan, tengo un consejo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Tomar la siguiente foto no fue fácil..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si volviera, hay una cosa que definitivamente no volvería a hacer..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Compré este increíble recuerdo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este es uno de los famosos lugares que visité..."
+       },
+       {
+        "position": "end",
+        "signpost": "He vuelto a casa, pero mi vida cambió para siempre por esto..."
+       }
+      ],
+      "title": "Fui a unas vacaciones increíbles en <BLANK> y aquí están las fotos de mi viaje",
+      "x": false
+     },
+     {
+      "id": "73562",
+      "safetyAnswers": [
+       "atrapado en este inodoro portátil",
+       "quemándome",
+       "llevando una capa"
+      ],
+      "signposts": [],
+      "title": "Esto se ve realmente mal, pero tengo una buena razón por la que estoy <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73563",
+      "safetyAnswers": [
+       "lloro durante una película",
+       "soy golpeado en la entrepierna por una gaviota",
+       "soy convertido en cerdo por una bruja"
+      ],
+      "signposts": [],
+      "title": "Me duele cuando los adolescentes se ríen de mí cada vez que <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73572",
+      "safetyAnswers": [
+       "esta comida en McDonalds",
+       "este masaje de cabra",
+       "este postgrado en comunicaciones"
+      ],
+      "signposts": [],
+      "title": "Una explicación excesivamente detallada de por qué no pagaré por <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73573",
+      "safetyAnswers": [
+       "una araña furiosa",
+       "un plato de nachos",
+       "un adorable niño"
+      ],
+      "signposts": [],
+      "title": "Las razones por las que no le dire a un amigo que tiene <BLANK> en la cara",
+      "x": false
+     },
+     {
+      "id": "73761",
+      "safetyAnswers": [
+       "cómo desconectarse de Facebook",
+       "su adicción a las noticias de la noche",
+       "todas las abejas en su patio"
+      ],
+      "signposts": [],
+      "title": "Cómo hablar con tus padres sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "73778",
+      "safetyAnswers": [
+       "filósofo",
+       "perezoso rápido",
+       "mosquito con actitud"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Estoy tan asustado en este momento, y aquí está el porqué..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esto es lo que me va a pasar..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Déjenme mostrarles lo malo que es esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ojalá tuviera mi arma de confianza conmigo, que es esta..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡AAAAAAAAHHHHHHHHHH!"
+       },
+       {
+        "position": "end",
+        "signpost": "¡Oh no! ¡Oh no! ¡Oh no! ¡No vi que esto también estaba aquí!"
+       }
+      ],
+      "title": "¡Aaaaaah! ¡Ayuda! ¡Hay un <BLANK> en mi habitación!",
+      "x": false
+     },
+     {
+      "id": "73793",
+      "safetyAnswers": [
+       "Equipo de héroes de escuadrón robot",
+       "El príncipe y las cosas",
+       "Gusanos en abundancia"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "El primer acto es realmente impactante por esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ni siquiera Shakespeare esperaba este final..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esta siguiente parte me hizo llorar"
+       },
+       {
+        "position": "middle",
+        "signpost": "No puedo esperar a que conozcan a mi personaje favorito..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esta obra no solo tiene drama, acción, comedia y tragedia, también tiene esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Disfruté particularmente este giro de la trama justo antes del intermedio..."
+       }
+      ],
+      "title": "No es su mejor obra, pero más gente necesita saber sobre la obra de Shakespeare llamada \"<BLANK> \"",
+      "x": false
+     },
+     {
+      "id": "74027",
+      "safetyAnswers": [
+       "nos deshicimos de ese coyote",
+       "llenamos la sala de conferencias con malvaviscos",
+       "agregamos baños"
+      ],
+      "signposts": [],
+      "title": "La moral de los empleados no mejoró en mi empresa hasta que <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74036",
+      "safetyAnswers": [
+       "me da miedo la lava pero me atraen las serpientes de cascabel",
+       "soy una jirafa",
+       "soy un fantasma con trabajo"
+      ],
+      "signposts": [],
+      "title": "Hice una test de personalidad y me dijo que <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74042",
+      "safetyAnswers": [
+       "mi papi",
+       "un evento deportivo local",
+       "la tostadora mientras está tostando"
+      ],
+      "signposts": [],
+      "title": "¡Esto es serio! Seremos maldecidos eternamente si molestamos a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74056",
+      "safetyAnswers": [
+       "las bandejas de frutas",
+       "necesitar un nombre de usuario mejor",
+       "los pingüinos"
+      ],
+      "signposts": [],
+      "title": "Prepáranse para escuchar mi largo y poco oportuno discurso, porque estoy furioso por <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74062",
+      "safetyAnswers": [
+       "poner primero a los clientes",
+       "insultar al noble caballo",
+       "llamar al internet \"estúpida\""
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Ahora es el momento de hablar sobre el incidente, en la sala de descanso..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Estoy trayendo una nueva visión a esta empresa, una que NO INCLUYE..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Por supuesto, nuestro antiguo director ejecutivo seguirá recibiendo su paquete de indemnización de..."
+       },
+       {
+        "position": "end",
+        "signpost": "Quiero que todos los empleados se sientan cómodos hablando conmigo sobre cualquier tema, incluso..."
+       },
+       {
+        "position": "end",
+        "signpost": "A pesar de las dificultades del pasado, comencemos de nuevo y olvidemos el daño de..."
+       },
+       {
+        "position": "end",
+        "signpost": "Es hora de recordar el lema de nuestra empresa..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No soy su CEO habitual, soy diferente por esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Encuestamos al público sobre nuestra empresa, y esto es lo que quieren de nosotros..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Podemos cambiar las cosas vendiendo este nuevo producto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Me complace anunciar que todos los empleados recibirán esto como un bono..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esta es la declaración oficial que nuestro equipo de relaciones públicas está enviando a la prensa..."
+       }
+      ],
+      "title": "Como nuevo director ejecutivo de esta empresa, no repetiré el error de <BLANK> de mi predecesor",
+      "x": false
+     },
+     {
+      "id": "74294",
+      "safetyAnswers": [
+       "¡¡¡Cásate conmigo, Gail!!!",
+       "¡Necesito tu constante atención!",
+       "¡¡Arruinaste navidad!!",
+       "¡Fiesta de tacos!"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Aquí hay algunas cosas que podría haber dicho en su lugar..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Mi día estaba a punto de empeorar mucho a partir de ahí..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Antes de gritar eso, consideré hacer esto en su lugar..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Sorprendentemente, recibí el apoyo de una persona de quien no esperaba nada..."
+       },
+       {
+        "position": "end",
+        "signpost": "Todo esto tuvo un efecto importante en mi carrera..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esto es lo que aprendí..."
+       },
+       {
+        "position": "end",
+        "signpost": "Todos los lugares de trabajo deberian adoptar esta política..."
+       },
+       {
+        "position": "end",
+        "signpost": "Todo esto llevó a..."
+       }
+      ],
+      "title": "Esto es lo que sucedió después de que le grité \"<BLANK>\" a mi jefe",
+      "x": false
+     },
+     {
+      "id": "74300",
+      "safetyAnswers": [
+       "la industria láctea",
+       "dónde estuve anoche",
+       "el significado de la vida"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Y aquí hay otra tontería más..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Guau, guau, guau, y otra cosa..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Ahora, justo le estaba explicando esto a un pug local. ¿Sabías que..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Woof woof! Gracias."
+       },
+       {
+        "position": "end",
+        "signpost": "Guau guau, guau. Espero haberlo explicado bien."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Hice un buen trabajo? ¿Me darán un hueso? ¿HUESO?"
+       },
+       {
+        "position": "middle",
+        "signpost": "Los gatos son los peores y nunca podrían explicarte lo siguiente..."
+       },
+       {
+        "position": "end",
+        "signpost": "Realmente creo que deberías considerar lo siguiente..."
+       },
+       {
+        "position": "end",
+        "signpost": "En conclusión, he aquí por qué me merezco un hueso..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Pasaré al siguiente punto, a menos que haya una pelota. ¿PELOTA? ¿PELOTA?"
+       }
+      ],
+      "title": "Soy increíble haciendo una \"voz de perro\", así que así es como voy a explicarles <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74304",
+      "safetyAnswers": [
+       "papá",
+       "poderes de pesadilla",
+       "habilidad de hablarle a las mariposas"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Puedo decir que estás celoso, es por esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Soy mejor que tú... que tú...  e incluso mejor que..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora me gustaría decirte por qué eres una basura"
+       },
+       {
+        "position": "middle",
+        "signpost": "Pero, ¿cómo llegué a ser tan asombroso?"
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí hay algo que realmente te hará hervir..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Es normal sentir celos cuando ves esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Solo hay una cosa en la que no soy bueno..."
+       },
+       {
+        "position": "end",
+        "signpost": "Así es como puedes volverte increíble, como yo..."
+       },
+       {
+        "position": "end",
+        "signpost": "No te sientas mal. Todavía hay una cosa de la que puedes estar orgulloso..."
+       },
+       {
+        "position": "end",
+        "signpost": "Tengo un último mensaje para todos los que me odian..."
+       }
+      ],
+      "title": "Soy mejor que todos ustedes por mi <BLANK>",
+      "x": true
+     },
+     {
+      "id": "74310",
+      "safetyAnswers": [
+       "la teoría de cuerdas",
+       "las mejores comidas de Masterchef",
+       "macroeconomía"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Tengo una historia personal sobre esta próxima imagen..."
+       },
+       {
+        "position": "end",
+        "signpost": "Creo que todos hemos aprendido mucho sobre mí, especialmente esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Piense en este siguiente punto como un \"jonrón\" a mi conclusión..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No estoy calificado en absoluto para contarles lo siguiente..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Seamos todos adultos y guardemos nuestras risitas para nosotros mismos sobre lo que estoy a punto de discutir..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Francamente, les agradecería que me explicaran esta siguiente imagen..."
+       },
+       {
+        "position": "middle",
+        "signpost": "De hecho, sé mucho sobre lo siguiente, porque también es importante en el sóftbol..."
+       },
+       {
+        "position": "end",
+        "signpost": "Por favor, dígales a los administradores de la escuela que realmente acerté esta última parte..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ok, una última cosa antes de empezar a practicar..."
+       },
+       {
+        "position": "end",
+        "signpost": "No podré responder ninguna pregunta sobre esto último, así que guárdenlas para ustedes"
+       },
+       {
+        "position": "end",
+        "signpost": "Eso es mucho para recordar, así que aquí está lo único que se necesita saber para la prueba..."
+       }
+      ],
+      "title": "Soy el entrenador universitario de sóftbol, pero la universidad dice que tengo que enseñarles de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74324",
+      "safetyAnswers": [
+       "camiones monstruo",
+       "Brad Pitt",
+       "queso de hebra"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Esto es mejor que mi última religión basada en esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si te me unes, puedo prometerte esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esto es lo que vamos a adorar..."
+       },
+       {
+        "position": "middle",
+        "signpost": "La verdad me fue revelada en esta visión divina..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pero cuidado con este falso profeta..."
+       },
+       {
+        "position": "end",
+        "signpost": "Espera, me están enviando otra santa revelación en este mismo segundo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este es nuestro mandamiento más importante..."
+       }
+      ],
+      "title": "Reúnanse, hijos míos: por qué estoy comenzando una nueva religión basada en <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74326",
+      "safetyAnswers": [
+       "Viaje a las estrellas",
+       "entrenamiento de caballos",
+       "primeros auxilios"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Encuentro inquietante tu falta de fe en mi presentación, así que aquí está mi siguiente punto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Es posible que no pueda hacer que Kessel se ejecute en doce pársecs, pero SÍ tengo algunos \"datos divertidos \" que también son interesantes..."
+       },
+       {
+        "position": "end",
+        "signpost": "El miedo conduce a la ira. La ira lleva al odio. El odio conduce al sufrimiento. De todos modos, es importante tener fuentes debidamente citadas, como esta..."
+       },
+       {
+        "position": "end",
+        "signpost": "Que la Fuerza esté contigo, siempre, o al menos hasta que te muestre esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "*Sonidos de R2D2*\nAsí es, R2, DEBO decirles dónde pueden encontrar mi investigación..."
+       },
+       {
+        "position": "end",
+        "signpost": "Busca tus sentimientos, y sabrás que esto es cierto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí hay un pozo de Sarlacc metafórico en el que querrás evitar caer..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Nunca encontrarás una colmena más miserable de estadísticas y pruebas que esta..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Estos no son los hechos que estás buscando..."
+       },
+       {
+        "position": "end",
+        "signpost": "Que Luke y Leia se besen es tan malo como este problema..."
+       }
+      ],
+      "title": "Una presentación sobre <BLANK> llena de citas de Star Wars para mantener su atención",
+      "x": false
+     },
+     {
+      "id": "74327",
+      "safetyAnswers": [
+       "pretender que nos dormimos",
+       "vestirnos como aves espantosas",
+       "sobornar al otro equipo",
+       "volvernos magos"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Hablemos de ese otro equipo por un minuto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Cuando jugaba al fútbol, ​​mi entrenador me dio un pequeño consejo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Claro... cometimos MUCHOS errores locos en la primera mitad. Por ejemplo..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡He estado practicando este inspirador discurso todo el año!"
+       },
+       {
+        "position": "end",
+        "signpost": "Si de alguna manera ganamos este juego, aquí está mi solemne promesa para ustedes..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pensándolo bien, no hay forma de que podamos ganar. Entonces, aquí está mi plan de escape..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Recuerde, nuestro equipo tiene un arma secreta..."
+       },
+       {
+        "position": "end",
+        "signpost": "Solo recuerda el lema de nuestro equipo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esto es lo que necesita saber sobre el MVP del equipo contrario..."
+       },
+       {
+        "position": "end",
+        "signpost": "Después de que ganemos, así es como vamos a celebrar..."
+       }
+      ],
+      "title": "Podemos volver y ganar este partido de fútbol en la segunda mitad si seguimos mi loco plan de <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74348",
+      "safetyAnswers": [
+       "el rey gusano",
+       "que los trenes están cobrando vida",
+       "la magia"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Pedimos disculpas por los siguientes inconvenientes..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Para evitar el retraso, tome este método de viaje alternativo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Normalmente no se supone que esto suceda, pero esta precaución falló..."
+       },
+       {
+        "position": "end",
+        "signpost": "Gracias por soportar esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Prepárense para movimientos repentinos de la forma habitual..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí hay algunos datos interesantes para distraerse de este retraso..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Para disculparse, la línea de tren ofrecerá los siguientes servicios..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Hacemos un llamado a todos los pasajeros para que hagan lo siguiente..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si es necesario, puede utilizar cualquiera de las siguientes opciones de viaje alternativas..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Oh no! ¡Hay algo en el túnel! Es un..."
+       }
+      ],
+      "title": "Atención, pasajeros: hay un retraso importante en el tren debido a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74489",
+      "safetyAnswers": [
+       "hacerme cosquillas",
+       "hacer referencias a Borat",
+       "ver videos de Knife en YouTube"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Me gustaría dirigirlos a esta imagen de mi viaje emocional..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Si me lo permiten, me gustaría identificar la fuente de este comportamiento..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esto podría ser un signo de un problema completamente diferente, como..."
+       },
+       {
+        "position": "end",
+        "signpost": "Sigo hablando de esto con un amigo, familiar o..."
+       },
+       {
+        "position": "end",
+        "signpost": "Parece que estoy exhibiendo un caso de libro de texto de..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Por supuesto, este próximo problema proviene de mi infancia..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí hay un mal habito que me está frenando..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este es un ejercicio emocionalmente útil..."
+       },
+       {
+        "position": "end",
+        "signpost": "Casi se me acaba el tiempo, así que consideren esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "En última instancia, encuentro que esta imagen me ayuda..."
+       }
+      ],
+      "title": "Como dijo mi terapeuta, realmente tengo que dejar <BLANK>",
+      "x": true
+     },
+     {
+      "id": "74490",
+      "safetyAnswers": [
+       "impuestos",
+       "manejar vehículos",
+       "dolores lumbares",
+       "comer de manera saludable"
+      ],
+      "signposts": [],
+      "title": "Solo soy dos niños escondidos bajo un traje, pero sé mucho sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74537",
+      "safetyAnswers": [
+       "llevar camisetas tontas",
+       "usar shorts",
+       "hurgar sus narices"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "¡¿Creen que esto es un juego?! Esto es lo que está en juego..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí hay un hecho que borrará esa sonrisa de sus caras..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Cuando tenía su edad también pensaba que era \"genial\"..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Solia ​​ser como ustedes, y pagué el precio..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Pueden hacerlo mejor! Este podrías ser tú..."
+       },
+       {
+        "position": "end",
+        "signpost": "Piensen dos veces antes de cometer un error como este..."
+       },
+       {
+        "position": "end",
+        "signpost": "No se puedes decir \"responsabilidad\" sin..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esto es lo que le pasó a alguien que se fue por este camino..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Cuando eres joven, la vida parece así..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si no actúas bien, aquí es donde terminarás..."
+       },
+       {
+        "position": "end",
+        "signpost": "Podrías tener un futuro brillante por delante, como este..."
+       },
+       {
+        "position": "end",
+        "signpost": "Lo que estás haciendo no está bien. Esto sí está bien..."
+       },
+       {
+        "position": "end",
+        "signpost": "La próxima vez que te vea, espero esto..."
+       }
+      ],
+      "title": "Escúchenme, adolescentes punks, estoy aquí para asustarlos por <BLANK>",
+      "x": true
+     },
+     {
+      "id": "74600",
+      "safetyAnswers": [
+       "que deben hablar como vaqueros",
+       "que deben divertirse",
+       "que deben lavarse las manos"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Todo mago necesita este artefacto mágico..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este hechizo sera parte del test..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Los estudiantes deben entrar a una de estas casas..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pero sean precavidos, ¡un peligro sobrenatural ronda por las salas de estudio!"
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora, recitaré las palabras de poder..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si eres el Elegido para derrotar al señor Oscuro, tengo un consejo para ti..."
+       },
+       {
+        "position": "middle",
+        "signpost": "De todos modos, ¿qué ES la magia? La respuesta podría sorprenderte..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aqui hay un malentendido común respecto al mundo mágico..."
+       },
+       {
+        "position": "middle",
+        "signpost": "INTENTA no matar a nadie con magia, pero si lo haces..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esta es la fuente mística de toda la magia..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Probablemente encuentres a esta criatura mágica..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Postula al equipo de la escuela y juega a este deporte mágico..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si necesitas llamar a la policía mágica, esto es lo que debes hacer..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pónganle atención a esta profecía..."
+       },
+       {
+        "position": "end",
+        "signpost": "Serás expulsado si haces lo siguiente..."
+       }
+      ],
+      "title": "¡Bienvenidos a la escuela de magia! La regla más importante es <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74625",
+      "safetyAnswers": [
+       "se comió el último pedazo de pizza",
+       "se drogó en la cama del perrito",
+       "durmió bajo tu cama por 3 años"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "La razón por que lo hice fue..."
+       },
+       {
+        "position": "end",
+        "signpost": "Lo siento muchísimo, pero también hice esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si no me pueden perdonar, entonces voy a escapar a..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora sería un buen momento para confesar que también hice esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No lo hice solo, tuve ayuda..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aceptaré cualquier castigo, incluyendo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "De esta manera supe que tenía que confesar..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Así fue como realicé mis malas acciones..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Es por esto que mis acciones fueron tan malas..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pero tengo una idea de cómo mejorarlo todo..."
+       },
+       {
+        "position": "end",
+        "signpost": "Me voy a exiliar al único lugar apropiado para pecadores como yo..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ya comencé a compensarlo haciendo esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Según es tradición, el castigo por esto es..."
+       }
+      ],
+      "title": "Solo quiero tu perdón. Fui yo quien <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74893",
+      "safetyAnswers": [
+       "queso",
+       "Pokémon",
+       "manatí",
+       "animal de fiesta"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Aquí es donde tengo que vivir..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pero en muchos sentidos soy como los demás, por ejemplo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Pero, ¿cómo soy emocionalmente? Bueno, soy mitad..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¿Que si tengo un hobby especial? Está en la siguiente imagen..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Es fácil para la mayoría, pero a mí me cuesta mucho hacer esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Aunque si pudiera cambiar una cosa, sería esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Podré ser solo 50% humano, pero soy 100% esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Rechazado por dos mundos, creé un lugar para mí mismo..."
+       }
+      ],
+      "title": "No es fácil ser mitad humano, mitad <BLANK>",
+      "x": true
+     },
+     {
+      "id": "74894",
+      "safetyAnswers": [
+       "fantasma",
+       "dinosaurio",
+       "bebé gigante"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "En esta siguiente imagen es sumamente fácil de encontrar..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esta última imagen tiene 5 ejemplos escondidos..."
+       },
+       {
+        "position": "middle",
+        "signpost": "En esta imagen es más complicado de ver, pero está ahí..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Una vez lo veas, no lo puedes des-ver..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Prepárate para quedar en shock cuando veas esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "No son solo imágenes, mira alrededor de la habitación en la que estás, quedarás sorprendido..."
+       },
+       {
+        "position": "end",
+        "signpost": "La moraleja de la historia es que hay un poco de esto en todos nosotros..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Cuál es el profundo significado de todo esto? Es bastante simple..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Pero... ¿por qué está pasando esto? Se preguntarán."
+       }
+      ],
+      "title": "Hay un <BLANK> escondido en cada una de estas imágenes",
+      "x": false
+     },
+     {
+      "id": "74897",
+      "safetyAnswers": [
+       "una bicicleta estacionaria parlante",
+       "una misterioso bolsa llena de dinero",
+       "las uvas pasas"
+      ],
+      "signposts": [],
+      "title": "No conocí el amor hasta que descubrí <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74902",
+      "safetyAnswers": [
+       "comer insectos",
+       "mirar directamente al sol",
+       "jugar con las pelusas de la lavadora"
+      ],
+      "signposts": [],
+      "title": "Dicen que es malo para la salud, pero me encanta <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74903",
+      "safetyAnswers": [
+       "espiar",
+       "mentir",
+       "música jazz"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Esta siguiente imagen me produce un enojo extremo..."
+       },
+       {
+        "position": "end",
+        "signpost": "En mi opinión de experto, esta última foto es la mejor que se ha tomado en la historia..."
+       },
+       {
+        "position": "middle",
+        "signpost": "A veces, una imagen lleva lágrimas a tus ojos..."
+       },
+       {
+        "position": "end",
+        "signpost": "La única manera de discutir la siguiente imagen es con la voz de un niño pequeño. Para ser claros, voy a hablar como un bebé."
+       },
+       {
+        "position": "middle",
+        "signpost": "El ojo inexperto nunca se daría cuenta de este detalle..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Aquí hay un ejemplo de problema típico que te encuentras todo el tiempo en este trabajo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Cuando vi esta imagen, refutó algo que creí toda mi vida..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Será demasiado decir que toda la cultura humana condujo a esta imagen? Miren con sus propios ojos."
+       },
+       {
+        "position": "end",
+        "signpost": "No soy solo un experto... tambien soy un artista. Esta siguiente foto es mía."
+       },
+       {
+        "position": "end",
+        "signpost": "Esta ultima imagen es la razón de que me esté retirando, inmediatamente..."
+       },
+       {
+        "position": "end",
+        "signpost": "No tengo nada más que halagos para este último ejemplo..."
+       },
+       {
+        "position": "end",
+        "signpost": "Esta última imagen es lo peor que he visto en mi vida..."
+       }
+      ],
+      "title": "Voy a criticar las siguientes imágenes desde mi perspectiva de experto en <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74910",
+      "safetyAnswers": [
+       "Drácula",
+       "mis vecinos",
+       "Capitán Cachorro"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Tengo un superpoder perfecto para esta situación..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este dispositivo superútil que tengo en mi cinturón es todo lo que necesitamos..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Los ayudaría, pero mi debilidad me deja sin fuerzas..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si las cosas salen mal, este es mi plan de respaldo..."
+       },
+       {
+        "position": "end",
+        "signpost": "El alcalde cuenta con nosotros para hacer una cosa..."
+       },
+       {
+        "position": "end",
+        "signpost": "No olviden al recluta más nuevo de nuestro equipo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Déjenme recordarles qué pasa si no salvamos el día..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Descubrimos cuál es su plan malvado..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Recuerden la razón por la que formamos este equipo de superhéroes..."
+       },
+       {
+        "position": "end",
+        "signpost": "Si perdemos, aún tendremos este truco bajo la manga..."
+       }
+      ],
+      "title": "Queridos superhéroes, esto es lo que debemos hacer para derrotar a <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74928",
+      "safetyAnswers": [
+       "enseñarle a amar",
+       "darle tus dientes",
+       "patear"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Nos avergüenza mucho no haber encontrado este problema antes del despegue..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No les va a gustar, pero no van a sobrevivir a menos que hagan esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No se preocupen, la nave está equipada con este dispositivo de emergencia..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Hemos descubierto lo que causa el problema en la nave..."
+       },
+       {
+        "position": "end",
+        "signpost": "Acá está lo que pueden esperar luego del aterrizaje..."
+       },
+       {
+        "position": "end",
+        "signpost": "No entren en pánico, pero esto ocurrirá si llegan a fallar..."
+       },
+       {
+        "position": "end",
+        "signpost": "Recuerda dos cosas: no respires mucho, y..."
+       }
+      ],
+      "title": "Apolo 13, ¿me copias? Aquí Houston. Debes <BLANK> a tu astronave dañada para poder arreglarla",
+      "x": false
+     },
+     {
+      "id": "74932",
+      "safetyAnswers": [
+       "las cucharas y tenedores",
+       "que sean buenas personas",
+       "las siestas"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Pero esperen, se vuelve aún mejor..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora, les cantaré el nuevo jingle..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Miren, no soy un doctor... pero si lo fuera les diría esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Déjenme hablarles de mi relación especial con la marca..."
+       },
+       {
+        "position": "middle",
+        "signpost": "No soy solo un portavoz pagado, también tengo razones personales..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esta es la historia inspiracional detrás de la marca..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esta es la solución para un gran problema que todos tenemos..."
+       },
+       {
+        "position": "end",
+        "signpost": "Y no olviden el nuevo slogan..."
+       },
+       {
+        "position": "end",
+        "signpost": "Aquí hay otra cosa por la que me vendería..."
+       },
+       {
+        "position": "end",
+        "signpost": "En vez de dinero, con esto me pagaron para dar esta charla..."
+       },
+       {
+        "position": "end",
+        "signpost": "Antes de irme, debo darles esta advertencia por razones legales..."
+       }
+      ],
+      "title": "Toda mi charla es un anuncio pagado para <BLANK>",
+      "x": false
+     },
+     {
+      "id": "74987",
+      "safetyAnswers": [
+       "el payaso Risitas",
+       "un triste nerd",
+       "un hombre que amaba los malos juegos de palabras"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "A ustedes, les han legado esta gran posesión..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Hay algunos términos y condiciones antes de que puedan recibir su herencia..."
+       },
+       {
+        "position": "middle",
+        "signpost": "El siguiente punto es muy extraño, pero completamente legal..."
+       },
+       {
+        "position": "end",
+        "signpost": "¡Sorpresa! Nadie ha muerto, solo lo actuó para enterarse de una cosa..."
+       },
+       {
+        "position": "end",
+        "signpost": "Y ahora, les presento la valiosa gema de la herencia..."
+       },
+       {
+        "position": "end",
+        "signpost": "Su fortuna fue dejada a alguien inesperado..."
+       },
+       {
+        "position": "end",
+        "signpost": "El difunto quería que les diera este último mensaje a todos ustedes..."
+       },
+       {
+        "position": "middle",
+        "signpost": "El difunto donará el siguiente objeto a la caridad..."
+       }
+      ],
+      "title": "Procederé a leerles el testamento de <BLANK>",
+      "x": true
+     },
+     {
+      "id": "75046",
+      "safetyAnswers": [
+       "este Blockbuster abandonado",
+       "este viejo granero",
+       "una casa... una casa embrujada"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Necesita muchos arreglos, pero mira esta atractiva característica..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Este es un servicio impresionante ..."
+       },
+       {
+        "position": "middle",
+        "signpost": "¡La ubicación es genial! Estarás a tan solo pasos de esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esta propiedad tiene una historia bastante interesante..."
+       },
+       {
+        "position": "end",
+        "signpost": "La propiedad ya esta amueblada con uno de estos..."
+       },
+       {
+        "position": "end",
+        "signpost": "Antes de que firmes, hay una cosa que deberías saber..."
+       },
+       {
+        "position": "end",
+        "signpost": "No te preocupes por esto, no estará aquí cuando te mudes..."
+       },
+       {
+        "position": "end",
+        "signpost": "Seguramente te estás preguntando qué le paso al antiguo dueño..."
+       }
+      ],
+      "title": "Hola, soy tu agente de bienes raíces y estoy aquí para darte un tour por <BLANK>",
+      "x": false
+     },
+     {
+      "id": "75062",
+      "safetyAnswers": [
+       "perros grandes",
+       "remeras novedosas",
+       "Memes"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Esta es una de las piezas más valiosas de nuestra colección..."
+       },
+       {
+        "position": "middle",
+        "signpost": "La siguiente pieza es increíblemente valiosa, y es obvio porque..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Mira pero no toques, porque esto es sumamente peligrosa..."
+       },
+       {
+        "position": "end",
+        "signpost": "Échale un vistazo la tienda de regalos, donde puedes comprar este fabuloso souvenir..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Disfrutaron su visita? Háganse miembros y consigan esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Esta pieza causó una gran controversia cuando fue revelada..."
+       },
+       {
+        "position": "end",
+        "signpost": "Ahora estamos pasando por el café del museo, donde puedes disfrutar de esto..."
+       }
+      ],
+      "title": "Soy tu audioguía del museo. Comencemos esta entusiasmante exhibición sobre <BLANK>",
+      "x": false
+     },
+     {
+      "id": "75134",
+      "safetyAnswers": [
+       "crío 20 perritos",
+       "soy el rey de Francia",
+       "meto a la Tierra en una guerra intergaláctica"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Todo empezó como cualquier otro día..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Luego, mi excéntrico vecino de al lado hizo un desastre con esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Intenté un plan disparatado que solo empeoró las cosas..."
+       },
+       {
+        "position": "end",
+        "signpost": "Y finalmente, aprendí una importante lección de vida..."
+       },
+       {
+        "position": "end",
+        "signpost": "El episodio terminó con un increíble suspenso..."
+       },
+       {
+        "position": "end",
+        "signpost": "Justo cuando todo parecía perdido, algo inesperado llegó a salvar el día..."
+       },
+       {
+        "position": "end",
+        "signpost": "Pero resulta que la respuesta estuvo en mi bolsillo todo este tiempo..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Tengo un trabajo muy loco. Aquí es donde trabajo..."
+       }
+      ],
+      "title": "Soy un personaje de una telecomedia, y te explicaré cómo llegué a la loca situación donde <BLANK>",
+      "x": false
+     },
+     {
+      "id": "75348",
+      "safetyAnswers": [
+       "robar todos tus dispositivos electrónicos",
+       "exigir carne cruda en lugar de leche y galletas",
+       "celebrar el día de los impuestos en lugar de navidad"
+      ],
+      "signposts": [
+       {
+        "position": "middle",
+        "signpost": "Mis elfos se están esforzando mucho para construir esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "En vez de un trineo, voy a usar esto para viajar..."
+       },
+       {
+        "position": "end",
+        "signpost": "¿Fue todo un sueño? Cuando despiertes, esto estará junto a tu cama para que sepas que fue real..."
+       },
+       {
+        "position": "end",
+        "signpost": "La magia de la navidad solo puede ocurrir si crees en esto..."
+       },
+       {
+        "position": "middle",
+        "signpost": "Imagina despertar y encontrar un calcetín lleno de ESTO..."
+       },
+       {
+        "position": "end",
+        "signpost": "Solo hay una manera de estar en mi 'Lista de los buenos' este año..."
+       },
+       {
+        "position": "middle",
+        "signpost": "En vez de buenos o malos, voy a juzgar a los niños en base a esto..."
+       },
+       {
+        "position": "end",
+        "signpost": "Así que tengan cuidado, porque llegaré a la casa con esto..."
+       }
+      ],
+      "title": "Jou, jou, jou, soy Santa Claus, y este año haré las cosas diferentes al <BLANK>",
+      "x": false
+     }
+    ]
+   }

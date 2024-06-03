@@ -935,7 +935,7 @@
    "safetyQuips": [
     "¡Yaba daba du!",
     "Ojalá me hubiera metido en más peleas de internet",
-    "Espero que mi dios sea guapo"
+    "Espero que mi Dios sea guapo"
    ],
    "us": false,
    "x": false
@@ -1063,7 +1063,7 @@
   {
    "id": "526",
    "includesPlayerName": false,
-   "prompt": "¿Qué solía tener alas antes de que dios le quitara su poder de vuelo?",
+   "prompt": "¿Qué solía tener alas antes de que Dios le quitara su poder de vuelo?",
    "safetyQuips": [
     "guitarras eléctricas",
     "salsa picante",
@@ -1330,7 +1330,7 @@
    "prompt": "Un recordatorio que aparece en el teléfono del diablo: “¡Recuerda <BLANK> hoy!”",
    "safetyQuips": [
     "sonreír",
-    "conseguir un regalo de cumpleaños al hijo de dios",
+    "conseguir un regalo de cumpleaños al hijo de Dios",
     "comprar huevos, leche, azufre"
    ],
    "us": false,
@@ -1909,7 +1909,7 @@
   {
    "id": "68329",
    "includesPlayerName": false,
-   "prompt": "¿Quién es el suplente de dios?",
+   "prompt": "¿Quién es el suplente de Dios?",
    "safetyQuips": [
     "Morgan Freeman",
     "una joven estrella con grandes sueños"

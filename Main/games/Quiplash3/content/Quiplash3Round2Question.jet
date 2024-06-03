@@ -233,7 +233,7 @@
    "safetyQuips": [
     "Joey hace otros amigos",
     "la pandilla es acusada",
-    "Rross conoce a dios"
+    "Ross conoce a Dios"
    ],
    "us": false,
    "x": false
@@ -1315,7 +1315,7 @@
   {
    "id": "520",
    "includesPlayerName": false,
-   "prompt": "Breve reseña de dios sobre la humanidad",
+   "prompt": "Breve reseña de Dios sobre la humanidad",
    "safetyQuips": [
     "Demasiado ruidosos",
     "amo a estos tipos, jeje",
@@ -2782,7 +2782,7 @@
   {
    "id": "68498",
    "includesPlayerName": false,
-   "prompt": "Lo que dios estaba pensando cuando diseñó el trasero",
+   "prompt": "Lo que Dios estaba pensando cuando diseñó el trasero",
    "safetyQuips": [
     "Quiero que sea atractivo pero también apestoso",
     "¿Cuántos pelos debería ponerle?",
@@ -4735,7 +4735,7 @@
   {
    "id": "70150",
    "includesPlayerName": false,
-   "prompt": "¿A quién adorarías mientras tu líder hablaba con dios en algún lugar de las montañas?",
+   "prompt": "¿A quién adorarías mientras tu líder hablaba con Dios en algún lugar de las montañas?",
    "safetyQuips": [
     "¡El becerro de oro siempre, hermano!",
     "Zeus con una pizca de Pan para darle estilo",

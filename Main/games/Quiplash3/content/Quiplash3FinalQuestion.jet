@@ -414,7 +414,7 @@
    "prompt": "Así que “leíste toda la biblia”, ¿eh? Entonces nombra TRES personajes.",
    "safetyQuips": [
     "Jesús|el amigo de Jesús|la mamá de Jesús",
-    "Técnicamente|dios|es tres tipos",
+    "Técnicamente|Dios|es tres tipos",
     "Doc|Biff|Marty"
    ],
    "us": false,
@@ -1638,7 +1638,7 @@
    "prompt": "Las tres cosas que ves justo antes de morir",
    "safetyQuips": [
     "alguien señalando|un ave gigante|bebés de ave hambrientas",
-    "un ángel|Elvis|tu dios y está loco",
+    "un ángel|Elvis|tu Dios y está loco",
     "tu infancia|tu adultez|la gente que decepcionaste"
    ],
    "us": false,

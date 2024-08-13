@@ -8,6 +8,7 @@
         "ROOM_DESTROYED": "Se ha producido un error y tu sala se ha desintegrado.<br />Comprueba que tu conexión a Internet funciona correctamente.",
         "SOCKET_DISCONNECTED": "Hemos perdido la conexión con los servidores de Jackbox Games.",
         "TIMEOUT": "Parece que no podemos conectarte a los servidores de Jackbox Games.<br />Comprueba que tu conexión a Internet funciona correctamente.",
+        "TIMEOUT_INTERNET": "Parece que no podemos conectarte a los servidores.<br />Comprueba que tu conexión a Internet funciona correctamente.",
         "USER_DISCONNECT": "Te has desconectado del servidor. Vuelve a intentarlo.",
         "LOST_LICENSE": "No hemos encontrado la licencia para este contenido.",
         "STEAM_ERROR": "No hemos podido validar tu licencia de Steam.",
@@ -62,6 +63,23 @@
         "LOBBY_OR": "O",
         "NEW_PLAYERS": "NUEVOS JUGADORES",
     
+        "INTRO_PROMPT_SKIP": "Pulsa esto para omitir la introducción",
+        "INTRO_SKIPPED": "¡Gracias!",
+
+        "SCOREBOARD_PROMPT_RETRY": "¿Quieres reintentar?",
+        "SCOREBOARD_RETRY_TEXT": "REINTENTAR",
+        "SCOREBOARD_GIVEUP_TEXT": "RENDIRSE",
+        "SCOREBOARD_RETRY": "Reintentar",
+        "SCOREBOARD_DONE": "¡Gracias!",
+
+        "TUTORIAL_PROMPT": "¿Quieres ver el tutorial?",
+        "TUTORIAL_SKIP_YES": "Sí",
+        "TUTORIAL_SKIP_NO": "No",
+        "TUTORIAL_DONE": "¡Gracias!",
+
+        "CHARACTER_SELECT_PROMPT_CYCLE": "Pulsa este botón para ver los avatares de tu rol",
+        "CHARACTER_SELECT_CHANGE": "CAMBIAR",
+
         "VOLUME": "Volumen maestro",
         "VOLUME_DESCRIPTION": "Ajusta el volumen maestro.",
         "VOLUME_HOST": "Volumen del anfitrión",

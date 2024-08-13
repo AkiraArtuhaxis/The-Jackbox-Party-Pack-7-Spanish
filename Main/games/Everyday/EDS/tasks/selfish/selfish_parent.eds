@@ -621,7 +621,7 @@ CLONE DEED "PhoneBase" "OrderWindChime1"
 END
 
 DEF TASK "OrderWindChime"
-    SET NAME "Pide un novedoso carillón de viento"
+    SET NAME "Pedir un novedoso carillón de viento"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -739,7 +739,7 @@ CLONE DEED "Nothing2" "AloneInYard4"
 END
 
 DEF TASK "AloneInYard"
-    SET NAME "Sal al patio para estar solo un minuto"
+    SET NAME "Salir al patio para estar solo un minuto"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
@@ -857,7 +857,7 @@ CLONE DEED "Nothing3" "LongBath4"
 END
 
 DEF TASK "LongBath"
-    SET NAME "Toma un laaaaaaargo baño"
+    SET NAME "Tomar un laaaaaaargo baño"
     SET CAPTAIN "ADULTS"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"

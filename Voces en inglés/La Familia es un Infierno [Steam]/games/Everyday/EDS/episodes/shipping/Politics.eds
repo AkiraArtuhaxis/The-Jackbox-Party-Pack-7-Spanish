@@ -1,0 +1,405 @@
+DEF EPISODE "Politics"
+    SET CHOOSABLE TRUE
+    SET EMERGENCY "EmergencyTasks"
+    SET NAME "Un camino rocoso hacia la libertad"
+    SET DESCRIPTION "En una demostración equivocada de salud pública, la ciudad ha declarado que todos <font color='#AF0000'>los helados son ilegales</font>. Esta farsa de la justicia atrae a la familia a la política local, justo a tiempo para las próximas <font color='#AF0000'>elecciones del Concejo Municipal</font>."
+    SET SUCCESS_MESSAGE "Súper Martes de elecciones dice 'Sí' a los helados. Una vez más, el helado es legal y su nuevo poder político entre los seres humanos es la cereza del postre."
+    SET FAILURE_MESSAGE "Debido a su lamentable falta de 'elegibilidad', el helado sigue siendo ilegal en esta deprimente ciudad. Su familia se ahoga en el amargo sabor de la derrota y el yogur congelado."
+
+
+    REM : ------------------------------
+
+    REM : SCORE TARGETS
+    INCLUDE "../templates/default/score_target.eds"
+    
+    REM : TASK SCHEDULE
+    INCLUDE "../templates/default/schedule.eds"
+    
+    REM : MEALS
+    INCLUDE "../templates/default/meals.eds"
+
+    REM : ------------------------------
+     
+    REM : ROUND 1 STORY TASKS
+    SCHEDULE TASK "Declare" <1 9:00>
+    SCHEDULE TASK "TextCampaign" <1 11:00>
+    SCHEDULE TASK "PowerOutfit" <1 13:00>
+    SCHEDULE TASK "IceCreamProtest" <1 15:00>
+    
+    REM : ROUND 2 STORY TASKS
+    SCHEDULE TASK "GatherIceCream" <2 8:00>
+    SCHEDULE TASK "Petition" <2 11:00>
+    SCHEDULE TASK "MakeSigns" <2 14:00>
+    
+    REM : ROUND 3 STORY TASKS
+    SCHEDULE TASK "SellIceCream" <3 8:00>
+    SCHEDULE TASK "SneakSigns" <3 10:00>
+    SCHEDULE TASK "SneakStash" <3 13:00>
+    SCHEDULE TASK "BigSpeech" <3 15:00>
+    SCHEDULE TASK "DecorateCampaign" <3 18:00>
+
+END
+
+
+REM : ------------------------------
+
+REM : Define this episode's story tasks below
+REM : Call to declare candidacy
+CLONE DEED "PhoneID" "Declare1"
+    SET INSTRUCTIONS "Llama al ayuntamiento"
+    SET CONTENT_ID "CITYHALL"
+END
+
+CLONE DEED "Tap1" "Declare2"
+    SET INSTRUCTIONS "Presiona 1 para postularte para el Concejo Municipal"
+END
+
+CLONE DEED "SwipeRight" "Declare3"
+    SET INSTRUCTIONS "Limpia el sudor de tu frente"
+END
+
+DEF TASK "Declare"
+    SET NAME "Llamar para declararte a la candidatura al Concejo Municipal"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "Declare1"
+    STEP "2" "Declare2"
+    STEP "3" "Declare3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Come up with "cool" campaign hashtag
+CLONE DEED "TextBase" "TextCampaign"
+    SET CATEGORY "CAMPAIGN"
+END
+
+DEF TASK "TextCampaign"
+    SET DURATION <8H>
+    SET NAME "Crear un hashtag de campaña 'genial'"
+    SET ASKER_NAME "Pedir ayuda para crear un hashtag GENIAL de la campaña"
+    SET HELPER_NAME "Ayudar a <ASKER> para crear un hashtag de campaña 'genial'"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET CAPTAIN "TEENS"
+    SET PARTICIPANT "ADULTS"
+    
+    STEP "1" "TextCampaign"
+    
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Dress in power outfit
+CLONE DEED "SwipeLeft" "PowerOutfit1"
+    SET INSTRUCTIONS "Rebusca en el armario"
+END
+
+CLONE DEED "Tap1" "PowerOutfit2"
+    SET INSTRUCTIONS "Selecciona el color MÁS ATREVIDO"
+END
+
+CLONE DEED "Rotate360" "PowerOutfit3"
+    SET INSTRUCTIONS "Agrégale una corbata INTELIGENTE"
+END
+
+CLONE DEED "SwipeUp" "PowerOutfit4"
+    SET INSTRUCTIONS "Termina con una gorra PICANTE"
+END
+
+DEF TASK "PowerOutfit"
+    SET NAME "Vestir con poder"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "PowerOutfit1"
+    STEP "2" "PowerOutfit2"
+    STEP "3" "PowerOutfit3"
+    STEP "4" "PowerOutfit4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : Stage ice cream protest at school
+CLONE DEED "Nothing3" "IceCreamProtest1"
+    SET INSTRUCTIONS "Empieza a cantar '¡Sin helado, no hay libertad!'"
+END
+
+CLONE DEED "Nothing5" "IceCreamProtest2"
+    SET INSTRUCTIONS "Hazlo. Canta de verdad. ¡Ahora mismo!"
+END
+
+CLONE DEED "Nothing3" "IceCreamProtest3"
+    SET INSTRUCTIONS "¡Haz que todos hablen!"
+END
+
+DEF TASK "IceCreamProtest"
+    SET NAME "Escenario de protesta a favor del helado en la escuela"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "IceCreamProtest1"
+    STEP "2" "IceCreamProtest2"
+    STEP "3" "IceCreamProtest3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : ---------------------------------------------------------------
+
+REM : Gather ingreditents for contraband ice cream
+CLONE DEED "GatherID" "GatherIceCream"
+    SET INSTRUCTIONS "Reúne los ingredientes del helado"
+    SET CONTENT_ID "ICE_CREAM"
+END
+
+DEF TASK "GatherIceCream"
+    SET NAME "Reunir los ingredientes para hacer helado de contrabando."
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "GatherIceCream"
+
+    NEXT "1" SUCCESS FAILURE
+    
+    CONSEQUENCE SUCCESS "ChurnIceCream"
+END
+
+REM : Churn contraband ice cream
+CLONE DEED "Rotate720" "ChurnIceCream"
+    SET INSTRUCTIONS "¡Bate!"
+END
+
+DEF TASK "ChurnIceCream"
+    SET NAME "Batir el helado de contrabando"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "ChurnIceCream"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Ask neighbors to sign proce-ice-cream petition
+CLONE DEED "DialogID" "Petition"
+    SET INSTRUCTIONS "Pide al vecino que firme la petición"
+    SET CONTENT_ID "POLITICS_PETITION"
+END
+
+DEF TASK "Petition"
+    SET NAME "Pedir al vecino que firme una petición a favor del helado"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "Petition"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Make campaign signs
+CLONE DEED "ScrubShort" "MakeSigns1"
+    SET INSTRUCTIONS "Dibuja a tus amados padres"
+END
+
+CLONE DEED "ScrubShort" "MakeSigns2"
+    SET INSTRUCTIONS "Se verían aún mejor con un dulce bigote"
+END
+
+CLONE DEED "ScrubShort" "MakeSigns3"
+    SET INSTRUCTIONS "¡Y una dulce espada!"
+END
+
+CLONE DEED "Nothing2" "MakeSigns4"
+    SET INSTRUCTIONS "¡Eso le conseguirá algunos votos!"
+END
+
+DEF TASK "MakeSigns"
+    SET NAME "Hacer carteles de campaña"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "MakeSigns1"
+    STEP "2" "MakeSigns2"
+    STEP "3" "MakeSigns3"
+    STEP "4" "MakeSigns4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END
+
+REM : ---------------------------------------
+
+REM : Sell illegal ice cream in study hall
+CLONE DEED "DialogID" "SellIceCream"
+    SET INSTRUCTIONS "Vende helado ilegal"
+    SET CONTENT_ID "POLITICS_ICECREAM"
+END
+
+DEF TASK "SellIceCream"
+    SET NAME "Vender helado ilegal en la sala de estudio"
+    SET CAPTAIN "TEENS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SellIceCream"
+
+    NEXT "1" SUCCESS FAILURE
+END
+
+REM : Sneak campaign sign onto neighbor's yard
+CLONE DEED "QuickTap4" "SneakSigns1"
+    SET INSTRUCTIONS "Camina de puntillas en el patio"
+END
+
+CLONE DEED "SwipeDown" "SneakSigns2"
+    SET INSTRUCTIONS "Empuja el letrero en el pasto perfecto"
+END
+
+CLONE DEED "ScrubMedium" "SneakSigns3"
+    SET INSTRUCTIONS "Realmente trabájalo allí"
+END
+
+DEF TASK "SneakSigns"
+    SET NAME "Coloca el letrero de campaña en el patio del vecino"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SneakSigns1"
+    STEP "2" "SneakSigns2"
+    STEP "3" "SneakSigns3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Sneak into teen's ice cream stash
+CLONE DEED "Tap3" "SneakStash1"
+    SET INSTRUCTIONS "El ejército se arrastra al dormitorio"
+END
+
+CLONE DEED "SwipeUp" "SneakStash2"
+    SET INSTRUCTIONS "Levanta la tabla del suelo"
+END
+
+CLONE DEED "SwipeUp" "SneakStash3"
+    SET INSTRUCTIONS "Saca el helado secreto"
+END
+
+CLONE DEED "Hold5" "SneakStash4"
+    SET INSTRUCTIONS "¡Es demasiado fuerte! ¡Cerebro congelado!"
+END
+
+CLONE DEED "Nothing3" "SneakStash5"
+    SET INSTRUCTIONS "Actúa con frialdad... pero no demasiado"
+END
+
+DEF TASK "SneakStash"
+    SET NAME "Colarse en la reserva de helados del joven"
+    SET CAPTAIN "CHILDREN"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "SneakStash1"
+    STEP "2" "SneakStash2"
+    STEP "3" "SneakStash3"
+    STEP "4" "SneakStash4"
+    STEP "5" "SneakStash5"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" "5" FAILURE
+    NEXT "5" SUCCESS FAILURE
+END
+
+REM : Make big campaign speech
+CLONE DEED "Nothing3" "BigSpeech1"
+    SET INSTRUCTIONS "Cuéntanos por qué te encanta el helado"
+END
+
+CLONE DEED "Nothing10" "BigSpeech2"
+    SET INSTRUCTIONS "En realidad, elogia el helado. En la habitación. ¡Ahora mismo!"
+END
+
+CLONE DEED "Nothing3" "BigSpeech3"
+    SET INSTRUCTIONS "Espera un aplauso"
+END
+
+DEF TASK "BigSpeech"
+    SET NAME "Hacer un gran discurso de campaña"
+    SET CAPTAIN "ADULTS"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "BigSpeech1"
+    STEP "2" "BigSpeech2"
+    STEP "3" "BigSpeech3"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" SUCCESS FAILURE
+END
+
+REM : Decorate for campaign victory party
+CLONE DEED "SwipeUp" "DecorateCampaign1"
+    SET INSTRUCTIONS "Cuelga pancartas"
+END
+
+CLONE DEED "Hold5" "DecorateCampaign2"
+    SET INSTRUCTIONS "Infla globos"
+END
+
+CLONE DEED "ScrubShort" "DecorateCampaign3"
+    SET INSTRUCTIONS "Dibuja '¡Felicidades!' en la pared"
+END
+
+CLONE DEED "ScrubMedium" "DecorateCampaign4"
+    SET INSTRUCTIONS "Esa fue una mala idea. Lava la pared."
+END
+
+DEF TASK "DecorateCampaign"
+    SET NAME "Decorar para la fiesta de la victoria de la campaña"
+    SET CAPTAIN "EVERYONE"
+    SET CATEGORY "STORY"
+    SET THEME "STORY"
+    SET DURATION <8H>
+
+    STEP "1" "DecorateCampaign1"
+    STEP "2" "DecorateCampaign2"
+    STEP "3" "DecorateCampaign3"
+    STEP "4" "DecorateCampaign4"
+
+    NEXT "1" "2" FAILURE
+    NEXT "2" "3" FAILURE
+    NEXT "3" "4" FAILURE
+    NEXT "4" SUCCESS FAILURE
+END

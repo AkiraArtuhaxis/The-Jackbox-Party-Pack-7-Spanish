@@ -8,6 +8,7 @@
             "ROOM_DESTROYED": "Se ha producido un error y tu sala se ha desintegrado.<br />Comprueba que tu conexión a Internet funciona correctamente.",
             "SOCKET_DISCONNECTED": "Hemos perdido la conexión con los servidores de Jackbox Games.",
             "TIMEOUT": "Parece que no podemos conectarte a los servidores de Jackbox Games.<br />Comprueba que tu conexión a Internet funciona correctamente.",
+            "TIMEOUT_INTERNET": "Parece que no podemos conectarte a los servidores.<br />Comprueba que tu conexión a Internet funciona correctamente.",
             "USER_DISCONNECT": "Te has desconectado del servidor. Vuelve a intentarlo.",
             "LOST_LICENSE": "No hemos encontrado la licencia para este contenido.",
             "STEAM_ERROR": "No hemos podido validar tu licencia de Steam.",
@@ -113,6 +114,8 @@
             "CONTROLLER_MAKE_SENTENCE_PROMPT": "Describe: %s",
             "CONTROLLER_GUESS_PROMPT": "¿Qué %s está describiendo %s?",
             "CONTROLLER_GUESS_PLACEHOLDER": "Adivina aquí",
+            "CONTROLLER_GUESS_DONE": "¡Todo listo!",
+            "CONTROLLER_GUESS_INVALID": "¡Entrada inválida!",
             "CONTROLLER_CANT_ENTER_NOTHING": "¡No puedes ingresar nada!",
             "CONTROLLER_FILTER_REJECTED_TEXT": "Suposición no válida",
             "SKIP_TUTORIALS": "Omitir Tutoriales",
@@ -149,7 +152,9 @@
             "TD_CATEGORY_SUCCESS_SCREEN_GUESSERS_USED_SENTENCES": "%s jugadores obtienen %s puntos por usar sus palabras en una oración.",
             "TD_CATEGORY_FAILURE_SCREEN": "La contraseña (%s) no fue adivinada.",
             "TD_CATEGORY_MY_BAD": "%s jugadores dijeron \"¡Mi error!\"",
-            "TD_CATEGORY_SCOREBOARD": "%s tiene %s puntos"
+            "TD_CATEGORY_SCOREBOARD": "%s tiene %s puntos",
+
+            "WINNER_CALLOUT_TITLE": "¡Es quien ganó!"
         },
         "fr": {},
         "it": {},

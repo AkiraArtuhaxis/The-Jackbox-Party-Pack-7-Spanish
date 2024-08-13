@@ -111,7 +111,7 @@ CLONE DEED "SwipeDown" "Works"
 END
 
 DEF TASK "FixWifi"
-    SET NAME "Repara el WiFi"
+    SET NAME "Reparar el WiFi"
     SET THEME "TALKING"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "HIGH"
@@ -299,7 +299,7 @@ CLONE DEED "PhoneBase" "OrderCake1"
 END
 
 CLONE DEED "Tap1" "OrderCake2"
-    SET INSTRUCTIONS "Pide una torta sin mensaje"
+    SET INSTRUCTIONS "Pide un pastel sin mensaje"
 END
 
 CLONE DEED "Tap1" "OrderCake3"
@@ -311,7 +311,7 @@ CLONE DEED "Nothing4" "OrderCake4"
 END
 
 DEF TASK "OrderCake"
-    SET NAME "Pedir una torta"
+    SET NAME "Pedir un pastel"
     SET CAPTAIN "MATURE"
     SET CATEGORY "HIGH"
     SET THEME "TALKING"

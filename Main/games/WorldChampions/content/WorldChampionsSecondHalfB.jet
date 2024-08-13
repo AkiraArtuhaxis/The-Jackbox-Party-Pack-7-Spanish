@@ -1386,8 +1386,8 @@
    "x": false
   },
   {
-   "contest": "El campeón de hacer el proyecto de grupo por sí mismo",
-   "gameText": "hacer el proyecto de grupo por sí mismo",
+   "contest": "El campeón de hacer el proyecto de grupo solo",
+   "gameText": "hacer el proyecto de grupo solo",
    "id": "74672",
    "includesPlayerName": false,
    "linkedPrompts": [],

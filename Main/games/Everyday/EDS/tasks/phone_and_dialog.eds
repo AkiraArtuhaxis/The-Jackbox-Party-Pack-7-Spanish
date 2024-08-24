@@ -349,7 +349,7 @@ CLONE DEED "Nothing3" "CableBundle4"
 END
 
 CLONE DEED "Tap1" "CableBundle5"
-    SET INSTRUCTIONS "Elije el paquete premium"
+    SET INSTRUCTIONS "Elige el paquete premium"
 END
 
 DEF TASK "CableBundle"

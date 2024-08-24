@@ -179,7 +179,7 @@ DEF TASK "BrushYourTeeth"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
     SET THEME "BATHROOM"
-    SET NAME "Cepilla tus dientes"
+    SET NAME "Cepillar tus dientes"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "LOW"
 

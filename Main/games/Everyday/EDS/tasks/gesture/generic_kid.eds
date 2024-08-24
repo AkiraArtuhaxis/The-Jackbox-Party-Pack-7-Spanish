@@ -748,7 +748,7 @@ CLONE DEED "Hold3" "SwingSet4"
 END
 
 DEF TASK "SwingSet"
-    SET NAME "Balancéate en el columpio"
+    SET NAME "Balancearte en el columpio"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "LOW"
     SET THEME "PLAYING"

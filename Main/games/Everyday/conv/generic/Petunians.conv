@@ -1,6 +1,6 @@
 MAIN(Vecino): ¡Hola, vecino!
 -INSULT-> Hola, ¡odio tus petunias!
--BEAUTIFUL-> Si me lo permite, debo decir que tus petunias son hermosas.
+-BEAUTIFUL-> Si me lo permite, debo decir que sus petunias son hermosas.
 -INSULT-> ¡Tus petunias me ponen furioso!
 
 INSULT(Vecino): ¿Qué tienen de malo?

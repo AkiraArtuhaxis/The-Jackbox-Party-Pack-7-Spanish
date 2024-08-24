@@ -2158,7 +2158,7 @@ DEF TASK "TravelEnnui"
     SET DURATION <5H>
     REM : TEAM TIMEOUT
     SET NAME "Aliviar tu fastidio con entretenimiento frívolo"
-    SET ASKER_NAME "Alivia tu fastidio consiguiendo un viaje a un entretenimiento frívolo"
+    SET ASKER_NAME "Aliviar tu fastidio consiguiendo un viaje a un entretenimiento frívolo"
     SET HELPER_NAME "Llevar a <ASKER> al entretenimiento frívolo para aliviar el fastidio"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"

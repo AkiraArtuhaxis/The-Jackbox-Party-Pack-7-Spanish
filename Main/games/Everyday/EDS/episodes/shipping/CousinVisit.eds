@@ -2,7 +2,7 @@ DEF EPISODE "CousinVisit"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
     SET NAME "Porque sí"
-    SET DESCRIPTION "El <font color='#AF0000'>primo Rompo</font> nos escribió y dijo que quiere visitarlos. ¡Hasta se ofreció a ayudar con los deberes diarios! Estoy seguro de que los rumores de que es un alborotador precoz son completamente infundados."
+    SET DESCRIPTION "El <font color='#AF0000'>primo Rompo</font> nos escribió y dijo que quiere visitarlos. ¡Hasta se ofreció a ayudar con los deberes diarios! Estoy seguro que los rumores de que es un alborotador precoz son completamente infundados."
     SET SUCCESS_MESSAGE "¡Rompo la pasó genial! Nos dijo que su casa es un gran lugar para visitar monstruos y demonios. Así que preparen su sala de huéspedes, porque tenemos una serie de espíritus engañosos que necesitan un lugar para dormir. Literalmente."
     SET FAILURE_MESSAGE "El primo Rompo era un poco difícil de manejar, y tememos decirles que lo dejaron abandonado. La próxima vez que un críptico visitante llegue a la ciudad, les sugerimos que pasen más tiempo respondiendo a sus hábitos singulares y menos tiempo tomándole fotos borrosas para el álbum."
 

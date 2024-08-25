@@ -7,15 +7,15 @@ RENAME "Picker" "PartyPack"
 CD ..
 CD ..
 xcopy "ArchivosEGSySwitch" "Main" /s /y
-:: Hacer versión EGS y Switch en CursedPointsES-CapyV1-ES-EGS-MS-SWITCH.zip
+:: Hacer versión EGS y Switch en CursedPointsES-CapyV2-ES-EGS-MS-SWITCH.zip
 CD "Main"
 DEL "jbg.config.jet"
-"%ProgramFiles%\WinRAR\WinRAR.exe" a -afzip -ibck -r -y "../../../../Zips/CursedPointsES-CapyV1-ES-EGS-MS-SWITCH.zip" "."
+"%ProgramFiles%\WinRAR\WinRAR.exe" a -afzip -ibck -r -y "../../../../Zips/CursedPointsES-CapyV2-ES-EGS-MS-SWITCH.zip" "."
 :: Copiar y pegar "ArchivosMacEGS"
 CD ..
 xcopy "ArchivosMacEGS" "Main" /s /y
 CD "Main"
-"%ProgramFiles%\WinRAR\WinRAR.exe" a -afzip -ibck -r -y "../../../../Zips/CursedPointsES-CapyV1-ES-MAC-EGS.zip" "."
+"%ProgramFiles%\WinRAR\WinRAR.exe" a -afzip -ibck -r -y "../../../../Zips/CursedPointsES-CapyV2-ES-MAC-EGS.zip" "."
 :: Eliminar archivos Mac EGS
 DEL "PauseContent.swf" /s
 DEL ".\games\JackboxTalks\swf\talks_tutorial.swf" /s
@@ -26,7 +26,7 @@ RENAME "PartyPack" "Picker"
 CD ..
 CD ..
 xcopy "ArchivosSteam" "Main" /s /y
-:: Hacer versión Steam en CursedPointsES-CapyV1-ES.zip
+:: Hacer versión Steam en CursedPointsES-CapyV2-ES.zip
 CD "Main"
 DEL "config.jet"
-"%ProgramFiles%\WinRAR\WinRAR.exe" a -afzip -ibck -r -y "../../../../Zips/CursedPointsES-CapyV1-ES.zip" "."
+"%ProgramFiles%\WinRAR\WinRAR.exe" a -afzip -ibck -r -y "../../../../Zips/CursedPointsES-CapyV2-ES.zip" "."

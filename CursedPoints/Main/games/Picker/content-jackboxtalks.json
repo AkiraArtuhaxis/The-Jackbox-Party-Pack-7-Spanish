@@ -1,0 +1,96 @@
+{
+  "content": [
+    {
+      "name": "Quiplash3",
+      "mainSwf": "Quiplash3.swf",
+      "players": "3-8",
+      "family": true,
+      "audience": true,
+      "familyOptional": true,
+      "description":"INFO_DESCRIPTION_GAME_1",
+      "menu":"MENU_GAME_NAME_1",
+      "video":"videos/pickerquiplash3",
+      "videoVolume": 0.75,
+      "enabled": false
+    },
+    {
+      "name": "Everyday",
+      "mainSwf": "Everyday.swf",
+      "players": "3-8",
+      "family": true,
+      "audience": true,
+      "familyOptional": true,
+      "description":"INFO_DESCRIPTION_GAME_2",
+      "menu":"MENU_GAME_NAME_2",
+      "video":"videos/pickereveryday",
+      "videoVolume": 0.75,
+      "enabled": false
+    },
+    {
+      "name": "WorldChampions",
+      "mainSwf": "WorldChampions.swf",
+      "players": "3-8",
+      "family": true,
+      "audience": true,
+      "familyOptional": true,
+      "description":"INFO_DESCRIPTION_GAME_3",
+      "menu":"MENU_GAME_NAME_3",
+      "video":"videos/pickerworldchampions",
+      "videoVolume": 0.75,
+      "enabled": false
+    },
+    {
+      "name": "JackboxTalks",
+      "mainSwf": "JackboxTalks.swf",
+      "players": "3-12",
+      "family": false,
+      "audience": true,
+      "familyOptional": false,
+      "description":"INFO_DESCRIPTION_GAME_4",
+      "menu":"MENU_GAME_NAME_4",
+      "video":"videos/pickerjackboxtalks",
+      "videoVolume": 0.75,
+      "enabled": true,
+      "disableScreenshots": true
+    },
+    {
+      "name": "BlankyBlank",
+      "mainSwf": "BlankyBlank.swf",
+      "players": "2-6",
+      "family": true,
+      "audience": false,
+      "familyOptional": true,
+      "description":"INFO_DESCRIPTION_GAME_5",
+      "menu":"MENU_GAME_NAME_5",
+      "video":"videos/pickerblankyblank",
+      "videoVolume": 0.75,
+      "enabled": false
+    },
+    {
+      "name": "Settings",
+      "mainSwf": "",
+      "players": "",
+      "family": false,
+      "audience": false,
+      "familyOptional": false,
+      "description":"",
+      "menu":"MENU_SETTINGS",
+      "videoVolume": 0.75,
+      "video":"",
+      "enabled": true
+    },
+    {
+      "name": "HowTo",
+      "mainSwf": "",
+      "players": "",
+      "family": false,
+      "audience": false,
+      "familyOptional": false,
+      "description":"",
+      "menu":"MENU_HOW_TO",
+      "videoVolume": 0.75,
+      "video":"",
+      "enabled": true
+    }
+  ]
+}

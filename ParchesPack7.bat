@@ -11,8 +11,6 @@ xcopy "ArchivosEGSySwitch" "Main" /s /y
 CD "Main"
 DEL "jbg.config.jet"
 "%ProgramFiles%\WinRAR\WinRAR.exe" a -afzip -ibck -r -y "../../../Zips/JPP7-ES-EGS-MS-SWITCH.zip" "."
-:: Eliminar Picker.swf
-DEL ".\games\PartyPack\Picker.swf" /s
 :: Copiar y pegar "ArchivosMacEGS"
 CD ..
 xcopy "ArchivosMacEGS" "Main" /s /y
